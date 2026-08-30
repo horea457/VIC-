@@ -1,0 +1,6 @@
+VIC Falsification Lab V4.1 deployment fix
+Expected UI checks:
+1) Sidebar contains: 사후분석 완료
+2) Home shows: V4.1 · 사후분석 DB 활성화
+3) 실패 패턴 연구소 contains tab: ✓ 사후검증 완료 패턴
+4) Verified DB counts: 17 postmortems / 51 verified claims
