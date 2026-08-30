@@ -1,0 +1,403 @@
+{
+  "failure_patterns": [
+    {
+      "domain": "수요",
+      "mechanism": "일시적 수요를 구조적 수요로 착각",
+      "definition": "일시적 수요를 장기 추세로 외삽"
+    },
+    {
+      "domain": "수요",
+      "mechanism": "시장규모(TAM) 과대추정",
+      "definition": "실제 지불의사보다 큰 시장규모를 사용"
+    },
+    {
+      "domain": "수요",
+      "mechanism": "침투율 선형 외삽",
+      "definition": "초기 침투율 속도가 지속된다고 가정"
+    },
+    {
+      "domain": "수요",
+      "mechanism": "고객 포화",
+      "definition": "핵심 고객군 포화"
+    },
+    {
+      "domain": "수요",
+      "mechanism": "고객 ROI 악화",
+      "definition": "고객 경제성 악화"
+    },
+    {
+      "domain": "수요",
+      "mechanism": "대체재에 의한 수요 잠식",
+      "definition": "대체 기술·채널의 침투"
+    },
+    {
+      "domain": "공급",
+      "mechanism": "공급 반응 무시",
+      "definition": "높은 수익성이 증설을 유인"
+    },
+    {
+      "domain": "공급",
+      "mechanism": "증설 리드타임 오판",
+      "definition": "공급 증가 시점 오판"
+    },
+    {
+      "domain": "공급",
+      "mechanism": "저원가 공급자 신규 진입",
+      "definition": "산업 원가곡선 이동"
+    },
+    {
+      "domain": "경쟁",
+      "mechanism": "신규 진입",
+      "definition": "진입장벽 과대평가"
+    },
+    {
+      "domain": "경쟁",
+      "mechanism": "기존 강자의 반격",
+      "definition": "기존 강자의 대응 과소평가"
+    },
+    {
+      "domain": "경쟁",
+      "mechanism": "수직통합",
+      "definition": "고객·공급자의 내재화"
+    },
+    {
+      "domain": "경쟁",
+      "mechanism": "탈중개화",
+      "definition": "중간 단계 제거"
+    },
+    {
+      "domain": "경쟁",
+      "mechanism": "멀티호밍",
+      "definition": "여러 플랫폼 동시 사용"
+    },
+    {
+      "domain": "경쟁",
+      "mechanism": "상품화",
+      "definition": "차별화 약화"
+    },
+    {
+      "domain": "경쟁",
+      "mechanism": "가격전쟁",
+      "definition": "가격 경쟁으로 수익성 악화"
+    },
+    {
+      "domain": "경쟁",
+      "mechanism": "기능 복제",
+      "definition": "핵심 기능 복제"
+    },
+    {
+      "domain": "경쟁",
+      "mechanism": "유통 상실",
+      "definition": "핵심 채널 의존성 현실화"
+    },
+    {
+      "domain": "경제적 해자",
+      "mechanism": "전환비용 과대평가",
+      "definition": "실제 전환비용이 낮음"
+    },
+    {
+      "domain": "경제적 해자",
+      "mechanism": "네트워크 효과 과대평가",
+      "definition": "규모가 경쟁우위로 충분히 전환되지 않음"
+    },
+    {
+      "domain": "경제적 해자",
+      "mechanism": "브랜드 가치 과대평가",
+      "definition": "브랜드가 가격결정력으로 연결되지 않음"
+    },
+    {
+      "domain": "경제적 해자",
+      "mechanism": "규모의 경제 과대평가",
+      "definition": "규모 증가의 원가우위 부족"
+    },
+    {
+      "domain": "경제적 해자",
+      "mechanism": "데이터 우위 과대평가",
+      "definition": "데이터의 독점성·효용 부족"
+    },
+    {
+      "domain": "가격",
+      "mechanism": "가격결정력 과대평가",
+      "definition": "가격 인상 시 이탈·물량 감소 과소평가"
+    },
+    {
+      "domain": "가격",
+      "mechanism": "가격-물량 탄력성 오판",
+      "definition": "수요 탄력성 추정 실패"
+    },
+    {
+      "domain": "비용",
+      "mechanism": "영업레버리지 과대평가",
+      "definition": "성장이 마진 개선으로 연결되지 않음"
+    },
+    {
+      "domain": "비용",
+      "mechanism": "변동비를 고정비로 오인",
+      "definition": "매출과 함께 비용도 증가"
+    },
+    {
+      "domain": "비용",
+      "mechanism": "정상마진 과대추정",
+      "definition": "고점 마진을 정상으로 간주"
+    },
+    {
+      "domain": "자본집약도",
+      "mechanism": "유지보수 투자 과소평가",
+      "definition": "유지 CAPEX 과소평가"
+    },
+    {
+      "domain": "자본집약도",
+      "mechanism": "운전자본 부담 과소평가",
+      "definition": "성장에 필요한 현금소요 과소평가"
+    },
+    {
+      "domain": "경영진",
+      "mechanism": "경영진 내러티브 의존",
+      "definition": "외부 데이터보다 경영진 설명을 과도하게 신뢰"
+    },
+    {
+      "domain": "경영진",
+      "mechanism": "인센티브 오판",
+      "definition": "경영진과 주주 이해관계 일치 가정 실패"
+    },
+    {
+      "domain": "자본배분",
+      "mechanism": "고점 M&A",
+      "definition": "고점에 비싼 인수"
+    },
+    {
+      "domain": "자본배분",
+      "mechanism": "저점 자본회수",
+      "definition": "침체기에 좋은 자본배분 기회 상실"
+    },
+    {
+      "domain": "자본배분",
+      "mechanism": "롤업 경제성 붕괴",
+      "definition": "인수 없는 유기적 경제성이 약함"
+    },
+    {
+      "domain": "자본배분",
+      "mechanism": "자사주 매입 가치훼손",
+      "definition": "고평가 구간 자사주 매입"
+    },
+    {
+      "domain": "재무구조",
+      "mechanism": "레버리지 과소평가",
+      "definition": "부채가 변동성을 증폭"
+    },
+    {
+      "domain": "재무구조",
+      "mechanism": "유동성 착시",
+      "definition": "표면상 유동성과 실제 가용 현금 차이"
+    },
+    {
+      "domain": "회계",
+      "mechanism": "조정이익 의존",
+      "definition": "반복 비용을 제외한 조정지표에 의존"
+    },
+    {
+      "domain": "회계",
+      "mechanism": "매출 인식 착시",
+      "definition": "매출과 현금경제성 불일치"
+    },
+    {
+      "domain": "회계",
+      "mechanism": "운전자본 현금흐름 착시",
+      "definition": "일시적 운전자본 유입을 FCF로 오인"
+    },
+    {
+      "domain": "산업구조",
+      "mechanism": "가치사슬 협상력 이동",
+      "definition": "산업 수익풀과 협상력의 이동"
+    },
+    {
+      "domain": "산업구조",
+      "mechanism": "정적인 산업구조 가정",
+      "definition": "현재 산업구조가 유지된다고 가정"
+    },
+    {
+      "domain": "기술",
+      "mechanism": "기술 대체",
+      "definition": "신기술이 기존 경제성 훼손"
+    },
+    {
+      "domain": "기술",
+      "mechanism": "기술 도입 속도 오판",
+      "definition": "도입 속도 과대·과소 추정"
+    },
+    {
+      "domain": "규제",
+      "mechanism": "규제 보호 약화",
+      "definition": "규제 기반 진입장벽 약화"
+    },
+    {
+      "domain": "규제",
+      "mechanism": "규제 승인 실패·지연",
+      "definition": "핵심 승인·정책 실행 실패 또는 지연"
+    },
+    {
+      "domain": "밸류에이션",
+      "mechanism": "멀티플 정상화 오판",
+      "definition": "역사적 멀티플 회귀 가정 실패"
+    },
+    {
+      "domain": "밸류에이션",
+      "mechanism": "성장과 가치 혼동",
+      "definition": "성장률 자체를 가치 근거로 사용"
+    },
+    {
+      "domain": "밸류에이션",
+      "mechanism": "고점 이익 자본화",
+      "definition": "사이클 고점 이익에 정상 멀티플 적용"
+    },
+    {
+      "domain": "타이밍",
+      "mechanism": "논지는 맞지만 너무 이름",
+      "definition": "투자기간 내 실현 실패"
+    },
+    {
+      "domain": "타이밍",
+      "mechanism": "촉매 시점 오판",
+      "definition": "촉매가 예상보다 지연"
+    },
+    {
+      "domain": "이벤트",
+      "mechanism": "이벤트 미발생",
+      "definition": "핵심 이벤트 미발생"
+    },
+    {
+      "domain": "이벤트",
+      "mechanism": "조건 변경",
+      "definition": "이벤트 조건 악화"
+    },
+    {
+      "domain": "이벤트",
+      "mechanism": "규제·소송 변수",
+      "definition": "규제·법원 결과가 기대와 다름"
+    }
+  ],
+  "analytical_errors": [
+    {
+      "error": "선형 외삽",
+      "definition": "최근 성장률·마진·점유율 추세가 계속된다고 가정"
+    },
+    {
+      "error": "기준율 무시",
+      "definition": "유사 사례의 역사적 결과를 충분히 반영하지 않음"
+    },
+    {
+      "error": "생존자 편향",
+      "definition": "성공 사례만 보고 실패 사례 배제"
+    },
+    {
+      "error": "경영진 내러티브 의존",
+      "definition": "외부 데이터보다 경영진 설명을 과신"
+    },
+    {
+      "error": "TAM 오류",
+      "definition": "거대한 시장규모를 실제 수익 잠재력과 동일시"
+    },
+    {
+      "error": "단가와 가치 혼동",
+      "definition": "낮은 멀티플 자체를 저평가 근거로 사용"
+    },
+    {
+      "error": "단위경제성 오독",
+      "definition": "CAC·LTV·churn·contribution margin 오판"
+    },
+    {
+      "error": "영업레버리지 자동 가정",
+      "definition": "성장하면 비용률이 자동 하락한다고 가정"
+    },
+    {
+      "error": "고점 마진 정상화 오류",
+      "definition": "비정상적 고마진을 정상으로 간주"
+    },
+    {
+      "error": "일시적 비용우위를 해자로 오인",
+      "definition": "사이클 비용우위를 구조적 해자로 해석"
+    },
+    {
+      "error": "공급반응 무시",
+      "definition": "고수익이 신규 공급을 유인하는 점 누락"
+    },
+    {
+      "error": "고객 인센티브 무시",
+      "definition": "우회·멀티호밍·대체재 선택 유인 간과"
+    },
+    {
+      "error": "경쟁자 인센티브 무시",
+      "definition": "경쟁자의 가격·투자 대응 유인 간과"
+    },
+    {
+      "error": "정적 산업 분석",
+      "definition": "산업 구조와 가치사슬을 고정된 것으로 가정"
+    },
+    {
+      "error": "주가 결과로 논지를 정당화",
+      "definition": "주가 상승과 원래 논지의 정확성을 동일시"
+    }
+  ],
+  "signals": [
+    {
+      "signal": "시장점유율",
+      "category": "경쟁력",
+      "definition": "점유율 방향·증분 점유율"
+    },
+    {
+      "signal": "고객 유지율·이탈",
+      "category": "수요",
+      "definition": "retention, churn, cohort"
+    },
+    {
+      "signal": "가격·물량",
+      "category": "가격",
+      "definition": "ASP, 가격 인상률, volume elasticity"
+    },
+    {
+      "signal": "단위경제성",
+      "category": "경제성",
+      "definition": "CAC, LTV, contribution margin"
+    },
+    {
+      "signal": "증분마진",
+      "category": "비용",
+      "definition": "incremental margin, 영업레버리지"
+    },
+    {
+      "signal": "산업 공급·CAPEX",
+      "category": "공급",
+      "definition": "capacity, 증설, 수주잔고, CAPEX"
+    },
+    {
+      "signal": "재고",
+      "category": "공급·운전자본",
+      "definition": "inventory days, 채널재고"
+    },
+    {
+      "signal": "경쟁자 행동",
+      "category": "경쟁",
+      "definition": "가격·CAPEX·신제품·수직통합·M&A"
+    },
+    {
+      "signal": "고객 행동",
+      "category": "산업구조",
+      "definition": "멀티호밍, 내재화, 우회, 벤더 다변화"
+    },
+    {
+      "signal": "경영진 행동",
+      "category": "경영진",
+      "definition": "가이던스, M&A, 자사주, 증자"
+    },
+    {
+      "signal": "현금전환",
+      "category": "회계",
+      "definition": "FCF conversion, working capital, capex"
+    },
+    {
+      "signal": "규제·법원",
+      "category": "규제",
+      "definition": "승인, 정책, 소송, 허가"
+    }
+  ]
+}
