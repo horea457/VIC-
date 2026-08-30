@@ -1,38 +1,33 @@
-vic_falsification_lab/
-├── app/
-│   ├── Home.py
-│   ├── components/
-│   │   ├── db.py
-│   │   └── ui.py
-│   └── pages/
-│       ├── 1_아이디어_탐색.py
-│       ├── 2_기업_아이디어_분석.py
-│       ├── 3_실패_패턴_연구소.py
-│       ├── 4_투자논지_라이브러리.py
-│       ├── 5_반증_신호.py
-│       └── 6_데이터_품질.py
-├── config/
-│   ├── auto_narrative_tags_ko.json
-│   └── failure_taxonomy_ko.json
-├── data/
-│   ├── processed/
-│   │   ├── vic_dashboard.db
-│   │   └── ideas_master.csv.gz
-│   └── raw/
-│       └── .gitkeep
-├── docs/
-│   ├── ARCHITECTURE_KO.md
-│   ├── DATASET_ANALYSIS_KO.md
-│   ├── DATA_DICTIONARY_KO.md
-│   ├── GITHUB_UPLOAD_KO.md
-│   └── build_report.json
-├── scripts/
-│   ├── 01_import_vic_sql.py
-│   ├── 02_build_dashboard_db.py
-│   └── 03_validate_db.py
-├── sql/
-│   └── schema.sql
-├── .gitattributes
-├── .gitignore
-├── README.md
-└── requirements.txt
+./.gitattributes
+./.gitignore
+./.streamlit/config.toml
+./README.md
+./TREE.txt
+./app/Home.py
+./app/components/__init__.py
+./app/components/db.py
+./app/components/ui.py
+./app/pages/1_아이디어_탐색.py
+./app/pages/2_기업_아이디어_분석.py
+./app/pages/3_실패_패턴_연구소.py
+./app/pages/4_투자논지_라이브러리.py
+./app/pages/5_반증_신호.py
+./app/pages/6_데이터_품질.py
+./config/auto_narrative_tags_ko.json
+./config/failure_taxonomy_ko.json
+./data/processed/ideas_master.csv.gz
+./data/processed/vic_dashboard.db
+./data/raw/.gitkeep
+./docs/ARCHITECTURE_KO.md
+./docs/DATASET_ANALYSIS_KO.md
+./docs/DATA_DICTIONARY_KO.md
+./docs/GITHUB_UPLOAD_KO.md
+./docs/PATTERN_HUB_KO.md
+./docs/build_report.json
+./docs/build_report_v2.json
+./requirements.txt
+./scripts/01_import_vic_sql.py
+./scripts/02_build_dashboard_db.py
+./scripts/03_validate_db.py
+./scripts/04_build_pattern_hub.py
+./sql/schema.sql

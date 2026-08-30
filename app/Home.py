@@ -4,7 +4,7 @@ from components.db import rows
 
 st.set_page_config(page_title='VIC 허구 반증 연구소', page_icon='◈', layout='wide', initial_sidebar_state='expanded')
 apply_css()
-page_header('VIC FALSIFICATION LAB', 'VIC 허구 반증 연구소', '과거 투자자가 무엇을 믿었는지, 그 믿음이 언제·어떤 데이터로 깨졌는지, 그리고 주가 결과와 별개로 투자논지가 실제로 맞았는지를 추적합니다.')
+page_header('VIC FALSIFICATION LAB', 'VIC 허구 반증 연구소', 'VIC 13,656개 아이디어를 성공·실패 패턴으로 묶고, 각 기업에서 어떤 가정이 맞고 무엇이 깨졌는지 추적하는 투자 사례 연구 DB입니다.')
 
 stats = {x['metric_ko']: x for x in rows('SELECT * FROM dataset_stats')}
 c1,c2,c3,c4,c5,c6 = st.columns(6)
@@ -14,6 +14,30 @@ c3.metric('숏', stats['숏 아이디어']['value_text'])
 c4.metric('Contest Winner', stats['Contest Winner']['value_text'])
 c5.metric('본문 보유', stats['본문 보유']['value_text'])
 c6.metric('기존 성과데이터', stats['기존 성과데이터 보유']['value_text'])
+
+st.markdown('---')
+st.subheader('패턴부터 탐색')
+a,b=st.columns(2)
+with a:
+    st.markdown('### 주요 성공 패턴 후보')
+    s=rows('''SELECT p.pattern_id,p.pattern_name_ko,p.category_ko,s.matched_ideas,s.median_return
+              FROM pattern_catalog p JOIN pattern_stats s USING(pattern_id)
+              WHERE p.polarity_ko='성공' ORDER BY s.matched_ideas DESC LIMIT 6''')
+    for x in s:
+        r='—' if x['median_return'] is None else f"{x['median_return']:+.0%}"
+        st.write(f"**{x['pattern_name_ko']}** · {x['matched_ideas']:,}건 · 중앙값 {r}")
+with b:
+    st.markdown('### 주요 실패 패턴 후보')
+    f=rows('''SELECT p.pattern_id,p.pattern_name_ko,p.category_ko,s.matched_ideas,s.median_return
+              FROM pattern_catalog p JOIN pattern_stats s USING(pattern_id)
+              WHERE p.polarity_ko='실패' ORDER BY s.matched_ideas DESC LIMIT 6''')
+    for x in f:
+        r='—' if x['median_return'] is None else f"{x['median_return']:+.0%}"
+        st.write(f"**{x['pattern_name_ko']}** · {x['matched_ideas']:,}건 · 중앙값 {r}")
+
+if st.button('성공·실패 패턴 연구소 열기', type='primary'):
+    st.switch_page('pages/3_실패_패턴_연구소.py')
+st.caption('현재 패턴 수치는 당시 서사 태그와 방향조정 주가성과를 결합한 자동 후보입니다. 정밀 논지 판정과는 분리합니다.')
 
 st.markdown('---')
 left, right = st.columns([1.6, 1])
@@ -39,22 +63,20 @@ with left:
     st.dataframe([{
         '게시일': x['date'][:10] if x['date'] else '', '티커': x['ticker'], '기업': x['company_name'],
         '방향': x['direction_ko'], '작성자': x['author'], '유형': x['idea_type_ko'], '분석상태': x['analysis_status_ko']
-    } for x in data], use_container_width=True, hide_index=True, height=480)
+    } for x in data], use_container_width=True, hide_index=True, height=430)
 with right:
-    st.subheader('데이터 구조')
-    st.markdown('''**원본 투자 아이디어**  
+    st.subheader('이 DB에서 보는 순서')
+    st.markdown('''**성공·실패 패턴**  
 ↓  
-**검증 가능한 Claim**  
+**해당 기업·VIC 아이디어**  
 ↓  
-**핵심 가정 / Falsifier**  
+**당시 투자논지와 핵심 가정**  
+↓  
+**어떤 부분이 성공/실패했는가**  
 ↓  
 **최초 반증 신호**  
 ↓  
-**투자논지 시점·이벤트 시점·현재**  
-↓  
-**실패 메커니즘 / 근본 분석 오류**''')
-    st.caption('주가 수익률은 결과의 한 축일 뿐, 투자논지의 정답으로 취급하지 않습니다.')
+**Failure Anatomy / 반증 질문**''')
     st.subheader('상위 자동 논지 태그')
-    tg = rows('SELECT tag_ko,ideas FROM tag_summary ORDER BY ideas DESC LIMIT 12')
+    tg = rows('SELECT tag_ko,ideas FROM tag_summary ORDER BY ideas DESC LIMIT 10')
     pills([f"{x['tag_ko']} · {x['ideas']:,}" for x in tg])
-    st.warning('자동 태그는 영어 원문 키워드 기반 초벌 분류입니다. 정밀 분석 결과와 분리되어 있습니다.')

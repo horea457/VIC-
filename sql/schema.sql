@@ -34,3 +34,35 @@ CREATE TABLE year_summary(
   contest_winners,
   performance_covered
 );
+
+-- V2 pattern hub
+CREATE TABLE pattern_catalog(
+  pattern_id TEXT PRIMARY KEY,
+  polarity_ko TEXT NOT NULL,
+  category_ko TEXT,
+  pattern_name_ko TEXT NOT NULL,
+  definition_ko TEXT,
+  counterfactual_question_ko TEXT,
+  verification_level_ko TEXT DEFAULT '자동 후보'
+);
+CREATE TABLE idea_pattern_map(
+  idea_id TEXT NOT NULL,
+  pattern_id TEXT NOT NULL,
+  match_type_ko TEXT NOT NULL,
+  match_score REAL,
+  evidence_basis_ko TEXT,
+  performance_horizon_ko TEXT,
+  direction_adjusted_return REAL,
+  stock_verdict_ko TEXT,
+  thesis_verdict_ko TEXT DEFAULT '미검증',
+  PRIMARY KEY(idea_id, pattern_id)
+);
+CREATE TABLE pattern_stats(
+  pattern_id TEXT PRIMARY KEY,
+  matched_ideas INTEGER,
+  performance_ideas INTEGER,
+  positive_rate REAL,
+  median_return REAL,
+  strong_success INTEGER,
+  strong_failure INTEGER
+);

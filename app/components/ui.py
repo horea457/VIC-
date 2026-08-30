@@ -12,8 +12,22 @@ hr {margin:1.15rem 0 1rem 0 !important;}
 </style>
 """
 
+# Pattern hub 추가 스타일
+CSS_PATTERN = """
+<style>
+.pattern-card {border:1px solid rgba(128,128,128,.22); border-radius:14px; padding:14px 15px 12px 15px; min-height:172px; margin-bottom:8px; background:rgba(128,128,128,.035);}
+.pattern-kicker {font-size:.72rem; text-transform:uppercase; letter-spacing:.06em; opacity:.58; margin-bottom:.35rem;}
+.pattern-name {font-size:1.03rem; font-weight:720; line-height:1.28; margin-bottom:.38rem;}
+.pattern-meta {font-size:.76rem; opacity:.66; margin-bottom:.52rem;}
+.pattern-desc {font-size:.83rem; opacity:.78; line-height:1.45;}
+</style>
+"""
+
+
 def apply_css():
     st.markdown(CSS, unsafe_allow_html=True)
+    if 'CSS_PATTERN' in globals():
+        st.markdown(CSS_PATTERN, unsafe_allow_html=True)
 
 def page_header(kicker, title, subtitle):
     st.markdown(
