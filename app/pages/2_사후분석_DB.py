@@ -7,7 +7,7 @@ apply_css()
 page_header('POSTMORTEM DATABASE','사후분석 DB','기업이 무엇을 하는지 → 당시 VIC 투자모델 → 숫자·밸류에이션 → Claim별 가정과 반증조건 → 실제 결과 → 성공·실패 원인까지 한 화면에서 봅니다.')
 
 q=st.text_input('기업·티커·작성자 검색',placeholder='예: APH, AMRN')
-verdict=st.selectbox('종합 판정',['전체','매우 성공','성공','대체로 성공','혼합','대체로 실패','실패','매우 실패'])
+verdict=st.selectbox('종합 판정',['전체','매우 성공','성공','대체로 성공','혼합','판정 제한','대체로 실패','실패','매우 실패'])
 sql='''SELECT i.idea_id,i.date,i.ticker,i.company_name,i.author,p.research_direction_ko,p.overall_verdict_ko,
               p.success_pattern_ko,p.failure_pattern_ko,d.thesis_type_ko,d.thesis_score,d.process_score,d.research_asof
        FROM deep_analysis_meta d JOIN ideas_master i USING(idea_id) JOIN postmortems p USING(idea_id) WHERE 1=1'''
@@ -22,7 +22,7 @@ data=rows(sql,ps)
 c1,c2,c3=st.columns(3)
 c1.metric('심층 완료',f'{len(data):,}건')
 c2.metric('Claim',f"{rows('SELECT COUNT(*) n FROM deep_analysis_claims')[0]['n']:,}개")
-c3.metric('분석 기준','Amarin / Amphenol급')
+c3.metric('분석 기준','VIC 원문 → Claim → 사후검증')
 
 if not data:
     st.info('검색 조건에 맞는 심층 리포트가 없습니다.')
