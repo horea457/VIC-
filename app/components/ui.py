@@ -64,6 +64,94 @@ def _verified_badge(P):
     st.caption(f"분석 기준일 {P.get('research_asof') or '—'} · 신뢰도 {P.get('confidence',0):.0%}")
 
 
+
+def _render_deep_postmortem(I, P, D):
+    from components.db import rows
+    idea_id = I['idea_id']
+    sections = rows('SELECT section_order,section_title_ko,section_body_ko FROM deep_analysis_sections WHERE idea_id=? ORDER BY section_order', (idea_id,))
+    claims = rows('''
+        SELECT claim_order,claim_title_ko,thesis_weight_pct,original_claim_ko,t0_evidence_ko,key_assumption_ko,
+               ex_ante_falsifier_ko,actual_result_ko,quantitative_gap_ko,verdict_ko,analytical_error_ko,reusable_lesson_ko
+        FROM deep_analysis_claims WHERE idea_id=? ORDER BY claim_order
+    ''', (idea_id,))
+    metrics = rows('''
+        SELECT metric_order,metric_name_ko,t0_value_ko,thesis_expectation_ko,actual_value_ko,verdict_ko,interpretation_ko
+        FROM deep_analysis_metrics WHERE idea_id=? ORDER BY metric_order
+    ''', (idea_id,))
+    timeline = rows('SELECT event_order,event_date_ko,event_ko,thesis_implication_ko FROM deep_analysis_timeline WHERE idea_id=? ORDER BY event_order', (idea_id,))
+    sources = rows('SELECT source_order,source_type_ko,title_ko,publisher,source_date,url,evidence_ko FROM deep_analysis_sources WHERE idea_id=? ORDER BY source_order', (idea_id,))
+
+    st.markdown('<span class="verified-pill">◆ 심층 사후분석 · 원문 산식 + 외부 primary source 검증</span>', unsafe_allow_html=True)
+    st.caption(f"리포트 {D.get('report_version') or '—'} · 분석 기준일 {D.get('research_asof') or P.get('research_asof') or '—'} · 신뢰도 {P.get('confidence',0):.0%}")
+    st.markdown(f"## {I.get('company_name') or I.get('ticker')} · {I.get('ticker') or '—'}")
+    pills([I.get('date','')[:10] if I.get('date') else '날짜 미상', f"실제 논지 방향 {P.get('research_direction_ko') or '미상'}", f"작성자 {I.get('author') or '미상'}", D.get('thesis_type_ko') or ''])
+    st.info(f"**사후분석 결론**  \n\n{D.get('one_line_verdict_ko')}")
+
+    a,b,c,d = st.columns(4)
+    a.metric('종합 판정', P.get('overall_verdict_ko') or '—')
+    b.metric('Thesis 점수', f"{D.get('thesis_score',0):.1f}/10")
+    c.metric('분석 프로세스', f"{D.get('process_score',0):.1f}/10")
+    d.metric('분석 깊이', D.get('analysis_depth_ko') or '심층')
+    st.warning(f"**주가 결과**  {D.get('return_summary_ko')}")
+
+    if metrics:
+        st.markdown('### 당시 숫자 vs 실제 결과')
+        st.caption('원 투자논지의 숫자를 사후 실적과 같은 표에 놓습니다. “주가가 내렸다”가 아니라 어느 가정이 몇 배 틀렸는지 보기 위한 표입니다.')
+        table=[{
+            '지표':m['metric_name_ko'], '당시':m['t0_value_ko'], 'VIC 기대':m['thesis_expectation_ko'],
+            '실제':m['actual_value_ko'], '판정':m['verdict_ko'], '해석':m['interpretation_ko']
+        } for m in metrics]
+        st.dataframe(table, use_container_width=True, hide_index=True, height=min(720, 85+len(table)*52))
+
+    if sections:
+        for sec in sections[:2]:
+            st.markdown(f"### {sec['section_title_ko']}")
+            st.markdown(sec['section_body_ko'])
+
+    if claims:
+        st.markdown('### 핵심 투자논지 · Claim별 사후검증')
+        st.caption('각 Claim에서 당시 근거와 숨은 가정, 사전에 정할 수 있었던 반증조건, 실제 결과를 분리합니다.')
+        for c in claims:
+            verdict=c.get('verdict_ko') or '미판정'
+            icon='✅' if ('성공' in verdict and '실패' not in verdict) else ('❌' if '실패' in verdict else '◐')
+            with st.expander(f"{c['claim_order']}. {c['claim_title_ko']} · {icon} {verdict} · thesis 비중 {c['thesis_weight_pct']}%", expanded=True):
+                st.markdown(f"**당시 주장**  \n{c['original_claim_ko']}")
+                st.markdown(f"**당시 근거**  \n{c['t0_evidence_ko']}")
+                st.markdown(f"**숨은 가정**  \n{c['key_assumption_ko']}")
+                st.markdown(f"**사전에 정했어야 할 반증조건**  \n{c['ex_ante_falsifier_ko']}")
+                st.markdown(f"**실제 결과**  \n{c['actual_result_ko']}")
+                st.markdown(f"**정량적 괴리**  \n{c['quantitative_gap_ko']}")
+                if '실패' in verdict:
+                    st.error(f"**분석 오류**  {c['analytical_error_ko']}")
+                else:
+                    st.info(f"**분석상 핵심**  {c['analytical_error_ko']}")
+                st.success(f"**재사용할 교훈**  {c['reusable_lesson_ko']}")
+
+    if sections:
+        for sec in sections[2:]:
+            st.markdown(f"### {sec['section_title_ko']}")
+            st.markdown(sec['section_body_ko'])
+
+    if timeline:
+        st.markdown('### 사건 타임라인 · 언제부터 논지가 깨졌나')
+        for e in timeline:
+            st.markdown(f"**{e['event_date_ko']} · {e['event_ko']}**")
+            st.caption(e['thesis_implication_ko'])
+
+    st.markdown('### 최종 Failure Anatomy')
+    st.markdown(f"**근본 오류**  \n{D.get('core_error_ko')}")
+    st.markdown(f"**가장 중요한 인사이트**  \n{D.get('core_insight_ko')}")
+    st.info(f"**당시 이 질문 하나를 했더라면?**  \n\n{P.get('counterfactual_question_ko')}")
+
+    if sources:
+        with st.expander(f"근거 자료 {len(sources)}개 · 원문 링크와 어떤 판단에 썼는지"):
+            for s in sources:
+                st.markdown(f"**{s['source_order']}. [{s['source_type_ko']}] {s['title_ko']}** · {s['publisher']} · {s['source_date']}")
+                st.write(s['evidence_ko'])
+                if s.get('url'):
+                    st.markdown(f"[원문 자료 열기]({s['url']})")
+    return True
+
 def render_verified_postmortem(idea_id: str, compact: bool = False):
     """사후검증 완료 아이디어의 심층 리서치 노트를 렌더링한다."""
     from components.db import row, rows
@@ -72,6 +160,12 @@ def render_verified_postmortem(idea_id: str, compact: bool = False):
     P = row('SELECT * FROM postmortems WHERE idea_id=?', (idea_id,))
     if not I or not P:
         return False
+
+    D = row('SELECT * FROM deep_analysis_meta WHERE idea_id=?', (idea_id,))
+    if D:
+        return _render_deep_postmortem(I, P, D)
+    # V5: 이전 표준 초안은 더 이상 '사후분석 완료'로 렌더링하지 않는다.
+    return False
 
     L = row('SELECT * FROM postmortem_longform WHERE idea_id=?', (idea_id,)) or {}
     claims = rows('''
@@ -221,11 +315,18 @@ def idea_quick_view(idea_id: str):
     """테이블에서 아이디어를 선택했을 때 띄우는 미니 리서치 리포트."""
     from components.db import row, rows
 
-    # 실제 사후분석 완료 건은 자동 태그보다 우선한다.
+    # V5 심층 웹 사후분석이 있으면 최우선한다.
+    if render_ai_deep_postmortem(idea_id, compact=True):
+        if st.button('전체 상세 분석 페이지로 이동', type='primary', use_container_width=True):
+            st.session_state['selected_idea_id'] = idea_id
+            st.switch_page('pages/2_사후분석_DB.py')
+        return
+
+    # 수동/curated 사후분석 완료 건은 자동 태그보다 우선한다.
     if render_verified_postmortem(idea_id, compact=True):
         if st.button('전체 상세 분석 페이지로 이동', type='primary', use_container_width=True):
             st.session_state['selected_idea_id'] = idea_id
-            st.switch_page('pages/2_기업_아이디어_분석.py')
+            st.switch_page('pages/2_사후분석_DB.py')
         return
 
     I = row('SELECT * FROM ideas_master WHERE idea_id=?', (idea_id,))
@@ -272,6 +373,10 @@ def idea_quick_view(idea_id: str):
     st.markdown('<div class="quick-section">2. 당시 투자 논지는 무엇이었나</div>', unsafe_allow_html=True)
     st.write(A.get('thesis_summary_ko') or '투자논지 요약 대기')
 
+    if not render_deep_thesis_reconstruction(idea_id, compact=True):
+        from components.source_dossier import render_source_dossier
+        render_source_dossier(idea_id, expanded=False)
+
     st.markdown('<div class="quick-section">3. 자동 스크리닝 결과</div>', unsafe_allow_html=True)
     outcome_table = [
         {'평가축':'핵심 투자논지', '판정':A.get('outcome_thesis_ko') or '미검증'},
@@ -309,4 +414,111 @@ def idea_quick_view(idea_id: str):
 
     if st.button('전체 상세 분석 페이지로 이동', type='primary', use_container_width=True):
         st.session_state['selected_idea_id'] = idea_id
-        st.switch_page('pages/2_기업_아이디어_분석.py')
+        st.switch_page('pages/2_사후분석_DB.py')
+
+def render_deep_thesis_reconstruction(idea_id: str, compact: bool=False):
+    from components.db import row
+    R=row('SELECT * FROM deep_thesis_reconstruction WHERE idea_id=?',(idea_id,))
+    if not R: return False
+    try: claims=json.loads(R.get('thesis_claims_json') or '[]')
+    except: claims=[]
+    try: nums=json.loads(R.get('numeric_facts_json') or '[]')
+    except: nums=[]
+    st.markdown('<span class="verified-pill">◆ 원문 기반 심층 투자논지 복원</span>',unsafe_allow_html=True)
+    st.markdown('### 회사와 사업의 경제성')
+    st.write(R.get('company_description_ko') or '—')
+    st.write(R.get('business_economics_ko') or '—')
+    st.markdown('### 당시 VIC 투자모델')
+    st.write(R.get('thesis_overview_ko') or '—')
+    if R.get('what_market_was_missing_ko'):
+        st.info('**당시 시장이 놓쳤다고 본 것**\n\n'+R['what_market_was_missing_ko'])
+    if claims:
+        st.markdown('### 핵심 Claim')
+        for i,c in enumerate(claims,1):
+            wt=c.get('thesis_weight_pct')
+            wt_txt=f" · 논지 비중 {wt:.0f}%" if isinstance(wt,(int,float)) else ''
+            with st.expander(f"{i}. {c.get('claim_title_ko','Claim')}{wt_txt}",expanded=not compact):
+                st.markdown(f"**당시 주장**  \n{c.get('claim_ko','—')}")
+                st.markdown(f"**당시 근거**  \n{c.get('t0_evidence_ko','—')}")
+                st.markdown(f"**숫자·산식**  \n{c.get('model_math_ko','—')}")
+                st.markdown(f"**숨은 가정**  \n{c.get('key_assumptions_ko','—')}")
+                st.markdown(f"**사전 반증조건**  \n{c.get('ex_ante_falsifier_ko','—')}")
+                st.markdown(f"**먼저 볼 지표**  \n{c.get('leading_indicators_ko','—')}")
+                st.markdown(f"**예상 시간축**  \n{c.get('expected_horizon_ko','—')}")
+    if nums and not compact:
+        st.markdown('### 원 논지의 핵심 숫자')
+        st.dataframe([{'지표':x.get('metric_ko'),'값':x.get('value_ko'),'논지에서 역할':x.get('role_in_thesis_ko')} for x in nums],use_container_width=True,hide_index=True)
+    st.markdown('### 당시 밸류에이션 모델')
+    st.write(R.get('valuation_model_ko') or '—')
+    st.markdown('### Catalyst · 리스크 · 시간축')
+    st.write('**Catalyst**  \n'+(R.get('catalysts_ko') or '—'))
+    st.write('**리스크**  \n'+(R.get('risks_ko') or '—'))
+    st.write('**시간축**  \n'+(R.get('time_horizon_ko') or '—'))
+    if R.get('thesis_dependency_map_ko'):
+        st.markdown('### 논지 의존관계')
+        st.write(R['thesis_dependency_map_ko'])
+    if R.get('uncertainty_ko'):
+        st.caption('불확실성 · '+R['uncertainty_ko'])
+    return True
+
+
+def render_ai_deep_postmortem(idea_id: str, compact: bool=False):
+    from components.db import row
+    I=row('SELECT * FROM ideas_master WHERE idea_id=?',(idea_id,))
+    P=row('SELECT * FROM deep_postmortem_ai WHERE idea_id=?',(idea_id,))
+    if not I or not P:return False
+    try: claims=json.loads(P.get('claim_outcomes_json') or '[]')
+    except:claims=[]
+    try: metrics=json.loads(P.get('metrics_json') or '[]')
+    except:metrics=[]
+    try: timeline=json.loads(P.get('timeline_json') or '[]')
+    except:timeline=[]
+    try: sources=json.loads(P.get('sources_json') or '[]')
+    except:sources=[]
+    st.markdown('<span class="verified-pill">◆ 심층 사후분석 완료 · 웹/원자료 검증</span>',unsafe_allow_html=True)
+    st.caption(f"분석 기준일 {P.get('research_asof') or '—'} · 신뢰도 {(P.get('confidence') or 0):.0%} · 모델 {P.get('model') or '—'}")
+    st.markdown(f"## {I.get('company_name') or I.get('ticker')} · {I.get('ticker') or '—'}")
+    st.info(f"**종합 판정: {P.get('overall_verdict_ko') or '—'}**\n\n{P.get('why_ko') or ''}")
+    st.markdown('### 실제로 이후 무슨 일이 일어났나')
+    st.write(P.get('actual_development_ko') or '—')
+    st.write('**현재 상태**  \n'+(P.get('company_current_state_ko') or '—'))
+    if metrics:
+        st.markdown('### 당시 기대 vs 실제 숫자')
+        st.dataframe([{'지표':x.get('metric_ko'),'당시/기대':x.get('t0_or_expected_ko'),'실제':x.get('actual_ko'),'해석':x.get('interpretation_ko')} for x in metrics],use_container_width=True,hide_index=True)
+    if claims:
+        st.markdown('### Claim별 성공·실패')
+        for i,c in enumerate(claims,1):
+            v=c.get('verdict_ko','미판정');icon='✅' if ('성공' in v and '실패' not in v) else ('❌' if '실패' in v else '◐')
+            with st.expander(f"{i}. {c.get('claim_title_ko','Claim')} · {icon} {v}",expanded=not compact):
+                st.markdown(f"**당시 주장**  \n{c.get('original_claim_ko','—')}")
+                st.markdown(f"**실제 결과**  \n{c.get('actual_result_ko','—')}")
+                st.markdown(f"**정량 gap**  \n{c.get('quantitative_gap_ko','—')}")
+                st.markdown(f"**성공/실패 메커니즘**  \n{c.get('failure_or_success_mechanism_ko','—')}")
+                st.markdown(f"**최초 신호**  \n{c.get('first_signal_ko','—')}")
+                st.success('**재사용할 교훈**\n\n'+(c.get('reusable_lesson_ko') or '—'))
+    axes=[('핵심 투자논지','thesis_verdict_ko'),('사업/산업구조','business_verdict_ko'),('Catalyst/Event','catalyst_verdict_ko'),('밸류에이션','valuation_verdict_ko'),('주가','stock_verdict_ko'),('현재','current_verdict_ko'),('종합','overall_verdict_ko')]
+    st.markdown('### 어디서 맞고 어디서 틀렸나')
+    st.dataframe([{'평가축':a,'판정':P.get(k) or '—'} for a,k in axes],use_container_width=True,hide_index=True)
+    st.markdown('### Failure / Success Anatomy')
+    st.write(f"**성공 패턴:** {P.get('success_pattern_ko') or '—'}")
+    st.write(f"**실패 패턴:** {P.get('failure_pattern_ko') or '—'}")
+    st.write(f"**근본 분석 오류:** {P.get('root_error_ko') or '—'}")
+    st.write(f"**최초 반증·확인 신호:** {P.get('first_signal_ko') or '—'} · {P.get('first_signal_date_ko') or '—'}")
+    st.write(f"**당시 알 수 있었나:** {P.get('knowable_at_t0_ko') or '—'} · **피할 수 있었나:** {P.get('avoidability_ko') or '—'}")
+    st.info('**당시 이 질문 하나를 했더라면?**\n\n'+(P.get('counterfactual_question_ko') or '—'))
+    if timeline and not compact:
+        st.markdown('### 타임라인')
+        for x in timeline: st.markdown(f"**{x.get('date_ko','')} · {x.get('event_ko','')}**  \n{x.get('thesis_implication_ko','')}")
+    if P.get('stock_return_summary_ko'):
+        st.warning('**주가 결과**\n\n'+P['stock_return_summary_ko'])
+    if P.get('current_watch_ko'):
+        st.markdown('### 지금 같은 회사를 본다면')
+        st.write(P['current_watch_ko'])
+    if sources and not compact:
+        with st.expander(f"근거자료 {len(sources)}개",expanded=False):
+            for s in sources:
+                title=s.get('title') or '자료';url=s.get('url') or ''
+                st.markdown(f"**{title}** · {s.get('publisher','')} · {s.get('date','')}")
+                st.write(s.get('evidence_ko',''))
+                if url: st.markdown(f"[원문 열기]({url})")
+    return True
