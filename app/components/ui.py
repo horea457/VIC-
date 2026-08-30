@@ -65,7 +65,7 @@ def _verified_badge(P):
 
 
 def render_verified_postmortem(idea_id: str, compact: bool = False):
-    """검증 완료 아이디어의 사후분석을 렌더링. 완료 건이 아니면 False 반환."""
+    """사후검증 완료 아이디어의 심층 리서치 노트를 렌더링한다."""
     from components.db import row, rows
 
     I = row('SELECT * FROM ideas_master WHERE idea_id=?', (idea_id,))
@@ -73,10 +73,19 @@ def render_verified_postmortem(idea_id: str, compact: bool = False):
     if not I or not P:
         return False
 
+    L = row('SELECT * FROM postmortem_longform WHERE idea_id=?', (idea_id,)) or {}
     claims = rows('''
         SELECT claim_order,claim_type_ko,original_claim_ko,key_assumption_ko,
                actual_result_ko,verdict_ko,explanation_ko
         FROM postmortem_claims WHERE idea_id=? ORDER BY claim_order
+    ''', (idea_id,))
+    metrics = rows('''
+        SELECT metric_order,metric_name_ko,t0_period,t0_value,post_period,post_value,change_ko,interpretation_ko
+        FROM postmortem_metrics WHERE idea_id=? ORDER BY metric_order
+    ''', (idea_id,))
+    timeline = rows('''
+        SELECT event_order,date_ko,event_ko,significance_ko
+        FROM postmortem_timeline WHERE idea_id=? ORDER BY event_order
     ''', (idea_id,))
     sources = rows('''
         SELECT source_order,title_ko,publisher,source_date,url,evidence_ko
@@ -99,16 +108,54 @@ def render_verified_postmortem(idea_id: str, compact: bool = False):
     if I.get('direction_ko') and I.get('direction_ko') != P.get('research_direction_ko'):
         st.caption(f"※ 원 덤프의 Long/Short 메타데이터는 {I.get('direction_ko')}으로 저장돼 있으나, VIC 본문을 읽어 실제 논지 방향을 **{P.get('research_direction_ko')}**으로 교정했습니다.")
 
+    if L.get('one_line_ko'):
+        st.info(f"**사후분석 한 줄 결론**  \n\n{L['one_line_ko']}")
+
     st.markdown('<div class="quick-section">1. 무슨 기업인가</div>', unsafe_allow_html=True)
     st.write(P.get('company_description_ko'))
+    if L.get('business_economics_ko'):
+        st.markdown('**이 사업의 경제성은 어디서 나오는가**')
+        st.write(L['business_economics_ko'])
 
     st.markdown('<div class="quick-section">2. 당시 VIC 투자논지는 무엇이었나</div>', unsafe_allow_html=True)
     st.write(P.get('original_thesis_ko'))
+    if claims:
+        st.markdown(f"**핵심 논지는 {len(claims)}개로 분해할 수 있습니다.**")
+        for c in claims:
+            verdict = c.get('verdict_ko') or '미판정'
+            icon = '✅' if '성공' in verdict and '실패' not in verdict else ('❌' if '실패' in verdict else '◐')
+            st.markdown(f"#### ②-{c['claim_order']} {c['claim_type_ko']} · {icon} {verdict}")
+            st.markdown(f"**당시 주장**  \n{c['original_claim_ko']}")
+            st.markdown(f"**이 주장이 성립하려면**  \n{c['key_assumption_ko']}")
+            st.markdown(f"**실제 결과**  \n{c['actual_result_ko']}")
+            st.caption(f"사후 판단 · {c['explanation_ko']}")
 
-    st.markdown('<div class="quick-section">3. 실제로 이후 무슨 일이 일어났나</div>', unsafe_allow_html=True)
+    if L.get('valuation_at_t0_ko'):
+        st.markdown('<div class="quick-section">3. 당시 밸류에이션과 기대수익 구조</div>', unsafe_allow_html=True)
+        st.write(L['valuation_at_t0_ko'])
+
+    st.markdown('<div class="quick-section">4. 실제로 이후 무슨 일이 일어났나</div>', unsafe_allow_html=True)
     st.write(P.get('actual_development_ko'))
+    if metrics:
+        st.markdown('**숫자로 비교하면**')
+        mt=[{
+            '지표':m['metric_name_ko'],
+            '당시/기준 시점':m['t0_period'], '당시/기준 값':m['t0_value'],
+            '사후 시점':m['post_period'], '사후 값':m['post_value'],
+            '변화':m['change_ko'], '의미':m['interpretation_ko']
+        } for m in metrics]
+        st.dataframe(mt, use_container_width=True, hide_index=True, height=min(500, 90+len(mt)*55))
+    if L.get('stock_return_summary_ko'):
+        st.markdown('**주가 결과는 어떻게 봐야 하나**')
+        st.write(L['stock_return_summary_ko'])
 
-    st.markdown('<div class="quick-section">4. 투자논지는 어디서 맞고 어디서 틀렸나</div>', unsafe_allow_html=True)
+    if timeline:
+        st.markdown('<div class="quick-section">5. 시간축으로 보면</div>', unsafe_allow_html=True)
+        for e in timeline:
+            st.markdown(f"**{e['date_ko']} · {e['event_ko']}**  ")
+            st.caption(e['significance_ko'])
+
+    st.markdown('<div class="quick-section">6. 투자논지는 어디서 맞고 어디서 틀렸나</div>', unsafe_allow_html=True)
     outcome_table = [
         {'평가축':'핵심 투자논지', '판정':P.get('thesis_verdict_ko') or '—'},
         {'평가축':'사업/산업구조', '판정':P.get('business_verdict_ko') or '—'},
@@ -119,31 +166,23 @@ def render_verified_postmortem(idea_id: str, compact: bool = False):
         {'평가축':'종합', '판정':P.get('overall_verdict_ko') or '—'},
     ]
     st.dataframe(outcome_table, use_container_width=True, hide_index=True, height=282)
-
     c1,c2,c3 = st.columns(3)
     c1.metric('1년 수익률¹', _fmt_return(P.get('corrected_return_1y')))
     c2.metric('3년 수익률¹', _fmt_return(P.get('corrected_return_3y')))
     c3.metric('5년 수익률¹', _fmt_return(P.get('corrected_return_5y')))
-    st.caption('¹ 원 VIC 성과 데이터가 존재하는 경우에만 표시하며, 본문에서 교정한 실제 Long/Short 방향을 적용했습니다.')
+    st.caption('¹ 원 VIC 성과 데이터가 존재하는 경우에만 표시. 실제 Long/Short 방향으로 교정한 값이며, 현재까지의 총수익률과는 별개입니다.')
 
     st.markdown('**왜 이런 결과가 나왔나**')
     st.write(P.get('why_ko'))
+    if L.get('earnings_bridge_ko'):
+        st.markdown('**실적·가치가 움직인 전달경로**')
+        st.write(L['earnings_bridge_ko'])
+    if L.get('what_was_right_ko'):
+        st.success('**잘 본 부분**\n\n' + L['what_was_right_ko'])
+    if L.get('what_was_wrong_ko'):
+        st.warning('**틀렸거나 과도했던 부분**\n\n' + L['what_was_wrong_ko'])
 
-    if claims:
-        st.markdown('<div class="quick-section">5. Claim별 사후검증</div>', unsafe_allow_html=True)
-        if compact:
-            for c in claims:
-                with st.expander(f"{c['verdict_ko']} · {c['claim_type_ko']} · {c['original_claim_ko']}"):
-                    st.markdown(f"**당시 핵심 가정**  \n{c['key_assumption_ko']}")
-                    st.markdown(f"**실제 결과**  \n{c['actual_result_ko']}")
-                    st.markdown(f"**판단**  \n{c['explanation_ko']}")
-        else:
-            st.dataframe([{
-                'Claim':c['original_claim_ko'], '가정':c['key_assumption_ko'],
-                '실제 결과':c['actual_result_ko'], '판정':c['verdict_ko'], '해석':c['explanation_ko']
-            } for c in claims], use_container_width=True, hide_index=True, height=min(520, 90+len(claims)*95))
-
-    st.markdown('<div class="quick-section">6. 성공·실패 패턴과 반증 질문</div>', unsafe_allow_html=True)
+    st.markdown('<div class="quick-section">7. 성공·실패 패턴과 반증 질문</div>', unsafe_allow_html=True)
     if vpats:
         for p in vpats:
             icon = '✅' if p['polarity_ko']=='성공' else ('⚠️' if p['polarity_ko']=='실패' else '◐')
@@ -154,22 +193,28 @@ def render_verified_postmortem(idea_id: str, compact: bool = False):
         st.markdown(f"**근본 분석 오류:** {P.get('root_error_ko')}")
         st.markdown(f"**최초 반증 신호:** {P.get('first_signal_ko')} ({P.get('first_signal_date') or '시점 미상'})")
         st.markdown(f"**당시 알 수 있었나:** {P.get('knowable_at_t0_ko')} · **피할 수 있었나:** {P.get('avoidability_ko')}")
-
     st.info(f"**당시 이 질문 하나를 했더라면?**  \n\n{P.get('counterfactual_question_ko')}")
+
+    if L.get('lesson_ko') or L.get('current_watch_ko'):
+        st.markdown('<div class="quick-section">8. 이 사례에서 현재 투자에 재사용할 것</div>', unsafe_allow_html=True)
+        if L.get('lesson_ko'):
+            st.markdown('**투자 교훈**')
+            st.write(L['lesson_ko'])
+        if L.get('current_watch_ko'):
+            st.markdown('**지금 같은 회사를 본다면 무엇을 추적할까**')
+            st.write(L['current_watch_ko'])
     if P.get('analyst_note_ko'):
         st.markdown('**사후분석 메모**')
         st.write(P.get('analyst_note_ko'))
 
     if sources:
-        with st.expander(f"근거 자료 {len(sources)}개 보기"):
+        with st.expander(f"9. 근거 자료 {len(sources)}개 보기"):
             for s in sources:
                 st.markdown(f"**{s['source_order']}. {s['title_ko']}** · {s['publisher']} · {s['source_date']}")
                 st.write(s['evidence_ko'])
                 if s.get('url'):
                     st.markdown(f"[원문 자료 열기]({s['url']})")
-
     return True
-
 
 @st.dialog('투자 아이디어 빠른 분석', width='large')
 def idea_quick_view(idea_id: str):

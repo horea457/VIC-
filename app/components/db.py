@@ -13,7 +13,7 @@ TMP_DB = Path('/tmp/vic_falsification_lab/vic_dashboard.db')
 
 
 def _has_required_schema(path: Path) -> bool:
-    """현재 앱이 요구하는 V4 핵심 테이블이 있는지 확인."""
+    """현재 앱이 요구하는 V4.2 핵심 테이블이 있는지 확인."""
     if not path.exists() or path.stat().st_size == 0:
         return False
     try:
@@ -24,7 +24,7 @@ def _has_required_schema(path: Path) -> bool:
                     "SELECT name FROM sqlite_master WHERE type='table'"
                 ).fetchall()
             }
-        return {'pattern_catalog', 'pattern_stats', 'idea_auto_profile', 'postmortems', 'postmortem_claims'}.issubset(tables)
+        return {'pattern_catalog', 'pattern_stats', 'idea_auto_profile', 'postmortems', 'postmortem_claims', 'postmortem_longform', 'postmortem_metrics', 'postmortem_timeline'}.issubset(tables)
     except sqlite3.Error:
         return False
 
@@ -43,7 +43,7 @@ def _unpack_gz() -> Path:
     tmp_path.replace(TMP_DB)
 
     if not _has_required_schema(TMP_DB):
-        raise sqlite3.DatabaseError('압축 해제한 DB가 V4 필수 스키마를 포함하지 않습니다.')
+        raise sqlite3.DatabaseError('압축 해제한 DB가 V4.2 필수 스키마를 포함하지 않습니다.')
     return TMP_DB
 
 
@@ -54,7 +54,7 @@ def resolved_db_path() -> Path:
         return _unpack_gz()
     if _has_required_schema(RAW_DB):
         return RAW_DB
-    raise FileNotFoundError('사용 가능한 V4 vic_dashboard.db(.gz)가 없습니다.')
+    raise FileNotFoundError('사용 가능한 V4.2 vic_dashboard.db(.gz)가 없습니다.')
 
 
 @st.cache_resource

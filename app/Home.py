@@ -4,8 +4,8 @@ from components.db import rows
 
 st.set_page_config(page_title='VIC 허구 반증 연구소', page_icon='◈', layout='wide', initial_sidebar_state='expanded')
 apply_css()
-st.caption('V4.1 · 사후분석 DB 활성화 · 검증 완료 17건 / Claim 51개')
-page_header('VIC FALSIFICATION LAB', 'VIC 허구 반증 연구소', 'VIC 13,656개 아이디어를 탐색하고, 사후검증 완료 사례에서는 당시 Claim과 실제 결과를 분리해 무엇이 맞고 무엇이 깨졌는지 추적합니다.')
+st.caption('V4.2 · 심층 사후분석 DB · 검증 완료 18건 / Claim 56개 · 정량 스냅샷 71개')
+page_header('VIC FALSIFICATION LAB', 'VIC 허구 반증 연구소', 'VIC 13,656개 아이디어를 탐색하고, 사후검증 완료 사례에서는 기업의 경제성·당시 밸류에이션·Claim·사후 숫자·시간축까지 연결해 무엇이 맞고 무엇이 깨졌는지 추적합니다.')
 
 stats = {x['metric_ko']: x for x in rows('SELECT * FROM dataset_stats')}
 verified_n = rows('SELECT COUNT(*) AS n FROM postmortems')[0]['n']

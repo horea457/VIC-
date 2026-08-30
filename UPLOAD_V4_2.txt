@@ -1,0 +1,10 @@
+V4.2 심층 사후분석 패치
+
+1) 이 ZIP을 로컬에서 압축 해제합니다.
+2) ZIP 내부의 app/, data/, scripts/, docs/, README.md, VERSION_V4_2.txt를 기존 GitHub repo 루트에 그대로 업로드/덮어쓰기합니다.
+3) data/processed/vic_dashboard.db.gz가 새 파일로 교체되었는지 확인합니다.
+4) Commit changes 합니다. GitHub Actions는 별도로 실행할 필요가 없습니다.
+5) Streamlit Cloud가 자동 재배포되지 않으면 Manage app > Reboot app을 한 번 실행합니다.
+
+적용 확인: 홈 상단에 V4.2 / 사후분석 18건 / Claim 56개 / 정량 스냅샷 71개가 보여야 합니다.
+사후분석 완료 > Amphenol(APH)을 열어 심층 보고서 레이아웃을 확인하세요.

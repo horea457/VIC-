@@ -5,7 +5,7 @@ from components.db import rows
 st.set_page_config(page_title='사후분석 완료', layout='wide')
 apply_css()
 st.caption('V4.1 · 사후분석 완료 전용 페이지 · 17건')
-page_header('VERIFIED POSTMORTEMS','사후분석 완료 사례','VIC 원문을 읽고 후속 기업 공시·SEC·IR 자료로 실제 전개를 확인해 Claim 단위로 성공·실패를 판정한 사례만 모았습니다.')
+page_header('VERIFIED POSTMORTEMS','사후분석 완료 사례','기업이 무엇을 하는지부터 당시 투자논지·밸류에이션·후속 실적·Claim별 성공/실패·반증 질문까지 깊게 재구성한 사례만 모았습니다.')
 
 all_rows=rows('''
 SELECT p.idea_id,i.date,i.ticker,i.company_name,i.author,p.research_direction_ko,

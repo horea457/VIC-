@@ -1,5 +1,5 @@
 import streamlit as st
-from components.ui import apply_css, page_header
+from components.ui import apply_css, page_header, idea_quick_view
 from components.db import rows
 
 st.set_page_config(page_title='검증 우선순위', layout='wide')
@@ -12,7 +12,7 @@ c2.metric('우선순위 70+', rows('SELECT COUNT(*) n FROM analysis WHERE resear
 c3.metric('우선순위 50+', rows('SELECT COUNT(*) n FROM analysis WHERE research_priority>=50')[0]['n'])
 c4.metric('Claim', rows('SELECT COUNT(*) n FROM claims')[0]['n'])
 
-st.caption('우선순위 점수는 “정답 확률”이 아니라 **다음에 실제 결과를 조사할 가치**를 뜻합니다.')
+st.caption('우선순위 점수는 “정답 확률”이 아니라 **다음에 실제 결과를 조사할 가치**를 뜻합니다. 아래 행을 클릭하면 빠른 분석 팝업이 열립니다.')
 
 left,right=st.columns([1,1])
 with left:
@@ -38,6 +38,4 @@ event=st.dataframe(table,use_container_width=True,hide_index=True,height=600,on_
 sel=event.selection.rows if event and hasattr(event,'selection') else []
 if sel:
     chosen=data[sel[0]]
-    st.session_state['selected_idea_id']=chosen['idea_id']
-    if st.button('선택 아이디어 상세 분석 열기',type='primary'):
-        st.switch_page('pages/2_기업_아이디어_분석.py')
+    idea_quick_view(chosen['idea_id'])

@@ -1,6 +1,6 @@
 import json
 import streamlit as st
-from components.ui import apply_css, page_header, pills, empty_analysis
+from components.ui import apply_css, page_header, pills, empty_analysis, render_verified_postmortem
 from components.db import rows, row
 
 st.set_page_config(page_title='기업·아이디어 분석', layout='wide')
@@ -29,6 +29,20 @@ else:
     labels = [f"{x['date'][:10]} · {x['ticker']} · {x['direction_ko']} · {x['author']}" for x in ideas]
     idx = st.selectbox('VIC 아이디어 선택', range(len(ideas)), format_func=lambda i: labels[i])
     I = ideas[idx]
+
+P_verified = row('SELECT * FROM postmortems WHERE idea_id=?',(I['idea_id'],))
+if P_verified:
+    st.success('이 아이디어는 외부 공시·SEC·IR 자료까지 대조한 **사후분석 완료** 사례입니다. 아래 내용은 자동 태그보다 우선합니다.')
+    render_verified_postmortem(I['idea_id'], compact=False)
+    with st.expander('자동 탐색 레이어도 같이 보기'):
+        auto_patterns = rows('''SELECT p.polarity_ko,p.category_ko,p.pattern_name_ko,m.performance_horizon_ko,m.direction_adjusted_return
+                                FROM idea_pattern_map m JOIN pattern_catalog p USING(pattern_id)
+                                WHERE m.idea_id=? ORDER BY p.polarity_ko,p.pattern_name_ko''',(I['idea_id'],))
+        if auto_patterns:
+            st.dataframe(auto_patterns,use_container_width=True,hide_index=True)
+        else:
+            st.caption('자동 패턴 후보 없음')
+    st.stop()
 
 A = row('SELECT * FROM analysis WHERE idea_id=?',(I['idea_id'],))
 patterns = rows('''SELECT p.pattern_id,p.polarity_ko,p.category_ko,p.pattern_name_ko,p.definition_ko,
