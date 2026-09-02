@@ -25,7 +25,7 @@ DB는 GitHub 웹 업로드 안정성을 위해 `data/processed/vic_dashboard.db.
 6. 최초 반대 신호, 회피 가능성, 재사용 가능한 학습 태그
 7. 원문·SEC 공시·기업 발표 등 근거자료와 판단 연결
 
-현재 전체 아이디어는 13,656건이며, 외부자료로 검증한 심층 사후분석은 35건입니다.
+현재 전체 아이디어는 13,656건이며, 외부자료로 검증한 심층 사후분석은 41건입니다.
 Batch 001에서는 Farfetch의 2019년 숏과 2021년 롱 2건을 추가했습니다. 원 SQL에서
 2021년 아이디어가 숏으로 잘못 저장된 문제는 원본값을 보존하고 분석 레이어에서
 실제 방향을 롱으로 교정합니다.
@@ -40,6 +40,18 @@ Batch 003에서는 American Express의 금융위기 전후 롱 3건(2007년 4월
 숏으로 저장돼 있지만 본문상 실제 방향은 롱입니다. 2007년과 2008년 6월 글은
 closed-loop 경쟁우위를 맞게 봤어도 신용·조달 충격의 결합과 경로를 과소평가했고,
 2008년 12월 글은 TARP·은행지주회사 전환·비용절감이 만든 생존 다리를 포착했습니다.
+
+Batch 004에서는 American Express의 2015년·2016년 Costco 이탈 롱과 2018년
+anti-steering 대법원 판결 숏을 분석했습니다. 같은 franchise 롱도 사건 전 14x와
+사건 후 10.6x의 결과가 크게 달랐고, 2018년 숏은 패소확률 90%의 이진 촉매가 실제
+5대4 AXP 승소로 뒤집히면서 치명적으로 실패했습니다. 2015년·2016년 글의 SQL 숏
+표시는 본문상 실제 롱으로 교정했습니다.
+
+Batch 005에서는 American Express의 2020년 2월·10월 팬데믹 전후 롱과 2022년
+rewards 경쟁 숏을 분석했습니다. 같은 quality 논지도 평시 15x 매수와 위기 후
+stress-tested 매수의 가격경로가 크게 달랐습니다. 2022년 숏은 첫 6개월 가격은
+맞았지만 rewards를 고객가치와 분리한 fee economics, 목표미달 촉매와 중기 결론은
+실패했습니다. 이 배치로 SQL에 포함된 AXP 9건의 심층분석을 완료했습니다.
 
 ## 연구 배치 적용
 
@@ -56,3 +68,5 @@ python scripts/08_load_detailed_research.py
 - `analysis/batch_001_farfetch.md`
 - `analysis/batch_002_hawaiian_electric.md`
 - `analysis/batch_003_american_express_gfc.md`
+- `analysis/batch_004_american_express_costco_antitrust.md`
+- `analysis/batch_005_american_express_pandemic_rewards.md`

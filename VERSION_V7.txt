@@ -1,10 +1,12 @@
 VIC Falsification DB — V7 Detailed Research
 
 전체 아이디어: 13,656
-심층 사후분석: 35
+심층 사후분석: 41
 Batch 001: Farfetch 2건
 Batch 002: Hawaiian Electric Industries 3건
 신규 Batch 003: American Express GFC 3건
+신규 Batch 004: American Express Costco·Antitrust 3건
+신규 Batch 005: American Express Pandemic·Rewards 3건
 평가기준일: 2024-01-31
 분석일: 2026-09-02
 
@@ -32,3 +34,15 @@ American Express GFC Batch 003
 - 2008-06-12 Long: 대체로 실패, 정상화는 맞았지만 3년 2배 대신 +8.4%
 - 2008-12-31 Long: 매우 성공, 1년 +109.6%·5년 +382.8%
 - SQL 방향 오류: 세 아이디어 모두 원본 숏 보존, 분석 레이어에서 실제 롱으로 교정
+
+American Express Costco·Antitrust Batch 004
+- 2015-05-11 Long: 부분 성공, 2017 촉매 적중·사건 전 14x 진입은 일렀음
+- 2016-07-05 Long: 매우 성공, 1년 +45.2%·5년 +207.8%
+- 2018-06-14 Short: 치명적 실패, 예상 90% 패소와 반대로 대법원 5대4 AXP 승소
+- SQL 방향 오류: 2015·2016 원본 숏 보존, 분석 레이어에서 실제 롱으로 교정
+
+American Express Pandemic·Rewards Batch 005
+- 2020-02-16 Long: 부분 성공, 1개월 -36.1% 뒤 3년 +38.5%; franchise 적중·tail 경로 누락
+- 2020-10-14 Long: 매우 성공, 1년 +66.1%; 2025 회복 stress에서도 저평가
+- 2022-05-31 Short: 대체로 실패, 6개월 가격 성공·실적과 중기 thesis 실패
+- SQL 방향 오류: 2020년 두 아이디어의 원본 숏 보존, 분석 레이어에서 실제 롱으로 교정
