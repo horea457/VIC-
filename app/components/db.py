@@ -5,6 +5,8 @@ import shutil
 import tempfile
 import streamlit as st
 
+from components.curated_overlay import apply_deep_payload
+
 ROOT = Path(__file__).resolve().parents[2]
 PROCESSED = ROOT / 'data' / 'processed'
 GZ_DB = PROCESSED / 'vic_dashboard.db.gz'
@@ -66,6 +68,10 @@ def _unpack() -> Path:
         raise sqlite3.DatabaseError(
             'V6 DB 스키마 불일치. 누락 테이블: ' + ', '.join(missing)
         )
+    # Human-reviewable research batches are overlaid after the large base DB is
+    # unpacked. This keeps each research commit small, auditable and reversible.
+    for payload in sorted((ROOT / 'data' / 'curated').glob('*_deep_v7.json')):
+        apply_deep_payload(TMP_DB, payload)
     return TMP_DB
 
 @st.cache_resource

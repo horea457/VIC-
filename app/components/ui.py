@@ -85,6 +85,11 @@ def _render_deep_postmortem(I, P, D):
     st.caption(f"리포트 {D.get('report_version') or '—'} · 분석 기준일 {D.get('research_asof') or P.get('research_asof') or '—'} · 신뢰도 {P.get('confidence',0):.0%}")
     st.markdown(f"## {I.get('company_name') or I.get('ticker')} · {I.get('ticker') or '—'}")
     pills([I.get('date','')[:10] if I.get('date') else '날짜 미상', f"실제 논지 방향 {P.get('research_direction_ko') or '미상'}", f"작성자 {I.get('author') or '미상'}", D.get('thesis_type_ko') or ''])
+    if I.get('direction_ko') and I.get('direction_ko') != P.get('research_direction_ko'):
+        st.caption(
+            f"※ 원 SQL의 방향값은 **{I.get('direction_ko')}**이지만, VIC 본문·기대수익·보유공시를 근거로 "
+            f"실제 논지 방향을 **{P.get('research_direction_ko')}**으로 교정했습니다. 원본값은 감사 추적을 위해 보존합니다."
+        )
     st.info(f"**사후분석 결론**  \n\n{D.get('one_line_verdict_ko')}")
 
     a,b,c,d = st.columns(4)
