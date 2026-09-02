@@ -1,8 +1,9 @@
 VIC Falsification DB — V7 Detailed Research
 
 전체 아이디어: 13,656
-심층 사후분석: 29
-신규 Batch 001: Farfetch 2건
+심층 사후분석: 32
+Batch 001: Farfetch 2건
+신규 Batch 002: Hawaiian Electric Industries 3건
 평가기준일: 2024-01-31
 분석일: 2026-09-02
 
@@ -18,3 +19,9 @@ Farfetch Batch 001
 - 2019-08-08 Short: 종합 성공, 원 인과 일부 오류, 경로위험 매우 큼
 - 2021-08-03 Long: 매우 실패, 기존 equity 사실상 전액 손실
 - SQL 방향 오류: 원본 숏 보존, 분석 레이어에서 실제 롱으로 교정
+
+Hawaiian Electric Batch 002
+- 2008-12-03 Short: 대체로 성공, 3개월 목표달성·장기 보유 시 실패
+- 2010-05-09 Short: 매우 실패, 규제변화·은행회복·지속배당 누락
+- 2020-06-05 Long: 매우 실패, 정상 영업논지 부분 적중·산불 책임 tail risk 누락
+- SQL 방향 오류: 2020년 원본 숏 보존, 분석 레이어에서 실제 롱으로 교정
