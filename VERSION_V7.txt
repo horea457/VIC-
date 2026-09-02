@@ -1,9 +1,10 @@
 VIC Falsification DB — V7 Detailed Research
 
 전체 아이디어: 13,656
-심층 사후분석: 32
+심층 사후분석: 35
 Batch 001: Farfetch 2건
-신규 Batch 002: Hawaiian Electric Industries 3건
+Batch 002: Hawaiian Electric Industries 3건
+신규 Batch 003: American Express GFC 3건
 평가기준일: 2024-01-31
 분석일: 2026-09-02
 
@@ -25,3 +26,9 @@ Hawaiian Electric Batch 002
 - 2010-05-09 Short: 매우 실패, 규제변화·은행회복·지속배당 누락
 - 2020-06-05 Long: 매우 실패, 정상 영업논지 부분 적중·산불 책임 tail risk 누락
 - SQL 방향 오류: 2020년 원본 숏 보존, 분석 레이어에서 실제 롱으로 교정
+
+American Express GFC Batch 003
+- 2007-04-01 Long: 실패, franchise는 맞았지만 2년 -75.6%와 자본구조 오판
+- 2008-06-12 Long: 대체로 실패, 정상화는 맞았지만 3년 2배 대신 +8.4%
+- 2008-12-31 Long: 매우 성공, 1년 +109.6%·5년 +382.8%
+- SQL 방향 오류: 세 아이디어 모두 원본 숏 보존, 분석 레이어에서 실제 롱으로 교정
