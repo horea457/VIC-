@@ -25,7 +25,7 @@ DB는 GitHub 웹 업로드 안정성을 위해 `data/processed/vic_dashboard.db.
 6. 최초 반대 신호, 회피 가능성, 재사용 가능한 학습 태그
 7. 원문·SEC 공시·기업 발표 등 근거자료와 판단 연결
 
-현재 전체 아이디어는 13,656건이며, 외부자료로 검증한 심층 사후분석은 50건입니다.
+현재 전체 아이디어는 13,656건이며, 외부자료로 검증한 심층 사후분석은 59건입니다.
 Batch 001에서는 Farfetch의 2019년 숏과 2021년 롱 2건을 추가했습니다. 원 SQL에서
 2021년 아이디어가 숏으로 잘못 저장된 문제는 원본값을 보존하고 분석 레이어에서
 실제 방향을 롱으로 교정합니다.
@@ -60,6 +60,14 @@ legacy economics, 디지털 전환, agent·규제 network, 자사주와 시작 v
 큰 손실을 낸 반면, 일부 롱은 생존을 맞히고도 장기 복리 목표에는 미달했습니다.
 SQL의 9건 전부 숏 표시는 본문에 맞춰 실제 롱 5건·숏 4건으로 교정했습니다.
 
+Batch 007에서는 Chesapeake Energy의 2001~2021년 보통주 롱 6건, 보통주 숏
+1건, 회사채 롱 2건을 자본구조 전체의 시계열로 분석했습니다. 좋은 셰일 자산의
+gross NAV와 기존 주주의 잔여가치, 단기 유동성과 장기 지급능력을 분리했습니다.
+2015년 2017채는 파산 전에 par로 상환돼 성공한 반면 2016년 2020채는 만기 직전
+Chapter 11로 실패했고, 2021년 롱은 구 부채와 기존 equity가 제거된 재편회사를
+매수해 1년 +62.0%, 2년 +115.5%를 기록했습니다. SQL 방향은 본문상 실제
+보통주 롱 6건·회사채 롱 2건·보통주 숏 1건으로 교정했습니다.
+
 ## 연구 배치 적용
 
 검토 가능한 상세 리서치는 `data/curated/*_deep_v7.json`에 저장합니다. 앱은 대형
@@ -78,3 +86,4 @@ python scripts/08_load_detailed_research.py
 - `analysis/batch_004_american_express_costco_antitrust.md`
 - `analysis/batch_005_american_express_pandemic_rewards.md`
 - `analysis/batch_006_western_union_full_history.md`
+- `analysis/batch_007_chesapeake_full_history.md`

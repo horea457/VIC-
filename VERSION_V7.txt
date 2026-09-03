@@ -1,13 +1,14 @@
 VIC Falsification DB — V7 Detailed Research
 
 전체 아이디어: 13,656
-심층 사후분석: 50
+심층 사후분석: 59
 Batch 001: Farfetch 2건
 Batch 002: Hawaiian Electric Industries 3건
 신규 Batch 003: American Express GFC 3건
 신규 Batch 004: American Express Costco·Antitrust 3건
 신규 Batch 005: American Express Pandemic·Rewards 3건
 신규 Batch 006: Western Union 장기사례 9건
+신규 Batch 007: Chesapeake Energy 자본구조 장기사례 9건
 평가기준일: 2024-01-31
 분석일: 2026-09-03
 
@@ -59,3 +60,15 @@ Western Union Batch 006
 - 2016 Short: 실패, 회계품질 경고를 manipulation으로 과잉 확정
 - 2017 Long: 부분 성공, WU.com 성장 적중·작은 성장사업의 연결기업 구원 실패
 - SQL 방향 오류: 원본 9건 숏 보존, 분석 레이어에서 실제 롱 5건·숏 4건으로 교정
+
+Chesapeake Energy Batch 007
+- 2001 Long: 성공, gas upcycle·저배수 목표 적중
+- 2006 Long: 가격 성공·논지 부분 실패, $74 도달 후 $12와 외부자금 의존
+- 2008 Long: 부분 성공, 강제청산 반등 적중·takeover와 governance 판단 실패
+- 2009 Short: 논지 부분 성공·타이밍 실패, 파산은 10년 7개월 뒤
+- 2011-02 Long: 실패, 25/25·liquids 촉매 발생에도 equity value 개선 실패
+- 2011-10 Long: 치명적 실패, acreage SOTP를 capital waterfall 없이 equity로 환산
+- 2015 2017채 Long: 매우 성공, $70 매수 후 파산 전에 par redemption
+- 2016 2020채 Long: 실패, 만기 직전 Chapter 11와 신주·warrant recovery
+- 2021 신 보통주 Long: 매우 성공, 1년 +62.0%·2년 +115.5%
+- SQL 방향 오류: 분석 레이어에서 보통주 롱 6건·회사채 롱 2건·보통주 숏 1건으로 교정
