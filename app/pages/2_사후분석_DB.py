@@ -4,7 +4,7 @@ from components.ui import apply_css,page_header,render_verified_postmortem
 
 st.set_page_config(page_title='사후분석 DB',layout='wide')
 apply_css()
-page_header('POSTMORTEM DATABASE','심층 사후분석 DB','위 목록에서 아이디어를 선택하면 아래에 검토 완료된 Batch 원문이 같은 구조와 분량으로 펼쳐집니다.')
+page_header('POSTMORTEM DATABASE','심층 사후분석 DB','위 목록에서 아이디어를 선택하면 아래에 해당 기업의 모든 투자논지를 포함한 Batch 원문 레이아웃이 펼쳐집니다.')
 
 q=st.text_input('기업·티커·작성자 검색',placeholder='예: APH, AMRN')
 verdict_values=[x['overall_verdict_ko'] for x in rows(
@@ -32,7 +32,7 @@ if not data:
     st.info('검색 조건에 맞는 심층 리포트가 없습니다.')
 else:
     st.markdown('### 분석 아이디어 목록')
-    st.caption('한 행을 누르면 바로 아래에서 기업 설명부터 최종 교훈까지 전체 리포트를 볼 수 있습니다.')
+    st.caption('한 행을 누르면 해당 기업의 기업 설명·전체 판정표·모든 시점의 투자논지·결론·근거자료를 볼 수 있습니다.')
     table=[{'게시일':x['date'][:10],'티커':x['ticker'],'기업':x['company_name'],'방향':x['research_direction_ko'],'종합판정':x['overall_verdict_ko'],'논지 유형':x['thesis_type_ko'],'Thesis':x['thesis_score']} for x in data]
     ev=st.dataframe(table,use_container_width=True,hide_index=True,on_select='rerun',selection_mode='single-row',height=min(440,100+len(table)*40),key='v11_postmortem')
     sr=ev.selection.rows if ev and hasattr(ev,'selection') else []
@@ -44,7 +44,7 @@ else:
         iid=data[0]['idea_id']
         st.session_state['v11_post_id']=iid
     st.markdown('---')
-    st.markdown('## 선택한 아이디어 · Batch 원문 상세 분석')
+    st.markdown('## 선택한 기업 · 전체 Batch 심층분석')
     render_verified_postmortem(iid,compact=False)
 
 st.caption('자동·초벌 분석은 DB에서 제거했습니다. 외부자료 검증을 마친 심층분석만 표시합니다.')

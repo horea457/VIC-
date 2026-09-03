@@ -5,7 +5,7 @@ import streamlit as st
 
 CSS = """
 <style>
-.block-container {padding-top: 1.4rem; padding-bottom: 4rem; max-width: 1240px;}
+.block-container {padding-top: 1.4rem; padding-bottom: 4rem; max-width: 1500px;}
 [data-testid="stSidebar"] {border-right: 1px solid rgba(128,128,128,.18);}
 .vic-eyebrow {font-size:.78rem; letter-spacing:.08em; text-transform:uppercase; opacity:.62; margin-bottom:.2rem;}
 .vic-title {font-size:2.05rem; font-weight:760; line-height:1.14; margin:0 0 .35rem 0;}
