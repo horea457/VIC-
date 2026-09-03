@@ -7,7 +7,11 @@ apply_css()
 page_header('POSTMORTEM DATABASE','사후분석 DB','기업이 무엇을 하는지 → 당시 VIC 투자모델 → 숫자·밸류에이션 → Claim별 가정과 반증조건 → 실제 결과 → 성공·실패 원인까지 한 화면에서 봅니다.')
 
 q=st.text_input('기업·티커·작성자 검색',placeholder='예: APH, AMRN')
-verdict=st.selectbox('종합 판정',['전체','매우 성공','성공','대체로 성공','혼합','판정 제한','대체로 실패','실패','매우 실패'])
+verdict_values=[x['overall_verdict_ko'] for x in rows(
+    '''SELECT DISTINCT overall_verdict_ko FROM postmortems
+       WHERE overall_verdict_ko IS NOT NULL AND TRIM(overall_verdict_ko)<>''
+       ORDER BY overall_verdict_ko''')]
+verdict=st.selectbox('종합 판정',['전체',*verdict_values])
 sql='''SELECT i.idea_id,i.date,i.ticker,i.company_name,i.author,p.research_direction_ko,p.overall_verdict_ko,
               p.success_pattern_ko,p.failure_pattern_ko,d.thesis_type_ko,d.thesis_score,d.process_score,d.research_asof
        FROM deep_analysis_meta d JOIN ideas_master i USING(idea_id) JOIN postmortems p USING(idea_id) WHERE 1=1'''
@@ -36,6 +40,4 @@ else:
     st.markdown('---')
     render_verified_postmortem(iid,compact=False)
 
-with st.expander('심층화 대기 초안은 어디 갔나?'):
-    n=row('''SELECT COUNT(*) n FROM postmortems WHERE idea_id NOT IN (SELECT idea_id FROM deep_analysis_meta)''')['n']
-    st.write(f'기존 짧은 사후분석 초안 {n:,}건은 이 페이지 메인 목록에서 제외했습니다. 숫자·산식·Claim별 실제 결과를 채운 뒤에만 심층 완료로 승격합니다.')
+st.caption('자동·초벌 분석은 DB에서 제거했습니다. 외부자료 검증을 마친 심층분석만 표시합니다.')

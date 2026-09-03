@@ -4,18 +4,18 @@ from components.ui import apply_css,page_header,idea_quick_view
 
 st.set_page_config(page_title='VIC 허구 반증 DB',page_icon='◈',layout='wide',initial_sidebar_state='expanded')
 apply_css()
-page_header('VIC FALSIFICATION DB','VIC 투자 아이디어 사후검증 DB','메인은 전체 현황과 검색만 보여줍니다. 패턴 연구와 개별 심층 리포트는 각각 한 페이지로 통합했습니다.')
+page_header('VIC FALSIFICATION DB','외부자료 검증 심층분석 DB','자동·초벌 분석은 제외하고, 기업·증권·논지·실제 결과까지 검증 완료한 사례만 보여줍니다.')
 
 S=row('''SELECT
- (SELECT COUNT(*) FROM ideas_master) total,
+ (SELECT COUNT(DISTINCT ticker) FROM ideas_master) companies,
  (SELECT COUNT(*) FROM deep_analysis_meta) deep,
- (SELECT COUNT(*) FROM postmortems) drafts,
- (SELECT COUNT(*) FROM deep_analysis_claims) claims''')
+ (SELECT COUNT(*) FROM deep_analysis_claims) claims,
+ (SELECT COUNT(*) FROM deep_analysis_sources) sources''')
 c1,c2,c3,c4=st.columns(4)
-c1.metric('전체 VIC 아이디어',f"{S['total']:,}")
-c2.metric('심층 사후분석 완료',f"{S['deep']:,}")
-c3.metric('심층 Claim',f"{S['claims']:,}")
-c4.metric('심층화 대기 초안',f"{max(0,S['drafts']-S['deep']):,}")
+c1.metric('심층 사후분석',f"{S['deep']:,}건")
+c2.metric('분석 기업·티커',f"{S['companies']:,}개")
+c3.metric('검증 Claim',f"{S['claims']:,}개")
+c4.metric('연결 근거자료',f"{S['sources']:,}개")
 
 st.markdown('---')
 st.subheader('바로 탐색')
@@ -51,4 +51,4 @@ if data:
 else:
     st.info('검색 조건에 맞는 심층 완료 사례가 없습니다.')
 
-st.caption('현재 “심층 완료”는 Amarin/Amphenol급 기준을 충족한 사례만 집계합니다. 기존 짧은 초안과 자동 태그는 완료로 세지 않습니다.')
+st.caption('Production DB에는 심층 검증 완료 사례만 저장됩니다. 새 연구 배치가 GitHub main에 반영되면 목록과 수치가 함께 증가합니다.')

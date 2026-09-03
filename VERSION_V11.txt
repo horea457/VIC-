@@ -1,10 +1,17 @@
-VIC Falsification DB — V10 Detailed Research
+VIC Falsification DB — V11 Curated Only
 
-전체 아이디어: 13,656
-심층 사후분석: 149
+Production DB 아이디어: 149
+심층 사후분석: 149 (100%)
 신규 Batch 010: Groupe Aeroplan/Aimia·AerCap 8건, Hertz 8건, Spirit Airlines 7건, General Motors 7건
 평가기준일: 2024-01-31
 분석일: 2026-09-03
+
+V11 정리
+- 기존 자동·초벌 분석 13,656건 제거
+- 자동 Claim 32,571개와 자동 profile·verification queue 제거
+- 심층분석 완료 ideas_master 149건만 유지
+- 기존 패턴 DB 대신 심층 success/failure 태그를 앱에서 직접 집계
+- 구형 중복 앱·초벌 JSON·13,656건 CSV·이전 버전 안내 파일 삭제
 
 Batch 010 산출물
 - 기업·사업모델 상세 설명 5개 법인/증권군

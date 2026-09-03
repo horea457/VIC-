@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[2]
 PROCESSED = ROOT / 'data' / 'processed'
 GZ_DB = PROCESSED / 'vic_dashboard.db.gz'
 PARTS = sorted(PROCESSED.glob('vic_dashboard.db.gz.part*'))
-TMP_ROOT = Path('/tmp/vic_falsification_lab_v6_1')
+TMP_ROOT = Path('/tmp/vic_falsification_curated_v11')
 TMP_GZ = TMP_ROOT / 'vic_dashboard.db.gz'
 TMP_DB = TMP_ROOT / 'vic_dashboard.db'
 
@@ -35,7 +35,7 @@ def _schema_ok(path: Path) -> bool:
     return REQUIRED.issubset(_schema_tables(path))
 
 def _assemble_gz() -> Path:
-    """V6 분할 DB를 최우선 사용한다.
+    """Curated-only 분할 DB를 최우선 사용한다.
 
     과거 버전의 vic_dashboard.db.gz가 repo에 남아 있어도 무시한다.
     """
@@ -66,7 +66,7 @@ def _unpack() -> Path:
         tables = sorted(_schema_tables(TMP_DB))
         missing = sorted(REQUIRED - set(tables))
         raise sqlite3.DatabaseError(
-            'V6 DB 스키마 불일치. 누락 테이블: ' + ', '.join(missing)
+            'Curated DB 스키마 불일치. 누락 테이블: ' + ', '.join(missing)
         )
     # Human-reviewable research batches are overlaid after the large base DB is
     # unpacked. This keeps each research commit small, auditable and reversible.

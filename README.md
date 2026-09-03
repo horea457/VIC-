@@ -1,7 +1,7 @@
-# VIC Falsification DB — V10 Detailed Research
+# VIC Falsification DB — V11 Curated Only
 
-VIC 투자 아이디어 13,656건을 탐색하고, 원문 투자논지를 실제 결과와 대조해
-기업별 성공·실패 메커니즘을 축적하는 Streamlit 대시보드입니다.
+외부자료로 검증한 VIC 심층 사후분석만 저장·표시하는 Streamlit 대시보드입니다.
+자동 생성 분석, 짧은 초안, 미검증 후보는 production DB에 넣지 않습니다.
 
 1. `Home.py` — 메인 현황/검색
 2. `성공·실패 요인 분석` — 패턴 → 기업/아이디어 → 심층분석
@@ -11,7 +11,16 @@ VIC 투자 아이디어 13,656건을 탐색하고, 원문 투자논지를 실제
 압축을 풀고 **안의 파일/폴더 전체를 GitHub 저장소 루트에 업로드**합니다.
 기존 `app/pages` 안의 예전 페이지 파일은 삭제하는 것을 권장합니다.
 
-DB는 GitHub 웹 업로드 안정성을 위해 `data/processed/vic_dashboard.db.gz.part00~03`으로 분할되어 있습니다. 앱 실행 시 자동 결합/압축해제합니다.
+DB는 `data/processed/vic_dashboard.db.gz.part00`에 압축되어 있으며 앱 실행 시 자동
+결합·압축해제합니다. 연구가 늘어 파일이 4MB를 넘으면 `part01`부터 자동으로 추가합니다.
+
+## Curated-only 운영 원칙
+
+- production DB의 `ideas_master`에는 심층분석 완료 아이디어만 남깁니다.
+- `deep_analysis_*`와 `postmortems`가 분석의 유일한 source of truth입니다.
+- 과거 자동 분석·자동 Claim·검증 대기열·자동 패턴 행은 모두 제거했습니다.
+- 새 배치를 검증한 뒤 DB에 추가하고 GitHub `main`을 갱신하면 Streamlit도 재배포됩니다.
+- 삭제 전 전체 데이터는 Git 이력의 V10 커밋에서 복구할 수 있습니다.
 
 ## V7 상세 사후분석 표준
 
@@ -25,7 +34,7 @@ DB는 GitHub 웹 업로드 안정성을 위해 `data/processed/vic_dashboard.db.
 6. 최초 반대 신호, 회피 가능성, 재사용 가능한 학습 태그
 7. 원문·SEC 공시·기업 발표 등 근거자료와 판단 연결
 
-현재 전체 아이디어는 13,656건이며, 외부자료로 검증한 심층 사후분석은 149건입니다.
+현재 production DB에는 외부자료로 검증한 심층 사후분석 149건만 있습니다.
 Batch 001에서는 Farfetch의 2019년 숏과 2021년 롱 2건을 추가했습니다. 원 SQL에서
 2021년 아이디어가 숏으로 잘못 저장된 문제는 원본값을 보존하고 분석 레이어에서
 실제 방향을 롱으로 교정합니다.
@@ -95,8 +104,8 @@ stress value, cycle 정상화 이익과 현금유동성, 보통주·EETC 채권�
 
 ## 연구 배치 적용
 
-검토 가능한 상세 리서치는 `data/curated/*_deep_v7.json`에 저장합니다. 앱은 대형
-기본 DB를 푼 뒤 이 JSON 배치를 idempotent overlay로 적용합니다. 로컬 DB에 영구
+검토 가능한 상세 리서치는 `data/curated/*_deep_v7.json`에 저장합니다. 앱은 소형
+curated DB를 푼 뒤 이 JSON 배치를 idempotent overlay로 적용합니다. 로컬 DB에 영구
 반영하려면 다음 명령을 사용합니다.
 
 ```bash
