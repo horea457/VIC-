@@ -4,7 +4,7 @@ from components.ui import apply_css,page_header,render_verified_postmortem
 
 st.set_page_config(page_title='사후분석 DB',layout='wide')
 apply_css()
-page_header('POSTMORTEM DATABASE','사후분석 DB','기업이 무엇을 하는지 → 당시 VIC 투자모델 → 숫자·밸류에이션 → Claim별 가정과 반증조건 → 실제 결과 → 성공·실패 원인까지 한 화면에서 봅니다.')
+page_header('POSTMORTEM DATABASE','심층 사후분석 DB','위 목록에서 아이디어를 선택하면 아래에 Batch 리포트 형식의 전체 분석이 펼쳐집니다.')
 
 q=st.text_input('기업·티커·작성자 검색',placeholder='예: APH, AMRN')
 verdict_values=[x['overall_verdict_ko'] for x in rows(
@@ -31,13 +31,20 @@ c3.metric('분석 기준','VIC 원문 → Claim → 사후검증')
 if not data:
     st.info('검색 조건에 맞는 심층 리포트가 없습니다.')
 else:
-    table=[{'게시일':x['date'][:10],'티커':x['ticker'],'기업':x['company_name'],'방향':x['research_direction_ko'],'종합판정':x['overall_verdict_ko'],'성공 패턴':x['success_pattern_ko'],'실패/혼합 패턴':x['failure_pattern_ko'],'Thesis':x['thesis_score'],'프로세스':x['process_score'],'기준일':x['research_asof']} for x in data]
-    ev=st.dataframe(table,use_container_width=True,hide_index=True,on_select='rerun',selection_mode='single-row',height=min(520,100+len(table)*44),key='v6_postmortem')
+    st.markdown('### 분석 아이디어 목록')
+    st.caption('한 행을 누르면 바로 아래에서 기업 설명부터 최종 교훈까지 전체 리포트를 볼 수 있습니다.')
+    table=[{'게시일':x['date'][:10],'티커':x['ticker'],'기업':x['company_name'],'방향':x['research_direction_ko'],'종합판정':x['overall_verdict_ko'],'논지 유형':x['thesis_type_ko'],'Thesis':x['thesis_score']} for x in data]
+    ev=st.dataframe(table,use_container_width=True,hide_index=True,on_select='rerun',selection_mode='single-row',height=min(440,100+len(table)*40),key='v11_postmortem')
     sr=ev.selection.rows if ev and hasattr(ev,'selection') else []
     if sr:
-        st.session_state['v6_post_id']=data[sr[0]]['idea_id']
-    iid=st.session_state.get('v6_post_id') or data[0]['idea_id']
+        st.session_state['v11_post_id']=data[sr[0]]['idea_id']
+    visible_ids={x['idea_id'] for x in data}
+    iid=st.session_state.get('v11_post_id')
+    if iid not in visible_ids:
+        iid=data[0]['idea_id']
+        st.session_state['v11_post_id']=iid
     st.markdown('---')
+    st.markdown('## 선택한 아이디어 상세 분석')
     render_verified_postmortem(iid,compact=False)
 
 st.caption('자동·초벌 분석은 DB에서 제거했습니다. 외부자료 검증을 마친 심층분석만 표시합니다.')

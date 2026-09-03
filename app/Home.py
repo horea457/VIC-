@@ -1,6 +1,6 @@
 import streamlit as st
 from components.db import rows,row
-from components.ui import apply_css,page_header,idea_quick_view
+from components.ui import apply_css,page_header
 
 st.set_page_config(page_title='VIC 허구 반증 DB',page_icon='◈',layout='wide',initial_sidebar_state='expanded')
 apply_css()
@@ -47,7 +47,8 @@ if data:
     ev=st.dataframe(table,use_container_width=True,hide_index=True,on_select='rerun',selection_mode='single-row',height=min(380,100+len(table)*42))
     sr=ev.selection.rows if ev and hasattr(ev,'selection') else []
     if sr:
-        idea_quick_view(data[sr[0]]['idea_id'])
+        st.session_state['v11_post_id']=data[sr[0]]['idea_id']
+        st.switch_page('pages/2_사후분석_DB.py')
 else:
     st.info('검색 조건에 맞는 심층 완료 사례가 없습니다.')
 

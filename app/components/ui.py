@@ -1,9 +1,10 @@
+import html
 import json
 import streamlit as st
 
 CSS = """
 <style>
-.block-container {padding-top: 1.4rem; padding-bottom: 3rem; max-width: 1500px;}
+.block-container {padding-top: 1.4rem; padding-bottom: 4rem; max-width: 1240px;}
 [data-testid="stSidebar"] {border-right: 1px solid rgba(128,128,128,.18);}
 .vic-eyebrow {font-size:.78rem; letter-spacing:.08em; text-transform:uppercase; opacity:.62; margin-bottom:.2rem;}
 .vic-title {font-size:2.05rem; font-weight:760; line-height:1.14; margin:0 0 .35rem 0;}
@@ -15,6 +16,14 @@ CSS = """
 .quick-section {font-size:1.05rem; font-weight:740; margin-top:.85rem; margin-bottom:.3rem;}
 .quick-box {border:1px solid rgba(128,128,128,.18); border-radius:12px; padding:.75rem .9rem; margin:.25rem 0 .6rem 0; background:rgba(128,128,128,.025);}
 .verdict-success {font-weight:740;}
+.report-kicker {font-size:.78rem; font-weight:760; letter-spacing:.08em; color:#2563eb; margin-top:.2rem;}
+.report-title {font-size:1.85rem; font-weight:780; line-height:1.2; margin:.15rem 0 .5rem 0;}
+.section-number {font-size:.78rem; font-weight:760; color:#2563eb; letter-spacing:.06em; margin-top:1.9rem; margin-bottom:.15rem;}
+.section-title {font-size:1.42rem; font-weight:780; line-height:1.3; margin-bottom:.75rem;}
+.thesis-card {border-left:4px solid #2563eb; border-radius:8px; padding:.85rem 1rem; margin:.45rem 0 .8rem 0; background:rgba(37,99,235,.055); line-height:1.65;}
+.result-card {border-left:4px solid #d97706; border-radius:8px; padding:.85rem 1rem; margin:.45rem 0 .8rem 0; background:rgba(217,119,6,.055); line-height:1.65;}
+.lesson-card {border:1px solid rgba(37,99,235,.25); border-radius:12px; padding:.9rem 1rem; margin:.65rem 0; background:rgba(37,99,235,.035);}
+.muted-label {font-size:.76rem; font-weight:740; opacity:.58; text-transform:uppercase; letter-spacing:.04em; margin-bottom:.22rem;}
 hr {margin:1.15rem 0 1rem 0 !important;}
 </style>
 """
@@ -157,6 +166,163 @@ def _render_deep_postmortem(I, P, D):
                     st.markdown(f"[원문 자료 열기]({s['url']})")
     return True
 
+
+def _render_batch_postmortem(I, P, D):
+    """Batch markdown과 같은 순서로 한 아이디어를 세로형 리포트로 표시한다."""
+    from components.db import rows
+
+    idea_id = I['idea_id']
+    claims = rows('''
+        SELECT claim_order,claim_title_ko,thesis_weight_pct,original_claim_ko,
+               key_assumption_ko,ex_ante_falsifier_ko,actual_result_ko,
+               quantitative_gap_ko,verdict_ko,analytical_error_ko,reusable_lesson_ko
+        FROM deep_analysis_claims WHERE idea_id=? ORDER BY claim_order
+    ''', (idea_id,))
+    metrics = rows('''
+        SELECT metric_order,metric_name_ko,t0_value_ko,thesis_expectation_ko,
+               actual_value_ko,verdict_ko
+        FROM deep_analysis_metrics WHERE idea_id=? ORDER BY metric_order
+    ''', (idea_id,))
+    timeline = rows('''
+        SELECT event_order,event_date_ko,event_ko,thesis_implication_ko
+        FROM deep_analysis_timeline WHERE idea_id=? ORDER BY event_order
+    ''', (idea_id,))
+    sources = rows('''
+        SELECT source_order,source_type_ko,title_ko,publisher,source_date,url,evidence_ko
+        FROM deep_analysis_sources WHERE idea_id=? ORDER BY source_order
+    ''', (idea_id,))
+
+    st.markdown('<div class="report-kicker">VIC DEEP POSTMORTEM</div>', unsafe_allow_html=True)
+    company = html.escape(str(I.get('company_name') or I.get('ticker') or '기업 미상'))
+    ticker = html.escape(str(I.get('ticker') or '—'))
+    st.markdown(
+        f'<div class="report-title">{company} ({ticker})</div>',
+        unsafe_allow_html=True,
+    )
+    pills([
+        I.get('date', '')[:10] if I.get('date') else '날짜 미상',
+        f"{P.get('research_direction_ko') or '방향 미상'}",
+        f"작성자 {I.get('author') or '미상'}",
+        D.get('thesis_type_ko') or '투자논지',
+        f"기준일 {D.get('research_asof') or P.get('research_asof') or '—'}",
+    ])
+
+    def normalized_direction(value):
+        value = str(value or '').strip().lower()
+        if value in {'롱', 'long'}:
+            return 'long'
+        if value in {'숏', 'short'}:
+            return 'short'
+        return value
+
+    if I.get('direction_ko') and normalized_direction(I.get('direction_ko')) != normalized_direction(P.get('research_direction_ko')):
+        st.caption(
+            f"※ 원 SQL 방향은 {I.get('direction_ko')}이지만 VIC 본문·추천 증권·목표수익을 근거로 "
+            f"실제 방향을 {P.get('research_direction_ko')}으로 교정했습니다."
+        )
+
+    st.markdown('<div class="section-number">CONCLUSION</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-title">결론부터</div>', unsafe_allow_html=True)
+    st.info(D.get('one_line_verdict_ko') or P.get('why_ko') or '결론 미기재')
+    summary = [{
+        '실제 방향': P.get('research_direction_ko') or '—',
+        '종합 판정': P.get('overall_verdict_ko') or '—',
+        '주가·증권 결과': D.get('return_summary_ko') or P.get('stock_verdict_ko') or '—',
+        '논지 / 프로세스': f"{D.get('thesis_score', 0):.1f} / {D.get('process_score', 0):.1f}",
+        '신뢰도': f"{P.get('confidence', 0):.0%}",
+    }]
+    st.dataframe(summary, use_container_width=True, hide_index=True, height=82)
+
+    st.markdown('<div class="section-number">01 · BUSINESS</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-title">이 기업은 무엇을 하고 어떻게 돈을 버나</div>', unsafe_allow_html=True)
+    st.markdown(P.get('company_description_ko') or '기업 설명 미기재')
+
+    st.markdown('<div class="section-number">02 · ORIGINAL THESIS</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-title">당시 VIC 투자논지</div>', unsafe_allow_html=True)
+    with st.container(border=True):
+        st.markdown(P.get('original_thesis_ko') or '투자논지 미기재')
+
+    if claims:
+        st.markdown('#### 투자논지를 구성한 핵심 주장')
+        st.caption('각 주장마다 당시 생각, 성립 조건, 사전에 확인할 반증조건과 실제 결과를 분리했습니다.')
+        for claim in claims:
+            verdict = claim.get('verdict_ko') or '미판정'
+            icon = '✅' if ('성공' in verdict and '실패' not in verdict) else ('❌' if '실패' in verdict else '◐')
+            with st.container(border=True):
+                st.markdown(
+                    f"#### {claim['claim_order']}. {claim['claim_title_ko']}  "
+                    f"`비중 {claim['thesis_weight_pct']}%` · {icon} **{verdict}**"
+                )
+                st.markdown(f"**당시 주장**  \n{claim['original_claim_ko']}")
+                st.markdown(f"**이 주장이 성립하려면**  \n{claim['key_assumption_ko']}")
+                st.markdown(f"**실제 결과**  \n{claim['actual_result_ko']}")
+                with st.expander('반증조건·정량 괴리·재사용 교훈'):
+                    st.markdown(f"**사전 반증조건**  \n{claim['ex_ante_falsifier_ko']}")
+                    st.markdown(f"**정량적 괴리**  \n{claim['quantitative_gap_ko']}")
+                    st.markdown(f"**분석 오류·핵심**  \n{claim['analytical_error_ko']}")
+                    st.markdown(f"**재사용할 교훈**  \n{claim['reusable_lesson_ko']}")
+
+    st.markdown('<div class="section-number">03 · WHAT HAPPENED</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-title">실제로 무슨 일이 일어났나</div>', unsafe_allow_html=True)
+    with st.container(border=True):
+        st.markdown(P.get('actual_development_ko') or '실제 전개 미기재')
+    if timeline:
+        st.markdown('#### 사건 타임라인')
+        for event in timeline:
+            with st.container(border=True):
+                st.markdown(f"**{event['event_date_ko']} · {event['event_ko']}**")
+                st.write(event['thesis_implication_ko'])
+
+    st.markdown('<div class="section-number">04 · VERDICT</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-title">왜 성공했고, 왜 실패했나</div>', unsafe_allow_html=True)
+    verdict_rows = [
+        ('사업 판단', P.get('business_verdict_ko')),
+        ('밸류에이션 판단', P.get('valuation_verdict_ko')),
+        ('촉매·시간 판단', P.get('catalyst_verdict_ko')),
+        ('주가·증권 결과', P.get('stock_verdict_ko')),
+    ]
+    for label, value in verdict_rows:
+        if value:
+            st.markdown(f"**{label}**  \n{value}")
+    with st.container(border=True):
+        st.markdown('**ROOT ERROR / CORE LESSON**')
+        st.markdown(P.get('why_ko') or D.get('core_error_ko') or '—')
+    if P.get('first_signal_ko'):
+        st.warning(f"**논지가 처음 확인되거나 깨진 신호 · {P.get('first_signal_date') or '—'}**  \n\n{P.get('first_signal_ko')}")
+    st.info(f"**당시에 이 질문을 했어야 합니다**  \n\n{P.get('counterfactual_question_ko') or '—'}")
+
+    if metrics:
+        st.markdown('<div class="section-number">05 · NUMBERS</div>', unsafe_allow_html=True)
+        st.markdown('<div class="section-title">당시 숫자와 실제 결과</div>', unsafe_allow_html=True)
+        metric_table = [{
+            '지표': m['metric_name_ko'], '글 당시': m['t0_value_ko'],
+            'VIC 기대': m['thesis_expectation_ko'], '실제': m['actual_value_ko'],
+            '판정': m['verdict_ko'],
+        } for m in metrics]
+        st.dataframe(metric_table, use_container_width=True, hide_index=True, height=min(410, 82 + len(metric_table) * 40))
+
+    st.markdown('<div class="section-number">06 · PATTERNS</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-title">이 사례에서 남길 성공·실패 유형</div>', unsafe_allow_html=True)
+    left, right = st.columns(2)
+    with left:
+        st.markdown('#### 성공·유효했던 부분')
+        st.write((P.get('success_pattern_ko') or '없음').replace(';', ' · '))
+    with right:
+        st.markdown('#### 실패·주의할 부분')
+        st.write((P.get('failure_pattern_ko') or '없음').replace(';', ' · '))
+
+    if sources:
+        st.markdown('<div class="section-number">07 · SOURCES</div>', unsafe_allow_html=True)
+        st.markdown('<div class="section-title">주요 근거자료</div>', unsafe_allow_html=True)
+        for source in sources:
+            title = f"{source['source_order']}. [{source['source_type_ko']}] {source['title_ko']}"
+            with st.expander(title):
+                st.caption(f"{source['publisher']} · {source['source_date']}")
+                st.write(source['evidence_ko'])
+                if source.get('url'):
+                    st.markdown(f"[원문 자료 열기]({source['url']})")
+    return True
+
 def render_verified_postmortem(idea_id: str, compact: bool = False):
     """사후검증 완료 아이디어의 심층 리서치 노트를 렌더링한다."""
     from components.db import row, rows
@@ -168,7 +334,7 @@ def render_verified_postmortem(idea_id: str, compact: bool = False):
 
     D = row('SELECT * FROM deep_analysis_meta WHERE idea_id=?', (idea_id,))
     if D:
-        return _render_deep_postmortem(I, P, D)
+        return _render_batch_postmortem(I, P, D)
     # V5: 이전 표준 초안은 더 이상 '사후분석 완료'로 렌더링하지 않는다.
     return False
 
