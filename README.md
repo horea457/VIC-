@@ -1,4 +1,4 @@
-# VIC Falsification DB — V8 Detailed Research
+# VIC Falsification DB — V9 Detailed Research
 
 VIC 투자 아이디어 13,656건을 탐색하고, 원문 투자논지를 실제 결과와 대조해
 기업별 성공·실패 메커니즘을 축적하는 Streamlit 대시보드입니다.
@@ -25,7 +25,7 @@ DB는 GitHub 웹 업로드 안정성을 위해 `data/processed/vic_dashboard.db.
 6. 최초 반대 신호, 회피 가능성, 재사용 가능한 학습 태그
 7. 원문·SEC 공시·기업 발표 등 근거자료와 판단 연결
 
-현재 전체 아이디어는 13,656건이며, 외부자료로 검증한 심층 사후분석은 89건입니다.
+현재 전체 아이디어는 13,656건이며, 외부자료로 검증한 심층 사후분석은 119건입니다.
 Batch 001에서는 Farfetch의 2019년 숏과 2021년 롱 2건을 추가했습니다. 원 SQL에서
 2021년 아이디어가 숏으로 잘못 저장된 문제는 원본값을 보존하고 분석 레이어에서
 실제 방향을 롱으로 교정합니다.
@@ -77,6 +77,14 @@ funding runway와 2013년 주당 $16 매각계약의 발표·종료를 구분했
 따라 기대수익과 경로위험이 달라짐을 분석했습니다. 30건 모두 본문상 실제 방향은
 보통주 Long이며, 원 SQL에서 Short로 저장된 12건은 분석 레이어에서 교정했습니다.
 
+Batch 009에서는 Netflix 8건, ADT 8건, Activision Blizzard 8건, Alibaba 6건을
+분석했습니다. Netflix는 DVD에서 글로벌 streaming으로 바뀌는 terminal economics와
+콘텐츠 cash spend의 시간차를, ADT는 RMR에서 유지 SAC·부채를 차감한 equity FCF를
+검증했습니다. Activision Blizzard는 portfolio IP·문화/지배구조와 Microsoft $95
+인수의 standalone/merger-arb 성격을 분리했고, Alibaba는 commerce·Cloud·Ant SOTP와
+VIE 청구권·정책·holding discount를 대조했습니다. 원 SQL의 30건 short 표시는 실제
+Long 19건·Short 10건·혼합 이벤트 1건으로 분석 레이어에서 교정했습니다.
+
 ## 연구 배치 적용
 
 검토 가능한 상세 리서치는 `data/curated/*_deep_v7.json`에 저장합니다. 앱은 대형
@@ -97,3 +105,4 @@ python scripts/08_load_detailed_research.py
 - `analysis/batch_006_western_union_full_history.md`
 - `analysis/batch_007_chesapeake_full_history.md`
 - `analysis/batch_008_ezpw_lov_nick_cost_30.md`
+- `analysis/batch_009_nflx_adt_atvi_baba_30.md`
