@@ -4,7 +4,7 @@ from components.ui import apply_css,page_header,render_verified_postmortem
 
 st.set_page_config(page_title='사후분석 DB',layout='wide')
 apply_css()
-page_header('POSTMORTEM DATABASE','심층 사후분석 DB','위 목록에서 아이디어를 선택하면 아래에 Batch 리포트 형식의 전체 분석이 펼쳐집니다.')
+page_header('POSTMORTEM DATABASE','심층 사후분석 DB','위 목록에서 아이디어를 선택하면 아래에 검토 완료된 Batch 원문이 같은 구조와 분량으로 펼쳐집니다.')
 
 q=st.text_input('기업·티커·작성자 검색',placeholder='예: APH, AMRN')
 verdict_values=[x['overall_verdict_ko'] for x in rows(
@@ -44,7 +44,7 @@ else:
         iid=data[0]['idea_id']
         st.session_state['v11_post_id']=iid
     st.markdown('---')
-    st.markdown('## 선택한 아이디어 상세 분석')
+    st.markdown('## 선택한 아이디어 · Batch 원문 상세 분석')
     render_verified_postmortem(iid,compact=False)
 
 st.caption('자동·초벌 분석은 DB에서 제거했습니다. 외부자료 검증을 마친 심층분석만 표시합니다.')

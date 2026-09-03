@@ -1,5 +1,6 @@
 import html
 import json
+import re
 import streamlit as st
 
 CSS = """
@@ -27,6 +28,13 @@ CSS = """
 hr {margin:1.15rem 0 1rem 0 !important;}
 </style>
 """
+
+
+def _literal_dollars(value):
+    """Keep financial dollar figures out of Streamlit's inline-LaTeX parser."""
+    if value is None:
+        return value
+    return re.sub(r'(?<!\\)\$', r'\\$', str(value))
 
 CSS_PATTERN = """
 <style>
@@ -223,7 +231,7 @@ def _render_batch_postmortem(I, P, D):
 
     st.markdown('<div class="section-number">CONCLUSION</div>', unsafe_allow_html=True)
     st.markdown('<div class="section-title">결론부터</div>', unsafe_allow_html=True)
-    st.info(D.get('one_line_verdict_ko') or P.get('why_ko') or '결론 미기재')
+    st.info(_literal_dollars(D.get('one_line_verdict_ko') or P.get('why_ko') or '결론 미기재'))
     summary = [{
         '실제 방향': P.get('research_direction_ko') or '—',
         '종합 판정': P.get('overall_verdict_ko') or '—',
@@ -235,12 +243,12 @@ def _render_batch_postmortem(I, P, D):
 
     st.markdown('<div class="section-number">01 · BUSINESS</div>', unsafe_allow_html=True)
     st.markdown('<div class="section-title">이 기업은 무엇을 하고 어떻게 돈을 버나</div>', unsafe_allow_html=True)
-    st.markdown(P.get('company_description_ko') or '기업 설명 미기재')
+    st.markdown(_literal_dollars(P.get('company_description_ko') or '기업 설명 미기재'))
 
     st.markdown('<div class="section-number">02 · ORIGINAL THESIS</div>', unsafe_allow_html=True)
     st.markdown('<div class="section-title">당시 VIC 투자논지</div>', unsafe_allow_html=True)
     with st.container(border=True):
-        st.markdown(P.get('original_thesis_ko') or '투자논지 미기재')
+        st.markdown(_literal_dollars(P.get('original_thesis_ko') or '투자논지 미기재'))
 
     if claims:
         st.markdown('#### 투자논지를 구성한 핵심 주장')
@@ -253,19 +261,19 @@ def _render_batch_postmortem(I, P, D):
                     f"#### {claim['claim_order']}. {claim['claim_title_ko']}  "
                     f"`비중 {claim['thesis_weight_pct']}%` · {icon} **{verdict}**"
                 )
-                st.markdown(f"**당시 주장**  \n{claim['original_claim_ko']}")
-                st.markdown(f"**이 주장이 성립하려면**  \n{claim['key_assumption_ko']}")
-                st.markdown(f"**실제 결과**  \n{claim['actual_result_ko']}")
+                st.markdown(_literal_dollars(f"**당시 주장**  \n{claim['original_claim_ko']}"))
+                st.markdown(_literal_dollars(f"**이 주장이 성립하려면**  \n{claim['key_assumption_ko']}"))
+                st.markdown(_literal_dollars(f"**실제 결과**  \n{claim['actual_result_ko']}"))
                 with st.expander('반증조건·정량 괴리·재사용 교훈'):
-                    st.markdown(f"**사전 반증조건**  \n{claim['ex_ante_falsifier_ko']}")
-                    st.markdown(f"**정량적 괴리**  \n{claim['quantitative_gap_ko']}")
-                    st.markdown(f"**분석 오류·핵심**  \n{claim['analytical_error_ko']}")
-                    st.markdown(f"**재사용할 교훈**  \n{claim['reusable_lesson_ko']}")
+                    st.markdown(_literal_dollars(f"**사전 반증조건**  \n{claim['ex_ante_falsifier_ko']}"))
+                    st.markdown(_literal_dollars(f"**정량적 괴리**  \n{claim['quantitative_gap_ko']}"))
+                    st.markdown(_literal_dollars(f"**분석 오류·핵심**  \n{claim['analytical_error_ko']}"))
+                    st.markdown(_literal_dollars(f"**재사용할 교훈**  \n{claim['reusable_lesson_ko']}"))
 
     st.markdown('<div class="section-number">03 · WHAT HAPPENED</div>', unsafe_allow_html=True)
     st.markdown('<div class="section-title">실제로 무슨 일이 일어났나</div>', unsafe_allow_html=True)
     with st.container(border=True):
-        st.markdown(P.get('actual_development_ko') or '실제 전개 미기재')
+        st.markdown(_literal_dollars(P.get('actual_development_ko') or '실제 전개 미기재'))
     if timeline:
         st.markdown('#### 사건 타임라인')
         for event in timeline:
@@ -283,13 +291,13 @@ def _render_batch_postmortem(I, P, D):
     ]
     for label, value in verdict_rows:
         if value:
-            st.markdown(f"**{label}**  \n{value}")
+            st.markdown(_literal_dollars(f"**{label}**  \n{value}"))
     with st.container(border=True):
         st.markdown('**ROOT ERROR / CORE LESSON**')
-        st.markdown(P.get('why_ko') or D.get('core_error_ko') or '—')
+        st.markdown(_literal_dollars(P.get('why_ko') or D.get('core_error_ko') or '—'))
     if P.get('first_signal_ko'):
-        st.warning(f"**논지가 처음 확인되거나 깨진 신호 · {P.get('first_signal_date') or '—'}**  \n\n{P.get('first_signal_ko')}")
-    st.info(f"**당시에 이 질문을 했어야 합니다**  \n\n{P.get('counterfactual_question_ko') or '—'}")
+        st.warning(_literal_dollars(f"**논지가 처음 확인되거나 깨진 신호 · {P.get('first_signal_date') or '—'}**  \n\n{P.get('first_signal_ko')}"))
+    st.info(_literal_dollars(f"**당시에 이 질문을 했어야 합니다**  \n\n{P.get('counterfactual_question_ko') or '—'}"))
 
     if metrics:
         st.markdown('<div class="section-number">05 · NUMBERS</div>', unsafe_allow_html=True)
@@ -334,6 +342,9 @@ def render_verified_postmortem(idea_id: str, compact: bool = False):
 
     D = row('SELECT * FROM deep_analysis_meta WHERE idea_id=?', (idea_id,))
     if D:
+        from components.batch_report import render_batch_source_report
+        if render_batch_source_report(I):
+            return True
         return _render_batch_postmortem(I, P, D)
     # V5: 이전 표준 초안은 더 이상 '사후분석 완료'로 렌더링하지 않는다.
     return False
