@@ -29,6 +29,7 @@ BATCH_SOURCES = (
     ("batch_009_nflx_adt_atvi_baba_deep_v7.json", "batch_009_nflx_adt_atvi_baba_30.md", "Batch 009"),
     ("batch_010_transport_capital_structure_deep_v7.json", "batch_010_transport_capital_structure_30.md", "Batch 010"),
     ("batch_011_apple_google_deep_v7.json", "batch_011_apple_google_10.md", "Batch 011"),
+    ("batch_012_alt_managers_deep_v7.json", "batch_012_alt_managers_10.md", "Batch 012"),
 )
 
 
