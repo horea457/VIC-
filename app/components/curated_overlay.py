@@ -120,6 +120,12 @@ def apply_deep_payload(db_path: Path | str, payload_path: Path | str) -> dict[st
     payload = json.loads(payload_path.read_text(encoding="utf-8"))
 
     with sqlite3.connect(db_path) as conn:
+        # New reviewed batches may contain source metadata for ideas that were
+        # intentionally removed from the curated-only production database.
+        # Insert only those explicitly reviewed rows before validating the
+        # overlay; this keeps the deployable DB curated without requiring the
+        # 13,656-row source database at runtime.
+        _insert_rows(conn, "ideas_master", payload.get("ideas_master", []))
         idea_ids = _validate_payload(conn, payload)
         marks = ",".join("?" for _ in idea_ids)
 

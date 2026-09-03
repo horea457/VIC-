@@ -28,6 +28,7 @@ BATCH_SOURCES = (
     ("batch_008_ezpw_lov_nick_cost_deep_v7.json", "batch_008_ezpw_lov_nick_cost_30.md", "Batch 008"),
     ("batch_009_nflx_adt_atvi_baba_deep_v7.json", "batch_009_nflx_adt_atvi_baba_30.md", "Batch 009"),
     ("batch_010_transport_capital_structure_deep_v7.json", "batch_010_transport_capital_structure_30.md", "Batch 010"),
+    ("batch_011_apple_google_deep_v7.json", "batch_011_apple_google_10.md", "Batch 011"),
 )
 
 
@@ -114,7 +115,7 @@ def batch_report_for_idea(idea_id: str, date: str) -> dict | None:
     if not item:
         return None
     text = Path(item["markdown_path"]).read_text(encoding="utf-8")
-    if item["batch_name"] in {"Batch 008", "Batch 009", "Batch 010"}:
+    if int(item["batch_name"].split()[-1]) >= 8:
         report = _extract_modern_company_report(text, date)
     else:
         report = _extract_legacy_report(text, item["position"])
