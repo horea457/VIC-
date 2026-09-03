@@ -1,14 +1,15 @@
 VIC Falsification DB — V7 Detailed Research
 
 전체 아이디어: 13,656
-심층 사후분석: 41
+심층 사후분석: 50
 Batch 001: Farfetch 2건
 Batch 002: Hawaiian Electric Industries 3건
 신규 Batch 003: American Express GFC 3건
 신규 Batch 004: American Express Costco·Antitrust 3건
 신규 Batch 005: American Express Pandemic·Rewards 3건
+신규 Batch 006: Western Union 장기사례 9건
 평가기준일: 2024-01-31
-분석일: 2026-09-02
+분석일: 2026-09-03
 
 V7의 최소 분석 단위
 - 기업·사업부별 비즈니스 모델과 경제성
@@ -46,3 +47,15 @@ American Express Pandemic·Rewards Batch 005
 - 2020-10-14 Long: 매우 성공, 1년 +66.1%; 2025 회복 stress에서도 저평가
 - 2022-05-31 Short: 대체로 실패, 6개월 가격 성공·실적과 중기 thesis 실패
 - SQL 방향 오류: 2020년 두 아이디어의 원본 숏 보존, 분석 레이어에서 실제 롱으로 교정
+
+Western Union Batch 006
+- 2007 Long: 실패, 1년 +16.4% 뒤 5년 -16.8%; volume-to-profit bridge 누락
+- 2011 Long: 부분 성공, 5년 +44.3%; 낮은 FCF 배수가 margin 훼손을 일부 방어
+- 2012 Short: 치명적 실패, 사업악화는 적중했지만 5년 숏손익 -80.9%
+- 2013-06 Short: 실패, smartphone 보급을 기업 대체율로 직접 연결
+- 2013-08 Short: 대체로 실패, ROIC 진단은 적중했지만 촉매·분포가 불리
+- 2014 Long: 부분 성공, 1년 정상화 촉매 적중·5년 20% IRR 목표 실패
+- 2015 Long: 실패, 기업생존과 주당 FCF 복리를 혼동
+- 2016 Short: 실패, 회계품질 경고를 manipulation으로 과잉 확정
+- 2017 Long: 부분 성공, WU.com 성장 적중·작은 성장사업의 연결기업 구원 실패
+- SQL 방향 오류: 원본 9건 숏 보존, 분석 레이어에서 실제 롱 5건·숏 4건으로 교정
