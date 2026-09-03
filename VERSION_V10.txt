@@ -1,0 +1,29 @@
+VIC Falsification DB — V10 Detailed Research
+
+전체 아이디어: 13,656
+심층 사후분석: 149
+신규 Batch 010: Groupe Aeroplan/Aimia·AerCap 8건, Hertz 8건, Spirit Airlines 7건, General Motors 7건
+평가기준일: 2024-01-31
+분석일: 2026-09-03
+
+Batch 010 산출물
+- 기업·사업모델 상세 설명 5개 법인/증권군
+- 아이디어별 장문 분석 30개
+- 가중 논지 claim 120개
+- 핵심 metric 120개
+- 사건 timeline 120개
+- 원문·SEC·회사·규제 근거 150개
+- AER ticker collision, 파산 전후 equity, 채권·워런트·옵션·merger-arb 성과를 분리
+
+주요 결과
+- Aimia/AerCap: 첫 AER entity 오류 무효화, 2020 COVID Long 성공, 2017·2018 Long은 경로 실패
+- Hertz: 2019 debt Short는 파산취약성을 정확히 포착, 2018·2022 equity Long은 실패
+- Spirit: 초기 ULCC Long과 2020 EETC는 성공, 2017 Long과 2022 JetBlue arb는 실패
+- GM: 2009 구주 call Short와 2012 New GM Long은 성공, 2011·2017 Long은 실패
+
+핵심 학습
+- book value는 평시 appraisal이 아니라 stress haircut과 leverage 뒤 equity로 검증한다.
+- 산업의 생존과 특정 levered issuer의 생존을 분리한다.
+- 같은 회사라도 common, secured debt, warrant, option, merger claim은 별도 성과로 기록한다.
+- 계약 발표와 규제승인·종결, break value를 분리한다.
+- ticker보다 법인·상장시장·증권식별자를 먼저 확인한다.
