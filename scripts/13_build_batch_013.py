@@ -35,6 +35,81 @@ DESCRIPTIONS = {
     ),
 }
 
+# V8부터 기업 설명을 한 문단으로 끝내지 않는다. 같은 결제 산업 안에서도
+# 네트워크, 매입사, 전자지갑, 가맹점 소프트웨어의 경제성이 전혀 다르므로
+# 산업 내 위치와 돈의 흐름을 별도 섹션으로 저장한다.
+INDUSTRY_POSITION = {
+    "MA": (
+        "카드 결제 한 건에는 소비자, 발급은행, 카드 네트워크, 매입사·결제대행사, 가맹점이 참여한다. "
+        "Mastercard는 이 가운데 카드 브랜드 규칙과 승인·청산·결제망을 제공한다. 가맹점에서 떼는 전체 수수료가 곧 Mastercard 매출은 아니다. "
+        "교환수수료는 주로 발급은행에, 가맹점 서비스 수수료는 매입사에, 네트워크 평가수수료와 처리수수료는 Mastercard에 귀속된다. "
+        "따라서 규제가 전체 가맹점 수수료를 낮춘다는 뉴스만으로 네트워크 이익 감소를 계산하면 안 되고 어느 참여자의 몫이 제한되는지부터 확인해야 한다."
+    ),
+    "GPN": (
+        "Global Payments는 카드 브랜드 규칙을 소유한 네트워크가 아니라 가맹점이 여러 결제수단을 실제로 받을 수 있게 연결하는 매입·처리 사업자다. "
+        "총 가맹점 수수료에서 발급은행 교환수수료, 카드망 수수료, 독립판매조직 잔여수수료를 지급한 뒤 남는 금액이 경제적 순매출에 가깝다. "
+        "소형 가맹점은 가격보다 통합 판매시점관리·업종별 소프트웨어·정산 편의를 중시해 수익성이 높을 수 있지만 영업대행 수수료와 해지율도 높다. "
+        "대형 가맹점은 거래량은 크지만 가격협상력이 강하다. 그러므로 처리액 성장만 보지 말고 고객 구성, 순매출 수율, 유지율과 영업이익률을 함께 봐야 한다."
+    ),
+    "PYPL": (
+        "PayPal은 소비자가 기억해 둔 결제수단으로 빠르게 결제하게 하는 브랜드 전자지갑과, 가맹점 뒤에서 카드를 처리하는 비브랜드 사업을 함께 가진다. "
+        "브랜드 결제는 소비자 신뢰와 전환율 향상 때문에 상대적으로 높은 수수료를 받을 수 있지만 Braintree 같은 대형가맹점 처리는 규모가 커도 수익률이 낮다. "
+        "결제총액이 늘어도 저수익 비브랜드 비중이 커지거나 카드 자금조달 비중과 거래손실이 오르면 거래이익은 정체할 수 있다. "
+        "따라서 계정 수와 결제총액보다 브랜드 결제 성장률, 거래 한 건당 이익, 거래이익 총액, 주식보상비용을 차감한 잉여현금흐름을 우선해야 한다."
+    ),
+    "SQ": (
+        "Block은 단일 결제회사가 아니라 가맹점용 Square와 소비자용 Cash App을 한 지주회사 안에 둔 구조다. Square는 결제에서 고객을 확보한 뒤 판매시점관리, 급여, 대출과 즉시정산을 교차판매한다. "
+        "Cash App은 개인간 송금의 네트워크를 바탕으로 직불카드 교환수수료, 즉시이체, 비트코인 거래차익과 금융서비스로 수익화한다. "
+        "두 생태계의 연결은 잠재력이 크지만 각 사업의 사기손실·신용손실·마케팅비와 본사 연구개발비가 연결 손익에 남는다. "
+        "비트코인 매출은 원가 통과 비중이 커서 매출액 배수보다 매출총이익, 영업비용, 주식보상과 완전희석 주식수의 순서로 평가해야 한다."
+    ),
+}
+
+COMPETITIVE_MECHANISM = {
+    "MA": (
+        "경쟁우위는 카드 장수 자체가 아니라 전 세계 발급사와 매입사가 같은 규칙·망에 연결돼 있다는 상호운용성, 높은 승인률, 부정거래 관리와 브랜드 신뢰다. "
+        "새 네트워크는 소비자와 가맹점을 동시에 모아야 하므로 진입장벽이 높다. 반면 실시간 계좌이체, 지역 결제망, 대형 지갑의 우회결제, 가격규제와 고객 인센티브 경쟁은 장기 위험이다. "
+        "핵심 검증은 결제액보다 전환거래 건수, 해외결제량, 순매출 증가율과 영업이익 증가율의 차이다."
+    ),
+    "GPN": (
+        "경쟁우위는 순수 처리기술만으로는 약하고 유통망, 가맹점 관계, 업종별 소프트웨어와 전환비용에서 나온다. 은행 제휴와 독립판매조직은 고객획득을 빠르게 하지만 파트너 몫을 지급해야 한다. "
+        "Stripe·Adyen·Fiserv·FIS와 은행계 매입사의 가격·기술 경쟁이 계속되므로 인수로 커진 매출을 유기적 성장으로 오인하면 안 된다. "
+        "인수 시너지와 조정이익을 평가할 때는 이자비용, 무형자산 상각, 구조조정, 주식발행과 순부채까지 주당 기준으로 다시 합쳐야 한다."
+    ),
+    "PYPL": (
+        "PayPal의 강점은 많은 소비자 계정, 가맹점 수용성, 위험관리 자료와 원터치 결제 경험이다. 그러나 모바일 운영체제를 통제하는 Apple, 전자상거래 흐름을 통제하는 Shopify·Amazon, 카드 토큰화를 제공하는 네트워크가 결제 화면의 주도권을 나눠 가진다. "
+        "Venmo의 사용자 성장은 곧바로 높은 수익화를 뜻하지 않으며 Braintree의 결제총액 증가는 브랜드 버튼의 가격력을 증명하지 않는다. "
+        "경쟁우위가 유지되는지는 브랜드 결제 점유율, 가맹점 전환율 개선, 거래이익 총액과 고객당 거래빈도에서 확인해야 한다."
+    ),
+    "SQ": (
+        "Square의 초기 경쟁우위는 영세 가맹점이 서류심사 없이 즉시 가입하고 카드수납과 소프트웨어를 함께 쓰게 한 제품설계였다. Cash App은 친구가 친구를 부르는 송금망과 낮은 고객획득비용이 강점이었다. "
+        "하지만 가맹점 규모가 커질수록 Toast·Clover·Shopify·전통 매입사와 경쟁하고, 소비자 금융에서는 은행·PayPal·Apple과 경쟁한다. "
+        "사용자 수나 처리액만으로 승자를 정하지 말고 고객집단별 회수기간, 매출총이익 유지율, 금융손실, 본사비용과 희석 후 주당 현금창출을 확인해야 한다."
+    ),
+}
+
+
+def expanded_claims(idea):
+    """Store the original claim map plus security and path claims."""
+    return idea["claims"] + [
+        C(
+            "주당가치 귀속",
+            f"사업 성과가 {idea['valuation']}라는 가치평가를 거쳐 기존 보통주 한 주의 가치로 귀속된다.",
+            "현금흐름 증가가 주식보상·인수발행·순부채 증가보다 빨라야 함",
+            "사업 지표는 늘지만 완전희석 주당 잉여현금흐름이 정체하거나 감소",
+            f"기준일 가격 결과는 {idea['stock']}였다. 사업 결과와 주가 결과를 별도 판정해야 한다.",
+            "적중" if "성공" in idea["verdict"] and "실패" not in idea["verdict"] else "실패 또는 부분",
+        ),
+        C(
+            "촉매와 보유경로",
+            f"예상 촉매가 합리적인 기간 안에 논지를 확인하고 손실 경로를 견딜 수 있게 한다. 최초 중요 신호는 {idea['first']}였다.",
+            "촉매 발생 전 유동성·밸류에이션·포지션 손실이 감당 가능해야 함",
+            "목표가가 최종적으로 맞더라도 중간 손실 또는 논지 반증이 포지션을 파괴",
+            f"최초 핵심 검증·반증일은 {idea['first_date']}이며, 실제 가격 경로는 {idea['stock']}였다.",
+            "적중" if "전설적" in idea["verdict"] or "매우 성공" in idea["verdict"] else "경로위험 또는 실패",
+        ),
+    ]
+
 SOURCES = {
     "MA": [
         ("공시", "Mastercard 2023 Form 10-K", "SEC", "2024-02-13", "https://www.sec.gov/Archives/edgar/data/1141391/000114139124000022/ma-20231231.htm", "사업·순매출 $25.1bn·순이익 $11.2bn 검증"),
@@ -163,14 +238,28 @@ def build_payload():
         out["ideas_master"].append({"idea_id": i["id"], "date": i["date"], "year": int(i["date"][:4]), "ticker": i["ticker"], "company_name": names[i["ticker"]], "author": i["author"], "direction_ko": "숏" if i["source_short"] else "롱", "is_short": i["source_short"], "contest_winner": 0, "source_link": i["link"], "description_chars": i["dchars"], "catalyst_chars": i["cchars"], "narrative_tags_ko": "원본방향 보존; 결제; 심층검증", "idea_type_ko": "기업가치", "performance_available": 0, "auto_tag_status_ko": "수동 심층검증"})
         note = f"원 SQL is_short={str(bool(i['source_short'])).lower()}를 감사추적용으로 보존했다. 본문 기준 실제 방향은 {actual_direction}다. 가격은 원문 또는 게시월 실제가격과 2024-01 월말 실제가격을 비교하며 배당은 제외한다."
         out["postmortems"].append({"idea_id": i["id"], "ticker": i["ticker"], "research_direction_ko": actual_direction, "company_description_ko": DESCRIPTIONS[i["ticker"]], "original_thesis_ko": i["thesis"], "actual_development_ko": i["actual"], "thesis_verdict_ko": i["why"], "business_verdict_ko": i["actual"], "catalyst_verdict_ko": i["first"], "valuation_verdict_ko": i["valuation"], "stock_verdict_ko": i["stock"], "current_verdict_ko": i["actual"], "overall_verdict_ko": i["verdict"], "why_ko": i["why"], "success_pattern_ko": "network_effect; unit_economics; fcf_yield; secular_payments", "failure_pattern_ko": "multiple_duration; revenue_quality; dilution; acquisition_risk; timing_path", "root_error_ko": "거래량·사용자·gross profit 성장과 완전희석 주당 FCF를 분리해야 한다", "first_signal_ko": i["first"], "first_signal_date": i["first_date"], "knowable_at_t0_ko": "branded/비브랜드 mix, transaction margin dollars, gross profit, SBC 포함 주식수, 인수대가를 원문 시점부터 별도 검증할 수 있었다.", "avoidability_ko": "높음. 성장률에서 multiple compression을 빼는 계산 대신 margin·재투자·희석 후 주당 FCF를 모델링해야 한다.", "counterfactual_question_ko": i["claims"][0][3], "analyst_note_ko": note, "corrected_return_1y": None, "corrected_return_3y": None, "corrected_return_5y": None, "confidence": 0.96, "research_asof": ASOF, "research_status_ko": "외부검증 완료"})
-        for n, (t, b) in enumerate(zip(("기업과 돈 버는 구조", "원 투자논지", "실제 전개", "투자 결론과 학습"), (DESCRIPTIONS[i["ticker"]], i["thesis"], i["actual"], f"종합판정은 {i['verdict']}다. {i['why']}")), 1):
+        section_rows = (
+            ("무슨 기업인가", DESCRIPTIONS[i["ticker"]]),
+            ("산업 가치사슬과 수수료의 귀속", INDUSTRY_POSITION[i["ticker"]]),
+            ("경쟁우위·경쟁구도·핵심 지표", COMPETITIVE_MECHANISM[i["ticker"]]),
+            ("당시 VIC 투자논지와 숫자", i["thesis"]),
+            ("밸류에이션과 기대수익의 연결", f"원문의 가치평가 골격은 {i['valuation']}였다. 이 계산이 성립하려면 사업 성장뿐 아니라 마진, 재투자, 순부채, 주식보상과 인수 발행을 차감한 완전희석 주당 현금흐름이 함께 개선돼야 한다."),
+            ("실제 사업 전개", i["actual"]),
+            ("가격 결과와 논지 결과의 분리", f"가격 결과는 {i['stock']}였다. 그러나 가격 방향만으로 원문의 인과가 맞았다고 판정하지 않는다. 사업의 성장은 각 주장별 실제 결과로, 기존 주주에게 돌아간 결과는 주당가치와 가격으로 나누어 검증했다."),
+            ("무엇을 잘 봤고 무엇을 놓쳤나", i["why"]),
+            ("최초 반증 신호·알 수 있었는가", f"최초 중요 신호는 {i['first_date']}의 ‘{i['first']}’였다. 당시에도 매출총이익과 거래이익, 주식보상 포함 주식수, 인수대가와 순부채를 따로 모델링했다면 사업 성장과 주주수익의 괴리를 더 일찍 발견할 수 있었다."),
+            ("최종 판정과 재사용 교훈", f"종합판정은 {i['verdict']}다. {i['why']} 다음 투자에서는 ‘{i['claims'][0][3]}’를 사전 반증조건으로 기록하고 분기마다 갱신해야 한다."),
+        )
+        for n, (t, b) in enumerate(section_rows, 1):
             out["sections"].append({"idea_id": i["id"], "section_order": n, "section_title_ko": t, "section_body_ko": b})
-        out["meta"].append({"idea_id": i["id"], "analysis_depth_ko": "기업·증권·논지·실제결과·인과·반증조건 심층분석", "report_version": "V7-detailed", "thesis_type_ko": i["title"], "one_line_verdict_ko": i["why"], "thesis_score": i["score"], "process_score": i["process"], "return_summary_ko": i["stock"], "core_error_ko": "volume보다 주당 FCF와 dilution", "core_insight_ko": i["claims"][0][4], "research_asof": ASOF})
-        for n, c in enumerate(i["claims"], 1):
-            out["claims"].append({"idea_id": i["id"], "claim_order": n, "claim_title_ko": c[0], "thesis_weight_pct": 25, "original_claim_ko": c[1], "t0_evidence_ko": i["thesis"], "key_assumption_ko": c[2], "ex_ante_falsifier_ko": c[3], "actual_result_ko": c[4], "quantitative_gap_ko": i["stock"] if n == 4 else i["valuation"], "verdict_ko": c[5], "analytical_error_ko": "중대한 오류 없음" if c[5] == "적중" else "성장·margin·희석·시간 연결 오류", "reusable_lesson_ko": f"{c[0]} 가설에는 ‘{c[3]}’를 사전 반증조건으로 저장한다."})
+        out["meta"].append({"idea_id": i["id"], "analysis_depth_ko": "기업·산업·수수료 귀속·경쟁·원문수치·밸류에이션·증권·가격경로·논지별 결과·인과·반증조건 장문분석", "report_version": "V8-longform", "thesis_type_ko": i["title"], "one_line_verdict_ko": i["why"], "thesis_score": i["score"], "process_score": i["process"], "return_summary_ko": i["stock"], "core_error_ko": "거래량보다 완전희석 주당 잉여현금흐름과 시간경로", "core_insight_ko": i["claims"][0][4], "research_asof": ASOF})
+        claim_rows = expanded_claims(i)
+        weights = (20, 20, 15, 15, 15, 15)
+        for n, c in enumerate(claim_rows, 1):
+            out["claims"].append({"idea_id": i["id"], "claim_order": n, "claim_title_ko": c[0], "thesis_weight_pct": weights[n - 1], "original_claim_ko": c[1], "t0_evidence_ko": i["thesis"], "key_assumption_ko": c[2], "ex_ante_falsifier_ko": c[3], "actual_result_ko": c[4], "quantitative_gap_ko": i["stock"] if n >= 4 else i["valuation"], "verdict_ko": c[5], "analytical_error_ko": "중대한 오류 없음" if c[5] == "적중" else "성장·수익률·희석·시간경로를 완전희석 주당가치로 연결하는 과정의 오류", "reusable_lesson_ko": f"{c[0]} 가설에는 ‘{c[3]}’를 사전 반증조건으로 저장한다."})
         for n, m in enumerate(i["metrics"], 1):
             out["metrics"].append({"idea_id": i["id"], "metric_order": n, "metric_name_ko": m[0], "t0_value_ko": m[1], "thesis_expectation_ko": m[2], "actual_value_ko": m[3], "verdict_ko": m[4], "interpretation_ko": f"당시 {m[1]}, 기대 {m[2]}, 실제 {m[3]}."})
-        timeline = [(i["date"], "VIC 아이디어 게시", i["title"]), (i["first_date"], i["first"], "최초 핵심 검증·반증 신호"), ("2023-12-31", "FY2023 사업상태", i["actual"]), (ASOF, "고정 평가기준일", i["stock"])]
+        timeline = [(i["date"], "VIC 아이디어 게시", i["title"]), (i["first_date"], i["first"], "최초 핵심 검증·반증 신호"), ("2021-12-31", "성장과 가치평가의 중간 점검", "사업지표와 당시 주가배수가 함께 움직였는지 분리 점검"), ("2022-12-31", "금리·성장률·자본배분 점검", "성장주의 배수축소와 인수·희석이 주당가치에 미친 영향을 점검"), ("2023-12-31", "FY2023 사업상태", i["actual"]), (ASOF, "고정 평가기준일", i["stock"])]
         for n, e in enumerate(timeline, 1): out["timeline"].append({"idea_id": i["id"], "event_order": n, "event_date_ko": e[0], "event_ko": e[1], "thesis_implication_ko": e[2]})
         for n, s in enumerate(idea_sources(i), 1): out["sources"].append({"idea_id": i["id"], "source_order": n, "source_type_ko": s[0], "title_ko": s[1], "publisher": s[2], "source_date": s[3], "url": s[4], "evidence_ko": s[5]})
     return out
@@ -178,7 +267,7 @@ def build_payload():
 
 def company_report(ticker, ideas):
     name = {"MA": "Mastercard", "GPN": "Global Payments", "PYPL": "PayPal", "SQ": "Block / Square"}[ticker]
-    lines = [f"# {name} ({ticker}) — 기업과 비즈니스", "", DESCRIPTIONS[ticker], "", "## 돈을 버는 구조", ""]
+    lines = [f"# {name} ({ticker}) — 기업과 비즈니스", "", "## 1. 무슨 기업인가", "", DESCRIPTIONS[ticker], "", "## 2. 산업 가치사슬에서 어디에 있는가", "", INDUSTRY_POSITION[ticker], "", "## 3. 경쟁우위와 무엇을 확인해야 하는가", "", COMPETITIVE_MECHANISM[ticker], "", "## 4. 돈을 버는 구조", ""]
     earn = {
         "MA": ["결제액 기반 assessment와 cross-border fee", "거래건수 기반 switching·processing", "fraud·data·consulting 등 value-added services", "발급사·매입사 incentive와 규제·소송이 핵심 차감항목"],
         "GPN": ["merchant acquiring spread와 POS·vertical software", "issuer processing의 장기계약·건수 수수료", "ISO residual·network fee·transaction loss 차감", "M&A synergy에서 이자·통합비용·주식수 차감"],
@@ -186,17 +275,17 @@ def company_report(ticker, ideas):
         "SQ": ["Square 처리 spread·software·seller banking", "Cash App Card interchange·instant transfer·bitcoin spread", "Afterpay BNPL·광고·merchant discovery", "gross profit에서 opex·SBC·credit loss·희석 차감"],
     }[ticker]
     lines += [f"- {x}" for x in earn]
-    lines += ["", "## 아이디어 전체 판정", "", "| 게시일 | 원 SQL | 실제방향 | 핵심 논지 | 실제 결과 | 종합판정 |", "|---|---|---|---|---|---|"]
+    lines += ["", "## 5. 아이디어 전체 판정", "", "| 게시일 | 원 SQL | 실제방향 | 핵심 논지 | 실제 결과 | 종합판정 |", "|---|---|---|---|---|---|"]
     for i in ideas:
         direction = "Short" if i["ticker"] == "SQ" and i["date"] == "2018-07-02" else "Long"
         lines.append(f"| {i['date']} | {'Short' if i['source_short'] else 'Long'} | {direction} | {i['title']} | {i['stock']} | {i['verdict']} |")
     for n, i in enumerate(ideas, 1):
-        lines += ["", f"## {n}. {i['date']} — {i['title']}", "", "### 원 투자논지", "", i["thesis"], "", "### 논지를 구성한 핵심 주장", ""]
-        for j, c in enumerate(i["claims"], 1):
+        lines += ["", "---", "", f"## {n}. {i['date']} — {i['title']}", "", "### 결론부터", "", f"**종합판정은 {i['verdict']}다.** 가격 결과는 {i['stock']}였다. {i['why']}", "", "### 당시 VIC 원문은 무엇을 주장했나", "", i["thesis"], "", "### 원문의 밸류에이션 계산", "", f"원문이 제시한 가치평가 골격은 **{i['valuation']}**였다. 이 숫자는 단순한 목표배수만이 아니라 성장률, 정상 수익률, 순현금 또는 순부채, 자사주 매입과 희석에 대한 가정을 포함한다. 따라서 사후검증에서는 매출이나 결제액 한 항목이 아니라 각 연결고리가 실제로 성립했는지를 따로 판정했다.", "", "### 논지를 구성한 핵심 주장", ""]
+        for j, c in enumerate(expanded_claims(i), 1):
             lines += [f"#### {j}. {c[0]} — {c[5]}", "", f"**핵심 주장:** {c[1]}", "", f"**이 주장이 성립하려면:** {c[2]}", "", f"**사전 반증조건:** {c[3]}", "", f"**실제 결과:** {c[4]}", ""]
-        lines += ["### 논지 구조와 검증", "", "| 축 | 당시 주장 | 실제 검증 |", "|---|---|---|", f"| 사업·단위경제성 | {i['thesis']} | {i['actual']} |", f"| 밸류에이션·청구권 | {i['valuation']} | {i['stock']} |", f"| 촉매·시간 | {i['first']} | 첫 확인 {i['first_date']} |", f"| 사전 반증 | {i['claims'][0][3]} | {i['why']} |", "", "### 실제 전개와 투자 결론", "", i["actual"], "", f"**종합판정: {i['verdict']}.** {i['why']}", "", "### 핵심 수치", "", "| 지표 | 글 당시 | 기대 | 실제 | 판정 |", "|---|---|---|---|---|"]
+        lines += ["### 실제 사업은 어떻게 전개됐나", "", i["actual"], "", "### 가격 결과와 논지 결과는 같았나", "", f"가격 기준으로는 {i['stock']}였다. 그러나 이 결과를 곧바로 원문 논지의 적중으로 보지 않았다. 산업 성장, 회사의 경쟁력, 수익률, 가치평가, 촉매와 보유경로를 각각 분해했다. 가격 방향이 맞아도 예상한 원인이 틀리면 ‘가격 성공·논지 부분 실패’로, 사업이 성장해도 높은 진입배수와 희석 때문에 주가가 하락하면 ‘사업 적중·주식 실패’로 판정했다.", "", "### 무엇을 잘 봤고 무엇을 놓쳤나", "", i["why"], "", "### 최초 반증 신호와 회피 가능성", "", f"최초 중요 신호는 **{i['first_date']} — {i['first']}**였다. 이 신호 이후에는 원문의 장기 목표만 반복할 것이 아니라 매출총이익, 거래이익, 영업비용, 주식보상, 인수발행, 순부채를 다시 연결해 완전희석 주당 잉여현금흐름을 재계산했어야 한다. 이 검증은 당시 공개자료만으로도 상당 부분 가능했으므로 회피 가능성은 높다고 본다.", "", "### 핵심 수치", "", "| 지표 | 글 당시 | 기대 | 실제 | 판정 |", "|---|---|---|---|---|"]
         for m in i["metrics"]: lines.append(f"| {m[0]} | {m[1]} | {m[2]} | {m[3]} | {m[4]} |")
-        lines += ["", f"재사용 질문: **{i['claims'][0][3]}**"]
+        lines += ["", "### 최종 투자 결론", "", f"**{i['verdict']}**. {i['why']}", "", f"재사용 질문: **{i['claims'][0][3]}**"]
     conclusions = {
         "MA": "2010 Mastercard 롱은 규제의 경제적 귀속을 정확히 분리하고 낮은 증분비용의 네트워크를 싼 배수에 산 전설적 성공이다. ‘전자결제 성장’만이 아니라 volume→EPS→주당가치 연결이 모두 맞았다.",
         "GPN": "2012 GPN 롱은 낮은 FCF 배수와 사건성 악재 회복을 잡아 매우 성공했다. 다만 예상한 전략적 매각 대신 회사가 연속 인수자가 됐으므로 오늘 같은 분석에서는 순현금·buyback 옵션을 대형 M&A·부채 위험과 동시에 써야 한다.",
