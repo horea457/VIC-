@@ -1,0 +1,29 @@
+VIC Falsification DB — V8 Detailed Research
+
+전체 아이디어: 13,656
+심층 사후분석: 89
+신규 Batch 008: EZCORP 9건, Spark Networks 9건, Nicholas Financial 9건, Costco 3건
+평가기준일: 2024-01-31
+분석일: 2026-09-03
+
+Batch 008 산출물
+- 기업·사업모델 상세 설명 4개
+- 아이디어별 장문 분석 30개
+- 가중 논지 claim 120개
+- 핵심 metric 120개
+- 사건 timeline 120개
+- 원문·SEC·회사·법원 근거 150개
+- SQL 방향 오류 12건을 분석 레이어에서 Long으로 교정
+
+주요 결과
+- EZPW: 2002·2003 저배수 턴어라운드는 성공, 2012·2014 비핵심 확장 롱은 실패
+- LOV: 2009 저배수·buyback은 성공, 2012 이후 CAC/고정비 bridge와 인수부채 논지는 실패
+- NICK: 2009 funding runway와 0.56x book은 성공, 2013 매각은 발표됐으나 closing 실패
+- COST: 2006·2015는 매우 성공, 2021은 목표가 달성이나 높은 시작배수로 안전마진 축소
+
+핵심 학습
+- 사업부 contribution margin과 연결 EBITDA·equity FCF를 구분한다.
+- book value는 미래 charge-off와 자본비용을 반영하기 전 숫자다.
+- 매각 관심, signed deal, closing, 현금수령을 각각 별도 확률로 본다.
+- SOTP 할인 해소에는 통제 가능한 자본배분 촉매가 필요하다.
+- 좋은 사업도 시작 valuation에 따라 주주 기대수익이 달라진다.

@@ -1,4 +1,4 @@
-# VIC Falsification DB — V7 Detailed Research
+# VIC Falsification DB — V8 Detailed Research
 
 VIC 투자 아이디어 13,656건을 탐색하고, 원문 투자논지를 실제 결과와 대조해
 기업별 성공·실패 메커니즘을 축적하는 Streamlit 대시보드입니다.
@@ -25,7 +25,7 @@ DB는 GitHub 웹 업로드 안정성을 위해 `data/processed/vic_dashboard.db.
 6. 최초 반대 신호, 회피 가능성, 재사용 가능한 학습 태그
 7. 원문·SEC 공시·기업 발표 등 근거자료와 판단 연결
 
-현재 전체 아이디어는 13,656건이며, 외부자료로 검증한 심층 사후분석은 59건입니다.
+현재 전체 아이디어는 13,656건이며, 외부자료로 검증한 심층 사후분석은 89건입니다.
 Batch 001에서는 Farfetch의 2019년 숏과 2021년 롱 2건을 추가했습니다. 원 SQL에서
 2021년 아이디어가 숏으로 잘못 저장된 문제는 원본값을 보존하고 분석 레이어에서
 실제 방향을 롱으로 교정합니다.
@@ -68,6 +68,15 @@ Chapter 11로 실패했고, 2021년 롱은 구 부채와 기존 equity가 제거
 매수해 1년 +62.0%, 2년 +115.5%를 기록했습니다. SQL 방향은 본문상 실제
 보통주 롱 6건·회사채 롱 2건·보통주 숏 1건으로 교정했습니다.
 
+Batch 008에서는 한 번에 30건을 분석했습니다. EZCORP 9건은 core pawn의
+점포경제성과 payday·Finmart·online 확장의 자본배분을 분리했고, Spark Networks
+9건은 JDate의 niche network와 반복 CAC·Zoosk 인수부채·2023년 구조조정을
+연결했습니다. Nicholas Financial 9건은 지점 underwriting, book value, 신용손실,
+funding runway와 2013년 주당 $16 매각계약의 발표·종료를 구분했습니다. Costco
+3건은 같은 강한 membership flywheel에서도 2006·2015·2021년 시작 valuation에
+따라 기대수익과 경로위험이 달라짐을 분석했습니다. 30건 모두 본문상 실제 방향은
+보통주 Long이며, 원 SQL에서 Short로 저장된 12건은 분석 레이어에서 교정했습니다.
+
 ## 연구 배치 적용
 
 검토 가능한 상세 리서치는 `data/curated/*_deep_v7.json`에 저장합니다. 앱은 대형
@@ -87,3 +96,4 @@ python scripts/08_load_detailed_research.py
 - `analysis/batch_005_american_express_pandemic_rewards.md`
 - `analysis/batch_006_western_union_full_history.md`
 - `analysis/batch_007_chesapeake_full_history.md`
+- `analysis/batch_008_ezpw_lov_nick_cost_30.md`
