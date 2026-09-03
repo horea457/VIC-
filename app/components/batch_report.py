@@ -30,6 +30,7 @@ BATCH_SOURCES = (
     ("batch_010_transport_capital_structure_deep_v7.json", "batch_010_transport_capital_structure_30.md", "Batch 010"),
     ("batch_011_apple_google_deep_v7.json", "batch_011_apple_google_10.md", "Batch 011"),
     ("batch_012_alt_managers_deep_v7.json", "batch_012_alt_managers_10.md", "Batch 012"),
+    ("batch_013_payments_deep_v7.json", "batch_013_payments_10.md", "Batch 013"),
 )
 
 
