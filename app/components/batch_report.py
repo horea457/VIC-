@@ -45,6 +45,7 @@ BATCH_SOURCES = (
     ("batch_024_amazon_iac_deep_v7.json", "batch_024_amazon_iac_10.md", "Batch 024"),
     ("batch_025_ibkr_discover_deep_v7.json", "batch_025_ibkr_discover_10.md", "Batch 025"),
     ("batch_026_seritage_gyrodyne_deep_v7.json", "batch_026_seritage_gyrodyne_10.md", "Batch 026"),
+    ("batch_027_tesla_carmax_deep_v7.json", "batch_027_tesla_carmax_10.md", "Batch 027"),
     ("all_reviewed_v8_index.json", "all_reviewed_v8.md.gz", "V8 전체 DB"),
 )
 

@@ -1,0 +1,3558 @@
+{
+  "ideas_master": [
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "date": "2012-11-30",
+      "year": 2012,
+      "ticker": "TSLA",
+      "company_name": "TESLA INC",
+      "author": "hawkeye901",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "auto; platform; capital intensity; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "date": "2016-06-23",
+      "year": 2016,
+      "ticker": "TSLA",
+      "company_name": "TESLA INC",
+      "author": "fogle42",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "auto; platform; capital intensity; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "date": "2018-01-23",
+      "year": 2018,
+      "ticker": "TSLA",
+      "company_name": "TESLA INC",
+      "author": "YCOMBINATOR",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "auto; platform; capital intensity; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "date": "2019-03-17",
+      "year": 2019,
+      "ticker": "TSLA",
+      "company_name": "TESLA INC",
+      "author": "jcoviedo",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "auto; platform; capital intensity; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "date": "2019-08-03",
+      "year": 2019,
+      "ticker": "TSLA",
+      "company_name": "TESLA INC",
+      "author": "veki282",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "auto; platform; capital intensity; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "date": "2019-11-17",
+      "year": 2019,
+      "ticker": "TSLA",
+      "company_name": "TESLA INC",
+      "author": "carbone959",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "auto; platform; capital intensity; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "date": "2021-01-11",
+      "year": 2021,
+      "ticker": "TSLA",
+      "company_name": "TESLA INC",
+      "author": "bowd57",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "auto; platform; capital intensity; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "date": "2010-04-09",
+      "year": 2010,
+      "ticker": "KMX",
+      "company_name": "CARMAX INC",
+      "author": "lys615",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "auto; platform; capital intensity; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 1,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "date": "2015-12-22",
+      "year": 2015,
+      "ticker": "KMX",
+      "company_name": "CARMAX INC",
+      "author": "coyote",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "auto; platform; capital intensity; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 1,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "date": "2019-08-07",
+      "year": 2019,
+      "ticker": "KMX",
+      "company_name": "CARMAX INC",
+      "author": "obvious617",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "auto; platform; capital intensity; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 1,
+      "auto_tag_status_ko": "수동 심층검증"
+    }
+  ],
+  "postmortems": [
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "ticker": "TSLA",
+      "research_direction_ko": "Short",
+      "company_description_ko": "Tesla는 전기차를 설계·제조·직접판매하고 차량 소프트웨어·충전망·에너지저장을 수직통합한다. 핵심 KPI는 생산·인도량, automotive gross margin, unit cost, cash/FCF, 공장 utilization, ASP와 가격인하 후 volume elasticity다.",
+      "original_thesis_ko": "Model S ramp 지연·현금부족이 파산/희석으로 이어질 것",
+      "actual_development_ko": "2012말 2,650대 인도·2만대 run-rate, 2013 22,477대",
+      "thesis_verdict_ko": "ramp risk를 permanent failure로 과대해석",
+      "business_verdict_ko": "2012말 2,650대 인도·2만대 run-rate, 2013 22,477대",
+      "catalyst_verdict_ko": "주당 생산속도 개선",
+      "valuation_verdict_ko": "파산확률을 크게 둔 distressed valuation",
+      "stock_verdict_ko": "장기 Short 치명적 실패",
+      "current_verdict_ko": "2012말 2,650대 인도·2만대 run-rate, 2013 22,477대",
+      "overall_verdict_ko": "치명적 실패",
+      "why_ko": "ramp risk를 permanent failure로 과대해석",
+      "success_pattern_ko": "",
+      "failure_pattern_ko": "static extrapolation; tail probability; valuation",
+      "root_error_ko": "ramp risk를 permanent failure로 과대해석",
+      "first_signal_ko": "주당 생산속도 개선",
+      "first_signal_date": "2012-12-31",
+      "knowable_at_t0_ko": "생산·인도·점포·판매량·gross profit·CAF·현금·자금조달 공시로 검증 가능했다.",
+      "avoidability_ko": "높음",
+      "counterfactual_question_ko": "핵심 KPI가 예상대로 움직여도 starting valuation과 balance-sheet runway를 반영하면 목표수익률이 남는가?",
+      "analyst_note_ko": "raw is_short=true 보존; 실제 방향 Short로 research layer 교정.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.98,
+      "research_asof": "2024-01-31",
+      "research_status_ko": "외부검증 완료"
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "ticker": "TSLA",
+      "research_direction_ko": "Short",
+      "company_description_ko": "Tesla는 전기차를 설계·제조·직접판매하고 차량 소프트웨어·충전망·에너지저장을 수직통합한다. 핵심 KPI는 생산·인도량, automotive gross margin, unit cost, cash/FCF, 공장 utilization, ASP와 가격인하 후 volume elasticity다.",
+      "original_thesis_ko": "50만대 계획과 SolarCity가 제조·자본부담 과도",
+      "actual_development_ko": "production hell은 실제였으나 2018~19 scale 성공",
+      "thesis_verdict_ko": "execution risk 적중, permanent impairment 실패",
+      "business_verdict_ko": "production hell은 실제였으나 2018~19 scale 성공",
+      "catalyst_verdict_ko": "Model 3 weekly output 급상승",
+      "valuation_verdict_ko": "tail-risk valuation",
+      "stock_verdict_ko": "장기 Short 실패",
+      "current_verdict_ko": "production hell은 실제였으나 2018~19 scale 성공",
+      "overall_verdict_ko": "실패",
+      "why_ko": "execution risk 적중, permanent impairment 실패",
+      "success_pattern_ko": "",
+      "failure_pattern_ko": "static extrapolation; tail probability; valuation",
+      "root_error_ko": "execution risk 적중, permanent impairment 실패",
+      "first_signal_ko": "Model 3 weekly output 급상승",
+      "first_signal_date": "2018-06-30",
+      "knowable_at_t0_ko": "생산·인도·점포·판매량·gross profit·CAF·현금·자금조달 공시로 검증 가능했다.",
+      "avoidability_ko": "높음",
+      "counterfactual_question_ko": "핵심 KPI가 예상대로 움직여도 starting valuation과 balance-sheet runway를 반영하면 목표수익률이 남는가?",
+      "analyst_note_ko": "raw is_short=true 보존; 실제 방향 Short로 research layer 교정.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.98,
+      "research_asof": "2024-01-31",
+      "research_status_ko": "외부검증 완료"
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "ticker": "TSLA",
+      "research_direction_ko": "Long",
+      "company_description_ko": "Tesla는 전기차를 설계·제조·직접판매하고 차량 소프트웨어·충전망·에너지저장을 수직통합한다. 핵심 KPI는 생산·인도량, automotive gross margin, unit cost, cash/FCF, 공장 utilization, ASP와 가격인하 후 volume elasticity다.",
+      "original_thesis_ko": "현재 손실보다 Model3·brand·battery·software optionality가 큼",
+      "actual_development_ko": "2018 mass-production, 2019 36.8만대, 2021 revenue $53.8bn",
+      "thesis_verdict_ko": "현재 P&L보다 scalable capability를 봄",
+      "business_verdict_ko": "2018 mass-production, 2019 36.8만대, 2021 revenue $53.8bn",
+      "catalyst_verdict_ko": "Model 3 ramp 성공",
+      "valuation_verdict_ko": "장기 optionality valuation",
+      "stock_verdict_ko": "장기 매우 성공",
+      "current_verdict_ko": "2018 mass-production, 2019 36.8만대, 2021 revenue $53.8bn",
+      "overall_verdict_ko": "매우 성공",
+      "why_ko": "현재 P&L보다 scalable capability를 봄",
+      "success_pattern_ko": "scale; operating leverage; evidence update",
+      "failure_pattern_ko": "",
+      "root_error_ko": "현재 P&L보다 scalable capability를 봄",
+      "first_signal_ko": "Model 3 ramp 성공",
+      "first_signal_date": "2018-06-30",
+      "knowable_at_t0_ko": "생산·인도·점포·판매량·gross profit·CAF·현금·자금조달 공시로 검증 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "핵심 KPI가 예상대로 움직여도 starting valuation과 balance-sheet runway를 반영하면 목표수익률이 남는가?",
+      "analyst_note_ko": "raw is_short=true 보존; 실제 방향 Long로 research layer 교정.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.98,
+      "research_asof": "2024-01-31",
+      "research_status_ko": "외부검증 완료"
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "ticker": "TSLA",
+      "research_direction_ko": "Short",
+      "company_description_ko": "Tesla는 전기차를 설계·제조·직접판매하고 차량 소프트웨어·충전망·에너지저장을 수직통합한다. 핵심 KPI는 생산·인도량, automotive gross margin, unit cost, cash/FCF, 공장 utilization, ASP와 가격인하 후 volume elasticity다.",
+      "original_thesis_ko": "가격인하·service 문제·CapEx가 demand/cash 훼손",
+      "actual_development_ko": "단기압박·증자는 있었으나 2019 인도 record와 Shanghai 가동",
+      "thesis_verdict_ko": "가격인하를 demand failure로 단선 해석",
+      "business_verdict_ko": "단기압박·증자는 있었으나 2019 인도 record와 Shanghai 가동",
+      "catalyst_verdict_ko": "2019 deliveries 367,656",
+      "valuation_verdict_ko": "multiple compression",
+      "stock_verdict_ko": "Short 실패",
+      "current_verdict_ko": "단기압박·증자는 있었으나 2019 인도 record와 Shanghai 가동",
+      "overall_verdict_ko": "실패",
+      "why_ko": "가격인하를 demand failure로 단선 해석",
+      "success_pattern_ko": "",
+      "failure_pattern_ko": "static extrapolation; tail probability; valuation",
+      "root_error_ko": "가격인하를 demand failure로 단선 해석",
+      "first_signal_ko": "2019 deliveries 367,656",
+      "first_signal_date": "2019-12-31",
+      "knowable_at_t0_ko": "생산·인도·점포·판매량·gross profit·CAF·현금·자금조달 공시로 검증 가능했다.",
+      "avoidability_ko": "높음",
+      "counterfactual_question_ko": "핵심 KPI가 예상대로 움직여도 starting valuation과 balance-sheet runway를 반영하면 목표수익률이 남는가?",
+      "analyst_note_ko": "raw is_short=true 보존; 실제 방향 Short로 research layer 교정.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.98,
+      "research_asof": "2024-01-31",
+      "research_status_ko": "외부검증 완료"
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "ticker": "TSLA",
+      "research_direction_ko": "Long",
+      "company_description_ko": "Tesla는 전기차를 설계·제조·직접판매하고 차량 소프트웨어·충전망·에너지저장을 수직통합한다. 핵심 KPI는 생산·인도량, automotive gross margin, unit cost, cash/FCF, 공장 utilization, ASP와 가격인하 후 volume elasticity다.",
+      "original_thesis_ko": "2018 mass-production proof와 EV·brand·software moat",
+      "actual_development_ko": "2019~21 판매·매출 급증, autonomy는 지연",
+      "thesis_verdict_ko": "core auto 적중, robotaxi timing 과대",
+      "business_verdict_ko": "2019~21 판매·매출 급증, autonomy는 지연",
+      "catalyst_verdict_ko": "deliveries record",
+      "valuation_verdict_ko": "autonomy를 큰 본가치에 넣지 않은 valuation",
+      "stock_verdict_ko": "장기 강한 성공",
+      "current_verdict_ko": "2019~21 판매·매출 급증, autonomy는 지연",
+      "overall_verdict_ko": "강한 성공",
+      "why_ko": "core auto 적중, robotaxi timing 과대",
+      "success_pattern_ko": "scale; operating leverage; evidence update",
+      "failure_pattern_ko": "",
+      "root_error_ko": "core auto 적중, robotaxi timing 과대",
+      "first_signal_ko": "deliveries record",
+      "first_signal_date": "2019-12-31",
+      "knowable_at_t0_ko": "생산·인도·점포·판매량·gross profit·CAF·현금·자금조달 공시로 검증 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "핵심 KPI가 예상대로 움직여도 starting valuation과 balance-sheet runway를 반영하면 목표수익률이 남는가?",
+      "analyst_note_ko": "raw is_short=true 보존; 실제 방향 Long로 research layer 교정.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.98,
+      "research_asof": "2024-01-31",
+      "research_status_ko": "외부검증 완료"
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "ticker": "TSLA",
+      "research_direction_ko": "Market-neutral short volatility",
+      "company_description_ko": "Tesla는 전기차를 설계·제조·직접판매하고 차량 소프트웨어·충전망·에너지저장을 수직통합한다. 핵심 KPI는 생산·인도량, automotive gross margin, unit cost, cash/FCF, 공장 utilization, ASP와 가격인하 후 volume elasticity다.",
+      "original_thesis_ko": "bull/bear 확신 때문에 option IV 과도",
+      "actual_development_ko": "2020~21 realized vol·directional rally 극단적",
+      "thesis_verdict_ko": "convexity/tail risk 과소평가",
+      "business_verdict_ko": "2020~21 realized vol·directional rally 극단적",
+      "catalyst_verdict_ko": "realized volatility 급등",
+      "valuation_verdict_ko": "IV-vs-RV trade",
+      "stock_verdict_ko": "naked short-vol 큰 손실 가능",
+      "current_verdict_ko": "2020~21 realized vol·directional rally 극단적",
+      "overall_verdict_ko": "실패",
+      "why_ko": "convexity/tail risk 과소평가",
+      "success_pattern_ko": "",
+      "failure_pattern_ko": "static extrapolation; tail probability; valuation",
+      "root_error_ko": "convexity/tail risk 과소평가",
+      "first_signal_ko": "realized volatility 급등",
+      "first_signal_date": "2020-03-31",
+      "knowable_at_t0_ko": "생산·인도·점포·판매량·gross profit·CAF·현금·자금조달 공시로 검증 가능했다.",
+      "avoidability_ko": "높음",
+      "counterfactual_question_ko": "핵심 KPI가 예상대로 움직여도 starting valuation과 balance-sheet runway를 반영하면 목표수익률이 남는가?",
+      "analyst_note_ko": "raw is_short=true 보존; 실제 방향 Market-neutral short volatility로 research layer 교정.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.98,
+      "research_asof": "2024-01-31",
+      "research_status_ko": "외부검증 완료"
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "ticker": "TSLA",
+      "research_direction_ko": "Short",
+      "company_description_ko": "Tesla는 전기차를 설계·제조·직접판매하고 차량 소프트웨어·충전망·에너지저장을 수직통합한다. 핵심 KPI는 생산·인도량, automotive gross margin, unit cost, cash/FCF, 공장 utilization, ASP와 가격인하 후 volume elasticity다.",
+      "original_thesis_ko": "시총 비중 1.7% 수준이 성공 과도 선반영",
+      "actual_development_ko": "2021 사업성장, 2022 drawdown, 2023 회복",
+      "thesis_verdict_ko": "business Short보다 duration warning 부분 적중",
+      "business_verdict_ko": "2021 사업성장, 2022 drawdown, 2023 회복",
+      "catalyst_verdict_ko": "multiple compression",
+      "valuation_verdict_ko": "valuation-duration Short",
+      "stock_verdict_ko": "holding period 혼합",
+      "current_verdict_ko": "2021 사업성장, 2022 drawdown, 2023 회복",
+      "overall_verdict_ko": "부분 적중",
+      "why_ko": "business Short보다 duration warning 부분 적중",
+      "success_pattern_ko": "",
+      "failure_pattern_ko": "",
+      "root_error_ko": "business Short보다 duration warning 부분 적중",
+      "first_signal_ko": "multiple compression",
+      "first_signal_date": "2022-06-30",
+      "knowable_at_t0_ko": "생산·인도·점포·판매량·gross profit·CAF·현금·자금조달 공시로 검증 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "핵심 KPI가 예상대로 움직여도 starting valuation과 balance-sheet runway를 반영하면 목표수익률이 남는가?",
+      "analyst_note_ko": "raw is_short=true 보존; 실제 방향 Short로 research layer 교정.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.98,
+      "research_asof": "2024-01-31",
+      "research_status_ko": "외부검증 완료"
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "ticker": "KMX",
+      "research_direction_ko": "Short",
+      "company_description_ko": "CarMax는 미국 최대급 used-car retailer로 no-haggle pricing, 대규모 재고, appraisal/trade-in sourcing, wholesale auctions와 CarMax Auto Finance(CAF)를 결합한다. 핵심 KPI는 retail/wholesale units, comparable-store units, gross profit/unit, inventory turn, store count, omnichannel conversion, CAF penetration·spread·credit losses다.",
+      "original_thesis_ko": "used-car merchandising spread와 auto-finance spread라는 두 mediocre businesses라 $24.60이 과대평가",
+      "actual_development_ko": "FY2010 retail 357,129대에서 FY2015 582,282대, FY2019 748,961대로 성장; SQL 5년 +204.4%",
+      "thesis_verdict_ko": "scale의 inventory turn·appraisal·wholesale·CAF flywheel을 과소평가",
+      "business_verdict_ko": "FY2010 retail 357,129대에서 FY2015 582,282대, FY2019 748,961대로 성장; SQL 5년 +204.4%",
+      "catalyst_verdict_ko": "store/units 성장과 CAF profit pool 확인",
+      "valuation_verdict_ko": "retail/CAF에 낮은 multiple",
+      "stock_verdict_ko": "SQL 1년 +30.8%, 3년 +74.2%, 5년 +204.4%",
+      "current_verdict_ko": "FY2010 retail 357,129대에서 FY2015 582,282대, FY2019 748,961대로 성장; SQL 5년 +204.4%",
+      "overall_verdict_ko": "치명적 실패",
+      "why_ko": "scale의 inventory turn·appraisal·wholesale·CAF flywheel을 과소평가",
+      "success_pattern_ko": "",
+      "failure_pattern_ko": "static extrapolation; tail probability; valuation",
+      "root_error_ko": "scale의 inventory turn·appraisal·wholesale·CAF flywheel을 과소평가",
+      "first_signal_ko": "store/units 성장과 CAF profit pool 확인",
+      "first_signal_date": "2012-02-29",
+      "knowable_at_t0_ko": "생산·인도·점포·판매량·gross profit·CAF·현금·자금조달 공시로 검증 가능했다.",
+      "avoidability_ko": "높음",
+      "counterfactual_question_ko": "핵심 KPI가 예상대로 움직여도 starting valuation과 balance-sheet runway를 반영하면 목표수익률이 남는가?",
+      "analyst_note_ko": "raw is_short=true 보존; 실제 방향 Short로 research layer 교정.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.98,
+      "research_asof": "2024-01-31",
+      "research_status_ko": "외부검증 완료"
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "ticker": "KMX",
+      "research_direction_ko": "Long",
+      "company_description_ko": "CarMax는 미국 최대급 used-car retailer로 no-haggle pricing, 대규모 재고, appraisal/trade-in sourcing, wholesale auctions와 CarMax Auto Finance(CAF)를 결합한다. 핵심 KPI는 retail/wholesale units, comparable-store units, gross profit/unit, inventory turn, store count, omnichannel conversion, CAF penetration·spread·credit losses다.",
+      "original_thesis_ko": "약 17x earnings에 industry largest player·customer orientation·2년 12%+ store growth와 operating leverage",
+      "actual_development_ko": "FY2015 582,282대/144 stores에서 FY2019 748,961대/203 stores; SQL 5년 +87.4%",
+      "thesis_verdict_ko": "fragmented market에서 scale·brand·financing·store density mechanism을 잘 봄",
+      "business_verdict_ko": "FY2015 582,282대/144 stores에서 FY2019 748,961대/203 stores; SQL 5년 +87.4%",
+      "catalyst_verdict_ko": "store count와 used-unit growth 지속",
+      "valuation_verdict_ko": "17x forward earnings와 EPS compounding",
+      "stock_verdict_ko": "SQL 1년 +23.1%, 5년 +87.4%",
+      "current_verdict_ko": "FY2015 582,282대/144 stores에서 FY2019 748,961대/203 stores; SQL 5년 +87.4%",
+      "overall_verdict_ko": "성공",
+      "why_ko": "fragmented market에서 scale·brand·financing·store density mechanism을 잘 봄",
+      "success_pattern_ko": "scale; operating leverage; evidence update",
+      "failure_pattern_ko": "",
+      "root_error_ko": "fragmented market에서 scale·brand·financing·store density mechanism을 잘 봄",
+      "first_signal_ko": "store count와 used-unit growth 지속",
+      "first_signal_date": "2017-02-28",
+      "knowable_at_t0_ko": "생산·인도·점포·판매량·gross profit·CAF·현금·자금조달 공시로 검증 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "핵심 KPI가 예상대로 움직여도 starting valuation과 balance-sheet runway를 반영하면 목표수익률이 남는가?",
+      "analyst_note_ko": "raw is_short=true 보존; 실제 방향 Long로 research layer 교정.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.98,
+      "research_asof": "2024-01-31",
+      "research_status_ko": "외부검증 완료"
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "ticker": "KMX",
+      "research_direction_ko": "Long",
+      "company_description_ko": "CarMax는 미국 최대급 used-car retailer로 no-haggle pricing, 대규모 재고, appraisal/trade-in sourcing, wholesale auctions와 CarMax Auto Finance(CAF)를 결합한다. 핵심 KPI는 retail/wholesale units, comparable-store units, gross profit/unit, inventory turn, store count, omnichannel conversion, CAF penetration·spread·credit losses다.",
+      "original_thesis_ko": "온라인 대응은 늦었지만 store·inventory·CAF를 이용해 true omnichannel을 margin-neutral하게 구현 가능",
+      "actual_development_ko": "FY2019 203 stores/748,961 units/$18.17bn revenue; FY2023 retail 807,823대·managed receivables $16.77bn; SQL 1년 +19.8%",
+      "thesis_verdict_ko": "오프라인 store를 online의 적이 아니라 sourcing·reconditioning·fulfillment node로 재해석",
+      "business_verdict_ko": "FY2019 203 stores/748,961 units/$18.17bn revenue; FY2023 retail 807,823대·managed receivables $16.77bn; SQL 1년 +19.8%",
+      "catalyst_verdict_ko": "omnichannel rollout 확대",
+      "valuation_verdict_ko": "낮은 nationwide share와 omnichannel 회복을 반영한 장기 EPS compound",
+      "stock_verdict_ko": "SQL 1년 +19.8%, 2년 +59.5%, 3년 +18.7%",
+      "current_verdict_ko": "FY2019 203 stores/748,961 units/$18.17bn revenue; FY2023 retail 807,823대·managed receivables $16.77bn; SQL 1년 +19.8%",
+      "overall_verdict_ko": "성공",
+      "why_ko": "오프라인 store를 online의 적이 아니라 sourcing·reconditioning·fulfillment node로 재해석",
+      "success_pattern_ko": "scale; operating leverage; evidence update",
+      "failure_pattern_ko": "",
+      "root_error_ko": "오프라인 store를 online의 적이 아니라 sourcing·reconditioning·fulfillment node로 재해석",
+      "first_signal_ko": "omnichannel rollout 확대",
+      "first_signal_date": "2020-02-29",
+      "knowable_at_t0_ko": "생산·인도·점포·판매량·gross profit·CAF·현금·자금조달 공시로 검증 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "핵심 KPI가 예상대로 움직여도 starting valuation과 balance-sheet runway를 반영하면 목표수익률이 남는가?",
+      "analyst_note_ko": "raw is_short=true 보존; 실제 방향 Long로 research layer 교정.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.98,
+      "research_asof": "2024-01-31",
+      "research_status_ko": "외부검증 완료"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "analysis_depth_ko": "기업·가치사슬·원문·valuation·6 claims·4 metrics·6 timeline·primary sources 장문분석",
+      "report_version": "V8-longform",
+      "thesis_type_ko": "clean-tech bankruptcy analogue",
+      "one_line_verdict_ko": "ramp risk를 permanent failure로 과대해석",
+      "thesis_score": 4.0,
+      "process_score": 6.5,
+      "return_summary_ko": "장기 Short 치명적 실패",
+      "core_error_ko": "ramp risk를 permanent failure로 과대해석",
+      "core_insight_ko": "생존·scale·unit economics·valuation을 별도 claim으로 저장하고 KPI 변화율로 posterior를 갱신한다.",
+      "research_asof": "2024-01-31"
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "analysis_depth_ko": "기업·가치사슬·원문·valuation·6 claims·4 metrics·6 timeline·primary sources 장문분석",
+      "report_version": "V8-longform",
+      "thesis_type_ko": "Model 3/SolarCity execution overload",
+      "one_line_verdict_ko": "execution risk 적중, permanent impairment 실패",
+      "thesis_score": 4.0,
+      "process_score": 6.5,
+      "return_summary_ko": "장기 Short 실패",
+      "core_error_ko": "execution risk 적중, permanent impairment 실패",
+      "core_insight_ko": "생존·scale·unit economics·valuation을 별도 claim으로 저장하고 KPI 변화율로 posterior를 갱신한다.",
+      "research_asof": "2024-01-31"
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "analysis_depth_ko": "기업·가치사슬·원문·valuation·6 claims·4 metrics·6 timeline·primary sources 장문분석",
+      "report_version": "V8-longform",
+      "thesis_type_ko": "long-duration optionality",
+      "one_line_verdict_ko": "현재 P&L보다 scalable capability를 봄",
+      "thesis_score": 9.2,
+      "process_score": 8.8,
+      "return_summary_ko": "장기 매우 성공",
+      "core_error_ko": "현재 P&L보다 scalable capability를 봄",
+      "core_insight_ko": "생존·scale·unit economics·valuation을 별도 claim으로 저장하고 KPI 변화율로 posterior를 갱신한다.",
+      "research_asof": "2024-01-31"
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "analysis_depth_ko": "기업·가치사슬·원문·valuation·6 claims·4 metrics·6 timeline·primary sources 장문분석",
+      "report_version": "V8-longform",
+      "thesis_type_ko": "demand cliff/cash raise",
+      "one_line_verdict_ko": "가격인하를 demand failure로 단선 해석",
+      "thesis_score": 4.0,
+      "process_score": 6.5,
+      "return_summary_ko": "Short 실패",
+      "core_error_ko": "가격인하를 demand failure로 단선 해석",
+      "core_insight_ko": "생존·scale·unit economics·valuation을 별도 claim으로 저장하고 KPI 변화율로 posterior를 갱신한다.",
+      "research_asof": "2024-01-31"
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "analysis_depth_ko": "기업·가치사슬·원문·valuation·6 claims·4 metrics·6 timeline·primary sources 장문분석",
+      "report_version": "V8-longform",
+      "thesis_type_ko": "mass-production proof/EV transition",
+      "one_line_verdict_ko": "core auto 적중, robotaxi timing 과대",
+      "thesis_score": 9.2,
+      "process_score": 8.8,
+      "return_summary_ko": "장기 강한 성공",
+      "core_error_ko": "core auto 적중, robotaxi timing 과대",
+      "core_insight_ko": "생존·scale·unit economics·valuation을 별도 claim으로 저장하고 KPI 변화율로 posterior를 갱신한다.",
+      "research_asof": "2024-01-31"
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "analysis_depth_ko": "기업·가치사슬·원문·valuation·6 claims·4 metrics·6 timeline·primary sources 장문분석",
+      "report_version": "V8-longform",
+      "thesis_type_ko": "expensive-volatility selling",
+      "one_line_verdict_ko": "convexity/tail risk 과소평가",
+      "thesis_score": 4.0,
+      "process_score": 6.5,
+      "return_summary_ko": "naked short-vol 큰 손실 가능",
+      "core_error_ko": "convexity/tail risk 과소평가",
+      "core_insight_ko": "생존·scale·unit economics·valuation을 별도 claim으로 저장하고 KPI 변화율로 posterior를 갱신한다.",
+      "research_asof": "2024-01-31"
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "analysis_depth_ko": "기업·가치사슬·원문·valuation·6 claims·4 metrics·6 timeline·primary sources 장문분석",
+      "report_version": "V8-longform",
+      "thesis_type_ko": "valuation bubble",
+      "one_line_verdict_ko": "business Short보다 duration warning 부분 적중",
+      "thesis_score": 6.5,
+      "process_score": 6.5,
+      "return_summary_ko": "holding period 혼합",
+      "core_error_ko": "business Short보다 duration warning 부분 적중",
+      "core_insight_ko": "생존·scale·unit economics·valuation을 별도 claim으로 저장하고 KPI 변화율로 posterior를 갱신한다.",
+      "research_asof": "2024-01-31"
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "analysis_depth_ko": "기업·가치사슬·원문·valuation·6 claims·4 metrics·6 timeline·primary sources 장문분석",
+      "report_version": "V8-longform",
+      "thesis_type_ko": "two spread businesses disguised as retailer",
+      "one_line_verdict_ko": "scale의 inventory turn·appraisal·wholesale·CAF flywheel을 과소평가",
+      "thesis_score": 4.0,
+      "process_score": 6.5,
+      "return_summary_ko": "SQL 1년 +30.8%, 3년 +74.2%, 5년 +204.4%",
+      "core_error_ko": "scale의 inventory turn·appraisal·wholesale·CAF flywheel을 과소평가",
+      "core_insight_ko": "생존·scale·unit economics·valuation을 별도 claim으로 저장하고 KPI 변화율로 posterior를 갱신한다.",
+      "research_asof": "2024-01-31"
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "analysis_depth_ko": "기업·가치사슬·원문·valuation·6 claims·4 metrics·6 timeline·primary sources 장문분석",
+      "report_version": "V8-longform",
+      "thesis_type_ko": "scale + store growth + operating leverage",
+      "one_line_verdict_ko": "fragmented market에서 scale·brand·financing·store density mechanism을 잘 봄",
+      "thesis_score": 9.2,
+      "process_score": 8.8,
+      "return_summary_ko": "SQL 1년 +23.1%, 5년 +87.4%",
+      "core_error_ko": "fragmented market에서 scale·brand·financing·store density mechanism을 잘 봄",
+      "core_insight_ko": "생존·scale·unit economics·valuation을 별도 claim으로 저장하고 KPI 변화율로 posterior를 갱신한다.",
+      "research_asof": "2024-01-31"
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "analysis_depth_ko": "기업·가치사슬·원문·valuation·6 claims·4 metrics·6 timeline·primary sources 장문분석",
+      "report_version": "V8-longform",
+      "thesis_type_ko": "omnichannel margin-neutral transition",
+      "one_line_verdict_ko": "오프라인 store를 online의 적이 아니라 sourcing·reconditioning·fulfillment node로 재해석",
+      "thesis_score": 9.2,
+      "process_score": 8.8,
+      "return_summary_ko": "SQL 1년 +19.8%, 2년 +59.5%, 3년 +18.7%",
+      "core_error_ko": "오프라인 store를 online의 적이 아니라 sourcing·reconditioning·fulfillment node로 재해석",
+      "core_insight_ko": "생존·scale·unit economics·valuation을 별도 claim으로 저장하고 KPI 변화율로 posterior를 갱신한다.",
+      "research_asof": "2024-01-31"
+    }
+  ],
+  "sections": [
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Tesla는 전기차를 설계·제조·직접판매하고 차량 소프트웨어·충전망·에너지저장을 수직통합한다. 핵심 KPI는 생산·인도량, automotive gross margin, unit cost, cash/FCF, 공장 utilization, ASP와 가격인하 후 volume elasticity다."
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "차량 ASP×인도량에서 제조·보증·물류비를 빼고 software/service 이익을 더한다. ramp 초기에는 fixed-cost absorption이 낮아 cash burn이 커지지만 throughput과 yield가 개선되면 손익이 비선형적으로 좋아질 수 있다."
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·핵심 KPI",
+      "section_body_ko": "EV brand·전용 software architecture·OTA·충전망이 강점이다. 경쟁 OEM scale-up, 가격경쟁, CapEx와 autonomy monetization 지연이 위험이다."
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문",
+      "section_body_ko": "Model S ramp 지연·현금부족이 파산/희석으로 이어질 것"
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션",
+      "section_body_ko": "파산확률을 크게 둔 distressed valuation 사업가정과 starting price를 분리한다."
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2012말 2,650대 인도·2만대 run-rate, 2013 22,477대"
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "section_order": 7,
+      "section_title_ko": "사업과 증권 결과 분리",
+      "section_body_ko": "장기 Short 치명적 실패"
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "section_order": 8,
+      "section_title_ko": "무엇을 맞고 틀렸나",
+      "section_body_ko": "ramp risk를 permanent failure로 과대해석"
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "section_order": 9,
+      "section_title_ko": "최초 검증·반증 신호",
+      "section_body_ko": "2012-12-31 — 주당 생산속도 개선"
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "section_order": 10,
+      "section_title_ko": "최종 교훈",
+      "section_body_ko": "치명적 실패 정적 headline보다 KPI 변화율과 cash runway를 함께 본다."
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Tesla는 전기차를 설계·제조·직접판매하고 차량 소프트웨어·충전망·에너지저장을 수직통합한다. 핵심 KPI는 생산·인도량, automotive gross margin, unit cost, cash/FCF, 공장 utilization, ASP와 가격인하 후 volume elasticity다."
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "차량 ASP×인도량에서 제조·보증·물류비를 빼고 software/service 이익을 더한다. ramp 초기에는 fixed-cost absorption이 낮아 cash burn이 커지지만 throughput과 yield가 개선되면 손익이 비선형적으로 좋아질 수 있다."
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·핵심 KPI",
+      "section_body_ko": "EV brand·전용 software architecture·OTA·충전망이 강점이다. 경쟁 OEM scale-up, 가격경쟁, CapEx와 autonomy monetization 지연이 위험이다."
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문",
+      "section_body_ko": "50만대 계획과 SolarCity가 제조·자본부담 과도"
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션",
+      "section_body_ko": "tail-risk valuation 사업가정과 starting price를 분리한다."
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "production hell은 실제였으나 2018~19 scale 성공"
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "section_order": 7,
+      "section_title_ko": "사업과 증권 결과 분리",
+      "section_body_ko": "장기 Short 실패"
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "section_order": 8,
+      "section_title_ko": "무엇을 맞고 틀렸나",
+      "section_body_ko": "execution risk 적중, permanent impairment 실패"
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "section_order": 9,
+      "section_title_ko": "최초 검증·반증 신호",
+      "section_body_ko": "2018-06-30 — Model 3 weekly output 급상승"
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "section_order": 10,
+      "section_title_ko": "최종 교훈",
+      "section_body_ko": "실패 정적 headline보다 KPI 변화율과 cash runway를 함께 본다."
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Tesla는 전기차를 설계·제조·직접판매하고 차량 소프트웨어·충전망·에너지저장을 수직통합한다. 핵심 KPI는 생산·인도량, automotive gross margin, unit cost, cash/FCF, 공장 utilization, ASP와 가격인하 후 volume elasticity다."
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "차량 ASP×인도량에서 제조·보증·물류비를 빼고 software/service 이익을 더한다. ramp 초기에는 fixed-cost absorption이 낮아 cash burn이 커지지만 throughput과 yield가 개선되면 손익이 비선형적으로 좋아질 수 있다."
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·핵심 KPI",
+      "section_body_ko": "EV brand·전용 software architecture·OTA·충전망이 강점이다. 경쟁 OEM scale-up, 가격경쟁, CapEx와 autonomy monetization 지연이 위험이다."
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문",
+      "section_body_ko": "현재 손실보다 Model3·brand·battery·software optionality가 큼"
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션",
+      "section_body_ko": "장기 optionality valuation 사업가정과 starting price를 분리한다."
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2018 mass-production, 2019 36.8만대, 2021 revenue $53.8bn"
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "section_order": 7,
+      "section_title_ko": "사업과 증권 결과 분리",
+      "section_body_ko": "장기 매우 성공"
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "section_order": 8,
+      "section_title_ko": "무엇을 맞고 틀렸나",
+      "section_body_ko": "현재 P&L보다 scalable capability를 봄"
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "section_order": 9,
+      "section_title_ko": "최초 검증·반증 신호",
+      "section_body_ko": "2018-06-30 — Model 3 ramp 성공"
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "section_order": 10,
+      "section_title_ko": "최종 교훈",
+      "section_body_ko": "매우 성공 정적 headline보다 KPI 변화율과 cash runway를 함께 본다."
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Tesla는 전기차를 설계·제조·직접판매하고 차량 소프트웨어·충전망·에너지저장을 수직통합한다. 핵심 KPI는 생산·인도량, automotive gross margin, unit cost, cash/FCF, 공장 utilization, ASP와 가격인하 후 volume elasticity다."
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "차량 ASP×인도량에서 제조·보증·물류비를 빼고 software/service 이익을 더한다. ramp 초기에는 fixed-cost absorption이 낮아 cash burn이 커지지만 throughput과 yield가 개선되면 손익이 비선형적으로 좋아질 수 있다."
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·핵심 KPI",
+      "section_body_ko": "EV brand·전용 software architecture·OTA·충전망이 강점이다. 경쟁 OEM scale-up, 가격경쟁, CapEx와 autonomy monetization 지연이 위험이다."
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문",
+      "section_body_ko": "가격인하·service 문제·CapEx가 demand/cash 훼손"
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션",
+      "section_body_ko": "multiple compression 사업가정과 starting price를 분리한다."
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "단기압박·증자는 있었으나 2019 인도 record와 Shanghai 가동"
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "section_order": 7,
+      "section_title_ko": "사업과 증권 결과 분리",
+      "section_body_ko": "Short 실패"
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "section_order": 8,
+      "section_title_ko": "무엇을 맞고 틀렸나",
+      "section_body_ko": "가격인하를 demand failure로 단선 해석"
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "section_order": 9,
+      "section_title_ko": "최초 검증·반증 신호",
+      "section_body_ko": "2019-12-31 — 2019 deliveries 367,656"
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "section_order": 10,
+      "section_title_ko": "최종 교훈",
+      "section_body_ko": "실패 정적 headline보다 KPI 변화율과 cash runway를 함께 본다."
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Tesla는 전기차를 설계·제조·직접판매하고 차량 소프트웨어·충전망·에너지저장을 수직통합한다. 핵심 KPI는 생산·인도량, automotive gross margin, unit cost, cash/FCF, 공장 utilization, ASP와 가격인하 후 volume elasticity다."
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "차량 ASP×인도량에서 제조·보증·물류비를 빼고 software/service 이익을 더한다. ramp 초기에는 fixed-cost absorption이 낮아 cash burn이 커지지만 throughput과 yield가 개선되면 손익이 비선형적으로 좋아질 수 있다."
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·핵심 KPI",
+      "section_body_ko": "EV brand·전용 software architecture·OTA·충전망이 강점이다. 경쟁 OEM scale-up, 가격경쟁, CapEx와 autonomy monetization 지연이 위험이다."
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문",
+      "section_body_ko": "2018 mass-production proof와 EV·brand·software moat"
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션",
+      "section_body_ko": "autonomy를 큰 본가치에 넣지 않은 valuation 사업가정과 starting price를 분리한다."
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2019~21 판매·매출 급증, autonomy는 지연"
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "section_order": 7,
+      "section_title_ko": "사업과 증권 결과 분리",
+      "section_body_ko": "장기 강한 성공"
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "section_order": 8,
+      "section_title_ko": "무엇을 맞고 틀렸나",
+      "section_body_ko": "core auto 적중, robotaxi timing 과대"
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "section_order": 9,
+      "section_title_ko": "최초 검증·반증 신호",
+      "section_body_ko": "2019-12-31 — deliveries record"
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "section_order": 10,
+      "section_title_ko": "최종 교훈",
+      "section_body_ko": "강한 성공 정적 headline보다 KPI 변화율과 cash runway를 함께 본다."
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Tesla는 전기차를 설계·제조·직접판매하고 차량 소프트웨어·충전망·에너지저장을 수직통합한다. 핵심 KPI는 생산·인도량, automotive gross margin, unit cost, cash/FCF, 공장 utilization, ASP와 가격인하 후 volume elasticity다."
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "차량 ASP×인도량에서 제조·보증·물류비를 빼고 software/service 이익을 더한다. ramp 초기에는 fixed-cost absorption이 낮아 cash burn이 커지지만 throughput과 yield가 개선되면 손익이 비선형적으로 좋아질 수 있다."
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·핵심 KPI",
+      "section_body_ko": "EV brand·전용 software architecture·OTA·충전망이 강점이다. 경쟁 OEM scale-up, 가격경쟁, CapEx와 autonomy monetization 지연이 위험이다."
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문",
+      "section_body_ko": "bull/bear 확신 때문에 option IV 과도"
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션",
+      "section_body_ko": "IV-vs-RV trade 사업가정과 starting price를 분리한다."
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2020~21 realized vol·directional rally 극단적"
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "section_order": 7,
+      "section_title_ko": "사업과 증권 결과 분리",
+      "section_body_ko": "naked short-vol 큰 손실 가능"
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "section_order": 8,
+      "section_title_ko": "무엇을 맞고 틀렸나",
+      "section_body_ko": "convexity/tail risk 과소평가"
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "section_order": 9,
+      "section_title_ko": "최초 검증·반증 신호",
+      "section_body_ko": "2020-03-31 — realized volatility 급등"
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "section_order": 10,
+      "section_title_ko": "최종 교훈",
+      "section_body_ko": "실패 정적 headline보다 KPI 변화율과 cash runway를 함께 본다."
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Tesla는 전기차를 설계·제조·직접판매하고 차량 소프트웨어·충전망·에너지저장을 수직통합한다. 핵심 KPI는 생산·인도량, automotive gross margin, unit cost, cash/FCF, 공장 utilization, ASP와 가격인하 후 volume elasticity다."
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "차량 ASP×인도량에서 제조·보증·물류비를 빼고 software/service 이익을 더한다. ramp 초기에는 fixed-cost absorption이 낮아 cash burn이 커지지만 throughput과 yield가 개선되면 손익이 비선형적으로 좋아질 수 있다."
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·핵심 KPI",
+      "section_body_ko": "EV brand·전용 software architecture·OTA·충전망이 강점이다. 경쟁 OEM scale-up, 가격경쟁, CapEx와 autonomy monetization 지연이 위험이다."
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문",
+      "section_body_ko": "시총 비중 1.7% 수준이 성공 과도 선반영"
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션",
+      "section_body_ko": "valuation-duration Short 사업가정과 starting price를 분리한다."
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2021 사업성장, 2022 drawdown, 2023 회복"
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "section_order": 7,
+      "section_title_ko": "사업과 증권 결과 분리",
+      "section_body_ko": "holding period 혼합"
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "section_order": 8,
+      "section_title_ko": "무엇을 맞고 틀렸나",
+      "section_body_ko": "business Short보다 duration warning 부분 적중"
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "section_order": 9,
+      "section_title_ko": "최초 검증·반증 신호",
+      "section_body_ko": "2022-06-30 — multiple compression"
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "section_order": 10,
+      "section_title_ko": "최종 교훈",
+      "section_body_ko": "부분 적중 정적 headline보다 KPI 변화율과 cash runway를 함께 본다."
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "CarMax는 미국 최대급 used-car retailer로 no-haggle pricing, 대규모 재고, appraisal/trade-in sourcing, wholesale auctions와 CarMax Auto Finance(CAF)를 결합한다. 핵심 KPI는 retail/wholesale units, comparable-store units, gross profit/unit, inventory turn, store count, omnichannel conversion, CAF penetration·spread·credit losses다."
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "고객에게 차량을 매입해 reconditioning 후 retail로 판매하고 retail 기준에 맞지 않는 차량은 wholesale auction으로 처분한다. retail spread가 크지 않아도 inventory turn과 scale이 수익을 만들고 CAF가 별도의 finance spread를 제공한다. store는 appraisal·reconditioning·test-drive·fulfillment node 역할을 한다."
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·핵심 KPI",
+      "section_body_ko": "No-haggle brand, 전국 inventory pool, appraisal 데이터, wholesale auction, CAF와 store density가 결합된 경쟁우위다. Carvana 등 digital 경쟁, used-car 가격과 금리·신용손실이 주요 위험이다."
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문",
+      "section_body_ko": "used-car merchandising spread와 auto-finance spread라는 두 mediocre businesses라 $24.60이 과대평가"
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션",
+      "section_body_ko": "retail/CAF에 낮은 multiple 사업가정과 starting price를 분리한다."
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "FY2010 retail 357,129대에서 FY2015 582,282대, FY2019 748,961대로 성장; SQL 5년 +204.4%"
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "section_order": 7,
+      "section_title_ko": "사업과 증권 결과 분리",
+      "section_body_ko": "SQL 1년 +30.8%, 3년 +74.2%, 5년 +204.4%"
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "section_order": 8,
+      "section_title_ko": "무엇을 맞고 틀렸나",
+      "section_body_ko": "scale의 inventory turn·appraisal·wholesale·CAF flywheel을 과소평가"
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "section_order": 9,
+      "section_title_ko": "최초 검증·반증 신호",
+      "section_body_ko": "2012-02-29 — store/units 성장과 CAF profit pool 확인"
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "section_order": 10,
+      "section_title_ko": "최종 교훈",
+      "section_body_ko": "치명적 실패 정적 headline보다 KPI 변화율과 cash runway를 함께 본다."
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "CarMax는 미국 최대급 used-car retailer로 no-haggle pricing, 대규모 재고, appraisal/trade-in sourcing, wholesale auctions와 CarMax Auto Finance(CAF)를 결합한다. 핵심 KPI는 retail/wholesale units, comparable-store units, gross profit/unit, inventory turn, store count, omnichannel conversion, CAF penetration·spread·credit losses다."
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "고객에게 차량을 매입해 reconditioning 후 retail로 판매하고 retail 기준에 맞지 않는 차량은 wholesale auction으로 처분한다. retail spread가 크지 않아도 inventory turn과 scale이 수익을 만들고 CAF가 별도의 finance spread를 제공한다. store는 appraisal·reconditioning·test-drive·fulfillment node 역할을 한다."
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·핵심 KPI",
+      "section_body_ko": "No-haggle brand, 전국 inventory pool, appraisal 데이터, wholesale auction, CAF와 store density가 결합된 경쟁우위다. Carvana 등 digital 경쟁, used-car 가격과 금리·신용손실이 주요 위험이다."
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문",
+      "section_body_ko": "약 17x earnings에 industry largest player·customer orientation·2년 12%+ store growth와 operating leverage"
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션",
+      "section_body_ko": "17x forward earnings와 EPS compounding 사업가정과 starting price를 분리한다."
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "FY2015 582,282대/144 stores에서 FY2019 748,961대/203 stores; SQL 5년 +87.4%"
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "section_order": 7,
+      "section_title_ko": "사업과 증권 결과 분리",
+      "section_body_ko": "SQL 1년 +23.1%, 5년 +87.4%"
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "section_order": 8,
+      "section_title_ko": "무엇을 맞고 틀렸나",
+      "section_body_ko": "fragmented market에서 scale·brand·financing·store density mechanism을 잘 봄"
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "section_order": 9,
+      "section_title_ko": "최초 검증·반증 신호",
+      "section_body_ko": "2017-02-28 — store count와 used-unit growth 지속"
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "section_order": 10,
+      "section_title_ko": "최종 교훈",
+      "section_body_ko": "성공 정적 headline보다 KPI 변화율과 cash runway를 함께 본다."
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "CarMax는 미국 최대급 used-car retailer로 no-haggle pricing, 대규모 재고, appraisal/trade-in sourcing, wholesale auctions와 CarMax Auto Finance(CAF)를 결합한다. 핵심 KPI는 retail/wholesale units, comparable-store units, gross profit/unit, inventory turn, store count, omnichannel conversion, CAF penetration·spread·credit losses다."
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "고객에게 차량을 매입해 reconditioning 후 retail로 판매하고 retail 기준에 맞지 않는 차량은 wholesale auction으로 처분한다. retail spread가 크지 않아도 inventory turn과 scale이 수익을 만들고 CAF가 별도의 finance spread를 제공한다. store는 appraisal·reconditioning·test-drive·fulfillment node 역할을 한다."
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·핵심 KPI",
+      "section_body_ko": "No-haggle brand, 전국 inventory pool, appraisal 데이터, wholesale auction, CAF와 store density가 결합된 경쟁우위다. Carvana 등 digital 경쟁, used-car 가격과 금리·신용손실이 주요 위험이다."
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문",
+      "section_body_ko": "온라인 대응은 늦었지만 store·inventory·CAF를 이용해 true omnichannel을 margin-neutral하게 구현 가능"
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션",
+      "section_body_ko": "낮은 nationwide share와 omnichannel 회복을 반영한 장기 EPS compound 사업가정과 starting price를 분리한다."
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "FY2019 203 stores/748,961 units/$18.17bn revenue; FY2023 retail 807,823대·managed receivables $16.77bn; SQL 1년 +19.8%"
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "section_order": 7,
+      "section_title_ko": "사업과 증권 결과 분리",
+      "section_body_ko": "SQL 1년 +19.8%, 2년 +59.5%, 3년 +18.7%"
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "section_order": 8,
+      "section_title_ko": "무엇을 맞고 틀렸나",
+      "section_body_ko": "오프라인 store를 online의 적이 아니라 sourcing·reconditioning·fulfillment node로 재해석"
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "section_order": 9,
+      "section_title_ko": "최초 검증·반증 신호",
+      "section_body_ko": "2020-02-29 — omnichannel rollout 확대"
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "section_order": 10,
+      "section_title_ko": "최종 교훈",
+      "section_body_ko": "성공 정적 headline보다 KPI 변화율과 cash runway를 함께 본다."
+    }
+  ],
+  "claims": [
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "claim_order": 1,
+      "claim_title_ko": "생존·유동성",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "Model S ramp 지연·현금부족이 파산/희석으로 이어질 것",
+      "t0_evidence_ko": "Model S ramp 지연·현금부족이 파산/희석으로 이어질 것",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2012말 2,650대 인도·2만대 run-rate, 2013 22,477대",
+      "quantitative_gap_ko": "Model S: 132대(9/23) → 2,650대",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "ramp risk를 permanent failure로 과대해석",
+      "reusable_lesson_ko": "생존·유동성는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "claim_order": 2,
+      "claim_title_ko": "수요·volume",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "Model S ramp 지연·현금부족이 파산/희석으로 이어질 것",
+      "t0_evidence_ko": "Model S ramp 지연·현금부족이 파산/희석으로 이어질 것",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2012말 2,650대 인도·2만대 run-rate, 2013 22,477대",
+      "quantitative_gap_ko": "run-rate: 낮음 → 20,000/yr",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "ramp risk를 permanent failure로 과대해석",
+      "reusable_lesson_ko": "수요·volume는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "claim_order": 3,
+      "claim_title_ko": "단위경제성",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "Model S ramp 지연·현금부족이 파산/희석으로 이어질 것",
+      "t0_evidence_ko": "Model S ramp 지연·현금부족이 파산/희석으로 이어질 것",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2012말 2,650대 인도·2만대 run-rate, 2013 22,477대",
+      "quantitative_gap_ko": "2013 deliveries: 부진 예상 → 22,477",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "ramp risk를 permanent failure로 과대해석",
+      "reusable_lesson_ko": "단위경제성는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "claim_order": 4,
+      "claim_title_ko": "자본배분·capacity",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "Model S ramp 지연·현금부족이 파산/희석으로 이어질 것",
+      "t0_evidence_ko": "Model S ramp 지연·현금부족이 파산/희석으로 이어질 것",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2012말 2,650대 인도·2만대 run-rate, 2013 22,477대",
+      "quantitative_gap_ko": "liquidity: 파산 → 조달 지속",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "ramp risk를 permanent failure로 과대해석",
+      "reusable_lesson_ko": "자본배분·capacity는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "claim_order": 5,
+      "claim_title_ko": "경쟁우위·시장구조",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "Model S ramp 지연·현금부족이 파산/희석으로 이어질 것",
+      "t0_evidence_ko": "Model S ramp 지연·현금부족이 파산/희석으로 이어질 것",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2012말 2,650대 인도·2만대 run-rate, 2013 22,477대",
+      "quantitative_gap_ko": "Model S: 132대(9/23) → 2,650대",
+      "verdict_ko": "치명적 실패",
+      "analytical_error_ko": "ramp risk를 permanent failure로 과대해석",
+      "reusable_lesson_ko": "경쟁우위·시장구조는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "claim_order": 6,
+      "claim_title_ko": "valuation·촉매",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "Model S ramp 지연·현금부족이 파산/희석으로 이어질 것",
+      "t0_evidence_ko": "Model S ramp 지연·현금부족이 파산/희석으로 이어질 것",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2012말 2,650대 인도·2만대 run-rate, 2013 22,477대",
+      "quantitative_gap_ko": "run-rate: 낮음 → 20,000/yr",
+      "verdict_ko": "치명적 실패",
+      "analytical_error_ko": "ramp risk를 permanent failure로 과대해석",
+      "reusable_lesson_ko": "valuation·촉매는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "claim_order": 1,
+      "claim_title_ko": "생존·유동성",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "50만대 계획과 SolarCity가 제조·자본부담 과도",
+      "t0_evidence_ko": "50만대 계획과 SolarCity가 제조·자본부담 과도",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "production hell은 실제였으나 2018~19 scale 성공",
+      "quantitative_gap_ko": "reservations: 373k → 대규모 유지",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "execution risk 적중, permanent impairment 실패",
+      "reusable_lesson_ko": "생존·유동성는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "claim_order": 2,
+      "claim_title_ko": "수요·volume",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "50만대 계획과 SolarCity가 제조·자본부담 과도",
+      "t0_evidence_ko": "50만대 계획과 SolarCity가 제조·자본부담 과도",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "production hell은 실제였으나 2018~19 scale 성공",
+      "quantitative_gap_ko": "2018 plan: 500k → ramp 통과",
+      "verdict_ko": "부분",
+      "analytical_error_ko": "execution risk 적중, permanent impairment 실패",
+      "reusable_lesson_ko": "수요·volume는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "claim_order": 3,
+      "claim_title_ko": "단위경제성",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "50만대 계획과 SolarCity가 제조·자본부담 과도",
+      "t0_evidence_ko": "50만대 계획과 SolarCity가 제조·자본부담 과도",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "production hell은 실제였으나 2018~19 scale 성공",
+      "quantitative_gap_ko": "SolarCity: 부담 → auto 생존 막지 못함",
+      "verdict_ko": "부분",
+      "analytical_error_ko": "execution risk 적중, permanent impairment 실패",
+      "reusable_lesson_ko": "단위경제성는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "claim_order": 4,
+      "claim_title_ko": "자본배분·capacity",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "50만대 계획과 SolarCity가 제조·자본부담 과도",
+      "t0_evidence_ko": "50만대 계획과 SolarCity가 제조·자본부담 과도",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "production hell은 실제였으나 2018~19 scale 성공",
+      "quantitative_gap_ko": "2019 deliveries: - → 367,656",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "execution risk 적중, permanent impairment 실패",
+      "reusable_lesson_ko": "자본배분·capacity는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "claim_order": 5,
+      "claim_title_ko": "경쟁우위·시장구조",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "50만대 계획과 SolarCity가 제조·자본부담 과도",
+      "t0_evidence_ko": "50만대 계획과 SolarCity가 제조·자본부담 과도",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "production hell은 실제였으나 2018~19 scale 성공",
+      "quantitative_gap_ko": "reservations: 373k → 대규모 유지",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "execution risk 적중, permanent impairment 실패",
+      "reusable_lesson_ko": "경쟁우위·시장구조는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "claim_order": 6,
+      "claim_title_ko": "valuation·촉매",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "50만대 계획과 SolarCity가 제조·자본부담 과도",
+      "t0_evidence_ko": "50만대 계획과 SolarCity가 제조·자본부담 과도",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "production hell은 실제였으나 2018~19 scale 성공",
+      "quantitative_gap_ko": "2018 plan: 500k → ramp 통과",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "execution risk 적중, permanent impairment 실패",
+      "reusable_lesson_ko": "valuation·촉매는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "claim_order": 1,
+      "claim_title_ko": "생존·유동성",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "현재 손실보다 Model3·brand·battery·software optionality가 큼",
+      "t0_evidence_ko": "현재 손실보다 Model3·brand·battery·software optionality가 큼",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2018 mass-production, 2019 36.8만대, 2021 revenue $53.8bn",
+      "quantitative_gap_ko": "Model3: production hell → mass production",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "현재 P&L보다 scalable capability를 봄",
+      "reusable_lesson_ko": "생존·유동성는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "claim_order": 2,
+      "claim_title_ko": "수요·volume",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "현재 손실보다 Model3·brand·battery·software optionality가 큼",
+      "t0_evidence_ko": "현재 손실보다 Model3·brand·battery·software optionality가 큼",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2018 mass-production, 2019 36.8만대, 2021 revenue $53.8bn",
+      "quantitative_gap_ko": "brand: 강함 → EV leader",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "현재 P&L보다 scalable capability를 봄",
+      "reusable_lesson_ko": "수요·volume는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "claim_order": 3,
+      "claim_title_ko": "단위경제성",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "현재 손실보다 Model3·brand·battery·software optionality가 큼",
+      "t0_evidence_ko": "현재 손실보다 Model3·brand·battery·software optionality가 큼",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2018 mass-production, 2019 36.8만대, 2021 revenue $53.8bn",
+      "quantitative_gap_ko": "revenue: 초기 → $53.8bn 2021",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "현재 P&L보다 scalable capability를 봄",
+      "reusable_lesson_ko": "단위경제성는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "claim_order": 4,
+      "claim_title_ko": "자본배분·capacity",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "현재 손실보다 Model3·brand·battery·software optionality가 큼",
+      "t0_evidence_ko": "현재 손실보다 Model3·brand·battery·software optionality가 큼",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2018 mass-production, 2019 36.8만대, 2021 revenue $53.8bn",
+      "quantitative_gap_ko": "funding: 의존 → 접근 지속",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "현재 P&L보다 scalable capability를 봄",
+      "reusable_lesson_ko": "자본배분·capacity는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "claim_order": 5,
+      "claim_title_ko": "경쟁우위·시장구조",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "현재 손실보다 Model3·brand·battery·software optionality가 큼",
+      "t0_evidence_ko": "현재 손실보다 Model3·brand·battery·software optionality가 큼",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2018 mass-production, 2019 36.8만대, 2021 revenue $53.8bn",
+      "quantitative_gap_ko": "Model3: production hell → mass production",
+      "verdict_ko": "매우 성공",
+      "analytical_error_ko": "현재 P&L보다 scalable capability를 봄",
+      "reusable_lesson_ko": "경쟁우위·시장구조는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "claim_order": 6,
+      "claim_title_ko": "valuation·촉매",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "현재 손실보다 Model3·brand·battery·software optionality가 큼",
+      "t0_evidence_ko": "현재 손실보다 Model3·brand·battery·software optionality가 큼",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2018 mass-production, 2019 36.8만대, 2021 revenue $53.8bn",
+      "quantitative_gap_ko": "brand: 강함 → EV leader",
+      "verdict_ko": "매우 성공",
+      "analytical_error_ko": "현재 P&L보다 scalable capability를 봄",
+      "reusable_lesson_ko": "valuation·촉매는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "claim_order": 1,
+      "claim_title_ko": "생존·유동성",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "가격인하·service 문제·CapEx가 demand/cash 훼손",
+      "t0_evidence_ko": "가격인하·service 문제·CapEx가 demand/cash 훼손",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "단기압박·증자는 있었으나 2019 인도 record와 Shanghai 가동",
+      "quantitative_gap_ko": "price cuts: 약세신호 → volume 증가",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "가격인하를 demand failure로 단선 해석",
+      "reusable_lesson_ko": "생존·유동성는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "claim_order": 2,
+      "claim_title_ko": "수요·volume",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "가격인하·service 문제·CapEx가 demand/cash 훼손",
+      "t0_evidence_ko": "가격인하·service 문제·CapEx가 demand/cash 훼손",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "단기압박·증자는 있었으나 2019 인도 record와 Shanghai 가동",
+      "quantitative_gap_ko": "cash: 압박 → 조달 성공",
+      "verdict_ko": "부분",
+      "analytical_error_ko": "가격인하를 demand failure로 단선 해석",
+      "reusable_lesson_ko": "수요·volume는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "claim_order": 3,
+      "claim_title_ko": "단위경제성",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "가격인하·service 문제·CapEx가 demand/cash 훼손",
+      "t0_evidence_ko": "가격인하·service 문제·CapEx가 demand/cash 훼손",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "단기압박·증자는 있었으나 2019 인도 record와 Shanghai 가동",
+      "quantitative_gap_ko": "Shanghai: 부담 → 빠른 가동",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "가격인하를 demand failure로 단선 해석",
+      "reusable_lesson_ko": "단위경제성는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "claim_order": 4,
+      "claim_title_ko": "자본배분·capacity",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "가격인하·service 문제·CapEx가 demand/cash 훼손",
+      "t0_evidence_ko": "가격인하·service 문제·CapEx가 demand/cash 훼손",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "단기압박·증자는 있었으나 2019 인도 record와 Shanghai 가동",
+      "quantitative_gap_ko": "deliveries: - → 367,656",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "가격인하를 demand failure로 단선 해석",
+      "reusable_lesson_ko": "자본배분·capacity는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "claim_order": 5,
+      "claim_title_ko": "경쟁우위·시장구조",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "가격인하·service 문제·CapEx가 demand/cash 훼손",
+      "t0_evidence_ko": "가격인하·service 문제·CapEx가 demand/cash 훼손",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "단기압박·증자는 있었으나 2019 인도 record와 Shanghai 가동",
+      "quantitative_gap_ko": "price cuts: 약세신호 → volume 증가",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "가격인하를 demand failure로 단선 해석",
+      "reusable_lesson_ko": "경쟁우위·시장구조는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "claim_order": 6,
+      "claim_title_ko": "valuation·촉매",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "가격인하·service 문제·CapEx가 demand/cash 훼손",
+      "t0_evidence_ko": "가격인하·service 문제·CapEx가 demand/cash 훼손",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "단기압박·증자는 있었으나 2019 인도 record와 Shanghai 가동",
+      "quantitative_gap_ko": "cash: 압박 → 조달 성공",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "가격인하를 demand failure로 단선 해석",
+      "reusable_lesson_ko": "valuation·촉매는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "claim_order": 1,
+      "claim_title_ko": "생존·유동성",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2018 mass-production proof와 EV·brand·software moat",
+      "t0_evidence_ko": "2018 mass-production proof와 EV·brand·software moat",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2019~21 판매·매출 급증, autonomy는 지연",
+      "quantitative_gap_ko": "EV scale: 검증 → 대량생산",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "core auto 적중, robotaxi timing 과대",
+      "reusable_lesson_ko": "생존·유동성는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "claim_order": 2,
+      "claim_title_ko": "수요·volume",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2018 mass-production proof와 EV·brand·software moat",
+      "t0_evidence_ko": "2018 mass-production proof와 EV·brand·software moat",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2019~21 판매·매출 급증, autonomy는 지연",
+      "quantitative_gap_ko": "brand: 강화 → 유지",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "core auto 적중, robotaxi timing 과대",
+      "reusable_lesson_ko": "수요·volume는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "claim_order": 3,
+      "claim_title_ko": "단위경제성",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2018 mass-production proof와 EV·brand·software moat",
+      "t0_evidence_ko": "2018 mass-production proof와 EV·brand·software moat",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2019~21 판매·매출 급증, autonomy는 지연",
+      "quantitative_gap_ko": "autonomy: option → 지연",
+      "verdict_ko": "과대",
+      "analytical_error_ko": "core auto 적중, robotaxi timing 과대",
+      "reusable_lesson_ko": "단위경제성는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "claim_order": 4,
+      "claim_title_ko": "자본배분·capacity",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2018 mass-production proof와 EV·brand·software moat",
+      "t0_evidence_ko": "2018 mass-production proof와 EV·brand·software moat",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2019~21 판매·매출 급증, autonomy는 지연",
+      "quantitative_gap_ko": "revenue: 성장 → $53.8bn",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "core auto 적중, robotaxi timing 과대",
+      "reusable_lesson_ko": "자본배분·capacity는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "claim_order": 5,
+      "claim_title_ko": "경쟁우위·시장구조",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2018 mass-production proof와 EV·brand·software moat",
+      "t0_evidence_ko": "2018 mass-production proof와 EV·brand·software moat",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2019~21 판매·매출 급증, autonomy는 지연",
+      "quantitative_gap_ko": "EV scale: 검증 → 대량생산",
+      "verdict_ko": "강한 성공",
+      "analytical_error_ko": "core auto 적중, robotaxi timing 과대",
+      "reusable_lesson_ko": "경쟁우위·시장구조는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "claim_order": 6,
+      "claim_title_ko": "valuation·촉매",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2018 mass-production proof와 EV·brand·software moat",
+      "t0_evidence_ko": "2018 mass-production proof와 EV·brand·software moat",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2019~21 판매·매출 급증, autonomy는 지연",
+      "quantitative_gap_ko": "brand: 강화 → 유지",
+      "verdict_ko": "강한 성공",
+      "analytical_error_ko": "core auto 적중, robotaxi timing 과대",
+      "reusable_lesson_ko": "valuation·촉매는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "claim_order": 1,
+      "claim_title_ko": "생존·유동성",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "bull/bear 확신 때문에 option IV 과도",
+      "t0_evidence_ko": "bull/bear 확신 때문에 option IV 과도",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2020~21 realized vol·directional rally 극단적",
+      "quantitative_gap_ko": "IV: 높음 → RV 폭증",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "convexity/tail risk 과소평가",
+      "reusable_lesson_ko": "생존·유동성는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "claim_order": 2,
+      "claim_title_ko": "수요·volume",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "bull/bear 확신 때문에 option IV 과도",
+      "t0_evidence_ko": "bull/bear 확신 때문에 option IV 과도",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2020~21 realized vol·directional rally 극단적",
+      "quantitative_gap_ko": "range: 유지 예상 → 상방돌파",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "convexity/tail risk 과소평가",
+      "reusable_lesson_ko": "수요·volume는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "claim_order": 3,
+      "claim_title_ko": "단위경제성",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "bull/bear 확신 때문에 option IV 과도",
+      "t0_evidence_ko": "bull/bear 확신 때문에 option IV 과도",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2020~21 realized vol·directional rally 극단적",
+      "quantitative_gap_ko": "tail: 낮음 → 극단적",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "convexity/tail risk 과소평가",
+      "reusable_lesson_ko": "단위경제성는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "claim_order": 4,
+      "claim_title_ko": "자본배분·capacity",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "bull/bear 확신 때문에 option IV 과도",
+      "t0_evidence_ko": "bull/bear 확신 때문에 option IV 과도",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2020~21 realized vol·directional rally 극단적",
+      "quantitative_gap_ko": "theta: 수취 → convexity 손실",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "convexity/tail risk 과소평가",
+      "reusable_lesson_ko": "자본배분·capacity는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "claim_order": 5,
+      "claim_title_ko": "경쟁우위·시장구조",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "bull/bear 확신 때문에 option IV 과도",
+      "t0_evidence_ko": "bull/bear 확신 때문에 option IV 과도",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2020~21 realized vol·directional rally 극단적",
+      "quantitative_gap_ko": "IV: 높음 → RV 폭증",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "convexity/tail risk 과소평가",
+      "reusable_lesson_ko": "경쟁우위·시장구조는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "claim_order": 6,
+      "claim_title_ko": "valuation·촉매",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "bull/bear 확신 때문에 option IV 과도",
+      "t0_evidence_ko": "bull/bear 확신 때문에 option IV 과도",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2020~21 realized vol·directional rally 극단적",
+      "quantitative_gap_ko": "range: 유지 예상 → 상방돌파",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "convexity/tail risk 과소평가",
+      "reusable_lesson_ko": "valuation·촉매는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "claim_order": 1,
+      "claim_title_ko": "생존·유동성",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "시총 비중 1.7% 수준이 성공 과도 선반영",
+      "t0_evidence_ko": "시총 비중 1.7% 수준이 성공 과도 선반영",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2021 사업성장, 2022 drawdown, 2023 회복",
+      "quantitative_gap_ko": "market share: 1.7% → 2022 de-rate",
+      "verdict_ko": "부분",
+      "analytical_error_ko": "business Short보다 duration warning 부분 적중",
+      "reusable_lesson_ko": "생존·유동성는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "claim_order": 2,
+      "claim_title_ko": "수요·volume",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "시총 비중 1.7% 수준이 성공 과도 선반영",
+      "t0_evidence_ko": "시총 비중 1.7% 수준이 성공 과도 선반영",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2021 사업성장, 2022 drawdown, 2023 회복",
+      "quantitative_gap_ko": "revenue: 실망 예상 → 성장 지속",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "business Short보다 duration warning 부분 적중",
+      "reusable_lesson_ko": "수요·volume는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "claim_order": 3,
+      "claim_title_ko": "단위경제성",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "시총 비중 1.7% 수준이 성공 과도 선반영",
+      "t0_evidence_ko": "시총 비중 1.7% 수준이 성공 과도 선반영",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2021 사업성장, 2022 drawdown, 2023 회복",
+      "quantitative_gap_ko": "multiple: 극단 → 압축",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "business Short보다 duration warning 부분 적중",
+      "reusable_lesson_ko": "단위경제성는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "claim_order": 4,
+      "claim_title_ko": "자본배분·capacity",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "시총 비중 1.7% 수준이 성공 과도 선반영",
+      "t0_evidence_ko": "시총 비중 1.7% 수준이 성공 과도 선반영",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2021 사업성장, 2022 drawdown, 2023 회복",
+      "quantitative_gap_ko": "business: 둔화 → 성장",
+      "verdict_ko": "중립",
+      "analytical_error_ko": "business Short보다 duration warning 부분 적중",
+      "reusable_lesson_ko": "자본배분·capacity는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "claim_order": 5,
+      "claim_title_ko": "경쟁우위·시장구조",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "시총 비중 1.7% 수준이 성공 과도 선반영",
+      "t0_evidence_ko": "시총 비중 1.7% 수준이 성공 과도 선반영",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2021 사업성장, 2022 drawdown, 2023 회복",
+      "quantitative_gap_ko": "market share: 1.7% → 2022 de-rate",
+      "verdict_ko": "부분 적중",
+      "analytical_error_ko": "business Short보다 duration warning 부분 적중",
+      "reusable_lesson_ko": "경쟁우위·시장구조는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "claim_order": 6,
+      "claim_title_ko": "valuation·촉매",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "시총 비중 1.7% 수준이 성공 과도 선반영",
+      "t0_evidence_ko": "시총 비중 1.7% 수준이 성공 과도 선반영",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "2021 사업성장, 2022 drawdown, 2023 회복",
+      "quantitative_gap_ko": "revenue: 실망 예상 → 성장 지속",
+      "verdict_ko": "부분 적중",
+      "analytical_error_ko": "business Short보다 duration warning 부분 적중",
+      "reusable_lesson_ko": "valuation·촉매는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "claim_order": 1,
+      "claim_title_ko": "생존·유동성",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "used-car merchandising spread와 auto-finance spread라는 두 mediocre businesses라 $24.60이 과대평가",
+      "t0_evidence_ko": "used-car merchandising spread와 auto-finance spread라는 두 mediocre businesses라 $24.60이 과대평가",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "FY2010 retail 357,129대에서 FY2015 582,282대, FY2019 748,961대로 성장; SQL 5년 +204.4%",
+      "quantitative_gap_ko": "Entry: $24.60 → 1y +30.8%",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "scale의 inventory turn·appraisal·wholesale·CAF flywheel을 과소평가",
+      "reusable_lesson_ko": "생존·유동성는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "claim_order": 2,
+      "claim_title_ko": "수요·volume",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "used-car merchandising spread와 auto-finance spread라는 두 mediocre businesses라 $24.60이 과대평가",
+      "t0_evidence_ko": "used-car merchandising spread와 auto-finance spread라는 두 mediocre businesses라 $24.60이 과대평가",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "FY2010 retail 357,129대에서 FY2015 582,282대, FY2019 748,961대로 성장; SQL 5년 +204.4%",
+      "quantitative_gap_ko": "Retail units: FY2010 357,129 → FY2015 582,282",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "scale의 inventory turn·appraisal·wholesale·CAF flywheel을 과소평가",
+      "reusable_lesson_ko": "수요·volume는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "claim_order": 3,
+      "claim_title_ko": "단위경제성",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "used-car merchandising spread와 auto-finance spread라는 두 mediocre businesses라 $24.60이 과대평가",
+      "t0_evidence_ko": "used-car merchandising spread와 auto-finance spread라는 두 mediocre businesses라 $24.60이 과대평가",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "FY2010 retail 357,129대에서 FY2015 582,282대, FY2019 748,961대로 성장; SQL 5년 +204.4%",
+      "quantitative_gap_ko": "Stores: 약 100 → FY2015 144",
+      "verdict_ko": "실패",
+      "analytical_error_ko": "scale의 inventory turn·appraisal·wholesale·CAF flywheel을 과소평가",
+      "reusable_lesson_ko": "단위경제성는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "claim_order": 4,
+      "claim_title_ko": "자본배분·capacity",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "used-car merchandising spread와 auto-finance spread라는 두 mediocre businesses라 $24.60이 과대평가",
+      "t0_evidence_ko": "used-car merchandising spread와 auto-finance spread라는 두 mediocre businesses라 $24.60이 과대평가",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "FY2010 retail 357,129대에서 FY2015 582,282대, FY2019 748,961대로 성장; SQL 5년 +204.4%",
+      "quantitative_gap_ko": "5y return: 하락 기대 → +204.4%",
+      "verdict_ko": "치명적 실패",
+      "analytical_error_ko": "scale의 inventory turn·appraisal·wholesale·CAF flywheel을 과소평가",
+      "reusable_lesson_ko": "자본배분·capacity는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "claim_order": 5,
+      "claim_title_ko": "경쟁우위·시장구조",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "used-car merchandising spread와 auto-finance spread라는 두 mediocre businesses라 $24.60이 과대평가",
+      "t0_evidence_ko": "used-car merchandising spread와 auto-finance spread라는 두 mediocre businesses라 $24.60이 과대평가",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "FY2010 retail 357,129대에서 FY2015 582,282대, FY2019 748,961대로 성장; SQL 5년 +204.4%",
+      "quantitative_gap_ko": "Entry: $24.60 → 1y +30.8%",
+      "verdict_ko": "치명적 실패",
+      "analytical_error_ko": "scale의 inventory turn·appraisal·wholesale·CAF flywheel을 과소평가",
+      "reusable_lesson_ko": "경쟁우위·시장구조는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "claim_order": 6,
+      "claim_title_ko": "valuation·촉매",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "used-car merchandising spread와 auto-finance spread라는 두 mediocre businesses라 $24.60이 과대평가",
+      "t0_evidence_ko": "used-car merchandising spread와 auto-finance spread라는 두 mediocre businesses라 $24.60이 과대평가",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "FY2010 retail 357,129대에서 FY2015 582,282대, FY2019 748,961대로 성장; SQL 5년 +204.4%",
+      "quantitative_gap_ko": "Retail units: FY2010 357,129 → FY2015 582,282",
+      "verdict_ko": "치명적 실패",
+      "analytical_error_ko": "scale의 inventory turn·appraisal·wholesale·CAF flywheel을 과소평가",
+      "reusable_lesson_ko": "valuation·촉매는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "claim_order": 1,
+      "claim_title_ko": "생존·유동성",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "약 17x earnings에 industry largest player·customer orientation·2년 12%+ store growth와 operating leverage",
+      "t0_evidence_ko": "약 17x earnings에 industry largest player·customer orientation·2년 12%+ store growth와 operating leverage",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "FY2015 582,282대/144 stores에서 FY2019 748,961대/203 stores; SQL 5년 +87.4%",
+      "quantitative_gap_ko": "Entry: $52.12 → 1y +23.1%",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "fragmented market에서 scale·brand·financing·store density mechanism을 잘 봄",
+      "reusable_lesson_ko": "생존·유동성는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "claim_order": 2,
+      "claim_title_ko": "수요·volume",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "약 17x earnings에 industry largest player·customer orientation·2년 12%+ store growth와 operating leverage",
+      "t0_evidence_ko": "약 17x earnings에 industry largest player·customer orientation·2년 12%+ store growth와 operating leverage",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "FY2015 582,282대/144 stores에서 FY2019 748,961대/203 stores; SQL 5년 +87.4%",
+      "quantitative_gap_ko": "Retail units: 582,282 → 748,961",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "fragmented market에서 scale·brand·financing·store density mechanism을 잘 봄",
+      "reusable_lesson_ko": "수요·volume는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "claim_order": 3,
+      "claim_title_ko": "단위경제성",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "약 17x earnings에 industry largest player·customer orientation·2년 12%+ store growth와 operating leverage",
+      "t0_evidence_ko": "약 17x earnings에 industry largest player·customer orientation·2년 12%+ store growth와 operating leverage",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "FY2015 582,282대/144 stores에서 FY2019 748,961대/203 stores; SQL 5년 +87.4%",
+      "quantitative_gap_ko": "Stores: 144 → 203",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "fragmented market에서 scale·brand·financing·store density mechanism을 잘 봄",
+      "reusable_lesson_ko": "단위경제성는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "claim_order": 4,
+      "claim_title_ko": "자본배분·capacity",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "약 17x earnings에 industry largest player·customer orientation·2년 12%+ store growth와 operating leverage",
+      "t0_evidence_ko": "약 17x earnings에 industry largest player·customer orientation·2년 12%+ store growth와 operating leverage",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "FY2015 582,282대/144 stores에서 FY2019 748,961대/203 stores; SQL 5년 +87.4%",
+      "quantitative_gap_ko": "5y return: 장기 compounding → +87.4%",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "fragmented market에서 scale·brand·financing·store density mechanism을 잘 봄",
+      "reusable_lesson_ko": "자본배분·capacity는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "claim_order": 5,
+      "claim_title_ko": "경쟁우위·시장구조",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "약 17x earnings에 industry largest player·customer orientation·2년 12%+ store growth와 operating leverage",
+      "t0_evidence_ko": "약 17x earnings에 industry largest player·customer orientation·2년 12%+ store growth와 operating leverage",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "FY2015 582,282대/144 stores에서 FY2019 748,961대/203 stores; SQL 5년 +87.4%",
+      "quantitative_gap_ko": "Entry: $52.12 → 1y +23.1%",
+      "verdict_ko": "성공",
+      "analytical_error_ko": "fragmented market에서 scale·brand·financing·store density mechanism을 잘 봄",
+      "reusable_lesson_ko": "경쟁우위·시장구조는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "claim_order": 6,
+      "claim_title_ko": "valuation·촉매",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "약 17x earnings에 industry largest player·customer orientation·2년 12%+ store growth와 operating leverage",
+      "t0_evidence_ko": "약 17x earnings에 industry largest player·customer orientation·2년 12%+ store growth와 operating leverage",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "FY2015 582,282대/144 stores에서 FY2019 748,961대/203 stores; SQL 5년 +87.4%",
+      "quantitative_gap_ko": "Retail units: 582,282 → 748,961",
+      "verdict_ko": "성공",
+      "analytical_error_ko": "fragmented market에서 scale·brand·financing·store density mechanism을 잘 봄",
+      "reusable_lesson_ko": "valuation·촉매는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "claim_order": 1,
+      "claim_title_ko": "생존·유동성",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "온라인 대응은 늦었지만 store·inventory·CAF를 이용해 true omnichannel을 margin-neutral하게 구현 가능",
+      "t0_evidence_ko": "온라인 대응은 늦었지만 store·inventory·CAF를 이용해 true omnichannel을 margin-neutral하게 구현 가능",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "FY2019 203 stores/748,961 units/$18.17bn revenue; FY2023 retail 807,823대·managed receivables $16.77bn; SQL 1년 +19.8%",
+      "quantitative_gap_ko": "Stores: 203 → 전국 omnichannel 확대",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "오프라인 store를 online의 적이 아니라 sourcing·reconditioning·fulfillment node로 재해석",
+      "reusable_lesson_ko": "생존·유동성는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "claim_order": 2,
+      "claim_title_ko": "수요·volume",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "온라인 대응은 늦었지만 store·inventory·CAF를 이용해 true omnichannel을 margin-neutral하게 구현 가능",
+      "t0_evidence_ko": "온라인 대응은 늦었지만 store·inventory·CAF를 이용해 true omnichannel을 margin-neutral하게 구현 가능",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "FY2019 203 stores/748,961 units/$18.17bn revenue; FY2023 retail 807,823대·managed receivables $16.77bn; SQL 1년 +19.8%",
+      "quantitative_gap_ko": "Retail units: 748,961 → FY2023 807,823",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "오프라인 store를 online의 적이 아니라 sourcing·reconditioning·fulfillment node로 재해석",
+      "reusable_lesson_ko": "수요·volume는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "claim_order": 3,
+      "claim_title_ko": "단위경제성",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "온라인 대응은 늦었지만 store·inventory·CAF를 이용해 true omnichannel을 margin-neutral하게 구현 가능",
+      "t0_evidence_ko": "온라인 대응은 늦었지만 store·inventory·CAF를 이용해 true omnichannel을 margin-neutral하게 구현 가능",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "FY2019 203 stores/748,961 units/$18.17bn revenue; FY2023 retail 807,823대·managed receivables $16.77bn; SQL 1년 +19.8%",
+      "quantitative_gap_ko": "CAF income: $438.7m → finance profit pool 유지",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "오프라인 store를 online의 적이 아니라 sourcing·reconditioning·fulfillment node로 재해석",
+      "reusable_lesson_ko": "단위경제성는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "claim_order": 4,
+      "claim_title_ko": "자본배분·capacity",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "온라인 대응은 늦었지만 store·inventory·CAF를 이용해 true omnichannel을 margin-neutral하게 구현 가능",
+      "t0_evidence_ko": "온라인 대응은 늦었지만 store·inventory·CAF를 이용해 true omnichannel을 margin-neutral하게 구현 가능",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "FY2019 203 stores/748,961 units/$18.17bn revenue; FY2023 retail 807,823대·managed receivables $16.77bn; SQL 1년 +19.8%",
+      "quantitative_gap_ko": "3y return: 상승 기대 → +18.7%",
+      "verdict_ko": "부분 적중",
+      "analytical_error_ko": "오프라인 store를 online의 적이 아니라 sourcing·reconditioning·fulfillment node로 재해석",
+      "reusable_lesson_ko": "자본배분·capacity는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "claim_order": 5,
+      "claim_title_ko": "경쟁우위·시장구조",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "온라인 대응은 늦었지만 store·inventory·CAF를 이용해 true omnichannel을 margin-neutral하게 구현 가능",
+      "t0_evidence_ko": "온라인 대응은 늦었지만 store·inventory·CAF를 이용해 true omnichannel을 margin-neutral하게 구현 가능",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "FY2019 203 stores/748,961 units/$18.17bn revenue; FY2023 retail 807,823대·managed receivables $16.77bn; SQL 1년 +19.8%",
+      "quantitative_gap_ko": "Stores: 203 → 전국 omnichannel 확대",
+      "verdict_ko": "성공",
+      "analytical_error_ko": "오프라인 store를 online의 적이 아니라 sourcing·reconditioning·fulfillment node로 재해석",
+      "reusable_lesson_ko": "경쟁우위·시장구조는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "claim_order": 6,
+      "claim_title_ko": "valuation·촉매",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "온라인 대응은 늦었지만 store·inventory·CAF를 이용해 true omnichannel을 margin-neutral하게 구현 가능",
+      "t0_evidence_ko": "온라인 대응은 늦었지만 store·inventory·CAF를 이용해 true omnichannel을 margin-neutral하게 구현 가능",
+      "key_assumption_ko": "핵심 KPI와 자금조달 환경이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.",
+      "actual_result_ko": "FY2019 203 stores/748,961 units/$18.17bn revenue; FY2023 retail 807,823대·managed receivables $16.77bn; SQL 1년 +19.8%",
+      "quantitative_gap_ko": "Retail units: 748,961 → FY2023 807,823",
+      "verdict_ko": "성공",
+      "analytical_error_ko": "오프라인 store를 online의 적이 아니라 sourcing·reconditioning·fulfillment node로 재해석",
+      "reusable_lesson_ko": "valuation·촉매는 사전 KPI와 반증조건으로 저장하고 반대 signal에서 확률을 갱신한다."
+    }
+  ],
+  "metrics": [
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "metric_order": 1,
+      "metric_name_ko": "Model S",
+      "t0_value_ko": "132대(9/23)",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "2,650대",
+      "verdict_ko": "실패",
+      "interpretation_ko": "Model S 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "metric_order": 2,
+      "metric_name_ko": "run-rate",
+      "t0_value_ko": "낮음",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "20,000/yr",
+      "verdict_ko": "실패",
+      "interpretation_ko": "run-rate 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "metric_order": 3,
+      "metric_name_ko": "2013 deliveries",
+      "t0_value_ko": "부진 예상",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "22,477",
+      "verdict_ko": "실패",
+      "interpretation_ko": "2013 deliveries 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "metric_order": 4,
+      "metric_name_ko": "liquidity",
+      "t0_value_ko": "파산",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "조달 지속",
+      "verdict_ko": "실패",
+      "interpretation_ko": "liquidity 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "metric_order": 1,
+      "metric_name_ko": "reservations",
+      "t0_value_ko": "373k",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "대규모 유지",
+      "verdict_ko": "실패",
+      "interpretation_ko": "reservations 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "metric_order": 2,
+      "metric_name_ko": "2018 plan",
+      "t0_value_ko": "500k",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "ramp 통과",
+      "verdict_ko": "부분",
+      "interpretation_ko": "2018 plan 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "metric_order": 3,
+      "metric_name_ko": "SolarCity",
+      "t0_value_ko": "부담",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "auto 생존 막지 못함",
+      "verdict_ko": "부분",
+      "interpretation_ko": "SolarCity 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "metric_order": 4,
+      "metric_name_ko": "2019 deliveries",
+      "t0_value_ko": "-",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "367,656",
+      "verdict_ko": "실패",
+      "interpretation_ko": "2019 deliveries 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "metric_order": 1,
+      "metric_name_ko": "Model3",
+      "t0_value_ko": "production hell",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "mass production",
+      "verdict_ko": "적중",
+      "interpretation_ko": "Model3 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "metric_order": 2,
+      "metric_name_ko": "brand",
+      "t0_value_ko": "강함",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "EV leader",
+      "verdict_ko": "적중",
+      "interpretation_ko": "brand 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "metric_order": 3,
+      "metric_name_ko": "revenue",
+      "t0_value_ko": "초기",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "$53.8bn 2021",
+      "verdict_ko": "적중",
+      "interpretation_ko": "revenue 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "metric_order": 4,
+      "metric_name_ko": "funding",
+      "t0_value_ko": "의존",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "접근 지속",
+      "verdict_ko": "적중",
+      "interpretation_ko": "funding 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "metric_order": 1,
+      "metric_name_ko": "price cuts",
+      "t0_value_ko": "약세신호",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "volume 증가",
+      "verdict_ko": "실패",
+      "interpretation_ko": "price cuts 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "metric_order": 2,
+      "metric_name_ko": "cash",
+      "t0_value_ko": "압박",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "조달 성공",
+      "verdict_ko": "부분",
+      "interpretation_ko": "cash 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "metric_order": 3,
+      "metric_name_ko": "Shanghai",
+      "t0_value_ko": "부담",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "빠른 가동",
+      "verdict_ko": "실패",
+      "interpretation_ko": "Shanghai 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "metric_order": 4,
+      "metric_name_ko": "deliveries",
+      "t0_value_ko": "-",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "367,656",
+      "verdict_ko": "실패",
+      "interpretation_ko": "deliveries 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "metric_order": 1,
+      "metric_name_ko": "EV scale",
+      "t0_value_ko": "검증",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "대량생산",
+      "verdict_ko": "적중",
+      "interpretation_ko": "EV scale 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "metric_order": 2,
+      "metric_name_ko": "brand",
+      "t0_value_ko": "강화",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "유지",
+      "verdict_ko": "적중",
+      "interpretation_ko": "brand 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "metric_order": 3,
+      "metric_name_ko": "autonomy",
+      "t0_value_ko": "option",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "지연",
+      "verdict_ko": "과대",
+      "interpretation_ko": "autonomy 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "metric_order": 4,
+      "metric_name_ko": "revenue",
+      "t0_value_ko": "성장",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "$53.8bn",
+      "verdict_ko": "적중",
+      "interpretation_ko": "revenue 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "metric_order": 1,
+      "metric_name_ko": "IV",
+      "t0_value_ko": "높음",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "RV 폭증",
+      "verdict_ko": "실패",
+      "interpretation_ko": "IV 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "metric_order": 2,
+      "metric_name_ko": "range",
+      "t0_value_ko": "유지 예상",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "상방돌파",
+      "verdict_ko": "실패",
+      "interpretation_ko": "range 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "metric_order": 3,
+      "metric_name_ko": "tail",
+      "t0_value_ko": "낮음",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "극단적",
+      "verdict_ko": "실패",
+      "interpretation_ko": "tail 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "metric_order": 4,
+      "metric_name_ko": "theta",
+      "t0_value_ko": "수취",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "convexity 손실",
+      "verdict_ko": "실패",
+      "interpretation_ko": "theta 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "metric_order": 1,
+      "metric_name_ko": "market share",
+      "t0_value_ko": "1.7%",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "2022 de-rate",
+      "verdict_ko": "부분",
+      "interpretation_ko": "market share 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "metric_order": 2,
+      "metric_name_ko": "revenue",
+      "t0_value_ko": "실망 예상",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "성장 지속",
+      "verdict_ko": "실패",
+      "interpretation_ko": "revenue 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "metric_order": 3,
+      "metric_name_ko": "multiple",
+      "t0_value_ko": "극단",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "압축",
+      "verdict_ko": "적중",
+      "interpretation_ko": "multiple 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "metric_order": 4,
+      "metric_name_ko": "business",
+      "t0_value_ko": "둔화",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "성장",
+      "verdict_ko": "중립",
+      "interpretation_ko": "business 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "metric_order": 1,
+      "metric_name_ko": "Entry",
+      "t0_value_ko": "$24.60",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "1y +30.8%",
+      "verdict_ko": "실패",
+      "interpretation_ko": "Entry 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "metric_order": 2,
+      "metric_name_ko": "Retail units",
+      "t0_value_ko": "FY2010 357,129",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "FY2015 582,282",
+      "verdict_ko": "실패",
+      "interpretation_ko": "Retail units 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "metric_order": 3,
+      "metric_name_ko": "Stores",
+      "t0_value_ko": "약 100",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "FY2015 144",
+      "verdict_ko": "실패",
+      "interpretation_ko": "Stores 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "metric_order": 4,
+      "metric_name_ko": "5y return",
+      "t0_value_ko": "하락 기대",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "+204.4%",
+      "verdict_ko": "치명적 실패",
+      "interpretation_ko": "5y return 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "metric_order": 1,
+      "metric_name_ko": "Entry",
+      "t0_value_ko": "$52.12",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "1y +23.1%",
+      "verdict_ko": "적중",
+      "interpretation_ko": "Entry 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "metric_order": 2,
+      "metric_name_ko": "Retail units",
+      "t0_value_ko": "582,282",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "748,961",
+      "verdict_ko": "적중",
+      "interpretation_ko": "Retail units 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "metric_order": 3,
+      "metric_name_ko": "Stores",
+      "t0_value_ko": "144",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "203",
+      "verdict_ko": "적중",
+      "interpretation_ko": "Stores 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "metric_order": 4,
+      "metric_name_ko": "5y return",
+      "t0_value_ko": "장기 compounding",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "+87.4%",
+      "verdict_ko": "적중",
+      "interpretation_ko": "5y return 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "metric_order": 1,
+      "metric_name_ko": "Stores",
+      "t0_value_ko": "203",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "전국 omnichannel 확대",
+      "verdict_ko": "적중",
+      "interpretation_ko": "Stores 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "metric_order": 2,
+      "metric_name_ko": "Retail units",
+      "t0_value_ko": "748,961",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "FY2023 807,823",
+      "verdict_ko": "적중",
+      "interpretation_ko": "Retail units 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "metric_order": 3,
+      "metric_name_ko": "CAF income",
+      "t0_value_ko": "$438.7m",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "finance profit pool 유지",
+      "verdict_ko": "적중",
+      "interpretation_ko": "CAF income 실제 변화로 causal chain을 재평가."
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "metric_order": 4,
+      "metric_name_ko": "3y return",
+      "t0_value_ko": "상승 기대",
+      "thesis_expectation_ko": "원 VIC 논지 방향",
+      "actual_value_ko": "+18.7%",
+      "verdict_ko": "부분 적중",
+      "interpretation_ko": "3y return 실제 변화로 causal chain을 재평가."
+    }
+  ],
+  "timeline": [
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "event_order": 1,
+      "event_date_ko": "2012-11-30",
+      "event_ko": "VIC 게시",
+      "thesis_implication_ko": "clean-tech bankruptcy analogue"
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "event_order": 2,
+      "event_date_ko": "2012-12-31",
+      "event_ko": "최초 신호",
+      "thesis_implication_ko": "주당 생산속도 개선"
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "event_order": 3,
+      "event_date_ko": "2018-12-31",
+      "event_ko": "운영 KPI 중간점검",
+      "thesis_implication_ko": "초기 narrative보다 scale과 unit economics 재평가"
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "event_order": 4,
+      "event_date_ko": "2019-12-31",
+      "event_ko": "산업구조 변화",
+      "thesis_implication_ko": "실제 operating path 비교"
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "event_order": 5,
+      "event_date_ko": "2021-12-31",
+      "event_ko": "후속 결과",
+      "thesis_implication_ko": "사업과 valuation 분리"
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "event_order": 6,
+      "event_date_ko": "2024-01-31",
+      "event_ko": "고정 평가일",
+      "thesis_implication_ko": "최종 postmortem"
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "event_order": 1,
+      "event_date_ko": "2016-06-23",
+      "event_ko": "VIC 게시",
+      "thesis_implication_ko": "Model 3/SolarCity execution overload"
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "event_order": 2,
+      "event_date_ko": "2018-06-30",
+      "event_ko": "최초 신호",
+      "thesis_implication_ko": "Model 3 weekly output 급상승"
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "event_order": 3,
+      "event_date_ko": "2018-12-31",
+      "event_ko": "운영 KPI 중간점검",
+      "thesis_implication_ko": "초기 narrative보다 scale과 unit economics 재평가"
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "event_order": 4,
+      "event_date_ko": "2019-12-31",
+      "event_ko": "산업구조 변화",
+      "thesis_implication_ko": "실제 operating path 비교"
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "event_order": 5,
+      "event_date_ko": "2021-12-31",
+      "event_ko": "후속 결과",
+      "thesis_implication_ko": "사업과 valuation 분리"
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "event_order": 6,
+      "event_date_ko": "2024-01-31",
+      "event_ko": "고정 평가일",
+      "thesis_implication_ko": "최종 postmortem"
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "event_order": 1,
+      "event_date_ko": "2018-01-23",
+      "event_ko": "VIC 게시",
+      "thesis_implication_ko": "long-duration optionality"
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "event_order": 2,
+      "event_date_ko": "2018-06-30",
+      "event_ko": "최초 신호",
+      "thesis_implication_ko": "Model 3 ramp 성공"
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "event_order": 3,
+      "event_date_ko": "2018-12-31",
+      "event_ko": "운영 KPI 중간점검",
+      "thesis_implication_ko": "초기 narrative보다 scale과 unit economics 재평가"
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "event_order": 4,
+      "event_date_ko": "2019-12-31",
+      "event_ko": "산업구조 변화",
+      "thesis_implication_ko": "실제 operating path 비교"
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "event_order": 5,
+      "event_date_ko": "2021-12-31",
+      "event_ko": "후속 결과",
+      "thesis_implication_ko": "사업과 valuation 분리"
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "event_order": 6,
+      "event_date_ko": "2024-01-31",
+      "event_ko": "고정 평가일",
+      "thesis_implication_ko": "최종 postmortem"
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "event_order": 1,
+      "event_date_ko": "2019-03-17",
+      "event_ko": "VIC 게시",
+      "thesis_implication_ko": "demand cliff/cash raise"
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "event_order": 2,
+      "event_date_ko": "2019-12-31",
+      "event_ko": "최초 신호",
+      "thesis_implication_ko": "2019 deliveries 367,656"
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "event_order": 3,
+      "event_date_ko": "2018-12-31",
+      "event_ko": "운영 KPI 중간점검",
+      "thesis_implication_ko": "초기 narrative보다 scale과 unit economics 재평가"
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "event_order": 4,
+      "event_date_ko": "2019-12-31",
+      "event_ko": "산업구조 변화",
+      "thesis_implication_ko": "실제 operating path 비교"
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "event_order": 5,
+      "event_date_ko": "2021-12-31",
+      "event_ko": "후속 결과",
+      "thesis_implication_ko": "사업과 valuation 분리"
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "event_order": 6,
+      "event_date_ko": "2024-01-31",
+      "event_ko": "고정 평가일",
+      "thesis_implication_ko": "최종 postmortem"
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "event_order": 1,
+      "event_date_ko": "2019-08-03",
+      "event_ko": "VIC 게시",
+      "thesis_implication_ko": "mass-production proof/EV transition"
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "event_order": 2,
+      "event_date_ko": "2019-12-31",
+      "event_ko": "최초 신호",
+      "thesis_implication_ko": "deliveries record"
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "event_order": 3,
+      "event_date_ko": "2018-12-31",
+      "event_ko": "운영 KPI 중간점검",
+      "thesis_implication_ko": "초기 narrative보다 scale과 unit economics 재평가"
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "event_order": 4,
+      "event_date_ko": "2019-12-31",
+      "event_ko": "산업구조 변화",
+      "thesis_implication_ko": "실제 operating path 비교"
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "event_order": 5,
+      "event_date_ko": "2021-12-31",
+      "event_ko": "후속 결과",
+      "thesis_implication_ko": "사업과 valuation 분리"
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "event_order": 6,
+      "event_date_ko": "2024-01-31",
+      "event_ko": "고정 평가일",
+      "thesis_implication_ko": "최종 postmortem"
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "event_order": 1,
+      "event_date_ko": "2019-11-17",
+      "event_ko": "VIC 게시",
+      "thesis_implication_ko": "expensive-volatility selling"
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "event_order": 2,
+      "event_date_ko": "2020-03-31",
+      "event_ko": "최초 신호",
+      "thesis_implication_ko": "realized volatility 급등"
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "event_order": 3,
+      "event_date_ko": "2018-12-31",
+      "event_ko": "운영 KPI 중간점검",
+      "thesis_implication_ko": "초기 narrative보다 scale과 unit economics 재평가"
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "event_order": 4,
+      "event_date_ko": "2019-12-31",
+      "event_ko": "산업구조 변화",
+      "thesis_implication_ko": "실제 operating path 비교"
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "event_order": 5,
+      "event_date_ko": "2021-12-31",
+      "event_ko": "후속 결과",
+      "thesis_implication_ko": "사업과 valuation 분리"
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "event_order": 6,
+      "event_date_ko": "2024-01-31",
+      "event_ko": "고정 평가일",
+      "thesis_implication_ko": "최종 postmortem"
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "event_order": 1,
+      "event_date_ko": "2021-01-11",
+      "event_ko": "VIC 게시",
+      "thesis_implication_ko": "valuation bubble"
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "event_order": 2,
+      "event_date_ko": "2022-06-30",
+      "event_ko": "최초 신호",
+      "thesis_implication_ko": "multiple compression"
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "event_order": 3,
+      "event_date_ko": "2018-12-31",
+      "event_ko": "운영 KPI 중간점검",
+      "thesis_implication_ko": "초기 narrative보다 scale과 unit economics 재평가"
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "event_order": 4,
+      "event_date_ko": "2019-12-31",
+      "event_ko": "산업구조 변화",
+      "thesis_implication_ko": "실제 operating path 비교"
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "event_order": 5,
+      "event_date_ko": "2021-12-31",
+      "event_ko": "후속 결과",
+      "thesis_implication_ko": "사업과 valuation 분리"
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "event_order": 6,
+      "event_date_ko": "2024-01-31",
+      "event_ko": "고정 평가일",
+      "thesis_implication_ko": "최종 postmortem"
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "event_order": 1,
+      "event_date_ko": "2010-04-09",
+      "event_ko": "VIC 게시",
+      "thesis_implication_ko": "two spread businesses disguised as retailer"
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "event_order": 2,
+      "event_date_ko": "2012-02-29",
+      "event_ko": "최초 신호",
+      "thesis_implication_ko": "store/units 성장과 CAF profit pool 확인"
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "event_order": 3,
+      "event_date_ko": "2018-12-31",
+      "event_ko": "운영 KPI 중간점검",
+      "thesis_implication_ko": "초기 narrative보다 scale과 unit economics 재평가"
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "event_order": 4,
+      "event_date_ko": "2019-12-31",
+      "event_ko": "산업구조 변화",
+      "thesis_implication_ko": "실제 operating path 비교"
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "event_order": 5,
+      "event_date_ko": "2021-12-31",
+      "event_ko": "후속 결과",
+      "thesis_implication_ko": "사업과 valuation 분리"
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "event_order": 6,
+      "event_date_ko": "2024-01-31",
+      "event_ko": "고정 평가일",
+      "thesis_implication_ko": "최종 postmortem"
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "event_order": 1,
+      "event_date_ko": "2015-12-22",
+      "event_ko": "VIC 게시",
+      "thesis_implication_ko": "scale + store growth + operating leverage"
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "event_order": 2,
+      "event_date_ko": "2017-02-28",
+      "event_ko": "최초 신호",
+      "thesis_implication_ko": "store count와 used-unit growth 지속"
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "event_order": 3,
+      "event_date_ko": "2018-12-31",
+      "event_ko": "운영 KPI 중간점검",
+      "thesis_implication_ko": "초기 narrative보다 scale과 unit economics 재평가"
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "event_order": 4,
+      "event_date_ko": "2019-12-31",
+      "event_ko": "산업구조 변화",
+      "thesis_implication_ko": "실제 operating path 비교"
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "event_order": 5,
+      "event_date_ko": "2021-12-31",
+      "event_ko": "후속 결과",
+      "thesis_implication_ko": "사업과 valuation 분리"
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "event_order": 6,
+      "event_date_ko": "2024-01-31",
+      "event_ko": "고정 평가일",
+      "thesis_implication_ko": "최종 postmortem"
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "event_order": 1,
+      "event_date_ko": "2019-08-07",
+      "event_ko": "VIC 게시",
+      "thesis_implication_ko": "omnichannel margin-neutral transition"
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "event_order": 2,
+      "event_date_ko": "2020-02-29",
+      "event_ko": "최초 신호",
+      "thesis_implication_ko": "omnichannel rollout 확대"
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "event_order": 3,
+      "event_date_ko": "2018-12-31",
+      "event_ko": "운영 KPI 중간점검",
+      "thesis_implication_ko": "초기 narrative보다 scale과 unit economics 재평가"
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "event_order": 4,
+      "event_date_ko": "2019-12-31",
+      "event_ko": "산업구조 변화",
+      "thesis_implication_ko": "실제 operating path 비교"
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "event_order": 5,
+      "event_date_ko": "2021-12-31",
+      "event_ko": "후속 결과",
+      "thesis_implication_ko": "사업과 valuation 분리"
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "event_order": 6,
+      "event_date_ko": "2024-01-31",
+      "event_ko": "고정 평가일",
+      "thesis_implication_ko": "최종 postmortem"
+    }
+  ],
+  "sources": [
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "VIC TSLA 2012-11-30",
+      "publisher": "Value Investors Club / user SQL",
+      "source_date": "2012-11-30",
+      "url": null,
+      "evidence_ko": "원 thesis와 실제 방향 복원"
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "source_order": 2,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla 2012 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312513096241/d452995d10k.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "source_order": 3,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla Model 3 disclosure",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312516596657/d185970d424b5.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "source_order": 4,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla 2019 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020004475/tsla-10k_20191231.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "source_order": 5,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla 2021 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017022000796/tsla-20211231.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "92e4e60c-04f0-48e4-ab54-fcc476808b4d",
+      "source_order": 6,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla IR",
+      "publisher": "Tesla",
+      "source_date": "2024-01-31",
+      "url": "https://ir.tesla.com/",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "VIC TSLA 2016-06-23",
+      "publisher": "Value Investors Club / user SQL",
+      "source_date": "2016-06-23",
+      "url": null,
+      "evidence_ko": "원 thesis와 실제 방향 복원"
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "source_order": 2,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla 2012 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312513096241/d452995d10k.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "source_order": 3,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla Model 3 disclosure",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312516596657/d185970d424b5.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "source_order": 4,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla 2019 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020004475/tsla-10k_20191231.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "source_order": 5,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla 2021 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017022000796/tsla-20211231.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "41e61934-04e3-47ad-ab90-86d3e073e184",
+      "source_order": 6,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla IR",
+      "publisher": "Tesla",
+      "source_date": "2024-01-31",
+      "url": "https://ir.tesla.com/",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "VIC TSLA 2018-01-23",
+      "publisher": "Value Investors Club / user SQL",
+      "source_date": "2018-01-23",
+      "url": null,
+      "evidence_ko": "원 thesis와 실제 방향 복원"
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "source_order": 2,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla 2012 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312513096241/d452995d10k.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "source_order": 3,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla Model 3 disclosure",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312516596657/d185970d424b5.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "source_order": 4,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla 2019 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020004475/tsla-10k_20191231.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "source_order": 5,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla 2021 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017022000796/tsla-20211231.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "4ebc7587-ed23-43f2-bb93-282befc92ac5",
+      "source_order": 6,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla IR",
+      "publisher": "Tesla",
+      "source_date": "2024-01-31",
+      "url": "https://ir.tesla.com/",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "VIC TSLA 2019-03-17",
+      "publisher": "Value Investors Club / user SQL",
+      "source_date": "2019-03-17",
+      "url": null,
+      "evidence_ko": "원 thesis와 실제 방향 복원"
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "source_order": 2,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla 2012 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312513096241/d452995d10k.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "source_order": 3,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla Model 3 disclosure",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312516596657/d185970d424b5.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "source_order": 4,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla 2019 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020004475/tsla-10k_20191231.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "source_order": 5,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla 2021 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017022000796/tsla-20211231.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "12820812-3234-4172-b020-6f2df296925a",
+      "source_order": 6,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla IR",
+      "publisher": "Tesla",
+      "source_date": "2024-01-31",
+      "url": "https://ir.tesla.com/",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "VIC TSLA 2019-08-03",
+      "publisher": "Value Investors Club / user SQL",
+      "source_date": "2019-08-03",
+      "url": null,
+      "evidence_ko": "원 thesis와 실제 방향 복원"
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "source_order": 2,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla 2012 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312513096241/d452995d10k.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "source_order": 3,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla Model 3 disclosure",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312516596657/d185970d424b5.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "source_order": 4,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla 2019 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020004475/tsla-10k_20191231.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "source_order": 5,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla 2021 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017022000796/tsla-20211231.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "7265c2cd-17d0-466c-b027-4cb4827d6ed9",
+      "source_order": 6,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla IR",
+      "publisher": "Tesla",
+      "source_date": "2024-01-31",
+      "url": "https://ir.tesla.com/",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "VIC TSLA 2019-11-17",
+      "publisher": "Value Investors Club / user SQL",
+      "source_date": "2019-11-17",
+      "url": null,
+      "evidence_ko": "원 thesis와 실제 방향 복원"
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "source_order": 2,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla 2012 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312513096241/d452995d10k.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "source_order": 3,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla Model 3 disclosure",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312516596657/d185970d424b5.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "source_order": 4,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla 2019 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020004475/tsla-10k_20191231.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "source_order": 5,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla 2021 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017022000796/tsla-20211231.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "b3d1bb1a-33d9-4d10-9e92-843ea240a2f0",
+      "source_order": 6,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla IR",
+      "publisher": "Tesla",
+      "source_date": "2024-01-31",
+      "url": "https://ir.tesla.com/",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "VIC TSLA 2021-01-11",
+      "publisher": "Value Investors Club / user SQL",
+      "source_date": "2021-01-11",
+      "url": null,
+      "evidence_ko": "원 thesis와 실제 방향 복원"
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "source_order": 2,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla 2012 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312513096241/d452995d10k.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "source_order": 3,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla Model 3 disclosure",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312516596657/d185970d424b5.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "source_order": 4,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla 2019 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020004475/tsla-10k_20191231.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "source_order": 5,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla 2021 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017022000796/tsla-20211231.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "be717dc4-96df-42cb-b7c1-687c49db4033",
+      "source_order": 6,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "Tesla IR",
+      "publisher": "Tesla",
+      "source_date": "2024-01-31",
+      "url": "https://ir.tesla.com/",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "VIC KMX 2010-04-09",
+      "publisher": "Value Investors Club / user SQL",
+      "source_date": "2010-04-09",
+      "url": null,
+      "evidence_ko": "원 thesis와 실제 방향 복원"
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "source_order": 2,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "CarMax FY2010 filing",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001010000044/tenq.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "source_order": 3,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "CarMax FY2015 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001015000008/kmx-20150228x10k.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "source_order": 4,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "CarMax FY2019 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001019000040/kmx0228201910-k.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "source_order": 5,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "CarMax FY2019 results",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001019000016/q4fy19earningsrelease.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "98927e4d-02c3-423d-aa8b-8e5eac4d96a4",
+      "source_order": 6,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "CarMax FY2023 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001023000010/kmx-20230228.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "VIC KMX 2015-12-22",
+      "publisher": "Value Investors Club / user SQL",
+      "source_date": "2015-12-22",
+      "url": null,
+      "evidence_ko": "원 thesis와 실제 방향 복원"
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "source_order": 2,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "CarMax FY2010 filing",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001010000044/tenq.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "source_order": 3,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "CarMax FY2015 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001015000008/kmx-20150228x10k.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "source_order": 4,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "CarMax FY2019 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001019000040/kmx0228201910-k.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "source_order": 5,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "CarMax FY2019 results",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001019000016/q4fy19earningsrelease.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "482da55b-99d9-41b8-91a0-0dcee69dcaa7",
+      "source_order": 6,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "CarMax FY2023 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001023000010/kmx-20230228.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "VIC KMX 2019-08-07",
+      "publisher": "Value Investors Club / user SQL",
+      "source_date": "2019-08-07",
+      "url": null,
+      "evidence_ko": "원 thesis와 실제 방향 복원"
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "source_order": 2,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "CarMax FY2010 filing",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001010000044/tenq.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "source_order": 3,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "CarMax FY2015 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001015000008/kmx-20150228x10k.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "source_order": 4,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "CarMax FY2019 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001019000040/kmx0228201910-k.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "source_order": 5,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "CarMax FY2019 results",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001019000016/q4fy19earningsrelease.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    },
+    {
+      "idea_id": "d4298930-0f02-4c0b-90d7-3e521d05a5f4",
+      "source_order": 6,
+      "source_type_ko": "공시/기업자료",
+      "title_ko": "CarMax FY2023 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-01-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001023000010/kmx-20230228.htm",
+      "evidence_ko": "사업·KPI·event 사후검증"
+    }
+  ]
+}
