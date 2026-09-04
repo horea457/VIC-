@@ -42,6 +42,9 @@ BATCH_SOURCES = (
     ("batch_021_echostar_iridium_deep_v7.json", "batch_021_echostar_iridium_10.md", "Batch 021"),
     ("batch_022_geo_corecivic_deep_v7.json", "batch_022_geo_corecivic_10.md", "Batch 022"),
     ("batch_023_hp_western_digital_deep_v7.json", "batch_023_hp_western_digital_10.md", "Batch 023"),
+    ("batch_024_amazon_iac_deep_v7.json", "batch_024_amazon_iac_10.md", "Batch 024"),
+    ("batch_025_ibkr_discover_deep_v7.json", "batch_025_ibkr_discover_10.md", "Batch 025"),
+    ("batch_026_seritage_gyrodyne_deep_v7.json", "batch_026_seritage_gyrodyne_10.md", "Batch 026"),
     ("all_reviewed_v8_index.json", "all_reviewed_v8.md.gz", "V8 전체 DB"),
 )
 
