@@ -1,0 +1,1442 @@
+{
+  "ideas_master": [
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "date": "2022-09-10",
+      "year": 2022,
+      "ticker": "APO",
+      "company_name": "APOLLO GLOBAL MANAGEMENT",
+      "author": "Jumpman23",
+      "direction_ko": "숏",
+      "is_short": 1,
+      "contest_winner": 0,
+      "source_link": "https://www.valueinvestorsclub.com/idea/APOLLO_GLOBAL_MGMT_INC/4366592262",
+      "description_chars": 10624,
+      "catalyst_chars": 15,
+      "narrative_tags_ko": "원본 방향 교정; 대체자산운용; 심층검증",
+      "idea_type_ko": "기업가치",
+      "horizon_raw": null,
+      "horizon_months": null,
+      "performance_available": 0,
+      "perf_1m": null,
+      "perf_3m": null,
+      "perf_6m": null,
+      "perf_1y": null,
+      "perf_2y": null,
+      "perf_3y": null,
+      "perf_5y": null,
+      "idea_return_1y": null,
+      "idea_return_3y": null,
+      "idea_return_5y": null,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "date": "2022-09-15 17:39:00",
+      "year": 2022,
+      "ticker": "ADT",
+      "company_name": "ADT INC -REDH ",
+      "author": "MadDog2020",
+      "direction_ko": "숏",
+      "is_short": 1,
+      "contest_winner": 0,
+      "source_link": "https://www.valueinvestorsclub.com/idea/ADT_INC/7810567042",
+      "description_chars": 1653,
+      "catalyst_chars": 30,
+      "narrative_tags_ko": "[]",
+      "idea_type_ko": "일반 투자논지",
+      "horizon_raw": null,
+      "horizon_months": null,
+      "performance_available": 1,
+      "perf_1m": 1.022031935004809,
+      "perf_3m": 1.2111668105899709,
+      "perf_6m": null,
+      "perf_1y": null,
+      "perf_2y": null,
+      "perf_3y": null,
+      "perf_5y": null,
+      "idea_return_1y": null,
+      "idea_return_3y": null,
+      "idea_return_5y": null,
+      "auto_tag_status_ko": "자동 V3 태깅"
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "date": "2022-10-17 22:42:00",
+      "year": 2022,
+      "ticker": "NFLX",
+      "company_name": "NETFLIX INC ",
+      "author": "Flaum",
+      "direction_ko": "숏",
+      "is_short": 1,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 7860,
+      "catalyst_chars": 114,
+      "narrative_tags_ko": "[\"반복매출\", \"영업레버리지\", \"가격결정력\"]",
+      "idea_type_ko": "일반 투자논지",
+      "horizon_raw": null,
+      "horizon_months": null,
+      "performance_available": 0,
+      "perf_1m": null,
+      "perf_3m": null,
+      "perf_6m": null,
+      "perf_1y": null,
+      "perf_2y": null,
+      "perf_3y": null,
+      "perf_5y": null,
+      "idea_return_1y": null,
+      "idea_return_3y": null,
+      "idea_return_5y": null,
+      "auto_tag_status_ko": "자동 V3 태깅"
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "date": "2022-10-22 19:01:00",
+      "year": 2022,
+      "ticker": "BABA",
+      "company_name": "ALIBABA GROUP HLDG ",
+      "author": "marwari25",
+      "direction_ko": "숏",
+      "is_short": 1,
+      "contest_winner": 0,
+      "source_link": "https://www.valueinvestorsclub.com/idea/ALIBABA_GROUP_HLDG/3493411370",
+      "description_chars": 18069,
+      "catalyst_chars": 158,
+      "narrative_tags_ko": "[\"자사주\", \"규제\", \"자본배분\", \"SOTP·자산가치\", \"이벤트 드리븐\"]",
+      "idea_type_ko": "규제·허가",
+      "horizon_raw": "8 years",
+      "horizon_months": 96,
+      "performance_available": 1,
+      "perf_1m": 1.2182106096595409,
+      "perf_3m": 1.8980205859065717,
+      "perf_6m": null,
+      "perf_1y": null,
+      "perf_2y": null,
+      "perf_3y": null,
+      "perf_5y": null,
+      "idea_return_1y": null,
+      "idea_return_3y": null,
+      "idea_return_5y": null,
+      "auto_tag_status_ko": "자동 V3 태깅"
+    }
+  ],
+  "postmortems": [
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "ticker": "APO",
+      "research_direction_ko": "Long",
+      "company_description_ko": "Apollo Global Management은 사모펀드 하나가 아니라 자산운용(Asset Management)과 Athene 중심의 퇴직연금·보험(Retirement Services)을 결합한 대체자산 플랫폼이다. 운용부문은 yield·hybrid·equity 전략에서 관리보수와 성과보수(carry)를 받고, Athene은 연금보험료와 재보험 부채를 장기 자금원으로 조달해 Apollo가 발굴한 투자등급 사모신용·asset-backed 자산 등에 투자한 스프레드를 번다. 따라서 돈 버는 구조는 ① fee-paying AUM×보수율에서 비용을 뺀 FRE, ② 보험자산 수익률에서 계약자 원가·헤지·운영비를 뺀 SRE, ③ 펀드 성과에서 발생하는 carry, ④ 대차대조표 투자수익이다. Athene은 환매가 거의 없는 영구자본과 대규모 origination 수요를 주지만, 상장주주가 단순 asset-light 운용사만 소유하는 것이 아니라 금리·신용·ALM·규제·보험자본 위험도 함께 부담한다. 핵심 지표는 총 AUM보다 fee-generating AUM, FRE margin, 순유입, origination, Athene spread·RBC와 신용손실, 주당 ANI 및 실제 자사주 상쇄다.",
+      "original_thesis_ko": "합병 뒤 asset-light 운용사와 보험사가 섞여 회계가 복잡해지고 금리·credit 우려가 커진 때 약 10배 2022 EPS $5.50에 거래된다고 봤다. 시장이 SRE에 5~6배만 주고 있다고 역산했으며, 경영진 2026 EPS $9+만 달성해도 현 multiple에서 5년 12%+ IRR, FRE 20배와 SRE 10배를 적용하면 약 20% IRR이라고 주장했다. 3% 배당과 초과자본·buyback을 하방으로 제시했다.",
+      "actual_development_ko": "진입 시점의 공포 뒤 Apollo는 2023년 AUM $651bn, FRE+SRE 성장 25%+를 기록했고 주가는 $46.50에서 $100.40으로 약 116% 상승했다. 보험 spread와 origination 결합은 작동했다. 다만 기준일은 2026 목표 전이므로 $9 EPS와 5년 IRR 자체는 아직 완결 판정할 수 없다.",
+      "thesis_verdict_ko": "복잡한 결합회사를 FRE와 SRE로 분리하고 보험이익에 더 낮은 배수를 준 점이 뛰어났다. 낮은 진입가격이 forecast 오차를 흡수했다. 초과자본이 무조건 buyback으로 귀속된다는 가정은 별도 검증이 필요하다.",
+      "business_verdict_ko": "진입 시점의 공포 뒤 Apollo는 2023년 AUM $651bn, FRE+SRE 성장 25%+를 기록했고 주가는 $46.50에서 $100.40으로 약 116% 상승했다. 보험 spread와 origination 결합은 작동했다. 다만 기준일은 2026 목표 전이므로 $9 EPS와 5년 IRR 자체는 아직 완결 판정할 수 없다.",
+      "catalyst_verdict_ko": "2023년 FRE·SRE 동시 성장과 대규모 유입",
+      "valuation_verdict_ko": "2026 EPS $9+; FRE 20x+SRE 10x에서 약 20% 5년 IRR",
+      "stock_verdict_ko": "$46.50 월말 근사→$100.40; 가격 약 +116%, 배당 제외",
+      "current_verdict_ko": "진입 시점의 공포 뒤 Apollo는 2023년 AUM $651bn, FRE+SRE 성장 25%+를 기록했고 주가는 $46.50에서 $100.40으로 약 116% 상승했다. 보험 spread와 origination 결합은 작동했다. 다만 기준일은 2026 목표 전이므로 $9 EPS와 5년 IRR 자체는 아직 완결 판정할 수 없다.",
+      "overall_verdict_ko": "매우 성공",
+      "why_ko": "복잡한 결합회사를 FRE와 SRE로 분리하고 보험이익에 더 낮은 배수를 준 점이 뛰어났다. 낮은 진입가격이 forecast 오차를 흡수했다. 초과자본이 무조건 buyback으로 귀속된다는 가정은 별도 검증이 필요하다.",
+      "success_pattern_ko": "locked_capital; fee_related_earnings; permanent_capital; sum_of_parts; valuation_discipline",
+      "failure_pattern_ko": "carry_cyclicality; insurance_balance_sheet; nav_haircut; forecast_stacking",
+      "root_error_ko": "보험·carry·balance-sheet 청구권에는 자본비용·실현·세금·희석 haircut이 필요",
+      "first_signal_ko": "2023년 FRE·SRE 동시 성장과 대규모 유입",
+      "first_signal_date": "2024-02-08",
+      "knowable_at_t0_ko": "FPAUM·fee shadow·FRE margin·실현 carry·순자산·보험 spread를 분리하면 당시에도 가설을 검증할 수 있었다.",
+      "avoidability_ko": "높음. 총 AUM이나 ENI 하나 대신 각 earnings stream과 주주 귀속을 분리해야 한다.",
+      "counterfactual_question_ko": "순유입 둔화·margin 압박",
+      "analyst_note_ko": "원 SQL의 is_short=true는 보존했다. 본문·추천증권·상승 목표상 실제 방향은 Long이다. 가격 비교는 게시월 또는 원문 가격과 2024-01 월말 실가격의 근사치이며 배당·분배는 제외했다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.96,
+      "research_asof": "2024-01-31",
+      "research_status_ko": "외부검증 완료"
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "ticker": "BABA",
+      "research_direction_ko": "Long",
+      "company_description_ko": "Alibaba는 Taobao·Tmall의 중국 전자상거래, Alibaba.com·AliExpress·Lazada 등 국제상거래, Alibaba Cloud, Cainiao 물류, Ele.me·Amap 지역서비스, 디지털미디어와 Ant Group 지분을 묶은 중국 인터넷 지주회사다. 핵심 China commerce는 직접 재고를 소유하기보다 상인에게 트래픽·광고·추천·결제 인프라를 제공하고 customer-management/commission 수익을 얻어 높은 마진과 현금을 만들었다. 그 현금을 물류·로컬서비스·해외·클라우드에 재투자하는 구조라 segment별 적자와 본사 자본배분을 분리해야 한다. 네트워크 효과는 소비자·상인·데이터에서 나오지만 JD·PDD·Douyin과의 경쟁, 소비둔화, merchant monetization 부담이 약화시킬 수 있다. 미국 ADR 주주는 중국 운영회사 지분이 아니라 Cayman VIE 청구권을 보유하고, 규제·Ant 구조조정·데이터안보·미중 감사·ADR 상장위험은 valuation discount가 아니라 현금귀속과 통제의 문제다. SOTP는 현금·상장지분·Ant·Cloud 가치를 더하되 세금·holding discount·통제불능·지속 적자와 국가정책을 빼야 한다.",
+      "original_thesis_ko": "$72, 시총 약 $190bn과 고점 대비 -77%에서 China commerce $82bn+Cloud $10bn이 매출의 약 80%, profit/FCF의 100%+를 만든다고 봤다. cash·투자자산을 차감한 EV $78~112bn, core commerce EBITDA 약 $25bn과 FCF $20~25bn, 약 5x FCF를 계산했다. $25bn buyback 중 $9.2bn 집행, VIE·지정학을 명시하고 성장 0%여도 높은 IRR이 가능하다고 주장했다.",
+      "actual_development_ko": "3개월 성과 +89.80%로 극단적 sentiment 반등을 정확히 잡았다. 그러나 이후 상당 부분 반납했고 2024-01-31에는 장기 value realization이 완전히 확인되지 않았다. 낮은 가격이 tactical margin of safety를 만들었지만 VIE·경쟁·자본배분은 남았다.",
+      "thesis_verdict_ko": "이전 BABA 롱과 달리 고성장을 요구하지 않고 core FCF와 이미 집행된 buyback으로 논지를 만들었다. 다만 5x는 FCF의 지속성과 주주귀속이 확인돼야 하며 단기 90% 급등을 장기 성공으로 자동 연장하면 안 된다.",
+      "business_verdict_ko": "3개월 성과 +89.80%로 극단적 sentiment 반등을 정확히 잡았다. 그러나 이후 상당 부분 반납했고 2024-01-31에는 장기 value realization이 완전히 확인되지 않았다. 낮은 가격이 tactical margin of safety를 만들었지만 VIE·경쟁·자본배분은 남았다.",
+      "catalyst_verdict_ko": "3개월 +89.80%로 tactical 목표 실현",
+      "valuation_verdict_ko": "EV $78~112bn, core FCF $20~25bn≈5x",
+      "stock_verdict_ko": "1개월 +21.82%, 3개월 +89.80%; 이후 일부 반납",
+      "current_verdict_ko": "2023년 Alibaba는 사업을 여섯 그룹으로 재편해 외부자금·상장을 추진했지만 11월 Cloud Intelligence의 완전분사를 중단했다. 규제완화 기대만으로 SOTP가 자동 실현되지 않으며, 경쟁·중국 소비·VIE와 자본배분을 함께 봐야 한다.",
+      "overall_verdict_ko": "전술적 매우 성공·장기 부분",
+      "why_ko": "이전 BABA 롱과 달리 고성장을 요구하지 않고 core FCF와 이미 집행된 buyback으로 논지를 만들었다. 다만 5x는 FCF의 지속성과 주주귀속이 확인돼야 하며 단기 90% 급등을 장기 성공으로 자동 연장하면 안 된다.",
+      "success_pattern_ko": "valuation_discipline; business_model; catalyst_detection",
+      "failure_pattern_ko": "timing_path; valuation; causal_attribution; capital_allocation",
+      "root_error_ko": "싼 배수라도 VIE 현금귀속과 경쟁감소를 보장하지 않음",
+      "first_signal_ko": "3개월 +89.80%로 tactical 목표 실현",
+      "first_signal_date": "2023-01-27",
+      "knowable_at_t0_ko": "VIC 원문의 주장·가격·기간을 당시 연차보고서의 segment economics, 현금흐름, 부채·청구권과 대조하면 사전검증할 수 있었다.",
+      "avoidability_ko": "중간~높음. bull/base/bear를 동일한 현금흐름 정의로 계산하고 촉매·보유기간·손실상한을 분리하면 오류를 줄일 수 있었다.",
+      "counterfactual_question_ko": "성장 0%, core FCF -30%, 현금 50% haircut에서도 buyback 후 주당가치가 증가하는가?",
+      "analyst_note_ko": "원 SQL에는 source_is_short=true로 저장됐으나 본문·가격목표·추천 증권상 실제 방향은 Long이다. 원본은 보존하고 research_direction만 교정했다. 성과가 없는 경우 수익률을 만들지 않았다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.98,
+      "research_asof": "2024-01-31",
+      "research_status_ko": "외부검증 완료"
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "ticker": "ADT",
+      "research_direction_ko": "Mixed/Event",
+      "company_description_ko": "ADT는 주택·소상공인에 경보장비와 스마트홈 기기를 설치하고 24시간 모니터링·출동 연결 서비스를 제공한다. 매출의 대부분이 recurring monthly revenue(RMR)이므로 표면상 구독사업이지만 신규고객 한 명을 얻기 위해 장비·설치·딜러수수료를 먼저 지출하거나 자본화한다. 따라서 신규가입이 줄면 단기 FCF가 좋아 보이고, 가입을 늘리면 회계 EBITDA보다 현금이 나빠질 수 있다. 핵심은 ARPU와 gross revenue attrition, subscriber acquisition cost(SAC), 회수기간, 계약기간, 설치 cohort의 생애가치다. 매년 12~18%가 이탈하는 ‘새는 양동이’를 채워야 하므로 높은 EBITDA margin만으로 경제성을 판단하면 안 된다. 케이블·통신·DIY 기기·Google/Amazon 생태계가 경쟁하며, 장비판매·태양광처럼 낮은 마진 사업을 붙이면 RMR의 질이 희석된다. 2016년 Apollo 인수 후 재상장된 ADT는 높은 부채와 지배주주 overhang도 보통주 가치에 중요했다.",
+      "original_thesis_ko": "고정가 $9 tender에서 99주 이하 odd-lot은 proration 없이 전량 수용되는 조건을 이용해 99주를 매수하는 소액 event trade를 제시했다. 동시에 Apollo 67%, 경영진 약 5%와 State Farm에 발행할 133.333m주를 고려하면 일반주주의 tender 물량 상당수가 되돌아와 $9 부근의 outright short도 가능하다고 봤다. 즉 동일 글에 확정형 odd-lot Long과 tender 후 수급 Short가 공존한다.",
+      "actual_development_ko": "State Farm은 주당 $9에 133.333m주, 총 $1.2bn을 투자했고 tender가 진행됐다. 조건을 지킨 99주 odd-lot은 $9 현금회수로 성공했지만 그 이상 주식의 proration과 후속 숏은 별개 포지션이며 하나의 방향수익률로 합치면 안 된다.",
+      "thesis_verdict_ko": "기업가치보다 계약문구와 계좌별 odd-lot 자격을 읽은 event 아이디어다. 성공은 99주 tranche에 한정되며 세금·수수료·beneficial holder 판정과 tender 종료 전 가격을 확인해야 한다.",
+      "business_verdict_ko": "State Farm은 주당 $9에 133.333m주, 총 $1.2bn을 투자했고 tender가 진행됐다. 조건을 지킨 99주 odd-lot은 $9 현금회수로 성공했지만 그 이상 주식의 proration과 후속 숏은 별개 포지션이며 하나의 방향수익률로 합치면 안 된다.",
+      "catalyst_verdict_ko": "State Farm 거래와 tender 완료",
+      "valuation_verdict_ko": "$9 fixed tender와 odd-lot 비례배정 면제",
+      "stock_verdict_ko": "99주 odd-lot은 $9 고정회수 성공; outright short는 별도 판정",
+      "current_verdict_ko": "2023년 3분기 ADT의 end-of-period RMR은 약 $350m, gross revenue attrition은 12.9%, revenue payback은 2.0년이었다. 핵심 보안사업은 남았지만 Solar goodwill 손상과 높은 자본비용은 ‘90% recurring=asset-light’가 아님을 확인했다.",
+      "overall_verdict_ko": "odd-lot 성공·숏 별도",
+      "why_ko": "기업가치보다 계약문구와 계좌별 odd-lot 자격을 읽은 event 아이디어다. 성공은 99주 tranche에 한정되며 세금·수수료·beneficial holder 판정과 tender 종료 전 가격을 확인해야 한다.",
+      "success_pattern_ko": "valuation_discipline; business_model; catalyst_detection",
+      "failure_pattern_ko": "timing_path; valuation; causal_attribution; capital_allocation",
+      "root_error_ko": "서로 반대인 두 tranche를 단일 Long/Short로 저장하면 성과 왜곡",
+      "first_signal_ko": "State Farm 거래와 tender 완료",
+      "first_signal_date": "2022-10-17",
+      "knowable_at_t0_ko": "VIC 원문의 주장·가격·기간을 당시 연차보고서의 segment economics, 현금흐름, 부채·청구권과 대조하면 사전검증할 수 있었다.",
+      "avoidability_ko": "중간~높음. bull/base/bear를 동일한 현금흐름 정의로 계산하고 촉매·보유기간·손실상한을 분리하면 오류를 줄일 수 있었다.",
+      "counterfactual_question_ko": "99주 자격·수수료를 제외한 확정 IRR과 일반 tender/숏 exposure를 완전히 분리했는가?",
+      "analyst_note_ko": "원 SQL에는 source_is_short=true로 저장됐으나 본문·가격목표·추천 증권상 실제 방향은 Mixed/Event이다. 원본은 보존하고 research_direction만 교정했다. 성과가 없는 경우 수익률을 만들지 않았다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.98,
+      "research_asof": "2024-01-31",
+      "research_status_ko": "외부검증 완료"
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "ticker": "NFLX",
+      "research_direction_ko": "롱",
+      "company_description_ko": "Netflix는 전세계 유료 구독자에게 스트리밍 콘텐츠를 제공하고, 2022년 이후 광고형 요금제와 유료 계정공유를 추가해 기존 시청시간과 계정 기반을 새로운 수익원으로 전환한 글로벌 구독 미디어 플랫폼이다.",
+      "original_thesis_ko": "원 dump는 숏으로 표시됐지만 본문은 명백한 롱이다. 2022년 약 $245, 시총 $109bn, 매출 $32bn, 225m subs에서 코로나 pull-forward 이후 ad-supported tier와 약 100m password-sharing households monetization이 2023~24 성장률을 다시 올릴 것이라고 봤다. base $300~350+는 2024 EPS $14~15 × 20~25x, downside $190는 $12.7 × 15x였다. AVOD ARPU는 subscription $7 + ad $13+로 $20+를 추정했다.",
+      "actual_development_ko": "Netflix는 2023년 계정공유 monetization을 성공적으로 정착시켰다고 밝혔고, 2023 Q4 광고요금제 가입은 전분기 대비 약 70% 증가하며 광고시장 신규가입의 40%를 차지했다. 2025년 유료회원은 325m을 넘었고 매출 $45.18bn(+16%), 영업이익 $13.33bn, 광고매출은 2.5배 이상 증가해 $1.5bn을 넘었다.",
+      "thesis_verdict_ko": "매우 성공",
+      "business_verdict_ko": "매우 성공",
+      "catalyst_verdict_ko": "매우 성공",
+      "valuation_verdict_ko": "성공",
+      "stock_verdict_ko": "매우 성공",
+      "current_verdict_ko": "매우 성공",
+      "overall_verdict_ko": "매우 성공",
+      "why_ko": "기존 225m subs만으로 saturation을 판단하지 않고 “시청은 하지만 돈을 안 내는 100m household”와 광고수요를 별도 monetization rail로 본 것이 정확했다. 다만 당시의 $20~25 AVOD ARPU 산식 자체는 공개 데이터로 그대로 검증되지는 않는다. 중요한 것은 exact CPM math가 아니라 광고·paid sharing이 실제 매출/회원 성장으로 이어졌다는 점이다.",
+      "success_pattern_ko": "새 monetization rail + 기존 자산 재가격",
+      "failure_pattern_ko": "세부 AVOD ARPU 산식은 미검증",
+      "root_error_ko": "정확한 ad load·CPM·revenue share를 하나의 point estimate로 두면 모델 정밀도가 실제보다 높아 보일 수 있다.",
+      "first_signal_ko": "ad-tier signup mix, paid sharing conversion, ARM/매출성장, operating margin",
+      "first_signal_date": "사후검증 기간 중",
+      "knowable_at_t0_ko": "높음",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "새 요금제가 기존 고가 구독을 cannibalize하는가, 아니면 총 가입자·ARPU·광고매출을 합쳐 고객당 경제성을 높이는가?",
+      "analyst_note_ko": "기존 대규모 사용자 기반에 새로운 monetization rail을 붙이는 thesis는 신규 TAM보다 conversion economics와 cannibalization을 먼저 계산해야 한다. V8 근거 보강 대기: 현재 연결 근거 4개로, 기업 공시·규제자료를 추가 확인해야 함.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.93,
+      "research_asof": "2026-08-30",
+      "research_status_ko": "V8 구조화 완료·외부근거 추가 보강 필요"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "analysis_depth_ko": "기업·산업·원문·밸류에이션·주장별 반증·실제전개·가격경로·실패인과를 분리한 장문 통합분석",
+      "report_version": "V8-longform-all",
+      "thesis_type_ko": "FRE 20배·SRE 10배의 post-merger 롱",
+      "one_line_verdict_ko": "복잡한 결합회사를 FRE와 SRE로 분리하고 보험이익에 더 낮은 배수를 준 점이 뛰어났다. 낮은 진입가격이 forecast 오차를 흡수했다. 초과자본이 무조건 buyback으로 귀속된다는 가정은 별도 검증이 필요하다.",
+      "thesis_score": 9.2,
+      "process_score": 9.1,
+      "return_summary_ko": "$46.50 월말 근사→$100.40; 가격 약 +116%, 배당 제외",
+      "core_error_ko": "청구권별 haircut 필요",
+      "core_insight_ko": "2023 FRE가 강하게 성장했다.",
+      "research_asof": "2024-01-31"
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "analysis_depth_ko": "기업·산업·원문·밸류에이션·주장별 반증·실제전개·가격경로·실패인과를 분리한 장문 통합분석",
+      "report_version": "V8-longform-all",
+      "thesis_type_ko": "5x core FCF·극단공포 롱",
+      "one_line_verdict_ko": "1개월 +21.82%, 3개월 +89.80%; 이후 일부 반납. 이전 BABA 롱과 달리 고성장을 요구하지 않고 core FCF와 이미 집행된 buyback으로 논지를 만들었다. 다만 5x는 FCF의 지속성과 주주귀속이 확인돼야 하며 단기 90% 급등을 장기 성공으로 자동 연장하면 안 된다.",
+      "thesis_score": 8.5,
+      "process_score": 8.0,
+      "return_summary_ko": "1개월 +21.82%, 3개월 +89.80%; 이후 일부 반납",
+      "core_error_ko": "싼 배수라도 VIE 현금귀속과 경쟁감소를 보장하지 않음",
+      "core_insight_ko": "$72, 시총 약 $190bn과 고점 대비 -77%에서 China commerce $82bn+Cloud $10bn이 매출의 약 80%, profit/FCF의 100%+를 만든다고 봤다. cash·투자자산을 차감한 EV $78~112bn, core commerce EBITDA 약 $25bn과 FCF $20~25bn, 약 5x FCF를 계산했다. $25bn buyback 중 $9.2bn 집행, VIE·지정학을 명시하고 성장 0%여도 높은 IRR이 가능하다고 주장했다.",
+      "research_asof": "2024-01-31"
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "analysis_depth_ko": "기업·산업·원문·밸류에이션·주장별 반증·실제전개·가격경로·실패인과를 분리한 장문 통합분석",
+      "report_version": "V8-longform-all",
+      "thesis_type_ko": "99주 odd-lot tender+수급 숏",
+      "one_line_verdict_ko": "99주 odd-lot은 $9 고정회수 성공; outright short는 별도 판정. 기업가치보다 계약문구와 계좌별 odd-lot 자격을 읽은 event 아이디어다. 성공은 99주 tranche에 한정되며 세금·수수료·beneficial holder 판정과 tender 종료 전 가격을 확인해야 한다.",
+      "thesis_score": 9.0,
+      "process_score": 8.5,
+      "return_summary_ko": "99주 odd-lot은 $9 고정회수 성공; outright short는 별도 판정",
+      "core_error_ko": "서로 반대인 두 tranche를 단일 Long/Short로 저장하면 성과 왜곡",
+      "core_insight_ko": "고정가 $9 tender에서 99주 이하 odd-lot은 proration 없이 전량 수용되는 조건을 이용해 99주를 매수하는 소액 event trade를 제시했다. 동시에 Apollo 67%, 경영진 약 5%와 State Farm에 발행할 133.333m주를 고려하면 일반주주의 tender 물량 상당수가 되돌아와 $9 부근의 outright short도 가능하다고 봤다. 즉 동일 글에 확정형 odd-lot Long과 tender 후 수급 Short가 공존한다.",
+      "research_asof": "2024-01-31"
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "analysis_depth_ko": "기업·산업·원문·밸류에이션·주장별 반증·실제전개·가격경로·실패인과를 분리한 장문 통합분석",
+      "report_version": "V8-longform-all",
+      "thesis_type_ko": "새 monetization rail + 기존 자산 재가격",
+      "one_line_verdict_ko": "NFLX 롱은 가입자 saturation보다 “이미 Netflix를 보는 비지불 password sharer + 광고를 받아들이는 저가 고객”을 새 monetization pool로 본 아이디어였고, paid sharing 정착·광고요금제 성장·2025 325m+ memberships와 $45.2bn 매출이 이를 강하게 검증했다.",
+      "thesis_score": 9.6,
+      "process_score": 9.2,
+      "return_summary_ko": "당시 base case는 약 12개월 $300~350+였다. 주가 결과와 별개로 2025 매출·회원·영업이익이 원 thesis의 성장 재가속을 확인했다.",
+      "core_error_ko": "AVOD ARPU를 상세 CPM 가정으로 point estimate한 부분은 실제 공개 자료로 직접 검증하기 어렵다.",
+      "core_insight_ko": "플랫폼의 새로운 수익화는 신규 사용자 수보다 기존 비지불/저수익 사용자를 얼마나 추가수익으로 전환하는지로 봐야 한다.",
+      "research_asof": "2026-08-30"
+    }
+  ],
+  "sections": [
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Apollo Global Management은 사모펀드 하나가 아니라 자산운용(Asset Management)과 Athene 중심의 퇴직연금·보험(Retirement Services)을 결합한 대체자산 플랫폼이다. 운용부문은 yield·hybrid·equity 전략에서 관리보수와 성과보수(carry)를 받고, Athene은 연금보험료와 재보험 부채를 장기 자금원으로 조달해 Apollo가 발굴한 투자등급 사모신용·asset-backed 자산 등에 투자한 스프레드를 번다. 따라서 돈 버는 구조는 ① fee-paying AUM×보수율에서 비용을 뺀 FRE, ② 보험자산 수익률에서 계약자 원가·헤지·운영비를 뺀 SRE, ③ 펀드 성과에서 발생하는 carry, ④ 대차대조표 투자수익이다. Athene은 환매가 거의 없는 영구자본과 대규모 origination 수요를 주지만, 상장주주가 단순 asset-light 운용사만 소유하는 것이 아니라 금리·신용·ALM·규제·보험자본 위험도 함께 부담한다. 핵심 지표는 총 AUM보다 fee-generating AUM, FRE margin, 순유입, origination, Athene spread·RBC와 신용손실, 주당 ANI 및 실제 자사주 상쇄다."
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "section_order": 2,
+      "section_title_ko": "사업모델·산업구조·돈 버는 방식",
+      "section_body_ko": "[기업과 돈 버는 구조] Apollo Global Management은 사모펀드 하나가 아니라 자산운용(Asset Management)과 Athene 중심의 퇴직연금·보험(Retirement Services)을 결합한 대체자산 플랫폼이다. 운용부문은 yield·hybrid·equity 전략에서 관리보수와 성과보수(carry)를 받고, Athene은 연금보험료와 재보험 부채를 장기 자금원으로 조달해 Apollo가 발굴한 투자등급 사모신용·asset-backed 자산 등에 투자한 스프레드를 번다. 따라서 돈 버는 구조는 ① fee-paying AUM×보수율에서 비용을 뺀 FRE, ② 보험자산 수익률에서 계약자 원가·헤지·운영비를 뺀 SRE, ③ 펀드 성과에서 발생하는 carry, ④ 대차대조표 투자수익이다. Athene은 환매가 거의 없는 영구자본과 대규모 origination 수요를 주지만, 상장주주가 단순 asset-light 운용사만 소유하는 것이 아니라 금리·신용·ALM·규제·보험자본 위험도 함께 부담한다. 핵심 지표는 총 AUM보다 fee-generating AUM, FRE margin, 순유입, origination, Athene spread·RBC와 신용손실, 주당 ANI 및 실제 자사주 상쇄다.\n\n[원 투자논지] 합병 뒤 asset-light 운용사와 보험사가 섞여 회계가 복잡해지고 금리·credit 우려가 커진 때 약 10배 2022 EPS $5.50에 거래된다고 봤다. 시장이 SRE에 5~6배만 주고 있다고 역산했으며, 경영진 2026 EPS $9+만 달성해도 현 multiple에서 5년 12%+ IRR, FRE 20배와 SRE 10배를 적용하면 약 20% IRR이라고 주장했다. 3% 배당과 초과자본·buyback을 하방으로 제시했다.\n\n[실제 전개] 진입 시점의 공포 뒤 Apollo는 2023년 AUM $651bn, FRE+SRE 성장 25%+를 기록했고 주가는 $46.50에서 $100.40으로 약 116% 상승했다. 보험 spread와 origination 결합은 작동했다. 다만 기준일은 2026 목표 전이므로 $9 EPS와 5년 IRR 자체는 아직 완결 판정할 수 없다.\n\n[투자 결론과 학습] 종합판정은 매우 성공다. 복잡한 결합회사를 FRE와 SRE로 분리하고 보험이익에 더 낮은 배수를 준 점이 뛰어났다. 낮은 진입가격이 forecast 오차를 흡수했다. 초과자본이 무조건 buyback으로 귀속된다는 가정은 별도 검증이 필요하다."
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "section_order": 3,
+      "section_title_ko": "당시 VIC 투자논지",
+      "section_body_ko": "합병 뒤 asset-light 운용사와 보험사가 섞여 회계가 복잡해지고 금리·credit 우려가 커진 때 약 10배 2022 EPS $5.50에 거래된다고 봤다. 시장이 SRE에 5~6배만 주고 있다고 역산했으며, 경영진 2026 EPS $9+만 달성해도 현 multiple에서 5년 12%+ IRR, FRE 20배와 SRE 10배를 적용하면 약 20% IRR이라고 주장했다. 3% 배당과 초과자본·buyback을 하방으로 제시했다."
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "section_order": 4,
+      "section_title_ko": "밸류에이션·증권 청구권",
+      "section_body_ko": "2026 EPS $9+; FRE 20x+SRE 10x에서 약 20% 5년 IRR"
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "section_order": 5,
+      "section_title_ko": "핵심 주장·성립조건·사전 반증조건",
+      "section_body_ko": "1. FRE 성장: FRE가 장기 두 자릿수로 성장한다. / 반증조건: 순유입 둔화·margin 압박 / 결과: 2023 FRE가 강하게 성장했다.\n2. SRE 정상화: Athene spread earnings에 5~6배는 과도한 할인이다. / 반증조건: 대규모 impairments·RBC 압박 / 결과: 초기 실적은 강했고 multiple도 상승했다.\n3. 2026 EPS: $9+ EPS 목표가 달성 가능하다. / 반증조건: 두 부문 중 하나가 구조적으로 정체 / 결과: 기준일 현재 목표연도 미도래다.\n4. 낮은 가격: 10배 안팎 EPS와 3% 배당이 forecast risk를 보상한다. / 반증조건: 신용손실로 book와 earnings 동시훼손 / 결과: 가격이 두 배 이상 상승했다.\n5. 밸류에이션과 주당가치 귀속: 2026 EPS $9+; FRE 20x+SRE 10x에서 약 20% 5년 IRR / 반증조건: 사업지표는 개선되지만 완전희석 주당 현금흐름이나 주가가 장기간 악화된다. / 결과: $46.50 월말 근사→$100.40; 가격 약 +116%, 배당 제외\n6. 촉매와 보유경로: 2023년 FRE·SRE 동시 성장과 대규모 유입 / 반증조건: 최종 방향과 무관하게 중간 손실이나 논지 반증이 포지션의 보유 가능성을 훼손한다. / 결과: 최초 중요 신호: 2023년 FRE·SRE 동시 성장과 대규모 유입 (2024-02-08)"
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "section_order": 6,
+      "section_title_ko": "실제 사업 전개",
+      "section_body_ko": "진입 시점의 공포 뒤 Apollo는 2023년 AUM $651bn, FRE+SRE 성장 25%+를 기록했고 주가는 $46.50에서 $100.40으로 약 116% 상승했다. 보험 spread와 origination 결합은 작동했다. 다만 기준일은 2026 목표 전이므로 $9 EPS와 5년 IRR 자체는 아직 완결 판정할 수 없다."
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "section_order": 7,
+      "section_title_ko": "가격 결과와 논지 결과의 분리",
+      "section_body_ko": "논지 판정: 복잡한 결합회사를 FRE와 SRE로 분리하고 보험이익에 더 낮은 배수를 준 점이 뛰어났다. 낮은 진입가격이 forecast 오차를 흡수했다. 초과자본이 무조건 buyback으로 귀속된다는 가정은 별도 검증이 필요하다.\n\n주가·증권 판정: $46.50 월말 근사→$100.40; 가격 약 +116%, 배당 제외"
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "section_order": 8,
+      "section_title_ko": "성공·실패의 구체적 원인",
+      "section_body_ko": "복잡한 결합회사를 FRE와 SRE로 분리하고 보험이익에 더 낮은 배수를 준 점이 뛰어났다. 낮은 진입가격이 forecast 오차를 흡수했다. 초과자본이 무조건 buyback으로 귀속된다는 가정은 별도 검증이 필요하다.\n\n근본 분석오류: 보험·carry·balance-sheet 청구권에는 자본비용·실현·세금·희석 haircut이 필요"
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "section_order": 9,
+      "section_title_ko": "최초 반증 신호·인지 가능성·회피 가능성",
+      "section_body_ko": "최초 신호: 2023년 FRE·SRE 동시 성장과 대규모 유입 (2024-02-08)\n\n당시 알 수 있었는가: FPAUM·fee shadow·FRE margin·실현 carry·순자산·보험 spread를 분리하면 당시에도 가설을 검증할 수 있었다.\n\n피할 수 있었는가: 높음. 총 AUM이나 ENI 하나 대신 각 earnings stream과 주주 귀속을 분리해야 한다."
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "section_order": 10,
+      "section_title_ko": "최종판정·재사용 교훈",
+      "section_body_ko": "종합판정: 매우 성공\n\n다음에 물을 질문: 순유입 둔화·margin 압박\n\n성공 패턴: locked_capital; fee_related_earnings; permanent_capital; sum_of_parts; valuation_discipline\n\n실패 패턴: carry_cyclicality; insurance_balance_sheet; nav_haircut; forecast_stacking"
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Alibaba는 Taobao·Tmall의 중국 전자상거래, Alibaba.com·AliExpress·Lazada 등 국제상거래, Alibaba Cloud, Cainiao 물류, Ele.me·Amap 지역서비스, 디지털미디어와 Ant Group 지분을 묶은 중국 인터넷 지주회사다. 핵심 China commerce는 직접 재고를 소유하기보다 상인에게 트래픽·광고·추천·결제 인프라를 제공하고 customer-management/commission 수익을 얻어 높은 마진과 현금을 만들었다. 그 현금을 물류·로컬서비스·해외·클라우드에 재투자하는 구조라 segment별 적자와 본사 자본배분을 분리해야 한다. 네트워크 효과는 소비자·상인·데이터에서 나오지만 JD·PDD·Douyin과의 경쟁, 소비둔화, merchant monetization 부담이 약화시킬 수 있다. 미국 ADR 주주는 중국 운영회사 지분이 아니라 Cayman VIE 청구권을 보유하고, 규제·Ant 구조조정·데이터안보·미중 감사·ADR 상장위험은 valuation discount가 아니라 현금귀속과 통제의 문제다. SOTP는 현금·상장지분·Ant·Cloud 가치를 더하되 세금·holding discount·통제불능·지속 적자와 국가정책을 빼야 한다."
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "section_order": 2,
+      "section_title_ko": "사업모델·산업구조·돈 버는 방식",
+      "section_body_ko": "[1. 기업·증권 구조] Alibaba는 Taobao·Tmall의 중국 전자상거래, Alibaba.com·AliExpress·Lazada 등 국제상거래, Alibaba Cloud, Cainiao 물류, Ele.me·Amap 지역서비스, 디지털미디어와 Ant Group 지분을 묶은 중국 인터넷 지주회사다. 핵심 China commerce는 직접 재고를 소유하기보다 상인에게 트래픽·광고·추천·결제 인프라를 제공하고 customer-management/commission 수익을 얻어 높은 마진과 현금을 만들었다. 그 현금을 물류·로컬서비스·해외·클라우드에 재투자하는 구조라 segment별 적자와 본사 자본배분을 분리해야 한다. 네트워크 효과는 소비자·상인·데이터에서 나오지만 JD·PDD·Douyin과의 경쟁, 소비둔화, merchant monetization 부담이 약화시킬 수 있다. 미국 ADR 주주는 중국 운영회사 지분이 아니라 Cayman VIE 청구권을 보유하고, 규제·Ant 구조조정·데이터안보·미중 감사·ADR 상장위험은 valuation discount가 아니라 현금귀속과 통제의 문제다. SOTP는 현금·상장지분·Ant·Cloud 가치를 더하되 세금·holding discount·통제불능·지속 적자와 국가정책을 빼야 한다. 이 글은 2022-10-22 게시됐고 실제 추천방향은 Long이다.\n\n[2. 원 투자논지] $72, 시총 약 $190bn과 고점 대비 -77%에서 China commerce $82bn+Cloud $10bn이 매출의 약 80%, profit/FCF의 100%+를 만든다고 봤다. cash·투자자산을 차감한 EV $78~112bn, core commerce EBITDA 약 $25bn과 FCF $20~25bn, 약 5x FCF를 계산했다. $25bn buyback 중 $9.2bn 집행, VIE·지정학을 명시하고 성장 0%여도 높은 IRR이 가능하다고 주장했다. 밸류에이션은 EV $78~112bn, core FCF $20~25bn≈5x, 촉매는 제로코로나 완화·buyback·극단 sentiment였다.\n\n[3. 실제 전개] 3개월 성과 +89.80%로 극단적 sentiment 반등을 정확히 잡았다. 그러나 이후 상당 부분 반납했고 2024-01-31에는 장기 value realization이 완전히 확인되지 않았다. 낮은 가격이 tactical margin of safety를 만들었지만 VIE·경쟁·자본배분은 남았다. 첫 중요 확인·반증은 3개월 +89.80%로 tactical 목표 실현였다.\n\n[4. 판정·재사용 교훈] 종합판정은 전술적 매우 성공·장기 부분다. 이전 BABA 롱과 달리 고성장을 요구하지 않고 core FCF와 이미 집행된 buyback으로 논지를 만들었다. 다만 5x는 FCF의 지속성과 주주귀속이 확인돼야 하며 단기 90% 급등을 장기 성공으로 자동 연장하면 안 된다. 재사용 반증질문은 ‘성장 0%, core FCF -30%, 현금 50% haircut에서도 buyback 후 주당가치가 증가하는가?’이다."
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "section_order": 3,
+      "section_title_ko": "당시 VIC 투자논지",
+      "section_body_ko": "$72, 시총 약 $190bn과 고점 대비 -77%에서 China commerce $82bn+Cloud $10bn이 매출의 약 80%, profit/FCF의 100%+를 만든다고 봤다. cash·투자자산을 차감한 EV $78~112bn, core commerce EBITDA 약 $25bn과 FCF $20~25bn, 약 5x FCF를 계산했다. $25bn buyback 중 $9.2bn 집행, VIE·지정학을 명시하고 성장 0%여도 높은 IRR이 가능하다고 주장했다."
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "section_order": 4,
+      "section_title_ko": "밸류에이션·증권 청구권",
+      "section_body_ko": "EV $78~112bn, core FCF $20~25bn≈5x"
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "section_order": 5,
+      "section_title_ko": "핵심 주장·성립조건·사전 반증조건",
+      "section_body_ko": "1. 사업·단위경제성: $72, 시총 약 $190bn과 고점 대비 -77%에서 China commerce $82bn+Cloud $10bn이 매출의 약 80%, profit/FCF의 100%+를 만든다고 봤다. cash·투자자산을 차감한 EV $78~112bn, core commerce EBITDA 약 $25bn과 FCF $20~25bn, 약 5x FCF를 계산했다. $25bn buyback 중 $9.2bn 집행, VIE·지정학을 명시하고 성장 0%여도 높은 IRR이 가능하다고 주장했다. / 반증조건: 성장 0%, core FCF -30%, 현금 50% haircut에서도 buyback 후 주당가치가 증가하는가? / 결과: 3개월 성과 +89.80%로 극단적 sentiment 반등을 정확히 잡았다. 그러나 이후 상당 부분 반납했고 2024-01-31에는 장기 value realization이 완전히 확인되지 않았다. 낮은 가격이 tactical margin of safety를 만들었지만 VIE·경쟁·자본배분은 남았다.\n2. 밸류에이션·청구권: EV $78~112bn, core FCF $20~25bn≈5x / 반증조건: 성장 0%, core FCF -30%, 현금 50% haircut에서도 buyback 후 주당가치가 증가하는가? / 결과: 1개월 +21.82%, 3개월 +89.80%; 이후 일부 반납\n3. 촉매·시간경로: 제로코로나 완화·buyback·극단 sentiment / 반증조건: 성장 0%, core FCF -30%, 현금 50% haircut에서도 buyback 후 주당가치가 증가하는가? / 결과: 3개월 +89.80%로 tactical 목표 실현\n4. 반증·tail risk: 성장 0%, core FCF -30%, 현금 50% haircut에서도 buyback 후 주당가치가 증가하는가? / 반증조건: 성장 0%, core FCF -30%, 현금 50% haircut에서도 buyback 후 주당가치가 증가하는가? / 결과: 싼 배수라도 VIE 현금귀속과 경쟁감소를 보장하지 않음\n5. 밸류에이션과 주당가치 귀속: EV $78~112bn, core FCF $20~25bn≈5x / 반증조건: 사업지표는 개선되지만 완전희석 주당 현금흐름이나 주가가 장기간 악화된다. / 결과: 1개월 +21.82%, 3개월 +89.80%; 이후 일부 반납\n6. 촉매와 보유경로: 3개월 +89.80%로 tactical 목표 실현 / 반증조건: 최종 방향과 무관하게 중간 손실이나 논지 반증이 포지션의 보유 가능성을 훼손한다. / 결과: 최초 중요 신호: 3개월 +89.80%로 tactical 목표 실현 (2023-01-27)"
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "section_order": 6,
+      "section_title_ko": "실제 사업 전개",
+      "section_body_ko": "3개월 성과 +89.80%로 극단적 sentiment 반등을 정확히 잡았다. 그러나 이후 상당 부분 반납했고 2024-01-31에는 장기 value realization이 완전히 확인되지 않았다. 낮은 가격이 tactical margin of safety를 만들었지만 VIE·경쟁·자본배분은 남았다."
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "section_order": 7,
+      "section_title_ko": "가격 결과와 논지 결과의 분리",
+      "section_body_ko": "논지 판정: 이전 BABA 롱과 달리 고성장을 요구하지 않고 core FCF와 이미 집행된 buyback으로 논지를 만들었다. 다만 5x는 FCF의 지속성과 주주귀속이 확인돼야 하며 단기 90% 급등을 장기 성공으로 자동 연장하면 안 된다.\n\n주가·증권 판정: 1개월 +21.82%, 3개월 +89.80%; 이후 일부 반납"
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "section_order": 8,
+      "section_title_ko": "성공·실패의 구체적 원인",
+      "section_body_ko": "이전 BABA 롱과 달리 고성장을 요구하지 않고 core FCF와 이미 집행된 buyback으로 논지를 만들었다. 다만 5x는 FCF의 지속성과 주주귀속이 확인돼야 하며 단기 90% 급등을 장기 성공으로 자동 연장하면 안 된다.\n\n근본 분석오류: 싼 배수라도 VIE 현금귀속과 경쟁감소를 보장하지 않음"
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "section_order": 9,
+      "section_title_ko": "최초 반증 신호·인지 가능성·회피 가능성",
+      "section_body_ko": "최초 신호: 3개월 +89.80%로 tactical 목표 실현 (2023-01-27)\n\n당시 알 수 있었는가: VIC 원문의 주장·가격·기간을 당시 연차보고서의 segment economics, 현금흐름, 부채·청구권과 대조하면 사전검증할 수 있었다.\n\n피할 수 있었는가: 중간~높음. bull/base/bear를 동일한 현금흐름 정의로 계산하고 촉매·보유기간·손실상한을 분리하면 오류를 줄일 수 있었다."
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "section_order": 10,
+      "section_title_ko": "최종판정·재사용 교훈",
+      "section_body_ko": "종합판정: 전술적 매우 성공·장기 부분\n\n다음에 물을 질문: 성장 0%, core FCF -30%, 현금 50% haircut에서도 buyback 후 주당가치가 증가하는가?\n\n성공 패턴: valuation_discipline; business_model; catalyst_detection\n\n실패 패턴: timing_path; valuation; causal_attribution; capital_allocation"
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "ADT는 주택·소상공인에 경보장비와 스마트홈 기기를 설치하고 24시간 모니터링·출동 연결 서비스를 제공한다. 매출의 대부분이 recurring monthly revenue(RMR)이므로 표면상 구독사업이지만 신규고객 한 명을 얻기 위해 장비·설치·딜러수수료를 먼저 지출하거나 자본화한다. 따라서 신규가입이 줄면 단기 FCF가 좋아 보이고, 가입을 늘리면 회계 EBITDA보다 현금이 나빠질 수 있다. 핵심은 ARPU와 gross revenue attrition, subscriber acquisition cost(SAC), 회수기간, 계약기간, 설치 cohort의 생애가치다. 매년 12~18%가 이탈하는 ‘새는 양동이’를 채워야 하므로 높은 EBITDA margin만으로 경제성을 판단하면 안 된다. 케이블·통신·DIY 기기·Google/Amazon 생태계가 경쟁하며, 장비판매·태양광처럼 낮은 마진 사업을 붙이면 RMR의 질이 희석된다. 2016년 Apollo 인수 후 재상장된 ADT는 높은 부채와 지배주주 overhang도 보통주 가치에 중요했다."
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "section_order": 2,
+      "section_title_ko": "사업모델·산업구조·돈 버는 방식",
+      "section_body_ko": "[1. 기업·증권 구조] ADT는 주택·소상공인에 경보장비와 스마트홈 기기를 설치하고 24시간 모니터링·출동 연결 서비스를 제공한다. 매출의 대부분이 recurring monthly revenue(RMR)이므로 표면상 구독사업이지만 신규고객 한 명을 얻기 위해 장비·설치·딜러수수료를 먼저 지출하거나 자본화한다. 따라서 신규가입이 줄면 단기 FCF가 좋아 보이고, 가입을 늘리면 회계 EBITDA보다 현금이 나빠질 수 있다. 핵심은 ARPU와 gross revenue attrition, subscriber acquisition cost(SAC), 회수기간, 계약기간, 설치 cohort의 생애가치다. 매년 12~18%가 이탈하는 ‘새는 양동이’를 채워야 하므로 높은 EBITDA margin만으로 경제성을 판단하면 안 된다. 케이블·통신·DIY 기기·Google/Amazon 생태계가 경쟁하며, 장비판매·태양광처럼 낮은 마진 사업을 붙이면 RMR의 질이 희석된다. 2016년 Apollo 인수 후 재상장된 ADT는 높은 부채와 지배주주 overhang도 보통주 가치에 중요했다. 이 글은 2022-09-15 게시됐고 실제 추천방향은 Mixed/Event이다.\n\n[2. 원 투자논지] 고정가 $9 tender에서 99주 이하 odd-lot은 proration 없이 전량 수용되는 조건을 이용해 99주를 매수하는 소액 event trade를 제시했다. 동시에 Apollo 67%, 경영진 약 5%와 State Farm에 발행할 133.333m주를 고려하면 일반주주의 tender 물량 상당수가 되돌아와 $9 부근의 outright short도 가능하다고 봤다. 즉 동일 글에 확정형 odd-lot Long과 tender 후 수급 Short가 공존한다. 밸류에이션은 $9 fixed tender와 odd-lot 비례배정 면제, 촉매는 State Farm closing·tender 완료·returned shares였다.\n\n[3. 실제 전개] State Farm은 주당 $9에 133.333m주, 총 $1.2bn을 투자했고 tender가 진행됐다. 조건을 지킨 99주 odd-lot은 $9 현금회수로 성공했지만 그 이상 주식의 proration과 후속 숏은 별개 포지션이며 하나의 방향수익률로 합치면 안 된다. 첫 중요 확인·반증은 State Farm 거래와 tender 완료였다.\n\n[4. 판정·재사용 교훈] 종합판정은 odd-lot 성공·숏 별도다. 기업가치보다 계약문구와 계좌별 odd-lot 자격을 읽은 event 아이디어다. 성공은 99주 tranche에 한정되며 세금·수수료·beneficial holder 판정과 tender 종료 전 가격을 확인해야 한다. 재사용 반증질문은 ‘99주 자격·수수료를 제외한 확정 IRR과 일반 tender/숏 exposure를 완전히 분리했는가?’이다."
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "section_order": 3,
+      "section_title_ko": "당시 VIC 투자논지",
+      "section_body_ko": "고정가 $9 tender에서 99주 이하 odd-lot은 proration 없이 전량 수용되는 조건을 이용해 99주를 매수하는 소액 event trade를 제시했다. 동시에 Apollo 67%, 경영진 약 5%와 State Farm에 발행할 133.333m주를 고려하면 일반주주의 tender 물량 상당수가 되돌아와 $9 부근의 outright short도 가능하다고 봤다. 즉 동일 글에 확정형 odd-lot Long과 tender 후 수급 Short가 공존한다."
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "section_order": 4,
+      "section_title_ko": "밸류에이션·증권 청구권",
+      "section_body_ko": "$9 fixed tender와 odd-lot 비례배정 면제"
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "section_order": 5,
+      "section_title_ko": "핵심 주장·성립조건·사전 반증조건",
+      "section_body_ko": "1. 사업·단위경제성: 고정가 $9 tender에서 99주 이하 odd-lot은 proration 없이 전량 수용되는 조건을 이용해 99주를 매수하는 소액 event trade를 제시했다. 동시에 Apollo 67%, 경영진 약 5%와 State Farm에 발행할 133.333m주를 고려하면 일반주주의 tender 물량 상당수가 되돌아와 $9 부근의 outright short도 가능하다고 봤다. 즉 동일 글에 확정형 odd-lot Long과 tender 후 수급 Short가 공존한다. / 반증조건: 99주 자격·수수료를 제외한 확정 IRR과 일반 tender/숏 exposure를 완전히 분리했는가? / 결과: State Farm은 주당 $9에 133.333m주, 총 $1.2bn을 투자했고 tender가 진행됐다. 조건을 지킨 99주 odd-lot은 $9 현금회수로 성공했지만 그 이상 주식의 proration과 후속 숏은 별개 포지션이며 하나의 방향수익률로 합치면 안 된다.\n2. 밸류에이션·청구권: $9 fixed tender와 odd-lot 비례배정 면제 / 반증조건: 99주 자격·수수료를 제외한 확정 IRR과 일반 tender/숏 exposure를 완전히 분리했는가? / 결과: 99주 odd-lot은 $9 고정회수 성공; outright short는 별도 판정\n3. 촉매·시간경로: State Farm closing·tender 완료·returned shares / 반증조건: 99주 자격·수수료를 제외한 확정 IRR과 일반 tender/숏 exposure를 완전히 분리했는가? / 결과: State Farm 거래와 tender 완료\n4. 반증·tail risk: 99주 자격·수수료를 제외한 확정 IRR과 일반 tender/숏 exposure를 완전히 분리했는가? / 반증조건: 99주 자격·수수료를 제외한 확정 IRR과 일반 tender/숏 exposure를 완전히 분리했는가? / 결과: 서로 반대인 두 tranche를 단일 Long/Short로 저장하면 성과 왜곡\n5. 밸류에이션과 주당가치 귀속: $9 fixed tender와 odd-lot 비례배정 면제 / 반증조건: 사업지표는 개선되지만 완전희석 주당 현금흐름이나 주가가 장기간 악화된다. / 결과: 99주 odd-lot은 $9 고정회수 성공; outright short는 별도 판정\n6. 촉매와 보유경로: State Farm 거래와 tender 완료 / 반증조건: 최종 방향과 무관하게 중간 손실이나 논지 반증이 포지션의 보유 가능성을 훼손한다. / 결과: 최초 중요 신호: State Farm 거래와 tender 완료 (2022-10-17)"
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "section_order": 6,
+      "section_title_ko": "실제 사업 전개",
+      "section_body_ko": "State Farm은 주당 $9에 133.333m주, 총 $1.2bn을 투자했고 tender가 진행됐다. 조건을 지킨 99주 odd-lot은 $9 현금회수로 성공했지만 그 이상 주식의 proration과 후속 숏은 별개 포지션이며 하나의 방향수익률로 합치면 안 된다."
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "section_order": 7,
+      "section_title_ko": "가격 결과와 논지 결과의 분리",
+      "section_body_ko": "논지 판정: 기업가치보다 계약문구와 계좌별 odd-lot 자격을 읽은 event 아이디어다. 성공은 99주 tranche에 한정되며 세금·수수료·beneficial holder 판정과 tender 종료 전 가격을 확인해야 한다.\n\n주가·증권 판정: 99주 odd-lot은 $9 고정회수 성공; outright short는 별도 판정"
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "section_order": 8,
+      "section_title_ko": "성공·실패의 구체적 원인",
+      "section_body_ko": "기업가치보다 계약문구와 계좌별 odd-lot 자격을 읽은 event 아이디어다. 성공은 99주 tranche에 한정되며 세금·수수료·beneficial holder 판정과 tender 종료 전 가격을 확인해야 한다.\n\n근본 분석오류: 서로 반대인 두 tranche를 단일 Long/Short로 저장하면 성과 왜곡"
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "section_order": 9,
+      "section_title_ko": "최초 반증 신호·인지 가능성·회피 가능성",
+      "section_body_ko": "최초 신호: State Farm 거래와 tender 완료 (2022-10-17)\n\n당시 알 수 있었는가: VIC 원문의 주장·가격·기간을 당시 연차보고서의 segment economics, 현금흐름, 부채·청구권과 대조하면 사전검증할 수 있었다.\n\n피할 수 있었는가: 중간~높음. bull/base/bear를 동일한 현금흐름 정의로 계산하고 촉매·보유기간·손실상한을 분리하면 오류를 줄일 수 있었다."
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "section_order": 10,
+      "section_title_ko": "최종판정·재사용 교훈",
+      "section_body_ko": "종합판정: odd-lot 성공·숏 별도\n\n다음에 물을 질문: 99주 자격·수수료를 제외한 확정 IRR과 일반 tender/숏 exposure를 완전히 분리했는가?\n\n성공 패턴: valuation_discipline; business_model; catalyst_detection\n\n실패 패턴: timing_path; valuation; causal_attribution; capital_allocation"
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Netflix는 전세계 유료 구독자에게 스트리밍 콘텐츠를 제공하고, 2022년 이후 광고형 요금제와 유료 계정공유를 추가해 기존 시청시간과 계정 기반을 새로운 수익원으로 전환한 글로벌 구독 미디어 플랫폼이다."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "section_order": 2,
+      "section_title_ko": "사업모델·산업구조·돈 버는 방식",
+      "section_body_ko": "[1. 무슨 기업인가] Netflix는 글로벌 streaming subscription platform이다. 콘텐츠 비용이 크지만 가입자 기반이 커질수록 콘텐츠를 전세계에 amortize할 수 있고, 가격인상·광고·paid sharing 같은 monetization lever를 기존 engagement 위에 추가할 수 있다.\n\n[2. 당시 VIC 투자논지] 2022년 $245, $109bn market cap, $32bn revenue, 225m subs. 코로나 pull-forward 뒤 growth가 꺾였지만 ① 저가 ad tier ② 약 100m password sharer monetization으로 2023~24 net adds와 ARPU가 재가속한다고 봤다. $14~15 2024 EPS × 20~25x로 $300~350+ base case.\n\n[3. 실제 결과] 2023년 paid sharing을 normal course로 정착. 2023 Q4 ad memberships +70% QoQ, 광고시장 sign-up의 40%. 2025 paid memberships 325m+, revenue $45.183bn, operating income $13.327bn, ad revenue >$1.5bn(+2.5x+).\n\n[4. 무엇을 맞췄나] password sharers를 “lost users”가 아니라 monetizable installed base로 본 점, 광고요금제가 기존 subscription을 파괴하기보다 새 revenue pool을 연다는 점, 콘텐츠비가 일정하게 유지되면 operating leverage가 가능하다는 점.\n\n[5. 무엇을 조심해야 하나] AVOD ARPU $20~25의 세부 CPM math는 외부에서 직접 검증하기 어렵고 광고시장 변동에 민감하다. 정확한 point estimate보다 전체 ARM·광고매출·가입자·margin의 결합 결과로 평가해야 한다.\n\n[6. 성공 메커니즘] paid sharing enforcement → 비지불 household의 유료전환/extra member → ad tier로 가격민감 고객 흡수 → ad inventory monetization → memberships·revenue growth 재가속 → content cost leverage → operating income 증가.\n\n[7. 재사용할 교훈] 대규모 installed base 기업은 TAM을 새 고객 수로만 보지 말고 “현재 무료/저수익 usage를 어떻게 가격화할 수 있는가”를 봐야 한다. 단 cannibalization과 incremental ARPU를 같이 측정해야 한다."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "section_order": 3,
+      "section_title_ko": "당시 VIC 투자논지",
+      "section_body_ko": "원 dump는 숏으로 표시됐지만 본문은 명백한 롱이다. 2022년 약 $245, 시총 $109bn, 매출 $32bn, 225m subs에서 코로나 pull-forward 이후 ad-supported tier와 약 100m password-sharing households monetization이 2023~24 성장률을 다시 올릴 것이라고 봤다. base $300~350+는 2024 EPS $14~15 × 20~25x, downside $190는 $12.7 × 15x였다. AVOD ARPU는 subscription $7 + ad $13+로 $20+를 추정했다."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "section_order": 4,
+      "section_title_ko": "밸류에이션·증권 청구권",
+      "section_body_ko": "성공"
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "section_order": 5,
+      "section_title_ko": "핵심 주장·성립조건·사전 반증조건",
+      "section_body_ko": "1. Paid sharing: 약 100m password-sharing households를 monetization하면 성장률이 다시 올라간다. / 반증조건: paid sharing 도입 뒤 memberships/revenue가 둔화하면 반증. / 결과: Netflix는 2023 sharing을 성공적으로 addressed했다고 발표, 2025 memberships 325m+.\n2. 광고요금제: 저가 AVOD는 cannibalization보다 신규가입과 광고 ARPU를 더해 accretive하다. / 반증조건: ad tier signup은 늘지만 total revenue/ARM/margin이 악화되면 반증. / 결과: 2023 Q4 ad memberships +70% QoQ, 2025 ad revenue >$1.5bn.\n3. 수익성/콘텐츠: content cash spend를 약 $17bn 수준으로 통제하면 subscriber growth가 earnings leverage로 이어진다. / 반증조건: growth 재개에도 operating margin이 개선되지 않으면 반증. / 결과: 2025 operating income $13.327bn, revenue $45.183bn.\n4. 밸류에이션: 2024 EPS $14~15에 20~25x면 $300~350+가 정당화된다. / 반증조건: EPS growth가 안 나타나거나 market multiple이 15x 수준에 머무르면 반증. / 결과: 2025 operating income/earnings가 크게 확대.\n5. 밸류에이션과 주당가치 귀속: 성공 / 반증조건: 사업지표는 개선되지만 완전희석 주당 현금흐름이나 주가가 장기간 악화된다. / 결과: 매우 성공\n6. 촉매와 보유경로: 매우 성공 / 반증조건: 최종 방향과 무관하게 중간 손실이나 논지 반증이 포지션의 보유 가능성을 훼손한다. / 결과: 최초 중요 신호: ad-tier signup mix, paid sharing conversion, ARM/매출성장, operating margin (사후검증 기간 중)"
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "section_order": 6,
+      "section_title_ko": "실제 사업 전개",
+      "section_body_ko": "Netflix는 2023년 계정공유 monetization을 성공적으로 정착시켰다고 밝혔고, 2023 Q4 광고요금제 가입은 전분기 대비 약 70% 증가하며 광고시장 신규가입의 40%를 차지했다. 2025년 유료회원은 325m을 넘었고 매출 $45.18bn(+16%), 영업이익 $13.33bn, 광고매출은 2.5배 이상 증가해 $1.5bn을 넘었다."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "section_order": 7,
+      "section_title_ko": "가격 결과와 논지 결과의 분리",
+      "section_body_ko": "논지 판정: 매우 성공\n\n주가·증권 판정: 매우 성공"
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "section_order": 8,
+      "section_title_ko": "성공·실패의 구체적 원인",
+      "section_body_ko": "기존 225m subs만으로 saturation을 판단하지 않고 “시청은 하지만 돈을 안 내는 100m household”와 광고수요를 별도 monetization rail로 본 것이 정확했다. 다만 당시의 $20~25 AVOD ARPU 산식 자체는 공개 데이터로 그대로 검증되지는 않는다. 중요한 것은 exact CPM math가 아니라 광고·paid sharing이 실제 매출/회원 성장으로 이어졌다는 점이다.\n\n근본 분석오류: 정확한 ad load·CPM·revenue share를 하나의 point estimate로 두면 모델 정밀도가 실제보다 높아 보일 수 있다."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "section_order": 9,
+      "section_title_ko": "최초 반증 신호·인지 가능성·회피 가능성",
+      "section_body_ko": "최초 신호: ad-tier signup mix, paid sharing conversion, ARM/매출성장, operating margin (사후검증 기간 중)\n\n당시 알 수 있었는가: 높음\n\n피할 수 있었는가: 중간"
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "section_order": 10,
+      "section_title_ko": "최종판정·재사용 교훈",
+      "section_body_ko": "종합판정: 매우 성공\n\n다음에 물을 질문: 새 요금제가 기존 고가 구독을 cannibalize하는가, 아니면 총 가입자·ARPU·광고매출을 합쳐 고객당 경제성을 높이는가?\n\n성공 패턴: 새 monetization rail + 기존 자산 재가격\n\n실패 패턴: 세부 AVOD ARPU 산식은 미검증"
+    }
+  ],
+  "claims": [
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "claim_order": 1,
+      "claim_title_ko": "FRE 성장",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "FRE가 장기 두 자릿수로 성장한다.",
+      "t0_evidence_ko": "합병 뒤 asset-light 운용사와 보험사가 섞여 회계가 복잡해지고 금리·credit 우려가 커진 때 약 10배 2022 EPS $5.50에 거래된다고 봤다. 시장이 SRE에 5~6배만 주고 있다고 역산했으며, 경영진 2026 EPS $9+만 달성해도 현 multiple에서 5년 12%+ IRR, FRE 20배와 SRE 10배를 적용하면 약 20% IRR이라고 주장했다. 3% 배당과 초과자본·buyback을 하방으로 제시했다.",
+      "key_assumption_ko": "FPAUM·capital solutions 확대와 비용규율",
+      "ex_ante_falsifier_ko": "순유입 둔화·margin 압박",
+      "actual_result_ko": "2023 FRE가 강하게 성장했다.",
+      "quantitative_gap_ko": "2026 EPS $9+; FRE 20x+SRE 10x에서 약 20% 5년 IRR",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "중대한 오류 없음",
+      "reusable_lesson_ko": "FRE 성장는 주장과 함께 ‘순유입 둔화·margin 압박’를 사전 경보로 저장한다."
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "claim_order": 2,
+      "claim_title_ko": "SRE 정상화",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "Athene spread earnings에 5~6배는 과도한 할인이다.",
+      "t0_evidence_ko": "합병 뒤 asset-light 운용사와 보험사가 섞여 회계가 복잡해지고 금리·credit 우려가 커진 때 약 10배 2022 EPS $5.50에 거래된다고 봤다. 시장이 SRE에 5~6배만 주고 있다고 역산했으며, 경영진 2026 EPS $9+만 달성해도 현 multiple에서 5년 12%+ IRR, FRE 20배와 SRE 10배를 적용하면 약 20% IRR이라고 주장했다. 3% 배당과 초과자본·buyback을 하방으로 제시했다.",
+      "key_assumption_ko": "credit/ALM 손실 없이 spread 유지",
+      "ex_ante_falsifier_ko": "대규모 impairments·RBC 압박",
+      "actual_result_ko": "초기 실적은 강했고 multiple도 상승했다.",
+      "quantitative_gap_ko": "2026 EPS $9+; FRE 20x+SRE 10x에서 약 20% 5년 IRR",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "중대한 오류 없음",
+      "reusable_lesson_ko": "SRE 정상화는 주장과 함께 ‘대규모 impairments·RBC 압박’를 사전 경보로 저장한다."
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "claim_order": 3,
+      "claim_title_ko": "2026 EPS",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "$9+ EPS 목표가 달성 가능하다.",
+      "t0_evidence_ko": "합병 뒤 asset-light 운용사와 보험사가 섞여 회계가 복잡해지고 금리·credit 우려가 커진 때 약 10배 2022 EPS $5.50에 거래된다고 봤다. 시장이 SRE에 5~6배만 주고 있다고 역산했으며, 경영진 2026 EPS $9+만 달성해도 현 multiple에서 5년 12%+ IRR, FRE 20배와 SRE 10배를 적용하면 약 20% IRR이라고 주장했다. 3% 배당과 초과자본·buyback을 하방으로 제시했다.",
+      "key_assumption_ko": "origination·보험유입·운용보수 동반성장",
+      "ex_ante_falsifier_ko": "두 부문 중 하나가 구조적으로 정체",
+      "actual_result_ko": "기준일 현재 목표연도 미도래다.",
+      "quantitative_gap_ko": "2026 EPS $9+; FRE 20x+SRE 10x에서 약 20% 5년 IRR",
+      "verdict_ko": "진행",
+      "analytical_error_ko": "청구권·시간·cycle 분리 필요",
+      "reusable_lesson_ko": "2026 EPS는 주장과 함께 ‘두 부문 중 하나가 구조적으로 정체’를 사전 경보로 저장한다."
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "claim_order": 4,
+      "claim_title_ko": "낮은 가격",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "10배 안팎 EPS와 3% 배당이 forecast risk를 보상한다.",
+      "t0_evidence_ko": "합병 뒤 asset-light 운용사와 보험사가 섞여 회계가 복잡해지고 금리·credit 우려가 커진 때 약 10배 2022 EPS $5.50에 거래된다고 봤다. 시장이 SRE에 5~6배만 주고 있다고 역산했으며, 경영진 2026 EPS $9+만 달성해도 현 multiple에서 5년 12%+ IRR, FRE 20배와 SRE 10배를 적용하면 약 20% IRR이라고 주장했다. 3% 배당과 초과자본·buyback을 하방으로 제시했다.",
+      "key_assumption_ko": "earnings 하방 제한·자본건전성",
+      "ex_ante_falsifier_ko": "신용손실로 book와 earnings 동시훼손",
+      "actual_result_ko": "가격이 두 배 이상 상승했다.",
+      "quantitative_gap_ko": "$46.50 월말 근사→$100.40; 가격 약 +116%, 배당 제외",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "중대한 오류 없음",
+      "reusable_lesson_ko": "낮은 가격는 주장과 함께 ‘신용손실로 book와 earnings 동시훼손’를 사전 경보로 저장한다."
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "claim_order": 5,
+      "claim_title_ko": "밸류에이션과 주당가치 귀속",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2026 EPS $9+; FRE 20x+SRE 10x에서 약 20% 5년 IRR",
+      "t0_evidence_ko": "기존 심층분석의 원문·밸류에이션·사후검증을 연결해 재구성",
+      "key_assumption_ko": "사업 성과가 순부채·우선청구권·주식보상·인수발행을 차감한 뒤 기존 보통주 한 주에 귀속돼야 한다.",
+      "ex_ante_falsifier_ko": "사업지표는 개선되지만 완전희석 주당 현금흐름이나 주가가 장기간 악화된다.",
+      "actual_result_ko": "$46.50 월말 근사→$100.40; 가격 약 +116%, 배당 제외",
+      "quantitative_gap_ko": "$46.50 월말 근사→$100.40; 가격 약 +116%, 배당 제외",
+      "verdict_ko": "매우 성공",
+      "analytical_error_ko": "보험·carry·balance-sheet 청구권에는 자본비용·실현·세금·희석 haircut이 필요",
+      "reusable_lesson_ko": "회사 전체 가치와 기존 보통주 한 주의 가치를 반드시 별도로 계산한다."
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "claim_order": 6,
+      "claim_title_ko": "촉매와 보유경로",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2023년 FRE·SRE 동시 성장과 대규모 유입",
+      "t0_evidence_ko": "기존 심층분석의 원문·밸류에이션·사후검증을 연결해 재구성",
+      "key_assumption_ko": "촉매가 투자기간 안에 발생하고 그 전에 생기는 손실·유동성·재평가 위험을 견딜 수 있어야 한다.",
+      "ex_ante_falsifier_ko": "최종 방향과 무관하게 중간 손실이나 논지 반증이 포지션의 보유 가능성을 훼손한다.",
+      "actual_result_ko": "최초 중요 신호: 2023년 FRE·SRE 동시 성장과 대규모 유입 (2024-02-08)",
+      "quantitative_gap_ko": "최초 중요 신호: 2023년 FRE·SRE 동시 성장과 대규모 유입 (2024-02-08)",
+      "verdict_ko": "경로 별도판정",
+      "analytical_error_ko": "복잡한 결합회사를 FRE와 SRE로 분리하고 보험이익에 더 낮은 배수를 준 점이 뛰어났다. 낮은 진입가격이 forecast 오차를 흡수했다. 초과자본이 무조건 buyback으로 귀속된다는 가정은 별도 검증이 필요하다.",
+      "reusable_lesson_ko": "목표가와 함께 최초 반증일, 손절·재검토 조건과 예상 보유기간을 저장한다."
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "claim_order": 1,
+      "claim_title_ko": "사업·단위경제성",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "$72, 시총 약 $190bn과 고점 대비 -77%에서 China commerce $82bn+Cloud $10bn이 매출의 약 80%, profit/FCF의 100%+를 만든다고 봤다. cash·투자자산을 차감한 EV $78~112bn, core commerce EBITDA 약 $25bn과 FCF $20~25bn, 약 5x FCF를 계산했다. $25bn buyback 중 $9.2bn 집행, VIE·지정학을 명시하고 성장 0%여도 높은 IRR이 가능하다고 주장했다.",
+      "t0_evidence_ko": "$72, 시총 약 $190bn과 고점 대비 -77%에서 China commerce $82bn+Cloud $10bn이 매출의 약 80%, profit/FCF의 100%+를 만든다고 봤다. cash·투자자산을 차감한 EV $78~112bn, core commerce EBITDA 약 $25bn과 FCF $20~25bn, 약 5x FCF를 계산했다. $25bn buyback 중 $9.2bn 집행, VIE·지정학을 명시하고 성장 0%여도 높은 IRR이 가능하다고 주장했다.",
+      "key_assumption_ko": "핵심 영업지표와 경제성이 예상방향으로 움직여야 한다.",
+      "ex_ante_falsifier_ko": "성장 0%, core FCF -30%, 현금 50% haircut에서도 buyback 후 주당가치가 증가하는가?",
+      "actual_result_ko": "3개월 성과 +89.80%로 극단적 sentiment 반등을 정확히 잡았다. 그러나 이후 상당 부분 반납했고 2024-01-31에는 장기 value realization이 완전히 확인되지 않았다. 낮은 가격이 tactical margin of safety를 만들었지만 VIE·경쟁·자본배분은 남았다.",
+      "quantitative_gap_ko": "1개월 +21.82%, 3개월 +89.80%; 이후 일부 반납",
+      "verdict_ko": "사업논지 판정",
+      "analytical_error_ko": "싼 배수라도 VIE 현금귀속과 경쟁감소를 보장하지 않음",
+      "reusable_lesson_ko": "성장 0%, core FCF -30%, 현금 50% haircut에서도 buyback 후 주당가치가 증가하는가?"
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "claim_order": 2,
+      "claim_title_ko": "밸류에이션·청구권",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "EV $78~112bn, core FCF $20~25bn≈5x",
+      "t0_evidence_ko": "$72, 시총 약 $190bn과 고점 대비 -77%에서 China commerce $82bn+Cloud $10bn이 매출의 약 80%, profit/FCF의 100%+를 만든다고 봤다. cash·투자자산을 차감한 EV $78~112bn, core commerce EBITDA 약 $25bn과 FCF $20~25bn, 약 5x FCF를 계산했다. $25bn buyback 중 $9.2bn 집행, VIE·지정학을 명시하고 성장 0%여도 높은 IRR이 가능하다고 주장했다.",
+      "key_assumption_ko": "정상 현금흐름과 실제 주주청구권이 진입가를 지지해야 한다.",
+      "ex_ante_falsifier_ko": "성장 0%, core FCF -30%, 현금 50% haircut에서도 buyback 후 주당가치가 증가하는가?",
+      "actual_result_ko": "1개월 +21.82%, 3개월 +89.80%; 이후 일부 반납",
+      "quantitative_gap_ko": "1개월 +21.82%, 3개월 +89.80%; 이후 일부 반납",
+      "verdict_ko": "가격·가치 판정",
+      "analytical_error_ko": "싼 배수라도 VIE 현금귀속과 경쟁감소를 보장하지 않음",
+      "reusable_lesson_ko": "성장 0%, core FCF -30%, 현금 50% haircut에서도 buyback 후 주당가치가 증가하는가?"
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "claim_order": 3,
+      "claim_title_ko": "촉매·시간경로",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "제로코로나 완화·buyback·극단 sentiment",
+      "t0_evidence_ko": "$72, 시총 약 $190bn과 고점 대비 -77%에서 China commerce $82bn+Cloud $10bn이 매출의 약 80%, profit/FCF의 100%+를 만든다고 봤다. cash·투자자산을 차감한 EV $78~112bn, core commerce EBITDA 약 $25bn과 FCF $20~25bn, 약 5x FCF를 계산했다. $25bn buyback 중 $9.2bn 집행, VIE·지정학을 명시하고 성장 0%여도 높은 IRR이 가능하다고 주장했다.",
+      "key_assumption_ko": "보유가능 기간 안에 촉매가 가격 또는 현금회수로 연결돼야 한다.",
+      "ex_ante_falsifier_ko": "성장 0%, core FCF -30%, 현금 50% haircut에서도 buyback 후 주당가치가 증가하는가?",
+      "actual_result_ko": "3개월 +89.80%로 tactical 목표 실현",
+      "quantitative_gap_ko": "1개월 +21.82%, 3개월 +89.80%; 이후 일부 반납",
+      "verdict_ko": "촉매 판정",
+      "analytical_error_ko": "싼 배수라도 VIE 현금귀속과 경쟁감소를 보장하지 않음",
+      "reusable_lesson_ko": "성장 0%, core FCF -30%, 현금 50% haircut에서도 buyback 후 주당가치가 증가하는가?"
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "claim_order": 4,
+      "claim_title_ko": "반증·tail risk",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "성장 0%, core FCF -30%, 현금 50% haircut에서도 buyback 후 주당가치가 증가하는가?",
+      "t0_evidence_ko": "$72, 시총 약 $190bn과 고점 대비 -77%에서 China commerce $82bn+Cloud $10bn이 매출의 약 80%, profit/FCF의 100%+를 만든다고 봤다. cash·투자자산을 차감한 EV $78~112bn, core commerce EBITDA 약 $25bn과 FCF $20~25bn, 약 5x FCF를 계산했다. $25bn buyback 중 $9.2bn 집행, VIE·지정학을 명시하고 성장 0%여도 높은 IRR이 가능하다고 주장했다.",
+      "key_assumption_ko": "stress case에서도 손실상한과 liquidity가 관리돼야 한다.",
+      "ex_ante_falsifier_ko": "성장 0%, core FCF -30%, 현금 50% haircut에서도 buyback 후 주당가치가 증가하는가?",
+      "actual_result_ko": "싼 배수라도 VIE 현금귀속과 경쟁감소를 보장하지 않음",
+      "quantitative_gap_ko": "1개월 +21.82%, 3개월 +89.80%; 이후 일부 반납",
+      "verdict_ko": "위험 판정",
+      "analytical_error_ko": "싼 배수라도 VIE 현금귀속과 경쟁감소를 보장하지 않음",
+      "reusable_lesson_ko": "성장 0%, core FCF -30%, 현금 50% haircut에서도 buyback 후 주당가치가 증가하는가?"
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "claim_order": 5,
+      "claim_title_ko": "밸류에이션과 주당가치 귀속",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "EV $78~112bn, core FCF $20~25bn≈5x",
+      "t0_evidence_ko": "기존 심층분석의 원문·밸류에이션·사후검증을 연결해 재구성",
+      "key_assumption_ko": "사업 성과가 순부채·우선청구권·주식보상·인수발행을 차감한 뒤 기존 보통주 한 주에 귀속돼야 한다.",
+      "ex_ante_falsifier_ko": "사업지표는 개선되지만 완전희석 주당 현금흐름이나 주가가 장기간 악화된다.",
+      "actual_result_ko": "1개월 +21.82%, 3개월 +89.80%; 이후 일부 반납",
+      "quantitative_gap_ko": "1개월 +21.82%, 3개월 +89.80%; 이후 일부 반납",
+      "verdict_ko": "전술적 매우 성공·장기 부분",
+      "analytical_error_ko": "싼 배수라도 VIE 현금귀속과 경쟁감소를 보장하지 않음",
+      "reusable_lesson_ko": "회사 전체 가치와 기존 보통주 한 주의 가치를 반드시 별도로 계산한다."
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "claim_order": 6,
+      "claim_title_ko": "촉매와 보유경로",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "3개월 +89.80%로 tactical 목표 실현",
+      "t0_evidence_ko": "기존 심층분석의 원문·밸류에이션·사후검증을 연결해 재구성",
+      "key_assumption_ko": "촉매가 투자기간 안에 발생하고 그 전에 생기는 손실·유동성·재평가 위험을 견딜 수 있어야 한다.",
+      "ex_ante_falsifier_ko": "최종 방향과 무관하게 중간 손실이나 논지 반증이 포지션의 보유 가능성을 훼손한다.",
+      "actual_result_ko": "최초 중요 신호: 3개월 +89.80%로 tactical 목표 실현 (2023-01-27)",
+      "quantitative_gap_ko": "최초 중요 신호: 3개월 +89.80%로 tactical 목표 실현 (2023-01-27)",
+      "verdict_ko": "경로 별도판정",
+      "analytical_error_ko": "이전 BABA 롱과 달리 고성장을 요구하지 않고 core FCF와 이미 집행된 buyback으로 논지를 만들었다. 다만 5x는 FCF의 지속성과 주주귀속이 확인돼야 하며 단기 90% 급등을 장기 성공으로 자동 연장하면 안 된다.",
+      "reusable_lesson_ko": "목표가와 함께 최초 반증일, 손절·재검토 조건과 예상 보유기간을 저장한다."
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "claim_order": 1,
+      "claim_title_ko": "사업·단위경제성",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "고정가 $9 tender에서 99주 이하 odd-lot은 proration 없이 전량 수용되는 조건을 이용해 99주를 매수하는 소액 event trade를 제시했다. 동시에 Apollo 67%, 경영진 약 5%와 State Farm에 발행할 133.333m주를 고려하면 일반주주의 tender 물량 상당수가 되돌아와 $9 부근의 outright short도 가능하다고 봤다. 즉 동일 글에 확정형 odd-lot Long과 tender 후 수급 Short가 공존한다.",
+      "t0_evidence_ko": "고정가 $9 tender에서 99주 이하 odd-lot은 proration 없이 전량 수용되는 조건을 이용해 99주를 매수하는 소액 event trade를 제시했다. 동시에 Apollo 67%, 경영진 약 5%와 State Farm에 발행할 133.333m주를 고려하면 일반주주의 tender 물량 상당수가 되돌아와 $9 부근의 outright short도 가능하다고 봤다. 즉 동일 글에 확정형 odd-lot Long과 tender 후 수급 Short가 공존한다.",
+      "key_assumption_ko": "핵심 영업지표와 경제성이 예상방향으로 움직여야 한다.",
+      "ex_ante_falsifier_ko": "99주 자격·수수료를 제외한 확정 IRR과 일반 tender/숏 exposure를 완전히 분리했는가?",
+      "actual_result_ko": "State Farm은 주당 $9에 133.333m주, 총 $1.2bn을 투자했고 tender가 진행됐다. 조건을 지킨 99주 odd-lot은 $9 현금회수로 성공했지만 그 이상 주식의 proration과 후속 숏은 별개 포지션이며 하나의 방향수익률로 합치면 안 된다.",
+      "quantitative_gap_ko": "99주 odd-lot은 $9 고정회수 성공; outright short는 별도 판정",
+      "verdict_ko": "사업논지 판정",
+      "analytical_error_ko": "서로 반대인 두 tranche를 단일 Long/Short로 저장하면 성과 왜곡",
+      "reusable_lesson_ko": "99주 자격·수수료를 제외한 확정 IRR과 일반 tender/숏 exposure를 완전히 분리했는가?"
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "claim_order": 2,
+      "claim_title_ko": "밸류에이션·청구권",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "$9 fixed tender와 odd-lot 비례배정 면제",
+      "t0_evidence_ko": "고정가 $9 tender에서 99주 이하 odd-lot은 proration 없이 전량 수용되는 조건을 이용해 99주를 매수하는 소액 event trade를 제시했다. 동시에 Apollo 67%, 경영진 약 5%와 State Farm에 발행할 133.333m주를 고려하면 일반주주의 tender 물량 상당수가 되돌아와 $9 부근의 outright short도 가능하다고 봤다. 즉 동일 글에 확정형 odd-lot Long과 tender 후 수급 Short가 공존한다.",
+      "key_assumption_ko": "정상 현금흐름과 실제 주주청구권이 진입가를 지지해야 한다.",
+      "ex_ante_falsifier_ko": "99주 자격·수수료를 제외한 확정 IRR과 일반 tender/숏 exposure를 완전히 분리했는가?",
+      "actual_result_ko": "99주 odd-lot은 $9 고정회수 성공; outright short는 별도 판정",
+      "quantitative_gap_ko": "99주 odd-lot은 $9 고정회수 성공; outright short는 별도 판정",
+      "verdict_ko": "가격·가치 판정",
+      "analytical_error_ko": "서로 반대인 두 tranche를 단일 Long/Short로 저장하면 성과 왜곡",
+      "reusable_lesson_ko": "99주 자격·수수료를 제외한 확정 IRR과 일반 tender/숏 exposure를 완전히 분리했는가?"
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "claim_order": 3,
+      "claim_title_ko": "촉매·시간경로",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "State Farm closing·tender 완료·returned shares",
+      "t0_evidence_ko": "고정가 $9 tender에서 99주 이하 odd-lot은 proration 없이 전량 수용되는 조건을 이용해 99주를 매수하는 소액 event trade를 제시했다. 동시에 Apollo 67%, 경영진 약 5%와 State Farm에 발행할 133.333m주를 고려하면 일반주주의 tender 물량 상당수가 되돌아와 $9 부근의 outright short도 가능하다고 봤다. 즉 동일 글에 확정형 odd-lot Long과 tender 후 수급 Short가 공존한다.",
+      "key_assumption_ko": "보유가능 기간 안에 촉매가 가격 또는 현금회수로 연결돼야 한다.",
+      "ex_ante_falsifier_ko": "99주 자격·수수료를 제외한 확정 IRR과 일반 tender/숏 exposure를 완전히 분리했는가?",
+      "actual_result_ko": "State Farm 거래와 tender 완료",
+      "quantitative_gap_ko": "99주 odd-lot은 $9 고정회수 성공; outright short는 별도 판정",
+      "verdict_ko": "촉매 판정",
+      "analytical_error_ko": "서로 반대인 두 tranche를 단일 Long/Short로 저장하면 성과 왜곡",
+      "reusable_lesson_ko": "99주 자격·수수료를 제외한 확정 IRR과 일반 tender/숏 exposure를 완전히 분리했는가?"
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "claim_order": 4,
+      "claim_title_ko": "반증·tail risk",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "99주 자격·수수료를 제외한 확정 IRR과 일반 tender/숏 exposure를 완전히 분리했는가?",
+      "t0_evidence_ko": "고정가 $9 tender에서 99주 이하 odd-lot은 proration 없이 전량 수용되는 조건을 이용해 99주를 매수하는 소액 event trade를 제시했다. 동시에 Apollo 67%, 경영진 약 5%와 State Farm에 발행할 133.333m주를 고려하면 일반주주의 tender 물량 상당수가 되돌아와 $9 부근의 outright short도 가능하다고 봤다. 즉 동일 글에 확정형 odd-lot Long과 tender 후 수급 Short가 공존한다.",
+      "key_assumption_ko": "stress case에서도 손실상한과 liquidity가 관리돼야 한다.",
+      "ex_ante_falsifier_ko": "99주 자격·수수료를 제외한 확정 IRR과 일반 tender/숏 exposure를 완전히 분리했는가?",
+      "actual_result_ko": "서로 반대인 두 tranche를 단일 Long/Short로 저장하면 성과 왜곡",
+      "quantitative_gap_ko": "99주 odd-lot은 $9 고정회수 성공; outright short는 별도 판정",
+      "verdict_ko": "위험 판정",
+      "analytical_error_ko": "서로 반대인 두 tranche를 단일 Long/Short로 저장하면 성과 왜곡",
+      "reusable_lesson_ko": "99주 자격·수수료를 제외한 확정 IRR과 일반 tender/숏 exposure를 완전히 분리했는가?"
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "claim_order": 5,
+      "claim_title_ko": "밸류에이션과 주당가치 귀속",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "$9 fixed tender와 odd-lot 비례배정 면제",
+      "t0_evidence_ko": "기존 심층분석의 원문·밸류에이션·사후검증을 연결해 재구성",
+      "key_assumption_ko": "사업 성과가 순부채·우선청구권·주식보상·인수발행을 차감한 뒤 기존 보통주 한 주에 귀속돼야 한다.",
+      "ex_ante_falsifier_ko": "사업지표는 개선되지만 완전희석 주당 현금흐름이나 주가가 장기간 악화된다.",
+      "actual_result_ko": "99주 odd-lot은 $9 고정회수 성공; outright short는 별도 판정",
+      "quantitative_gap_ko": "99주 odd-lot은 $9 고정회수 성공; outright short는 별도 판정",
+      "verdict_ko": "odd-lot 성공·숏 별도",
+      "analytical_error_ko": "서로 반대인 두 tranche를 단일 Long/Short로 저장하면 성과 왜곡",
+      "reusable_lesson_ko": "회사 전체 가치와 기존 보통주 한 주의 가치를 반드시 별도로 계산한다."
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "claim_order": 6,
+      "claim_title_ko": "촉매와 보유경로",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "State Farm 거래와 tender 완료",
+      "t0_evidence_ko": "기존 심층분석의 원문·밸류에이션·사후검증을 연결해 재구성",
+      "key_assumption_ko": "촉매가 투자기간 안에 발생하고 그 전에 생기는 손실·유동성·재평가 위험을 견딜 수 있어야 한다.",
+      "ex_ante_falsifier_ko": "최종 방향과 무관하게 중간 손실이나 논지 반증이 포지션의 보유 가능성을 훼손한다.",
+      "actual_result_ko": "최초 중요 신호: State Farm 거래와 tender 완료 (2022-10-17)",
+      "quantitative_gap_ko": "최초 중요 신호: State Farm 거래와 tender 완료 (2022-10-17)",
+      "verdict_ko": "경로 별도판정",
+      "analytical_error_ko": "기업가치보다 계약문구와 계좌별 odd-lot 자격을 읽은 event 아이디어다. 성공은 99주 tranche에 한정되며 세금·수수료·beneficial holder 판정과 tender 종료 전 가격을 확인해야 한다.",
+      "reusable_lesson_ko": "목표가와 함께 최초 반증일, 손절·재검토 조건과 예상 보유기간을 저장한다."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "claim_order": 1,
+      "claim_title_ko": "Paid sharing",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "약 100m password-sharing households를 monetization하면 성장률이 다시 올라간다.",
+      "t0_evidence_ko": "공유 사용자 상당수가 churn보다 paid/extra member를 택한다.",
+      "key_assumption_ko": "enforcement가 core subscriber churn을 과도하게 높이지 않는다.",
+      "ex_ante_falsifier_ko": "paid sharing 도입 뒤 memberships/revenue가 둔화하면 반증.",
+      "actual_result_ko": "Netflix는 2023 sharing을 성공적으로 addressed했다고 발표, 2025 memberships 325m+.",
+      "quantitative_gap_ko": "225m subs(2022) → 325m+(2025).",
+      "verdict_ko": "성공",
+      "analytical_error_ko": "비지불 사용자를 economic TAM으로 본 점이 정확했다.",
+      "reusable_lesson_ko": "free usage를 conversion funnel로 모델링한다."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "claim_order": 2,
+      "claim_title_ko": "광고요금제",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "저가 AVOD는 cannibalization보다 신규가입과 광고 ARPU를 더해 accretive하다.",
+      "t0_evidence_ko": "원 dump는 숏으로 표시됐지만 본문은 명백한 롱이다. 2022년 약 $245, 시총 $109bn, 매출 $32bn, 225m subs에서 코로나 pull-forward 이후 ad-supported tier와 약 100m password-sharing households monetization이 2023~24 성장률을 다시 올릴 것이라고 봤다. base $300~350+는 2024 EPS $14~15 × 20~25x, downside $190는 $12.7 × 15x였다. AVOD ARPU는 subscription $7 + ad $13+로 $20+를 추정했다.",
+      "key_assumption_ko": "광고수요·CPM과 시청량이 충분하다.",
+      "ex_ante_falsifier_ko": "ad tier signup은 늘지만 total revenue/ARM/margin이 악화되면 반증.",
+      "actual_result_ko": "2023 Q4 ad memberships +70% QoQ, 2025 ad revenue >$1.5bn.",
+      "quantitative_gap_ko": "광고시장 signup mix 40%; 광고매출 2.5배+ 성장.",
+      "verdict_ko": "성공",
+      "analytical_error_ko": "새 monetization rail을 명확히 포착.",
+      "reusable_lesson_ko": "ad-tier는 가입자 수뿐 아니라 total ARPU와 margin으로 검증."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "claim_order": 3,
+      "claim_title_ko": "수익성/콘텐츠",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "content cash spend를 약 $17bn 수준으로 통제하면 subscriber growth가 earnings leverage로 이어진다.",
+      "t0_evidence_ko": "원 dump는 숏으로 표시됐지만 본문은 명백한 롱이다. 2022년 약 $245, 시총 $109bn, 매출 $32bn, 225m subs에서 코로나 pull-forward 이후 ad-supported tier와 약 100m password-sharing households monetization이 2023~24 성장률을 다시 올릴 것이라고 봤다. base $300~350+는 2024 EPS $14~15 × 20~25x, downside $190는 $12.7 × 15x였다. AVOD ARPU는 subscription $7 + ad $13+로 $20+를 추정했다.",
+      "key_assumption_ko": "콘텐츠비가 revenue보다 느리게 증가.",
+      "ex_ante_falsifier_ko": "growth 재개에도 operating margin이 개선되지 않으면 반증.",
+      "actual_result_ko": "2025 operating income $13.327bn, revenue $45.183bn.",
+      "quantitative_gap_ko": "2025 op margin 약 29.5%.",
+      "verdict_ko": "성공",
+      "analytical_error_ko": "구독 플랫폼의 fixed/semi-fixed content leverage가 나타남.",
+      "reusable_lesson_ko": "콘텐츠비/매출과 operating margin을 함께 본다."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "claim_order": 4,
+      "claim_title_ko": "밸류에이션",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2024 EPS $14~15에 20~25x면 $300~350+가 정당화된다.",
+      "t0_evidence_ko": "원 dump는 숏으로 표시됐지만 본문은 명백한 롱이다. 2022년 약 $245, 시총 $109bn, 매출 $32bn, 225m subs에서 코로나 pull-forward 이후 ad-supported tier와 약 100m password-sharing households monetization이 2023~24 성장률을 다시 올릴 것이라고 봤다. base $300~350+는 2024 EPS $14~15 × 20~25x, downside $190는 $12.7 × 15x였다. AVOD ARPU는 subscription $7 + ad $13+로 $20+를 추정했다.",
+      "key_assumption_ko": "성장 재가속과 quality multiple 회복.",
+      "ex_ante_falsifier_ko": "EPS growth가 안 나타나거나 market multiple이 15x 수준에 머무르면 반증.",
+      "actual_result_ko": "2025 operating income/earnings가 크게 확대.",
+      "quantitative_gap_ko": "원 catalyst는 사업적으로 실현.",
+      "verdict_ko": "성공",
+      "analytical_error_ko": "valuation target보다 earnings mechanism이 중요했다.",
+      "reusable_lesson_ko": "멀티플은 catalyst가 아니라 earnings realization의 결과로 본다."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "claim_order": 5,
+      "claim_title_ko": "밸류에이션과 주당가치 귀속",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "성공",
+      "t0_evidence_ko": "기존 심층분석의 원문·밸류에이션·사후검증을 연결해 재구성",
+      "key_assumption_ko": "사업 성과가 순부채·우선청구권·주식보상·인수발행을 차감한 뒤 기존 보통주 한 주에 귀속돼야 한다.",
+      "ex_ante_falsifier_ko": "사업지표는 개선되지만 완전희석 주당 현금흐름이나 주가가 장기간 악화된다.",
+      "actual_result_ko": "매우 성공",
+      "quantitative_gap_ko": "매우 성공",
+      "verdict_ko": "매우 성공",
+      "analytical_error_ko": "정확한 ad load·CPM·revenue share를 하나의 point estimate로 두면 모델 정밀도가 실제보다 높아 보일 수 있다.",
+      "reusable_lesson_ko": "회사 전체 가치와 기존 보통주 한 주의 가치를 반드시 별도로 계산한다."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "claim_order": 6,
+      "claim_title_ko": "촉매와 보유경로",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "매우 성공",
+      "t0_evidence_ko": "기존 심층분석의 원문·밸류에이션·사후검증을 연결해 재구성",
+      "key_assumption_ko": "촉매가 투자기간 안에 발생하고 그 전에 생기는 손실·유동성·재평가 위험을 견딜 수 있어야 한다.",
+      "ex_ante_falsifier_ko": "최종 방향과 무관하게 중간 손실이나 논지 반증이 포지션의 보유 가능성을 훼손한다.",
+      "actual_result_ko": "최초 중요 신호: ad-tier signup mix, paid sharing conversion, ARM/매출성장, operating margin (사후검증 기간 중)",
+      "quantitative_gap_ko": "최초 중요 신호: ad-tier signup mix, paid sharing conversion, ARM/매출성장, operating margin (사후검증 기간 중)",
+      "verdict_ko": "경로 별도판정",
+      "analytical_error_ko": "기존 225m subs만으로 saturation을 판단하지 않고 “시청은 하지만 돈을 안 내는 100m household”와 광고수요를 별도 monetization rail로 본 것이 정확했다. 다만 당시의 $20~25 AVOD ARPU 산식 자체는 공개 데이터로 그대로 검증되지는 않는다. 중요한 것은 exact CPM math가 아니라 광고·paid sharing이 실제 매출/회원 성장으로 이어졌다는 점이다.",
+      "reusable_lesson_ko": "목표가와 함께 최초 반증일, 손절·재검토 조건과 예상 보유기간을 저장한다."
+    }
+  ],
+  "metrics": [
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "metric_order": 1,
+      "metric_name_ko": "2022 EPS",
+      "t0_value_ko": "$5.50E",
+      "thesis_expectation_ko": "지속",
+      "actual_value_ko": "2023 ANI 성장",
+      "verdict_ko": "적중",
+      "interpretation_ko": "당시 $5.50E, 기대 지속, 실제 2023 ANI 성장."
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "metric_order": 2,
+      "metric_name_ko": "2026 EPS",
+      "t0_value_ko": "$9+",
+      "thesis_expectation_ko": "달성",
+      "actual_value_ko": "목표연도 미도래",
+      "verdict_ko": "진행",
+      "interpretation_ko": "당시 $9+, 기대 달성, 실제 목표연도 미도래."
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "metric_order": 3,
+      "metric_name_ko": "SRE 배수",
+      "t0_value_ko": "5~6x implied",
+      "thesis_expectation_ko": "10x 재평가",
+      "actual_value_ko": "주가 rerating",
+      "verdict_ko": "방향 적중",
+      "interpretation_ko": "당시 5~6x implied, 기대 10x 재평가, 실제 주가 rerating."
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "metric_order": 4,
+      "metric_name_ko": "가격",
+      "t0_value_ko": "$46.50",
+      "thesis_expectation_ko": "12~20% IRR",
+      "actual_value_ko": "$100.40",
+      "verdict_ko": "매우 성공",
+      "interpretation_ko": "당시 $46.50, 기대 12~20% IRR, 실제 $100.40."
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "metric_order": 1,
+      "metric_name_ko": "진입",
+      "t0_value_ko": "$72",
+      "thesis_expectation_ko": "극단저평가",
+      "actual_value_ko": "3m +89.80%",
+      "verdict_ko": "성공",
+      "interpretation_ko": "이전 BABA 롱과 달리 고성장을 요구하지 않고 core FCF와 이미 집행된 buyback으로 논지를 만들었다. 다만 5x는 FCF의 지속성과 주주귀속이 확인돼야 하며 단기 90% 급등을 장기 성공으로 자동 연장하면 안 된다."
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "metric_order": 2,
+      "metric_name_ko": "core FCF",
+      "t0_value_ko": "$20~25bn",
+      "thesis_expectation_ko": "지속",
+      "actual_value_ko": "현금창출 유지·성장 약화",
+      "verdict_ko": "부분",
+      "interpretation_ko": "이전 BABA 롱과 달리 고성장을 요구하지 않고 core FCF와 이미 집행된 buyback으로 논지를 만들었다. 다만 5x는 FCF의 지속성과 주주귀속이 확인돼야 하며 단기 90% 급등을 장기 성공으로 자동 연장하면 안 된다."
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "metric_order": 3,
+      "metric_name_ko": "buyback",
+      "t0_value_ko": "$25bn/$9.2bn 집행",
+      "thesis_expectation_ko": "주당가치",
+      "actual_value_ko": "집행",
+      "verdict_ko": "적중",
+      "interpretation_ko": "이전 BABA 롱과 달리 고성장을 요구하지 않고 core FCF와 이미 집행된 buyback으로 논지를 만들었다. 다만 5x는 FCF의 지속성과 주주귀속이 확인돼야 하며 단기 90% 급등을 장기 성공으로 자동 연장하면 안 된다."
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "metric_order": 4,
+      "metric_name_ko": "장기",
+      "t0_value_ko": "무성장도 IRR",
+      "thesis_expectation_ko": "rerating",
+      "actual_value_ko": "2024까지 일부 반납",
+      "verdict_ko": "부분",
+      "interpretation_ko": "이전 BABA 롱과 달리 고성장을 요구하지 않고 core FCF와 이미 집행된 buyback으로 논지를 만들었다. 다만 5x는 FCF의 지속성과 주주귀속이 확인돼야 하며 단기 90% 급등을 장기 성공으로 자동 연장하면 안 된다."
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "metric_order": 1,
+      "metric_name_ko": "State Farm",
+      "t0_value_ko": "133.333m주×$9",
+      "thesis_expectation_ko": "closing",
+      "actual_value_ko": "$1.2bn 완료",
+      "verdict_ko": "적중",
+      "interpretation_ko": "기업가치보다 계약문구와 계좌별 odd-lot 자격을 읽은 event 아이디어다. 성공은 99주 tranche에 한정되며 세금·수수료·beneficial holder 판정과 tender 종료 전 가격을 확인해야 한다."
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "metric_order": 2,
+      "metric_name_ko": "odd-lot",
+      "t0_value_ko": "≤99주",
+      "thesis_expectation_ko": "무비례배정",
+      "actual_value_ko": "$9 회수",
+      "verdict_ko": "성공",
+      "interpretation_ko": "기업가치보다 계약문구와 계좌별 odd-lot 자격을 읽은 event 아이디어다. 성공은 99주 tranche에 한정되며 세금·수수료·beneficial holder 판정과 tender 종료 전 가격을 확인해야 한다."
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "metric_order": 3,
+      "metric_name_ko": "일반 tender",
+      "t0_value_ko": "초과청약 예상",
+      "thesis_expectation_ko": "주식반환",
+      "actual_value_ko": "proration",
+      "verdict_ko": "별도",
+      "interpretation_ko": "기업가치보다 계약문구와 계좌별 odd-lot 자격을 읽은 event 아이디어다. 성공은 99주 tranche에 한정되며 세금·수수료·beneficial holder 판정과 tender 종료 전 가격을 확인해야 한다."
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "metric_order": 4,
+      "metric_name_ko": "방향",
+      "t0_value_ko": "Long+Short",
+      "thesis_expectation_ko": "tranche 분리",
+      "actual_value_ko": "혼합 이벤트",
+      "verdict_ko": "교정",
+      "interpretation_ko": "기업가치보다 계약문구와 계좌별 odd-lot 자격을 읽은 event 아이디어다. 성공은 99주 tranche에 한정되며 세금·수수료·beneficial holder 판정과 tender 종료 전 가격을 확인해야 한다."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "metric_order": 1,
+      "metric_name_ko": "Paid memberships",
+      "t0_value_ko": "~225m (2022)",
+      "thesis_expectation_ko": "paid sharing+AVOD로 재가속",
+      "actual_value_ko": "325m+ (2025)",
+      "verdict_ko": "성공",
+      "interpretation_ko": "installed base monetization."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "metric_order": 2,
+      "metric_name_ko": "매출",
+      "t0_value_ko": "~$32bn (2022)",
+      "thesis_expectation_ko": "2023~24 재가속",
+      "actual_value_ko": "$45.183bn (2025)",
+      "verdict_ko": "성공",
+      "interpretation_ko": "new monetization rails 기여."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "metric_order": 3,
+      "metric_name_ko": "영업이익",
+      "t0_value_ko": "growth slowdown 우려",
+      "thesis_expectation_ko": "content leverage",
+      "actual_value_ko": "$13.327bn (2025)",
+      "verdict_ko": "성공",
+      "interpretation_ko": "높은 operating leverage."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "metric_order": 4,
+      "metric_name_ko": "광고매출",
+      "t0_value_ko": "초기 단계",
+      "thesis_expectation_ko": "AVOD meaningful revenue",
+      "actual_value_ko": "$1.5bn+ (2025)",
+      "verdict_ko": "성공",
+      "interpretation_ko": "광고가 실제 사업축으로 성장."
+    }
+  ],
+  "timeline": [
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "event_order": 1,
+      "event_date_ko": "2024-02-08",
+      "event_ko": "2023년 FRE·SRE 동시 성장과 대규모 유입",
+      "thesis_implication_ko": "첫 핵심 검증 신호"
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "event_order": 2,
+      "event_date_ko": "2022-01-01",
+      "event_ko": "영구자본·전략 확대",
+      "thesis_implication_ko": "사업모델 확장"
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "event_order": 3,
+      "event_date_ko": "2023-12-31",
+      "event_ko": "FY2023 사업규모 확인",
+      "thesis_implication_ko": "진입 시점의 공포 뒤 Apollo는 2023년 AUM $651bn, FRE+SRE 성장 25%+를 기록했고 주가는 $46.50에서 $100.40으로 약 116% 상승했다. 보험 spread와 origination 결합은 작동했다. 다만 기준일은 2026 목표 전이므로 $9 EPS와 5년 IRR 자체는 아직 완결 판정할 수 없다."
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "event_order": 4,
+      "event_date_ko": "2024-01-31",
+      "event_ko": "평가기준일",
+      "thesis_implication_ko": "$46.50 월말 근사→$100.40; 가격 약 +116%, 배당 제외"
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "event_order": 5,
+      "event_date_ko": "2022-09-10",
+      "event_ko": "VIC 아이디어 게시",
+      "thesis_implication_ko": "합병 뒤 asset-light 운용사와 보험사가 섞여 회계가 복잡해지고 금리·credit 우려가 커진 때 약 10배 2022 EPS $5.50에 거래된다고 봤다. 시장이 SRE에 5~6배만 주고 있다고 역산했으며, 경영진 2026 EPS $9+만 달성해도 현 multiple에서 5년 12%+ IRR, FRE 20배와 SRE 10배를 적용하면 약 20% IRR이라고 주장했다. 3% 배당과 초과자본·buyback을 하방으로 제시했다."
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "event_order": 6,
+      "event_date_ko": "2024-02-08",
+      "event_ko": "최초 핵심 검증·반증 신호",
+      "thesis_implication_ko": "2023년 FRE·SRE 동시 성장과 대규모 유입"
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "event_order": 1,
+      "event_date_ko": "2022-10-22",
+      "event_ko": "VIC Long 게시",
+      "thesis_implication_ko": "5x core FCF·극단공포 롱"
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "event_order": 2,
+      "event_date_ko": "2023-01-27",
+      "event_ko": "3개월 +89.80%로 tactical 목표 실현",
+      "thesis_implication_ko": "첫 핵심 확인·반증"
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "event_order": 3,
+      "event_date_ko": "2024-01-31",
+      "event_ko": "1개월 +21.82%, 3개월 +89.80%; 이후 일부 반납",
+      "thesis_implication_ko": "전술적 매우 성공·장기 부분"
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "event_order": 4,
+      "event_date_ko": "2024-01-31",
+      "event_ko": "2023년 Alibaba는 사업을 여섯 그룹으로 재편해 외부자금·상장을 추진했지만 11월 Cloud Intelligence의 완전분사를 중단했다. 규제완화 기대만으로 SOTP가 자동 실현되지 않으며, 경쟁·중국 소비·VIE와 자본배분을 함께 봐야 한다.",
+      "thesis_implication_ko": "장기 사업·증권 결과"
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "event_order": 5,
+      "event_date_ko": "2022-10-22",
+      "event_ko": "VIC 아이디어 게시",
+      "thesis_implication_ko": "$72, 시총 약 $190bn과 고점 대비 -77%에서 China commerce $82bn+Cloud $10bn이 매출의 약 80%, profit/FCF의 100%+를 만든다고 봤다. cash·투자자산을 차감한 EV $78~112bn, core commerce EBITDA 약 $25bn과 FCF $20~25bn, 약 5x FCF를 계산했다. $25bn buyback 중 $9.2bn 집행, VIE·지정학을 명시하고 성장 0%여도 높은 IRR이 가능하다고 주장했다."
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "event_order": 6,
+      "event_date_ko": "2023-01-27",
+      "event_ko": "최초 핵심 검증·반증 신호",
+      "thesis_implication_ko": "3개월 +89.80%로 tactical 목표 실현"
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "event_order": 1,
+      "event_date_ko": "2022-09-15",
+      "event_ko": "VIC Mixed/Event 게시",
+      "thesis_implication_ko": "99주 odd-lot tender+수급 숏"
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "event_order": 2,
+      "event_date_ko": "2022-10-17",
+      "event_ko": "State Farm 거래와 tender 완료",
+      "thesis_implication_ko": "첫 핵심 확인·반증"
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "event_order": 3,
+      "event_date_ko": "2024-01-31",
+      "event_ko": "99주 odd-lot은 $9 고정회수 성공; outright short는 별도 판정",
+      "thesis_implication_ko": "odd-lot 성공·숏 별도"
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "event_order": 4,
+      "event_date_ko": "2024-01-31",
+      "event_ko": "2023년 3분기 ADT의 end-of-period RMR은 약 $350m, gross revenue attrition은 12.9%, revenue payback은 2.0년이었다. 핵심 보안사업은 남았지만 Solar goodwill 손상과 높은 자본비용은 ‘90% recurring=asset-light’가 아님을 확인했다.",
+      "thesis_implication_ko": "장기 사업·증권 결과"
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "event_order": 5,
+      "event_date_ko": "2022-09-15",
+      "event_ko": "VIC 아이디어 게시",
+      "thesis_implication_ko": "고정가 $9 tender에서 99주 이하 odd-lot은 proration 없이 전량 수용되는 조건을 이용해 99주를 매수하는 소액 event trade를 제시했다. 동시에 Apollo 67%, 경영진 약 5%와 State Farm에 발행할 133.333m주를 고려하면 일반주주의 tender 물량 상당수가 되돌아와 $9 부근의 outright short도 가능하다고 봤다. 즉 동일 글에 확정형 odd-lot Long과 tender 후 수급 Short가 공존한다."
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "event_order": 6,
+      "event_date_ko": "2022-10-17",
+      "event_ko": "최초 핵심 검증·반증 신호",
+      "thesis_implication_ko": "State Farm 거래와 tender 완료"
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "event_order": 1,
+      "event_date_ko": "2022-10",
+      "event_ko": "VIC 롱 $245",
+      "thesis_implication_ko": "AVOD + paid sharing thesis."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "event_order": 2,
+      "event_date_ko": "2023",
+      "event_ko": "paid sharing rollout",
+      "thesis_implication_ko": "비지불 usage monetization."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "event_order": 3,
+      "event_date_ko": "2023-Q4",
+      "event_ko": "ad memberships +70% QoQ",
+      "thesis_implication_ko": "AVOD product-market fit 초기 확인."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "event_order": 4,
+      "event_date_ko": "2025",
+      "event_ko": "325m+ memberships, revenue $45.2bn",
+      "thesis_implication_ko": "성장 재가속 완성."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "event_order": 5,
+      "event_date_ko": "2022-10-17",
+      "event_ko": "VIC 아이디어 게시",
+      "thesis_implication_ko": "원 dump는 숏으로 표시됐지만 본문은 명백한 롱이다. 2022년 약 $245, 시총 $109bn, 매출 $32bn, 225m subs에서 코로나 pull-forward 이후 ad-supported tier와 약 100m password-sharing households monetization이 2023~24 성장률을 다시 올릴 것이라고 봤다. base $300~350+는 2024 EPS $14~15 × 20~25x, downside $190는 $12.7 × 15x였다. AVOD ARPU는 subscription $7 + ad $13+로 $20+를 추정했다."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "event_order": 6,
+      "event_date_ko": "사후검증 기간 중",
+      "event_ko": "최초 핵심 검증·반증 신호",
+      "thesis_implication_ko": "ad-tier signup mix, paid sharing conversion, ARM/매출성장, operating margin"
+    }
+  ],
+  "sources": [
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "VIC Apollo 2022-09-10 원문",
+      "publisher": "Value Investors Club",
+      "source_date": "2022-09-10",
+      "url": "https://www.valueinvestorsclub.com/idea/APOLLO_GLOBAL_MGMT_INC/4366592262",
+      "evidence_ko": "당시 주장·증권·가격·촉매의 1차 자료"
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "source_order": 2,
+      "source_type_ko": "공시",
+      "title_ko": "Apollo 2023 Form 10-K",
+      "publisher": "SEC",
+      "source_date": "2024-02-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1858681/000185868124000031/apo-20231231.htm",
+      "evidence_ko": "2023 AUM·FRE·SRE와 Athene 위험 검증"
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "source_order": 3,
+      "source_type_ko": "기업발표",
+      "title_ko": "Apollo Reports Fourth Quarter and Full Year 2023 Results",
+      "publisher": "Apollo",
+      "source_date": "2024-02-08",
+      "url": "https://ir.apollo.com/news-events/press-releases/detail/486/apollo-reports-fourth-quarter-and-full-year-2023-results",
+      "evidence_ko": "AUM $651bn·유입·수익성 확인"
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "source_order": 4,
+      "source_type_ko": "기업발표",
+      "title_ko": "Apollo and Athene Announce Transaction Close",
+      "publisher": "Apollo",
+      "source_date": "2022-01-03",
+      "url": "https://ir.apollo.com/news-events/press-releases/detail/28/apollo-and-athene-announce-transaction-close",
+      "evidence_ko": "전액주식 합병 실행 확인"
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "source_order": 5,
+      "source_type_ko": "공시",
+      "title_ko": "Apollo 2020 Form 10-K",
+      "publisher": "SEC",
+      "source_date": "2021-02-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/1411494/000141149421000013/apo-20201231.htm",
+      "evidence_ko": "합병 전 AUM·FRE·Athene 지분 구조"
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "source_order": 6,
+      "source_type_ko": "가격",
+      "title_ko": "Apollo historical prices",
+      "publisher": "Digrin",
+      "source_date": "2024-01-31",
+      "url": "https://www.digrin.com/stocks/detail/APO/price",
+      "evidence_ko": "월말 실가격 경로 교차검증"
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "Alibaba Group VIC 아이디어 2022-10-22",
+      "publisher": "Value Investors Club",
+      "source_date": "2022-10-22",
+      "url": null,
+      "evidence_ko": "원 투자논지·가격·촉매·위험과 실제 추천방향."
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "source_order": 2,
+      "source_type_ko": "회사 공시",
+      "title_ko": "Alibaba Fiscal Year 2023 Annual Report",
+      "publisher": "Alibaba",
+      "source_date": "2023-07-21",
+      "url": "https://static.alibabagroup.com/reports/fy2023/ar/ebook/en/index.html",
+      "evidence_ko": "China commerce·Cloud·Cainiao·국제·로컬서비스와 VIE 구조."
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "source_order": 3,
+      "source_type_ko": "회사 IR",
+      "title_ko": "Alibaba Investor Relations",
+      "publisher": "Alibaba",
+      "source_date": "2024-01-31",
+      "url": "https://www.alibabagroup.com/ir-news-filings",
+      "evidence_ko": "분기실적·20-F·자사주와 구조개편 자료."
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "source_order": 4,
+      "source_type_ko": "회사 발표",
+      "title_ko": "Alibaba's First Dividend and Solid Q2 Results",
+      "publisher": "Alibaba",
+      "source_date": "2023-11-16",
+      "url": "https://www.alibabagroup.com/document-1663636438236790784",
+      "evidence_ko": "Cloud 완전분사 중단과 가치실현 계획 변경."
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "source_order": 5,
+      "source_type_ko": "회사 발표",
+      "title_ko": "Alibaba Chairman and CEO Succession",
+      "publisher": "Alibaba",
+      "source_date": "2023-06-20",
+      "url": "https://www.alibabagroup.com/document-1607836456397570048",
+      "evidence_ko": "Cloud 분사 계획과 경영진 변화."
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "ADT VIC 아이디어 2022-09-15",
+      "publisher": "Value Investors Club",
+      "source_date": "2022-09-15",
+      "url": null,
+      "evidence_ko": "원 투자논지·가격·촉매·위험과 실제 추천방향."
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "source_order": 2,
+      "source_type_ko": "SEC 공시",
+      "title_ko": "The ADT Corporation merger proxy",
+      "publisher": "SEC",
+      "source_date": "2016-03-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/1546640/000119312516517524/d141890ddefm14a.htm",
+      "evidence_ko": "Apollo의 주당 $42 인수조건과 당시 standalone 가치."
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "source_order": 3,
+      "source_type_ko": "SEC 공시",
+      "title_ko": "ADT 2018 IPO prospectus",
+      "publisher": "SEC",
+      "source_date": "2018-01-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/1703056/000119312518016233/d517732d424b4.htm",
+      "evidence_ko": "Apollo 인수·통합, subscriber·RMR·attrition·부채 구조."
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "source_order": 4,
+      "source_type_ko": "SEC 공시",
+      "title_ko": "ADT 2022 Form 10-K",
+      "publisher": "SEC",
+      "source_date": "2023-02-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1703056/000170305623000046/adt-20221231.htm",
+      "evidence_ko": "State Farm $1.2bn 투자, $9 tender와 Solar·Google 관계."
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "source_order": 5,
+      "source_type_ko": "회사 발표",
+      "title_ko": "ADT Third Quarter 2023 Results",
+      "publisher": "ADT",
+      "source_date": "2023-11-02",
+      "url": "https://investor.adt.com/News--Events/news/news-details/2023/ADT-Reports-Third-Quarter-2023-Results/default.aspx",
+      "evidence_ko": "RMR $350m, attrition 12.9%, payback 2.0년과 Solar impairment."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "Netflix VIC 아이디어",
+      "publisher": "Value Investors Club",
+      "source_date": "2022-10-17",
+      "url": "",
+      "evidence_ko": "본문상 Long; $245, 225m subs, AVOD/paid-sharing thesis와 valuation 산식."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "source_order": 2,
+      "source_type_ko": "기업 자료",
+      "title_ko": "Netflix Q4 2023 Shareholder Letter",
+      "publisher": "Netflix",
+      "source_date": "2024-01-23",
+      "url": "https://ir.netflix.net/files/doc_financials/2023/q4/NEW-FINAL-Q4-23-Shareholder-Letter.pdf",
+      "evidence_ko": "ads memberships +70% QoQ, signups 40%, paid sharing 성공 언급."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "source_order": 3,
+      "source_type_ko": "10-K",
+      "title_ko": "Netflix 2025 Form 10-K",
+      "publisher": "Netflix/SEC",
+      "source_date": "2026-01-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+      "evidence_ko": "2025 revenue와 operating income 확인."
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "source_order": 4,
+      "source_type_ko": "Proxy",
+      "title_ko": "Netflix 2026 Proxy",
+      "publisher": "Netflix/SEC",
+      "source_date": "2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm",
+      "evidence_ko": "325m+ memberships와 $1.5bn+ ad revenue 확인."
+    }
+  ]
+}

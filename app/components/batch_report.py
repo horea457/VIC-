@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import json
 import re
+import gzip
 from pathlib import Path
 
 import streamlit as st
@@ -31,6 +32,7 @@ BATCH_SOURCES = (
     ("batch_011_apple_google_deep_v7.json", "batch_011_apple_google_10.md", "Batch 011"),
     ("batch_012_alt_managers_deep_v7.json", "batch_012_alt_managers_10.md", "Batch 012"),
     ("batch_013_payments_deep_v7.json", "batch_013_payments_10.md", "Batch 013"),
+    ("all_reviewed_v8_index.json", "all_reviewed_v8.md.gz", "V8 전체 DB"),
 )
 
 
@@ -106,6 +108,28 @@ def _extract_legacy_report(text: str, position: int) -> str | None:
     return text.strip()
 
 
+def _extract_v8_company_report(text: str, idea_id: str) -> str | None:
+    """Return the standardised V8 intro and every thesis for one company."""
+    marker = re.search(rf"^<!-- idea:{re.escape(idea_id)} -->$", text, re.MULTILINE)
+    if not marker:
+        return None
+    company_heads = _heading_starts(text, r"^# .+ — 기업과 투자 아이디어$")
+    company_start = next(
+        (head.start() for head in reversed(company_heads) if head.start() < marker.start()),
+        None,
+    )
+    if company_start is None:
+        return None
+    company_end = next(
+        (head.start() for head in company_heads if head.start() > marker.start()),
+        len(text),
+    )
+    intro_end = company_heads[0].start() if company_heads else company_start
+    intro = text[:intro_end].strip()
+    company = text[company_start:company_end].strip()
+    return "\n\n---\n\n".join(part for part in (intro, company) if part)
+
+
 def _escape_dollar_math(markdown: str) -> str:
     """Prevent Streamlit from interpreting financial dollar values as LaTeX."""
     return re.sub(r"(?<!\\)\$", r"\\$", markdown)
@@ -116,8 +140,14 @@ def batch_report_for_idea(idea_id: str, date: str) -> dict | None:
     item = _idea_catalog().get(idea_id)
     if not item:
         return None
-    text = Path(item["markdown_path"]).read_text(encoding="utf-8")
-    if int(item["batch_name"].split()[-1]) >= 8:
+    markdown_path = Path(item["markdown_path"])
+    if markdown_path.suffix == ".gz":
+        text = gzip.decompress(markdown_path.read_bytes()).decode("utf-8")
+    else:
+        text = markdown_path.read_text(encoding="utf-8")
+    if item["batch_name"] == "V8 전체 DB":
+        report = _extract_v8_company_report(text, idea_id)
+    elif int(item["batch_name"].split()[-1]) >= 8:
         report = _extract_modern_company_report(text, date)
     else:
         report = _extract_legacy_report(text, item["position"])

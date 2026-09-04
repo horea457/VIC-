@@ -1,0 +1,720 @@
+{
+  "postmortems": [
+    {
+      "idea_id": "01ea2f74-2484-46dc-94cc-94cf2583a289",
+      "ticker": "CHK"
+    },
+    {
+      "idea_id": "0502f6b5-7315-4e34-8629-4210de372c27",
+      "ticker": "CSRE"
+    },
+    {
+      "idea_id": "05be9af9-dd96-43a3-850d-b4dbbe2ca282",
+      "ticker": "NICK"
+    },
+    {
+      "idea_id": "06ba3725-3015-4c43-bae0-b41e42d429a5",
+      "ticker": "SQ"
+    },
+    {
+      "idea_id": "06bef3ff-329d-4d8c-a5c7-c935c1d05ebf",
+      "ticker": "PYPL"
+    },
+    {
+      "idea_id": "0b6f5116-acb1-4c87-b598-69cb40441b96",
+      "ticker": "CHK"
+    },
+    {
+      "idea_id": "0c2c4a5b-86e3-42ba-a947-f61f94626b53",
+      "ticker": "WU"
+    },
+    {
+      "idea_id": "0ccccf75-183b-4b58-99ac-aa5f757c0108",
+      "ticker": "ATVI"
+    },
+    {
+      "idea_id": "0d754895-5578-41b8-a0e2-79aa16bbce99",
+      "ticker": "EZPW"
+    },
+    {
+      "idea_id": "0dfe2989-d4c0-4822-afe7-2a8c30192a52",
+      "ticker": "HTZ"
+    },
+    {
+      "idea_id": "0f86956c-0406-49d8-8c7b-21c8a5da413a",
+      "ticker": "BABA"
+    },
+    {
+      "idea_id": "1020348d-3512-413b-93f6-9d580a9800b2",
+      "ticker": "SAVE"
+    },
+    {
+      "idea_id": "14556ae0-911d-4b4a-bf38-e09044713ff7",
+      "ticker": "AAPL"
+    },
+    {
+      "idea_id": "14d5f42e-ea7f-45ca-89ea-6278b1d9e1cb",
+      "ticker": "NFLX"
+    },
+    {
+      "idea_id": "1554c3f6-354d-455e-bc7c-e62a352755e3",
+      "ticker": "SQ"
+    },
+    {
+      "idea_id": "18c8807e-d59e-4f85-a182-b65f42d7e55b",
+      "ticker": "AMRN"
+    },
+    {
+      "idea_id": "198d8470-d941-4036-9836-9bc098ad0305",
+      "ticker": "UBER"
+    },
+    {
+      "idea_id": "1b11bfef-a684-4146-9d83-8acce0e495db",
+      "ticker": "SAVE"
+    },
+    {
+      "idea_id": "1e03a370-43b1-44f5-b753-ddb9a17bef26",
+      "ticker": "HOOD"
+    },
+    {
+      "idea_id": "1f23707e-b4c5-46cc-b39c-11fa4e949b87",
+      "ticker": "AAPL"
+    },
+    {
+      "idea_id": "20c8b9a0-88d6-4d18-94c3-1b414fef95a6",
+      "ticker": "EZPW"
+    },
+    {
+      "idea_id": "2369bb5a-edb3-4d43-a5b7-127e89b58d5c",
+      "ticker": "HTZ"
+    },
+    {
+      "idea_id": "23c07fc0-8ef8-45b2-8cd1-521fc9e14123",
+      "ticker": "HTZ"
+    },
+    {
+      "idea_id": "25bec758-5a59-4462-93a5-821531cbde9e",
+      "ticker": "LOV"
+    },
+    {
+      "idea_id": "26eb19d3-05b5-4878-985e-294be5f93f05",
+      "ticker": "WU"
+    },
+    {
+      "idea_id": "289283d7-f066-46d7-9705-8d23be9863a9",
+      "ticker": "HE"
+    },
+    {
+      "idea_id": "29065542-1254-4784-b935-da9892dbf4fa",
+      "ticker": "BABA"
+    },
+    {
+      "idea_id": "293b3eb0-d2a1-4f61-87e5-53fc38cc16fd",
+      "ticker": "DPZ"
+    },
+    {
+      "idea_id": "2cd3659f-0721-4046-ba45-69a61870f5de",
+      "ticker": "AXP"
+    },
+    {
+      "idea_id": "2d87c9b2-10ed-4734-88a2-ef109c7549c3",
+      "ticker": "APO"
+    },
+    {
+      "idea_id": "2e29425c-3530-45d4-bbba-f7de8cd07345",
+      "ticker": "COST"
+    },
+    {
+      "idea_id": "305f6c9f-0231-481d-b716-f8fbd2cd87af",
+      "ticker": "EZPW"
+    },
+    {
+      "idea_id": "30791688-6491-4f85-8aa8-27f20c68c549",
+      "ticker": "WCC"
+    },
+    {
+      "idea_id": "33d3ac44-a2bc-4cee-a5b2-d395c08eefb2",
+      "ticker": "CHK"
+    },
+    {
+      "idea_id": "34197dfa-9171-4180-ba40-800e50f05a75",
+      "ticker": "NICK"
+    },
+    {
+      "idea_id": "34199499-1fdb-454a-a416-564f670ebf24",
+      "ticker": "ADT"
+    },
+    {
+      "idea_id": "364dd045-49d6-41a0-a27e-b4b5c7afa7f1",
+      "ticker": "EZPW"
+    },
+    {
+      "idea_id": "37b8fc15-b3fa-4810-aac5-91f156777253",
+      "ticker": "SAVE"
+    },
+    {
+      "idea_id": "380065f0-ce5a-4429-8eea-843ac7ece7fa",
+      "ticker": "ADT"
+    },
+    {
+      "idea_id": "38241f75-b5d7-4343-be16-ef796caf559f",
+      "ticker": "ADT"
+    },
+    {
+      "idea_id": "3841d148-77b8-47c9-a170-8a95235adb72",
+      "ticker": "ATVI"
+    },
+    {
+      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
+      "ticker": "AIMIA"
+    },
+    {
+      "idea_id": "3cb07865-2da3-4112-9784-7d59eb0604db",
+      "ticker": "EZPW"
+    },
+    {
+      "idea_id": "3ea4ccd8-935f-40ec-aa7c-1ad6e8a82fbf",
+      "ticker": "BABA"
+    },
+    {
+      "idea_id": "3fc770f1-eb30-4eae-bfca-b565b34a5824",
+      "ticker": "AXP"
+    },
+    {
+      "idea_id": "4069a796-f485-4f09-99b1-ab594e6cf187",
+      "ticker": "GPN"
+    },
+    {
+      "idea_id": "40d76ec1-4b51-43d2-b05c-2c8969c4cb70",
+      "ticker": "WU"
+    },
+    {
+      "idea_id": "40f43d07-f291-4d1c-9d41-04b09370e416",
+      "ticker": "COST"
+    },
+    {
+      "idea_id": "43a699a2-564b-47b0-a4d2-8dbc319e710e",
+      "ticker": "CHK"
+    },
+    {
+      "idea_id": "49396429-b2ff-4aab-b976-dfed1b6b7bb5",
+      "ticker": "RMD"
+    },
+    {
+      "idea_id": "4b1e29c1-88b4-4057-bf9d-f14bded4b01c",
+      "ticker": "ADT"
+    },
+    {
+      "idea_id": "4bb92a02-8578-49f8-99b1-43b851eb650d",
+      "ticker": "AAPL"
+    },
+    {
+      "idea_id": "4d69c987-a34f-4487-9697-c5b2c19694e0",
+      "ticker": "VST"
+    },
+    {
+      "idea_id": "4d868d97-7fb3-43ed-a835-f7407215efe3",
+      "ticker": "GOOG"
+    },
+    {
+      "idea_id": "4d8a6934-1a07-4a17-8a69-73270e62c006",
+      "ticker": "BX"
+    },
+    {
+      "idea_id": "4fb49786-e7a5-4736-904c-4e6c0761313d",
+      "ticker": "LOV"
+    },
+    {
+      "idea_id": "5118ae64-e2ab-4a8e-987b-1cafec807a00",
+      "ticker": "GNRC"
+    },
+    {
+      "idea_id": "51436335-4982-4698-9282-5f4a0718b787",
+      "ticker": "AXP"
+    },
+    {
+      "idea_id": "51c0005d-78f2-401d-b488-011f6c7b0fd9",
+      "ticker": "KKR"
+    },
+    {
+      "idea_id": "5208c892-2941-475f-ab2a-0acb87a923c2",
+      "ticker": "APO"
+    },
+    {
+      "idea_id": "52a2875b-43af-446e-aba9-744b0c741d75",
+      "ticker": "LINC"
+    },
+    {
+      "idea_id": "561854fe-8c53-4c81-abab-13f1cabb9be3",
+      "ticker": "NICK"
+    },
+    {
+      "idea_id": "567223c3-fdd4-4dc7-bc1f-42cbd90b9a9f",
+      "ticker": "NICK"
+    },
+    {
+      "idea_id": "58a33458-d5f3-4f7d-a532-a323b69fba16",
+      "ticker": "ATVI"
+    },
+    {
+      "idea_id": "5919d273-15ba-4c53-ad2f-2f41fd54bbeb",
+      "ticker": "EZPW"
+    },
+    {
+      "idea_id": "59483565-f78c-4d1e-9af2-02b0652549bb",
+      "ticker": "GM"
+    },
+    {
+      "idea_id": "5989dc2a-8751-457a-b0a5-9ecc08f5cb08",
+      "ticker": "HTZ"
+    },
+    {
+      "idea_id": "59ad0709-b081-45e7-912d-528d3d5e5164",
+      "ticker": "GBL"
+    },
+    {
+      "idea_id": "5d288bf9-93ad-4a48-918a-39c2ffe66602",
+      "ticker": "SAVE"
+    },
+    {
+      "idea_id": "5ef7317d-309a-41f1-b527-8f53d9773126",
+      "ticker": "PINS"
+    },
+    {
+      "idea_id": "5f619af5-5de9-49e3-b0b6-8873f574f761",
+      "ticker": "FTCH"
+    },
+    {
+      "idea_id": "5f6bc53c-25f6-47ee-bb80-81fd75d5f349",
+      "ticker": "NFLX"
+    },
+    {
+      "idea_id": "5ffb1b30-edb1-4643-9487-c69be4668f1a",
+      "ticker": "CHK"
+    },
+    {
+      "idea_id": "60c478cb-e8ef-4aad-afed-3c2c73c54978",
+      "ticker": "WU"
+    },
+    {
+      "idea_id": "61476273-6d66-4899-a40c-4eecad25dd31",
+      "ticker": "FTCH"
+    },
+    {
+      "idea_id": "614de520-d1ff-41b1-83e9-c9a6b2ea19a7",
+      "ticker": "SQ"
+    },
+    {
+      "idea_id": "617e3e9e-12f4-4948-8f16-babdf449f654",
+      "ticker": "APO"
+    },
+    {
+      "idea_id": "62c0fbe2-d09c-4136-bf68-19feb67d1b18",
+      "ticker": "LOV"
+    },
+    {
+      "idea_id": "667db72f-294f-4aca-99ff-44362efd7a15",
+      "ticker": "AER"
+    },
+    {
+      "idea_id": "6707a2c6-50ef-421f-9bbc-6cd72e41ca92",
+      "ticker": "EZPW"
+    },
+    {
+      "idea_id": "68d58cd9-6908-4887-8fa5-030bdf4bc283",
+      "ticker": "EZPW"
+    },
+    {
+      "idea_id": "6ba4eefd-84bf-4b29-926c-1be004a68f06",
+      "ticker": "AXP"
+    },
+    {
+      "idea_id": "6bd2b846-f10e-4959-b0c3-8dedab3c7f5e",
+      "ticker": "BX"
+    },
+    {
+      "idea_id": "6c00aca0-ceb0-4349-95cf-ad398a2a3776",
+      "ticker": "AXP"
+    },
+    {
+      "idea_id": "6cd8262f-61d7-4897-8fc6-b9a8a7426f89",
+      "ticker": "BYND"
+    },
+    {
+      "idea_id": "6cdef8bf-82da-4451-a686-8bbd8c2c42ae",
+      "ticker": "CHK"
+    },
+    {
+      "idea_id": "6ce8ec53-7d99-4623-9aa7-4aaf01024891",
+      "ticker": "ATVI"
+    },
+    {
+      "idea_id": "6dbe3fcd-7cbb-4e80-bb94-a8514bdf3cb1",
+      "ticker": "HTZ"
+    },
+    {
+      "idea_id": "704ff0e9-544c-427f-aef7-a79797a3a79c",
+      "ticker": "ATVI"
+    },
+    {
+      "idea_id": "72feccd5-c42a-41f3-b59d-25443952bd91",
+      "ticker": "APO"
+    },
+    {
+      "idea_id": "732d9576-28f6-4680-be71-e0b9303ff759",
+      "ticker": "WU"
+    },
+    {
+      "idea_id": "73972d53-fbb6-4afe-9df3-e45c2caff143",
+      "ticker": "WU"
+    },
+    {
+      "idea_id": "73cb3e60-a21e-44ba-9139-a294387892d9",
+      "ticker": "AXP"
+    },
+    {
+      "idea_id": "73d02e0d-f4db-4ea1-b30e-c57bcfad658e",
+      "ticker": "BABA"
+    },
+    {
+      "idea_id": "791bb202-c198-488b-b4bb-4c2f17a4985e",
+      "ticker": "WU"
+    },
+    {
+      "idea_id": "7974c7bf-3233-49ca-95b7-5aea1305e909",
+      "ticker": "SAVE"
+    },
+    {
+      "idea_id": "7d29ac0c-c48a-49f0-a024-0871f8fdefcb",
+      "ticker": "WU"
+    },
+    {
+      "idea_id": "7fc18d0a-cc66-4349-939c-300bdbe35e53",
+      "ticker": "PYPL"
+    },
+    {
+      "idea_id": "7fc96741-c87b-45f6-8942-d7397e97045c",
+      "ticker": "AAPL"
+    },
+    {
+      "idea_id": "83ca2c43-e290-407f-8795-6d0c934522ca",
+      "ticker": "ALB"
+    },
+    {
+      "idea_id": "85d27b0b-277c-492d-87a4-322b63402e80",
+      "ticker": "NFLX"
+    },
+    {
+      "idea_id": "880e6ab5-0940-4c0f-869e-a511a6fdbd37",
+      "ticker": "NICK"
+    },
+    {
+      "idea_id": "8935dd06-0644-4f71-9a87-c7b414472651",
+      "ticker": "ATVI"
+    },
+    {
+      "idea_id": "893aaaa8-737a-4700-bfc9-0400334f7347",
+      "ticker": "CVNA"
+    },
+    {
+      "idea_id": "8d266393-e7f4-4c86-82f8-0ab38150300e",
+      "ticker": "NFLX"
+    },
+    {
+      "idea_id": "8d650efa-8ddd-4371-b3f3-269e6d4b3d99",
+      "ticker": "KKR"
+    },
+    {
+      "idea_id": "8df67e9b-5098-46af-bdf7-0ece67b31719",
+      "ticker": "AXP"
+    },
+    {
+      "idea_id": "93f2daa3-d343-45e5-ae04-a40cb7f104ee",
+      "ticker": "NFLX"
+    },
+    {
+      "idea_id": "947adc43-5c45-42a2-9398-e46a52001010",
+      "ticker": "PGR"
+    },
+    {
+      "idea_id": "953a3d6e-56bb-4cbe-8817-9a2f3d2b7d33",
+      "ticker": "AER"
+    },
+    {
+      "idea_id": "96258fc0-17cf-4db9-9219-986f839a2beb",
+      "ticker": "KKR"
+    },
+    {
+      "idea_id": "96c34d53-287b-4cf3-9385-0a357d26cdaf",
+      "ticker": "CHK"
+    },
+    {
+      "idea_id": "9745cc55-b68d-4107-b3ed-db15308f3d41",
+      "ticker": "GOOG"
+    },
+    {
+      "idea_id": "97fcccc8-4043-424a-8f05-0a6c4ed2d54a",
+      "ticker": "AXP"
+    },
+    {
+      "idea_id": "985d45ef-a2b3-48f5-9b11-cf85e8e0877c",
+      "ticker": "ADT"
+    },
+    {
+      "idea_id": "98c51824-0571-4de6-adc3-ebd5a9daab84",
+      "ticker": "AAPL"
+    },
+    {
+      "idea_id": "99625fca-d4da-4371-b14e-d973d40149e6",
+      "ticker": "AER"
+    },
+    {
+      "idea_id": "9ba40e38-fdf0-4ed9-9079-24a89c77a81a",
+      "ticker": "AXP"
+    },
+    {
+      "idea_id": "9bcc01c8-fe81-4ecb-bb21-6ca3f2eacd3c",
+      "ticker": "LOV"
+    },
+    {
+      "idea_id": "9d7a1ad7-ce78-48d1-9704-2171bacc3888",
+      "ticker": "LOV"
+    },
+    {
+      "idea_id": "a080516f-7836-4664-a4cd-7de23c6b7f22",
+      "ticker": "AER"
+    },
+    {
+      "idea_id": "a2bc6056-b391-424c-84b6-292e19b2c361",
+      "ticker": "ADT"
+    },
+    {
+      "idea_id": "a4dfdad0-b0fc-473d-b038-7d9a207e2ccd",
+      "ticker": "WOR"
+    },
+    {
+      "idea_id": "a7064dbb-7b01-49f8-89e1-fdee70830ebf",
+      "ticker": "TMO"
+    },
+    {
+      "idea_id": "abca5a03-e8a0-435f-98ba-438eed064efb",
+      "ticker": "GM"
+    },
+    {
+      "idea_id": "abd44259-b085-42b0-b70c-19b4a007d532",
+      "ticker": "AAPL"
+    },
+    {
+      "idea_id": "ae070f48-c99e-464d-ab42-b3b468ce5750",
+      "ticker": "CHK"
+    },
+    {
+      "idea_id": "b019b6a3-4c0b-45dd-a313-228c99a55407",
+      "ticker": "EZPW"
+    },
+    {
+      "idea_id": "b0592302-d81f-4890-89a6-d5041369cec8",
+      "ticker": "GM"
+    },
+    {
+      "idea_id": "b0d6ba64-4177-4831-ae8e-904ad22f2b64",
+      "ticker": "ATVI"
+    },
+    {
+      "idea_id": "b0d81faa-637b-48fe-97e1-ef2fb17d712a",
+      "ticker": "NICK"
+    },
+    {
+      "idea_id": "b50bc1ac-83e2-4cc5-8492-a71bcd9d9f37",
+      "ticker": "LOV"
+    },
+    {
+      "idea_id": "b5223bcf-728e-4373-bef2-2e53449e4a70",
+      "ticker": "LOV"
+    },
+    {
+      "idea_id": "ba43e36d-1e31-4ac5-acdc-cfca20bdbf6c",
+      "ticker": "ATVI"
+    },
+    {
+      "idea_id": "bbd451ee-8ad4-41a4-9e17-e727ea6ac828",
+      "ticker": "SQ"
+    },
+    {
+      "idea_id": "bcde473f-865d-4b3a-b20f-e09a231ca3d8",
+      "ticker": "APH"
+    },
+    {
+      "idea_id": "bd2dcea2-ac93-4ed8-bccf-14e1bbeb48aa",
+      "ticker": "ADT"
+    },
+    {
+      "idea_id": "bd6f12e4-954b-4cf4-95ee-a54170d74cb4",
+      "ticker": "NFLX"
+    },
+    {
+      "idea_id": "be58bf54-4482-4993-8d7b-aa3be591fc4c",
+      "ticker": "GM"
+    },
+    {
+      "idea_id": "bfb1aa1d-e55b-4998-8603-250f2dcba47c",
+      "ticker": "COST"
+    },
+    {
+      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
+      "ticker": "AER"
+    },
+    {
+      "idea_id": "c15e8fff-8c28-4b64-9184-0b2976d75166",
+      "ticker": "GM"
+    },
+    {
+      "idea_id": "c162e7c1-2222-45c9-8659-b644d8059614",
+      "ticker": "HTZ"
+    },
+    {
+      "idea_id": "c237a718-3593-4fd9-ab7b-83cb6878633c",
+      "ticker": "HTZ"
+    },
+    {
+      "idea_id": "c3f0c2de-8880-4fbd-b2c3-aebe721dcf80",
+      "ticker": "APO"
+    },
+    {
+      "idea_id": "c3f79fc5-69a7-417f-8d39-d3e92ce651fd",
+      "ticker": "BABA"
+    },
+    {
+      "idea_id": "c54f5c09-3939-4436-b6dc-3b752108c602",
+      "ticker": "GOOG"
+    },
+    {
+      "idea_id": "c5d8740f-3886-4de7-b6c5-ad44fc70bd2c",
+      "ticker": "HTZ"
+    },
+    {
+      "idea_id": "c713cda2-f920-4f6a-a411-180feffda4ed",
+      "ticker": "GM"
+    },
+    {
+      "idea_id": "c7f3a167-2fa6-419f-b8c8-7ea8a69972f0",
+      "ticker": "CHK"
+    },
+    {
+      "idea_id": "cc61d251-5a81-41bc-b9e6-62bad5426aa9",
+      "ticker": "SAVE"
+    },
+    {
+      "idea_id": "cdb4f141-bcc2-40b1-9d27-089f1093d4cd",
+      "ticker": "AER"
+    },
+    {
+      "idea_id": "d114454d-e5d4-4b2b-9b44-13d4bb7e8d08",
+      "ticker": "WU"
+    },
+    {
+      "idea_id": "d4fd0257-fa37-46b8-a90a-a04e398e136a",
+      "ticker": "AER"
+    },
+    {
+      "idea_id": "d511f486-ec3e-460b-ad20-f3fe9f630cc7",
+      "ticker": "KKR"
+    },
+    {
+      "idea_id": "d58017f6-3319-44bb-b182-c50b71ed54cc",
+      "ticker": "KKR"
+    },
+    {
+      "idea_id": "d79cabf7-654b-4804-b7ce-9d8bf9a4d11a",
+      "ticker": "NFLX"
+    },
+    {
+      "idea_id": "d9171a99-0760-4803-843b-ffa702e74aae",
+      "ticker": "NFLX"
+    },
+    {
+      "idea_id": "d979cd84-d62f-4abf-9fec-fdf5d733f3ce",
+      "ticker": "SQ"
+    },
+    {
+      "idea_id": "da9ca794-b343-4ae1-b8e5-7bcec49558ec",
+      "ticker": "RCL"
+    },
+    {
+      "idea_id": "de887d4e-0f48-41ba-ba20-c9bada0d6cf9",
+      "ticker": "ADT"
+    },
+    {
+      "idea_id": "df9c22a4-9cef-40e7-9bc6-5b577e39f3e7",
+      "ticker": "NICK"
+    },
+    {
+      "idea_id": "e0bfeec8-f257-4df8-8200-55e3835c54ca",
+      "ticker": "AAPL"
+    },
+    {
+      "idea_id": "e4bf47fd-aba3-4ce9-b3e6-04d9864e6535",
+      "ticker": "NICK"
+    },
+    {
+      "idea_id": "e6b37fd4-9df6-4fb1-a8a3-6d662d4eb9df",
+      "ticker": "LOV"
+    },
+    {
+      "idea_id": "e82181c7-84d5-49b2-86bd-b0533eddff1b",
+      "ticker": "PYPL"
+    },
+    {
+      "idea_id": "e93b8624-5bb1-472f-907f-5a96dd9770ca",
+      "ticker": "DECK"
+    },
+    {
+      "idea_id": "ed09cce2-6a67-4307-be41-7ac19eeadd8e",
+      "ticker": "HE"
+    },
+    {
+      "idea_id": "f1c670fd-f054-49ec-902f-88ac995a9e44",
+      "ticker": "BABA"
+    },
+    {
+      "idea_id": "f3b34632-b5b8-4865-b65b-f8ebfc5af92f",
+      "ticker": "LOV"
+    },
+    {
+      "idea_id": "f54a6e88-408a-4f1b-b13a-b011335f865a",
+      "ticker": "HE"
+    },
+    {
+      "idea_id": "f8432f4c-2c37-411e-b2a0-1ad908c98698",
+      "ticker": "PTON"
+    },
+    {
+      "idea_id": "f9632bd2-db12-48f4-8f45-694948a11149",
+      "ticker": "NICK"
+    },
+    {
+      "idea_id": "fa7c0109-905e-44f3-be1d-c06dd4a4a8ef",
+      "ticker": "META"
+    },
+    {
+      "idea_id": "fafff556-cfc6-4ff2-83dd-43a5feb5c657",
+      "ticker": "GM"
+    },
+    {
+      "idea_id": "fb09cf2d-a834-4855-8d66-680aa7139d1d",
+      "ticker": "BXC"
+    },
+    {
+      "idea_id": "fb69dbdc-c9f6-4b2f-9568-573e9955ea16",
+      "ticker": "MA"
+    },
+    {
+      "idea_id": "fbb5c0aa-0a03-4968-985a-2af9e64216d6",
+      "ticker": "NFLX"
+    },
+    {
+      "idea_id": "ff1d759a-105e-4454-b833-abfa7123b3c7",
+      "ticker": "SAVE"
+    }
+  ]
+}
