@@ -39,6 +39,9 @@ BATCH_SOURCES = (
     ("batch_018_genworth_assured_guaranty_deep_v7.json", "batch_018_genworth_assured_guaranty_10.md", "Batch 018"),
     ("batch_019_visteon_goodyear_deep_v7.json", "batch_019_visteon_goodyear_10.md", "Batch 019"),
     ("batch_020_fossil_abercrombie_deep_v7.json", "batch_020_fossil_abercrombie_10.md", "Batch 020"),
+    ("batch_021_echostar_iridium_deep_v7.json", "batch_021_echostar_iridium_10.md", "Batch 021"),
+    ("batch_022_geo_corecivic_deep_v7.json", "batch_022_geo_corecivic_10.md", "Batch 022"),
+    ("batch_023_hp_western_digital_deep_v7.json", "batch_023_hp_western_digital_10.md", "Batch 023"),
     ("all_reviewed_v8_index.json", "all_reviewed_v8.md.gz", "V8 전체 DB"),
 )
 
