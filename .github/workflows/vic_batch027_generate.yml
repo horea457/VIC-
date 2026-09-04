@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/batch027_rows.txt'
+      - 'scripts/g27_part_a'
       - 'scripts/g27_part_b'
 permissions:
   contents: write
@@ -23,9 +24,9 @@ jobs:
           python scripts/gen_batch027.py
       - name: Commit validated batch
         run: |
-          rm -f scripts/g27_part_a scripts/g27_part_b scripts/gen_batch027.py scripts/batch027_rows.txt .github/workflows/vic_batch027_generate.yml
+          rm -f scripts/g27_part_a scripts/g27_part_b scripts/gen_batch027.py scripts/batch027_rows.txt .github/workflows/vic_batch027_generate.yml analysis/batch_027_tesla_gm_10.md
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add analysis/batch_027_tesla_gm_10.md data/curated/batch_027_tesla_gm_deep_v7.json app/components/batch_report.py scripts .github/workflows
+          git add -A
           git commit -m 'Add VIC batch 027 [skip ci]'
           git push

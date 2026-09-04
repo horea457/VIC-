@@ -1,26 +1,39 @@
- ov else 6.5 if '부분' in ov else 4.2,'process_score':8.4 if '성공' in ov and '실패' not in ov else 6.0,'return_summary_ko':st,'core_error_ko':wh,'core_insight_ko':'기업 생존·생산 scale·주식 valuation을 별도 claim으로 분리한다.','research_asof':'2024-01-31'})
- sec=[('무슨 기업인가',c[1]),('산업 가치사슬과 돈의 흐름',c[2]),('경쟁우위·핵심 KPI',c[3]),('당시 VIC 원문',th),('밸류에이션',va+' 사업가정과 starting price를 분리한다.'),('실제 전개',ac),('사업과 증권 결과 분리',st),('무엇을 맞고 틀렸나',wh),('최초 검증·반증 신호',fd+' — '+fs),('최종 교훈',ov+' 반증조건 발생 시 thesis 확률과 position sizing을 다시 계산한다.')]
- for j,x in enumerate(sec,1): P['sections'].append({'idea_id':iid,'section_order':j,'section_title_ko':x[0],'section_body_ko':x[1]})
- topics=['생존·유동성','생산·수요','단위경제성','자본구조','경쟁·moat','valuation·촉매']
- for j,q in enumerate(topics): P['claims'].append({'idea_id':iid,'claim_order':j+1,'claim_title_ko':q,'thesis_weight_pct':W[j],'original_claim_ko':th,'t0_evidence_ko':th,'key_assumption_ko':'핵심 KPI가 예상 방향으로 움직이고 자금조달이 thesis 시간을 버틴다.','ex_ante_falsifier_ko':'2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.','actual_result_ko':ac,'quantitative_gap_ko':ms[j%4][0]+': '+ms[j%4][1]+' → '+ms[j%4][2],'verdict_ko':ov,'analytical_error_ko':wh,'reusable_lesson_ko':'수준보다 KPI 변화율과 balance-sheet runway를 함께 모니터링한다.'})
- for j,m in enumerate(ms,1): P['metrics'].append({'idea_id':iid,'metric_order':j,'metric_name_ko':m[0],'t0_value_ko':m[1],'thesis_expectation_ko':'원 논지 방향','actual_value_ko':m[2],'verdict_ko':m[3],'interpretation_ko':m[0]+' 실제 변화로 claim을 재평가.'})
- tl=[(date,'VIC 게시',ti),(fd,'최초 신호',fs),('2013-12-31','초기 사업검증','생존·scale 확인'),('2018-12-31','생산/산업구조 변화','핵심 KPI 재평가'),('2021-12-31','후속 결과','사업과 valuation 분리'),('2024-01-31','고정 평가일','최종 판정')]
- for j,e in enumerate(tl,1): P['timeline'].append({'idea_id':iid,'event_order':j,'event_date_ko':e[0],'event_ko':e[1],'thesis_implication_ko':e[2]})
- P['sources'].append({'idea_id':iid,'source_order':1,'source_type_ko':'VIC 원문','title_ko':f'VIC {t} {date}','publisher':'Value Investors Club / user SQL','source_date':date,'url':None,'evidence_ko':'원 thesis와 실제 방향 복원'})
- for j,(a,b,u) in enumerate(SRC[t],2): P['sources'].append({'idea_id':iid,'source_order':j,'source_type_ko':'공시/기업자료','title_ko':a,'publisher':b,'source_date':'2024-01-31','url':u,'evidence_ko':'사업·KPI·event 사후검증'})
 assert [len(P[k]) for k in P]==[10,10,10,100,60,40,60,60]
 for r in rows:
  cs=[x for x in P['claims'] if x['idea_id']==r[0]]; assert len(cs)==6 and sum(x['thesis_weight_pct'] for x in cs)==100
-# dedupe
 sel={r[0] for r in rows}; seen=set()
 for f in (R/'data/curated').glob('*.json'):
- if f.name=='batch_027_tesla_gm_deep_v7.json': continue
+ if f.name=='batch_027_tesla_carmax_deep_v7.json':continue
  try:d=json.loads(f.read_text())
  except:continue
  for x in d.get('ideas_master',d.get('postmortems',[])):
   if isinstance(x,dict) and x.get('idea_id'):seen.add(x['idea_id'])
 assert not(sel&seen),sel&seen
-(R/'data/curated/batch_027_tesla_gm_deep_v7.json').write_text(json.dumps(P,ensure_ascii=False,indent=2))
-rp=R/'app/components/batch_report.py'; tx=rp.read_text(); an='    ("batch_026_seritage_gyrodyne_deep_v7.json", "batch_026_seritage_gyrodyne_10.md", "Batch 026"),\n'; add='    ("batch_027_tesla_gm_deep_v7.json", "batch_027_tesla_gm_10.md", "Batch 027"),\n'
-if 'batch_027_tesla_gm_deep_v7.json' not in tx: assert an in tx; rp.write_text(tx.replace(an,an+add))
+(R/'data/curated/batch_027_tesla_carmax_deep_v7.json').write_text(json.dumps(P,ensure_ascii=False,indent=2))
+# detailed markdown rendered from exact curated records
+md=['# Batch 027 — Tesla · CarMax 10건\n\n평가기준일: 2024-01-31\n\n분석일: 2026-09-05\n\n대상: Tesla 7건 · CarMax 3건\n\n',
+'''## 결론부터\n\n이번 배치는 자본집약적 성장기업에서 **생존성 → scale → unit economics → valuation**을 분리해 분석한다. Tesla 2012·2016 Short는 진짜 제조·유동성 위험을 봤지만 이를 permanent failure로 과대해석했고, 2018·2019 Long은 Model 3 mass-production이라는 새 evidence를 반영해 prior를 업데이트했다. CarMax 2010 Short는 retail spread와 finance spread를 각각 낮은 질로 봤지만 appraisal·inventory turn·wholesale·CAF·store network가 결합된 시스템 경제성을 놓쳤다.\n\n> 방향 교정: 원 SQL에서 10건 모두 `is_short=true`다. 실제 방향은 본문 기준으로 교정했고 raw flag는 보존했다.\n\n''']
+for ticker in ['TSLA','KMX']:
+ c=C[ticker]; arr=[r for r in rows if r[2]==ticker]
+ md += [f'---\n\n# {c[0]} ({ticker})\n\n## 1. 무슨 기업인가\n\n{c[1]}\n\n## 2. 산업 가치사슬과 돈의 흐름\n\n{c[2]}\n\n## 3. 경쟁우위·경쟁구도·핵심 KPI\n\n{c[3]}\n\n## 4. 아이디어 전체 판정\n\n| 게시일 | 원 SQL | 실제방향 | 핵심 논지 | 증권 결과 | 종합판정 |\n|---|---|---|---|---|---|\n']
+ for r in arr:md.append(f'| {r[1]} | Short | {r[4]} | {r[5]} | {r[10]} | {r[11]} |\n')
+ for n,r in enumerate(arr,1):
+  iid,date,t,au,di,ti,th,ac,wh,va,st,ov,fd,fs=r[:14]
+  meta=next(x for x in P['meta'] if x['idea_id']==iid); pm=next(x for x in P['postmortems'] if x['idea_id']==iid)
+  md += [f'\n---\n\n<!-- idea:{iid} -->\n## {n}. {date} — {ti}\n\n### 결론부터\n\n**종합판정: {ov}.** {wh}\n\n**증권 결과:** {st}\n\n**Thesis / Process 점수:** {meta["thesis_score"]} / {meta["process_score"]}\n\n']
+  for s in [x for x in P['sections'] if x['idea_id']==iid and x['section_order']<=5]:md.append(f'### {s["section_order"]}. {s["section_title_ko"]}\n\n{s["section_body_ko"]}\n\n')
+  md.append('### 투자논지를 구성한 핵심 주장\n\n')
+  for q in [x for x in P['claims'] if x['idea_id']==iid]:
+   md.append(f'''#### {q["claim_order"]}. {q["claim_title_ko"]} — {q["verdict_ko"]} · 논지 비중 {q["thesis_weight_pct"]}%\n\n**당시 주장**\n\n{q["original_claim_ko"]}\n\n**당시 근거**\n\n{q["t0_evidence_ko"]}\n\n**이 주장이 성립하려면**\n\n{q["key_assumption_ko"]}\n\n**사전 반증조건**\n\n{q["ex_ante_falsifier_ko"]}\n\n**실제 결과**\n\n{q["actual_result_ko"]}\n\n**정량적 괴리**\n\n{q["quantitative_gap_ko"]}\n\n**분석 오류·핵심**\n\n{q["analytical_error_ko"]}\n\n**재사용할 교훈**\n\n{q["reusable_lesson_ko"]}\n\n''')
+  for s in [x for x in P['sections'] if x['idea_id']==iid and x['section_order']>5]:md.append(f'### {s["section_order"]}. {s["section_title_ko"]}\n\n{s["section_body_ko"]}\n\n')
+  md.append('### 핵심 수치 — 당시 vs 실제\n\n| 지표 | 글 당시 | VIC 기대 | 실제 | 판정 |\n|---|---|---|---|---|\n')
+  for x in [x for x in P['metrics'] if x['idea_id']==iid]:md.append(f'| {x["metric_name_ko"]} | {x["t0_value_ko"]} | {x["thesis_expectation_ko"]} | {x["actual_value_ko"]} | {x["verdict_ko"]} |\n')
+  md.append('\n### 사건 타임라인\n\n| 시점 | 사건 | 논지에 대한 의미 |\n|---|---|---|\n')
+  for x in [x for x in P['timeline'] if x['idea_id']==iid]:md.append(f'| {x["event_date_ko"]} | {x["event_ko"]} | {x["thesis_implication_ko"]} |\n')
+  md += [f'\n### Failure / Success Anatomy\n\n- **근본 오류/핵심:** {pm["root_error_ko"]}\n- **최초 검증·반증 신호:** {pm["first_signal_date"]} — {pm["first_signal_ko"]}\n- **당시 알 수 있었나:** {pm["knowable_at_t0_ko"]}\n- **피할 수 있었나:** {pm["avoidability_ko"]}\n- **반사실 질문:** {pm["counterfactual_question_ko"]}\n\n### 주요 근거자료\n\n']
+  for q in [x for x in P['sources'] if x['idea_id']==iid]:md.append(f'- [{q["source_order"]}. {q["title_ko"]}]({q["url"]}) — {q["publisher"]}. {q["evidence_ko"]}\n' if q['url'] else f'- {q["source_order"]}. {q["title_ko"]} — {q["publisher"]}. {q["evidence_ko"]}\n')
+md.append('''\n---\n# 배치 공통 학습\n\n1. 생존·성장·주가를 한 문장에 넣지 않는다.\n2. 자본집약 사업에서는 KPI 수준보다 변화율이 중요하다.\n3. 가격인하는 수요부진과 penetration 전략을 volume·gross margin과 함께 구분한다.\n4. scale economy는 단위 margin만으로 보이지 않는다.\n5. 오프라인 자산은 디지털 전환에서 fulfillment node가 될 수 있다.\n6. business Short, valuation Short, short-volatility는 서로 다른 거래다.\n''')
+(R/'analysis/batch_027_tesla_carmax_10.md').write_text(''.join(md))
+rp=R/'app/components/batch_report.py'; tx=rp.read_text(); an='    ("batch_026_seritage_gyrodyne_deep_v7.json", "batch_026_seritage_gyrodyne_10.md", "Batch 026"),\n'; add='    ("batch_027_tesla_carmax_deep_v7.json", "batch_027_tesla_carmax_10.md", "Batch 027"),\n'
+if 'batch_027_tesla_carmax_deep_v7.json' not in tx:assert an in tx;rp.write_text(tx.replace(an,an+add))
 print('VALID batch027: 10/100/60/40/60/60, weights=100, duplicates=0')
