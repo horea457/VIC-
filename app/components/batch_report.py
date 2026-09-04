@@ -35,6 +35,7 @@ BATCH_SOURCES = (
     ("batch_014_tmus_atus_deep_v7.json", "batch_014_tmus_atus_10.md", "Batch 014"),
     ("batch_015_charter_comcast_deep_v7.json", "batch_015_charter_comcast_10.md", "Batch 015"),
     ("batch_016_cigna_unitedhealth_deep_v7.json", "batch_016_cigna_unitedhealth_10.md", "Batch 016"),
+    ("batch_017_sprint_att_deep_v7.json", "batch_017_sprint_att_10.md", "Batch 017"),
     ("all_reviewed_v8_index.json", "all_reviewed_v8.md.gz", "V8 전체 DB"),
 )
 
