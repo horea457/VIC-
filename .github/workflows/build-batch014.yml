@@ -1,0 +1,55 @@
+name: Build Batch 014
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/build-batch014.yml"
+      - "scripts/.batch014_builder.py.gz.b64"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Decode builder
+        shell: bash
+        run: |
+          base64 -d scripts/.batch014_builder.py.gz.b64 | gzip -d > scripts/15_build_batch_014.py
+          sed -i "s#Path('/mnt/data/batch014_repo')#Path.cwd()#g" scripts/15_build_batch_014.py
+      - name: Build research files
+        run: python scripts/15_build_batch_014.py
+      - name: Validate payload
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from collections import defaultdict
+          from pathlib import Path
+          p=Path('data/curated/batch_014_tmus_atus_deep_v7.json')
+          d=json.loads(p.read_text(encoding='utf-8'))
+          assert len(d['ideas_master']) == 10
+          assert len(d['postmortems']) == 10
+          assert len(d['sections']) == 100
+          assert len(d['claims']) == 60
+          weights=defaultdict(int)
+          for row in d['claims']:
+              weights[row['idea_id']] += int(row['thesis_weight_pct'])
+          assert len(weights) == 10 and set(weights.values()) == {100}
+          assert Path('analysis/batch_014_tmus_atus_10.md').stat().st_size > 90000
+          print('batch 014 validation passed')
+          PY
+      - name: Commit batch 014
+        shell: bash
+        run: |
+          rm scripts/.batch014_builder.py.gz.b64
+          git config user.name "ChatGPT VIC Research"
+          git config user.email "actions@users.noreply.github.com"
+          git add analysis/batch_014_tmus_atus_10.md data/curated/batch_014_tmus_atus_deep_v7.json scripts/15_build_batch_014.py scripts/.batch014_builder.py.gz.b64
+          git commit -m "Add batch 014 TMUS and Altice research"
+          git push
