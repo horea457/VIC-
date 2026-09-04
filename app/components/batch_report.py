@@ -36,6 +36,9 @@ BATCH_SOURCES = (
     ("batch_015_charter_comcast_deep_v7.json", "batch_015_charter_comcast_10.md", "Batch 015"),
     ("batch_016_cigna_unitedhealth_deep_v7.json", "batch_016_cigna_unitedhealth_10.md", "Batch 016"),
     ("batch_017_sprint_att_deep_v7.json", "batch_017_sprint_att_10.md", "Batch 017"),
+    ("batch_018_genworth_assured_guaranty_deep_v7.json", "batch_018_genworth_assured_guaranty_10.md", "Batch 018"),
+    ("batch_019_visteon_goodyear_deep_v7.json", "batch_019_visteon_goodyear_10.md", "Batch 019"),
+    ("batch_020_fossil_abercrombie_deep_v7.json", "batch_020_fossil_abercrombie_10.md", "Batch 020"),
     ("all_reviewed_v8_index.json", "all_reviewed_v8.md.gz", "V8 전체 DB"),
 )
 
