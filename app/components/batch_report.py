@@ -48,7 +48,14 @@ def _idea_catalog() -> dict[str, dict]:
         payload = json.loads(json_path.read_text(encoding="utf-8"))
         postmortems = payload.get("postmortems", [])
         for position, item in enumerate(postmortems):
-            catalog[item["idea_id"]] = {
+            idea_id = item["idea_id"]
+            # Specific reviewed Batch files are the source of truth.
+            # The V8 consolidated report is only a fallback for ideas that do
+            # not have a dedicated Batch file.  Do not let V8 overwrite the
+            # Batch 001+ mapping, otherwise every popup opens all_reviewed_v8.
+            if idea_id in catalog:
+                continue
+            catalog[idea_id] = {
                 "batch_name": batch_name,
                 "markdown_path": str(markdown_path),
                 "position": position,
@@ -190,11 +197,24 @@ def _batch_source_dialog(idea_id: str):
     else:
         text = markdown_path.read_text(encoding="utf-8")
 
-    st.caption(
-        f"{item['batch_name']} · {markdown_path.name} · "
-        "아래 내용은 Batch markdown 원문 전체이며 요약하거나 생략하지 않습니다."
-    )
-    st.markdown(_escape_dollar_math(text))
+    if item["batch_name"] == "V8 전체 DB":
+        report = _extract_v8_company_report(text, str(idea_id))
+        if not report:
+            st.error("V8 통합 보고서에서 선택한 기업 섹션을 찾지 못했습니다.")
+            return
+        caption = (
+            f"{item['batch_name']} · {markdown_path.name} · "
+            "전용 Batch가 없는 항목이라 선택한 기업의 V8 원문 섹션을 표시합니다."
+        )
+    else:
+        report = text
+        caption = (
+            f"{item['batch_name']} · {markdown_path.name} · "
+            "아래 내용은 해당 Batch markdown 원문 전체이며 요약하거나 생략하지 않습니다."
+        )
+
+    st.caption(caption)
+    st.markdown(_escape_dollar_math(report))
 
 
 def render_batch_popup_button(idea: dict) -> bool:
