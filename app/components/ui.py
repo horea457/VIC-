@@ -345,7 +345,7 @@ def render_verified_postmortem(idea_id: str, compact: bool = False):
         from components.batch_report import render_batch_source_report
         if render_batch_source_report(I):
             return True
-        return _render_batch_postmortem(I, P, D)
+        return _render_deep_postmortem(I, P, D)
     # V5: 이전 표준 초안은 더 이상 '사후분석 완료'로 렌더링하지 않는다.
     return False
 
