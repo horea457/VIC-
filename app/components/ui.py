@@ -342,9 +342,8 @@ def render_verified_postmortem(idea_id: str, compact: bool = False):
 
     D = row('SELECT * FROM deep_analysis_meta WHERE idea_id=?', (idea_id,))
     if D:
-        from components.batch_report import render_batch_source_report
-        if render_batch_source_report(I):
-            return True
+        from components.batch_report import render_batch_popup_button
+        render_batch_popup_button(I)
         return _render_deep_postmortem(I, P, D)
     # V5: 이전 표준 초안은 더 이상 '사후분석 완료'로 렌더링하지 않는다.
     return False
