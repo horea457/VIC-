@@ -1,0 +1,3558 @@
+{
+  "ideas_master": [
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "date": "2018-10-27",
+      "year": 2018,
+      "ticker": "CLW",
+      "company_name": "CLEARWATER PAPER CORP",
+      "author": "alcideholder",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "capital cycle; unit economics; deleveraging; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "date": "2021-09-14",
+      "year": 2021,
+      "ticker": "CLW",
+      "company_name": "CLEARWATER PAPER CORP",
+      "author": "alcideholder",
+      "direction_ko": "롱",
+      "is_short": false,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "capital cycle; unit economics; deleveraging; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "date": "2019-10-18",
+      "year": 2019,
+      "ticker": "CLW",
+      "company_name": "CLEARWATER PAPER CORP",
+      "author": "funkycold87",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "capital cycle; unit economics; deleveraging; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "date": "2010-12-04",
+      "year": 2010,
+      "ticker": "CLW",
+      "company_name": "CLEARWATER PAPER CORP",
+      "author": "anon13",
+      "direction_ko": "롱",
+      "is_short": false,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "capital cycle; unit economics; deleveraging; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "date": "2009-07-23",
+      "year": 2009,
+      "ticker": "CLW",
+      "company_name": "CLEARWATER PAPER CORP",
+      "author": "chris815",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "capital cycle; unit economics; deleveraging; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "date": "2012-12-18",
+      "year": 2012,
+      "ticker": "CLW",
+      "company_name": "CLEARWATER PAPER CORP",
+      "author": "ruby831",
+      "direction_ko": "롱",
+      "is_short": false,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "capital cycle; unit economics; deleveraging; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "date": "2020-05-25",
+      "year": 2020,
+      "ticker": "CLW",
+      "company_name": "CLEARWATER PAPER CORP",
+      "author": "alcideholder",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "capital cycle; unit economics; deleveraging; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "date": "2011-09-22",
+      "year": 2011,
+      "ticker": "CLW",
+      "company_name": "CLEARWATER PAPER CORP",
+      "author": "Shoe",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "capital cycle; unit economics; deleveraging; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "date": "2008-12-22",
+      "year": 2008,
+      "ticker": "CCK",
+      "company_name": "CROWN HOLDINGS INC",
+      "author": "lewis530",
+      "direction_ko": "롱",
+      "is_short": false,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "capital cycle; unit economics; deleveraging; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "date": "2004-01-22",
+      "year": 2004,
+      "ticker": "CCK",
+      "company_name": "CROWN HOLDINGS INC",
+      "author": "ar971",
+      "direction_ko": "롱",
+      "is_short": false,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "capital cycle; unit economics; deleveraging; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    }
+  ],
+  "postmortems": [
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "ticker": "CLW",
+      "research_direction_ko": "Long",
+      "company_description_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다.",
+      "original_thesis_ko": "SBS·tissue 가격 인상, Lewiston continuous digester 절감, Shelby NTT 증설 ramp, SG&A 절감이 동시에 겹치며 2019년 FCF가 급반등하고 multiple이 정상화된다는 논지.",
+      "actual_development_ko": "핵심 downside가 먼저 나타났다. Shelby 증설은 계획보다 약 두 분기 늦고 약 $40m 초과비용이 들었으며 continuous digester도 당초 기대한 $25~35m가 아니라 약 $10m 수준의 절감에 그쳤다. 2018년에는 $195.1m goodwill impairment까지 기록됐다. 다만 2020년 COVID tissue 수요와 낮아진 pulp cost로 영업이익이 크게 회복됐다.",
+      "thesis_verdict_ko": "가격·원가 mean reversion보다 Shelby ramp와 digester savings라는 execution 변수를 사실상 확정치처럼 취급한 것이 오류였다.",
+      "business_verdict_ko": "핵심 downside가 먼저 나타났다. Shelby 증설은 계획보다 약 두 분기 늦고 약 $40m 초과비용이 들었으며 continuous digester도 당초 기대한 $25~35m가 아니라 약 $10m 수준의 절감에 그쳤다. 2018년에는 $195.1m goodwill impairment까지 기록됐다. 다만 2020년 COVID tissue 수요와 낮아진 pulp cost로 영업이익이 크게 회복됐다.",
+      "catalyst_verdict_ko": "Shelby completion 지연·overrun과 digester savings 미달",
+      "valuation_verdict_ko": "$23.67, EV 약 $1.16bn, TTM EBITDA 약 $175m에서 정상화 EBITDA와 2019 FCF를 기대.",
+      "stock_verdict_ko": "초기 실패·후행 회복",
+      "current_verdict_ko": "핵심 downside가 먼저 나타났다. Shelby 증설은 계획보다 약 두 분기 늦고 약 $40m 초과비용이 들었으며 continuous digester도 당초 기대한 $25~35m가 아니라 약 $10m 수준의 절감에 그쳤다. 2018년에는 $195.1m goodwill impairment까지 기록됐다. 다만 2020년 COVID tissue 수요와 낮아진 pulp cost로 영업이익이 크게 회복됐다.",
+      "overall_verdict_ko": "초기 실패·후행 회복",
+      "why_ko": "가격·원가 mean reversion보다 Shelby ramp와 digester savings라는 execution 변수를 사실상 확정치처럼 취급한 것이 오류였다.",
+      "success_pattern_ko": "capital cycle; FCF; deleveraging",
+      "failure_pattern_ko": "execution overconfidence",
+      "root_error_ko": "가격·원가 mean reversion보다 Shelby ramp와 digester savings라는 execution 변수를 사실상 확정치처럼 취급한 것이 오류였다.",
+      "first_signal_ko": "Shelby completion 지연·overrun과 digester savings 미달",
+      "first_signal_date": "2019-12-31",
+      "knowable_at_t0_ko": "segment margin, input cost, project ramp, CapEx, FCF와 net debt를 공개자료로 추적 가능했다.",
+      "avoidability_ko": "높음",
+      "counterfactual_question_ko": "정상화 EBITDA가 맞더라도 maintenance/growth CapEx와 net debt를 반영한 per-share 기대수익이 남는가?",
+      "analyst_note_ko": "raw is_short=true 보존; 본문은 명백한 Long이므로 research layer에서 Long으로 교정.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.94,
+      "research_asof": "2025-02-13",
+      "research_status_ko": "외부검증 완료"
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "ticker": "CLW",
+      "research_direction_ko": "Long",
+      "company_description_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다.",
+      "original_thesis_ko": "840k tons SBS 가격 인상과 pulp 하락, Neenah 고비용 tissue 설비 폐쇄가 EBITDA/FCF를 높이고, 2.5x leverage 달성 후 buyback 또는 $65~75 strategic sale로 이어진다는 논지.",
+      "actual_development_ko": "직선형 earnings recovery는 아니었지만 portfolio simplification은 진행됐다. 2024년 tissue 사업을 Sofidel에 $1.06bn, 약 6x segment adjusted EBITDA에 매각했고 약 $850m net proceeds를 deleveraging에 쓰기로 했다. 전체 회사 매각은 아니었지만 strategic monetization 논지는 상당 부분 실현됐다.",
+      "thesis_verdict_ko": "가격·pulp만으로 timing을 맞히는 데는 한계가 있었지만 asset ownership, strategic buyer value, balance sheet를 연결한 점은 좋았다.",
+      "business_verdict_ko": "직선형 earnings recovery는 아니었지만 portfolio simplification은 진행됐다. 2024년 tissue 사업을 Sofidel에 $1.06bn, 약 6x segment adjusted EBITDA에 매각했고 약 $850m net proceeds를 deleveraging에 쓰기로 했다. 전체 회사 매각은 아니었지만 strategic monetization 논지는 상당 부분 실현됐다.",
+      "catalyst_verdict_ko": "tissue business $1.06bn 매각계약 발표",
+      "valuation_verdict_ko": "전체 회사 $65~75/share strategic value와 2.5x leverage를 선행조건으로 봄.",
+      "stock_verdict_ko": "구조적으로 성공·경로는 달랐음",
+      "current_verdict_ko": "직선형 earnings recovery는 아니었지만 portfolio simplification은 진행됐다. 2024년 tissue 사업을 Sofidel에 $1.06bn, 약 6x segment adjusted EBITDA에 매각했고 약 $850m net proceeds를 deleveraging에 쓰기로 했다. 전체 회사 매각은 아니었지만 strategic monetization 논지는 상당 부분 실현됐다.",
+      "overall_verdict_ko": "구조적으로 성공·경로는 달랐음",
+      "why_ko": "가격·pulp만으로 timing을 맞히는 데는 한계가 있었지만 asset ownership, strategic buyer value, balance sheet를 연결한 점은 좋았다.",
+      "success_pattern_ko": "capital cycle; FCF; deleveraging",
+      "failure_pattern_ko": "",
+      "root_error_ko": "가격·pulp만으로 timing을 맞히는 데는 한계가 있었지만 asset ownership, strategic buyer value, balance sheet를 연결한 점은 좋았다.",
+      "first_signal_ko": "tissue business $1.06bn 매각계약 발표",
+      "first_signal_date": "2024-07-22",
+      "knowable_at_t0_ko": "segment margin, input cost, project ramp, CapEx, FCF와 net debt를 공개자료로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "정상화 EBITDA가 맞더라도 maintenance/growth CapEx와 net debt를 반영한 per-share 기대수익이 남는가?",
+      "analyst_note_ko": "raw direction과 실제 본문 방향 모두 Long.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.94,
+      "research_asof": "2025-02-13",
+      "research_status_ko": "외부검증 완료"
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "ticker": "CLW",
+      "research_direction_ko": "Long",
+      "company_description_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다.",
+      "original_thesis_ko": "2016~18 pulp 급등과 tissue 가격하락으로 무너진 margin이 pulp 가격 하락과 Shelby 신규설비 ramp로 정상화되어 FCF·deleveraging이 시작된다는 논지.",
+      "actual_development_ko": "2019는 적자였지만 2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 2019의 $45.4m operating income와 -$5.6m net income에서 급반등했다. COVID 수요가 예상 밖 추가 tailwind였다.",
+      "thesis_verdict_ko": "가격보다 cost curve와 신규설비 utilization을 본 것이 맞았다. 다만 COVID가 recovery 속도를 크게 높였으므로 순수 thesis 기여도는 낮춰야 한다.",
+      "business_verdict_ko": "2019는 적자였지만 2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 2019의 $45.4m operating income와 -$5.6m net income에서 급반등했다. COVID 수요가 예상 밖 추가 tailwind였다.",
+      "catalyst_verdict_ko": "2020 tissue demand와 margin 급반등",
+      "valuation_verdict_ko": "$28+ 목표와 FCF/debt paydown을 연결.",
+      "stock_verdict_ko": "성공",
+      "current_verdict_ko": "2019는 적자였지만 2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 2019의 $45.4m operating income와 -$5.6m net income에서 급반등했다. COVID 수요가 예상 밖 추가 tailwind였다.",
+      "overall_verdict_ko": "성공",
+      "why_ko": "가격보다 cost curve와 신규설비 utilization을 본 것이 맞았다. 다만 COVID가 recovery 속도를 크게 높였으므로 순수 thesis 기여도는 낮춰야 한다.",
+      "success_pattern_ko": "capital cycle; FCF; deleveraging",
+      "failure_pattern_ko": "",
+      "root_error_ko": "가격보다 cost curve와 신규설비 utilization을 본 것이 맞았다. 다만 COVID가 recovery 속도를 크게 높였으므로 순수 thesis 기여도는 낮춰야 한다.",
+      "first_signal_ko": "2020 tissue demand와 margin 급반등",
+      "first_signal_date": "2020-12-31",
+      "knowable_at_t0_ko": "segment margin, input cost, project ramp, CapEx, FCF와 net debt를 공개자료로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "정상화 EBITDA가 맞더라도 maintenance/growth CapEx와 net debt를 반영한 per-share 기대수익이 남는가?",
+      "analyst_note_ko": "raw is_short=true 보존; 본문은 명백한 Long이므로 research layer에서 Long으로 교정.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.94,
+      "research_asof": "2025-02-13",
+      "research_status_ko": "외부검증 완료"
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "ticker": "CLW",
+      "research_direction_ko": "Long",
+      "company_description_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다.",
+      "original_thesis_ko": "Cellu Tissue를 6.5x EBITDA에 인수해 private-label tissue 비중을 약 60%로 높이고, 낮아질 pulp 가격과 $15~20m 이상 synergy로 2011~12 EBITDA가 street를 웃돌아 6x multiple에서 $100~120 가치가 가능하다는 논지.",
+      "actual_development_ko": "거래는 완료되어 전국 private-label tissue footprint를 만들었고 주가는 후속 수년 크게 상승했다. 그러나 통합 후 earnings는 pulp·경쟁가격·증설 CapEx에 흔들려 즉시 synergy와 clean rerating이라는 경로는 과도하게 매끄러웠다.",
+      "thesis_verdict_ko": "M&A 가격과 mix 개선은 잘 봤지만 commodity input과 후속 growth CapEx가 headline acquisition multiple을 무력화할 수 있다는 점을 작게 봤다.",
+      "business_verdict_ko": "거래는 완료되어 전국 private-label tissue footprint를 만들었고 주가는 후속 수년 크게 상승했다. 그러나 통합 후 earnings는 pulp·경쟁가격·증설 CapEx에 흔들려 즉시 synergy와 clean rerating이라는 경로는 과도하게 매끄러웠다.",
+      "catalyst_verdict_ko": "Cellu Tissue deal closing과 통합",
+      "valuation_verdict_ko": "$82에서 2011/12 EBITDA $254m/$290m, 6x로 $100~120 목표.",
+      "stock_verdict_ko": "중기 성공·과정은 혼합",
+      "current_verdict_ko": "거래는 완료되어 전국 private-label tissue footprint를 만들었고 주가는 후속 수년 크게 상승했다. 그러나 통합 후 earnings는 pulp·경쟁가격·증설 CapEx에 흔들려 즉시 synergy와 clean rerating이라는 경로는 과도하게 매끄러웠다.",
+      "overall_verdict_ko": "중기 성공·과정은 혼합",
+      "why_ko": "M&A 가격과 mix 개선은 잘 봤지만 commodity input과 후속 growth CapEx가 headline acquisition multiple을 무력화할 수 있다는 점을 작게 봤다.",
+      "success_pattern_ko": "capital cycle; FCF; deleveraging",
+      "failure_pattern_ko": "",
+      "root_error_ko": "M&A 가격과 mix 개선은 잘 봤지만 commodity input과 후속 growth CapEx가 headline acquisition multiple을 무력화할 수 있다는 점을 작게 봤다.",
+      "first_signal_ko": "Cellu Tissue deal closing과 통합",
+      "first_signal_date": "2010-12-31",
+      "knowable_at_t0_ko": "segment margin, input cost, project ramp, CapEx, FCF와 net debt를 공개자료로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "정상화 EBITDA가 맞더라도 maintenance/growth CapEx와 net debt를 반영한 per-share 기대수익이 남는가?",
+      "analyst_note_ko": "raw direction과 실제 본문 방향 모두 Long.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.94,
+      "research_asof": "2025-02-13",
+      "research_status_ko": "외부검증 완료"
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "ticker": "CLW",
+      "research_direction_ko": "Long",
+      "company_description_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다.",
+      "original_thesis_ko": "기존 사업만으로도 5~6x EBITDA의 할인인데 alternative-fuel mixture tax credit이 하루 약 $455k의 비과세 cash를 만들며 부채를 빠르게 없애고 dividend 가능성을 높인다는 논지.",
+      "actual_development_ko": "세액공제는 일회성이었지만 2009년 유동성·부채축소에 실질적 도움을 줬다. 이후 회사는 M&A와 증설에 다시 자본을 투입했으므로 무차입 구조가 영구적으로 유지되지는 않았다.",
+      "thesis_verdict_ko": "일회성 정책 cash를 EBITDA에 섞지 않고 balance-sheet event로 본 점이 좋았다. 일회성 현금은 영구 earnings가 아니라 순부채 bridge로 모델링해야 한다.",
+      "business_verdict_ko": "세액공제는 일회성이었지만 2009년 유동성·부채축소에 실질적 도움을 줬다. 이후 회사는 M&A와 증설에 다시 자본을 투입했으므로 무차입 구조가 영구적으로 유지되지는 않았다.",
+      "catalyst_verdict_ko": "tax-credit cash가 debt paydown에 반영",
+      "valuation_verdict_ko": "기존 사업 <5.6x TTM EBITDA + tax credit 별도 가치.",
+      "stock_verdict_ko": "특수상황 성공·영속성 주의",
+      "current_verdict_ko": "세액공제는 일회성이었지만 2009년 유동성·부채축소에 실질적 도움을 줬다. 이후 회사는 M&A와 증설에 다시 자본을 투입했으므로 무차입 구조가 영구적으로 유지되지는 않았다.",
+      "overall_verdict_ko": "특수상황 성공·영속성 주의",
+      "why_ko": "일회성 정책 cash를 EBITDA에 섞지 않고 balance-sheet event로 본 점이 좋았다. 일회성 현금은 영구 earnings가 아니라 순부채 bridge로 모델링해야 한다.",
+      "success_pattern_ko": "capital cycle; FCF; deleveraging",
+      "failure_pattern_ko": "",
+      "root_error_ko": "일회성 정책 cash를 EBITDA에 섞지 않고 balance-sheet event로 본 점이 좋았다. 일회성 현금은 영구 earnings가 아니라 순부채 bridge로 모델링해야 한다.",
+      "first_signal_ko": "tax-credit cash가 debt paydown에 반영",
+      "first_signal_date": "2009-12-31",
+      "knowable_at_t0_ko": "segment margin, input cost, project ramp, CapEx, FCF와 net debt를 공개자료로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "정상화 EBITDA가 맞더라도 maintenance/growth CapEx와 net debt를 반영한 per-share 기대수익이 남는가?",
+      "analyst_note_ko": "raw is_short=true 보존; 본문은 명백한 Long이므로 research layer에서 Long으로 교정.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.94,
+      "research_asof": "2025-02-13",
+      "research_status_ko": "외부검증 완료"
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "ticker": "CLW",
+      "research_direction_ko": "Long",
+      "company_description_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다.",
+      "original_thesis_ko": "tissue만으로 시가가치 대부분을 설명하고 paperboard는 사실상 공짜이며 Shelby 신규설비 가동 후 growth CapEx가 내려가면서 buyback/dividend로 자본배분이 바뀐다는 논지.",
+      "actual_development_ko": "2013~15 earnings와 주가가 크게 개선되어 SOTP discount는 상당 부분 축소됐다. 그러나 이후 tissue 가격경쟁과 대형 CapEx가 재개되어 영구적 harvest mode는 아니었다.",
+      "thesis_verdict_ko": "사업별 cash economics를 분리하고 capital allocation을 catalyst로 본 점이 강점이다. 다만 자본집약 기업의 CapEx 정상화는 영구상태가 아니다.",
+      "business_verdict_ko": "2013~15 earnings와 주가가 크게 개선되어 SOTP discount는 상당 부분 축소됐다. 그러나 이후 tissue 가격경쟁과 대형 CapEx가 재개되어 영구적 harvest mode는 아니었다.",
+      "catalyst_verdict_ko": "Shelby output와 capital-return 기대가 valuation에 반영",
+      "valuation_verdict_ko": "$39.50에서 SOTP 최대 약 $85/share.",
+      "stock_verdict_ko": "강한 중기 성공",
+      "current_verdict_ko": "2013~15 earnings와 주가가 크게 개선되어 SOTP discount는 상당 부분 축소됐다. 그러나 이후 tissue 가격경쟁과 대형 CapEx가 재개되어 영구적 harvest mode는 아니었다.",
+      "overall_verdict_ko": "강한 중기 성공",
+      "why_ko": "사업별 cash economics를 분리하고 capital allocation을 catalyst로 본 점이 강점이다. 다만 자본집약 기업의 CapEx 정상화는 영구상태가 아니다.",
+      "success_pattern_ko": "capital cycle; FCF; deleveraging",
+      "failure_pattern_ko": "",
+      "root_error_ko": "사업별 cash economics를 분리하고 capital allocation을 catalyst로 본 점이 강점이다. 다만 자본집약 기업의 CapEx 정상화는 영구상태가 아니다.",
+      "first_signal_ko": "Shelby output와 capital-return 기대가 valuation에 반영",
+      "first_signal_date": "2014-12-31",
+      "knowable_at_t0_ko": "segment margin, input cost, project ramp, CapEx, FCF와 net debt를 공개자료로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "정상화 EBITDA가 맞더라도 maintenance/growth CapEx와 net debt를 반영한 per-share 기대수익이 남는가?",
+      "analyst_note_ko": "raw direction과 실제 본문 방향 모두 Long.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.94,
+      "research_asof": "2025-02-13",
+      "research_status_ko": "외부검증 완료"
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "ticker": "CLW",
+      "research_direction_ko": "Long",
+      "company_description_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다.",
+      "original_thesis_ko": "재택·실업 증가로 at-home private-label tissue 수요가 강해지고 이미 끝난 대형 CapEx 덕분에 높은 EBITDA가 FCF와 debt reduction으로 전환된다는 논지.",
+      "actual_development_ko": "2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 전년 대비 급개선됐다. 회사 deck도 near-term priority를 free cash flow, debt reduction, Shelby benefits로 명시했다.",
+      "thesis_verdict_ko": "단순 COVID beneficiary가 아니라 growth CapEx가 끝난 시점이라 수요 개선이 FCF로 전환되는 capital-cycle 위치까지 함께 본 것이 좋았다.",
+      "business_verdict_ko": "2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 전년 대비 급개선됐다. 회사 deck도 near-term priority를 free cash flow, debt reduction, Shelby benefits로 명시했다.",
+      "catalyst_verdict_ko": "2020 실적의 sales·operating income 급개선",
+      "valuation_verdict_ko": "FCF로 2.5x net debt/EBITDA까지 deleveraging.",
+      "stock_verdict_ko": "강한 성공",
+      "current_verdict_ko": "2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 전년 대비 급개선됐다. 회사 deck도 near-term priority를 free cash flow, debt reduction, Shelby benefits로 명시했다.",
+      "overall_verdict_ko": "강한 성공",
+      "why_ko": "단순 COVID beneficiary가 아니라 growth CapEx가 끝난 시점이라 수요 개선이 FCF로 전환되는 capital-cycle 위치까지 함께 본 것이 좋았다.",
+      "success_pattern_ko": "capital cycle; FCF; deleveraging",
+      "failure_pattern_ko": "",
+      "root_error_ko": "단순 COVID beneficiary가 아니라 growth CapEx가 끝난 시점이라 수요 개선이 FCF로 전환되는 capital-cycle 위치까지 함께 본 것이 좋았다.",
+      "first_signal_ko": "2020 실적의 sales·operating income 급개선",
+      "first_signal_date": "2020-12-31",
+      "knowable_at_t0_ko": "segment margin, input cost, project ramp, CapEx, FCF와 net debt를 공개자료로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "정상화 EBITDA가 맞더라도 maintenance/growth CapEx와 net debt를 반영한 per-share 기대수익이 남는가?",
+      "analyst_note_ko": "raw is_short=true 보존; 본문은 명백한 Long이므로 research layer에서 Long으로 교정.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.94,
+      "research_asof": "2025-02-13",
+      "research_status_ko": "외부검증 완료"
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "ticker": "CLW",
+      "research_direction_ko": "Long",
+      "company_description_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다.",
+      "original_thesis_ko": "경기침체면 pulp가 내려가고 private-label share가 올라 이익이 개선되고, 침체가 아니면 Cellu Tissue 통합과 신규공장 가동으로 성장하는 양방향 payoff. 2년 EBITDA +44% 이상을 기대.",
+      "actual_development_ko": "후속 수년 EBITDA와 주가가 개선됐다. 핵심은 거시전망을 한 방향으로 맞히는 대신 recession/no-recession 모두에서 어떤 변수가 profit bridge를 지지하는지 명시한 점이다.",
+      "thesis_verdict_ko": "거시 시나리오를 binary forecast가 아니라 pulp cost와 private-label mix라는 미시 변수로 번역했다는 점이 재사용 가능하다.",
+      "business_verdict_ko": "후속 수년 EBITDA와 주가가 개선됐다. 핵심은 거시전망을 한 방향으로 맞히는 대신 recession/no-recession 모두에서 어떤 변수가 profit bridge를 지지하는지 명시한 점이다.",
+      "catalyst_verdict_ko": "Cellu 통합과 Shelby ramp로 EBITDA 개선",
+      "valuation_verdict_ko": "$33.5에서 2년 EBITDA +44%+, pulp $50 하락 시 EBITDA 약 $20m 증가.",
+      "stock_verdict_ko": "강한 중기 성공",
+      "current_verdict_ko": "후속 수년 EBITDA와 주가가 개선됐다. 핵심은 거시전망을 한 방향으로 맞히는 대신 recession/no-recession 모두에서 어떤 변수가 profit bridge를 지지하는지 명시한 점이다.",
+      "overall_verdict_ko": "강한 중기 성공",
+      "why_ko": "거시 시나리오를 binary forecast가 아니라 pulp cost와 private-label mix라는 미시 변수로 번역했다는 점이 재사용 가능하다.",
+      "success_pattern_ko": "capital cycle; FCF; deleveraging",
+      "failure_pattern_ko": "",
+      "root_error_ko": "거시 시나리오를 binary forecast가 아니라 pulp cost와 private-label mix라는 미시 변수로 번역했다는 점이 재사용 가능하다.",
+      "first_signal_ko": "Cellu 통합과 Shelby ramp로 EBITDA 개선",
+      "first_signal_date": "2013-12-31",
+      "knowable_at_t0_ko": "segment margin, input cost, project ramp, CapEx, FCF와 net debt를 공개자료로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "정상화 EBITDA가 맞더라도 maintenance/growth CapEx와 net debt를 반영한 per-share 기대수익이 남는가?",
+      "analyst_note_ko": "raw is_short=true 보존; 본문은 명백한 Long이므로 research layer에서 Long으로 교정.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.94,
+      "research_asof": "2025-02-13",
+      "research_status_ko": "외부검증 완료"
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "ticker": "CCK",
+      "research_direction_ko": "Long",
+      "company_description_ko": "Crown Holdings는 beverage·food metal can과 closures를 만드는 글로벌 포장재 업체다. 식음료 수요의 방어성, 지역별 과점, 원재료 pass-through가 장점이지만 높은 부채와 asbestos legacy liability가 오랫동안 equity multiple을 눌렀다.",
+      "original_thesis_ko": "경기침체에도 beverage/food can volume은 방어적이고 food can 가격 인상, 원가 pass-through, 부채상환에 따른 이자감소가 2009 EPS를 $1.96 수준으로 방어한다는 논지.",
+      "actual_development_ko": "Crown은 2009 full-year EPS before items $2.01, operating cash flow $756m, free cash flow $612m을 기록했고 부채를 $500m 이상 줄였다. 원문의 $1.96 EPS 기대를 웃돌았다.",
+      "thesis_verdict_ko": "recession defensiveness보다 중요한 것은 FCF→debt paydown→interest 감소→equity value 증가의 capital-structure flywheel을 정확히 잡은 점이다.",
+      "business_verdict_ko": "Crown은 2009 full-year EPS before items $2.01, operating cash flow $756m, free cash flow $612m을 기록했고 부채를 $500m 이상 줄였다. 원문의 $1.96 EPS 기대를 웃돌았다.",
+      "catalyst_verdict_ko": "2009 현금흐름과 $500m+ debt paydown",
+      "valuation_verdict_ko": "2009 EPS $1.96 vs 당시 consensus 약 $1.92, FCF로 debt reduction.",
+      "stock_verdict_ko": "강한 성공",
+      "current_verdict_ko": "Crown은 2009 full-year EPS before items $2.01, operating cash flow $756m, free cash flow $612m을 기록했고 부채를 $500m 이상 줄였다. 원문의 $1.96 EPS 기대를 웃돌았다.",
+      "overall_verdict_ko": "강한 성공",
+      "why_ko": "recession defensiveness보다 중요한 것은 FCF→debt paydown→interest 감소→equity value 증가의 capital-structure flywheel을 정확히 잡은 점이다.",
+      "success_pattern_ko": "capital cycle; FCF; deleveraging",
+      "failure_pattern_ko": "",
+      "root_error_ko": "recession defensiveness보다 중요한 것은 FCF→debt paydown→interest 감소→equity value 증가의 capital-structure flywheel을 정확히 잡은 점이다.",
+      "first_signal_ko": "2009 현금흐름과 $500m+ debt paydown",
+      "first_signal_date": "2009-12-31",
+      "knowable_at_t0_ko": "segment margin, input cost, project ramp, CapEx, FCF와 net debt를 공개자료로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "정상화 EBITDA가 맞더라도 maintenance/growth CapEx와 net debt를 반영한 per-share 기대수익이 남는가?",
+      "analyst_note_ko": "raw direction과 실제 본문 방향 모두 Long.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.94,
+      "research_asof": "2025-02-13",
+      "research_status_ko": "외부검증 완료"
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "ticker": "CCK",
+      "research_direction_ko": "Long",
+      "company_description_ko": "Crown Holdings는 beverage·food metal can과 closures를 만드는 글로벌 포장재 업체다. 식음료 수요의 방어성, 지역별 과점, 원재료 pass-through가 장점이지만 높은 부채와 asbestos legacy liability가 오랫동안 equity multiple을 눌렀다.",
+      "original_thesis_ko": "최소 연간 FCF 약 $230m, 약 15% sustainable FCF yield의 안정적 can 사업이 부채를 상환하면 equity가 convex하게 증가하고, asbestos liability는 headline 공포보다 실제 cash drain 기준으로 감당 가능하다는 논지.",
+      "actual_development_ko": "Crown은 후속 수년 debt를 줄이고 신용도를 회복했다. 2004 asbestos cash payments는 $41m, year-end accrual은 $233m이었고 probable/estimable range는 $233~351m이었다. Florida·Ohio·Mississippi 등의 successor-liability 제한 법률도 법적 tail risk를 완화했다.",
+      "thesis_verdict_ko": "기업가치가 정체해도 debt repayment만으로 equity가 증가하는 구조를 본 것이 핵심이다. asbestos는 binary catastrophe가 아니라 annual cash drain과 reserve range로 정량화했다.",
+      "business_verdict_ko": "Crown은 후속 수년 debt를 줄이고 신용도를 회복했다. 2004 asbestos cash payments는 $41m, year-end accrual은 $233m이었고 probable/estimable range는 $233~351m이었다. Florida·Ohio·Mississippi 등의 successor-liability 제한 법률도 법적 tail risk를 완화했다.",
+      "catalyst_verdict_ko": "deleveraging 지속과 asbestos cash outflow 안정화",
+      "valuation_verdict_ko": "최소 FCF 약 $230m, 약 15% sustainable FCF yield.",
+      "stock_verdict_ko": "강한 성공",
+      "current_verdict_ko": "Crown은 후속 수년 debt를 줄이고 신용도를 회복했다. 2004 asbestos cash payments는 $41m, year-end accrual은 $233m이었고 probable/estimable range는 $233~351m이었다. Florida·Ohio·Mississippi 등의 successor-liability 제한 법률도 법적 tail risk를 완화했다.",
+      "overall_verdict_ko": "강한 성공",
+      "why_ko": "기업가치가 정체해도 debt repayment만으로 equity가 증가하는 구조를 본 것이 핵심이다. asbestos는 binary catastrophe가 아니라 annual cash drain과 reserve range로 정량화했다.",
+      "success_pattern_ko": "capital cycle; FCF; deleveraging",
+      "failure_pattern_ko": "",
+      "root_error_ko": "기업가치가 정체해도 debt repayment만으로 equity가 증가하는 구조를 본 것이 핵심이다. asbestos는 binary catastrophe가 아니라 annual cash drain과 reserve range로 정량화했다.",
+      "first_signal_ko": "deleveraging 지속과 asbestos cash outflow 안정화",
+      "first_signal_date": "2005-12-31",
+      "knowable_at_t0_ko": "segment margin, input cost, project ramp, CapEx, FCF와 net debt를 공개자료로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "정상화 EBITDA가 맞더라도 maintenance/growth CapEx와 net debt를 반영한 per-share 기대수익이 남는가?",
+      "analyst_note_ko": "raw direction과 실제 본문 방향 모두 Long.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.94,
+      "research_asof": "2025-02-13",
+      "research_status_ko": "외부검증 완료"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "analysis_depth_ko": "심층",
+      "report_version": "deep_v7",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "초기 실패·후행 회복",
+      "thesis_score": 6.2,
+      "process_score": 5.8,
+      "return_summary_ko": "핵심 downside가 먼저 나타났다. Shelby 증설은 계획보다 약 두 분기 늦고 약 $40m 초과비용이 들었으며 continuous digester도 당초 기대한 $25~35m가 아니라 약 $10m 수준의 절감에 그쳤다. 2018년에는 $195.1m goodwill impairment까지 기록됐다. 다만 2020년 COVID tissue 수요와 낮아진 pulp cost로 영업이익이 크게 회복됐다.",
+      "core_error_ko": "가격·원가 mean reversion보다 Shelby ramp와 digester savings라는 execution 변수를 사실상 확정치처럼 취급한 것이 오류였다.",
+      "core_insight_ko": "commodity/capital-intensive 기업은 price-cost-volume과 CapEx, debt를 한 bridge로 연결해야 한다.",
+      "research_asof": "2025-02-13"
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "analysis_depth_ko": "심층",
+      "report_version": "deep_v7",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "구조적으로 성공·경로는 달랐음",
+      "thesis_score": 8.5,
+      "process_score": 8.1,
+      "return_summary_ko": "직선형 earnings recovery는 아니었지만 portfolio simplification은 진행됐다. 2024년 tissue 사업을 Sofidel에 $1.06bn, 약 6x segment adjusted EBITDA에 매각했고 약 $850m net proceeds를 deleveraging에 쓰기로 했다. 전체 회사 매각은 아니었지만 strategic monetization 논지는 상당 부분 실현됐다.",
+      "core_error_ko": "가격·pulp만으로 timing을 맞히는 데는 한계가 있었지만 asset ownership, strategic buyer value, balance sheet를 연결한 점은 좋았다.",
+      "core_insight_ko": "commodity/capital-intensive 기업은 price-cost-volume과 CapEx, debt를 한 bridge로 연결해야 한다.",
+      "research_asof": "2025-02-13"
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "analysis_depth_ko": "심층",
+      "report_version": "deep_v7",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "성공",
+      "thesis_score": 8.5,
+      "process_score": 8.1,
+      "return_summary_ko": "2019는 적자였지만 2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 2019의 $45.4m operating income와 -$5.6m net income에서 급반등했다. COVID 수요가 예상 밖 추가 tailwind였다.",
+      "core_error_ko": "가격보다 cost curve와 신규설비 utilization을 본 것이 맞았다. 다만 COVID가 recovery 속도를 크게 높였으므로 순수 thesis 기여도는 낮춰야 한다.",
+      "core_insight_ko": "commodity/capital-intensive 기업은 price-cost-volume과 CapEx, debt를 한 bridge로 연결해야 한다.",
+      "research_asof": "2025-02-13"
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "analysis_depth_ko": "심층",
+      "report_version": "deep_v7",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "중기 성공·과정은 혼합",
+      "thesis_score": 8.5,
+      "process_score": 8.1,
+      "return_summary_ko": "거래는 완료되어 전국 private-label tissue footprint를 만들었고 주가는 후속 수년 크게 상승했다. 그러나 통합 후 earnings는 pulp·경쟁가격·증설 CapEx에 흔들려 즉시 synergy와 clean rerating이라는 경로는 과도하게 매끄러웠다.",
+      "core_error_ko": "M&A 가격과 mix 개선은 잘 봤지만 commodity input과 후속 growth CapEx가 headline acquisition multiple을 무력화할 수 있다는 점을 작게 봤다.",
+      "core_insight_ko": "commodity/capital-intensive 기업은 price-cost-volume과 CapEx, debt를 한 bridge로 연결해야 한다.",
+      "research_asof": "2025-02-13"
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "analysis_depth_ko": "심층",
+      "report_version": "deep_v7",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "특수상황 성공·영속성 주의",
+      "thesis_score": 8.5,
+      "process_score": 8.1,
+      "return_summary_ko": "세액공제는 일회성이었지만 2009년 유동성·부채축소에 실질적 도움을 줬다. 이후 회사는 M&A와 증설에 다시 자본을 투입했으므로 무차입 구조가 영구적으로 유지되지는 않았다.",
+      "core_error_ko": "일회성 정책 cash를 EBITDA에 섞지 않고 balance-sheet event로 본 점이 좋았다. 일회성 현금은 영구 earnings가 아니라 순부채 bridge로 모델링해야 한다.",
+      "core_insight_ko": "commodity/capital-intensive 기업은 price-cost-volume과 CapEx, debt를 한 bridge로 연결해야 한다.",
+      "research_asof": "2025-02-13"
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "analysis_depth_ko": "심층",
+      "report_version": "deep_v7",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "강한 중기 성공",
+      "thesis_score": 8.5,
+      "process_score": 8.1,
+      "return_summary_ko": "2013~15 earnings와 주가가 크게 개선되어 SOTP discount는 상당 부분 축소됐다. 그러나 이후 tissue 가격경쟁과 대형 CapEx가 재개되어 영구적 harvest mode는 아니었다.",
+      "core_error_ko": "사업별 cash economics를 분리하고 capital allocation을 catalyst로 본 점이 강점이다. 다만 자본집약 기업의 CapEx 정상화는 영구상태가 아니다.",
+      "core_insight_ko": "commodity/capital-intensive 기업은 price-cost-volume과 CapEx, debt를 한 bridge로 연결해야 한다.",
+      "research_asof": "2025-02-13"
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "analysis_depth_ko": "심층",
+      "report_version": "deep_v7",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "강한 성공",
+      "thesis_score": 8.5,
+      "process_score": 8.1,
+      "return_summary_ko": "2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 전년 대비 급개선됐다. 회사 deck도 near-term priority를 free cash flow, debt reduction, Shelby benefits로 명시했다.",
+      "core_error_ko": "단순 COVID beneficiary가 아니라 growth CapEx가 끝난 시점이라 수요 개선이 FCF로 전환되는 capital-cycle 위치까지 함께 본 것이 좋았다.",
+      "core_insight_ko": "commodity/capital-intensive 기업은 price-cost-volume과 CapEx, debt를 한 bridge로 연결해야 한다.",
+      "research_asof": "2025-02-13"
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "analysis_depth_ko": "심층",
+      "report_version": "deep_v7",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "강한 중기 성공",
+      "thesis_score": 8.5,
+      "process_score": 8.1,
+      "return_summary_ko": "후속 수년 EBITDA와 주가가 개선됐다. 핵심은 거시전망을 한 방향으로 맞히는 대신 recession/no-recession 모두에서 어떤 변수가 profit bridge를 지지하는지 명시한 점이다.",
+      "core_error_ko": "거시 시나리오를 binary forecast가 아니라 pulp cost와 private-label mix라는 미시 변수로 번역했다는 점이 재사용 가능하다.",
+      "core_insight_ko": "commodity/capital-intensive 기업은 price-cost-volume과 CapEx, debt를 한 bridge로 연결해야 한다.",
+      "research_asof": "2025-02-13"
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "analysis_depth_ko": "심층",
+      "report_version": "deep_v7",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "강한 성공",
+      "thesis_score": 8.5,
+      "process_score": 8.1,
+      "return_summary_ko": "Crown은 2009 full-year EPS before items $2.01, operating cash flow $756m, free cash flow $612m을 기록했고 부채를 $500m 이상 줄였다. 원문의 $1.96 EPS 기대를 웃돌았다.",
+      "core_error_ko": "recession defensiveness보다 중요한 것은 FCF→debt paydown→interest 감소→equity value 증가의 capital-structure flywheel을 정확히 잡은 점이다.",
+      "core_insight_ko": "commodity/capital-intensive 기업은 price-cost-volume과 CapEx, debt를 한 bridge로 연결해야 한다.",
+      "research_asof": "2025-02-13"
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "analysis_depth_ko": "심층",
+      "report_version": "deep_v7",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "강한 성공",
+      "thesis_score": 8.5,
+      "process_score": 8.1,
+      "return_summary_ko": "Crown은 후속 수년 debt를 줄이고 신용도를 회복했다. 2004 asbestos cash payments는 $41m, year-end accrual은 $233m이었고 probable/estimable range는 $233~351m이었다. Florida·Ohio·Mississippi 등의 successor-liability 제한 법률도 법적 tail risk를 완화했다.",
+      "core_error_ko": "기업가치가 정체해도 debt repayment만으로 equity가 증가하는 구조를 본 것이 핵심이다. asbestos는 binary catastrophe가 아니라 annual cash drain과 reserve range로 정량화했다.",
+      "core_insight_ko": "commodity/capital-intensive 기업은 price-cost-volume과 CapEx, debt를 한 bridge로 연결해야 한다.",
+      "research_asof": "2025-02-13"
+    }
+  ],
+  "sections": [
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다."
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다. 매출성장보다 톤당 contribution margin, 공장 utilization, maintenance/growth CapEx, 순부채를 함께 봐야 한다."
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "CLW는 retailer relationship과 integrated footprint, CCK는 고객 공동투자·공장 density·장기계약이 장점이다. 동시에 원재료 pass-through timing과 높은 고정비가 cycle volatility를 만든다."
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "SBS·tissue 가격 인상, Lewiston continuous digester 절감, Shelby NTT 증설 ramp, SG&A 절감이 동시에 겹치며 2019년 FCF가 급반등하고 multiple이 정상화된다는 논지. $23.67, EV 약 $1.16bn, TTM EBITDA 약 $175m에서 정상화 EBITDA와 2019 FCF를 기대."
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "$23.67, EV 약 $1.16bn, TTM EBITDA 약 $175m에서 정상화 EBITDA와 2019 FCF를 기대. EBITDA multiple보다 FCF가 순부채를 얼마나 빨리 낮추고 equity에 이전되는지를 계산해야 한다."
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "핵심 downside가 먼저 나타났다. Shelby 증설은 계획보다 약 두 분기 늦고 약 $40m 초과비용이 들었으며 continuous digester도 당초 기대한 $25~35m가 아니라 약 $10m 수준의 절감에 그쳤다. 2018년에는 $195.1m goodwill impairment까지 기록됐다. 다만 2020년 COVID tissue 수요와 낮아진 pulp cost로 영업이익이 크게 회복됐다."
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "가격·원가 mean reversion보다 Shelby ramp와 digester savings라는 execution 변수를 사실상 확정치처럼 취급한 것이 오류였다."
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "가격·원가 mean reversion보다 Shelby ramp와 digester savings라는 execution 변수를 사실상 확정치처럼 취급한 것이 오류였다."
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "segment margin, project ramp, FCF, net debt 중 두 개 이상이 반대면 축소했어야 한다. 첫 신호는 Shelby completion 지연·overrun과 digester savings 미달였다."
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "가격 인상은 thesis가 아니라 bridge의 한 줄이다. 증설은 완공이 아니라 안정가동·수율·고객승인까지 확인하고 일회성 현금은 normalized earnings와 분리한다."
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다."
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다. 매출성장보다 톤당 contribution margin, 공장 utilization, maintenance/growth CapEx, 순부채를 함께 봐야 한다."
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "CLW는 retailer relationship과 integrated footprint, CCK는 고객 공동투자·공장 density·장기계약이 장점이다. 동시에 원재료 pass-through timing과 높은 고정비가 cycle volatility를 만든다."
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "840k tons SBS 가격 인상과 pulp 하락, Neenah 고비용 tissue 설비 폐쇄가 EBITDA/FCF를 높이고, 2.5x leverage 달성 후 buyback 또는 $65~75 strategic sale로 이어진다는 논지. 전체 회사 $65~75/share strategic value와 2.5x leverage를 선행조건으로 봄."
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "전체 회사 $65~75/share strategic value와 2.5x leverage를 선행조건으로 봄. EBITDA multiple보다 FCF가 순부채를 얼마나 빨리 낮추고 equity에 이전되는지를 계산해야 한다."
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "직선형 earnings recovery는 아니었지만 portfolio simplification은 진행됐다. 2024년 tissue 사업을 Sofidel에 $1.06bn, 약 6x segment adjusted EBITDA에 매각했고 약 $850m net proceeds를 deleveraging에 쓰기로 했다. 전체 회사 매각은 아니었지만 strategic monetization 논지는 상당 부분 실현됐다."
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "가격·pulp만으로 timing을 맞히는 데는 한계가 있었지만 asset ownership, strategic buyer value, balance sheet를 연결한 점은 좋았다."
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "가격·pulp만으로 timing을 맞히는 데는 한계가 있었지만 asset ownership, strategic buyer value, balance sheet를 연결한 점은 좋았다."
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "segment margin, project ramp, FCF, net debt 중 두 개 이상이 반대면 축소했어야 한다. 첫 신호는 tissue business $1.06bn 매각계약 발표였다."
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "가격 인상은 thesis가 아니라 bridge의 한 줄이다. 증설은 완공이 아니라 안정가동·수율·고객승인까지 확인하고 일회성 현금은 normalized earnings와 분리한다."
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다."
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다. 매출성장보다 톤당 contribution margin, 공장 utilization, maintenance/growth CapEx, 순부채를 함께 봐야 한다."
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "CLW는 retailer relationship과 integrated footprint, CCK는 고객 공동투자·공장 density·장기계약이 장점이다. 동시에 원재료 pass-through timing과 높은 고정비가 cycle volatility를 만든다."
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2016~18 pulp 급등과 tissue 가격하락으로 무너진 margin이 pulp 가격 하락과 Shelby 신규설비 ramp로 정상화되어 FCF·deleveraging이 시작된다는 논지. $28+ 목표와 FCF/debt paydown을 연결."
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "$28+ 목표와 FCF/debt paydown을 연결. EBITDA multiple보다 FCF가 순부채를 얼마나 빨리 낮추고 equity에 이전되는지를 계산해야 한다."
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2019는 적자였지만 2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 2019의 $45.4m operating income와 -$5.6m net income에서 급반등했다. COVID 수요가 예상 밖 추가 tailwind였다."
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "가격보다 cost curve와 신규설비 utilization을 본 것이 맞았다. 다만 COVID가 recovery 속도를 크게 높였으므로 순수 thesis 기여도는 낮춰야 한다."
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "가격보다 cost curve와 신규설비 utilization을 본 것이 맞았다. 다만 COVID가 recovery 속도를 크게 높였으므로 순수 thesis 기여도는 낮춰야 한다."
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "segment margin, project ramp, FCF, net debt 중 두 개 이상이 반대면 축소했어야 한다. 첫 신호는 2020 tissue demand와 margin 급반등였다."
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "가격 인상은 thesis가 아니라 bridge의 한 줄이다. 증설은 완공이 아니라 안정가동·수율·고객승인까지 확인하고 일회성 현금은 normalized earnings와 분리한다."
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다."
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다. 매출성장보다 톤당 contribution margin, 공장 utilization, maintenance/growth CapEx, 순부채를 함께 봐야 한다."
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "CLW는 retailer relationship과 integrated footprint, CCK는 고객 공동투자·공장 density·장기계약이 장점이다. 동시에 원재료 pass-through timing과 높은 고정비가 cycle volatility를 만든다."
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "Cellu Tissue를 6.5x EBITDA에 인수해 private-label tissue 비중을 약 60%로 높이고, 낮아질 pulp 가격과 $15~20m 이상 synergy로 2011~12 EBITDA가 street를 웃돌아 6x multiple에서 $100~120 가치가 가능하다는 논지. $82에서 2011/12 EBITDA $254m/$290m, 6x로 $100~120 목표."
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "$82에서 2011/12 EBITDA $254m/$290m, 6x로 $100~120 목표. EBITDA multiple보다 FCF가 순부채를 얼마나 빨리 낮추고 equity에 이전되는지를 계산해야 한다."
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "거래는 완료되어 전국 private-label tissue footprint를 만들었고 주가는 후속 수년 크게 상승했다. 그러나 통합 후 earnings는 pulp·경쟁가격·증설 CapEx에 흔들려 즉시 synergy와 clean rerating이라는 경로는 과도하게 매끄러웠다."
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "M&A 가격과 mix 개선은 잘 봤지만 commodity input과 후속 growth CapEx가 headline acquisition multiple을 무력화할 수 있다는 점을 작게 봤다."
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "M&A 가격과 mix 개선은 잘 봤지만 commodity input과 후속 growth CapEx가 headline acquisition multiple을 무력화할 수 있다는 점을 작게 봤다."
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "segment margin, project ramp, FCF, net debt 중 두 개 이상이 반대면 축소했어야 한다. 첫 신호는 Cellu Tissue deal closing과 통합였다."
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "가격 인상은 thesis가 아니라 bridge의 한 줄이다. 증설은 완공이 아니라 안정가동·수율·고객승인까지 확인하고 일회성 현금은 normalized earnings와 분리한다."
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다."
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다. 매출성장보다 톤당 contribution margin, 공장 utilization, maintenance/growth CapEx, 순부채를 함께 봐야 한다."
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "CLW는 retailer relationship과 integrated footprint, CCK는 고객 공동투자·공장 density·장기계약이 장점이다. 동시에 원재료 pass-through timing과 높은 고정비가 cycle volatility를 만든다."
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "기존 사업만으로도 5~6x EBITDA의 할인인데 alternative-fuel mixture tax credit이 하루 약 $455k의 비과세 cash를 만들며 부채를 빠르게 없애고 dividend 가능성을 높인다는 논지. 기존 사업 <5.6x TTM EBITDA + tax credit 별도 가치."
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "기존 사업 <5.6x TTM EBITDA + tax credit 별도 가치. EBITDA multiple보다 FCF가 순부채를 얼마나 빨리 낮추고 equity에 이전되는지를 계산해야 한다."
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "세액공제는 일회성이었지만 2009년 유동성·부채축소에 실질적 도움을 줬다. 이후 회사는 M&A와 증설에 다시 자본을 투입했으므로 무차입 구조가 영구적으로 유지되지는 않았다."
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "일회성 정책 cash를 EBITDA에 섞지 않고 balance-sheet event로 본 점이 좋았다. 일회성 현금은 영구 earnings가 아니라 순부채 bridge로 모델링해야 한다."
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "일회성 정책 cash를 EBITDA에 섞지 않고 balance-sheet event로 본 점이 좋았다. 일회성 현금은 영구 earnings가 아니라 순부채 bridge로 모델링해야 한다."
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "segment margin, project ramp, FCF, net debt 중 두 개 이상이 반대면 축소했어야 한다. 첫 신호는 tax-credit cash가 debt paydown에 반영였다."
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "가격 인상은 thesis가 아니라 bridge의 한 줄이다. 증설은 완공이 아니라 안정가동·수율·고객승인까지 확인하고 일회성 현금은 normalized earnings와 분리한다."
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다."
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다. 매출성장보다 톤당 contribution margin, 공장 utilization, maintenance/growth CapEx, 순부채를 함께 봐야 한다."
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "CLW는 retailer relationship과 integrated footprint, CCK는 고객 공동투자·공장 density·장기계약이 장점이다. 동시에 원재료 pass-through timing과 높은 고정비가 cycle volatility를 만든다."
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "tissue만으로 시가가치 대부분을 설명하고 paperboard는 사실상 공짜이며 Shelby 신규설비 가동 후 growth CapEx가 내려가면서 buyback/dividend로 자본배분이 바뀐다는 논지. $39.50에서 SOTP 최대 약 $85/share."
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "$39.50에서 SOTP 최대 약 $85/share. EBITDA multiple보다 FCF가 순부채를 얼마나 빨리 낮추고 equity에 이전되는지를 계산해야 한다."
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2013~15 earnings와 주가가 크게 개선되어 SOTP discount는 상당 부분 축소됐다. 그러나 이후 tissue 가격경쟁과 대형 CapEx가 재개되어 영구적 harvest mode는 아니었다."
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "사업별 cash economics를 분리하고 capital allocation을 catalyst로 본 점이 강점이다. 다만 자본집약 기업의 CapEx 정상화는 영구상태가 아니다."
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "사업별 cash economics를 분리하고 capital allocation을 catalyst로 본 점이 강점이다. 다만 자본집약 기업의 CapEx 정상화는 영구상태가 아니다."
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "segment margin, project ramp, FCF, net debt 중 두 개 이상이 반대면 축소했어야 한다. 첫 신호는 Shelby output와 capital-return 기대가 valuation에 반영였다."
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "가격 인상은 thesis가 아니라 bridge의 한 줄이다. 증설은 완공이 아니라 안정가동·수율·고객승인까지 확인하고 일회성 현금은 normalized earnings와 분리한다."
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다."
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다. 매출성장보다 톤당 contribution margin, 공장 utilization, maintenance/growth CapEx, 순부채를 함께 봐야 한다."
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "CLW는 retailer relationship과 integrated footprint, CCK는 고객 공동투자·공장 density·장기계약이 장점이다. 동시에 원재료 pass-through timing과 높은 고정비가 cycle volatility를 만든다."
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "재택·실업 증가로 at-home private-label tissue 수요가 강해지고 이미 끝난 대형 CapEx 덕분에 높은 EBITDA가 FCF와 debt reduction으로 전환된다는 논지. FCF로 2.5x net debt/EBITDA까지 deleveraging."
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "FCF로 2.5x net debt/EBITDA까지 deleveraging. EBITDA multiple보다 FCF가 순부채를 얼마나 빨리 낮추고 equity에 이전되는지를 계산해야 한다."
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 전년 대비 급개선됐다. 회사 deck도 near-term priority를 free cash flow, debt reduction, Shelby benefits로 명시했다."
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "단순 COVID beneficiary가 아니라 growth CapEx가 끝난 시점이라 수요 개선이 FCF로 전환되는 capital-cycle 위치까지 함께 본 것이 좋았다."
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "단순 COVID beneficiary가 아니라 growth CapEx가 끝난 시점이라 수요 개선이 FCF로 전환되는 capital-cycle 위치까지 함께 본 것이 좋았다."
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "segment margin, project ramp, FCF, net debt 중 두 개 이상이 반대면 축소했어야 한다. 첫 신호는 2020 실적의 sales·operating income 급개선였다."
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "가격 인상은 thesis가 아니라 bridge의 한 줄이다. 증설은 완공이 아니라 안정가동·수율·고객승인까지 확인하고 일회성 현금은 normalized earnings와 분리한다."
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다."
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Clearwater Paper는 당시 private-label tissue와 SBS(bleached paperboard)를 함께 운영한 북미 펄프·제지 업체다. Tissue는 소매 private brand 점유율과 pulp/freight 비용, paperboard는 SBS 가격·가동률·목재/에너지 비용이 핵심이다. 두 사업 모두 고정비가 커 증설 후 utilization이 올라갈 때 incremental margin이 커지지만 공사 지연·원가상승·과잉설비가 나면 FCF가 훼손된다. 매출성장보다 톤당 contribution margin, 공장 utilization, maintenance/growth CapEx, 순부채를 함께 봐야 한다."
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "CLW는 retailer relationship과 integrated footprint, CCK는 고객 공동투자·공장 density·장기계약이 장점이다. 동시에 원재료 pass-through timing과 높은 고정비가 cycle volatility를 만든다."
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "경기침체면 pulp가 내려가고 private-label share가 올라 이익이 개선되고, 침체가 아니면 Cellu Tissue 통합과 신규공장 가동으로 성장하는 양방향 payoff. 2년 EBITDA +44% 이상을 기대. $33.5에서 2년 EBITDA +44%+, pulp $50 하락 시 EBITDA 약 $20m 증가."
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "$33.5에서 2년 EBITDA +44%+, pulp $50 하락 시 EBITDA 약 $20m 증가. EBITDA multiple보다 FCF가 순부채를 얼마나 빨리 낮추고 equity에 이전되는지를 계산해야 한다."
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "후속 수년 EBITDA와 주가가 개선됐다. 핵심은 거시전망을 한 방향으로 맞히는 대신 recession/no-recession 모두에서 어떤 변수가 profit bridge를 지지하는지 명시한 점이다."
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "거시 시나리오를 binary forecast가 아니라 pulp cost와 private-label mix라는 미시 변수로 번역했다는 점이 재사용 가능하다."
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "거시 시나리오를 binary forecast가 아니라 pulp cost와 private-label mix라는 미시 변수로 번역했다는 점이 재사용 가능하다."
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "segment margin, project ramp, FCF, net debt 중 두 개 이상이 반대면 축소했어야 한다. 첫 신호는 Cellu 통합과 Shelby ramp로 EBITDA 개선였다."
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "가격 인상은 thesis가 아니라 bridge의 한 줄이다. 증설은 완공이 아니라 안정가동·수율·고객승인까지 확인하고 일회성 현금은 normalized earnings와 분리한다."
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Crown Holdings는 beverage·food metal can과 closures를 만드는 글로벌 포장재 업체다. 식음료 수요의 방어성, 지역별 과점, 원재료 pass-through가 장점이지만 높은 부채와 asbestos legacy liability가 오랫동안 equity multiple을 눌렀다."
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Crown Holdings는 beverage·food metal can과 closures를 만드는 글로벌 포장재 업체다. 식음료 수요의 방어성, 지역별 과점, 원재료 pass-through가 장점이지만 높은 부채와 asbestos legacy liability가 오랫동안 equity multiple을 눌렀다. 매출성장보다 톤당 contribution margin, 공장 utilization, maintenance/growth CapEx, 순부채를 함께 봐야 한다."
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "CLW는 retailer relationship과 integrated footprint, CCK는 고객 공동투자·공장 density·장기계약이 장점이다. 동시에 원재료 pass-through timing과 높은 고정비가 cycle volatility를 만든다."
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "경기침체에도 beverage/food can volume은 방어적이고 food can 가격 인상, 원가 pass-through, 부채상환에 따른 이자감소가 2009 EPS를 $1.96 수준으로 방어한다는 논지. 2009 EPS $1.96 vs 당시 consensus 약 $1.92, FCF로 debt reduction."
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "2009 EPS $1.96 vs 당시 consensus 약 $1.92, FCF로 debt reduction. EBITDA multiple보다 FCF가 순부채를 얼마나 빨리 낮추고 equity에 이전되는지를 계산해야 한다."
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "Crown은 2009 full-year EPS before items $2.01, operating cash flow $756m, free cash flow $612m을 기록했고 부채를 $500m 이상 줄였다. 원문의 $1.96 EPS 기대를 웃돌았다."
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "recession defensiveness보다 중요한 것은 FCF→debt paydown→interest 감소→equity value 증가의 capital-structure flywheel을 정확히 잡은 점이다."
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "recession defensiveness보다 중요한 것은 FCF→debt paydown→interest 감소→equity value 증가의 capital-structure flywheel을 정확히 잡은 점이다."
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "segment margin, project ramp, FCF, net debt 중 두 개 이상이 반대면 축소했어야 한다. 첫 신호는 2009 현금흐름과 $500m+ debt paydown였다."
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "가격 인상은 thesis가 아니라 bridge의 한 줄이다. 증설은 완공이 아니라 안정가동·수율·고객승인까지 확인하고 일회성 현금은 normalized earnings와 분리한다."
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Crown Holdings는 beverage·food metal can과 closures를 만드는 글로벌 포장재 업체다. 식음료 수요의 방어성, 지역별 과점, 원재료 pass-through가 장점이지만 높은 부채와 asbestos legacy liability가 오랫동안 equity multiple을 눌렀다."
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Crown Holdings는 beverage·food metal can과 closures를 만드는 글로벌 포장재 업체다. 식음료 수요의 방어성, 지역별 과점, 원재료 pass-through가 장점이지만 높은 부채와 asbestos legacy liability가 오랫동안 equity multiple을 눌렀다. 매출성장보다 톤당 contribution margin, 공장 utilization, maintenance/growth CapEx, 순부채를 함께 봐야 한다."
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "CLW는 retailer relationship과 integrated footprint, CCK는 고객 공동투자·공장 density·장기계약이 장점이다. 동시에 원재료 pass-through timing과 높은 고정비가 cycle volatility를 만든다."
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "최소 연간 FCF 약 $230m, 약 15% sustainable FCF yield의 안정적 can 사업이 부채를 상환하면 equity가 convex하게 증가하고, asbestos liability는 headline 공포보다 실제 cash drain 기준으로 감당 가능하다는 논지. 최소 FCF 약 $230m, 약 15% sustainable FCF yield."
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "최소 FCF 약 $230m, 약 15% sustainable FCF yield. EBITDA multiple보다 FCF가 순부채를 얼마나 빨리 낮추고 equity에 이전되는지를 계산해야 한다."
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "Crown은 후속 수년 debt를 줄이고 신용도를 회복했다. 2004 asbestos cash payments는 $41m, year-end accrual은 $233m이었고 probable/estimable range는 $233~351m이었다. Florida·Ohio·Mississippi 등의 successor-liability 제한 법률도 법적 tail risk를 완화했다."
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "기업가치가 정체해도 debt repayment만으로 equity가 증가하는 구조를 본 것이 핵심이다. asbestos는 binary catastrophe가 아니라 annual cash drain과 reserve range로 정량화했다."
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "기업가치가 정체해도 debt repayment만으로 equity가 증가하는 구조를 본 것이 핵심이다. asbestos는 binary catastrophe가 아니라 annual cash drain과 reserve range로 정량화했다."
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "segment margin, project ramp, FCF, net debt 중 두 개 이상이 반대면 축소했어야 한다. 첫 신호는 deleveraging 지속과 asbestos cash outflow 안정화였다."
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "가격 인상은 thesis가 아니라 bridge의 한 줄이다. 증설은 완공이 아니라 안정가동·수율·고객승인까지 확인하고 일회성 현금은 normalized earnings와 분리한다."
+    }
+  ],
+  "claims": [
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "claim_order": 1,
+      "claim_title_ko": "핵심 수요·volume",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "SBS·tissue 가격 인상, Lewiston continuous digester 절감, Shelby NTT 증설 ramp, SG&A 절감이 동시에 겹치며 2019년 FCF가 급반등하고 multiple이 정상화된다는 논지.",
+      "t0_evidence_ko": "SBS·tissue 가격 인상, Lewiston continuous digester 절감, Shelby NTT 증설 ramp, SG&A 절감이 동시에 겹치며 2019년 FCF가 급반등하고 multiple이 정상화된다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "volume/segment margin 2개 분기 연속 악화",
+      "actual_result_ko": "핵심 downside가 먼저 나타났다. Shelby 증설은 계획보다 약 두 분기 늦고 약 $40m 초과비용이 들었으며 continuous digester도 당초 기대한 $25~35m가 아니라 약 $10m 수준의 절감에 그쳤다. 2018년에는 $195.1m goodwill impairment까지 기록됐다. 다만 2020년 COVID tissue 수요와 낮아진 pulp cost로 영업이익이 크게 회복됐다.",
+      "quantitative_gap_ko": "주가: $23.67 → execution 문제 지속",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "가격·원가 mean reversion보다 Shelby ramp와 digester savings라는 execution 변수를 사실상 확정치처럼 취급한 것이 오류였다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "claim_order": 2,
+      "claim_title_ko": "가격·원가 spread",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "SBS·tissue 가격 인상, Lewiston continuous digester 절감, Shelby NTT 증설 ramp, SG&A 절감이 동시에 겹치며 2019년 FCF가 급반등하고 multiple이 정상화된다는 논지.",
+      "t0_evidence_ko": "SBS·tissue 가격 인상, Lewiston continuous digester 절감, Shelby NTT 증설 ramp, SG&A 절감이 동시에 겹치며 2019년 FCF가 급반등하고 multiple이 정상화된다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "가격 인상이 input inflation을 못 따라감",
+      "actual_result_ko": "핵심 downside가 먼저 나타났다. Shelby 증설은 계획보다 약 두 분기 늦고 약 $40m 초과비용이 들었으며 continuous digester도 당초 기대한 $25~35m가 아니라 약 $10m 수준의 절감에 그쳤다. 2018년에는 $195.1m goodwill impairment까지 기록됐다. 다만 2020년 COVID tissue 수요와 낮아진 pulp cost로 영업이익이 크게 회복됐다.",
+      "quantitative_gap_ko": "goodwill impairment: 미반영 → $195.1m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "가격·원가 mean reversion보다 Shelby ramp와 digester savings라는 execution 변수를 사실상 확정치처럼 취급한 것이 오류였다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "claim_order": 3,
+      "claim_title_ko": "증설·통합 execution",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "SBS·tissue 가격 인상, Lewiston continuous digester 절감, Shelby NTT 증설 ramp, SG&A 절감이 동시에 겹치며 2019년 FCF가 급반등하고 multiple이 정상화된다는 논지.",
+      "t0_evidence_ko": "SBS·tissue 가격 인상, Lewiston continuous digester 절감, Shelby NTT 증설 ramp, SG&A 절감이 동시에 겹치며 2019년 FCF가 급반등하고 multiple이 정상화된다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "프로젝트 지연·overrun·utilization 부진",
+      "actual_result_ko": "핵심 downside가 먼저 나타났다. Shelby 증설은 계획보다 약 두 분기 늦고 약 $40m 초과비용이 들었으며 continuous digester도 당초 기대한 $25~35m가 아니라 약 $10m 수준의 절감에 그쳤다. 2018년에는 $195.1m goodwill impairment까지 기록됐다. 다만 2020년 COVID tissue 수요와 낮아진 pulp cost로 영업이익이 크게 회복됐다.",
+      "quantitative_gap_ko": "Shelby: 2019 Q1 ramp → 약 2분기 지연·$40m overrun",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "가격·원가 mean reversion보다 Shelby ramp와 digester savings라는 execution 변수를 사실상 확정치처럼 취급한 것이 오류였다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "claim_order": 4,
+      "claim_title_ko": "FCF·deleveraging",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "SBS·tissue 가격 인상, Lewiston continuous digester 절감, Shelby NTT 증설 ramp, SG&A 절감이 동시에 겹치며 2019년 FCF가 급반등하고 multiple이 정상화된다는 논지.",
+      "t0_evidence_ko": "SBS·tissue 가격 인상, Lewiston continuous digester 절감, Shelby NTT 증설 ramp, SG&A 절감이 동시에 겹치며 2019년 FCF가 급반등하고 multiple이 정상화된다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "FCF 적자 지속·net debt 증가",
+      "actual_result_ko": "핵심 downside가 먼저 나타났다. Shelby 증설은 계획보다 약 두 분기 늦고 약 $40m 초과비용이 들었으며 continuous digester도 당초 기대한 $25~35m가 아니라 약 $10m 수준의 절감에 그쳤다. 2018년에는 $195.1m goodwill impairment까지 기록됐다. 다만 2020년 COVID tissue 수요와 낮아진 pulp cost로 영업이익이 크게 회복됐다.",
+      "quantitative_gap_ko": "2020 operating income: 회복 → $158.1m vs 2019 $45.4m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "가격·원가 mean reversion보다 Shelby ramp와 digester savings라는 execution 변수를 사실상 확정치처럼 취급한 것이 오류였다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·capital allocation",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "SBS·tissue 가격 인상, Lewiston continuous digester 절감, Shelby NTT 증설 ramp, SG&A 절감이 동시에 겹치며 2019년 FCF가 급반등하고 multiple이 정상화된다는 논지.",
+      "t0_evidence_ko": "SBS·tissue 가격 인상, Lewiston continuous digester 절감, Shelby NTT 증설 ramp, SG&A 절감이 동시에 겹치며 2019년 FCF가 급반등하고 multiple이 정상화된다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "정상화 FCF 기준 기대수익률 소멸",
+      "actual_result_ko": "핵심 downside가 먼저 나타났다. Shelby 증설은 계획보다 약 두 분기 늦고 약 $40m 초과비용이 들었으며 continuous digester도 당초 기대한 $25~35m가 아니라 약 $10m 수준의 절감에 그쳤다. 2018년에는 $195.1m goodwill impairment까지 기록됐다. 다만 2020년 COVID tissue 수요와 낮아진 pulp cost로 영업이익이 크게 회복됐다.",
+      "quantitative_gap_ko": "2020 operating income: 회복 → $158.1m vs 2019 $45.4m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "가격·원가 mean reversion보다 Shelby ramp와 digester savings라는 execution 변수를 사실상 확정치처럼 취급한 것이 오류였다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "claim_order": 6,
+      "claim_title_ko": "반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "SBS·tissue 가격 인상, Lewiston continuous digester 절감, Shelby NTT 증설 ramp, SG&A 절감이 동시에 겹치며 2019년 FCF가 급반등하고 multiple이 정상화된다는 논지.",
+      "t0_evidence_ko": "SBS·tissue 가격 인상, Lewiston continuous digester 절감, Shelby NTT 증설 ramp, SG&A 절감이 동시에 겹치며 2019년 FCF가 급반등하고 multiple이 정상화된다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "반증 신호에도 valuation만 이유로 유지",
+      "actual_result_ko": "핵심 downside가 먼저 나타났다. Shelby 증설은 계획보다 약 두 분기 늦고 약 $40m 초과비용이 들었으며 continuous digester도 당초 기대한 $25~35m가 아니라 약 $10m 수준의 절감에 그쳤다. 2018년에는 $195.1m goodwill impairment까지 기록됐다. 다만 2020년 COVID tissue 수요와 낮아진 pulp cost로 영업이익이 크게 회복됐다.",
+      "quantitative_gap_ko": "2020 operating income: 회복 → $158.1m vs 2019 $45.4m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "가격·원가 mean reversion보다 Shelby ramp와 digester savings라는 execution 변수를 사실상 확정치처럼 취급한 것이 오류였다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "claim_order": 1,
+      "claim_title_ko": "핵심 수요·volume",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "840k tons SBS 가격 인상과 pulp 하락, Neenah 고비용 tissue 설비 폐쇄가 EBITDA/FCF를 높이고, 2.5x leverage 달성 후 buyback 또는 $65~75 strategic sale로 이어진다는 논지.",
+      "t0_evidence_ko": "840k tons SBS 가격 인상과 pulp 하락, Neenah 고비용 tissue 설비 폐쇄가 EBITDA/FCF를 높이고, 2.5x leverage 달성 후 buyback 또는 $65~75 strategic sale로 이어진다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "volume/segment margin 2개 분기 연속 악화",
+      "actual_result_ko": "직선형 earnings recovery는 아니었지만 portfolio simplification은 진행됐다. 2024년 tissue 사업을 Sofidel에 $1.06bn, 약 6x segment adjusted EBITDA에 매각했고 약 $850m net proceeds를 deleveraging에 쓰기로 했다. 전체 회사 매각은 아니었지만 strategic monetization 논지는 상당 부분 실현됐다.",
+      "quantitative_gap_ko": "SBS capacity: 840k tons → paperboard 중심 재편",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "가격·pulp만으로 timing을 맞히는 데는 한계가 있었지만 asset ownership, strategic buyer value, balance sheet를 연결한 점은 좋았다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "claim_order": 2,
+      "claim_title_ko": "가격·원가 spread",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "840k tons SBS 가격 인상과 pulp 하락, Neenah 고비용 tissue 설비 폐쇄가 EBITDA/FCF를 높이고, 2.5x leverage 달성 후 buyback 또는 $65~75 strategic sale로 이어진다는 논지.",
+      "t0_evidence_ko": "840k tons SBS 가격 인상과 pulp 하락, Neenah 고비용 tissue 설비 폐쇄가 EBITDA/FCF를 높이고, 2.5x leverage 달성 후 buyback 또는 $65~75 strategic sale로 이어진다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "가격 인상이 input inflation을 못 따라감",
+      "actual_result_ko": "직선형 earnings recovery는 아니었지만 portfolio simplification은 진행됐다. 2024년 tissue 사업을 Sofidel에 $1.06bn, 약 6x segment adjusted EBITDA에 매각했고 약 $850m net proceeds를 deleveraging에 쓰기로 했다. 전체 회사 매각은 아니었지만 strategic monetization 논지는 상당 부분 실현됐다.",
+      "quantitative_gap_ko": "leverage target: 2.5x → 매각대금으로 deleveraging",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "가격·pulp만으로 timing을 맞히는 데는 한계가 있었지만 asset ownership, strategic buyer value, balance sheet를 연결한 점은 좋았다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "claim_order": 3,
+      "claim_title_ko": "증설·통합 execution",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "840k tons SBS 가격 인상과 pulp 하락, Neenah 고비용 tissue 설비 폐쇄가 EBITDA/FCF를 높이고, 2.5x leverage 달성 후 buyback 또는 $65~75 strategic sale로 이어진다는 논지.",
+      "t0_evidence_ko": "840k tons SBS 가격 인상과 pulp 하락, Neenah 고비용 tissue 설비 폐쇄가 EBITDA/FCF를 높이고, 2.5x leverage 달성 후 buyback 또는 $65~75 strategic sale로 이어진다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "프로젝트 지연·overrun·utilization 부진",
+      "actual_result_ko": "직선형 earnings recovery는 아니었지만 portfolio simplification은 진행됐다. 2024년 tissue 사업을 Sofidel에 $1.06bn, 약 6x segment adjusted EBITDA에 매각했고 약 $850m net proceeds를 deleveraging에 쓰기로 했다. 전체 회사 매각은 아니었지만 strategic monetization 논지는 상당 부분 실현됐다.",
+      "quantitative_gap_ko": "tissue value: strategic premium → $1.06bn / 약 6x EBITDA",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "가격·pulp만으로 timing을 맞히는 데는 한계가 있었지만 asset ownership, strategic buyer value, balance sheet를 연결한 점은 좋았다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "claim_order": 4,
+      "claim_title_ko": "FCF·deleveraging",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "840k tons SBS 가격 인상과 pulp 하락, Neenah 고비용 tissue 설비 폐쇄가 EBITDA/FCF를 높이고, 2.5x leverage 달성 후 buyback 또는 $65~75 strategic sale로 이어진다는 논지.",
+      "t0_evidence_ko": "840k tons SBS 가격 인상과 pulp 하락, Neenah 고비용 tissue 설비 폐쇄가 EBITDA/FCF를 높이고, 2.5x leverage 달성 후 buyback 또는 $65~75 strategic sale로 이어진다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "FCF 적자 지속·net debt 증가",
+      "actual_result_ko": "직선형 earnings recovery는 아니었지만 portfolio simplification은 진행됐다. 2024년 tissue 사업을 Sofidel에 $1.06bn, 약 6x segment adjusted EBITDA에 매각했고 약 $850m net proceeds를 deleveraging에 쓰기로 했다. 전체 회사 매각은 아니었지만 strategic monetization 논지는 상당 부분 실현됐다.",
+      "quantitative_gap_ko": "2024 net debt: 감소 → $199m 감소",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "가격·pulp만으로 timing을 맞히는 데는 한계가 있었지만 asset ownership, strategic buyer value, balance sheet를 연결한 점은 좋았다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·capital allocation",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "840k tons SBS 가격 인상과 pulp 하락, Neenah 고비용 tissue 설비 폐쇄가 EBITDA/FCF를 높이고, 2.5x leverage 달성 후 buyback 또는 $65~75 strategic sale로 이어진다는 논지.",
+      "t0_evidence_ko": "840k tons SBS 가격 인상과 pulp 하락, Neenah 고비용 tissue 설비 폐쇄가 EBITDA/FCF를 높이고, 2.5x leverage 달성 후 buyback 또는 $65~75 strategic sale로 이어진다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "정상화 FCF 기준 기대수익률 소멸",
+      "actual_result_ko": "직선형 earnings recovery는 아니었지만 portfolio simplification은 진행됐다. 2024년 tissue 사업을 Sofidel에 $1.06bn, 약 6x segment adjusted EBITDA에 매각했고 약 $850m net proceeds를 deleveraging에 쓰기로 했다. 전체 회사 매각은 아니었지만 strategic monetization 논지는 상당 부분 실현됐다.",
+      "quantitative_gap_ko": "2024 net debt: 감소 → $199m 감소",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "가격·pulp만으로 timing을 맞히는 데는 한계가 있었지만 asset ownership, strategic buyer value, balance sheet를 연결한 점은 좋았다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "claim_order": 6,
+      "claim_title_ko": "반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "840k tons SBS 가격 인상과 pulp 하락, Neenah 고비용 tissue 설비 폐쇄가 EBITDA/FCF를 높이고, 2.5x leverage 달성 후 buyback 또는 $65~75 strategic sale로 이어진다는 논지.",
+      "t0_evidence_ko": "840k tons SBS 가격 인상과 pulp 하락, Neenah 고비용 tissue 설비 폐쇄가 EBITDA/FCF를 높이고, 2.5x leverage 달성 후 buyback 또는 $65~75 strategic sale로 이어진다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "반증 신호에도 valuation만 이유로 유지",
+      "actual_result_ko": "직선형 earnings recovery는 아니었지만 portfolio simplification은 진행됐다. 2024년 tissue 사업을 Sofidel에 $1.06bn, 약 6x segment adjusted EBITDA에 매각했고 약 $850m net proceeds를 deleveraging에 쓰기로 했다. 전체 회사 매각은 아니었지만 strategic monetization 논지는 상당 부분 실현됐다.",
+      "quantitative_gap_ko": "2024 net debt: 감소 → $199m 감소",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "가격·pulp만으로 timing을 맞히는 데는 한계가 있었지만 asset ownership, strategic buyer value, balance sheet를 연결한 점은 좋았다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "claim_order": 1,
+      "claim_title_ko": "핵심 수요·volume",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2016~18 pulp 급등과 tissue 가격하락으로 무너진 margin이 pulp 가격 하락과 Shelby 신규설비 ramp로 정상화되어 FCF·deleveraging이 시작된다는 논지.",
+      "t0_evidence_ko": "2016~18 pulp 급등과 tissue 가격하락으로 무너진 margin이 pulp 가격 하락과 Shelby 신규설비 ramp로 정상화되어 FCF·deleveraging이 시작된다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "volume/segment margin 2개 분기 연속 악화",
+      "actual_result_ko": "2019는 적자였지만 2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 2019의 $45.4m operating income와 -$5.6m net income에서 급반등했다. COVID 수요가 예상 밖 추가 tailwind였다.",
+      "quantitative_gap_ko": "2019 net income: - $5.6m → $77.1m in 2020",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "가격보다 cost curve와 신규설비 utilization을 본 것이 맞았다. 다만 COVID가 recovery 속도를 크게 높였으므로 순수 thesis 기여도는 낮춰야 한다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "claim_order": 2,
+      "claim_title_ko": "가격·원가 spread",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2016~18 pulp 급등과 tissue 가격하락으로 무너진 margin이 pulp 가격 하락과 Shelby 신규설비 ramp로 정상화되어 FCF·deleveraging이 시작된다는 논지.",
+      "t0_evidence_ko": "2016~18 pulp 급등과 tissue 가격하락으로 무너진 margin이 pulp 가격 하락과 Shelby 신규설비 ramp로 정상화되어 FCF·deleveraging이 시작된다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "가격 인상이 input inflation을 못 따라감",
+      "actual_result_ko": "2019는 적자였지만 2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 2019의 $45.4m operating income와 -$5.6m net income에서 급반등했다. COVID 수요가 예상 밖 추가 tailwind였다.",
+      "quantitative_gap_ko": "sales: $1.762bn → $1.869bn in 2020",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "가격보다 cost curve와 신규설비 utilization을 본 것이 맞았다. 다만 COVID가 recovery 속도를 크게 높였으므로 순수 thesis 기여도는 낮춰야 한다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "claim_order": 3,
+      "claim_title_ko": "증설·통합 execution",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2016~18 pulp 급등과 tissue 가격하락으로 무너진 margin이 pulp 가격 하락과 Shelby 신규설비 ramp로 정상화되어 FCF·deleveraging이 시작된다는 논지.",
+      "t0_evidence_ko": "2016~18 pulp 급등과 tissue 가격하락으로 무너진 margin이 pulp 가격 하락과 Shelby 신규설비 ramp로 정상화되어 FCF·deleveraging이 시작된다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "프로젝트 지연·overrun·utilization 부진",
+      "actual_result_ko": "2019는 적자였지만 2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 2019의 $45.4m operating income와 -$5.6m net income에서 급반등했다. COVID 수요가 예상 밖 추가 tailwind였다.",
+      "quantitative_gap_ko": "operating income: $45.4m → $158.1m in 2020",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "가격보다 cost curve와 신규설비 utilization을 본 것이 맞았다. 다만 COVID가 recovery 속도를 크게 높였으므로 순수 thesis 기여도는 낮춰야 한다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "claim_order": 4,
+      "claim_title_ko": "FCF·deleveraging",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2016~18 pulp 급등과 tissue 가격하락으로 무너진 margin이 pulp 가격 하락과 Shelby 신규설비 ramp로 정상화되어 FCF·deleveraging이 시작된다는 논지.",
+      "t0_evidence_ko": "2016~18 pulp 급등과 tissue 가격하락으로 무너진 margin이 pulp 가격 하락과 Shelby 신규설비 ramp로 정상화되어 FCF·deleveraging이 시작된다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "FCF 적자 지속·net debt 증가",
+      "actual_result_ko": "2019는 적자였지만 2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 2019의 $45.4m operating income와 -$5.6m net income에서 급반등했다. COVID 수요가 예상 밖 추가 tailwind였다.",
+      "quantitative_gap_ko": "Shelby: ramp → 2020 deck 핵심 priority",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "가격보다 cost curve와 신규설비 utilization을 본 것이 맞았다. 다만 COVID가 recovery 속도를 크게 높였으므로 순수 thesis 기여도는 낮춰야 한다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·capital allocation",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2016~18 pulp 급등과 tissue 가격하락으로 무너진 margin이 pulp 가격 하락과 Shelby 신규설비 ramp로 정상화되어 FCF·deleveraging이 시작된다는 논지.",
+      "t0_evidence_ko": "2016~18 pulp 급등과 tissue 가격하락으로 무너진 margin이 pulp 가격 하락과 Shelby 신규설비 ramp로 정상화되어 FCF·deleveraging이 시작된다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "정상화 FCF 기준 기대수익률 소멸",
+      "actual_result_ko": "2019는 적자였지만 2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 2019의 $45.4m operating income와 -$5.6m net income에서 급반등했다. COVID 수요가 예상 밖 추가 tailwind였다.",
+      "quantitative_gap_ko": "Shelby: ramp → 2020 deck 핵심 priority",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "가격보다 cost curve와 신규설비 utilization을 본 것이 맞았다. 다만 COVID가 recovery 속도를 크게 높였으므로 순수 thesis 기여도는 낮춰야 한다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "claim_order": 6,
+      "claim_title_ko": "반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2016~18 pulp 급등과 tissue 가격하락으로 무너진 margin이 pulp 가격 하락과 Shelby 신규설비 ramp로 정상화되어 FCF·deleveraging이 시작된다는 논지.",
+      "t0_evidence_ko": "2016~18 pulp 급등과 tissue 가격하락으로 무너진 margin이 pulp 가격 하락과 Shelby 신규설비 ramp로 정상화되어 FCF·deleveraging이 시작된다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "반증 신호에도 valuation만 이유로 유지",
+      "actual_result_ko": "2019는 적자였지만 2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 2019의 $45.4m operating income와 -$5.6m net income에서 급반등했다. COVID 수요가 예상 밖 추가 tailwind였다.",
+      "quantitative_gap_ko": "Shelby: ramp → 2020 deck 핵심 priority",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "가격보다 cost curve와 신규설비 utilization을 본 것이 맞았다. 다만 COVID가 recovery 속도를 크게 높였으므로 순수 thesis 기여도는 낮춰야 한다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "claim_order": 1,
+      "claim_title_ko": "핵심 수요·volume",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "Cellu Tissue를 6.5x EBITDA에 인수해 private-label tissue 비중을 약 60%로 높이고, 낮아질 pulp 가격과 $15~20m 이상 synergy로 2011~12 EBITDA가 street를 웃돌아 6x multiple에서 $100~120 가치가 가능하다는 논지.",
+      "t0_evidence_ko": "Cellu Tissue를 6.5x EBITDA에 인수해 private-label tissue 비중을 약 60%로 높이고, 낮아질 pulp 가격과 $15~20m 이상 synergy로 2011~12 EBITDA가 street를 웃돌아 6x multiple에서 $100~120 가치가 가능하다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "volume/segment margin 2개 분기 연속 악화",
+      "actual_result_ko": "거래는 완료되어 전국 private-label tissue footprint를 만들었고 주가는 후속 수년 크게 상승했다. 그러나 통합 후 earnings는 pulp·경쟁가격·증설 CapEx에 흔들려 즉시 synergy와 clean rerating이라는 경로는 과도하게 매끄러웠다.",
+      "quantitative_gap_ko": "deal multiple: 6.5x EBITDA → 거래 완료",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "M&A 가격과 mix 개선은 잘 봤지만 commodity input과 후속 growth CapEx가 headline acquisition multiple을 무력화할 수 있다는 점을 작게 봤다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "claim_order": 2,
+      "claim_title_ko": "가격·원가 spread",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "Cellu Tissue를 6.5x EBITDA에 인수해 private-label tissue 비중을 약 60%로 높이고, 낮아질 pulp 가격과 $15~20m 이상 synergy로 2011~12 EBITDA가 street를 웃돌아 6x multiple에서 $100~120 가치가 가능하다는 논지.",
+      "t0_evidence_ko": "Cellu Tissue를 6.5x EBITDA에 인수해 private-label tissue 비중을 약 60%로 높이고, 낮아질 pulp 가격과 $15~20m 이상 synergy로 2011~12 EBITDA가 street를 웃돌아 6x multiple에서 $100~120 가치가 가능하다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "가격 인상이 input inflation을 못 따라감",
+      "actual_result_ko": "거래는 완료되어 전국 private-label tissue footprint를 만들었고 주가는 후속 수년 크게 상승했다. 그러나 통합 후 earnings는 pulp·경쟁가격·증설 CapEx에 흔들려 즉시 synergy와 clean rerating이라는 경로는 과도하게 매끄러웠다.",
+      "quantitative_gap_ko": "목표가: $100~120 → 후속 수년 큰 상승",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "M&A 가격과 mix 개선은 잘 봤지만 commodity input과 후속 growth CapEx가 headline acquisition multiple을 무력화할 수 있다는 점을 작게 봤다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "claim_order": 3,
+      "claim_title_ko": "증설·통합 execution",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "Cellu Tissue를 6.5x EBITDA에 인수해 private-label tissue 비중을 약 60%로 높이고, 낮아질 pulp 가격과 $15~20m 이상 synergy로 2011~12 EBITDA가 street를 웃돌아 6x multiple에서 $100~120 가치가 가능하다는 논지.",
+      "t0_evidence_ko": "Cellu Tissue를 6.5x EBITDA에 인수해 private-label tissue 비중을 약 60%로 높이고, 낮아질 pulp 가격과 $15~20m 이상 synergy로 2011~12 EBITDA가 street를 웃돌아 6x multiple에서 $100~120 가치가 가능하다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "프로젝트 지연·overrun·utilization 부진",
+      "actual_result_ko": "거래는 완료되어 전국 private-label tissue footprint를 만들었고 주가는 후속 수년 크게 상승했다. 그러나 통합 후 earnings는 pulp·경쟁가격·증설 CapEx에 흔들려 즉시 synergy와 clean rerating이라는 경로는 과도하게 매끄러웠다.",
+      "quantitative_gap_ko": "synergy: $15~20m+ → 변동비/CapEx가 일부 상쇄",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "M&A 가격과 mix 개선은 잘 봤지만 commodity input과 후속 growth CapEx가 headline acquisition multiple을 무력화할 수 있다는 점을 작게 봤다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "claim_order": 4,
+      "claim_title_ko": "FCF·deleveraging",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "Cellu Tissue를 6.5x EBITDA에 인수해 private-label tissue 비중을 약 60%로 높이고, 낮아질 pulp 가격과 $15~20m 이상 synergy로 2011~12 EBITDA가 street를 웃돌아 6x multiple에서 $100~120 가치가 가능하다는 논지.",
+      "t0_evidence_ko": "Cellu Tissue를 6.5x EBITDA에 인수해 private-label tissue 비중을 약 60%로 높이고, 낮아질 pulp 가격과 $15~20m 이상 synergy로 2011~12 EBITDA가 street를 웃돌아 6x multiple에서 $100~120 가치가 가능하다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "FCF 적자 지속·net debt 증가",
+      "actual_result_ko": "거래는 완료되어 전국 private-label tissue footprint를 만들었고 주가는 후속 수년 크게 상승했다. 그러나 통합 후 earnings는 pulp·경쟁가격·증설 CapEx에 흔들려 즉시 synergy와 clean rerating이라는 경로는 과도하게 매끄러웠다.",
+      "quantitative_gap_ko": "private label: 약 60% → 전국 플랫폼 확보",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "M&A 가격과 mix 개선은 잘 봤지만 commodity input과 후속 growth CapEx가 headline acquisition multiple을 무력화할 수 있다는 점을 작게 봤다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·capital allocation",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "Cellu Tissue를 6.5x EBITDA에 인수해 private-label tissue 비중을 약 60%로 높이고, 낮아질 pulp 가격과 $15~20m 이상 synergy로 2011~12 EBITDA가 street를 웃돌아 6x multiple에서 $100~120 가치가 가능하다는 논지.",
+      "t0_evidence_ko": "Cellu Tissue를 6.5x EBITDA에 인수해 private-label tissue 비중을 약 60%로 높이고, 낮아질 pulp 가격과 $15~20m 이상 synergy로 2011~12 EBITDA가 street를 웃돌아 6x multiple에서 $100~120 가치가 가능하다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "정상화 FCF 기준 기대수익률 소멸",
+      "actual_result_ko": "거래는 완료되어 전국 private-label tissue footprint를 만들었고 주가는 후속 수년 크게 상승했다. 그러나 통합 후 earnings는 pulp·경쟁가격·증설 CapEx에 흔들려 즉시 synergy와 clean rerating이라는 경로는 과도하게 매끄러웠다.",
+      "quantitative_gap_ko": "private label: 약 60% → 전국 플랫폼 확보",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "M&A 가격과 mix 개선은 잘 봤지만 commodity input과 후속 growth CapEx가 headline acquisition multiple을 무력화할 수 있다는 점을 작게 봤다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "claim_order": 6,
+      "claim_title_ko": "반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "Cellu Tissue를 6.5x EBITDA에 인수해 private-label tissue 비중을 약 60%로 높이고, 낮아질 pulp 가격과 $15~20m 이상 synergy로 2011~12 EBITDA가 street를 웃돌아 6x multiple에서 $100~120 가치가 가능하다는 논지.",
+      "t0_evidence_ko": "Cellu Tissue를 6.5x EBITDA에 인수해 private-label tissue 비중을 약 60%로 높이고, 낮아질 pulp 가격과 $15~20m 이상 synergy로 2011~12 EBITDA가 street를 웃돌아 6x multiple에서 $100~120 가치가 가능하다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "반증 신호에도 valuation만 이유로 유지",
+      "actual_result_ko": "거래는 완료되어 전국 private-label tissue footprint를 만들었고 주가는 후속 수년 크게 상승했다. 그러나 통합 후 earnings는 pulp·경쟁가격·증설 CapEx에 흔들려 즉시 synergy와 clean rerating이라는 경로는 과도하게 매끄러웠다.",
+      "quantitative_gap_ko": "private label: 약 60% → 전국 플랫폼 확보",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "M&A 가격과 mix 개선은 잘 봤지만 commodity input과 후속 growth CapEx가 headline acquisition multiple을 무력화할 수 있다는 점을 작게 봤다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "claim_order": 1,
+      "claim_title_ko": "핵심 수요·volume",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "기존 사업만으로도 5~6x EBITDA의 할인인데 alternative-fuel mixture tax credit이 하루 약 $455k의 비과세 cash를 만들며 부채를 빠르게 없애고 dividend 가능성을 높인다는 논지.",
+      "t0_evidence_ko": "기존 사업만으로도 5~6x EBITDA의 할인인데 alternative-fuel mixture tax credit이 하루 약 $455k의 비과세 cash를 만들며 부채를 빠르게 없애고 dividend 가능성을 높인다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "volume/segment margin 2개 분기 연속 악화",
+      "actual_result_ko": "세액공제는 일회성이었지만 2009년 유동성·부채축소에 실질적 도움을 줬다. 이후 회사는 M&A와 증설에 다시 자본을 투입했으므로 무차입 구조가 영구적으로 유지되지는 않았다.",
+      "quantitative_gap_ko": "tax credit: 약 $455k/day → 2009 유입",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "일회성 정책 cash를 EBITDA에 섞지 않고 balance-sheet event로 본 점이 좋았다. 일회성 현금은 영구 earnings가 아니라 순부채 bridge로 모델링해야 한다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "claim_order": 2,
+      "claim_title_ko": "가격·원가 spread",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "기존 사업만으로도 5~6x EBITDA의 할인인데 alternative-fuel mixture tax credit이 하루 약 $455k의 비과세 cash를 만들며 부채를 빠르게 없애고 dividend 가능성을 높인다는 논지.",
+      "t0_evidence_ko": "기존 사업만으로도 5~6x EBITDA의 할인인데 alternative-fuel mixture tax credit이 하루 약 $455k의 비과세 cash를 만들며 부채를 빠르게 없애고 dividend 가능성을 높인다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "가격 인상이 input inflation을 못 따라감",
+      "actual_result_ko": "세액공제는 일회성이었지만 2009년 유동성·부채축소에 실질적 도움을 줬다. 이후 회사는 M&A와 증설에 다시 자본을 투입했으므로 무차입 구조가 영구적으로 유지되지는 않았다.",
+      "quantitative_gap_ko": "YTD credit: $74m → 부채 감소",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "일회성 정책 cash를 EBITDA에 섞지 않고 balance-sheet event로 본 점이 좋았다. 일회성 현금은 영구 earnings가 아니라 순부채 bridge로 모델링해야 한다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "claim_order": 3,
+      "claim_title_ko": "증설·통합 execution",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "기존 사업만으로도 5~6x EBITDA의 할인인데 alternative-fuel mixture tax credit이 하루 약 $455k의 비과세 cash를 만들며 부채를 빠르게 없애고 dividend 가능성을 높인다는 논지.",
+      "t0_evidence_ko": "기존 사업만으로도 5~6x EBITDA의 할인인데 alternative-fuel mixture tax credit이 하루 약 $455k의 비과세 cash를 만들며 부채를 빠르게 없애고 dividend 가능성을 높인다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "프로젝트 지연·overrun·utilization 부진",
+      "actual_result_ko": "세액공제는 일회성이었지만 2009년 유동성·부채축소에 실질적 도움을 줬다. 이후 회사는 M&A와 증설에 다시 자본을 투입했으므로 무차입 구조가 영구적으로 유지되지는 않았다.",
+      "quantitative_gap_ko": "EV/EBITDA: <5.6x → 후속 주가 상승",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "일회성 정책 cash를 EBITDA에 섞지 않고 balance-sheet event로 본 점이 좋았다. 일회성 현금은 영구 earnings가 아니라 순부채 bridge로 모델링해야 한다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "claim_order": 4,
+      "claim_title_ko": "FCF·deleveraging",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "기존 사업만으로도 5~6x EBITDA의 할인인데 alternative-fuel mixture tax credit이 하루 약 $455k의 비과세 cash를 만들며 부채를 빠르게 없애고 dividend 가능성을 높인다는 논지.",
+      "t0_evidence_ko": "기존 사업만으로도 5~6x EBITDA의 할인인데 alternative-fuel mixture tax credit이 하루 약 $455k의 비과세 cash를 만들며 부채를 빠르게 없애고 dividend 가능성을 높인다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "FCF 적자 지속·net debt 증가",
+      "actual_result_ko": "세액공제는 일회성이었지만 2009년 유동성·부채축소에 실질적 도움을 줬다. 이후 회사는 M&A와 증설에 다시 자본을 투입했으므로 무차입 구조가 영구적으로 유지되지는 않았다.",
+      "quantitative_gap_ko": "duration: 2009 중심 → 정책 종료",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "일회성 정책 cash를 EBITDA에 섞지 않고 balance-sheet event로 본 점이 좋았다. 일회성 현금은 영구 earnings가 아니라 순부채 bridge로 모델링해야 한다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·capital allocation",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "기존 사업만으로도 5~6x EBITDA의 할인인데 alternative-fuel mixture tax credit이 하루 약 $455k의 비과세 cash를 만들며 부채를 빠르게 없애고 dividend 가능성을 높인다는 논지.",
+      "t0_evidence_ko": "기존 사업만으로도 5~6x EBITDA의 할인인데 alternative-fuel mixture tax credit이 하루 약 $455k의 비과세 cash를 만들며 부채를 빠르게 없애고 dividend 가능성을 높인다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "정상화 FCF 기준 기대수익률 소멸",
+      "actual_result_ko": "세액공제는 일회성이었지만 2009년 유동성·부채축소에 실질적 도움을 줬다. 이후 회사는 M&A와 증설에 다시 자본을 투입했으므로 무차입 구조가 영구적으로 유지되지는 않았다.",
+      "quantitative_gap_ko": "duration: 2009 중심 → 정책 종료",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "일회성 정책 cash를 EBITDA에 섞지 않고 balance-sheet event로 본 점이 좋았다. 일회성 현금은 영구 earnings가 아니라 순부채 bridge로 모델링해야 한다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "claim_order": 6,
+      "claim_title_ko": "반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "기존 사업만으로도 5~6x EBITDA의 할인인데 alternative-fuel mixture tax credit이 하루 약 $455k의 비과세 cash를 만들며 부채를 빠르게 없애고 dividend 가능성을 높인다는 논지.",
+      "t0_evidence_ko": "기존 사업만으로도 5~6x EBITDA의 할인인데 alternative-fuel mixture tax credit이 하루 약 $455k의 비과세 cash를 만들며 부채를 빠르게 없애고 dividend 가능성을 높인다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "반증 신호에도 valuation만 이유로 유지",
+      "actual_result_ko": "세액공제는 일회성이었지만 2009년 유동성·부채축소에 실질적 도움을 줬다. 이후 회사는 M&A와 증설에 다시 자본을 투입했으므로 무차입 구조가 영구적으로 유지되지는 않았다.",
+      "quantitative_gap_ko": "duration: 2009 중심 → 정책 종료",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "일회성 정책 cash를 EBITDA에 섞지 않고 balance-sheet event로 본 점이 좋았다. 일회성 현금은 영구 earnings가 아니라 순부채 bridge로 모델링해야 한다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "claim_order": 1,
+      "claim_title_ko": "핵심 수요·volume",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "tissue만으로 시가가치 대부분을 설명하고 paperboard는 사실상 공짜이며 Shelby 신규설비 가동 후 growth CapEx가 내려가면서 buyback/dividend로 자본배분이 바뀐다는 논지.",
+      "t0_evidence_ko": "tissue만으로 시가가치 대부분을 설명하고 paperboard는 사실상 공짜이며 Shelby 신규설비 가동 후 growth CapEx가 내려가면서 buyback/dividend로 자본배분이 바뀐다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "volume/segment margin 2개 분기 연속 악화",
+      "actual_result_ko": "2013~15 earnings와 주가가 크게 개선되어 SOTP discount는 상당 부분 축소됐다. 그러나 이후 tissue 가격경쟁과 대형 CapEx가 재개되어 영구적 harvest mode는 아니었다.",
+      "quantitative_gap_ko": "주가: $39.50 → 2014~15 큰 상승",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "사업별 cash economics를 분리하고 capital allocation을 catalyst로 본 점이 강점이다. 다만 자본집약 기업의 CapEx 정상화는 영구상태가 아니다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "claim_order": 2,
+      "claim_title_ko": "가격·원가 spread",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "tissue만으로 시가가치 대부분을 설명하고 paperboard는 사실상 공짜이며 Shelby 신규설비 가동 후 growth CapEx가 내려가면서 buyback/dividend로 자본배분이 바뀐다는 논지.",
+      "t0_evidence_ko": "tissue만으로 시가가치 대부분을 설명하고 paperboard는 사실상 공짜이며 Shelby 신규설비 가동 후 growth CapEx가 내려가면서 buyback/dividend로 자본배분이 바뀐다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "가격 인상이 input inflation을 못 따라감",
+      "actual_result_ko": "2013~15 earnings와 주가가 크게 개선되어 SOTP discount는 상당 부분 축소됐다. 그러나 이후 tissue 가격경쟁과 대형 CapEx가 재개되어 영구적 harvest mode는 아니었다.",
+      "quantitative_gap_ko": "SOTP: $85 → 상당부분 축소",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "사업별 cash economics를 분리하고 capital allocation을 catalyst로 본 점이 강점이다. 다만 자본집약 기업의 CapEx 정상화는 영구상태가 아니다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "claim_order": 3,
+      "claim_title_ko": "증설·통합 execution",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "tissue만으로 시가가치 대부분을 설명하고 paperboard는 사실상 공짜이며 Shelby 신규설비 가동 후 growth CapEx가 내려가면서 buyback/dividend로 자본배분이 바뀐다는 논지.",
+      "t0_evidence_ko": "tissue만으로 시가가치 대부분을 설명하고 paperboard는 사실상 공짜이며 Shelby 신규설비 가동 후 growth CapEx가 내려가면서 buyback/dividend로 자본배분이 바뀐다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "프로젝트 지연·overrun·utilization 부진",
+      "actual_result_ko": "2013~15 earnings와 주가가 크게 개선되어 SOTP discount는 상당 부분 축소됐다. 그러나 이후 tissue 가격경쟁과 대형 CapEx가 재개되어 영구적 harvest mode는 아니었다.",
+      "quantitative_gap_ko": "Shelby: 2013 ramp → 기여",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "사업별 cash economics를 분리하고 capital allocation을 catalyst로 본 점이 강점이다. 다만 자본집약 기업의 CapEx 정상화는 영구상태가 아니다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "claim_order": 4,
+      "claim_title_ko": "FCF·deleveraging",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "tissue만으로 시가가치 대부분을 설명하고 paperboard는 사실상 공짜이며 Shelby 신규설비 가동 후 growth CapEx가 내려가면서 buyback/dividend로 자본배분이 바뀐다는 논지.",
+      "t0_evidence_ko": "tissue만으로 시가가치 대부분을 설명하고 paperboard는 사실상 공짜이며 Shelby 신규설비 가동 후 growth CapEx가 내려가면서 buyback/dividend로 자본배분이 바뀐다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "FCF 적자 지속·net debt 증가",
+      "actual_result_ko": "2013~15 earnings와 주가가 크게 개선되어 SOTP discount는 상당 부분 축소됐다. 그러나 이후 tissue 가격경쟁과 대형 CapEx가 재개되어 영구적 harvest mode는 아니었다.",
+      "quantitative_gap_ko": "capital allocation: buyback/dividend → 후속 buyback",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "사업별 cash economics를 분리하고 capital allocation을 catalyst로 본 점이 강점이다. 다만 자본집약 기업의 CapEx 정상화는 영구상태가 아니다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·capital allocation",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "tissue만으로 시가가치 대부분을 설명하고 paperboard는 사실상 공짜이며 Shelby 신규설비 가동 후 growth CapEx가 내려가면서 buyback/dividend로 자본배분이 바뀐다는 논지.",
+      "t0_evidence_ko": "tissue만으로 시가가치 대부분을 설명하고 paperboard는 사실상 공짜이며 Shelby 신규설비 가동 후 growth CapEx가 내려가면서 buyback/dividend로 자본배분이 바뀐다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "정상화 FCF 기준 기대수익률 소멸",
+      "actual_result_ko": "2013~15 earnings와 주가가 크게 개선되어 SOTP discount는 상당 부분 축소됐다. 그러나 이후 tissue 가격경쟁과 대형 CapEx가 재개되어 영구적 harvest mode는 아니었다.",
+      "quantitative_gap_ko": "capital allocation: buyback/dividend → 후속 buyback",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "사업별 cash economics를 분리하고 capital allocation을 catalyst로 본 점이 강점이다. 다만 자본집약 기업의 CapEx 정상화는 영구상태가 아니다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "claim_order": 6,
+      "claim_title_ko": "반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "tissue만으로 시가가치 대부분을 설명하고 paperboard는 사실상 공짜이며 Shelby 신규설비 가동 후 growth CapEx가 내려가면서 buyback/dividend로 자본배분이 바뀐다는 논지.",
+      "t0_evidence_ko": "tissue만으로 시가가치 대부분을 설명하고 paperboard는 사실상 공짜이며 Shelby 신규설비 가동 후 growth CapEx가 내려가면서 buyback/dividend로 자본배분이 바뀐다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "반증 신호에도 valuation만 이유로 유지",
+      "actual_result_ko": "2013~15 earnings와 주가가 크게 개선되어 SOTP discount는 상당 부분 축소됐다. 그러나 이후 tissue 가격경쟁과 대형 CapEx가 재개되어 영구적 harvest mode는 아니었다.",
+      "quantitative_gap_ko": "capital allocation: buyback/dividend → 후속 buyback",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "사업별 cash economics를 분리하고 capital allocation을 catalyst로 본 점이 강점이다. 다만 자본집약 기업의 CapEx 정상화는 영구상태가 아니다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "claim_order": 1,
+      "claim_title_ko": "핵심 수요·volume",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "재택·실업 증가로 at-home private-label tissue 수요가 강해지고 이미 끝난 대형 CapEx 덕분에 높은 EBITDA가 FCF와 debt reduction으로 전환된다는 논지.",
+      "t0_evidence_ko": "재택·실업 증가로 at-home private-label tissue 수요가 강해지고 이미 끝난 대형 CapEx 덕분에 높은 EBITDA가 FCF와 debt reduction으로 전환된다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "volume/segment margin 2개 분기 연속 악화",
+      "actual_result_ko": "2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 전년 대비 급개선됐다. 회사 deck도 near-term priority를 free cash flow, debt reduction, Shelby benefits로 명시했다.",
+      "quantitative_gap_ko": "sales: 증가 → $1.8686bn",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "단순 COVID beneficiary가 아니라 growth CapEx가 끝난 시점이라 수요 개선이 FCF로 전환되는 capital-cycle 위치까지 함께 본 것이 좋았다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "claim_order": 2,
+      "claim_title_ko": "가격·원가 spread",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "재택·실업 증가로 at-home private-label tissue 수요가 강해지고 이미 끝난 대형 CapEx 덕분에 높은 EBITDA가 FCF와 debt reduction으로 전환된다는 논지.",
+      "t0_evidence_ko": "재택·실업 증가로 at-home private-label tissue 수요가 강해지고 이미 끝난 대형 CapEx 덕분에 높은 EBITDA가 FCF와 debt reduction으로 전환된다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "가격 인상이 input inflation을 못 따라감",
+      "actual_result_ko": "2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 전년 대비 급개선됐다. 회사 deck도 near-term priority를 free cash flow, debt reduction, Shelby benefits로 명시했다.",
+      "quantitative_gap_ko": "operating income: 급개선 → $158.1m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "단순 COVID beneficiary가 아니라 growth CapEx가 끝난 시점이라 수요 개선이 FCF로 전환되는 capital-cycle 위치까지 함께 본 것이 좋았다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "claim_order": 3,
+      "claim_title_ko": "증설·통합 execution",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "재택·실업 증가로 at-home private-label tissue 수요가 강해지고 이미 끝난 대형 CapEx 덕분에 높은 EBITDA가 FCF와 debt reduction으로 전환된다는 논지.",
+      "t0_evidence_ko": "재택·실업 증가로 at-home private-label tissue 수요가 강해지고 이미 끝난 대형 CapEx 덕분에 높은 EBITDA가 FCF와 debt reduction으로 전환된다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "프로젝트 지연·overrun·utilization 부진",
+      "actual_result_ko": "2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 전년 대비 급개선됐다. 회사 deck도 near-term priority를 free cash flow, debt reduction, Shelby benefits로 명시했다.",
+      "quantitative_gap_ko": "net income: 흑자 → $77.1m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "단순 COVID beneficiary가 아니라 growth CapEx가 끝난 시점이라 수요 개선이 FCF로 전환되는 capital-cycle 위치까지 함께 본 것이 좋았다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "claim_order": 4,
+      "claim_title_ko": "FCF·deleveraging",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "재택·실업 증가로 at-home private-label tissue 수요가 강해지고 이미 끝난 대형 CapEx 덕분에 높은 EBITDA가 FCF와 debt reduction으로 전환된다는 논지.",
+      "t0_evidence_ko": "재택·실업 증가로 at-home private-label tissue 수요가 강해지고 이미 끝난 대형 CapEx 덕분에 높은 EBITDA가 FCF와 debt reduction으로 전환된다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "FCF 적자 지속·net debt 증가",
+      "actual_result_ko": "2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 전년 대비 급개선됐다. 회사 deck도 near-term priority를 free cash flow, debt reduction, Shelby benefits로 명시했다.",
+      "quantitative_gap_ko": "leverage: 2.5x target → 공식 target",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "단순 COVID beneficiary가 아니라 growth CapEx가 끝난 시점이라 수요 개선이 FCF로 전환되는 capital-cycle 위치까지 함께 본 것이 좋았다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·capital allocation",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "재택·실업 증가로 at-home private-label tissue 수요가 강해지고 이미 끝난 대형 CapEx 덕분에 높은 EBITDA가 FCF와 debt reduction으로 전환된다는 논지.",
+      "t0_evidence_ko": "재택·실업 증가로 at-home private-label tissue 수요가 강해지고 이미 끝난 대형 CapEx 덕분에 높은 EBITDA가 FCF와 debt reduction으로 전환된다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "정상화 FCF 기준 기대수익률 소멸",
+      "actual_result_ko": "2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 전년 대비 급개선됐다. 회사 deck도 near-term priority를 free cash flow, debt reduction, Shelby benefits로 명시했다.",
+      "quantitative_gap_ko": "leverage: 2.5x target → 공식 target",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "단순 COVID beneficiary가 아니라 growth CapEx가 끝난 시점이라 수요 개선이 FCF로 전환되는 capital-cycle 위치까지 함께 본 것이 좋았다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "claim_order": 6,
+      "claim_title_ko": "반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "재택·실업 증가로 at-home private-label tissue 수요가 강해지고 이미 끝난 대형 CapEx 덕분에 높은 EBITDA가 FCF와 debt reduction으로 전환된다는 논지.",
+      "t0_evidence_ko": "재택·실업 증가로 at-home private-label tissue 수요가 강해지고 이미 끝난 대형 CapEx 덕분에 높은 EBITDA가 FCF와 debt reduction으로 전환된다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "반증 신호에도 valuation만 이유로 유지",
+      "actual_result_ko": "2020 net sales $1.8686bn, operating income $158.1m, net income $77.1m으로 전년 대비 급개선됐다. 회사 deck도 near-term priority를 free cash flow, debt reduction, Shelby benefits로 명시했다.",
+      "quantitative_gap_ko": "leverage: 2.5x target → 공식 target",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "단순 COVID beneficiary가 아니라 growth CapEx가 끝난 시점이라 수요 개선이 FCF로 전환되는 capital-cycle 위치까지 함께 본 것이 좋았다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "claim_order": 1,
+      "claim_title_ko": "핵심 수요·volume",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "경기침체면 pulp가 내려가고 private-label share가 올라 이익이 개선되고, 침체가 아니면 Cellu Tissue 통합과 신규공장 가동으로 성장하는 양방향 payoff. 2년 EBITDA +44% 이상을 기대.",
+      "t0_evidence_ko": "경기침체면 pulp가 내려가고 private-label share가 올라 이익이 개선되고, 침체가 아니면 Cellu Tissue 통합과 신규공장 가동으로 성장하는 양방향 payoff. 2년 EBITDA +44% 이상을 기대.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "volume/segment margin 2개 분기 연속 악화",
+      "actual_result_ko": "후속 수년 EBITDA와 주가가 개선됐다. 핵심은 거시전망을 한 방향으로 맞히는 대신 recession/no-recession 모두에서 어떤 변수가 profit bridge를 지지하는지 명시한 점이다.",
+      "quantitative_gap_ko": "주가: $33.5 → 후속 상승",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "거시 시나리오를 binary forecast가 아니라 pulp cost와 private-label mix라는 미시 변수로 번역했다는 점이 재사용 가능하다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "claim_order": 2,
+      "claim_title_ko": "가격·원가 spread",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "경기침체면 pulp가 내려가고 private-label share가 올라 이익이 개선되고, 침체가 아니면 Cellu Tissue 통합과 신규공장 가동으로 성장하는 양방향 payoff. 2년 EBITDA +44% 이상을 기대.",
+      "t0_evidence_ko": "경기침체면 pulp가 내려가고 private-label share가 올라 이익이 개선되고, 침체가 아니면 Cellu Tissue 통합과 신규공장 가동으로 성장하는 양방향 payoff. 2년 EBITDA +44% 이상을 기대.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "가격 인상이 input inflation을 못 따라감",
+      "actual_result_ko": "후속 수년 EBITDA와 주가가 개선됐다. 핵심은 거시전망을 한 방향으로 맞히는 대신 recession/no-recession 모두에서 어떤 변수가 profit bridge를 지지하는지 명시한 점이다.",
+      "quantitative_gap_ko": "EBITDA: 2년 +44% → 후속 개선",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "거시 시나리오를 binary forecast가 아니라 pulp cost와 private-label mix라는 미시 변수로 번역했다는 점이 재사용 가능하다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "claim_order": 3,
+      "claim_title_ko": "증설·통합 execution",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "경기침체면 pulp가 내려가고 private-label share가 올라 이익이 개선되고, 침체가 아니면 Cellu Tissue 통합과 신규공장 가동으로 성장하는 양방향 payoff. 2년 EBITDA +44% 이상을 기대.",
+      "t0_evidence_ko": "경기침체면 pulp가 내려가고 private-label share가 올라 이익이 개선되고, 침체가 아니면 Cellu Tissue 통합과 신규공장 가동으로 성장하는 양방향 payoff. 2년 EBITDA +44% 이상을 기대.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "프로젝트 지연·overrun·utilization 부진",
+      "actual_result_ko": "후속 수년 EBITDA와 주가가 개선됐다. 핵심은 거시전망을 한 방향으로 맞히는 대신 recession/no-recession 모두에서 어떤 변수가 profit bridge를 지지하는지 명시한 점이다.",
+      "quantitative_gap_ko": "pulp sensitivity: $50↓ = ~$20m EBITDA → 실제 변동성 핵심",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "거시 시나리오를 binary forecast가 아니라 pulp cost와 private-label mix라는 미시 변수로 번역했다는 점이 재사용 가능하다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "claim_order": 4,
+      "claim_title_ko": "FCF·deleveraging",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "경기침체면 pulp가 내려가고 private-label share가 올라 이익이 개선되고, 침체가 아니면 Cellu Tissue 통합과 신규공장 가동으로 성장하는 양방향 payoff. 2년 EBITDA +44% 이상을 기대.",
+      "t0_evidence_ko": "경기침체면 pulp가 내려가고 private-label share가 올라 이익이 개선되고, 침체가 아니면 Cellu Tissue 통합과 신규공장 가동으로 성장하는 양방향 payoff. 2년 EBITDA +44% 이상을 기대.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "FCF 적자 지속·net debt 증가",
+      "actual_result_ko": "후속 수년 EBITDA와 주가가 개선됐다. 핵심은 거시전망을 한 방향으로 맞히는 대신 recession/no-recession 모두에서 어떤 변수가 profit bridge를 지지하는지 명시한 점이다.",
+      "quantitative_gap_ko": "private label: share gain → 수요 방어",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "거시 시나리오를 binary forecast가 아니라 pulp cost와 private-label mix라는 미시 변수로 번역했다는 점이 재사용 가능하다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·capital allocation",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "경기침체면 pulp가 내려가고 private-label share가 올라 이익이 개선되고, 침체가 아니면 Cellu Tissue 통합과 신규공장 가동으로 성장하는 양방향 payoff. 2년 EBITDA +44% 이상을 기대.",
+      "t0_evidence_ko": "경기침체면 pulp가 내려가고 private-label share가 올라 이익이 개선되고, 침체가 아니면 Cellu Tissue 통합과 신규공장 가동으로 성장하는 양방향 payoff. 2년 EBITDA +44% 이상을 기대.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "정상화 FCF 기준 기대수익률 소멸",
+      "actual_result_ko": "후속 수년 EBITDA와 주가가 개선됐다. 핵심은 거시전망을 한 방향으로 맞히는 대신 recession/no-recession 모두에서 어떤 변수가 profit bridge를 지지하는지 명시한 점이다.",
+      "quantitative_gap_ko": "private label: share gain → 수요 방어",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "거시 시나리오를 binary forecast가 아니라 pulp cost와 private-label mix라는 미시 변수로 번역했다는 점이 재사용 가능하다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "claim_order": 6,
+      "claim_title_ko": "반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "경기침체면 pulp가 내려가고 private-label share가 올라 이익이 개선되고, 침체가 아니면 Cellu Tissue 통합과 신규공장 가동으로 성장하는 양방향 payoff. 2년 EBITDA +44% 이상을 기대.",
+      "t0_evidence_ko": "경기침체면 pulp가 내려가고 private-label share가 올라 이익이 개선되고, 침체가 아니면 Cellu Tissue 통합과 신규공장 가동으로 성장하는 양방향 payoff. 2년 EBITDA +44% 이상을 기대.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "반증 신호에도 valuation만 이유로 유지",
+      "actual_result_ko": "후속 수년 EBITDA와 주가가 개선됐다. 핵심은 거시전망을 한 방향으로 맞히는 대신 recession/no-recession 모두에서 어떤 변수가 profit bridge를 지지하는지 명시한 점이다.",
+      "quantitative_gap_ko": "private label: share gain → 수요 방어",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "거시 시나리오를 binary forecast가 아니라 pulp cost와 private-label mix라는 미시 변수로 번역했다는 점이 재사용 가능하다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "claim_order": 1,
+      "claim_title_ko": "핵심 수요·volume",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "경기침체에도 beverage/food can volume은 방어적이고 food can 가격 인상, 원가 pass-through, 부채상환에 따른 이자감소가 2009 EPS를 $1.96 수준으로 방어한다는 논지.",
+      "t0_evidence_ko": "경기침체에도 beverage/food can volume은 방어적이고 food can 가격 인상, 원가 pass-through, 부채상환에 따른 이자감소가 2009 EPS를 $1.96 수준으로 방어한다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "volume/segment margin 2개 분기 연속 악화",
+      "actual_result_ko": "Crown은 2009 full-year EPS before items $2.01, operating cash flow $756m, free cash flow $612m을 기록했고 부채를 $500m 이상 줄였다. 원문의 $1.96 EPS 기대를 웃돌았다.",
+      "quantitative_gap_ko": "2009 EPS: $1.96 → $2.01 ex-items",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "recession defensiveness보다 중요한 것은 FCF→debt paydown→interest 감소→equity value 증가의 capital-structure flywheel을 정확히 잡은 점이다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "claim_order": 2,
+      "claim_title_ko": "가격·원가 spread",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "경기침체에도 beverage/food can volume은 방어적이고 food can 가격 인상, 원가 pass-through, 부채상환에 따른 이자감소가 2009 EPS를 $1.96 수준으로 방어한다는 논지.",
+      "t0_evidence_ko": "경기침체에도 beverage/food can volume은 방어적이고 food can 가격 인상, 원가 pass-through, 부채상환에 따른 이자감소가 2009 EPS를 $1.96 수준으로 방어한다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "가격 인상이 input inflation을 못 따라감",
+      "actual_result_ko": "Crown은 2009 full-year EPS before items $2.01, operating cash flow $756m, free cash flow $612m을 기록했고 부채를 $500m 이상 줄였다. 원문의 $1.96 EPS 기대를 웃돌았다.",
+      "quantitative_gap_ko": "OCF: 강한 현금창출 → $756m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "recession defensiveness보다 중요한 것은 FCF→debt paydown→interest 감소→equity value 증가의 capital-structure flywheel을 정확히 잡은 점이다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "claim_order": 3,
+      "claim_title_ko": "증설·통합 execution",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "경기침체에도 beverage/food can volume은 방어적이고 food can 가격 인상, 원가 pass-through, 부채상환에 따른 이자감소가 2009 EPS를 $1.96 수준으로 방어한다는 논지.",
+      "t0_evidence_ko": "경기침체에도 beverage/food can volume은 방어적이고 food can 가격 인상, 원가 pass-through, 부채상환에 따른 이자감소가 2009 EPS를 $1.96 수준으로 방어한다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "프로젝트 지연·overrun·utilization 부진",
+      "actual_result_ko": "Crown은 2009 full-year EPS before items $2.01, operating cash flow $756m, free cash flow $612m을 기록했고 부채를 $500m 이상 줄였다. 원문의 $1.96 EPS 기대를 웃돌았다.",
+      "quantitative_gap_ko": "FCF: debt paydown 재원 → $612m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "recession defensiveness보다 중요한 것은 FCF→debt paydown→interest 감소→equity value 증가의 capital-structure flywheel을 정확히 잡은 점이다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "claim_order": 4,
+      "claim_title_ko": "FCF·deleveraging",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "경기침체에도 beverage/food can volume은 방어적이고 food can 가격 인상, 원가 pass-through, 부채상환에 따른 이자감소가 2009 EPS를 $1.96 수준으로 방어한다는 논지.",
+      "t0_evidence_ko": "경기침체에도 beverage/food can volume은 방어적이고 food can 가격 인상, 원가 pass-through, 부채상환에 따른 이자감소가 2009 EPS를 $1.96 수준으로 방어한다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "FCF 적자 지속·net debt 증가",
+      "actual_result_ko": "Crown은 2009 full-year EPS before items $2.01, operating cash flow $756m, free cash flow $612m을 기록했고 부채를 $500m 이상 줄였다. 원문의 $1.96 EPS 기대를 웃돌았다.",
+      "quantitative_gap_ko": "debt paydown: $500m+ 기대 → >$500m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "recession defensiveness보다 중요한 것은 FCF→debt paydown→interest 감소→equity value 증가의 capital-structure flywheel을 정확히 잡은 점이다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·capital allocation",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "경기침체에도 beverage/food can volume은 방어적이고 food can 가격 인상, 원가 pass-through, 부채상환에 따른 이자감소가 2009 EPS를 $1.96 수준으로 방어한다는 논지.",
+      "t0_evidence_ko": "경기침체에도 beverage/food can volume은 방어적이고 food can 가격 인상, 원가 pass-through, 부채상환에 따른 이자감소가 2009 EPS를 $1.96 수준으로 방어한다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "정상화 FCF 기준 기대수익률 소멸",
+      "actual_result_ko": "Crown은 2009 full-year EPS before items $2.01, operating cash flow $756m, free cash flow $612m을 기록했고 부채를 $500m 이상 줄였다. 원문의 $1.96 EPS 기대를 웃돌았다.",
+      "quantitative_gap_ko": "debt paydown: $500m+ 기대 → >$500m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "recession defensiveness보다 중요한 것은 FCF→debt paydown→interest 감소→equity value 증가의 capital-structure flywheel을 정확히 잡은 점이다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "claim_order": 6,
+      "claim_title_ko": "반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "경기침체에도 beverage/food can volume은 방어적이고 food can 가격 인상, 원가 pass-through, 부채상환에 따른 이자감소가 2009 EPS를 $1.96 수준으로 방어한다는 논지.",
+      "t0_evidence_ko": "경기침체에도 beverage/food can volume은 방어적이고 food can 가격 인상, 원가 pass-through, 부채상환에 따른 이자감소가 2009 EPS를 $1.96 수준으로 방어한다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "반증 신호에도 valuation만 이유로 유지",
+      "actual_result_ko": "Crown은 2009 full-year EPS before items $2.01, operating cash flow $756m, free cash flow $612m을 기록했고 부채를 $500m 이상 줄였다. 원문의 $1.96 EPS 기대를 웃돌았다.",
+      "quantitative_gap_ko": "debt paydown: $500m+ 기대 → >$500m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "recession defensiveness보다 중요한 것은 FCF→debt paydown→interest 감소→equity value 증가의 capital-structure flywheel을 정확히 잡은 점이다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "claim_order": 1,
+      "claim_title_ko": "핵심 수요·volume",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "최소 연간 FCF 약 $230m, 약 15% sustainable FCF yield의 안정적 can 사업이 부채를 상환하면 equity가 convex하게 증가하고, asbestos liability는 headline 공포보다 실제 cash drain 기준으로 감당 가능하다는 논지.",
+      "t0_evidence_ko": "최소 연간 FCF 약 $230m, 약 15% sustainable FCF yield의 안정적 can 사업이 부채를 상환하면 equity가 convex하게 증가하고, asbestos liability는 headline 공포보다 실제 cash drain 기준으로 감당 가능하다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "volume/segment margin 2개 분기 연속 악화",
+      "actual_result_ko": "Crown은 후속 수년 debt를 줄이고 신용도를 회복했다. 2004 asbestos cash payments는 $41m, year-end accrual은 $233m이었고 probable/estimable range는 $233~351m이었다. Florida·Ohio·Mississippi 등의 successor-liability 제한 법률도 법적 tail risk를 완화했다.",
+      "quantitative_gap_ko": "FCF: $230m+ → 후속 현금창출 유지",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "기업가치가 정체해도 debt repayment만으로 equity가 증가하는 구조를 본 것이 핵심이다. asbestos는 binary catastrophe가 아니라 annual cash drain과 reserve range로 정량화했다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "claim_order": 2,
+      "claim_title_ko": "가격·원가 spread",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "최소 연간 FCF 약 $230m, 약 15% sustainable FCF yield의 안정적 can 사업이 부채를 상환하면 equity가 convex하게 증가하고, asbestos liability는 headline 공포보다 실제 cash drain 기준으로 감당 가능하다는 논지.",
+      "t0_evidence_ko": "최소 연간 FCF 약 $230m, 약 15% sustainable FCF yield의 안정적 can 사업이 부채를 상환하면 equity가 convex하게 증가하고, asbestos liability는 headline 공포보다 실제 cash drain 기준으로 감당 가능하다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "가격 인상이 input inflation을 못 따라감",
+      "actual_result_ko": "Crown은 후속 수년 debt를 줄이고 신용도를 회복했다. 2004 asbestos cash payments는 $41m, year-end accrual은 $233m이었고 probable/estimable range는 $233~351m이었다. Florida·Ohio·Mississippi 등의 successor-liability 제한 법률도 법적 tail risk를 완화했다.",
+      "quantitative_gap_ko": "FCF yield: 약 15% → deleveraging으로 equity 확대",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "기업가치가 정체해도 debt repayment만으로 equity가 증가하는 구조를 본 것이 핵심이다. asbestos는 binary catastrophe가 아니라 annual cash drain과 reserve range로 정량화했다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "claim_order": 3,
+      "claim_title_ko": "증설·통합 execution",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "최소 연간 FCF 약 $230m, 약 15% sustainable FCF yield의 안정적 can 사업이 부채를 상환하면 equity가 convex하게 증가하고, asbestos liability는 headline 공포보다 실제 cash drain 기준으로 감당 가능하다는 논지.",
+      "t0_evidence_ko": "최소 연간 FCF 약 $230m, 약 15% sustainable FCF yield의 안정적 can 사업이 부채를 상환하면 equity가 convex하게 증가하고, asbestos liability는 headline 공포보다 실제 cash drain 기준으로 감당 가능하다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "프로젝트 지연·overrun·utilization 부진",
+      "actual_result_ko": "Crown은 후속 수년 debt를 줄이고 신용도를 회복했다. 2004 asbestos cash payments는 $41m, year-end accrual은 $233m이었고 probable/estimable range는 $233~351m이었다. Florida·Ohio·Mississippi 등의 successor-liability 제한 법률도 법적 tail risk를 완화했다.",
+      "quantitative_gap_ko": "2004 asbestos cash: $41m → $41m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "기업가치가 정체해도 debt repayment만으로 equity가 증가하는 구조를 본 것이 핵심이다. asbestos는 binary catastrophe가 아니라 annual cash drain과 reserve range로 정량화했다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "claim_order": 4,
+      "claim_title_ko": "FCF·deleveraging",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "최소 연간 FCF 약 $230m, 약 15% sustainable FCF yield의 안정적 can 사업이 부채를 상환하면 equity가 convex하게 증가하고, asbestos liability는 headline 공포보다 실제 cash drain 기준으로 감당 가능하다는 논지.",
+      "t0_evidence_ko": "최소 연간 FCF 약 $230m, 약 15% sustainable FCF yield의 안정적 can 사업이 부채를 상환하면 equity가 convex하게 증가하고, asbestos liability는 headline 공포보다 실제 cash drain 기준으로 감당 가능하다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "FCF 적자 지속·net debt 증가",
+      "actual_result_ko": "Crown은 후속 수년 debt를 줄이고 신용도를 회복했다. 2004 asbestos cash payments는 $41m, year-end accrual은 $233m이었고 probable/estimable range는 $233~351m이었다. Florida·Ohio·Mississippi 등의 successor-liability 제한 법률도 법적 tail risk를 완화했다.",
+      "quantitative_gap_ko": "asbestos accrual: $233m → $233~351m range",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "기업가치가 정체해도 debt repayment만으로 equity가 증가하는 구조를 본 것이 핵심이다. asbestos는 binary catastrophe가 아니라 annual cash drain과 reserve range로 정량화했다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·capital allocation",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "최소 연간 FCF 약 $230m, 약 15% sustainable FCF yield의 안정적 can 사업이 부채를 상환하면 equity가 convex하게 증가하고, asbestos liability는 headline 공포보다 실제 cash drain 기준으로 감당 가능하다는 논지.",
+      "t0_evidence_ko": "최소 연간 FCF 약 $230m, 약 15% sustainable FCF yield의 안정적 can 사업이 부채를 상환하면 equity가 convex하게 증가하고, asbestos liability는 headline 공포보다 실제 cash drain 기준으로 감당 가능하다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "정상화 FCF 기준 기대수익률 소멸",
+      "actual_result_ko": "Crown은 후속 수년 debt를 줄이고 신용도를 회복했다. 2004 asbestos cash payments는 $41m, year-end accrual은 $233m이었고 probable/estimable range는 $233~351m이었다. Florida·Ohio·Mississippi 등의 successor-liability 제한 법률도 법적 tail risk를 완화했다.",
+      "quantitative_gap_ko": "asbestos accrual: $233m → $233~351m range",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "기업가치가 정체해도 debt repayment만으로 equity가 증가하는 구조를 본 것이 핵심이다. asbestos는 binary catastrophe가 아니라 annual cash drain과 reserve range로 정량화했다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "claim_order": 6,
+      "claim_title_ko": "반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "최소 연간 FCF 약 $230m, 약 15% sustainable FCF yield의 안정적 can 사업이 부채를 상환하면 equity가 convex하게 증가하고, asbestos liability는 headline 공포보다 실제 cash drain 기준으로 감당 가능하다는 논지.",
+      "t0_evidence_ko": "최소 연간 FCF 약 $230m, 약 15% sustainable FCF yield의 안정적 can 사업이 부채를 상환하면 equity가 convex하게 증가하고, asbestos liability는 headline 공포보다 실제 cash drain 기준으로 감당 가능하다는 논지.",
+      "key_assumption_ko": "운영 KPI와 capital cycle이 causal chain을 지지한다.",
+      "ex_ante_falsifier_ko": "반증 신호에도 valuation만 이유로 유지",
+      "actual_result_ko": "Crown은 후속 수년 debt를 줄이고 신용도를 회복했다. 2004 asbestos cash payments는 $41m, year-end accrual은 $233m이었고 probable/estimable range는 $233~351m이었다. Florida·Ohio·Mississippi 등의 successor-liability 제한 법률도 법적 tail risk를 완화했다.",
+      "quantitative_gap_ko": "asbestos accrual: $233m → $233~351m range",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "기업가치가 정체해도 debt repayment만으로 equity가 증가하는 구조를 본 것이 핵심이다. asbestos는 binary catastrophe가 아니라 annual cash drain과 reserve range로 정량화했다.",
+      "reusable_lesson_ko": "claim별 독립 KPI와 반증조건으로 분기마다 posterior를 갱신한다."
+    }
+  ],
+  "metrics": [
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "metric_order": 1,
+      "metric_name_ko": "주가",
+      "t0_value_ko": "$23.67",
+      "thesis_expectation_ko": "rerating",
+      "actual_value_ko": "execution 문제 지속",
+      "verdict_ko": "실패",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "metric_order": 2,
+      "metric_name_ko": "goodwill impairment",
+      "t0_value_ko": "미반영",
+      "thesis_expectation_ko": "tissue 정상화",
+      "actual_value_ko": "$195.1m",
+      "verdict_ko": "실패",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "metric_order": 3,
+      "metric_name_ko": "Shelby",
+      "t0_value_ko": "2019 Q1 ramp",
+      "thesis_expectation_ko": "70k ton 가동",
+      "actual_value_ko": "약 2분기 지연·$40m overrun",
+      "verdict_ko": "실패",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "metric_order": 4,
+      "metric_name_ko": "2020 operating income",
+      "t0_value_ko": "회복",
+      "thesis_expectation_ko": "회복",
+      "actual_value_ko": "$158.1m vs 2019 $45.4m",
+      "verdict_ko": "후행 성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "metric_order": 1,
+      "metric_name_ko": "SBS capacity",
+      "t0_value_ko": "840k tons",
+      "thesis_expectation_ko": "가격 인상",
+      "actual_value_ko": "paperboard 중심 재편",
+      "verdict_ko": "부분 성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "metric_order": 2,
+      "metric_name_ko": "leverage target",
+      "t0_value_ko": "2.5x",
+      "thesis_expectation_ko": "FCF로 축소",
+      "actual_value_ko": "매각대금으로 deleveraging",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "metric_order": 3,
+      "metric_name_ko": "tissue value",
+      "t0_value_ko": "strategic premium",
+      "thesis_expectation_ko": "매각",
+      "actual_value_ko": "$1.06bn / 약 6x EBITDA",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "metric_order": 4,
+      "metric_name_ko": "2024 net debt",
+      "t0_value_ko": "감소",
+      "thesis_expectation_ko": "의미있는 감소",
+      "actual_value_ko": "$199m 감소",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "metric_order": 1,
+      "metric_name_ko": "2019 net income",
+      "t0_value_ko": "- $5.6m",
+      "thesis_expectation_ko": "흑자전환",
+      "actual_value_ko": "$77.1m in 2020",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "metric_order": 2,
+      "metric_name_ko": "sales",
+      "t0_value_ko": "$1.762bn",
+      "thesis_expectation_ko": "증가",
+      "actual_value_ko": "$1.869bn in 2020",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "metric_order": 3,
+      "metric_name_ko": "operating income",
+      "t0_value_ko": "$45.4m",
+      "thesis_expectation_ko": "급개선",
+      "actual_value_ko": "$158.1m in 2020",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "metric_order": 4,
+      "metric_name_ko": "Shelby",
+      "t0_value_ko": "ramp",
+      "thesis_expectation_ko": "benefit",
+      "actual_value_ko": "2020 deck 핵심 priority",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "metric_order": 1,
+      "metric_name_ko": "deal multiple",
+      "t0_value_ko": "6.5x EBITDA",
+      "thesis_expectation_ko": "synergy 후 하락",
+      "actual_value_ko": "거래 완료",
+      "verdict_ko": "부분 성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "metric_order": 2,
+      "metric_name_ko": "목표가",
+      "t0_value_ko": "$100~120",
+      "thesis_expectation_ko": "rerating",
+      "actual_value_ko": "후속 수년 큰 상승",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "metric_order": 3,
+      "metric_name_ko": "synergy",
+      "t0_value_ko": "$15~20m+",
+      "thesis_expectation_ko": "상향",
+      "actual_value_ko": "변동비/CapEx가 일부 상쇄",
+      "verdict_ko": "혼합",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "metric_order": 4,
+      "metric_name_ko": "private label",
+      "t0_value_ko": "약 60%",
+      "thesis_expectation_ko": "방어적 성장",
+      "actual_value_ko": "전국 플랫폼 확보",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "metric_order": 1,
+      "metric_name_ko": "tax credit",
+      "t0_value_ko": "약 $455k/day",
+      "thesis_expectation_ko": "cash inflow",
+      "actual_value_ko": "2009 유입",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "metric_order": 2,
+      "metric_name_ko": "YTD credit",
+      "t0_value_ko": "$74m",
+      "thesis_expectation_ko": "debt paydown",
+      "actual_value_ko": "부채 감소",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "metric_order": 3,
+      "metric_name_ko": "EV/EBITDA",
+      "t0_value_ko": "<5.6x",
+      "thesis_expectation_ko": "rerating",
+      "actual_value_ko": "후속 주가 상승",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "metric_order": 4,
+      "metric_name_ko": "duration",
+      "t0_value_ko": "2009 중심",
+      "thesis_expectation_ko": "일회성",
+      "actual_value_ko": "정책 종료",
+      "verdict_ko": "예상 가능",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "metric_order": 1,
+      "metric_name_ko": "주가",
+      "t0_value_ko": "$39.50",
+      "thesis_expectation_ko": "상승",
+      "actual_value_ko": "2014~15 큰 상승",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "metric_order": 2,
+      "metric_name_ko": "SOTP",
+      "t0_value_ko": "$85",
+      "thesis_expectation_ko": "할인 축소",
+      "actual_value_ko": "상당부분 축소",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "metric_order": 3,
+      "metric_name_ko": "Shelby",
+      "t0_value_ko": "2013 ramp",
+      "thesis_expectation_ko": "EBITDA 개선",
+      "actual_value_ko": "기여",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "metric_order": 4,
+      "metric_name_ko": "capital allocation",
+      "t0_value_ko": "buyback/dividend",
+      "thesis_expectation_ko": "전환",
+      "actual_value_ko": "후속 buyback",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "metric_order": 1,
+      "metric_name_ko": "sales",
+      "t0_value_ko": "증가",
+      "thesis_expectation_ko": "$1.8686bn",
+      "actual_value_ko": "$1.8686bn",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "metric_order": 2,
+      "metric_name_ko": "operating income",
+      "t0_value_ko": "급개선",
+      "thesis_expectation_ko": "$158.1m",
+      "actual_value_ko": "$158.1m",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "metric_order": 3,
+      "metric_name_ko": "net income",
+      "t0_value_ko": "흑자",
+      "thesis_expectation_ko": "$77.1m",
+      "actual_value_ko": "$77.1m",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "metric_order": 4,
+      "metric_name_ko": "leverage",
+      "t0_value_ko": "2.5x target",
+      "thesis_expectation_ko": "축소",
+      "actual_value_ko": "공식 target",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "metric_order": 1,
+      "metric_name_ko": "주가",
+      "t0_value_ko": "$33.5",
+      "thesis_expectation_ko": "rerating",
+      "actual_value_ko": "후속 상승",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "metric_order": 2,
+      "metric_name_ko": "EBITDA",
+      "t0_value_ko": "2년 +44%",
+      "thesis_expectation_ko": "상승",
+      "actual_value_ko": "후속 개선",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "metric_order": 3,
+      "metric_name_ko": "pulp sensitivity",
+      "t0_value_ko": "$50↓ = ~$20m EBITDA",
+      "thesis_expectation_ko": "tailwind",
+      "actual_value_ko": "실제 변동성 핵심",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "metric_order": 4,
+      "metric_name_ko": "private label",
+      "t0_value_ko": "share gain",
+      "thesis_expectation_ko": "방어성",
+      "actual_value_ko": "수요 방어",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "metric_order": 1,
+      "metric_name_ko": "2009 EPS",
+      "t0_value_ko": "$1.96",
+      "thesis_expectation_ko": "$1.96",
+      "actual_value_ko": "$2.01 ex-items",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "metric_order": 2,
+      "metric_name_ko": "OCF",
+      "t0_value_ko": "강한 현금창출",
+      "thesis_expectation_ko": "증가",
+      "actual_value_ko": "$756m",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "metric_order": 3,
+      "metric_name_ko": "FCF",
+      "t0_value_ko": "debt paydown 재원",
+      "thesis_expectation_ko": "강함",
+      "actual_value_ko": "$612m",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "metric_order": 4,
+      "metric_name_ko": "debt paydown",
+      "t0_value_ko": "$500m+ 기대",
+      "thesis_expectation_ko": "감소",
+      "actual_value_ko": ">$500m",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "metric_order": 1,
+      "metric_name_ko": "FCF",
+      "t0_value_ko": "$230m+",
+      "thesis_expectation_ko": "지속",
+      "actual_value_ko": "후속 현금창출 유지",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "metric_order": 2,
+      "metric_name_ko": "FCF yield",
+      "t0_value_ko": "약 15%",
+      "thesis_expectation_ko": "rerating",
+      "actual_value_ko": "deleveraging으로 equity 확대",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "metric_order": 3,
+      "metric_name_ko": "2004 asbestos cash",
+      "t0_value_ko": "$41m",
+      "thesis_expectation_ko": "감당 가능",
+      "actual_value_ko": "$41m",
+      "verdict_ko": "성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "metric_order": 4,
+      "metric_name_ko": "asbestos accrual",
+      "t0_value_ko": "$233m",
+      "thesis_expectation_ko": "bounded",
+      "actual_value_ko": "$233~351m range",
+      "verdict_ko": "부분 성공",
+      "interpretation_ko": "실제 변화가 원 thesis의 price-cost/FCF causal chain을 얼마나 지지했는지 판정."
+    }
+  ],
+  "timeline": [
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "event_order": 1,
+      "event_date_ko": "2018-10-27",
+      "event_ko": "VIC 아이디어 게시",
+      "thesis_implication_ko": "2018 price/cost inflection + Shelby ramp Long"
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "event_order": 2,
+      "event_date_ko": "2019-12-31",
+      "event_ko": "Shelby completion 지연·overrun과 digester savings 미달",
+      "thesis_implication_ko": "첫 주요 반증/확인 신호"
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "event_order": 3,
+      "event_date_ko": "2020-12-31",
+      "event_ko": "공식 연차실적 확인",
+      "thesis_implication_ko": "operating/FCF 결과 검증"
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "event_order": 4,
+      "event_date_ko": "2024-07-22",
+      "event_ko": "후속 strategic/capital-allocation 확인",
+      "thesis_implication_ko": "자산가치·deleveraging 검증"
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "event_order": 5,
+      "event_date_ko": "2024-11-01",
+      "event_ko": "후속 1차자료 검증",
+      "thesis_implication_ko": "사후판정 보강"
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "event_order": 6,
+      "event_date_ko": "2025-02-13",
+      "event_ko": "연구 기준점",
+      "thesis_implication_ko": "장기 business/capital allocation 재평가"
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "event_order": 1,
+      "event_date_ko": "2021-09-14",
+      "event_ko": "VIC 아이디어 게시",
+      "thesis_implication_ko": "2021 SBS pricing + deleveraging + strategic sale Long"
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "event_order": 2,
+      "event_date_ko": "2024-07-22",
+      "event_ko": "tissue business $1.06bn 매각계약 발표",
+      "thesis_implication_ko": "첫 주요 반증/확인 신호"
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "event_order": 3,
+      "event_date_ko": "2020-12-31",
+      "event_ko": "공식 연차실적 확인",
+      "thesis_implication_ko": "operating/FCF 결과 검증"
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "event_order": 4,
+      "event_date_ko": "2024-07-22",
+      "event_ko": "후속 strategic/capital-allocation 확인",
+      "thesis_implication_ko": "자산가치·deleveraging 검증"
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "event_order": 5,
+      "event_date_ko": "2024-11-01",
+      "event_ko": "후속 1차자료 검증",
+      "thesis_implication_ko": "사후판정 보강"
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "event_order": 6,
+      "event_date_ko": "2025-02-13",
+      "event_ko": "연구 기준점",
+      "thesis_implication_ko": "장기 business/capital allocation 재평가"
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "event_order": 1,
+      "event_date_ko": "2019-10-18",
+      "event_ko": "VIC 아이디어 게시",
+      "thesis_implication_ko": "2019 pulp-cost reversal + Shelby utilization Long"
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "event_order": 2,
+      "event_date_ko": "2020-12-31",
+      "event_ko": "2020 tissue demand와 margin 급반등",
+      "thesis_implication_ko": "첫 주요 반증/확인 신호"
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "event_order": 3,
+      "event_date_ko": "2020-12-31",
+      "event_ko": "공식 연차실적 확인",
+      "thesis_implication_ko": "operating/FCF 결과 검증"
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "event_order": 4,
+      "event_date_ko": "2024-07-22",
+      "event_ko": "후속 strategic/capital-allocation 확인",
+      "thesis_implication_ko": "자산가치·deleveraging 검증"
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "event_order": 5,
+      "event_date_ko": "2024-11-01",
+      "event_ko": "후속 1차자료 검증",
+      "thesis_implication_ko": "사후판정 보강"
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "event_order": 6,
+      "event_date_ko": "2025-02-13",
+      "event_ko": "연구 기준점",
+      "thesis_implication_ko": "장기 business/capital allocation 재평가"
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "event_order": 1,
+      "event_date_ko": "2010-12-04",
+      "event_ko": "VIC 아이디어 게시",
+      "thesis_implication_ko": "2010 Cellu Tissue acquisition synergy Long"
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "event_order": 2,
+      "event_date_ko": "2010-12-31",
+      "event_ko": "Cellu Tissue deal closing과 통합",
+      "thesis_implication_ko": "첫 주요 반증/확인 신호"
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "event_order": 3,
+      "event_date_ko": "2020-12-31",
+      "event_ko": "공식 연차실적 확인",
+      "thesis_implication_ko": "operating/FCF 결과 검증"
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "event_order": 4,
+      "event_date_ko": "2024-07-22",
+      "event_ko": "후속 strategic/capital-allocation 확인",
+      "thesis_implication_ko": "자산가치·deleveraging 검증"
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "event_order": 5,
+      "event_date_ko": "2024-11-01",
+      "event_ko": "후속 1차자료 검증",
+      "thesis_implication_ko": "사후판정 보강"
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "event_order": 6,
+      "event_date_ko": "2025-02-13",
+      "event_ko": "연구 기준점",
+      "thesis_implication_ko": "장기 business/capital allocation 재평가"
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "event_order": 1,
+      "event_date_ko": "2009-07-23",
+      "event_ko": "VIC 아이디어 게시",
+      "thesis_implication_ko": "2009 alternative-fuel tax-credit balance-sheet Long"
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "event_order": 2,
+      "event_date_ko": "2009-12-31",
+      "event_ko": "tax-credit cash가 debt paydown에 반영",
+      "thesis_implication_ko": "첫 주요 반증/확인 신호"
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "event_order": 3,
+      "event_date_ko": "2020-12-31",
+      "event_ko": "공식 연차실적 확인",
+      "thesis_implication_ko": "operating/FCF 결과 검증"
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "event_order": 4,
+      "event_date_ko": "2024-07-22",
+      "event_ko": "후속 strategic/capital-allocation 확인",
+      "thesis_implication_ko": "자산가치·deleveraging 검증"
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "event_order": 5,
+      "event_date_ko": "2024-11-01",
+      "event_ko": "후속 1차자료 검증",
+      "thesis_implication_ko": "사후판정 보강"
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "event_order": 6,
+      "event_date_ko": "2025-02-13",
+      "event_ko": "연구 기준점",
+      "thesis_implication_ko": "장기 business/capital allocation 재평가"
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "event_order": 1,
+      "event_date_ko": "2012-12-18",
+      "event_ko": "VIC 아이디어 게시",
+      "thesis_implication_ko": "2012 SOTP + capital-allocation inflection Long"
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "event_order": 2,
+      "event_date_ko": "2014-12-31",
+      "event_ko": "Shelby output와 capital-return 기대가 valuation에 반영",
+      "thesis_implication_ko": "첫 주요 반증/확인 신호"
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "event_order": 3,
+      "event_date_ko": "2020-12-31",
+      "event_ko": "공식 연차실적 확인",
+      "thesis_implication_ko": "operating/FCF 결과 검증"
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "event_order": 4,
+      "event_date_ko": "2024-07-22",
+      "event_ko": "후속 strategic/capital-allocation 확인",
+      "thesis_implication_ko": "자산가치·deleveraging 검증"
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "event_order": 5,
+      "event_date_ko": "2024-11-01",
+      "event_ko": "후속 1차자료 검증",
+      "thesis_implication_ko": "사후판정 보강"
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "event_order": 6,
+      "event_date_ko": "2025-02-13",
+      "event_ko": "연구 기준점",
+      "thesis_implication_ko": "장기 business/capital allocation 재평가"
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "event_order": 1,
+      "event_date_ko": "2020-05-25",
+      "event_ko": "VIC 아이디어 게시",
+      "thesis_implication_ko": "2020 COVID tissue demand + deleveraging Long"
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "event_order": 2,
+      "event_date_ko": "2020-12-31",
+      "event_ko": "2020 실적의 sales·operating income 급개선",
+      "thesis_implication_ko": "첫 주요 반증/확인 신호"
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "event_order": 3,
+      "event_date_ko": "2020-12-31",
+      "event_ko": "공식 연차실적 확인",
+      "thesis_implication_ko": "operating/FCF 결과 검증"
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "event_order": 4,
+      "event_date_ko": "2024-07-22",
+      "event_ko": "후속 strategic/capital-allocation 확인",
+      "thesis_implication_ko": "자산가치·deleveraging 검증"
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "event_order": 5,
+      "event_date_ko": "2024-11-01",
+      "event_ko": "후속 1차자료 검증",
+      "thesis_implication_ko": "사후판정 보강"
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "event_order": 6,
+      "event_date_ko": "2025-02-13",
+      "event_ko": "연구 기준점",
+      "thesis_implication_ko": "장기 business/capital allocation 재평가"
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "event_order": 1,
+      "event_date_ko": "2011-09-22",
+      "event_ko": "VIC 아이디어 게시",
+      "thesis_implication_ko": "2011 recession-resilient two-scenario Long"
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "event_order": 2,
+      "event_date_ko": "2013-12-31",
+      "event_ko": "Cellu 통합과 Shelby ramp로 EBITDA 개선",
+      "thesis_implication_ko": "첫 주요 반증/확인 신호"
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "event_order": 3,
+      "event_date_ko": "2020-12-31",
+      "event_ko": "공식 연차실적 확인",
+      "thesis_implication_ko": "operating/FCF 결과 검증"
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "event_order": 4,
+      "event_date_ko": "2024-07-22",
+      "event_ko": "후속 strategic/capital-allocation 확인",
+      "thesis_implication_ko": "자산가치·deleveraging 검증"
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "event_order": 5,
+      "event_date_ko": "2024-11-01",
+      "event_ko": "후속 1차자료 검증",
+      "thesis_implication_ko": "사후판정 보강"
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "event_order": 6,
+      "event_date_ko": "2025-02-13",
+      "event_ko": "연구 기준점",
+      "thesis_implication_ko": "장기 business/capital allocation 재평가"
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "event_order": 1,
+      "event_date_ko": "2008-12-22",
+      "event_ko": "VIC 아이디어 게시",
+      "thesis_implication_ko": "2008 recession-defensive cans + debt paydown Long"
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "event_order": 2,
+      "event_date_ko": "2009-12-31",
+      "event_ko": "2009 현금흐름과 $500m+ debt paydown",
+      "thesis_implication_ko": "첫 주요 반증/확인 신호"
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "event_order": 3,
+      "event_date_ko": "2009-12-31",
+      "event_ko": "공식 연차실적 확인",
+      "thesis_implication_ko": "operating/FCF 결과 검증"
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "event_order": 4,
+      "event_date_ko": "2010-02-02",
+      "event_ko": "후속 strategic/capital-allocation 확인",
+      "thesis_implication_ko": "자산가치·deleveraging 검증"
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "event_order": 5,
+      "event_date_ko": "2010-03-01",
+      "event_ko": "후속 1차자료 검증",
+      "thesis_implication_ko": "사후판정 보강"
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "event_order": 6,
+      "event_date_ko": "2025-02-13",
+      "event_ko": "연구 기준점",
+      "thesis_implication_ko": "장기 business/capital allocation 재평가"
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "event_order": 1,
+      "event_date_ko": "2004-01-22",
+      "event_ko": "VIC 아이디어 게시",
+      "thesis_implication_ko": "2004 15% FCF yield + capital-structure arbitrage Long"
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "event_order": 2,
+      "event_date_ko": "2005-12-31",
+      "event_ko": "deleveraging 지속과 asbestos cash outflow 안정화",
+      "thesis_implication_ko": "첫 주요 반증/확인 신호"
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "event_order": 3,
+      "event_date_ko": "2009-12-31",
+      "event_ko": "공식 연차실적 확인",
+      "thesis_implication_ko": "operating/FCF 결과 검증"
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "event_order": 4,
+      "event_date_ko": "2010-02-02",
+      "event_ko": "후속 strategic/capital-allocation 확인",
+      "thesis_implication_ko": "자산가치·deleveraging 검증"
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "event_order": 5,
+      "event_date_ko": "2010-03-01",
+      "event_ko": "후속 1차자료 검증",
+      "thesis_implication_ko": "사후판정 보강"
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "event_order": 6,
+      "event_date_ko": "2025-02-13",
+      "event_ko": "연구 기준점",
+      "thesis_implication_ko": "장기 business/capital allocation 재평가"
+    }
+  ],
+  "sources": [
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "VIC 원문",
+      "publisher": "Value Investors Club",
+      "source_date": "2018-10-27",
+      "url": null,
+      "evidence_ko": "원문 thesis와 당시 숫자"
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "source_order": 2,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2020 10-K",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1441236/000150433721000009/clw-20201231.htm",
+      "evidence_ko": "2020 sales $1.8686bn, operating income $158.1m, net income $77.1m"
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "source_order": 3,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2020 Investor Deck",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1441236/000150433720000011/investordeckjune2020.htm",
+      "evidence_ko": "FCF·debt reduction·Shelby benefits, 2.5x leverage target"
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "source_order": 4,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "2024 tissue sale agreement",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2024/Clearwater-Paper-Enters-into-Definitive-Agreement-to-Sell-Tissue-Business-to-Sofidel-America-Corporation-for-1.06-Billion/default.aspx",
+      "evidence_ko": "Sofidel에 $1.06bn 매각, 약 6x segment EBITDA"
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "source_order": 5,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "2024 tissue sale closing",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2024/Clearwater-Paper-Announces-the-Closing-of-the-Sale-of-its-Tissue-Business/default.aspx",
+      "evidence_ko": "거래 종결 및 proceeds로 debt paydown"
+    },
+    {
+      "idea_id": "5cc20d77-308d-4d25-bb17-56c431d89a0d",
+      "source_order": 6,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "FY2024 results",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2025/Clearwater-Paper-Reports-Fourth-Quarter-and-Year-End-2024-Results/default.aspx",
+      "evidence_ko": "net debt $199m 감소와 2024 portfolio 변화"
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "VIC 원문",
+      "publisher": "Value Investors Club",
+      "source_date": "2021-09-14",
+      "url": null,
+      "evidence_ko": "원문 thesis와 당시 숫자"
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "source_order": 2,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2020 10-K",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1441236/000150433721000009/clw-20201231.htm",
+      "evidence_ko": "2020 sales $1.8686bn, operating income $158.1m, net income $77.1m"
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "source_order": 3,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2020 Investor Deck",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1441236/000150433720000011/investordeckjune2020.htm",
+      "evidence_ko": "FCF·debt reduction·Shelby benefits, 2.5x leverage target"
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "source_order": 4,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "2024 tissue sale agreement",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2024/Clearwater-Paper-Enters-into-Definitive-Agreement-to-Sell-Tissue-Business-to-Sofidel-America-Corporation-for-1.06-Billion/default.aspx",
+      "evidence_ko": "Sofidel에 $1.06bn 매각, 약 6x segment EBITDA"
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "source_order": 5,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "2024 tissue sale closing",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2024/Clearwater-Paper-Announces-the-Closing-of-the-Sale-of-its-Tissue-Business/default.aspx",
+      "evidence_ko": "거래 종결 및 proceeds로 debt paydown"
+    },
+    {
+      "idea_id": "621190a1-6aa3-41dd-ba18-69d1612fafbb",
+      "source_order": 6,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "FY2024 results",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2025/Clearwater-Paper-Reports-Fourth-Quarter-and-Year-End-2024-Results/default.aspx",
+      "evidence_ko": "net debt $199m 감소와 2024 portfolio 변화"
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "VIC 원문",
+      "publisher": "Value Investors Club",
+      "source_date": "2019-10-18",
+      "url": null,
+      "evidence_ko": "원문 thesis와 당시 숫자"
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "source_order": 2,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2020 10-K",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1441236/000150433721000009/clw-20201231.htm",
+      "evidence_ko": "2020 sales $1.8686bn, operating income $158.1m, net income $77.1m"
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "source_order": 3,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2020 Investor Deck",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1441236/000150433720000011/investordeckjune2020.htm",
+      "evidence_ko": "FCF·debt reduction·Shelby benefits, 2.5x leverage target"
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "source_order": 4,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "2024 tissue sale agreement",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2024/Clearwater-Paper-Enters-into-Definitive-Agreement-to-Sell-Tissue-Business-to-Sofidel-America-Corporation-for-1.06-Billion/default.aspx",
+      "evidence_ko": "Sofidel에 $1.06bn 매각, 약 6x segment EBITDA"
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "source_order": 5,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "2024 tissue sale closing",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2024/Clearwater-Paper-Announces-the-Closing-of-the-Sale-of-its-Tissue-Business/default.aspx",
+      "evidence_ko": "거래 종결 및 proceeds로 debt paydown"
+    },
+    {
+      "idea_id": "35730f43-838a-474f-b518-4a70b05495af",
+      "source_order": 6,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "FY2024 results",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2025/Clearwater-Paper-Reports-Fourth-Quarter-and-Year-End-2024-Results/default.aspx",
+      "evidence_ko": "net debt $199m 감소와 2024 portfolio 변화"
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "VIC 원문",
+      "publisher": "Value Investors Club",
+      "source_date": "2010-12-04",
+      "url": null,
+      "evidence_ko": "원문 thesis와 당시 숫자"
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "source_order": 2,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2020 10-K",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1441236/000150433721000009/clw-20201231.htm",
+      "evidence_ko": "2020 sales $1.8686bn, operating income $158.1m, net income $77.1m"
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "source_order": 3,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2020 Investor Deck",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1441236/000150433720000011/investordeckjune2020.htm",
+      "evidence_ko": "FCF·debt reduction·Shelby benefits, 2.5x leverage target"
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "source_order": 4,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "2024 tissue sale agreement",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2024/Clearwater-Paper-Enters-into-Definitive-Agreement-to-Sell-Tissue-Business-to-Sofidel-America-Corporation-for-1.06-Billion/default.aspx",
+      "evidence_ko": "Sofidel에 $1.06bn 매각, 약 6x segment EBITDA"
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "source_order": 5,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "2024 tissue sale closing",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2024/Clearwater-Paper-Announces-the-Closing-of-the-Sale-of-its-Tissue-Business/default.aspx",
+      "evidence_ko": "거래 종결 및 proceeds로 debt paydown"
+    },
+    {
+      "idea_id": "4a7b2fc5-ea1d-48ab-84fa-65b0dce86f53",
+      "source_order": 6,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "FY2024 results",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2025/Clearwater-Paper-Reports-Fourth-Quarter-and-Year-End-2024-Results/default.aspx",
+      "evidence_ko": "net debt $199m 감소와 2024 portfolio 변화"
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "VIC 원문",
+      "publisher": "Value Investors Club",
+      "source_date": "2009-07-23",
+      "url": null,
+      "evidence_ko": "원문 thesis와 당시 숫자"
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "source_order": 2,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2020 10-K",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1441236/000150433721000009/clw-20201231.htm",
+      "evidence_ko": "2020 sales $1.8686bn, operating income $158.1m, net income $77.1m"
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "source_order": 3,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2020 Investor Deck",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1441236/000150433720000011/investordeckjune2020.htm",
+      "evidence_ko": "FCF·debt reduction·Shelby benefits, 2.5x leverage target"
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "source_order": 4,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "2024 tissue sale agreement",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2024/Clearwater-Paper-Enters-into-Definitive-Agreement-to-Sell-Tissue-Business-to-Sofidel-America-Corporation-for-1.06-Billion/default.aspx",
+      "evidence_ko": "Sofidel에 $1.06bn 매각, 약 6x segment EBITDA"
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "source_order": 5,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "2024 tissue sale closing",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2024/Clearwater-Paper-Announces-the-Closing-of-the-Sale-of-its-Tissue-Business/default.aspx",
+      "evidence_ko": "거래 종결 및 proceeds로 debt paydown"
+    },
+    {
+      "idea_id": "a3d31d5b-194d-4ef1-a8a5-84d455ee567e",
+      "source_order": 6,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "FY2024 results",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2025/Clearwater-Paper-Reports-Fourth-Quarter-and-Year-End-2024-Results/default.aspx",
+      "evidence_ko": "net debt $199m 감소와 2024 portfolio 변화"
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "VIC 원문",
+      "publisher": "Value Investors Club",
+      "source_date": "2012-12-18",
+      "url": null,
+      "evidence_ko": "원문 thesis와 당시 숫자"
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "source_order": 2,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2020 10-K",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1441236/000150433721000009/clw-20201231.htm",
+      "evidence_ko": "2020 sales $1.8686bn, operating income $158.1m, net income $77.1m"
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "source_order": 3,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2020 Investor Deck",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1441236/000150433720000011/investordeckjune2020.htm",
+      "evidence_ko": "FCF·debt reduction·Shelby benefits, 2.5x leverage target"
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "source_order": 4,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "2024 tissue sale agreement",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2024/Clearwater-Paper-Enters-into-Definitive-Agreement-to-Sell-Tissue-Business-to-Sofidel-America-Corporation-for-1.06-Billion/default.aspx",
+      "evidence_ko": "Sofidel에 $1.06bn 매각, 약 6x segment EBITDA"
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "source_order": 5,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "2024 tissue sale closing",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2024/Clearwater-Paper-Announces-the-Closing-of-the-Sale-of-its-Tissue-Business/default.aspx",
+      "evidence_ko": "거래 종결 및 proceeds로 debt paydown"
+    },
+    {
+      "idea_id": "8c74eb9f-6768-4f6b-ae62-7f7f4bc38c30",
+      "source_order": 6,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "FY2024 results",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2025/Clearwater-Paper-Reports-Fourth-Quarter-and-Year-End-2024-Results/default.aspx",
+      "evidence_ko": "net debt $199m 감소와 2024 portfolio 변화"
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "VIC 원문",
+      "publisher": "Value Investors Club",
+      "source_date": "2020-05-25",
+      "url": null,
+      "evidence_ko": "원문 thesis와 당시 숫자"
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "source_order": 2,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2020 10-K",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1441236/000150433721000009/clw-20201231.htm",
+      "evidence_ko": "2020 sales $1.8686bn, operating income $158.1m, net income $77.1m"
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "source_order": 3,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2020 Investor Deck",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1441236/000150433720000011/investordeckjune2020.htm",
+      "evidence_ko": "FCF·debt reduction·Shelby benefits, 2.5x leverage target"
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "source_order": 4,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "2024 tissue sale agreement",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2024/Clearwater-Paper-Enters-into-Definitive-Agreement-to-Sell-Tissue-Business-to-Sofidel-America-Corporation-for-1.06-Billion/default.aspx",
+      "evidence_ko": "Sofidel에 $1.06bn 매각, 약 6x segment EBITDA"
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "source_order": 5,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "2024 tissue sale closing",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2024/Clearwater-Paper-Announces-the-Closing-of-the-Sale-of-its-Tissue-Business/default.aspx",
+      "evidence_ko": "거래 종결 및 proceeds로 debt paydown"
+    },
+    {
+      "idea_id": "263ec355-c5bb-40db-a38f-9da0d56dc224",
+      "source_order": 6,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "FY2024 results",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2025/Clearwater-Paper-Reports-Fourth-Quarter-and-Year-End-2024-Results/default.aspx",
+      "evidence_ko": "net debt $199m 감소와 2024 portfolio 변화"
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "VIC 원문",
+      "publisher": "Value Investors Club",
+      "source_date": "2011-09-22",
+      "url": null,
+      "evidence_ko": "원문 thesis와 당시 숫자"
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "source_order": 2,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2020 10-K",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1441236/000150433721000009/clw-20201231.htm",
+      "evidence_ko": "2020 sales $1.8686bn, operating income $158.1m, net income $77.1m"
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "source_order": 3,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2020 Investor Deck",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1441236/000150433720000011/investordeckjune2020.htm",
+      "evidence_ko": "FCF·debt reduction·Shelby benefits, 2.5x leverage target"
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "source_order": 4,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "2024 tissue sale agreement",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2024/Clearwater-Paper-Enters-into-Definitive-Agreement-to-Sell-Tissue-Business-to-Sofidel-America-Corporation-for-1.06-Billion/default.aspx",
+      "evidence_ko": "Sofidel에 $1.06bn 매각, 약 6x segment EBITDA"
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "source_order": 5,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "2024 tissue sale closing",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2024/Clearwater-Paper-Announces-the-Closing-of-the-Sale-of-its-Tissue-Business/default.aspx",
+      "evidence_ko": "거래 종결 및 proceeds로 debt paydown"
+    },
+    {
+      "idea_id": "00416abb-c2fd-4f4d-a29c-5681186180db",
+      "source_order": 6,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "FY2024 results",
+      "publisher": "Clearwater Paper",
+      "source_date": null,
+      "url": "https://ir.clearwaterpaper.com/investors/press-releases/news-details/2025/Clearwater-Paper-Reports-Fourth-Quarter-and-Year-End-2024-Results/default.aspx",
+      "evidence_ko": "net debt $199m 감소와 2024 portfolio 변화"
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "VIC 원문",
+      "publisher": "Value Investors Club",
+      "source_date": "2008-12-22",
+      "url": null,
+      "evidence_ko": "원문 thesis와 당시 숫자"
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "source_order": 2,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2004 Form 10-K",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1219601/000121960105000069/f10k2004.htm",
+      "evidence_ko": "asbestos cash $41m, accrual $233m, range $233~351m"
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "source_order": 3,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2005 Form 10-Q",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1219601/000121960105000089/f10q-jun05.htm",
+      "evidence_ko": "successor asbestos liability 제한 법률"
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "source_order": 4,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2009 Form 10-K",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1219601/000121960110000012/f10k2009.htm",
+      "evidence_ko": "사업 규모·segment 구조"
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "source_order": 5,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "Q3 2009 results",
+      "publisher": "Crown Holdings",
+      "source_date": null,
+      "url": "https://www.crowncork.com/news/crown-holdings-reports-third-quarter-2009-results",
+      "evidence_ko": "debt paydown $500m+, operating cash flow 개선"
+    },
+    {
+      "idea_id": "a0551aa1-30bd-4f02-8147-5984e8301bca",
+      "source_order": 6,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "FY2009 results",
+      "publisher": "Crown Holdings",
+      "source_date": null,
+      "url": "https://www.crowncork.com/news/crown-holdings-announces-2009-fourth-quarter-and-full-year-results",
+      "evidence_ko": "EPS $2.01 ex-items, OCF $756m, FCF $612m"
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "source_order": 1,
+      "source_type_ko": "VIC 원문",
+      "title_ko": "VIC 원문",
+      "publisher": "Value Investors Club",
+      "source_date": "2004-01-22",
+      "url": null,
+      "evidence_ko": "원문 thesis와 당시 숫자"
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "source_order": 2,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2004 Form 10-K",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1219601/000121960105000069/f10k2004.htm",
+      "evidence_ko": "asbestos cash $41m, accrual $233m, range $233~351m"
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "source_order": 3,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2005 Form 10-Q",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1219601/000121960105000089/f10q-jun05.htm",
+      "evidence_ko": "successor asbestos liability 제한 법률"
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "source_order": 4,
+      "source_type_ko": "SEC filing",
+      "title_ko": "2009 Form 10-K",
+      "publisher": "SEC",
+      "source_date": null,
+      "url": "https://www.sec.gov/Archives/edgar/data/1219601/000121960110000012/f10k2009.htm",
+      "evidence_ko": "사업 규모·segment 구조"
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "source_order": 5,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "Q3 2009 results",
+      "publisher": "Crown Holdings",
+      "source_date": null,
+      "url": "https://www.crowncork.com/news/crown-holdings-reports-third-quarter-2009-results",
+      "evidence_ko": "debt paydown $500m+, operating cash flow 개선"
+    },
+    {
+      "idea_id": "32f9d0d0-df79-4b5c-bdb7-513e5605a036",
+      "source_order": 6,
+      "source_type_ko": "회사 1차자료",
+      "title_ko": "FY2009 results",
+      "publisher": "Crown Holdings",
+      "source_date": null,
+      "url": "https://www.crowncork.com/news/crown-holdings-announces-2009-fourth-quarter-and-full-year-results",
+      "evidence_ko": "EPS $2.01 ex-items, OCF $756m, FCF $612m"
+    }
+  ]
+}
