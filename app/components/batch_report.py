@@ -179,63 +179,35 @@ def render_batch_source_report(idea: dict) -> bool:
     return True
 
 
-@st.dialog("Batch 원문 전체 보기", width="large")
-def _batch_source_dialog(idea_id: str):
-    """Show the exact reviewed Batch markdown file without shortening it."""
-    item = _idea_catalog().get(str(idea_id))
-    if not item:
-        st.error("이 아이디어와 연결된 Batch 원문을 찾지 못했습니다.")
-        return
-
-    markdown_path = Path(item["markdown_path"])
-    if not markdown_path.exists():
-        st.error(f"Batch 파일을 찾지 못했습니다: {markdown_path.name}")
-        return
-
-    if markdown_path.suffix == ".gz":
-        text = gzip.decompress(markdown_path.read_bytes()).decode("utf-8")
-    else:
-        text = markdown_path.read_text(encoding="utf-8")
-
-    if item["batch_name"] == "V8 전체 DB":
-        report = _extract_v8_company_report(text, str(idea_id))
-        if not report:
-            st.error("V8 통합 보고서에서 선택한 기업 섹션을 찾지 못했습니다.")
-            return
-        caption = (
-            f"{item['batch_name']} · {markdown_path.name} · "
-            "전용 Batch가 없는 항목이라 선택한 기업의 V8 원문 섹션을 표시합니다."
-        )
-    else:
-        report = text
-        caption = (
-            f"{item['batch_name']} · {markdown_path.name} · "
-            "아래 내용은 해당 Batch markdown 원문 전체이며 요약하거나 생략하지 않습니다."
-        )
-
-    st.caption(caption)
-    st.markdown(_escape_dollar_math(report))
-
-
 def render_batch_popup_button(idea: dict) -> bool:
-    """Render a button that opens the exact Batch markdown in a large dialog."""
+    """Open the dedicated reviewed Batch markdown directly on GitHub."""
     idea_id = str(idea.get("idea_id") or "")
     item = _idea_catalog().get(idea_id)
     if not item:
         return False
 
+    markdown_path = Path(item["markdown_path"])
+    if item["batch_name"] == "V8 전체 DB":
+        st.caption(
+            "이 항목은 아직 전용 Batch 파일이 없어 V8 통합 보고서에만 포함되어 있습니다."
+        )
+        return False
+
+    github_url = (
+        "https://github.com/horea457/VIC-/blob/main/analysis/"
+        + markdown_path.name
+    )
+
     cols = st.columns([1, 3])
     with cols[0]:
-        if st.button(
-            "📄 Batch 원문 전체 보기",
-            key=f"batch_source_popup_{idea_id}",
-            type="primary",
+        st.link_button(
+            "📄 GitHub에서 Batch 원문 열기",
+            github_url,
             use_container_width=True,
-        ):
-            _batch_source_dialog(idea_id)
+        )
     with cols[1]:
         st.caption(
-            f"{item['batch_name']} · DB 화면은 탐색용 요약이고, 버튼을 누르면 "
-            "작성된 Batch 원문 전체를 팝업으로 표시합니다."
+            f"{item['batch_name']} · {markdown_path.name} · "
+            "상세분석은 GitHub의 Batch markdown 원문을 기준으로 봅니다."
         )
     return True
