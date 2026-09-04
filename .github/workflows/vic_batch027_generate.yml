@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/batch027_rows.txt'
+      - 'scripts/g27_part_b'
 permissions:
   contents: write
 jobs:

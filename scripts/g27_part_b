@@ -1,4 +1,4 @@
-ov else 6.5 if '부분' in ov else 4.2,'process_score':8.4 if '성공' in ov and '실패' not in ov else 6.0,'return_summary_ko':st,'core_error_ko':wh,'core_insight_ko':'기업 생존·생산 scale·주식 valuation을 별도 claim으로 분리한다.','research_asof':'2024-01-31'})
+ ov else 6.5 if '부분' in ov else 4.2,'process_score':8.4 if '성공' in ov and '실패' not in ov else 6.0,'return_summary_ko':st,'core_error_ko':wh,'core_insight_ko':'기업 생존·생산 scale·주식 valuation을 별도 claim으로 분리한다.','research_asof':'2024-01-31'})
  sec=[('무슨 기업인가',c[1]),('산업 가치사슬과 돈의 흐름',c[2]),('경쟁우위·핵심 KPI',c[3]),('당시 VIC 원문',th),('밸류에이션',va+' 사업가정과 starting price를 분리한다.'),('실제 전개',ac),('사업과 증권 결과 분리',st),('무엇을 맞고 틀렸나',wh),('최초 검증·반증 신호',fd+' — '+fs),('최종 교훈',ov+' 반증조건 발생 시 thesis 확률과 position sizing을 다시 계산한다.')]
  for j,x in enumerate(sec,1): P['sections'].append({'idea_id':iid,'section_order':j,'section_title_ko':x[0],'section_body_ko':x[1]})
  topics=['생존·유동성','생산·수요','단위경제성','자본구조','경쟁·moat','valuation·촉매']
