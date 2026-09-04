@@ -1,0 +1,30 @@
+name: Generate VIC Batch 027
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/batch027_rows.txt'
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate and validate
+        run: |
+          cat scripts/g27_part_a scripts/g27_part_b > scripts/gen_batch027.py
+          python scripts/gen_batch027.py
+      - name: Commit validated batch
+        run: |
+          rm -f scripts/g27_part_a scripts/g27_part_b scripts/gen_batch027.py scripts/batch027_rows.txt .github/workflows/vic_batch027_generate.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add analysis/batch_027_tesla_gm_10.md data/curated/batch_027_tesla_gm_deep_v7.json app/components/batch_report.py scripts .github/workflows
+          git commit -m 'Add VIC batch 027 [skip ci]'
+          git push

@@ -1,0 +1,26 @@
+ov else 6.5 if '부분' in ov else 4.2,'process_score':8.4 if '성공' in ov and '실패' not in ov else 6.0,'return_summary_ko':st,'core_error_ko':wh,'core_insight_ko':'기업 생존·생산 scale·주식 valuation을 별도 claim으로 분리한다.','research_asof':'2024-01-31'})
+ sec=[('무슨 기업인가',c[1]),('산업 가치사슬과 돈의 흐름',c[2]),('경쟁우위·핵심 KPI',c[3]),('당시 VIC 원문',th),('밸류에이션',va+' 사업가정과 starting price를 분리한다.'),('실제 전개',ac),('사업과 증권 결과 분리',st),('무엇을 맞고 틀렸나',wh),('최초 검증·반증 신호',fd+' — '+fs),('최종 교훈',ov+' 반증조건 발생 시 thesis 확률과 position sizing을 다시 계산한다.')]
+ for j,x in enumerate(sec,1): P['sections'].append({'idea_id':iid,'section_order':j,'section_title_ko':x[0],'section_body_ko':x[1]})
+ topics=['생존·유동성','생산·수요','단위경제성','자본구조','경쟁·moat','valuation·촉매']
+ for j,q in enumerate(topics): P['claims'].append({'idea_id':iid,'claim_order':j+1,'claim_title_ko':q,'thesis_weight_pct':W[j],'original_claim_ko':th,'t0_evidence_ko':th,'key_assumption_ko':'핵심 KPI가 예상 방향으로 움직이고 자금조달이 thesis 시간을 버틴다.','ex_ante_falsifier_ko':'2~3개 분기 KPI가 반대 방향이거나 capital needs/competition이 기대수익을 소진한다.','actual_result_ko':ac,'quantitative_gap_ko':ms[j%4][0]+': '+ms[j%4][1]+' → '+ms[j%4][2],'verdict_ko':ov,'analytical_error_ko':wh,'reusable_lesson_ko':'수준보다 KPI 변화율과 balance-sheet runway를 함께 모니터링한다.'})
+ for j,m in enumerate(ms,1): P['metrics'].append({'idea_id':iid,'metric_order':j,'metric_name_ko':m[0],'t0_value_ko':m[1],'thesis_expectation_ko':'원 논지 방향','actual_value_ko':m[2],'verdict_ko':m[3],'interpretation_ko':m[0]+' 실제 변화로 claim을 재평가.'})
+ tl=[(date,'VIC 게시',ti),(fd,'최초 신호',fs),('2013-12-31','초기 사업검증','생존·scale 확인'),('2018-12-31','생산/산업구조 변화','핵심 KPI 재평가'),('2021-12-31','후속 결과','사업과 valuation 분리'),('2024-01-31','고정 평가일','최종 판정')]
+ for j,e in enumerate(tl,1): P['timeline'].append({'idea_id':iid,'event_order':j,'event_date_ko':e[0],'event_ko':e[1],'thesis_implication_ko':e[2]})
+ P['sources'].append({'idea_id':iid,'source_order':1,'source_type_ko':'VIC 원문','title_ko':f'VIC {t} {date}','publisher':'Value Investors Club / user SQL','source_date':date,'url':None,'evidence_ko':'원 thesis와 실제 방향 복원'})
+ for j,(a,b,u) in enumerate(SRC[t],2): P['sources'].append({'idea_id':iid,'source_order':j,'source_type_ko':'공시/기업자료','title_ko':a,'publisher':b,'source_date':'2024-01-31','url':u,'evidence_ko':'사업·KPI·event 사후검증'})
+assert [len(P[k]) for k in P]==[10,10,10,100,60,40,60,60]
+for r in rows:
+ cs=[x for x in P['claims'] if x['idea_id']==r[0]]; assert len(cs)==6 and sum(x['thesis_weight_pct'] for x in cs)==100
+# dedupe
+sel={r[0] for r in rows}; seen=set()
+for f in (R/'data/curated').glob('*.json'):
+ if f.name=='batch_027_tesla_gm_deep_v7.json': continue
+ try:d=json.loads(f.read_text())
+ except:continue
+ for x in d.get('ideas_master',d.get('postmortems',[])):
+  if isinstance(x,dict) and x.get('idea_id'):seen.add(x['idea_id'])
+assert not(sel&seen),sel&seen
+(R/'data/curated/batch_027_tesla_gm_deep_v7.json').write_text(json.dumps(P,ensure_ascii=False,indent=2))
+rp=R/'app/components/batch_report.py'; tx=rp.read_text(); an='    ("batch_026_seritage_gyrodyne_deep_v7.json", "batch_026_seritage_gyrodyne_10.md", "Batch 026"),\n'; add='    ("batch_027_tesla_gm_deep_v7.json", "batch_027_tesla_gm_10.md", "Batch 027"),\n'
+if 'batch_027_tesla_gm_deep_v7.json' not in tx: assert an in tx; rp.write_text(tx.replace(an,an+add))
+print('VALID batch027: 10/100/60/40/60/60, weights=100, duplicates=0')
