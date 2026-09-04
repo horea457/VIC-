@@ -1,0 +1,28 @@
+name: Install Batch 030
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/_install_batch030.yml'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build and validate Batch 030
+        run: python scripts/_install_batch030.py
+      - name: Commit generated batch and remove installer
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add analysis/batch_030_clearwater_crown_10.md data/curated/batch_030_clearwater_crown_deep_v7.json app/components/batch_report.py
+          git rm scripts/_install_batch030.py .github/workflows/_install_batch030.yml
+          git commit -m 'Add validated Batch 030 Clearwater Paper and Crown Holdings'
+          git push origin main
