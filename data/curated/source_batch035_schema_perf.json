@@ -1,0 +1,141 @@
+{
+  "schema": {
+    "top_keys": [
+      "schema_version",
+      "batch",
+      "title",
+      "research_asof",
+      "ideas_master",
+      "postmortems",
+      "sections",
+      "claims",
+      "metrics",
+      "timeline",
+      "sources"
+    ],
+    "arrays": {
+      "ideas_master": {
+        "count": 10,
+        "sample": {
+          "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+          "date": "2004-12-08",
+          "year": 2004,
+          "ticker": "CRK",
+          "company_name": "COMSTOCK RESOURCES INC",
+          "author": "hao777",
+          "direction_ko": "숏",
+          "is_short": true,
+          "contest_winner": 0,
+          "source_link": "https://www.valueinvestorsclub.com/idea/Comstock_Resources/3080697349",
+          "description_chars": 0,
+          "catalyst_chars": 0,
+          "narrative_tags_ko": "entity-resolution; capital-cycle; catalyst; valuation; 심층검증",
+          "idea_type_ko": "기업가치",
+          "performance_available": 0,
+          "perf_1y": null,
+          "perf_3y": null,
+          "perf_5y": null,
+          "idea_return_1y": null,
+          "idea_return_3y": null,
+          "idea_return_5y": null,
+          "auto_tag_status_ko": "수동 심층검증"
+        }
+      },
+      "postmortems": {
+        "count": 10,
+        "sample": {
+          "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+          "ticker": "CRK",
+          "research_direction_ko": "Short",
+          "company_description_ko": "Comstock Resources는 미국 독립 천연가스 E&P로 현재 핵심은 Louisiana·East Texas의 Haynesville/Bossier shale이다. 매출은 생산량×실현 가스가격으로 정해지지만 equity의 실질 경제성은 well-level EUR·drilling/completion cost·basis/transport·hedge와 유지개발비를 차감한 free cash flow, 그리고 순부채의 조합으로 결정된다. 2018 Jerry Jones의 Bakken 자산 출자와 지배권 취득, 2019 Covey Park 인수는 기업의 자산·지배구조·레버리지를 크게 바꾼 regime shift였다.",
+          "original_thesis_ko": "2004 Comstock Short는 높은 commodity sensitivity와 인수·개발 중심 자본배분이 자산가치보다 부채를 빠르게 늘릴 수 있으며, reserve/NAV가 commodity price와 capital intensity를 충분히 반영하지 못한다는 논지로 재구성한다.",
+          "actual_development_ko": "2004년 중반 장기부채는 약 $324m였다. 회사는 이후 수차례 shale 개발·인수 사이클을 거치며 존속했고, 2018 Jones recapitalization과 2019 Covey Park 인수로 사실상 다른 규모·지배구조의 Haynesville gas producer가 됐다. 2026년에도 Haynesville 중심으로 운영 중이다.",
+          "thesis_verdict_ko": "E&P의 NAV/레버리지 취약성 진단은 타당했지만 terminal failure로 이어지지 않았다. 자산·스폰서·자본구조가 계속 재편되므로 오래된 Short를 동일 법인의 정적 balance-sheet thesis로 유지하면 안 된다.",
+          "business_verdict_ko": "2004년 중반 장기부채는 약 $324m였다. 회사는 이후 수차례 shale 개발·인수 사이클을 거치며 존속했고, 2018 Jones recapitalization과 2019 Covey Park 인수로 사실상 다른 규모·지배구조의 Haynesville gas producer가 됐다. 2026년에도 Haynesville 중심으로 운영 중이다.",
+          "catalyst_verdict_ko": "부채보다 생산자산·자본조달 경로가 확대",
+          "valuation_verdict_ko": "단일 multiple보다 probability-weighted cash-flow/asset waterfall과 시간가치를 사용한다.",
+          "stock_verdict_ko": "부분적중·장기 구조변화",
+          "current_verdict_ko": "2004년 중반 장기부채는 약 $324m였다. 회사는 이후 수차례 shale 개발·인수 사이클을 거치며 존속했고, 2018 Jones recapitalization과 2019 Covey Park 인수로 사실상 다른 규모·지배구조의 Haynesville gas producer가 됐다. 2026년에도 Haynesville 중심으로 운영 중이다.",
+          "overall_verdict_ko": "부분적중·장기 구조변화",
+          "why_ko": "E&P의 NAV/레버리지 취약성 진단은 타당했지만 terminal failure로 이어지지 않았다. 자산·스폰서·자본구조가 계속 재편되므로 오래된 Short를 동일 법인의 정적 balance-sheet thesis로 유지하면 안 된다.",
+          "success_pattern_ko": "catalyst + balance-sheet path + operating KPI",
+          "failure_pattern_ko": "",
+          "root_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+          "first_signal_ko": "부채보다 생산자산·자본조달 경로가 확대",
+          "first_signal_date": "2008-12-31",
+          "knowable_at_t0_ko": "당시 공시에서 debt, capital intensity, asset/segment 구조, 거래조건과 주요 KPI를 추적할 수 있었다.",
+          "avoidability_ko": "중간",
+          "counterfactual_question_ko": "가장 불리한 가격·운영·자본조달 경로에서도 3년 IRR이 hurdle을 넘는가?",
+          "analyst_note_ko": "raw source는 ticker CRK의 재사용 때문에 company_name을 Crocodile Gold로 잘못 매핑했다. VIC source/event/date를 기준으로 Comstock Resources로 교정. VIC 전체 본문이 로그인 없이 제공되지 않는 경우 thesis 문장은 raw metadata·공개 VIC header·동시기 1차자료에 기반한 구조적 재구성이며 직접인용이 아니다.",
+          "corrected_return_1y": null,
+          "corrected_return_3y": null,
+          "corrected_return_5y": null,
+          "confidence": 0.96,
+          "research_asof": "2026-09-05",
+          "research_status_ko": "1차자료 외부검증 완료"
+        }
+      },
+      "sections": {
+        "count": 100,
+        "sample": {
+          "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+          "section_order": 1,
+          "section_title_ko": "무슨 기업인가",
+          "section_body_ko": "Comstock Resources는 미국 독립 천연가스 E&P로 현재 핵심은 Louisiana·East Texas의 Haynesville/Bossier shale이다. 매출은 생산량×실현 가스가격으로 정해지지만 equity의 실질 경제성은 well-level EUR·drilling/completion cost·basis/transport·hedge와 유지개발비를 차감한 free cash flow, 그리고 순부채의 조합으로 결정된다. 2018 Jerry Jones의 Bakken 자산 출자와 지배권 취득, 2019 Covey Park 인수는 기업의 자산·지배구조·레버리지를 크게 바꾼 regime shift였다."
+        }
+      },
+      "claims": {
+        "count": 60,
+        "sample": {
+          "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+          "claim_order": 1,
+          "claim_title_ko": "commodity price·hedge",
+          "thesis_weight_pct": 20,
+          "original_claim_ko": "2004 Comstock Short는 높은 commodity sensitivity와 인수·개발 중심 자본배분이 자산가치보다 부채를 빠르게 늘릴 수 있으며, reserve/NAV가 commodity price와 capital intensity를 충분히 반영하지 못한다는 논지로 재구성한다.",
+          "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+          "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+          "ex_ante_falsifier_ko": "핵심 가격/수요 변수가 thesis 반대방향으로 지속",
+          "actual_result_ko": "2004년 중반 장기부채는 약 $324m였다. 회사는 이후 수차례 shale 개발·인수 사이클을 거치며 존속했고, 2018 Jones recapitalization과 2019 Covey Park 인수로 사실상 다른 규모·지배구조의 Haynesville gas producer가 됐다. 2026년에도 Haynesville 중심으로 운영 중이다.",
+          "quantitative_gap_ko": "2004 debt ≈$324m",
+          "verdict_ko": "부분적중",
+          "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+          "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+        }
+      },
+      "metrics": {
+        "count": 40,
+        "sample": {
+          "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+          "metric_order": 1,
+          "metric_name_ko": "T0/핵심 valuation",
+          "t0_value_ko": "당시 공시/VIC 기준",
+          "actual_value_ko": "2004 debt ≈$324m",
+          "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+        }
+      },
+      "timeline": {
+        "count": 60,
+        "sample": {
+          "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+          "event_order": 1,
+          "event_date": "2004-12-08",
+          "event_ko": "VIC idea 게시",
+          "signal_ko": "T0"
+        }
+      },
+      "sources": {
+        "count": 60,
+        "sample": {
+          "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+          "source_order": 1,
+          "source_type": "Primary/company/VIC source",
+          "source_name": "VIC 2019 CRK page",
+          "source_url": "https://www.valueinvestorsclub.com/idea/COMSTOCK_RESOURCES_INC/6640275800",
+          "source_date": null,
+          "use_ko": "VIC 메타데이터·당시 가격/시총/순부채/Short 표시 확인"
+        }
+      }
+    }
+  },
+  "performance": {}
+}
