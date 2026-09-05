@@ -51,6 +51,7 @@ BATCH_SOURCES = (
     ("batch_030_clearwater_crown_deep_v7.json", "batch_030_clearwater_crown_10.md", "Batch 030"),
     ("batch_031_rentacenter_worldacceptance_deep_v7.json", "batch_031_rentacenter_worldacceptance_10.md", "Batch 031"),
     ("batch_032_bjri_petmed_deep_v7.json", "batch_032_bjri_petmed_10.md", "Batch 032"),
+    ("batch_033_pico_grace_deep_v7.json", "batch_033_pico_grace_10.md", "Batch 033"),
     ("all_reviewed_v8_index.json", "all_reviewed_v8.md.gz", "V8 전체 DB"),
 )
 
