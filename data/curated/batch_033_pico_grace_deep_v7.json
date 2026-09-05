@@ -1,0 +1,3290 @@
+{
+  "schema_version": "deep_v7",
+  "batch": "033",
+  "title": "PICO Holdings & W.R. Grace asset/legal-overhang postmortems",
+  "research_asof": "2026-09-05",
+  "ideas_master": [
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "date": "2009-11-29",
+      "year": 2009,
+      "ticker": "PICO",
+      "company_name": "PICO HOLDINGS INC",
+      "author": "vanbr707",
+      "direction_ko": "롱",
+      "is_short": false,
+      "contest_winner": 0,
+      "source_link": "https://www.valueinvestorsclub.com/idea/PICO_HOLDINGS_INC/4808531709",
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "SOTP; asset monetization; event-driven; capital allocation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "date": "2011-01-13",
+      "year": 2011,
+      "ticker": "PICO",
+      "company_name": "PICO HOLDINGS INC",
+      "author": "kalman951",
+      "direction_ko": "롱",
+      "is_short": false,
+      "contest_winner": 0,
+      "source_link": "https://www.valueinvestorsclub.com/idea/PICO_HOLDINGS_INC/3756614642",
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "SOTP; asset monetization; event-driven; capital allocation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "date": "2013-05-11",
+      "year": 2013,
+      "ticker": "PICO",
+      "company_name": "PICO HOLDINGS INC",
+      "author": "seeker",
+      "direction_ko": "롱",
+      "is_short": false,
+      "contest_winner": 0,
+      "source_link": "https://www.valueinvestorsclub.com/idea/PICO_HOLDINGS_INC/2869994638",
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "SOTP; asset monetization; event-driven; capital allocation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "date": "2014-02-04",
+      "year": 2014,
+      "ticker": "PICO",
+      "company_name": "PICO HOLDINGS INC",
+      "author": "dman976",
+      "direction_ko": "롱",
+      "is_short": false,
+      "contest_winner": 0,
+      "source_link": "https://www.valueinvestorsclub.com/idea/PICO_HOLDINGS_INC/2330321377",
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "SOTP; asset monetization; event-driven; capital allocation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "date": "2015-05-05",
+      "year": 2015,
+      "ticker": "PICO",
+      "company_name": "PICO HOLDINGS INC",
+      "author": "kiss534",
+      "direction_ko": "롱",
+      "is_short": false,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "SOTP; asset monetization; event-driven; capital allocation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "date": "2015-11-23",
+      "year": 2015,
+      "ticker": "PICO",
+      "company_name": "PICO HOLDINGS INC",
+      "author": "TR1898",
+      "direction_ko": "롱",
+      "is_short": false,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "SOTP; asset monetization; event-driven; capital allocation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "date": "2016-08-15",
+      "year": 2016,
+      "ticker": "PICO",
+      "company_name": "PICO HOLDINGS INC",
+      "author": "mojoris",
+      "direction_ko": "롱",
+      "is_short": false,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "SOTP; asset monetization; event-driven; capital allocation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "date": "2018-11-30",
+      "year": 2018,
+      "ticker": "PICO",
+      "company_name": "PICO HOLDINGS INC",
+      "author": "AltaRocks",
+      "direction_ko": "롱",
+      "is_short": false,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "SOTP; asset monetization; event-driven; capital allocation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "date": "2006-03-06",
+      "year": 2006,
+      "ticker": "GRA",
+      "company_name": "GRACE (W R) & CO",
+      "author": "vincent975",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 1,
+      "source_link": "https://www.valueinvestorsclub.com/idea/WR_Grace/0545332608",
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "SOTP; asset monetization; event-driven; capital allocation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "date": "2012-01-17",
+      "year": 2012,
+      "ticker": "GRA",
+      "company_name": "GRACE (W R) & CO",
+      "author": "jon64",
+      "direction_ko": "롱",
+      "is_short": false,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "SOTP; asset monetization; event-driven; capital allocation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    }
+  ],
+  "postmortems": [
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "ticker": "PICO",
+      "research_direction_ko": "Long",
+      "company_description_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다.",
+      "original_thesis_ko": "금융위기 뒤 PICO Long은 water rights·UCP/토지 등 자산가치가 depressed market cap보다 크고, 긴 개발기간을 견디면 SOTP discount가 줄어든다는 논지로 재구성된다.",
+      "actual_development_ko": "가치는 결국 실현됐지만 매우 오래 걸렸다. 2017 UCP는 Century에 매각되어 PICO가 $55.3m 현금과 약 2.4m Century 주식을 받았고, 2022 핵심 Vidler는 D.R. Horton에 $15.75/share, 약 $291m equity value로 매각됐다.",
+      "thesis_verdict_ko": "자산 방향은 맞았지만 catalyst가 늦었다. water rights는 book value가 아니라 규제·개발·buyer timing의 option asset이므로 연환산 IRR이 핵심이다.",
+      "business_verdict_ko": "가치는 결국 실현됐지만 매우 오래 걸렸다. 2017 UCP는 Century에 매각되어 PICO가 $55.3m 현금과 약 2.4m Century 주식을 받았고, 2022 핵심 Vidler는 D.R. Horton에 $15.75/share, 약 $291m equity value로 매각됐다.",
+      "catalyst_verdict_ko": "2017 UCP monetization",
+      "valuation_verdict_ko": "시간가치와 liability/asset realization probability를 반영한 probability-weighted NAV/EV로 판단한다.",
+      "stock_verdict_ko": "부분적중·긴 시간",
+      "current_verdict_ko": "가치는 결국 실현됐지만 매우 오래 걸렸다. 2017 UCP는 Century에 매각되어 PICO가 $55.3m 현금과 약 2.4m Century 주식을 받았고, 2022 핵심 Vidler는 D.R. Horton에 $15.75/share, 약 $291m equity value로 매각됐다.",
+      "overall_verdict_ko": "부분적중·긴 시간",
+      "why_ko": "자산 방향은 맞았지만 catalyst가 늦었다. water rights는 book value가 아니라 규제·개발·buyer timing의 option asset이므로 연환산 IRR이 핵심이다.",
+      "success_pattern_ko": "asset monetization; governance catalyst; bounded legal waterfall",
+      "failure_pattern_ko": "",
+      "root_error_ko": "시간가치·corporate burn과 catalyst probability를 NAV에서 분리해야 했다.",
+      "first_signal_ko": "2017 UCP monetization",
+      "first_signal_date": "2017-08-04",
+      "knowable_at_t0_ko": "asset inventory, corporate cash burn, UCP stake 또는 DIP cash, asbestos insurance/plan status는 당시 공시로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "5년 내 monetization/emergence가 안 되어도 현재 가격이 time-discounted realizable NAV로 지지되는가?",
+      "analyst_note_ko": "raw is_short=false 보존; research direction=Long. 오래된 VIC 본문이 완전 재수집되지 않은 경우 thesis 서술은 raw metadata와 당시 SEC filings를 바탕으로 한 구조적 재구성이다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.95,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "ticker": "PICO",
+      "research_direction_ko": "Long",
+      "company_description_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다.",
+      "original_thesis_ko": "2011 Long은 Vidler water assets와 UCP/real estate의 SOTP가 주가보다 높으며 scarce Southwest water의 장기 option value를 시장이 과소평가한다는 논지로 재구성된다.",
+      "actual_development_ko": "UCP와 Vidler 모두 후속 매각으로 현금화됐다. 다만 2011부터 최종 Vidler exit까지 11년이 걸려 holding-company cost와 기회비용이 컸다.",
+      "thesis_verdict_ko": "NAV 할인 자체보다 NAV가 언제 현금으로 바뀌는지와 corporate burn을 반드시 IRR에 넣어야 한다.",
+      "business_verdict_ko": "UCP와 Vidler 모두 후속 매각으로 현금화됐다. 다만 2011부터 최종 Vidler exit까지 11년이 걸려 holding-company cost와 기회비용이 컸다.",
+      "catalyst_verdict_ko": "2017 UCP monetization",
+      "valuation_verdict_ko": "시간가치와 liability/asset realization probability를 반영한 probability-weighted NAV/EV로 판단한다.",
+      "stock_verdict_ko": "부분적중·타이밍 지연",
+      "current_verdict_ko": "UCP와 Vidler 모두 후속 매각으로 현금화됐다. 다만 2011부터 최종 Vidler exit까지 11년이 걸려 holding-company cost와 기회비용이 컸다.",
+      "overall_verdict_ko": "부분적중·타이밍 지연",
+      "why_ko": "NAV 할인 자체보다 NAV가 언제 현금으로 바뀌는지와 corporate burn을 반드시 IRR에 넣어야 한다.",
+      "success_pattern_ko": "asset monetization; governance catalyst; bounded legal waterfall",
+      "failure_pattern_ko": "",
+      "root_error_ko": "시간가치·corporate burn과 catalyst probability를 NAV에서 분리해야 했다.",
+      "first_signal_ko": "2017 UCP monetization",
+      "first_signal_date": "2017-08-04",
+      "knowable_at_t0_ko": "asset inventory, corporate cash burn, UCP stake 또는 DIP cash, asbestos insurance/plan status는 당시 공시로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "5년 내 monetization/emergence가 안 되어도 현재 가격이 time-discounted realizable NAV로 지지되는가?",
+      "analyst_note_ko": "raw is_short=false 보존; research direction=Long. 오래된 VIC 본문이 완전 재수집되지 않은 경우 thesis 서술은 raw metadata와 당시 SEC filings를 바탕으로 한 구조적 재구성이다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.95,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "ticker": "PICO",
+      "research_direction_ko": "Long",
+      "company_description_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다.",
+      "original_thesis_ko": "2013 Long은 UCP 가치가 더 투명해지고 water portfolio가 장부가보다 높은 잠재가치를 지녀 asset monetization이 discount를 좁힐 수 있다는 event/SOTP 논지로 재구성된다.",
+      "actual_development_ko": "2017 UCP sale은 실제 catalyst가 되었고 PICO는 현금과 Century 지분을 받았다. 이후 water-only 형태로 단순화되어 2022 최종 매각까지 이어졌다.",
+      "thesis_verdict_ko": "SOTP thesis는 맞았다. 그러나 각 자산별 exit probability×시간을 따로 할인해야 holding-company discount를 과소평가하지 않는다.",
+      "business_verdict_ko": "2017 UCP sale은 실제 catalyst가 되었고 PICO는 현금과 Century 지분을 받았다. 이후 water-only 형태로 단순화되어 2022 최종 매각까지 이어졌다.",
+      "catalyst_verdict_ko": "2017 UCP merger close",
+      "valuation_verdict_ko": "시간가치와 liability/asset realization probability를 반영한 probability-weighted NAV/EV로 판단한다.",
+      "stock_verdict_ko": "적중·느린 실현",
+      "current_verdict_ko": "2017 UCP sale은 실제 catalyst가 되었고 PICO는 현금과 Century 지분을 받았다. 이후 water-only 형태로 단순화되어 2022 최종 매각까지 이어졌다.",
+      "overall_verdict_ko": "적중·느린 실현",
+      "why_ko": "SOTP thesis는 맞았다. 그러나 각 자산별 exit probability×시간을 따로 할인해야 holding-company discount를 과소평가하지 않는다.",
+      "success_pattern_ko": "asset monetization; governance catalyst; bounded legal waterfall",
+      "failure_pattern_ko": "",
+      "root_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "first_signal_ko": "2017 UCP merger close",
+      "first_signal_date": "2017-08-04",
+      "knowable_at_t0_ko": "asset inventory, corporate cash burn, UCP stake 또는 DIP cash, asbestos insurance/plan status는 당시 공시로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "5년 내 monetization/emergence가 안 되어도 현재 가격이 time-discounted realizable NAV로 지지되는가?",
+      "analyst_note_ko": "raw is_short=false 보존; research direction=Long. 오래된 VIC 본문이 완전 재수집되지 않은 경우 thesis 서술은 raw metadata와 당시 SEC filings를 바탕으로 한 구조적 재구성이다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.95,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "ticker": "PICO",
+      "research_direction_ko": "Long",
+      "company_description_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다.",
+      "original_thesis_ko": "2014 Long은 공개시장 UCP 지분과 Vidler water assets를 합산한 SOTP 대비 할인, 그리고 자산매각/자본환원을 catalyst로 본 논지로 재구성된다.",
+      "actual_development_ko": "2015~17 회사는 명시적으로 asset monetization 후 capital return을 우선하겠다고 전환했고 UCP 매각으로 구조가 단순화됐다. 2022 Vidler sale이 최종 exit였다.",
+      "thesis_verdict_ko": "자산가치보다 governance/capital allocation 전환이 discount closure의 결정적 catalyst였다.",
+      "business_verdict_ko": "2015~17 회사는 명시적으로 asset monetization 후 capital return을 우선하겠다고 전환했고 UCP 매각으로 구조가 단순화됐다. 2022 Vidler sale이 최종 exit였다.",
+      "catalyst_verdict_ko": "2016~17 return-of-capital 정책 명시",
+      "valuation_verdict_ko": "시간가치와 liability/asset realization probability를 반영한 probability-weighted NAV/EV로 판단한다.",
+      "stock_verdict_ko": "적중",
+      "current_verdict_ko": "2015~17 회사는 명시적으로 asset monetization 후 capital return을 우선하겠다고 전환했고 UCP 매각으로 구조가 단순화됐다. 2022 Vidler sale이 최종 exit였다.",
+      "overall_verdict_ko": "적중",
+      "why_ko": "자산가치보다 governance/capital allocation 전환이 discount closure의 결정적 catalyst였다.",
+      "success_pattern_ko": "asset monetization; governance catalyst; bounded legal waterfall",
+      "failure_pattern_ko": "",
+      "root_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "first_signal_ko": "2016~17 return-of-capital 정책 명시",
+      "first_signal_date": "2017-02-01",
+      "knowable_at_t0_ko": "asset inventory, corporate cash burn, UCP stake 또는 DIP cash, asbestos insurance/plan status는 당시 공시로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "5년 내 monetization/emergence가 안 되어도 현재 가격이 time-discounted realizable NAV로 지지되는가?",
+      "analyst_note_ko": "raw is_short=false 보존; research direction=Long. 오래된 VIC 본문이 완전 재수집되지 않은 경우 thesis 서술은 raw metadata와 당시 SEC filings를 바탕으로 한 구조적 재구성이다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.95,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "ticker": "PICO",
+      "research_direction_ko": "Long",
+      "company_description_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다.",
+      "original_thesis_ko": "2015 Long은 복잡한 holding structure와 agribusiness/UCP/water assets의 합계가 주가보다 크고, 비핵심자산 정리와 buyback이 value realization을 촉진한다는 논지로 재구성된다.",
+      "actual_development_ko": "2015 10-K부터 회사는 monetization proceeds를 재투자보다 자본환원에 쓰는 것이 최고 수익이라고 명시했다. agribusiness가 중단사업이 되고 2017 UCP가 매각되며 thesis가 실제 corporate action으로 전환됐다.",
+      "thesis_verdict_ko": "2015는 단순 hidden asset에서 self-liquidation/capital-return thesis로 바뀐 중요한 시점이었다.",
+      "business_verdict_ko": "2015 10-K부터 회사는 monetization proceeds를 재투자보다 자본환원에 쓰는 것이 최고 수익이라고 명시했다. agribusiness가 중단사업이 되고 2017 UCP가 매각되며 thesis가 실제 corporate action으로 전환됐다.",
+      "catalyst_verdict_ko": "2015 return-of-capital policy",
+      "valuation_verdict_ko": "시간가치와 liability/asset realization probability를 반영한 probability-weighted NAV/EV로 판단한다.",
+      "stock_verdict_ko": "적중",
+      "current_verdict_ko": "2015 10-K부터 회사는 monetization proceeds를 재투자보다 자본환원에 쓰는 것이 최고 수익이라고 명시했다. agribusiness가 중단사업이 되고 2017 UCP가 매각되며 thesis가 실제 corporate action으로 전환됐다.",
+      "overall_verdict_ko": "적중",
+      "why_ko": "2015는 단순 hidden asset에서 self-liquidation/capital-return thesis로 바뀐 중요한 시점이었다.",
+      "success_pattern_ko": "asset monetization; governance catalyst; bounded legal waterfall",
+      "failure_pattern_ko": "",
+      "root_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "first_signal_ko": "2015 return-of-capital policy",
+      "first_signal_date": "2015-12-31",
+      "knowable_at_t0_ko": "asset inventory, corporate cash burn, UCP stake 또는 DIP cash, asbestos insurance/plan status는 당시 공시로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "5년 내 monetization/emergence가 안 되어도 현재 가격이 time-discounted realizable NAV로 지지되는가?",
+      "analyst_note_ko": "raw is_short=false 보존; research direction=Long. 오래된 VIC 본문이 완전 재수집되지 않은 경우 thesis 서술은 raw metadata와 당시 SEC filings를 바탕으로 한 구조적 재구성이다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.9,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "ticker": "PICO",
+      "research_direction_ko": "Long",
+      "company_description_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다.",
+      "original_thesis_ko": "2015 Long은 자사주·자본환원과 복잡한 holding structure와 agribusiness/UCP/water assets의 합계가 주가보다 크고, 비핵심자산 정리와 buyback이 value realization을 촉진한다는 논지로 재구성된다.",
+      "actual_development_ko": "2015 10-K부터 회사는 monetization proceeds를 재투자보다 자본환원에 쓰는 것이 최고 수익이라고 명시했다. agribusiness가 중단사업이 되고 2017 UCP가 매각되며 thesis가 실제 corporate action으로 전환됐다.",
+      "thesis_verdict_ko": "2015는 단순 hidden asset에서 self-liquidation/capital-return thesis로 바뀐 중요한 시점이었다.",
+      "business_verdict_ko": "2015 10-K부터 회사는 monetization proceeds를 재투자보다 자본환원에 쓰는 것이 최고 수익이라고 명시했다. agribusiness가 중단사업이 되고 2017 UCP가 매각되며 thesis가 실제 corporate action으로 전환됐다.",
+      "catalyst_verdict_ko": "2015 return-of-capital policy",
+      "valuation_verdict_ko": "시간가치와 liability/asset realization probability를 반영한 probability-weighted NAV/EV로 판단한다.",
+      "stock_verdict_ko": "적중",
+      "current_verdict_ko": "2015 10-K부터 회사는 monetization proceeds를 재투자보다 자본환원에 쓰는 것이 최고 수익이라고 명시했다. agribusiness가 중단사업이 되고 2017 UCP가 매각되며 thesis가 실제 corporate action으로 전환됐다.",
+      "overall_verdict_ko": "적중",
+      "why_ko": "2015는 단순 hidden asset에서 self-liquidation/capital-return thesis로 바뀐 중요한 시점이었다.",
+      "success_pattern_ko": "asset monetization; governance catalyst; bounded legal waterfall",
+      "failure_pattern_ko": "",
+      "root_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "first_signal_ko": "2015 return-of-capital policy",
+      "first_signal_date": "2015-12-31",
+      "knowable_at_t0_ko": "asset inventory, corporate cash burn, UCP stake 또는 DIP cash, asbestos insurance/plan status는 당시 공시로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "5년 내 monetization/emergence가 안 되어도 현재 가격이 time-discounted realizable NAV로 지지되는가?",
+      "analyst_note_ko": "raw is_short=false 보존; research direction=Long. 오래된 VIC 본문이 완전 재수집되지 않은 경우 thesis 서술은 raw metadata와 당시 SEC filings를 바탕으로 한 구조적 재구성이다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.9,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "ticker": "PICO",
+      "research_direction_ko": "Long",
+      "company_description_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다.",
+      "original_thesis_ko": "2016 Long은 governance/capital allocation 변화로 PICO가 empire-building에서 자산현금화·환원으로 전환하면 persistent SOTP discount가 축소된다는 논지로 재구성된다.",
+      "actual_development_ko": "2017 회사는 asset monetization proceeds를 buyback/특별배당 등으로 환원한다고 재확인했고 UCP merger를 완료했다. 이후 Vidler 중심으로 단순화됐고 2022 전략적 매각으로 종결됐다.",
+      "thesis_verdict_ko": "holding company에서 discount 해소의 핵심은 NAV 추정 정확도보다 경영진 인센티브와 irreversible capital-return policy다.",
+      "business_verdict_ko": "2017 회사는 asset monetization proceeds를 buyback/특별배당 등으로 환원한다고 재확인했고 UCP merger를 완료했다. 이후 Vidler 중심으로 단순화됐고 2022 전략적 매각으로 종결됐다.",
+      "catalyst_verdict_ko": "2017 UCP sale + cost cuts",
+      "valuation_verdict_ko": "시간가치와 liability/asset realization probability를 반영한 probability-weighted NAV/EV로 판단한다.",
+      "stock_verdict_ko": "적중",
+      "current_verdict_ko": "2017 회사는 asset monetization proceeds를 buyback/특별배당 등으로 환원한다고 재확인했고 UCP merger를 완료했다. 이후 Vidler 중심으로 단순화됐고 2022 전략적 매각으로 종결됐다.",
+      "overall_verdict_ko": "적중",
+      "why_ko": "holding company에서 discount 해소의 핵심은 NAV 추정 정확도보다 경영진 인센티브와 irreversible capital-return policy다.",
+      "success_pattern_ko": "asset monetization; governance catalyst; bounded legal waterfall",
+      "failure_pattern_ko": "",
+      "root_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "first_signal_ko": "2017 UCP sale + cost cuts",
+      "first_signal_date": "2017-08-04",
+      "knowable_at_t0_ko": "asset inventory, corporate cash burn, UCP stake 또는 DIP cash, asbestos insurance/plan status는 당시 공시로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "5년 내 monetization/emergence가 안 되어도 현재 가격이 time-discounted realizable NAV로 지지되는가?",
+      "analyst_note_ko": "raw is_short=false 보존; research direction=Long. 오래된 VIC 본문이 완전 재수집되지 않은 경우 thesis 서술은 raw metadata와 당시 SEC filings를 바탕으로 한 구조적 재구성이다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.9,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "ticker": "PICO",
+      "research_direction_ko": "Long",
+      "company_description_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다.",
+      "original_thesis_ko": "2018 Long은 UCP가 이미 매각된 뒤 사실상 Vidler water portfolio와 현금/NOL의 단순화된 asset play가 되었고, water sales·자사주·전략적 거래가 remaining discount를 닫을 수 있다는 논지로 재구성된다.",
+      "actual_development_ko": "2019에도 회사는 water credits를 현금화하고 자본환원 정책을 유지했다. 2021 Vidler로 사명을 바꿨으며 2022 D.R. Horton이 $15.75/share 현금, 약 $291m에 전량 인수했다.",
+      "thesis_verdict_ko": "이 시점은 복잡성 감소로 thesis quality가 높아졌다. final buyer가 water rights를 개발에 직접 쓸 수 있는 homebuilder였다는 점이 strategic value를 입증했다.",
+      "business_verdict_ko": "2019에도 회사는 water credits를 현금화하고 자본환원 정책을 유지했다. 2021 Vidler로 사명을 바꿨으며 2022 D.R. Horton이 $15.75/share 현금, 약 $291m에 전량 인수했다.",
+      "catalyst_verdict_ko": "2022 D.R. Horton agreement",
+      "valuation_verdict_ko": "시간가치와 liability/asset realization probability를 반영한 probability-weighted NAV/EV로 판단한다.",
+      "stock_verdict_ko": "적중",
+      "current_verdict_ko": "2019에도 회사는 water credits를 현금화하고 자본환원 정책을 유지했다. 2021 Vidler로 사명을 바꿨으며 2022 D.R. Horton이 $15.75/share 현금, 약 $291m에 전량 인수했다.",
+      "overall_verdict_ko": "적중",
+      "why_ko": "이 시점은 복잡성 감소로 thesis quality가 높아졌다. final buyer가 water rights를 개발에 직접 쓸 수 있는 homebuilder였다는 점이 strategic value를 입증했다.",
+      "success_pattern_ko": "asset monetization; governance catalyst; bounded legal waterfall",
+      "failure_pattern_ko": "",
+      "root_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "first_signal_ko": "2022 D.R. Horton agreement",
+      "first_signal_date": "2022-04-14",
+      "knowable_at_t0_ko": "asset inventory, corporate cash burn, UCP stake 또는 DIP cash, asbestos insurance/plan status는 당시 공시로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "5년 내 monetization/emergence가 안 되어도 현재 가격이 time-discounted realizable NAV로 지지되는가?",
+      "analyst_note_ko": "raw is_short=false 보존; research direction=Long. 오래된 VIC 본문이 완전 재수집되지 않은 경우 thesis 서술은 raw metadata와 당시 SEC filings를 바탕으로 한 구조적 재구성이다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.9,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "ticker": "GRA",
+      "research_direction_ko": "Short",
+      "company_description_ko": "W.R. Grace는 정유·석유화학 촉매와 specialty materials를 공급하는 글로벌 특수화학사다. 2001년 asbestos liabilities를 해결하기 위해 Chapter 11을 신청한 뒤 영업은 계속했고, 법원·보험·trust 구조를 통해 legacy liabilities를 정리해 2014년 bankruptcy에서 나왔다. 따라서 equity 가치는 영업사업의 normalized EBITDA뿐 아니라 asbestos claim waterfall, cash/insurance, emergence timing과 post-emergence capital structure에 크게 좌우됐다.",
+      "original_thesis_ko": "2006 Grace Short는 이미 Chapter 11에 있던 회사의 asbestos claim 규모와 emergence dilution/liability가 equity 가치보다 클 수 있고, 영업사업 가치만 보는 시장이 contingent liabilities를 과소평가한다는 논지로 재구성된다.",
+      "actual_development_ko": "Grace는 2008년에도 65,656건의 asbestos-related lawsuits와 129,191 personal-injury claims를 공시했지만 Chapter 11 process로 claims를 묶어 해결했다. 2014년 2월 3일 bankruptcy에서 공식적으로 emergence했고, 2021년 Standard Industries가 $70/share cash, 약 $7bn enterprise transaction으로 인수했다. 장기 파국 Short는 실패했다.",
+      "thesis_verdict_ko": "liability 규모만 합산하고 법적 구조가 tail liability를 trust·insurance·plan으로 ring-fence할 확률을 충분히 모델링하지 않은 것이 핵심 오류다.",
+      "business_verdict_ko": "Grace는 2008년에도 65,656건의 asbestos-related lawsuits와 129,191 personal-injury claims를 공시했지만 Chapter 11 process로 claims를 묶어 해결했다. 2014년 2월 3일 bankruptcy에서 공식적으로 emergence했고, 2021년 Standard Industries가 $70/share cash, 약 $7bn enterprise transaction으로 인수했다. 장기 파국 Short는 실패했다.",
+      "catalyst_verdict_ko": "2011~12 plan confirmation / appeals resolution",
+      "valuation_verdict_ko": "시간가치와 liability/asset realization probability를 반영한 probability-weighted NAV/EV로 판단한다.",
+      "stock_verdict_ko": "실패",
+      "current_verdict_ko": "Grace는 2008년에도 65,656건의 asbestos-related lawsuits와 129,191 personal-injury claims를 공시했지만 Chapter 11 process로 claims를 묶어 해결했다. 2014년 2월 3일 bankruptcy에서 공식적으로 emergence했고, 2021년 Standard Industries가 $70/share cash, 약 $7bn enterprise transaction으로 인수했다. 장기 파국 Short는 실패했다.",
+      "overall_verdict_ko": "실패",
+      "why_ko": "liability 규모만 합산하고 법적 구조가 tail liability를 trust·insurance·plan으로 ring-fence할 확률을 충분히 모델링하지 않은 것이 핵심 오류다.",
+      "success_pattern_ko": "",
+      "failure_pattern_ko": "gross-liability extrapolation",
+      "root_error_ko": "법적 claim의 gross 규모와 plan waterfall상 실제 equity burden을 구분하지 못했다.",
+      "first_signal_ko": "2011~12 plan confirmation / appeals resolution",
+      "first_signal_date": "2012-12-31",
+      "knowable_at_t0_ko": "asset inventory, corporate cash burn, UCP stake 또는 DIP cash, asbestos insurance/plan status는 당시 공시로 추적 가능했다.",
+      "avoidability_ko": "높음",
+      "counterfactual_question_ko": "5년 내 monetization/emergence가 안 되어도 현재 가격이 time-discounted realizable NAV로 지지되는가?",
+      "analyst_note_ko": "raw is_short=true 보존; research direction=Short. 오래된 VIC 본문이 완전 재수집되지 않은 경우 thesis 서술은 raw metadata와 당시 SEC filings를 바탕으로 한 구조적 재구성이다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.95,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "ticker": "GRA",
+      "research_direction_ko": "Long",
+      "company_description_ko": "W.R. Grace는 정유·석유화학 촉매와 specialty materials를 공급하는 글로벌 특수화학사다. 2001년 asbestos liabilities를 해결하기 위해 Chapter 11을 신청한 뒤 영업은 계속했고, 법원·보험·trust 구조를 통해 legacy liabilities를 정리해 2014년 bankruptcy에서 나왔다. 따라서 equity 가치는 영업사업의 normalized EBITDA뿐 아니라 asbestos claim waterfall, cash/insurance, emergence timing과 post-emergence capital structure에 크게 좌우됐다.",
+      "original_thesis_ko": "2012 Grace Long은 10년 넘은 Chapter 11이 막바지에 있고, operating businesses와 약 $1.064bn DIP cash가 강한 가운데 asbestos liability가 plan을 통해 정형화되면 legal overhang 해소와 재평가가 가능하다는 event-driven thesis로 재구성된다.",
+      "actual_development_ko": "2012 10-K에서 DIP cash는 $1.064bn이었다. 법원 confirmation과 appeals 해결 후 Grace는 2014년 2월 3일 Chapter 11에서 나왔다. post-emergence에는 legacy asbestos claims가 PI/PD trust로 channel되었고, 2021 Standard Industries가 $70/share cash에 인수하기로 합의했다.",
+      "thesis_verdict_ko": "legal overhang이 무한한 liability가 아니라 bounded waterfall로 바뀌는 inflection을 포착했다. bankruptcy equity는 headline claim보다 plan waterfall·cash·insurance·enterprise value를 함께 계산해야 한다.",
+      "business_verdict_ko": "2012 10-K에서 DIP cash는 $1.064bn이었다. 법원 confirmation과 appeals 해결 후 Grace는 2014년 2월 3일 Chapter 11에서 나왔다. post-emergence에는 legacy asbestos claims가 PI/PD trust로 channel되었고, 2021 Standard Industries가 $70/share cash에 인수하기로 합의했다.",
+      "catalyst_verdict_ko": "2014 Chapter 11 emergence",
+      "valuation_verdict_ko": "시간가치와 liability/asset realization probability를 반영한 probability-weighted NAV/EV로 판단한다.",
+      "stock_verdict_ko": "적중",
+      "current_verdict_ko": "2012 10-K에서 DIP cash는 $1.064bn이었다. 법원 confirmation과 appeals 해결 후 Grace는 2014년 2월 3일 Chapter 11에서 나왔다. post-emergence에는 legacy asbestos claims가 PI/PD trust로 channel되었고, 2021 Standard Industries가 $70/share cash에 인수하기로 합의했다.",
+      "overall_verdict_ko": "적중",
+      "why_ko": "legal overhang이 무한한 liability가 아니라 bounded waterfall로 바뀌는 inflection을 포착했다. bankruptcy equity는 headline claim보다 plan waterfall·cash·insurance·enterprise value를 함께 계산해야 한다.",
+      "success_pattern_ko": "asset monetization; governance catalyst; bounded legal waterfall",
+      "failure_pattern_ko": "",
+      "root_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "first_signal_ko": "2014 Chapter 11 emergence",
+      "first_signal_date": "2014-02-03",
+      "knowable_at_t0_ko": "asset inventory, corporate cash burn, UCP stake 또는 DIP cash, asbestos insurance/plan status는 당시 공시로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "5년 내 monetization/emergence가 안 되어도 현재 가격이 time-discounted realizable NAV로 지지되는가?",
+      "analyst_note_ko": "raw is_short=false 보존; research direction=Long. 오래된 VIC 본문이 완전 재수집되지 않은 경우 thesis 서술은 raw metadata와 당시 SEC filings를 바탕으로 한 구조적 재구성이다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.9,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    }
+  ],
+  "sections": [
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다."
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다. 수자원은 승인·개발·수요자 확보 후 sale proceeds가 생기므로 장부가와 현금화가 크게 시차날 수 있다."
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "핵심은 headline growth가 아니라 scarce asset/technical franchise와 이를 현금으로 바꾸는 governance·legal process다."
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "금융위기 뒤 PICO Long은 water rights·UCP/토지 등 자산가치가 depressed market cap보다 크고, 긴 개발기간을 견디면 SOTP discount가 줄어든다는 논지로 재구성된다."
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "단순 SOTP 또는 gross claims가 아니라 time-to-cash와 probability를 적용한 expected IRR이 기준이다."
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "가치는 결국 실현됐지만 매우 오래 걸렸다. 2017 UCP는 Century에 매각되어 PICO가 $55.3m 현금과 약 2.4m Century 주식을 받았고, 2022 핵심 Vidler는 D.R. Horton에 $15.75/share, 약 $291m equity value로 매각됐다."
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "자산 방향은 맞았지만 catalyst가 늦었다. water rights는 book value가 아니라 규제·개발·buyer timing의 option asset이므로 연환산 IRR이 핵심이다."
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "시간가치·corporate burn과 catalyst probability를 NAV에서 분리해야 했다."
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증은 realizable NAV/plan recovery가 훼손되거나 catalyst가 반복 지연되어 연환산 IRR이 기준 이하로 떨어지는 경우다. 첫 신호: 2017 UCP monetization."
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다."
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다. 수자원은 승인·개발·수요자 확보 후 sale proceeds가 생기므로 장부가와 현금화가 크게 시차날 수 있다."
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "핵심은 headline growth가 아니라 scarce asset/technical franchise와 이를 현금으로 바꾸는 governance·legal process다."
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2011 Long은 Vidler water assets와 UCP/real estate의 SOTP가 주가보다 높으며 scarce Southwest water의 장기 option value를 시장이 과소평가한다는 논지로 재구성된다."
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "단순 SOTP 또는 gross claims가 아니라 time-to-cash와 probability를 적용한 expected IRR이 기준이다."
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "UCP와 Vidler 모두 후속 매각으로 현금화됐다. 다만 2011부터 최종 Vidler exit까지 11년이 걸려 holding-company cost와 기회비용이 컸다."
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "NAV 할인 자체보다 NAV가 언제 현금으로 바뀌는지와 corporate burn을 반드시 IRR에 넣어야 한다."
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "시간가치·corporate burn과 catalyst probability를 NAV에서 분리해야 했다."
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증은 realizable NAV/plan recovery가 훼손되거나 catalyst가 반복 지연되어 연환산 IRR이 기준 이하로 떨어지는 경우다. 첫 신호: 2017 UCP monetization."
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다."
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다. 수자원은 승인·개발·수요자 확보 후 sale proceeds가 생기므로 장부가와 현금화가 크게 시차날 수 있다."
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "핵심은 headline growth가 아니라 scarce asset/technical franchise와 이를 현금으로 바꾸는 governance·legal process다."
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2013 Long은 UCP 가치가 더 투명해지고 water portfolio가 장부가보다 높은 잠재가치를 지녀 asset monetization이 discount를 좁힐 수 있다는 event/SOTP 논지로 재구성된다."
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "단순 SOTP 또는 gross claims가 아니라 time-to-cash와 probability를 적용한 expected IRR이 기준이다."
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2017 UCP sale은 실제 catalyst가 되었고 PICO는 현금과 Century 지분을 받았다. 이후 water-only 형태로 단순화되어 2022 최종 매각까지 이어졌다."
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "SOTP thesis는 맞았다. 그러나 각 자산별 exit probability×시간을 따로 할인해야 holding-company discount를 과소평가하지 않는다."
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다."
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증은 realizable NAV/plan recovery가 훼손되거나 catalyst가 반복 지연되어 연환산 IRR이 기준 이하로 떨어지는 경우다. 첫 신호: 2017 UCP merger close."
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다."
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다. 수자원은 승인·개발·수요자 확보 후 sale proceeds가 생기므로 장부가와 현금화가 크게 시차날 수 있다."
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "핵심은 headline growth가 아니라 scarce asset/technical franchise와 이를 현금으로 바꾸는 governance·legal process다."
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2014 Long은 공개시장 UCP 지분과 Vidler water assets를 합산한 SOTP 대비 할인, 그리고 자산매각/자본환원을 catalyst로 본 논지로 재구성된다."
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "단순 SOTP 또는 gross claims가 아니라 time-to-cash와 probability를 적용한 expected IRR이 기준이다."
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2015~17 회사는 명시적으로 asset monetization 후 capital return을 우선하겠다고 전환했고 UCP 매각으로 구조가 단순화됐다. 2022 Vidler sale이 최종 exit였다."
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "자산가치보다 governance/capital allocation 전환이 discount closure의 결정적 catalyst였다."
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다."
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증은 realizable NAV/plan recovery가 훼손되거나 catalyst가 반복 지연되어 연환산 IRR이 기준 이하로 떨어지는 경우다. 첫 신호: 2016~17 return-of-capital 정책 명시."
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다."
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다. 수자원은 승인·개발·수요자 확보 후 sale proceeds가 생기므로 장부가와 현금화가 크게 시차날 수 있다."
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "핵심은 headline growth가 아니라 scarce asset/technical franchise와 이를 현금으로 바꾸는 governance·legal process다."
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2015 Long은 복잡한 holding structure와 agribusiness/UCP/water assets의 합계가 주가보다 크고, 비핵심자산 정리와 buyback이 value realization을 촉진한다는 논지로 재구성된다."
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "단순 SOTP 또는 gross claims가 아니라 time-to-cash와 probability를 적용한 expected IRR이 기준이다."
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2015 10-K부터 회사는 monetization proceeds를 재투자보다 자본환원에 쓰는 것이 최고 수익이라고 명시했다. agribusiness가 중단사업이 되고 2017 UCP가 매각되며 thesis가 실제 corporate action으로 전환됐다."
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "2015는 단순 hidden asset에서 self-liquidation/capital-return thesis로 바뀐 중요한 시점이었다."
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다."
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증은 realizable NAV/plan recovery가 훼손되거나 catalyst가 반복 지연되어 연환산 IRR이 기준 이하로 떨어지는 경우다. 첫 신호: 2015 return-of-capital policy."
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다."
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다. 수자원은 승인·개발·수요자 확보 후 sale proceeds가 생기므로 장부가와 현금화가 크게 시차날 수 있다."
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "핵심은 headline growth가 아니라 scarce asset/technical franchise와 이를 현금으로 바꾸는 governance·legal process다."
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2015 Long은 자사주·자본환원과 복잡한 holding structure와 agribusiness/UCP/water assets의 합계가 주가보다 크고, 비핵심자산 정리와 buyback이 value realization을 촉진한다는 논지로 재구성된다."
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "단순 SOTP 또는 gross claims가 아니라 time-to-cash와 probability를 적용한 expected IRR이 기준이다."
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2015 10-K부터 회사는 monetization proceeds를 재투자보다 자본환원에 쓰는 것이 최고 수익이라고 명시했다. agribusiness가 중단사업이 되고 2017 UCP가 매각되며 thesis가 실제 corporate action으로 전환됐다."
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "2015는 단순 hidden asset에서 self-liquidation/capital-return thesis로 바뀐 중요한 시점이었다."
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다."
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증은 realizable NAV/plan recovery가 훼손되거나 catalyst가 반복 지연되어 연환산 IRR이 기준 이하로 떨어지는 경우다. 첫 신호: 2015 return-of-capital policy."
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다."
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다. 수자원은 승인·개발·수요자 확보 후 sale proceeds가 생기므로 장부가와 현금화가 크게 시차날 수 있다."
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "핵심은 headline growth가 아니라 scarce asset/technical franchise와 이를 현금으로 바꾸는 governance·legal process다."
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2016 Long은 governance/capital allocation 변화로 PICO가 empire-building에서 자산현금화·환원으로 전환하면 persistent SOTP discount가 축소된다는 논지로 재구성된다."
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "단순 SOTP 또는 gross claims가 아니라 time-to-cash와 probability를 적용한 expected IRR이 기준이다."
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2017 회사는 asset monetization proceeds를 buyback/특별배당 등으로 환원한다고 재확인했고 UCP merger를 완료했다. 이후 Vidler 중심으로 단순화됐고 2022 전략적 매각으로 종결됐다."
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "holding company에서 discount 해소의 핵심은 NAV 추정 정확도보다 경영진 인센티브와 irreversible capital-return policy다."
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다."
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증은 realizable NAV/plan recovery가 훼손되거나 catalyst가 반복 지연되어 연환산 IRR이 기준 이하로 떨어지는 경우다. 첫 신호: 2017 UCP sale + cost cuts."
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다."
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "PICO Holdings는 여러 비상장·상장 자산을 보유하던 holding company였고, 핵심 자산은 미국 남서부의 water rights·storage를 개발·매각하는 Vidler Water와 한때 주택개발사 UCP였다. 장기 가치는 회계상 earnings보다 water asset의 승인·개발·매각가격, UCP 지분가치, corporate burn, 세금/NOL, 자사주·특별배당 등 자본환원에 좌우됐다. 2021년 Vidler Water Resources로 사명을 바꾼 뒤 2022년 D.R. Horton에 매각됐다. 수자원은 승인·개발·수요자 확보 후 sale proceeds가 생기므로 장부가와 현금화가 크게 시차날 수 있다."
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "핵심은 headline growth가 아니라 scarce asset/technical franchise와 이를 현금으로 바꾸는 governance·legal process다."
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2018 Long은 UCP가 이미 매각된 뒤 사실상 Vidler water portfolio와 현금/NOL의 단순화된 asset play가 되었고, water sales·자사주·전략적 거래가 remaining discount를 닫을 수 있다는 논지로 재구성된다."
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "단순 SOTP 또는 gross claims가 아니라 time-to-cash와 probability를 적용한 expected IRR이 기준이다."
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2019에도 회사는 water credits를 현금화하고 자본환원 정책을 유지했다. 2021 Vidler로 사명을 바꿨으며 2022 D.R. Horton이 $15.75/share 현금, 약 $291m에 전량 인수했다."
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "이 시점은 복잡성 감소로 thesis quality가 높아졌다. final buyer가 water rights를 개발에 직접 쓸 수 있는 homebuilder였다는 점이 strategic value를 입증했다."
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다."
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증은 realizable NAV/plan recovery가 훼손되거나 catalyst가 반복 지연되어 연환산 IRR이 기준 이하로 떨어지는 경우다. 첫 신호: 2022 D.R. Horton agreement."
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "W.R. Grace는 정유·석유화학 촉매와 specialty materials를 공급하는 글로벌 특수화학사다. 2001년 asbestos liabilities를 해결하기 위해 Chapter 11을 신청한 뒤 영업은 계속했고, 법원·보험·trust 구조를 통해 legacy liabilities를 정리해 2014년 bankruptcy에서 나왔다. 따라서 equity 가치는 영업사업의 normalized EBITDA뿐 아니라 asbestos claim waterfall, cash/insurance, emergence timing과 post-emergence capital structure에 크게 좌우됐다."
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "W.R. Grace는 정유·석유화학 촉매와 specialty materials를 공급하는 글로벌 특수화학사다. 2001년 asbestos liabilities를 해결하기 위해 Chapter 11을 신청한 뒤 영업은 계속했고, 법원·보험·trust 구조를 통해 legacy liabilities를 정리해 2014년 bankruptcy에서 나왔다. 따라서 equity 가치는 영업사업의 normalized EBITDA뿐 아니라 asbestos claim waterfall, cash/insurance, emergence timing과 post-emergence capital structure에 크게 좌우됐다. Chapter 11에서는 claims가 법원 plan과 trust funding을 거쳐 equity waterfall로 번역된다."
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "핵심은 headline growth가 아니라 scarce asset/technical franchise와 이를 현금으로 바꾸는 governance·legal process다."
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2006 Grace Short는 이미 Chapter 11에 있던 회사의 asbestos claim 규모와 emergence dilution/liability가 equity 가치보다 클 수 있고, 영업사업 가치만 보는 시장이 contingent liabilities를 과소평가한다는 논지로 재구성된다."
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "단순 SOTP 또는 gross claims가 아니라 time-to-cash와 probability를 적용한 expected IRR이 기준이다."
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "Grace는 2008년에도 65,656건의 asbestos-related lawsuits와 129,191 personal-injury claims를 공시했지만 Chapter 11 process로 claims를 묶어 해결했다. 2014년 2월 3일 bankruptcy에서 공식적으로 emergence했고, 2021년 Standard Industries가 $70/share cash, 약 $7bn enterprise transaction으로 인수했다. 장기 파국 Short는 실패했다."
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "liability 규모만 합산하고 법적 구조가 tail liability를 trust·insurance·plan으로 ring-fence할 확률을 충분히 모델링하지 않은 것이 핵심 오류다."
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "법적 claim의 gross 규모와 plan waterfall상 실제 equity burden을 구분하지 못했다."
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증은 realizable NAV/plan recovery가 훼손되거나 catalyst가 반복 지연되어 연환산 IRR이 기준 이하로 떨어지는 경우다. 첫 신호: 2011~12 plan confirmation / appeals resolution."
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "bankruptcy equity는 headline liabilities보다 plan waterfall, trust funding, insurance, cash, post-emergence debt와 normalized EV를 동시 모델링한다."
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "W.R. Grace는 정유·석유화학 촉매와 specialty materials를 공급하는 글로벌 특수화학사다. 2001년 asbestos liabilities를 해결하기 위해 Chapter 11을 신청한 뒤 영업은 계속했고, 법원·보험·trust 구조를 통해 legacy liabilities를 정리해 2014년 bankruptcy에서 나왔다. 따라서 equity 가치는 영업사업의 normalized EBITDA뿐 아니라 asbestos claim waterfall, cash/insurance, emergence timing과 post-emergence capital structure에 크게 좌우됐다."
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "W.R. Grace는 정유·석유화학 촉매와 specialty materials를 공급하는 글로벌 특수화학사다. 2001년 asbestos liabilities를 해결하기 위해 Chapter 11을 신청한 뒤 영업은 계속했고, 법원·보험·trust 구조를 통해 legacy liabilities를 정리해 2014년 bankruptcy에서 나왔다. 따라서 equity 가치는 영업사업의 normalized EBITDA뿐 아니라 asbestos claim waterfall, cash/insurance, emergence timing과 post-emergence capital structure에 크게 좌우됐다. Chapter 11에서는 claims가 법원 plan과 trust funding을 거쳐 equity waterfall로 번역된다."
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "핵심은 headline growth가 아니라 scarce asset/technical franchise와 이를 현금으로 바꾸는 governance·legal process다."
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2012 Grace Long은 10년 넘은 Chapter 11이 막바지에 있고, operating businesses와 약 $1.064bn DIP cash가 강한 가운데 asbestos liability가 plan을 통해 정형화되면 legal overhang 해소와 재평가가 가능하다는 event-driven thesis로 재구성된다."
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "단순 SOTP 또는 gross claims가 아니라 time-to-cash와 probability를 적용한 expected IRR이 기준이다."
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2012 10-K에서 DIP cash는 $1.064bn이었다. 법원 confirmation과 appeals 해결 후 Grace는 2014년 2월 3일 Chapter 11에서 나왔다. post-emergence에는 legacy asbestos claims가 PI/PD trust로 channel되었고, 2021 Standard Industries가 $70/share cash에 인수하기로 합의했다."
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "legal overhang이 무한한 liability가 아니라 bounded waterfall로 바뀌는 inflection을 포착했다. bankruptcy equity는 headline claim보다 plan waterfall·cash·insurance·enterprise value를 함께 계산해야 한다."
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다."
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증은 realizable NAV/plan recovery가 훼손되거나 catalyst가 반복 지연되어 연환산 IRR이 기준 이하로 떨어지는 경우다. 첫 신호: 2014 Chapter 11 emergence."
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "bankruptcy equity는 headline liabilities보다 plan waterfall, trust funding, insurance, cash, post-emergence debt와 normalized EV를 동시 모델링한다."
+    }
+  ],
+  "claims": [
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "claim_order": 1,
+      "claim_title_ko": "water asset NAV·scarcity",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "금융위기 뒤 PICO Long은 water rights·UCP/토지 등 자산가치가 depressed market cap보다 크고, 긴 개발기간을 견디면 SOTP discount가 줄어든다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "핵심 자산/영업가치가 독립 검증치보다 하락",
+      "actual_result_ko": "가치는 결국 실현됐지만 매우 오래 걸렸다. 2017 UCP는 Century에 매각되어 PICO가 $55.3m 현금과 약 2.4m Century 주식을 받았고, 2022 핵심 Vidler는 D.R. Horton에 $15.75/share, 약 $291m equity value로 매각됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "시간가치·corporate burn과 catalyst probability를 NAV에서 분리해야 했다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "claim_order": 2,
+      "claim_title_ko": "UCP/other asset monetization",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "금융위기 뒤 PICO Long은 water rights·UCP/토지 등 자산가치가 depressed market cap보다 크고, 긴 개발기간을 견디면 SOTP discount가 줄어든다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "예상 monetization/liability waterfall이 불리하게 변경",
+      "actual_result_ko": "가치는 결국 실현됐지만 매우 오래 걸렸다. 2017 UCP는 Century에 매각되어 PICO가 $55.3m 현금과 약 2.4m Century 주식을 받았고, 2022 핵심 Vidler는 D.R. Horton에 $15.75/share, 약 $291m equity value로 매각됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "시간가치·corporate burn과 catalyst probability를 NAV에서 분리해야 했다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "claim_order": 3,
+      "claim_title_ko": "corporate burn·tax/NOL",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "금융위기 뒤 PICO Long은 water rights·UCP/토지 등 자산가치가 depressed market cap보다 크고, 긴 개발기간을 견디면 SOTP discount가 줄어든다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "cash burn·funding gap이 예상보다 확대",
+      "actual_result_ko": "가치는 결국 실현됐지만 매우 오래 걸렸다. 2017 UCP는 Century에 매각되어 PICO가 $55.3m 현금과 약 2.4m Century 주식을 받았고, 2022 핵심 Vidler는 D.R. Horton에 $15.75/share, 약 $291m equity value로 매각됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "시간가치·corporate burn과 catalyst probability를 NAV에서 분리해야 했다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "claim_order": 4,
+      "claim_title_ko": "capital return·buyback",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "금융위기 뒤 PICO Long은 water rights·UCP/토지 등 자산가치가 depressed market cap보다 크고, 긴 개발기간을 견디면 SOTP discount가 줄어든다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "자본환원/emergence가 지연되며 dilution 증가",
+      "actual_result_ko": "가치는 결국 실현됐지만 매우 오래 걸렸다. 2017 UCP는 Century에 매각되어 PICO가 $55.3m 현금과 약 2.4m Century 주식을 받았고, 2022 핵심 Vidler는 D.R. Horton에 $15.75/share, 약 $291m equity value로 매각됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "시간가치·corporate burn과 catalyst probability를 NAV에서 분리해야 했다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "claim_order": 5,
+      "claim_title_ko": "SOTP valuation·IRR",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "금융위기 뒤 PICO Long은 water rights·UCP/토지 등 자산가치가 depressed market cap보다 크고, 긴 개발기간을 견디면 SOTP discount가 줄어든다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "time-discounted expected IRR이 hurdle 미달",
+      "actual_result_ko": "가치는 결국 실현됐지만 매우 오래 걸렸다. 2017 UCP는 Century에 매각되어 PICO가 $55.3m 현금과 약 2.4m Century 주식을 받았고, 2022 핵심 Vidler는 D.R. Horton에 $15.75/share, 약 $291m equity value로 매각됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "시간가치·corporate burn과 catalyst probability를 NAV에서 분리해야 했다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "claim_order": 6,
+      "claim_title_ko": "governance·catalyst·반증",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "금융위기 뒤 PICO Long은 water rights·UCP/토지 등 자산가치가 depressed market cap보다 크고, 긴 개발기간을 견디면 SOTP discount가 줄어든다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "governance/court catalyst가 반대로 전개",
+      "actual_result_ko": "가치는 결국 실현됐지만 매우 오래 걸렸다. 2017 UCP는 Century에 매각되어 PICO가 $55.3m 현금과 약 2.4m Century 주식을 받았고, 2022 핵심 Vidler는 D.R. Horton에 $15.75/share, 약 $291m equity value로 매각됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "시간가치·corporate burn과 catalyst probability를 NAV에서 분리해야 했다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "claim_order": 1,
+      "claim_title_ko": "water asset NAV·scarcity",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2011 Long은 Vidler water assets와 UCP/real estate의 SOTP가 주가보다 높으며 scarce Southwest water의 장기 option value를 시장이 과소평가한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "핵심 자산/영업가치가 독립 검증치보다 하락",
+      "actual_result_ko": "UCP와 Vidler 모두 후속 매각으로 현금화됐다. 다만 2011부터 최종 Vidler exit까지 11년이 걸려 holding-company cost와 기회비용이 컸다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "시간가치·corporate burn과 catalyst probability를 NAV에서 분리해야 했다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "claim_order": 2,
+      "claim_title_ko": "UCP/other asset monetization",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2011 Long은 Vidler water assets와 UCP/real estate의 SOTP가 주가보다 높으며 scarce Southwest water의 장기 option value를 시장이 과소평가한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "예상 monetization/liability waterfall이 불리하게 변경",
+      "actual_result_ko": "UCP와 Vidler 모두 후속 매각으로 현금화됐다. 다만 2011부터 최종 Vidler exit까지 11년이 걸려 holding-company cost와 기회비용이 컸다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "시간가치·corporate burn과 catalyst probability를 NAV에서 분리해야 했다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "claim_order": 3,
+      "claim_title_ko": "corporate burn·tax/NOL",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2011 Long은 Vidler water assets와 UCP/real estate의 SOTP가 주가보다 높으며 scarce Southwest water의 장기 option value를 시장이 과소평가한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "cash burn·funding gap이 예상보다 확대",
+      "actual_result_ko": "UCP와 Vidler 모두 후속 매각으로 현금화됐다. 다만 2011부터 최종 Vidler exit까지 11년이 걸려 holding-company cost와 기회비용이 컸다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "시간가치·corporate burn과 catalyst probability를 NAV에서 분리해야 했다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "claim_order": 4,
+      "claim_title_ko": "capital return·buyback",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2011 Long은 Vidler water assets와 UCP/real estate의 SOTP가 주가보다 높으며 scarce Southwest water의 장기 option value를 시장이 과소평가한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "자본환원/emergence가 지연되며 dilution 증가",
+      "actual_result_ko": "UCP와 Vidler 모두 후속 매각으로 현금화됐다. 다만 2011부터 최종 Vidler exit까지 11년이 걸려 holding-company cost와 기회비용이 컸다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "시간가치·corporate burn과 catalyst probability를 NAV에서 분리해야 했다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "claim_order": 5,
+      "claim_title_ko": "SOTP valuation·IRR",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2011 Long은 Vidler water assets와 UCP/real estate의 SOTP가 주가보다 높으며 scarce Southwest water의 장기 option value를 시장이 과소평가한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "time-discounted expected IRR이 hurdle 미달",
+      "actual_result_ko": "UCP와 Vidler 모두 후속 매각으로 현금화됐다. 다만 2011부터 최종 Vidler exit까지 11년이 걸려 holding-company cost와 기회비용이 컸다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "시간가치·corporate burn과 catalyst probability를 NAV에서 분리해야 했다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "claim_order": 6,
+      "claim_title_ko": "governance·catalyst·반증",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2011 Long은 Vidler water assets와 UCP/real estate의 SOTP가 주가보다 높으며 scarce Southwest water의 장기 option value를 시장이 과소평가한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "governance/court catalyst가 반대로 전개",
+      "actual_result_ko": "UCP와 Vidler 모두 후속 매각으로 현금화됐다. 다만 2011부터 최종 Vidler exit까지 11년이 걸려 holding-company cost와 기회비용이 컸다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "시간가치·corporate burn과 catalyst probability를 NAV에서 분리해야 했다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "claim_order": 1,
+      "claim_title_ko": "water asset NAV·scarcity",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2013 Long은 UCP 가치가 더 투명해지고 water portfolio가 장부가보다 높은 잠재가치를 지녀 asset monetization이 discount를 좁힐 수 있다는 event/SOTP 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "핵심 자산/영업가치가 독립 검증치보다 하락",
+      "actual_result_ko": "2017 UCP sale은 실제 catalyst가 되었고 PICO는 현금과 Century 지분을 받았다. 이후 water-only 형태로 단순화되어 2022 최종 매각까지 이어졌다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "claim_order": 2,
+      "claim_title_ko": "UCP/other asset monetization",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2013 Long은 UCP 가치가 더 투명해지고 water portfolio가 장부가보다 높은 잠재가치를 지녀 asset monetization이 discount를 좁힐 수 있다는 event/SOTP 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "예상 monetization/liability waterfall이 불리하게 변경",
+      "actual_result_ko": "2017 UCP sale은 실제 catalyst가 되었고 PICO는 현금과 Century 지분을 받았다. 이후 water-only 형태로 단순화되어 2022 최종 매각까지 이어졌다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "claim_order": 3,
+      "claim_title_ko": "corporate burn·tax/NOL",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2013 Long은 UCP 가치가 더 투명해지고 water portfolio가 장부가보다 높은 잠재가치를 지녀 asset monetization이 discount를 좁힐 수 있다는 event/SOTP 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "cash burn·funding gap이 예상보다 확대",
+      "actual_result_ko": "2017 UCP sale은 실제 catalyst가 되었고 PICO는 현금과 Century 지분을 받았다. 이후 water-only 형태로 단순화되어 2022 최종 매각까지 이어졌다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "claim_order": 4,
+      "claim_title_ko": "capital return·buyback",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2013 Long은 UCP 가치가 더 투명해지고 water portfolio가 장부가보다 높은 잠재가치를 지녀 asset monetization이 discount를 좁힐 수 있다는 event/SOTP 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "자본환원/emergence가 지연되며 dilution 증가",
+      "actual_result_ko": "2017 UCP sale은 실제 catalyst가 되었고 PICO는 현금과 Century 지분을 받았다. 이후 water-only 형태로 단순화되어 2022 최종 매각까지 이어졌다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "claim_order": 5,
+      "claim_title_ko": "SOTP valuation·IRR",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2013 Long은 UCP 가치가 더 투명해지고 water portfolio가 장부가보다 높은 잠재가치를 지녀 asset monetization이 discount를 좁힐 수 있다는 event/SOTP 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "time-discounted expected IRR이 hurdle 미달",
+      "actual_result_ko": "2017 UCP sale은 실제 catalyst가 되었고 PICO는 현금과 Century 지분을 받았다. 이후 water-only 형태로 단순화되어 2022 최종 매각까지 이어졌다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "claim_order": 6,
+      "claim_title_ko": "governance·catalyst·반증",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2013 Long은 UCP 가치가 더 투명해지고 water portfolio가 장부가보다 높은 잠재가치를 지녀 asset monetization이 discount를 좁힐 수 있다는 event/SOTP 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "governance/court catalyst가 반대로 전개",
+      "actual_result_ko": "2017 UCP sale은 실제 catalyst가 되었고 PICO는 현금과 Century 지분을 받았다. 이후 water-only 형태로 단순화되어 2022 최종 매각까지 이어졌다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "claim_order": 1,
+      "claim_title_ko": "water asset NAV·scarcity",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2014 Long은 공개시장 UCP 지분과 Vidler water assets를 합산한 SOTP 대비 할인, 그리고 자산매각/자본환원을 catalyst로 본 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "핵심 자산/영업가치가 독립 검증치보다 하락",
+      "actual_result_ko": "2015~17 회사는 명시적으로 asset monetization 후 capital return을 우선하겠다고 전환했고 UCP 매각으로 구조가 단순화됐다. 2022 Vidler sale이 최종 exit였다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "claim_order": 2,
+      "claim_title_ko": "UCP/other asset monetization",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2014 Long은 공개시장 UCP 지분과 Vidler water assets를 합산한 SOTP 대비 할인, 그리고 자산매각/자본환원을 catalyst로 본 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "예상 monetization/liability waterfall이 불리하게 변경",
+      "actual_result_ko": "2015~17 회사는 명시적으로 asset monetization 후 capital return을 우선하겠다고 전환했고 UCP 매각으로 구조가 단순화됐다. 2022 Vidler sale이 최종 exit였다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "claim_order": 3,
+      "claim_title_ko": "corporate burn·tax/NOL",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2014 Long은 공개시장 UCP 지분과 Vidler water assets를 합산한 SOTP 대비 할인, 그리고 자산매각/자본환원을 catalyst로 본 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "cash burn·funding gap이 예상보다 확대",
+      "actual_result_ko": "2015~17 회사는 명시적으로 asset monetization 후 capital return을 우선하겠다고 전환했고 UCP 매각으로 구조가 단순화됐다. 2022 Vidler sale이 최종 exit였다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "claim_order": 4,
+      "claim_title_ko": "capital return·buyback",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2014 Long은 공개시장 UCP 지분과 Vidler water assets를 합산한 SOTP 대비 할인, 그리고 자산매각/자본환원을 catalyst로 본 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "자본환원/emergence가 지연되며 dilution 증가",
+      "actual_result_ko": "2015~17 회사는 명시적으로 asset monetization 후 capital return을 우선하겠다고 전환했고 UCP 매각으로 구조가 단순화됐다. 2022 Vidler sale이 최종 exit였다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "claim_order": 5,
+      "claim_title_ko": "SOTP valuation·IRR",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2014 Long은 공개시장 UCP 지분과 Vidler water assets를 합산한 SOTP 대비 할인, 그리고 자산매각/자본환원을 catalyst로 본 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "time-discounted expected IRR이 hurdle 미달",
+      "actual_result_ko": "2015~17 회사는 명시적으로 asset monetization 후 capital return을 우선하겠다고 전환했고 UCP 매각으로 구조가 단순화됐다. 2022 Vidler sale이 최종 exit였다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "claim_order": 6,
+      "claim_title_ko": "governance·catalyst·반증",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2014 Long은 공개시장 UCP 지분과 Vidler water assets를 합산한 SOTP 대비 할인, 그리고 자산매각/자본환원을 catalyst로 본 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "governance/court catalyst가 반대로 전개",
+      "actual_result_ko": "2015~17 회사는 명시적으로 asset monetization 후 capital return을 우선하겠다고 전환했고 UCP 매각으로 구조가 단순화됐다. 2022 Vidler sale이 최종 exit였다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "claim_order": 1,
+      "claim_title_ko": "water asset NAV·scarcity",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2015 Long은 복잡한 holding structure와 agribusiness/UCP/water assets의 합계가 주가보다 크고, 비핵심자산 정리와 buyback이 value realization을 촉진한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "핵심 자산/영업가치가 독립 검증치보다 하락",
+      "actual_result_ko": "2015 10-K부터 회사는 monetization proceeds를 재투자보다 자본환원에 쓰는 것이 최고 수익이라고 명시했다. agribusiness가 중단사업이 되고 2017 UCP가 매각되며 thesis가 실제 corporate action으로 전환됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "claim_order": 2,
+      "claim_title_ko": "UCP/other asset monetization",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2015 Long은 복잡한 holding structure와 agribusiness/UCP/water assets의 합계가 주가보다 크고, 비핵심자산 정리와 buyback이 value realization을 촉진한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "예상 monetization/liability waterfall이 불리하게 변경",
+      "actual_result_ko": "2015 10-K부터 회사는 monetization proceeds를 재투자보다 자본환원에 쓰는 것이 최고 수익이라고 명시했다. agribusiness가 중단사업이 되고 2017 UCP가 매각되며 thesis가 실제 corporate action으로 전환됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "claim_order": 3,
+      "claim_title_ko": "corporate burn·tax/NOL",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2015 Long은 복잡한 holding structure와 agribusiness/UCP/water assets의 합계가 주가보다 크고, 비핵심자산 정리와 buyback이 value realization을 촉진한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "cash burn·funding gap이 예상보다 확대",
+      "actual_result_ko": "2015 10-K부터 회사는 monetization proceeds를 재투자보다 자본환원에 쓰는 것이 최고 수익이라고 명시했다. agribusiness가 중단사업이 되고 2017 UCP가 매각되며 thesis가 실제 corporate action으로 전환됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "claim_order": 4,
+      "claim_title_ko": "capital return·buyback",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2015 Long은 복잡한 holding structure와 agribusiness/UCP/water assets의 합계가 주가보다 크고, 비핵심자산 정리와 buyback이 value realization을 촉진한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "자본환원/emergence가 지연되며 dilution 증가",
+      "actual_result_ko": "2015 10-K부터 회사는 monetization proceeds를 재투자보다 자본환원에 쓰는 것이 최고 수익이라고 명시했다. agribusiness가 중단사업이 되고 2017 UCP가 매각되며 thesis가 실제 corporate action으로 전환됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "claim_order": 5,
+      "claim_title_ko": "SOTP valuation·IRR",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2015 Long은 복잡한 holding structure와 agribusiness/UCP/water assets의 합계가 주가보다 크고, 비핵심자산 정리와 buyback이 value realization을 촉진한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "time-discounted expected IRR이 hurdle 미달",
+      "actual_result_ko": "2015 10-K부터 회사는 monetization proceeds를 재투자보다 자본환원에 쓰는 것이 최고 수익이라고 명시했다. agribusiness가 중단사업이 되고 2017 UCP가 매각되며 thesis가 실제 corporate action으로 전환됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "claim_order": 6,
+      "claim_title_ko": "governance·catalyst·반증",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2015 Long은 복잡한 holding structure와 agribusiness/UCP/water assets의 합계가 주가보다 크고, 비핵심자산 정리와 buyback이 value realization을 촉진한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "governance/court catalyst가 반대로 전개",
+      "actual_result_ko": "2015 10-K부터 회사는 monetization proceeds를 재투자보다 자본환원에 쓰는 것이 최고 수익이라고 명시했다. agribusiness가 중단사업이 되고 2017 UCP가 매각되며 thesis가 실제 corporate action으로 전환됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "claim_order": 1,
+      "claim_title_ko": "water asset NAV·scarcity",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2015 Long은 자사주·자본환원과 복잡한 holding structure와 agribusiness/UCP/water assets의 합계가 주가보다 크고, 비핵심자산 정리와 buyback이 value realization을 촉진한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "핵심 자산/영업가치가 독립 검증치보다 하락",
+      "actual_result_ko": "2015 10-K부터 회사는 monetization proceeds를 재투자보다 자본환원에 쓰는 것이 최고 수익이라고 명시했다. agribusiness가 중단사업이 되고 2017 UCP가 매각되며 thesis가 실제 corporate action으로 전환됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "claim_order": 2,
+      "claim_title_ko": "UCP/other asset monetization",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2015 Long은 자사주·자본환원과 복잡한 holding structure와 agribusiness/UCP/water assets의 합계가 주가보다 크고, 비핵심자산 정리와 buyback이 value realization을 촉진한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "예상 monetization/liability waterfall이 불리하게 변경",
+      "actual_result_ko": "2015 10-K부터 회사는 monetization proceeds를 재투자보다 자본환원에 쓰는 것이 최고 수익이라고 명시했다. agribusiness가 중단사업이 되고 2017 UCP가 매각되며 thesis가 실제 corporate action으로 전환됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "claim_order": 3,
+      "claim_title_ko": "corporate burn·tax/NOL",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2015 Long은 자사주·자본환원과 복잡한 holding structure와 agribusiness/UCP/water assets의 합계가 주가보다 크고, 비핵심자산 정리와 buyback이 value realization을 촉진한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "cash burn·funding gap이 예상보다 확대",
+      "actual_result_ko": "2015 10-K부터 회사는 monetization proceeds를 재투자보다 자본환원에 쓰는 것이 최고 수익이라고 명시했다. agribusiness가 중단사업이 되고 2017 UCP가 매각되며 thesis가 실제 corporate action으로 전환됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "claim_order": 4,
+      "claim_title_ko": "capital return·buyback",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2015 Long은 자사주·자본환원과 복잡한 holding structure와 agribusiness/UCP/water assets의 합계가 주가보다 크고, 비핵심자산 정리와 buyback이 value realization을 촉진한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "자본환원/emergence가 지연되며 dilution 증가",
+      "actual_result_ko": "2015 10-K부터 회사는 monetization proceeds를 재투자보다 자본환원에 쓰는 것이 최고 수익이라고 명시했다. agribusiness가 중단사업이 되고 2017 UCP가 매각되며 thesis가 실제 corporate action으로 전환됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "claim_order": 5,
+      "claim_title_ko": "SOTP valuation·IRR",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2015 Long은 자사주·자본환원과 복잡한 holding structure와 agribusiness/UCP/water assets의 합계가 주가보다 크고, 비핵심자산 정리와 buyback이 value realization을 촉진한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "time-discounted expected IRR이 hurdle 미달",
+      "actual_result_ko": "2015 10-K부터 회사는 monetization proceeds를 재투자보다 자본환원에 쓰는 것이 최고 수익이라고 명시했다. agribusiness가 중단사업이 되고 2017 UCP가 매각되며 thesis가 실제 corporate action으로 전환됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "claim_order": 6,
+      "claim_title_ko": "governance·catalyst·반증",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2015 Long은 자사주·자본환원과 복잡한 holding structure와 agribusiness/UCP/water assets의 합계가 주가보다 크고, 비핵심자산 정리와 buyback이 value realization을 촉진한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "governance/court catalyst가 반대로 전개",
+      "actual_result_ko": "2015 10-K부터 회사는 monetization proceeds를 재투자보다 자본환원에 쓰는 것이 최고 수익이라고 명시했다. agribusiness가 중단사업이 되고 2017 UCP가 매각되며 thesis가 실제 corporate action으로 전환됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "claim_order": 1,
+      "claim_title_ko": "water asset NAV·scarcity",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2016 Long은 governance/capital allocation 변화로 PICO가 empire-building에서 자산현금화·환원으로 전환하면 persistent SOTP discount가 축소된다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "핵심 자산/영업가치가 독립 검증치보다 하락",
+      "actual_result_ko": "2017 회사는 asset monetization proceeds를 buyback/특별배당 등으로 환원한다고 재확인했고 UCP merger를 완료했다. 이후 Vidler 중심으로 단순화됐고 2022 전략적 매각으로 종결됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "claim_order": 2,
+      "claim_title_ko": "UCP/other asset monetization",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2016 Long은 governance/capital allocation 변화로 PICO가 empire-building에서 자산현금화·환원으로 전환하면 persistent SOTP discount가 축소된다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "예상 monetization/liability waterfall이 불리하게 변경",
+      "actual_result_ko": "2017 회사는 asset monetization proceeds를 buyback/특별배당 등으로 환원한다고 재확인했고 UCP merger를 완료했다. 이후 Vidler 중심으로 단순화됐고 2022 전략적 매각으로 종결됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "claim_order": 3,
+      "claim_title_ko": "corporate burn·tax/NOL",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2016 Long은 governance/capital allocation 변화로 PICO가 empire-building에서 자산현금화·환원으로 전환하면 persistent SOTP discount가 축소된다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "cash burn·funding gap이 예상보다 확대",
+      "actual_result_ko": "2017 회사는 asset monetization proceeds를 buyback/특별배당 등으로 환원한다고 재확인했고 UCP merger를 완료했다. 이후 Vidler 중심으로 단순화됐고 2022 전략적 매각으로 종결됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "claim_order": 4,
+      "claim_title_ko": "capital return·buyback",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2016 Long은 governance/capital allocation 변화로 PICO가 empire-building에서 자산현금화·환원으로 전환하면 persistent SOTP discount가 축소된다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "자본환원/emergence가 지연되며 dilution 증가",
+      "actual_result_ko": "2017 회사는 asset monetization proceeds를 buyback/특별배당 등으로 환원한다고 재확인했고 UCP merger를 완료했다. 이후 Vidler 중심으로 단순화됐고 2022 전략적 매각으로 종결됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "claim_order": 5,
+      "claim_title_ko": "SOTP valuation·IRR",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2016 Long은 governance/capital allocation 변화로 PICO가 empire-building에서 자산현금화·환원으로 전환하면 persistent SOTP discount가 축소된다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "time-discounted expected IRR이 hurdle 미달",
+      "actual_result_ko": "2017 회사는 asset monetization proceeds를 buyback/특별배당 등으로 환원한다고 재확인했고 UCP merger를 완료했다. 이후 Vidler 중심으로 단순화됐고 2022 전략적 매각으로 종결됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "claim_order": 6,
+      "claim_title_ko": "governance·catalyst·반증",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2016 Long은 governance/capital allocation 변화로 PICO가 empire-building에서 자산현금화·환원으로 전환하면 persistent SOTP discount가 축소된다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "governance/court catalyst가 반대로 전개",
+      "actual_result_ko": "2017 회사는 asset monetization proceeds를 buyback/특별배당 등으로 환원한다고 재확인했고 UCP merger를 완료했다. 이후 Vidler 중심으로 단순화됐고 2022 전략적 매각으로 종결됐다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "claim_order": 1,
+      "claim_title_ko": "water asset NAV·scarcity",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2018 Long은 UCP가 이미 매각된 뒤 사실상 Vidler water portfolio와 현금/NOL의 단순화된 asset play가 되었고, water sales·자사주·전략적 거래가 remaining discount를 닫을 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "핵심 자산/영업가치가 독립 검증치보다 하락",
+      "actual_result_ko": "2019에도 회사는 water credits를 현금화하고 자본환원 정책을 유지했다. 2021 Vidler로 사명을 바꿨으며 2022 D.R. Horton이 $15.75/share 현금, 약 $291m에 전량 인수했다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "claim_order": 2,
+      "claim_title_ko": "UCP/other asset monetization",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2018 Long은 UCP가 이미 매각된 뒤 사실상 Vidler water portfolio와 현금/NOL의 단순화된 asset play가 되었고, water sales·자사주·전략적 거래가 remaining discount를 닫을 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "예상 monetization/liability waterfall이 불리하게 변경",
+      "actual_result_ko": "2019에도 회사는 water credits를 현금화하고 자본환원 정책을 유지했다. 2021 Vidler로 사명을 바꿨으며 2022 D.R. Horton이 $15.75/share 현금, 약 $291m에 전량 인수했다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "claim_order": 3,
+      "claim_title_ko": "corporate burn·tax/NOL",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2018 Long은 UCP가 이미 매각된 뒤 사실상 Vidler water portfolio와 현금/NOL의 단순화된 asset play가 되었고, water sales·자사주·전략적 거래가 remaining discount를 닫을 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "cash burn·funding gap이 예상보다 확대",
+      "actual_result_ko": "2019에도 회사는 water credits를 현금화하고 자본환원 정책을 유지했다. 2021 Vidler로 사명을 바꿨으며 2022 D.R. Horton이 $15.75/share 현금, 약 $291m에 전량 인수했다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "claim_order": 4,
+      "claim_title_ko": "capital return·buyback",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2018 Long은 UCP가 이미 매각된 뒤 사실상 Vidler water portfolio와 현금/NOL의 단순화된 asset play가 되었고, water sales·자사주·전략적 거래가 remaining discount를 닫을 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "자본환원/emergence가 지연되며 dilution 증가",
+      "actual_result_ko": "2019에도 회사는 water credits를 현금화하고 자본환원 정책을 유지했다. 2021 Vidler로 사명을 바꿨으며 2022 D.R. Horton이 $15.75/share 현금, 약 $291m에 전량 인수했다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "claim_order": 5,
+      "claim_title_ko": "SOTP valuation·IRR",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2018 Long은 UCP가 이미 매각된 뒤 사실상 Vidler water portfolio와 현금/NOL의 단순화된 asset play가 되었고, water sales·자사주·전략적 거래가 remaining discount를 닫을 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "time-discounted expected IRR이 hurdle 미달",
+      "actual_result_ko": "2019에도 회사는 water credits를 현금화하고 자본환원 정책을 유지했다. 2021 Vidler로 사명을 바꿨으며 2022 D.R. Horton이 $15.75/share 현금, 약 $291m에 전량 인수했다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "claim_order": 6,
+      "claim_title_ko": "governance·catalyst·반증",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2018 Long은 UCP가 이미 매각된 뒤 사실상 Vidler water portfolio와 현금/NOL의 단순화된 asset play가 되었고, water sales·자사주·전략적 거래가 remaining discount를 닫을 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "governance/court catalyst가 반대로 전개",
+      "actual_result_ko": "2019에도 회사는 water credits를 현금화하고 자본환원 정책을 유지했다. 2021 Vidler로 사명을 바꿨으며 2022 D.R. Horton이 $15.75/share 현금, 약 $291m에 전량 인수했다.",
+      "quantitative_gap_ko": "UCP: $55.3m cash + 2.4m Century shares; Vidler: 2022 $15.75/share, ~$291m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다."
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "claim_order": 1,
+      "claim_title_ko": "operating business value",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2006 Grace Short는 이미 Chapter 11에 있던 회사의 asbestos claim 규모와 emergence dilution/liability가 equity 가치보다 클 수 있고, 영업사업 가치만 보는 시장이 contingent liabilities를 과소평가한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "핵심 자산/영업가치가 독립 검증치보다 하락",
+      "actual_result_ko": "Grace는 2008년에도 65,656건의 asbestos-related lawsuits와 129,191 personal-injury claims를 공시했지만 Chapter 11 process로 claims를 묶어 해결했다. 2014년 2월 3일 bankruptcy에서 공식적으로 emergence했고, 2021년 Standard Industries가 $70/share cash, 약 $7bn enterprise transaction으로 인수했다. 장기 파국 Short는 실패했다.",
+      "quantitative_gap_ko": "2008 65,656 lawsuits/129,191 PI claims; 2014 emergence",
+      "verdict_ko": "오판",
+      "analytical_error_ko": "법적 claim의 gross 규모와 plan waterfall상 실제 equity burden을 구분하지 못했다.",
+      "reusable_lesson_ko": "bankruptcy equity는 headline liabilities보다 plan waterfall, trust funding, insurance, cash, post-emergence debt와 normalized EV를 동시 모델링한다."
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "claim_order": 2,
+      "claim_title_ko": "asbestos claim waterfall",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2006 Grace Short는 이미 Chapter 11에 있던 회사의 asbestos claim 규모와 emergence dilution/liability가 equity 가치보다 클 수 있고, 영업사업 가치만 보는 시장이 contingent liabilities를 과소평가한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "예상 monetization/liability waterfall이 불리하게 변경",
+      "actual_result_ko": "Grace는 2008년에도 65,656건의 asbestos-related lawsuits와 129,191 personal-injury claims를 공시했지만 Chapter 11 process로 claims를 묶어 해결했다. 2014년 2월 3일 bankruptcy에서 공식적으로 emergence했고, 2021년 Standard Industries가 $70/share cash, 약 $7bn enterprise transaction으로 인수했다. 장기 파국 Short는 실패했다.",
+      "quantitative_gap_ko": "2008 65,656 lawsuits/129,191 PI claims; 2014 emergence",
+      "verdict_ko": "오판",
+      "analytical_error_ko": "법적 claim의 gross 규모와 plan waterfall상 실제 equity burden을 구분하지 못했다.",
+      "reusable_lesson_ko": "bankruptcy equity는 headline liabilities보다 plan waterfall, trust funding, insurance, cash, post-emergence debt와 normalized EV를 동시 모델링한다."
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "claim_order": 3,
+      "claim_title_ko": "cash·insurance recovery",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2006 Grace Short는 이미 Chapter 11에 있던 회사의 asbestos claim 규모와 emergence dilution/liability가 equity 가치보다 클 수 있고, 영업사업 가치만 보는 시장이 contingent liabilities를 과소평가한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "cash burn·funding gap이 예상보다 확대",
+      "actual_result_ko": "Grace는 2008년에도 65,656건의 asbestos-related lawsuits와 129,191 personal-injury claims를 공시했지만 Chapter 11 process로 claims를 묶어 해결했다. 2014년 2월 3일 bankruptcy에서 공식적으로 emergence했고, 2021년 Standard Industries가 $70/share cash, 약 $7bn enterprise transaction으로 인수했다. 장기 파국 Short는 실패했다.",
+      "quantitative_gap_ko": "2008 65,656 lawsuits/129,191 PI claims; 2014 emergence",
+      "verdict_ko": "오판",
+      "analytical_error_ko": "법적 claim의 gross 규모와 plan waterfall상 실제 equity burden을 구분하지 못했다.",
+      "reusable_lesson_ko": "bankruptcy equity는 headline liabilities보다 plan waterfall, trust funding, insurance, cash, post-emergence debt와 normalized EV를 동시 모델링한다."
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "claim_order": 4,
+      "claim_title_ko": "emergence capital structure",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2006 Grace Short는 이미 Chapter 11에 있던 회사의 asbestos claim 규모와 emergence dilution/liability가 equity 가치보다 클 수 있고, 영업사업 가치만 보는 시장이 contingent liabilities를 과소평가한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "자본환원/emergence가 지연되며 dilution 증가",
+      "actual_result_ko": "Grace는 2008년에도 65,656건의 asbestos-related lawsuits와 129,191 personal-injury claims를 공시했지만 Chapter 11 process로 claims를 묶어 해결했다. 2014년 2월 3일 bankruptcy에서 공식적으로 emergence했고, 2021년 Standard Industries가 $70/share cash, 약 $7bn enterprise transaction으로 인수했다. 장기 파국 Short는 실패했다.",
+      "quantitative_gap_ko": "2008 65,656 lawsuits/129,191 PI claims; 2014 emergence",
+      "verdict_ko": "오판",
+      "analytical_error_ko": "법적 claim의 gross 규모와 plan waterfall상 실제 equity burden을 구분하지 못했다.",
+      "reusable_lesson_ko": "bankruptcy equity는 headline liabilities보다 plan waterfall, trust funding, insurance, cash, post-emergence debt와 normalized EV를 동시 모델링한다."
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·IRR",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2006 Grace Short는 이미 Chapter 11에 있던 회사의 asbestos claim 규모와 emergence dilution/liability가 equity 가치보다 클 수 있고, 영업사업 가치만 보는 시장이 contingent liabilities를 과소평가한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "time-discounted expected IRR이 hurdle 미달",
+      "actual_result_ko": "Grace는 2008년에도 65,656건의 asbestos-related lawsuits와 129,191 personal-injury claims를 공시했지만 Chapter 11 process로 claims를 묶어 해결했다. 2014년 2월 3일 bankruptcy에서 공식적으로 emergence했고, 2021년 Standard Industries가 $70/share cash, 약 $7bn enterprise transaction으로 인수했다. 장기 파국 Short는 실패했다.",
+      "quantitative_gap_ko": "2008 65,656 lawsuits/129,191 PI claims; 2014 emergence",
+      "verdict_ko": "오판",
+      "analytical_error_ko": "법적 claim의 gross 규모와 plan waterfall상 실제 equity burden을 구분하지 못했다.",
+      "reusable_lesson_ko": "bankruptcy equity는 headline liabilities보다 plan waterfall, trust funding, insurance, cash, post-emergence debt와 normalized EV를 동시 모델링한다."
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "claim_order": 6,
+      "claim_title_ko": "court/catalyst·반증",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2006 Grace Short는 이미 Chapter 11에 있던 회사의 asbestos claim 규모와 emergence dilution/liability가 equity 가치보다 클 수 있고, 영업사업 가치만 보는 시장이 contingent liabilities를 과소평가한다는 논지로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "governance/court catalyst가 반대로 전개",
+      "actual_result_ko": "Grace는 2008년에도 65,656건의 asbestos-related lawsuits와 129,191 personal-injury claims를 공시했지만 Chapter 11 process로 claims를 묶어 해결했다. 2014년 2월 3일 bankruptcy에서 공식적으로 emergence했고, 2021년 Standard Industries가 $70/share cash, 약 $7bn enterprise transaction으로 인수했다. 장기 파국 Short는 실패했다.",
+      "quantitative_gap_ko": "2008 65,656 lawsuits/129,191 PI claims; 2014 emergence",
+      "verdict_ko": "오판",
+      "analytical_error_ko": "법적 claim의 gross 규모와 plan waterfall상 실제 equity burden을 구분하지 못했다.",
+      "reusable_lesson_ko": "bankruptcy equity는 headline liabilities보다 plan waterfall, trust funding, insurance, cash, post-emergence debt와 normalized EV를 동시 모델링한다."
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "claim_order": 1,
+      "claim_title_ko": "operating business value",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2012 Grace Long은 10년 넘은 Chapter 11이 막바지에 있고, operating businesses와 약 $1.064bn DIP cash가 강한 가운데 asbestos liability가 plan을 통해 정형화되면 legal overhang 해소와 재평가가 가능하다는 event-driven thesis로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "핵심 자산/영업가치가 독립 검증치보다 하락",
+      "actual_result_ko": "2012 10-K에서 DIP cash는 $1.064bn이었다. 법원 confirmation과 appeals 해결 후 Grace는 2014년 2월 3일 Chapter 11에서 나왔다. post-emergence에는 legacy asbestos claims가 PI/PD trust로 channel되었고, 2021 Standard Industries가 $70/share cash에 인수하기로 합의했다.",
+      "quantitative_gap_ko": "2012 DIP cash $1.064bn; 2014 emergence; 2021 $70/share sale",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "bankruptcy equity는 headline liabilities보다 plan waterfall, trust funding, insurance, cash, post-emergence debt와 normalized EV를 동시 모델링한다."
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "claim_order": 2,
+      "claim_title_ko": "asbestos claim waterfall",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2012 Grace Long은 10년 넘은 Chapter 11이 막바지에 있고, operating businesses와 약 $1.064bn DIP cash가 강한 가운데 asbestos liability가 plan을 통해 정형화되면 legal overhang 해소와 재평가가 가능하다는 event-driven thesis로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "예상 monetization/liability waterfall이 불리하게 변경",
+      "actual_result_ko": "2012 10-K에서 DIP cash는 $1.064bn이었다. 법원 confirmation과 appeals 해결 후 Grace는 2014년 2월 3일 Chapter 11에서 나왔다. post-emergence에는 legacy asbestos claims가 PI/PD trust로 channel되었고, 2021 Standard Industries가 $70/share cash에 인수하기로 합의했다.",
+      "quantitative_gap_ko": "2012 DIP cash $1.064bn; 2014 emergence; 2021 $70/share sale",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "bankruptcy equity는 headline liabilities보다 plan waterfall, trust funding, insurance, cash, post-emergence debt와 normalized EV를 동시 모델링한다."
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "claim_order": 3,
+      "claim_title_ko": "cash·insurance recovery",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2012 Grace Long은 10년 넘은 Chapter 11이 막바지에 있고, operating businesses와 약 $1.064bn DIP cash가 강한 가운데 asbestos liability가 plan을 통해 정형화되면 legal overhang 해소와 재평가가 가능하다는 event-driven thesis로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "cash burn·funding gap이 예상보다 확대",
+      "actual_result_ko": "2012 10-K에서 DIP cash는 $1.064bn이었다. 법원 confirmation과 appeals 해결 후 Grace는 2014년 2월 3일 Chapter 11에서 나왔다. post-emergence에는 legacy asbestos claims가 PI/PD trust로 channel되었고, 2021 Standard Industries가 $70/share cash에 인수하기로 합의했다.",
+      "quantitative_gap_ko": "2012 DIP cash $1.064bn; 2014 emergence; 2021 $70/share sale",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "bankruptcy equity는 headline liabilities보다 plan waterfall, trust funding, insurance, cash, post-emergence debt와 normalized EV를 동시 모델링한다."
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "claim_order": 4,
+      "claim_title_ko": "emergence capital structure",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2012 Grace Long은 10년 넘은 Chapter 11이 막바지에 있고, operating businesses와 약 $1.064bn DIP cash가 강한 가운데 asbestos liability가 plan을 통해 정형화되면 legal overhang 해소와 재평가가 가능하다는 event-driven thesis로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "자본환원/emergence가 지연되며 dilution 증가",
+      "actual_result_ko": "2012 10-K에서 DIP cash는 $1.064bn이었다. 법원 confirmation과 appeals 해결 후 Grace는 2014년 2월 3일 Chapter 11에서 나왔다. post-emergence에는 legacy asbestos claims가 PI/PD trust로 channel되었고, 2021 Standard Industries가 $70/share cash에 인수하기로 합의했다.",
+      "quantitative_gap_ko": "2012 DIP cash $1.064bn; 2014 emergence; 2021 $70/share sale",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "bankruptcy equity는 headline liabilities보다 plan waterfall, trust funding, insurance, cash, post-emergence debt와 normalized EV를 동시 모델링한다."
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·IRR",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2012 Grace Long은 10년 넘은 Chapter 11이 막바지에 있고, operating businesses와 약 $1.064bn DIP cash가 강한 가운데 asbestos liability가 plan을 통해 정형화되면 legal overhang 해소와 재평가가 가능하다는 event-driven thesis로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "time-discounted expected IRR이 hurdle 미달",
+      "actual_result_ko": "2012 10-K에서 DIP cash는 $1.064bn이었다. 법원 confirmation과 appeals 해결 후 Grace는 2014년 2월 3일 Chapter 11에서 나왔다. post-emergence에는 legacy asbestos claims가 PI/PD trust로 channel되었고, 2021 Standard Industries가 $70/share cash에 인수하기로 합의했다.",
+      "quantitative_gap_ko": "2012 DIP cash $1.064bn; 2014 emergence; 2021 $70/share sale",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "bankruptcy equity는 headline liabilities보다 plan waterfall, trust funding, insurance, cash, post-emergence debt와 normalized EV를 동시 모델링한다."
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "claim_order": 6,
+      "claim_title_ko": "court/catalyst·반증",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2012 Grace Long은 10년 넘은 Chapter 11이 막바지에 있고, operating businesses와 약 $1.064bn DIP cash가 강한 가운데 asbestos liability가 plan을 통해 정형화되면 legal overhang 해소와 재평가가 가능하다는 event-driven thesis로 재구성된다.",
+      "t0_evidence_ko": "raw VIC direction/date/author와 contemporaneous SEC filings의 asset/legal/capital structure를 교차검증.",
+      "key_assumption_ko": "해당 항목이 accounting value를 realizable equity cash flow로 연결한다.",
+      "ex_ante_falsifier_ko": "governance/court catalyst가 반대로 전개",
+      "actual_result_ko": "2012 10-K에서 DIP cash는 $1.064bn이었다. 법원 confirmation과 appeals 해결 후 Grace는 2014년 2월 3일 Chapter 11에서 나왔다. post-emergence에는 legacy asbestos claims가 PI/PD trust로 channel되었고, 2021 Standard Industries가 $70/share cash에 인수하기로 합의했다.",
+      "quantitative_gap_ko": "2012 DIP cash $1.064bn; 2014 emergence; 2021 $70/share sale",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "reusable_lesson_ko": "bankruptcy equity는 headline liabilities보다 plan waterfall, trust funding, insurance, cash, post-emergence debt와 normalized EV를 동시 모델링한다."
+    }
+  ],
+  "metrics": [
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "metric_order": 1,
+      "metric_name_ko": "water/asset realizable NAV",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2017 UCP monetized; 2022 water portfolio strategic exit",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "metric_order": 2,
+      "metric_name_ko": "asset monetization proceeds",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "UCP $55.3m cash + shares; Vidler ~$291m",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "metric_order": 3,
+      "metric_name_ko": "corporate cash burn",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2017 cost cuts; later water-only simplification",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "metric_order": 4,
+      "metric_name_ko": "capital return / exit",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2022 DHI $15.75/share cash",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "metric_order": 1,
+      "metric_name_ko": "water/asset realizable NAV",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2017 UCP monetized; 2022 water portfolio strategic exit",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "metric_order": 2,
+      "metric_name_ko": "asset monetization proceeds",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "UCP $55.3m cash + shares; Vidler ~$291m",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "metric_order": 3,
+      "metric_name_ko": "corporate cash burn",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2017 cost cuts; later water-only simplification",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "metric_order": 4,
+      "metric_name_ko": "capital return / exit",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2022 DHI $15.75/share cash",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "metric_order": 1,
+      "metric_name_ko": "water/asset realizable NAV",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2017 UCP monetized; 2022 water portfolio strategic exit",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "metric_order": 2,
+      "metric_name_ko": "asset monetization proceeds",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "UCP $55.3m cash + shares; Vidler ~$291m",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "metric_order": 3,
+      "metric_name_ko": "corporate cash burn",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2017 cost cuts; later water-only simplification",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "metric_order": 4,
+      "metric_name_ko": "capital return / exit",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2022 DHI $15.75/share cash",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "metric_order": 1,
+      "metric_name_ko": "water/asset realizable NAV",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2017 UCP monetized; 2022 water portfolio strategic exit",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "metric_order": 2,
+      "metric_name_ko": "asset monetization proceeds",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "UCP $55.3m cash + shares; Vidler ~$291m",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "metric_order": 3,
+      "metric_name_ko": "corporate cash burn",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2017 cost cuts; later water-only simplification",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "metric_order": 4,
+      "metric_name_ko": "capital return / exit",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2022 DHI $15.75/share cash",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "metric_order": 1,
+      "metric_name_ko": "water/asset realizable NAV",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2017 UCP monetized; 2022 water portfolio strategic exit",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "metric_order": 2,
+      "metric_name_ko": "asset monetization proceeds",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "UCP $55.3m cash + shares; Vidler ~$291m",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "metric_order": 3,
+      "metric_name_ko": "corporate cash burn",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2017 cost cuts; later water-only simplification",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "metric_order": 4,
+      "metric_name_ko": "capital return / exit",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2022 DHI $15.75/share cash",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "metric_order": 1,
+      "metric_name_ko": "water/asset realizable NAV",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2017 UCP monetized; 2022 water portfolio strategic exit",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "metric_order": 2,
+      "metric_name_ko": "asset monetization proceeds",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "UCP $55.3m cash + shares; Vidler ~$291m",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "metric_order": 3,
+      "metric_name_ko": "corporate cash burn",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2017 cost cuts; later water-only simplification",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "metric_order": 4,
+      "metric_name_ko": "capital return / exit",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2022 DHI $15.75/share cash",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "metric_order": 1,
+      "metric_name_ko": "water/asset realizable NAV",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2017 UCP monetized; 2022 water portfolio strategic exit",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "metric_order": 2,
+      "metric_name_ko": "asset monetization proceeds",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "UCP $55.3m cash + shares; Vidler ~$291m",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "metric_order": 3,
+      "metric_name_ko": "corporate cash burn",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2017 cost cuts; later water-only simplification",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "metric_order": 4,
+      "metric_name_ko": "capital return / exit",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2022 DHI $15.75/share cash",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "metric_order": 1,
+      "metric_name_ko": "water/asset realizable NAV",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2017 UCP monetized; 2022 water portfolio strategic exit",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "metric_order": 2,
+      "metric_name_ko": "asset monetization proceeds",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "UCP $55.3m cash + shares; Vidler ~$291m",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "metric_order": 3,
+      "metric_name_ko": "corporate cash burn",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2017 cost cuts; later water-only simplification",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "metric_order": 4,
+      "metric_name_ko": "capital return / exit",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2022 DHI $15.75/share cash",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "metric_order": 1,
+      "metric_name_ko": "normalized operating EV",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "specialty chemicals survived/revalued",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "metric_order": 2,
+      "metric_name_ko": "asbestos claim/trust waterfall",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "claims channeled to PI/PD trusts after 2014",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "metric_order": 3,
+      "metric_name_ko": "cash & insurance",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2012 DIP cash $1.064bn; insurance disclosed",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "metric_order": 4,
+      "metric_name_ko": "emergence / strategic exit",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2014 emergence; 2021 $70/share Standard deal",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "metric_order": 1,
+      "metric_name_ko": "normalized operating EV",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "specialty chemicals survived/revalued",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "metric_order": 2,
+      "metric_name_ko": "asbestos claim/trust waterfall",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "claims channeled to PI/PD trusts after 2014",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "metric_order": 3,
+      "metric_name_ko": "cash & insurance",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2012 DIP cash $1.064bn; insurance disclosed",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "metric_order": 4,
+      "metric_name_ko": "emergence / strategic exit",
+      "t0_value_ko": "당시 filing/VIC 기준",
+      "actual_value_ko": "2014 emergence; 2021 $70/share Standard deal",
+      "interpretation_ko": "book/gross value보다 realizable equity cash flow와 시간가치를 검증하는 KPI."
+    }
+  ],
+  "timeline": [
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "event_order": 1,
+      "event_date": "2009-11-29",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "T0 direction"
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "event_order": 2,
+      "event_date": "2009-11-29",
+      "event_ko": "당시 asset/liability 구조 확인",
+      "signal_ko": "base case"
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "event_order": 3,
+      "event_date": "2017-08-04",
+      "event_ko": "2017 UCP monetization",
+      "signal_ko": "첫 핵심 catalyst"
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "event_order": 4,
+      "event_date": "2017-08-04",
+      "event_ko": "UCP merger / asset simplification",
+      "signal_ko": "intermediate update"
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "event_order": 5,
+      "event_date": "2021-12-31",
+      "event_ko": "Vidler-only / strategic option",
+      "signal_ko": "late-stage update"
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "event_order": 6,
+      "event_date": "2022-05-25",
+      "event_ko": "D.R. Horton Vidler acquisition close",
+      "signal_ko": "최종 판정"
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "event_order": 1,
+      "event_date": "2011-01-13",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "T0 direction"
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "event_order": 2,
+      "event_date": "2011-01-13",
+      "event_ko": "당시 asset/liability 구조 확인",
+      "signal_ko": "base case"
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "event_order": 3,
+      "event_date": "2017-08-04",
+      "event_ko": "2017 UCP monetization",
+      "signal_ko": "첫 핵심 catalyst"
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "event_order": 4,
+      "event_date": "2017-08-04",
+      "event_ko": "UCP merger / asset simplification",
+      "signal_ko": "intermediate update"
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "event_order": 5,
+      "event_date": "2021-12-31",
+      "event_ko": "Vidler-only / strategic option",
+      "signal_ko": "late-stage update"
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "event_order": 6,
+      "event_date": "2022-05-25",
+      "event_ko": "D.R. Horton Vidler acquisition close",
+      "signal_ko": "최종 판정"
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "event_order": 1,
+      "event_date": "2013-05-11",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "T0 direction"
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "event_order": 2,
+      "event_date": "2013-05-11",
+      "event_ko": "당시 asset/liability 구조 확인",
+      "signal_ko": "base case"
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "event_order": 3,
+      "event_date": "2017-08-04",
+      "event_ko": "2017 UCP merger close",
+      "signal_ko": "첫 핵심 catalyst"
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "event_order": 4,
+      "event_date": "2017-08-04",
+      "event_ko": "UCP merger / asset simplification",
+      "signal_ko": "intermediate update"
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "event_order": 5,
+      "event_date": "2021-12-31",
+      "event_ko": "Vidler-only / strategic option",
+      "signal_ko": "late-stage update"
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "event_order": 6,
+      "event_date": "2022-05-25",
+      "event_ko": "D.R. Horton Vidler acquisition close",
+      "signal_ko": "최종 판정"
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "event_order": 1,
+      "event_date": "2014-02-04",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "T0 direction"
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "event_order": 2,
+      "event_date": "2014-02-04",
+      "event_ko": "당시 asset/liability 구조 확인",
+      "signal_ko": "base case"
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "event_order": 3,
+      "event_date": "2017-02-01",
+      "event_ko": "2016~17 return-of-capital 정책 명시",
+      "signal_ko": "첫 핵심 catalyst"
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "event_order": 4,
+      "event_date": "2017-08-04",
+      "event_ko": "UCP merger / asset simplification",
+      "signal_ko": "intermediate update"
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "event_order": 5,
+      "event_date": "2021-12-31",
+      "event_ko": "Vidler-only / strategic option",
+      "signal_ko": "late-stage update"
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "event_order": 6,
+      "event_date": "2022-05-25",
+      "event_ko": "D.R. Horton Vidler acquisition close",
+      "signal_ko": "최종 판정"
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "event_order": 1,
+      "event_date": "2015-05-05",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "T0 direction"
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "event_order": 2,
+      "event_date": "2015-05-05",
+      "event_ko": "당시 asset/liability 구조 확인",
+      "signal_ko": "base case"
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "event_order": 3,
+      "event_date": "2015-12-31",
+      "event_ko": "2015 return-of-capital policy",
+      "signal_ko": "첫 핵심 catalyst"
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "event_order": 4,
+      "event_date": "2017-08-04",
+      "event_ko": "UCP merger / asset simplification",
+      "signal_ko": "intermediate update"
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "event_order": 5,
+      "event_date": "2021-12-31",
+      "event_ko": "Vidler-only / strategic option",
+      "signal_ko": "late-stage update"
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "event_order": 6,
+      "event_date": "2022-05-25",
+      "event_ko": "D.R. Horton Vidler acquisition close",
+      "signal_ko": "최종 판정"
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "event_order": 1,
+      "event_date": "2015-11-23",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "T0 direction"
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "event_order": 2,
+      "event_date": "2015-11-23",
+      "event_ko": "당시 asset/liability 구조 확인",
+      "signal_ko": "base case"
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "event_order": 3,
+      "event_date": "2015-12-31",
+      "event_ko": "2015 return-of-capital policy",
+      "signal_ko": "첫 핵심 catalyst"
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "event_order": 4,
+      "event_date": "2017-08-04",
+      "event_ko": "UCP merger / asset simplification",
+      "signal_ko": "intermediate update"
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "event_order": 5,
+      "event_date": "2021-12-31",
+      "event_ko": "Vidler-only / strategic option",
+      "signal_ko": "late-stage update"
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "event_order": 6,
+      "event_date": "2022-05-25",
+      "event_ko": "D.R. Horton Vidler acquisition close",
+      "signal_ko": "최종 판정"
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "event_order": 1,
+      "event_date": "2016-08-15",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "T0 direction"
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "event_order": 2,
+      "event_date": "2016-08-15",
+      "event_ko": "당시 asset/liability 구조 확인",
+      "signal_ko": "base case"
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "event_order": 3,
+      "event_date": "2017-08-04",
+      "event_ko": "2017 UCP sale + cost cuts",
+      "signal_ko": "첫 핵심 catalyst"
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "event_order": 4,
+      "event_date": "2017-08-04",
+      "event_ko": "UCP merger / asset simplification",
+      "signal_ko": "intermediate update"
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "event_order": 5,
+      "event_date": "2021-12-31",
+      "event_ko": "Vidler-only / strategic option",
+      "signal_ko": "late-stage update"
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "event_order": 6,
+      "event_date": "2022-05-25",
+      "event_ko": "D.R. Horton Vidler acquisition close",
+      "signal_ko": "최종 판정"
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "event_order": 1,
+      "event_date": "2018-11-30",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "T0 direction"
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "event_order": 2,
+      "event_date": "2018-11-30",
+      "event_ko": "당시 asset/liability 구조 확인",
+      "signal_ko": "base case"
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "event_order": 3,
+      "event_date": "2022-04-14",
+      "event_ko": "2022 D.R. Horton agreement",
+      "signal_ko": "첫 핵심 catalyst"
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "event_order": 4,
+      "event_date": "2017-08-04",
+      "event_ko": "UCP merger / asset simplification",
+      "signal_ko": "intermediate update"
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "event_order": 5,
+      "event_date": "2021-12-31",
+      "event_ko": "Vidler-only / strategic option",
+      "signal_ko": "late-stage update"
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "event_order": 6,
+      "event_date": "2022-05-25",
+      "event_ko": "D.R. Horton Vidler acquisition close",
+      "signal_ko": "최종 판정"
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "event_order": 1,
+      "event_date": "2006-03-06",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "T0 direction"
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "event_order": 2,
+      "event_date": "2006-03-06",
+      "event_ko": "당시 asset/liability 구조 확인",
+      "signal_ko": "base case"
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "event_order": 3,
+      "event_date": "2012-12-31",
+      "event_ko": "2011~12 plan confirmation / appeals resolution",
+      "signal_ko": "첫 핵심 catalyst"
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "event_order": 4,
+      "event_date": "2017-08-04",
+      "event_ko": "post-emergence operating path",
+      "signal_ko": "intermediate update"
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "event_order": 5,
+      "event_date": "2021-12-31",
+      "event_ko": "Standard Industries $70/share transaction",
+      "signal_ko": "late-stage update"
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "event_order": 6,
+      "event_date": "2022-05-25",
+      "event_ko": "사후 outcome 확인",
+      "signal_ko": "최종 판정"
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "event_order": 1,
+      "event_date": "2012-01-17",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "T0 direction"
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "event_order": 2,
+      "event_date": "2012-01-17",
+      "event_ko": "당시 asset/liability 구조 확인",
+      "signal_ko": "base case"
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "event_order": 3,
+      "event_date": "2014-02-03",
+      "event_ko": "2014 Chapter 11 emergence",
+      "signal_ko": "첫 핵심 catalyst"
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "event_order": 4,
+      "event_date": "2017-08-04",
+      "event_ko": "post-emergence operating path",
+      "signal_ko": "intermediate update"
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "event_order": 5,
+      "event_date": "2021-12-31",
+      "event_ko": "Standard Industries $70/share transaction",
+      "signal_ko": "late-stage update"
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "event_order": 6,
+      "event_date": "2022-05-25",
+      "event_ko": "사후 outcome 확인",
+      "signal_ko": "최종 판정"
+    }
+  ],
+  "sources": [
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "source_order": 1,
+      "source_type": "SEC primary filing",
+      "source_name": "p15",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "source_order": 2,
+      "source_type": "SEC primary filing",
+      "source_name": "p17",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "source_order": 3,
+      "source_type": "SEC primary filing",
+      "source_name": "p17pr",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "source_order": 4,
+      "source_type": "SEC primary filing",
+      "source_name": "p19",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "source_order": 5,
+      "source_type": "SEC primary filing",
+      "source_name": "p21",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "source_order": 6,
+      "source_type": "SEC primary filing",
+      "source_name": "p22",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "source_order": 1,
+      "source_type": "SEC primary filing",
+      "source_name": "p15",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "source_order": 2,
+      "source_type": "SEC primary filing",
+      "source_name": "p17",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "source_order": 3,
+      "source_type": "SEC primary filing",
+      "source_name": "p17pr",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "source_order": 4,
+      "source_type": "SEC primary filing",
+      "source_name": "p19",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "source_order": 5,
+      "source_type": "SEC primary filing",
+      "source_name": "p21",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "source_order": 6,
+      "source_type": "SEC primary filing",
+      "source_name": "p22",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "source_order": 1,
+      "source_type": "SEC primary filing",
+      "source_name": "p15",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "source_order": 2,
+      "source_type": "SEC primary filing",
+      "source_name": "p17",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "source_order": 3,
+      "source_type": "SEC primary filing",
+      "source_name": "p17pr",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "source_order": 4,
+      "source_type": "SEC primary filing",
+      "source_name": "p19",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "source_order": 5,
+      "source_type": "SEC primary filing",
+      "source_name": "p21",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "source_order": 6,
+      "source_type": "SEC primary filing",
+      "source_name": "p22",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "source_order": 1,
+      "source_type": "SEC primary filing",
+      "source_name": "p15",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "source_order": 2,
+      "source_type": "SEC primary filing",
+      "source_name": "p17",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "source_order": 3,
+      "source_type": "SEC primary filing",
+      "source_name": "p17pr",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "source_order": 4,
+      "source_type": "SEC primary filing",
+      "source_name": "p19",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "source_order": 5,
+      "source_type": "SEC primary filing",
+      "source_name": "p21",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "source_order": 6,
+      "source_type": "SEC primary filing",
+      "source_name": "p22",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "source_order": 1,
+      "source_type": "SEC primary filing",
+      "source_name": "p15",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "source_order": 2,
+      "source_type": "SEC primary filing",
+      "source_name": "p17",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "source_order": 3,
+      "source_type": "SEC primary filing",
+      "source_name": "p17pr",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "source_order": 4,
+      "source_type": "SEC primary filing",
+      "source_name": "p19",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "source_order": 5,
+      "source_type": "SEC primary filing",
+      "source_name": "p21",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "source_order": 6,
+      "source_type": "SEC primary filing",
+      "source_name": "p22",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "source_order": 1,
+      "source_type": "SEC primary filing",
+      "source_name": "p15",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "source_order": 2,
+      "source_type": "SEC primary filing",
+      "source_name": "p17",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "source_order": 3,
+      "source_type": "SEC primary filing",
+      "source_name": "p17pr",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "source_order": 4,
+      "source_type": "SEC primary filing",
+      "source_name": "p19",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "source_order": 5,
+      "source_type": "SEC primary filing",
+      "source_name": "p21",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "source_order": 6,
+      "source_type": "SEC primary filing",
+      "source_name": "p22",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "source_order": 1,
+      "source_type": "SEC primary filing",
+      "source_name": "p15",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "source_order": 2,
+      "source_type": "SEC primary filing",
+      "source_name": "p17",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "source_order": 3,
+      "source_type": "SEC primary filing",
+      "source_name": "p17pr",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "source_order": 4,
+      "source_type": "SEC primary filing",
+      "source_name": "p19",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "source_order": 5,
+      "source_type": "SEC primary filing",
+      "source_name": "p21",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "source_order": 6,
+      "source_type": "SEC primary filing",
+      "source_name": "p22",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "source_order": 1,
+      "source_type": "SEC primary filing",
+      "source_name": "p15",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "source_order": 2,
+      "source_type": "SEC primary filing",
+      "source_name": "p17",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "source_order": 3,
+      "source_type": "SEC primary filing",
+      "source_name": "p17pr",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "source_order": 4,
+      "source_type": "SEC primary filing",
+      "source_name": "p19",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "source_order": 5,
+      "source_type": "SEC primary filing",
+      "source_name": "p21",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "source_order": 6,
+      "source_type": "SEC primary filing",
+      "source_name": "p22",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "source_order": 1,
+      "source_type": "SEC primary filing",
+      "source_name": "g08",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000104746908009003/a2187162z10-q.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "source_order": 2,
+      "source_type": "SEC primary filing",
+      "source_name": "g12",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530913000015/gra-20121231x10k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "source_order": 3,
+      "source_type": "SEC primary filing",
+      "source_name": "g14",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530914000057/gra-20141q10xq.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "source_order": 4,
+      "source_type": "SEC primary filing",
+      "source_name": "g18",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530919000025/a201810-k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "source_order": 5,
+      "source_type": "SEC primary filing",
+      "source_name": "g21",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000114036121014196/nc10023607x1_ex99-1.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "source_order": 6,
+      "source_type": "SEC primary filing",
+      "source_name": "g21q",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530921000086/gra-20210630.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "source_order": 1,
+      "source_type": "SEC primary filing",
+      "source_name": "g08",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000104746908009003/a2187162z10-q.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "source_order": 2,
+      "source_type": "SEC primary filing",
+      "source_name": "g12",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530913000015/gra-20121231x10k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "source_order": 3,
+      "source_type": "SEC primary filing",
+      "source_name": "g14",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530914000057/gra-20141q10xq.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "source_order": 4,
+      "source_type": "SEC primary filing",
+      "source_name": "g18",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530919000025/a201810-k.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "source_order": 5,
+      "source_type": "SEC primary filing",
+      "source_name": "g21",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000114036121014196/nc10023607x1_ex99-1.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "source_order": 6,
+      "source_type": "SEC primary filing",
+      "source_name": "g21q",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530921000086/gra-20210630.htm",
+      "source_date": null,
+      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+    }
+  ]
+}
