@@ -1,4 +1,4 @@
-name: Scan finance candidates
+name: Extract corrected Batch 037 finance source
 
 on:
   push:
@@ -10,21 +10,26 @@ permissions:
   contents: write
 
 jobs:
-  scan:
+  extract:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Scan finance tickers
+      - name: Extract CIT CACC ALLY ideas
         shell: bash
         run: |
           set -euo pipefail
           python -m pip install --quiet gdown
           gdown 'https://drive.google.com/uc?id=1XdHbJu35eyJdMoHMyycudDjyCvrEmIBW' -O /tmp/VIC_IDEAS.sql
           python - <<'PY'
-          import pathlib,glob,json,collections
+          import pathlib,glob,json
           def u(v):
               if v==r'\N': return None
-              return v.replace(r'\t','\t').replace(r'\n','\n').replace(r'\\','\\')
+              out=[];i=0
+              while i<len(v):
+                  if v[i]=='\\' and i+1<len(v):
+                      c=v[i+1];out.append({'n':'\n','r':'\r','t':'\t','b':'\b','f':'\f','v':'\v'}.get(c,c));i+=2
+                  else:out.append(v[i]);i+=1
+              return ''.join(out)
           processed=set()
           for fn in glob.glob('data/curated/*.json'):
               n=pathlib.Path(fn).name
@@ -34,28 +39,34 @@ jobs:
               for key in ('ideas_master','postmortems'):
                   for x in d.get(key,[]):
                       if x.get('idea_id'):processed.add(str(x['idea_id']))
-          wanted=set('CIT CACC SC OMF ALLY COF DFS SYF AXP NAVI SLM ENVA PRAA ECPG FCFS EZPW TREE LC UPST SOFI AFRM GDOT PYPL COF Discover DFS SYF'.split())
-          rows=collections.defaultdict(list);cur=None
+          companies={};users={};ideas=[];desc={};cats={};cur=None
           with open('/tmp/VIC_IDEAS.sql',encoding='utf-8',errors='replace') as f:
               for line in f:
                   if line.startswith('COPY public.'):
                       cur=line.split('COPY public.',1)[1].split(' ',1)[0];continue
                   if cur and line.rstrip('\n')==r'\.':cur=None;continue
-                  if cur!='ideas':continue
+                  if not cur:continue
                   v=[u(x) for x in line.rstrip('\n').split('\t')]
-                  if len(v)>=7 and v[0] not in processed and v[2] in wanted:
-                      rows[v[2]].append({'idea_id':v[0],'date':v[4],'is_short':v[5]=='t','source_link':v[1]})
-          out=[]
-          for t,rs in rows.items():
-              rs.sort(key=lambda x:(x['date'] or '',x['idea_id']))
-              out.append({'ticker':t,'count':len(rs),'shorts':sum(x['is_short'] for x in rs),'longs':sum(not x['is_short'] for x in rs),'ideas':rs})
-          out.sort(key=lambda x:(-x['count'],x['ticker']))
-          pathlib.Path('data/curated/finance_candidate_census.json').write_text(json.dumps({'processed_count':len(processed),'candidates':out},ensure_ascii=False,indent=2),encoding='utf-8')
+                  if cur=='companies' and len(v)>=2:companies[v[0]]=v[1]
+                  elif cur=='users' and len(v)>=2:users[v[0]]=v[1]
+                  elif cur=='ideas' and len(v)>=7:ideas.append({'idea_id':v[0],'source_link':v[1],'ticker':v[2],'user_link':v[3],'date':v[4],'is_short':v[5]=='t','contest_winner':v[6]=='t'})
+                  elif cur=='descriptions' and len(v)>=2:desc[v[0]]=v[1] or ''
+                  elif cur=='catalyst' and len(v)>=2:cats[v[0]]=v[1] or ''
+          by={t:sorted([r for r in ideas if r['ticker']==t and r['idea_id'] not in processed],key=lambda x:(x['date'] or '',x['idea_id'])) for t in ('CIT','CACC','ALLY')}
+          selected=by['CIT'][:4]+by['CACC'][:5]+by['ALLY'][:1]
+          assert len(by['CIT'])==4 and len(by['CACC'])==5 and len(selected)==10
+          outdir=pathlib.Path('data/source_batch037_finance');outdir.mkdir(parents=True,exist_ok=True)
+          manifest=[]
+          for i,r in enumerate(selected,1):
+              r=dict(r);r['company_name']=companies.get(r['ticker']);r['author']=users.get(r['user_link']);r['raw_direction_ko']='숏' if r['is_short'] else '롱';r['description_chars']=len(desc.get(r['idea_id'],''));r['catalyst_chars']=len(cats.get(r['idea_id'],''));manifest.append(r)
+              text=(f"# {i}. {r['ticker']} — {r['date']} — raw {r['raw_direction_ko']} — {r['author']}\n\nidea_id: {r['idea_id']}\nsource: {r['source_link']}\ncompany_lookup: {r['company_name']}\nraw_is_short: {r['is_short']}\ncontest_winner: {r['contest_winner']}\n\n## Description\n\n{desc.get(r['idea_id'],'')}\n\n## Catalyst\n\n{cats.get(r['idea_id'],'')}\n")
+              (outdir/f"{i:02d}_{r['ticker']}_{r['idea_id']}.md").write_text(text,encoding='utf-8')
+          pathlib.Path('data/curated/source_batch037_finance_manifest.json').write_text(json.dumps({'batch':'037','selection_rule':'all 4 remaining CIT + all 5 unreviewed CACC + earliest 1 unreviewed ALLY; provisional ATH packet rejected due ticker/entity collision','ideas':manifest},ensure_ascii=False,indent=2),encoding='utf-8')
           PY
-      - name: Commit scan
+      - name: Commit corrected packet
         run: |
           git config user.name 'VIC metadata bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add data/curated/finance_candidate_census.json
-          git commit -m 'chore: scan finance candidates' || exit 0
+          git add data/source_batch037_finance data/curated/source_batch037_finance_manifest.json
+          git commit -m 'chore: add corrected Batch 037 finance source packet' || exit 0
           git push
