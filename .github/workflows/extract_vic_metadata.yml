@@ -16,53 +16,29 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
-      - name: Restore SQLite and extract unreviewed metadata
+      - name: Download public full VIC SQL and inspect COPY schema
         shell: bash
         run: |
           set -euo pipefail
-          cat data/processed/vic_dashboard.db.gz.part* > /tmp/vic_dashboard.db.gz
-          gzip -dc /tmp/vic_dashboard.db.gz > /tmp/vic_dashboard.db
+          python -m pip install --quiet gdown
+          gdown 'https://drive.google.com/uc?id=1XdHbJu35eyJdMoHMyycudDjyCvrEmIBW' -O /tmp/VIC_IDEAS.sql
           python - <<'PY'
-          import sqlite3, json, pathlib, glob
-          con=sqlite3.connect('/tmp/vic_dashboard.db')
-          con.row_factory=sqlite3.Row
-          cols=[r['name'] for r in con.execute("pragma table_info('ideas_master')")]
-          processed=set()
-          # All dedicated curated JSONs, including legacy 001-007 filenames without batch_ prefix.
-          for fn in glob.glob('data/curated/*.json'):
-              name=pathlib.Path(fn).name
-              if name in {'all_reviewed_v8_index.json','source_schema_probe.json','source_next_unreviewed.json'}:
-                  continue
-              try:
-                  d=json.load(open(fn,encoding='utf-8'))
-              except Exception:
-                  continue
-              for key in ('ideas_master','postmortems'):
-                  for x in d.get(key,[]):
-                      if x.get('idea_id'): processed.add(str(x['idea_id']))
-          rows=[dict(r) for r in con.execute('select * from ideas_master')]
-          un=[r for r in rows if str(r.get('idea_id')) not in processed]
-          def norm(r):
-              return str(r.get('ticker') or '').strip(), str(r.get('company_name') or '').strip()
-          counts={}
-          for r in un: counts[norm(r)]=counts.get(norm(r),0)+1
-          un.sort(key=lambda r:(-counts[norm(r)], norm(r)[0], norm(r)[1], str(r.get('date') or ''), str(r.get('idea_id') or '')))
-          keep_cols=[c for c in ['idea_id','date','year','ticker','company_name','author','direction_ko','is_short','contest_winner','source_link','description_chars','catalyst_chars','performance_available','perf_1y','perf_3y','perf_5y','idea_return_1y','idea_return_3y','idea_return_5y'] if c in cols]
-          slim=[{c:r.get(c) for c in keep_cols} for r in un[:120]]
-          groups=[]; seen=set()
-          for r in un:
-              k=norm(r)
-              if k in seen: continue
-              seen.add(k)
-              groups.append({'ticker':k[0],'company_name':k[1],'remaining_count':counts[k]})
-          out={'ideas_master_columns':cols,'processed_count':len(processed),'source_count':len(rows),'unreviewed_count':len(un),'top_groups':groups[:50],'next_candidates':slim}
-          pathlib.Path('data/curated/source_next_unreviewed.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
+          import pathlib, re, json, os
+          p=pathlib.Path('/tmp/VIC_IDEAS.sql')
+          headers=[]
+          sample=[]
+          with p.open('r',encoding='utf-8',errors='replace') as f:
+              for i,line in enumerate(f):
+                  if line.startswith('COPY '): headers.append(line.rstrip())
+                  if i<80: sample.append(line.rstrip())
+          out={'bytes':p.stat().st_size,'copy_headers':headers,'first_80_lines':sample}
+          pathlib.Path('data/curated/source_full_sql_probe.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
           PY
-      - name: Commit extract
+      - name: Commit probe
         shell: bash
         run: |
           git config user.name 'VIC metadata bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add data/curated/source_next_unreviewed.json
-          git commit -m 'chore: refresh exact unreviewed VIC metadata' || exit 0
+          git add data/curated/source_full_sql_probe.json
+          git commit -m 'chore: probe full VIC SQL source' || exit 0
           git push
