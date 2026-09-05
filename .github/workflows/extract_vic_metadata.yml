@@ -28,7 +28,11 @@ jobs:
           con.row_factory=sqlite3.Row
           cols=[r['name'] for r in con.execute("pragma table_info('ideas_master')")]
           processed=set()
-          for fn in glob.glob('data/curated/batch_*_deep_v7.json'):
+          # All dedicated curated JSONs, including legacy 001-007 filenames without batch_ prefix.
+          for fn in glob.glob('data/curated/*.json'):
+              name=pathlib.Path(fn).name
+              if name in {'all_reviewed_v8_index.json','source_schema_probe.json','source_next_unreviewed.json'}:
+                  continue
               try:
                   d=json.load(open(fn,encoding='utf-8'))
               except Exception:
@@ -38,16 +42,14 @@ jobs:
                       if x.get('idea_id'): processed.add(str(x['idea_id']))
           rows=[dict(r) for r in con.execute('select * from ideas_master')]
           un=[r for r in rows if str(r.get('idea_id')) not in processed]
-          # Prefer coherent company/ticker blocks with multiple remaining ideas.
           def norm(r):
-              return str(r.get('ticker') or ''), str(r.get('company_name') or '')
+              return str(r.get('ticker') or '').strip(), str(r.get('company_name') or '').strip()
           counts={}
           for r in un: counts[norm(r)]=counts.get(norm(r),0)+1
-          un.sort(key=lambda r:(-counts[norm(r)], str(r.get('ticker') or ''), str(r.get('company_name') or ''), str(r.get('date') or ''), str(r.get('idea_id') or '')))
+          un.sort(key=lambda r:(-counts[norm(r)], norm(r)[0], norm(r)[1], str(r.get('date') or ''), str(r.get('idea_id') or '')))
           keep_cols=[c for c in ['idea_id','date','year','ticker','company_name','author','direction_ko','is_short','contest_winner','source_link','description_chars','catalyst_chars','performance_available','perf_1y','perf_3y','perf_5y','idea_return_1y','idea_return_3y','idea_return_5y'] if c in cols]
           slim=[{c:r.get(c) for c in keep_cols} for r in un[:120]]
-          groups=[]
-          seen=set()
+          groups=[]; seen=set()
           for r in un:
               k=norm(r)
               if k in seen: continue
@@ -62,5 +64,5 @@ jobs:
           git config user.name 'VIC metadata bot'
           git config user.email 'actions@users.noreply.github.com'
           git add data/curated/source_next_unreviewed.json
-          git commit -m 'chore: extract next unreviewed VIC metadata' || exit 0
+          git commit -m 'chore: refresh exact unreviewed VIC metadata' || exit 0
           git push
