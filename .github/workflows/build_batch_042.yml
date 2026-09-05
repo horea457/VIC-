@@ -14,18 +14,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Inspect payload boundaries
+      - name: Compare payload fragments
         shell: bash
         run: |
           python - <<'PY'
           from pathlib import Path
-          ns=['1','2','3','3a','4','4a','4b','4c','5']
+          ns=['3','3a','4','4a','4b','4c']
           c={n:Path(f'.github/batch042_payload_{n}.txt').read_text().strip() for n in ns}
-          def ov(a,b):
-              m=min(len(a),len(b),1000)
-              for k in range(m,0,-1):
-                  if a[-k:]==b[:k]: return k
-              return 0
-          for x,y in [('1','2'),('2','3a'),('3a','4a'),('4a','4b'),('4b','4c'),('4c','5'),('3a','4'),('3','4'),('4','5')]:
-              print(x,y,'overlap',ov(c[x],c[y]),'tail',c[x][-80:],'head',c[y][:80])
+          for a in ns:
+            for b in ns:
+              if a==b: continue
+              pos=c[a].find(c[b])
+              if pos>=0: print('CONTAINS',a,b,pos,len(c[b]))
+          for a,b in [('4a','4b'),('4b','4a'),('3a','4a'),('3a','4b'),('3a','4c')]:
+            best=(0,None,None)
+            A,B=c[a],c[b]
+            for k in range(32,min(len(A),len(B),3000)+1):
+              p=B.find(A[-k:])
+              if p>=0 and k>best[0]: best=(k,len(A)-k,p)
+            print('suffix-anywhere',a,b,best)
+          print('4a==4?',c['4a']==c['4'])
+          print('4b==4?',c['4b']==c['4'])
+          print('4c==3?',c['4c']==c['3'])
+          print('3==4?',c['3']==c['4'])
           PY
