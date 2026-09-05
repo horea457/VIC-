@@ -1,0 +1,453 @@
+{
+  "processed_count": 409,
+  "candidates": [
+    {
+      "ticker": "ALLY",
+      "count": 5,
+      "shorts": 0,
+      "longs": 5,
+      "ideas": [
+        {
+          "idea_id": "722a2dbe-b1b8-4a92-bf4b-c4ef3fd1984a",
+          "date": "2016-08-08 10:52:00",
+          "is_short": false,
+          "source_link": null
+        },
+        {
+          "idea_id": "c98a3320-5395-4fe1-a5ac-d11edcabe7a4",
+          "date": "2017-07-19 04:17:00",
+          "is_short": false,
+          "source_link": null
+        },
+        {
+          "idea_id": "2f051cb0-b8ac-49a5-b69f-364df496af64",
+          "date": "2018-12-27 21:26:00",
+          "is_short": false,
+          "source_link": null
+        },
+        {
+          "idea_id": "d3f787c3-bd85-4743-a82d-b1f3ec6fc8a4",
+          "date": "2020-04-30 13:57:00",
+          "is_short": false,
+          "source_link": "https://www.valueinvestorsclub.com/idea/ALLY_FINANCIAL_INC/1698671567"
+        },
+        {
+          "idea_id": "65d0fd15-2264-4ec5-b022-6bb61fa97ad6",
+          "date": "2022-08-31 22:47:00",
+          "is_short": false,
+          "source_link": null
+        }
+      ]
+    },
+    {
+      "ticker": "CACC",
+      "count": 5,
+      "shorts": 3,
+      "longs": 2,
+      "ideas": [
+        {
+          "idea_id": "3d1b9872-1525-4301-be18-0d6efd9f7e4a",
+          "date": "2010-07-19 10:55:00",
+          "is_short": false,
+          "source_link": "https://www.valueinvestorsclub.com/idea/CREDIT_ACCEPTANCE_CORP/8822560824"
+        },
+        {
+          "idea_id": "c9df38c3-bceb-40cd-8864-36ed473fa690",
+          "date": "2011-11-21 22:20:00",
+          "is_short": true,
+          "source_link": null
+        },
+        {
+          "idea_id": "2847ee58-17dd-44cd-a31b-3f631bcc725f",
+          "date": "2016-01-14 12:54:00",
+          "is_short": false,
+          "source_link": "https://www.valueinvestorsclub.com/idea/CREDIT_ACCEPTANCE_CORP/6093919628"
+        },
+        {
+          "idea_id": "fb10159b-b84d-4f28-8e37-220505b7b823",
+          "date": "2017-03-10 16:40:00",
+          "is_short": true,
+          "source_link": null
+        },
+        {
+          "idea_id": "f7929097-4b11-46c8-abf7-68a594805f7f",
+          "date": "2020-02-06 18:55:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/CREDIT_ACCEPTANCE_CORP/0045401276"
+        }
+      ]
+    },
+    {
+      "ticker": "SLM",
+      "count": 5,
+      "shorts": 5,
+      "longs": 0,
+      "ideas": [
+        {
+          "idea_id": "9ffdcd4a-091d-4ccb-89fb-1563f189d9fa",
+          "date": "2007-12-21 16:22:00",
+          "is_short": true,
+          "source_link": null
+        },
+        {
+          "idea_id": "aa4769de-70b7-4d4b-8879-7f0dd0cb7679",
+          "date": "2010-10-28 14:28:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/SLM_CORP/8111981850"
+        },
+        {
+          "idea_id": "6d6bf07d-7196-4e08-9b60-23b9d6592a30",
+          "date": "2011-11-28 19:28:00",
+          "is_short": true,
+          "source_link": null
+        },
+        {
+          "idea_id": "2d4078b1-dcce-4737-b176-628b91a6d79b",
+          "date": "2019-12-11 10:42:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/SLM_CORP/6361605760"
+        },
+        {
+          "idea_id": "492b4074-1847-4b99-a5e1-7fecfbe87a06",
+          "date": "2020-09-14 12:11:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/SLM_CORP/3149102641"
+        }
+      ]
+    },
+    {
+      "ticker": "CIT",
+      "count": 4,
+      "shorts": 4,
+      "longs": 0,
+      "ideas": [
+        {
+          "idea_id": "f2dc229e-52b4-4b56-ae6b-ca21f91e3415",
+          "date": "2009-07-28 17:14:00",
+          "is_short": true,
+          "source_link": null
+        },
+        {
+          "idea_id": "bbce234a-0f82-416d-bfcc-e20ceae4c326",
+          "date": "2011-10-04 09:53:00",
+          "is_short": true,
+          "source_link": null
+        },
+        {
+          "idea_id": "a8bb036d-28b6-443d-98d7-59f02969dc49",
+          "date": "2016-03-03 14:43:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/CIT_GROUP_INC/5340770392"
+        },
+        {
+          "idea_id": "09a5b37a-fc76-4352-83c4-4f5852b0ce1e",
+          "date": "2020-10-19 15:57:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/CIT_GROUP_INC/4146606402"
+        }
+      ]
+    },
+    {
+      "ticker": "GDOT",
+      "count": 4,
+      "shorts": 4,
+      "longs": 0,
+      "ideas": [
+        {
+          "idea_id": "94eafba8-517e-4646-9b27-8a1652460b62",
+          "date": "2010-09-21 16:44:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/GREEN_DOT_CORP/3223937963"
+        },
+        {
+          "idea_id": "22c11c08-4fc0-4782-931d-cf06d27b1391",
+          "date": "2014-09-26 16:00:00",
+          "is_short": true,
+          "source_link": null
+        },
+        {
+          "idea_id": "16883422-a250-444c-abd9-1616378d453f",
+          "date": "2019-12-06 11:37:00",
+          "is_short": true,
+          "source_link": null
+        },
+        {
+          "idea_id": "d5a1dbcd-1544-4326-b106-e7869d8f2745",
+          "date": "2021-12-22 00:15:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/GREEN_DOT_CORP/5840281874"
+        }
+      ]
+    },
+    {
+      "ticker": "LC",
+      "count": 4,
+      "shorts": 3,
+      "longs": 1,
+      "ideas": [
+        {
+          "idea_id": "6c4201bf-e0bc-4a04-bbb0-bbea75681d4d",
+          "date": "2014-12-22 11:45:00",
+          "is_short": true,
+          "source_link": null
+        },
+        {
+          "idea_id": "b9a5fe3f-aa7c-4e6f-9175-0d445adbf365",
+          "date": "2016-02-11 08:33:00",
+          "is_short": false,
+          "source_link": "https://www.valueinvestorsclub.com/idea/LENDINGCLUB_CORP/9733504596"
+        },
+        {
+          "idea_id": "da8a4018-e20a-4d48-89c9-b7d008060cb4",
+          "date": "2019-07-04 15:56:00",
+          "is_short": true,
+          "source_link": null
+        },
+        {
+          "idea_id": "acdf1e6e-1802-40b4-8080-6028a5436349",
+          "date": "2022-08-21 20:45:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/LENDINGCLUB_CORP/0618548409"
+        }
+      ]
+    },
+    {
+      "ticker": "SYF",
+      "count": 4,
+      "shorts": 3,
+      "longs": 1,
+      "ideas": [
+        {
+          "idea_id": "de0d6380-354e-4bc7-97b1-b2e15f2ce8b4",
+          "date": "2015-12-11 11:32:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/SYNCHRONY_FINANCIAL/9371582101"
+        },
+        {
+          "idea_id": "1a1647d4-0632-402b-898e-b960dc06a160",
+          "date": "2017-05-11 16:02:00",
+          "is_short": true,
+          "source_link": null
+        },
+        {
+          "idea_id": "79b9bf71-d885-4334-ab40-31cddfff217b",
+          "date": "2020-07-13 15:35:00",
+          "is_short": false,
+          "source_link": "https://www.valueinvestorsclub.com/idea/SYNCHRONY_FINANCIAL/2721984069"
+        },
+        {
+          "idea_id": "8de0efc1-5284-41a5-b1f0-7158eeedd27e",
+          "date": "2022-03-16 17:27:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/SYNCHRONY_FINANCIAL/6940019955"
+        }
+      ]
+    },
+    {
+      "ticker": "TREE",
+      "count": 4,
+      "shorts": 4,
+      "longs": 0,
+      "ideas": [
+        {
+          "idea_id": "b2ac3365-7976-4c9c-8c43-f00fad8d4a54",
+          "date": "2002-10-27 01:56:00",
+          "is_short": true,
+          "source_link": null
+        },
+        {
+          "idea_id": "a7549462-0072-405d-b8a4-91655debcf29",
+          "date": "2012-06-18 14:45:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/TREE.COM_INC/4434756446"
+        },
+        {
+          "idea_id": "481297fe-bc2e-4fa2-9168-f568d7b792e5",
+          "date": "2015-01-12 09:51:00",
+          "is_short": true,
+          "source_link": null
+        },
+        {
+          "idea_id": "342ee871-0bb6-4d6e-8e85-ba5b6a42843c",
+          "date": "2021-07-27 15:02:00",
+          "is_short": true,
+          "source_link": null
+        }
+      ]
+    },
+    {
+      "ticker": "DFS",
+      "count": 3,
+      "shorts": 0,
+      "longs": 3,
+      "ideas": [
+        {
+          "idea_id": "1a60c314-22d5-43fd-a859-f9d7bb223a00",
+          "date": "2014-07-15 14:29:00",
+          "is_short": false,
+          "source_link": null
+        },
+        {
+          "idea_id": "395f7c5d-414e-4024-9cf0-99c978f97d7e",
+          "date": "2016-06-25 01:47:00",
+          "is_short": false,
+          "source_link": "https://www.valueinvestorsclub.com/idea/DISCOVER_FINANCIAL_SVCS_INC/0588550573"
+        },
+        {
+          "idea_id": "74a01fca-9d6a-4a45-a599-e6e94a81e225",
+          "date": "2018-01-23 21:32:00",
+          "is_short": false,
+          "source_link": "https://www.valueinvestorsclub.com/idea/DISCOVER_FINANCIAL_SVCS_DFS/3775766435"
+        }
+      ]
+    },
+    {
+      "ticker": "ECPG",
+      "count": 3,
+      "shorts": 3,
+      "longs": 0,
+      "ideas": [
+        {
+          "idea_id": "3ec69aa1-1c90-46db-830b-fb31cb69995a",
+          "date": "2006-06-07 11:07:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/Encore_Capital/3971407275"
+        },
+        {
+          "idea_id": "96752ada-acbc-4db7-971b-98c6a1a79f32",
+          "date": "2012-07-25 21:23:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/ENCORE_CAPITAL_GROUP_INC/7319650283"
+        },
+        {
+          "idea_id": "dfe470df-9aa6-40cc-83f1-5ece35ffcbc3",
+          "date": "2016-07-21 11:50:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/ENCORE_CAPITAL_GROUP_INC/7786879880"
+        }
+      ]
+    },
+    {
+      "ticker": "ENVA",
+      "count": 3,
+      "shorts": 3,
+      "longs": 0,
+      "ideas": [
+        {
+          "idea_id": "185a0f6c-59c0-4a89-9b8d-30cea61c108f",
+          "date": "2016-02-24 21:15:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/ENOVA_INTERNATIONAL_INC/6153981332"
+        },
+        {
+          "idea_id": "5e1ded99-fe61-4f2d-9d47-d9d30e54b3de",
+          "date": "2017-07-28 10:57:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/ENOVA_INTERNATIONAL_INC/0665323993"
+        },
+        {
+          "idea_id": "803a03df-2668-4797-bcc2-c44af962d4bd",
+          "date": "2022-08-28 19:47:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/ENOVA_INTERNATIONAL_INC/4131210436"
+        }
+      ]
+    },
+    {
+      "ticker": "FCFS",
+      "count": 2,
+      "shorts": 2,
+      "longs": 0,
+      "ideas": [
+        {
+          "idea_id": "a12b69ca-f863-42bd-86e3-6b7ab984ddc8",
+          "date": "2020-08-13 18:35:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/FIRSTCASH_INC/6537426338"
+        },
+        {
+          "idea_id": "794cf00d-dfa2-4409-9474-1dfb205ecb24",
+          "date": "2021-03-16 14:30:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/FIRSTCASH_INC/0482322737"
+        }
+      ]
+    },
+    {
+      "ticker": "PRAA",
+      "count": 2,
+      "shorts": 2,
+      "longs": 0,
+      "ideas": [
+        {
+          "idea_id": "2f029cd7-f70e-4f11-a28b-05c11495e40e",
+          "date": "2013-06-28 13:03:00",
+          "is_short": true,
+          "source_link": null
+        },
+        {
+          "idea_id": "4d98ffb2-18e2-460e-88e4-4b771a69e2d3",
+          "date": "2017-10-27 16:36:00",
+          "is_short": true,
+          "source_link": null
+        }
+      ]
+    },
+    {
+      "ticker": "AFRM",
+      "count": 1,
+      "shorts": 1,
+      "longs": 0,
+      "ideas": [
+        {
+          "idea_id": "b35657a5-2f7a-46d2-9ba6-fce1d64f5466",
+          "date": "2021-02-08 16:11:00",
+          "is_short": true,
+          "source_link": null
+        }
+      ]
+    },
+    {
+      "ticker": "COF",
+      "count": 1,
+      "shorts": 1,
+      "longs": 0,
+      "ideas": [
+        {
+          "idea_id": "e180c337-20af-49a3-90d7-2724e9239c67",
+          "date": "2013-09-11 17:50:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/CAPITAL_ONE_FINANCIAL_CORP/4736428711"
+        }
+      ]
+    },
+    {
+      "ticker": "NAVI",
+      "count": 1,
+      "shorts": 1,
+      "longs": 0,
+      "ideas": [
+        {
+          "idea_id": "939b2b04-562c-421b-af97-7dbbfae9f082",
+          "date": "2014-09-26 15:44:00",
+          "is_short": true,
+          "source_link": "https://www.valueinvestorsclub.com/idea/NAVIENT_CORP/5043473340"
+        }
+      ]
+    },
+    {
+      "ticker": "OMF",
+      "count": 1,
+      "shorts": 0,
+      "longs": 1,
+      "ideas": [
+        {
+          "idea_id": "733489df-7ebf-4149-959f-1e4c334c21ba",
+          "date": "2016-11-01 10:25:00",
+          "is_short": false,
+          "source_link": "https://www.valueinvestorsclub.com/idea/One_Main/6831939236"
+        }
+      ]
+    }
+  ]
+}
