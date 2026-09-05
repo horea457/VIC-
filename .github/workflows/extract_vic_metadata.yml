@@ -16,29 +16,51 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
-      - name: Restore SQLite and inspect source metadata
+      - name: Restore SQLite and extract unreviewed metadata
         shell: bash
         run: |
           set -euo pipefail
           cat data/processed/vic_dashboard.db.gz.part* > /tmp/vic_dashboard.db.gz
           gzip -dc /tmp/vic_dashboard.db.gz > /tmp/vic_dashboard.db
           python - <<'PY'
-          import sqlite3, json, pathlib
-          db='/tmp/vic_dashboard.db'
-          con=sqlite3.connect(db)
+          import sqlite3, json, pathlib, glob
+          con=sqlite3.connect('/tmp/vic_dashboard.db')
           con.row_factory=sqlite3.Row
-          tables=[r[0] for r in con.execute("select name from sqlite_master where type='table' order by name")]
-          schema={}
-          for t in tables:
-              schema[t]=[dict(r) for r in con.execute(f"pragma table_info('{t}')")]
-          out={'tables':tables,'schema':schema}
-          pathlib.Path('data/curated/source_schema_probe.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
+          cols=[r['name'] for r in con.execute("pragma table_info('ideas_master')")]
+          processed=set()
+          for fn in glob.glob('data/curated/batch_*_deep_v7.json'):
+              try:
+                  d=json.load(open(fn,encoding='utf-8'))
+              except Exception:
+                  continue
+              for key in ('ideas_master','postmortems'):
+                  for x in d.get(key,[]):
+                      if x.get('idea_id'): processed.add(str(x['idea_id']))
+          rows=[dict(r) for r in con.execute('select * from ideas_master')]
+          un=[r for r in rows if str(r.get('idea_id')) not in processed]
+          # Prefer coherent company/ticker blocks with multiple remaining ideas.
+          def norm(r):
+              return str(r.get('ticker') or ''), str(r.get('company_name') or '')
+          counts={}
+          for r in un: counts[norm(r)]=counts.get(norm(r),0)+1
+          un.sort(key=lambda r:(-counts[norm(r)], str(r.get('ticker') or ''), str(r.get('company_name') or ''), str(r.get('date') or ''), str(r.get('idea_id') or '')))
+          keep_cols=[c for c in ['idea_id','date','year','ticker','company_name','author','direction_ko','is_short','contest_winner','source_link','description_chars','catalyst_chars','performance_available','perf_1y','perf_3y','perf_5y','idea_return_1y','idea_return_3y','idea_return_5y'] if c in cols]
+          slim=[{c:r.get(c) for c in keep_cols} for r in un[:120]]
+          groups=[]
+          seen=set()
+          for r in un:
+              k=norm(r)
+              if k in seen: continue
+              seen.add(k)
+              groups.append({'ticker':k[0],'company_name':k[1],'remaining_count':counts[k]})
+          out={'ideas_master_columns':cols,'processed_count':len(processed),'source_count':len(rows),'unreviewed_count':len(un),'top_groups':groups[:50],'next_candidates':slim}
+          pathlib.Path('data/curated/source_next_unreviewed.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
           PY
-      - name: Commit probe
+      - name: Commit extract
         shell: bash
         run: |
           git config user.name 'VIC metadata bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add data/curated/source_schema_probe.json
-          git commit -m 'chore: probe VIC source schema' || exit 0
+          git add data/curated/source_next_unreviewed.json
+          git commit -m 'chore: extract next unreviewed VIC metadata' || exit 0
           git push
