@@ -1,4 +1,4 @@
-name: Census next VIC ideas
+name: Extract Batch 036 source
 
 on:
   push:
@@ -10,60 +10,65 @@ permissions:
   contents: write
 
 jobs:
-  census:
+  extract:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Build unreviewed census
+      - name: Extract ADS and CIT ideas
         shell: bash
         run: |
           set -euo pipefail
           python -m pip install --quiet gdown
           gdown 'https://drive.google.com/uc?id=1XdHbJu35eyJdMoHMyycudDjyCvrEmIBW' -O /tmp/VIC_IDEAS.sql
           python - <<'PY'
-          import pathlib,glob,json,collections
+          import pathlib,glob,json
           def u(v):
               if v==r'\N': return None
               out=[];i=0
               while i<len(v):
                   if v[i]=='\\' and i+1<len(v):
                       c=v[i+1];out.append({'n':'\n','r':'\r','t':'\t','b':'\b','f':'\f','v':'\v'}.get(c,c));i+=2
-                  else: out.append(v[i]);i+=1
+                  else:out.append(v[i]);i+=1
               return ''.join(out)
           processed=set()
           for fn in glob.glob('data/curated/*.json'):
               n=pathlib.Path(fn).name
-              if n.startswith('source_') or n=='all_reviewed_v8_index.json': continue
+              if n.startswith('source_') or n=='all_reviewed_v8_index.json' or n=='next_unreviewed_census.json':continue
               try:d=json.load(open(fn,encoding='utf-8'))
               except:continue
               for key in ('ideas_master','postmortems'):
                   for x in d.get(key,[]):
-                      if x.get('idea_id'): processed.add(str(x['idea_id']))
-          ideas=[];cur=None
+                      if x.get('idea_id'):processed.add(str(x['idea_id']))
+          companies={};users={};ideas=[];desc={};cats={};perf={};cur=None
           with open('/tmp/VIC_IDEAS.sql',encoding='utf-8',errors='replace') as f:
               for line in f:
                   if line.startswith('COPY public.'):
                       cur=line.split('COPY public.',1)[1].split(' ',1)[0];continue
                   if cur and line.rstrip('\n')==r'\.':cur=None;continue
-                  if cur!='ideas':continue
+                  if not cur:continue
                   v=[u(x) for x in line.rstrip('\n').split('\t')]
-                  if len(v)>=7 and v[0] not in processed:
-                      ideas.append({'idea_id':v[0],'source_link':v[1],'ticker':v[2],'user_link':v[3],'date':v[4],'is_short':v[5]=='t','contest_winner':v[6]=='t'})
-          by=collections.defaultdict(list)
-          for r in ideas: by[r['ticker']].append(r)
-          rows=[]
-          for t,rs in by.items():
-              rs.sort(key=lambda x:(x['date'] or '',x['idea_id']))
-              rows.append({'ticker':t,'count':len(rs),'earliest':rs[0]['date'],'latest':rs[-1]['date'],'sample_ids':[x['idea_id'] for x in rs[:12]],'shorts':sum(x['is_short'] for x in rs),'longs':sum(not x['is_short'] for x in rs)})
-          rows.sort(key=lambda x:(-x['count'],x['ticker'] or ''))
-          out={'processed_count':len(processed),'unreviewed_count':len(ideas),'ticker_count':len(rows),'top_tickers':rows[:120]}
-          pathlib.Path('data/curated/next_unreviewed_census.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
-          print(out['processed_count'],out['unreviewed_count'],out['ticker_count'])
+                  if cur=='companies' and len(v)>=2:companies[v[0]]=v[1]
+                  elif cur=='users' and len(v)>=2:users[v[0]]=v[1]
+                  elif cur=='ideas' and len(v)>=7:ideas.append({'idea_id':v[0],'source_link':v[1],'ticker':v[2],'user_link':v[3],'date':v[4],'is_short':v[5]=='t','contest_winner':v[6]=='t'})
+                  elif cur=='descriptions' and len(v)>=2:desc[v[0]]=v[1] or ''
+                  elif cur=='catalyst' and len(v)>=2:cats[v[0]]=v[1] or ''
+                  elif cur=='performance' and len(v)>=12:perf[v[0]]=v[1:12]
+          ads=sorted([r for r in ideas if r['ticker']=='ADS' and r['idea_id'] not in processed],key=lambda x:(x['date'] or '',x['idea_id']))
+          cit=sorted([r for r in ideas if r['ticker']=='CIT' and r['idea_id'] not in processed],key=lambda x:(x['date'] or '',x['idea_id']))
+          selected=ads[:7]+cit[:3]
+          assert len(selected)==10 and len({x['idea_id'] for x in selected})==10
+          outdir=pathlib.Path('data/source_batch036');outdir.mkdir(parents=True,exist_ok=True)
+          manifest=[]
+          for i,r in enumerate(selected,1):
+              r=dict(r);r['company_name']=companies.get(r['ticker']);r['author']=users.get(r['user_link']);r['raw_direction_ko']='숏' if r['is_short'] else '롱';r['description_chars']=len(desc.get(r['idea_id'],''));r['catalyst_chars']=len(cats.get(r['idea_id'],''));r['performance_raw']=perf.get(r['idea_id']);manifest.append(r)
+              text=(f"# {i}. {r['ticker']} — {r['date']} — raw {r['raw_direction_ko']} — {r['author']}\n\nidea_id: {r['idea_id']}\nsource: {r['source_link']}\ncompany_lookup: {r['company_name']}\nraw_is_short: {r['is_short']}\ncontest_winner: {r['contest_winner']}\nperformance_raw: {r.get('performance_raw')}\n\n## Description\n\n{desc.get(r['idea_id'],'')}\n\n## Catalyst\n\n{cats.get(r['idea_id'],'')}\n")
+              (outdir/f"{i:02d}_{r['ticker']}_{r['idea_id']}.md").write_text(text,encoding='utf-8')
+          pathlib.Path('data/curated/source_batch036_manifest.json').write_text(json.dumps({'batch':'036','selection_rule':'all 7 unreviewed ADS + earliest 3 unreviewed CIT after dedicated-batch de-duplication','ideas':manifest},ensure_ascii=False,indent=2),encoding='utf-8')
           PY
-      - name: Commit census
+      - name: Commit packet
         run: |
           git config user.name 'VIC metadata bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add data/curated/next_unreviewed_census.json
-          git commit -m 'chore: update unreviewed VIC census' || exit 0
+          git add data/source_batch036 data/curated/source_batch036_manifest.json
+          git commit -m 'chore: extract Batch 036 VIC source packet' || exit 0
           git push
