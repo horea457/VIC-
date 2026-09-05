@@ -56,6 +56,7 @@ BATCH_SOURCES = (
     ("batch_035_plus_collision_level3_deep_v7.json", "batch_035_plus_collision_level3_10.md", "Batch 035"),
     ("batch_036_ads_cit_deep_v7.json", "batch_036_ads_cit_10.md", "Batch 036"),
     ("batch_037_cit_cacc_ally_deep_v7.json", "batch_037_cit_cacc_ally_10.md", "Batch 037"),
+    ("batch_038_ally_syf_dfs_deep_v7.json", "batch_038_ally_syf_dfs_10.md", "Batch 038"),
     ("all_reviewed_v8_index.json", "all_reviewed_v8.md.gz", "V8 전체 DB"),
 )
 
