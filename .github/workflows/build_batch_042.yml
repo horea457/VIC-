@@ -19,7 +19,7 @@ jobs:
         run: |
           set -euo pipefail
           test -f .github/batch042_payload_1.txt || { echo 'payload already consumed'; exit 0; }
-          cat .github/batch042_payload_1.txt .github/batch042_payload_2.txt .github/batch042_payload_3a.txt .github/batch042_payload_4.txt .github/batch042_payload_5.txt | base64 -d > /tmp/batch042_payload.tar.gz
+          cat .github/batch042_payload_1.txt .github/batch042_payload_2.txt .github/batch042_payload_3a.txt .github/batch042_payload_4a.txt .github/batch042_payload_4b.txt .github/batch042_payload_4c.txt .github/batch042_payload_5.txt | base64 -d > /tmp/batch042_payload.tar.gz
           tar xzf /tmp/batch042_payload.tar.gz -C .
           python - <<'PY'
           import json
@@ -63,7 +63,7 @@ jobs:
               registry.write_text(s,encoding='utf-8')
           print('Batch 042 validated:', totals)
           PY
-          rm -f .github/batch042_payload_1.txt .github/batch042_payload_2.txt .github/batch042_payload_3.txt .github/batch042_payload_3a.txt .github/batch042_payload_4.txt .github/batch042_payload_5.txt
+          rm -f .github/batch042_payload_1.txt .github/batch042_payload_2.txt .github/batch042_payload_3.txt .github/batch042_payload_3a.txt .github/batch042_payload_4.txt .github/batch042_payload_4a.txt .github/batch042_payload_4b.txt .github/batch042_payload_4c.txt .github/batch042_payload_5.txt
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -A
