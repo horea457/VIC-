@@ -1,0 +1,3350 @@
+{
+  "schema_version": "deep_v7",
+  "batch": "034",
+  "title": "CRK entity collision: Comstock Resources, Crocodile Gold, Franklin Covey postmortems",
+  "research_asof": "2026-09-05",
+  "ideas_master": [
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "date": "2004-12-08",
+      "year": 2004,
+      "ticker": "CRK",
+      "company_name": "COMSTOCK RESOURCES INC",
+      "author": "hao777",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": "https://www.valueinvestorsclub.com/idea/Comstock_Resources/3080697349",
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "entity-resolution; capital-cycle; catalyst; valuation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "perf_1y": null,
+      "perf_3y": null,
+      "perf_5y": null,
+      "idea_return_1y": null,
+      "idea_return_3y": null,
+      "idea_return_5y": null,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "date": "2010-07-15",
+      "year": 2010,
+      "ticker": "CRK",
+      "company_name": "COMSTOCK RESOURCES INC",
+      "author": "nantembo629",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": "https://www.valueinvestorsclub.com/idea/COMSTOCK_RESOURCES_INC/4340225219",
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "entity-resolution; capital-cycle; catalyst; valuation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "perf_1y": null,
+      "perf_3y": null,
+      "perf_5y": null,
+      "idea_return_1y": null,
+      "idea_return_3y": null,
+      "idea_return_5y": null,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "date": "2011-01-12",
+      "year": 2011,
+      "ticker": "CRK",
+      "company_name": "CROCODILE GOLD CORP",
+      "author": "lys615",
+      "direction_ko": "롱",
+      "is_short": false,
+      "contest_winner": 0,
+      "source_link": "https://www.valueinvestorsclub.com/idea/CROCODILE_GOLD_CORP/0373325138",
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "entity-resolution; capital-cycle; catalyst; valuation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "perf_1y": null,
+      "perf_3y": null,
+      "perf_5y": null,
+      "idea_return_1y": null,
+      "idea_return_3y": null,
+      "idea_return_5y": null,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "date": "2011-12-15",
+      "year": 2011,
+      "ticker": "CRK",
+      "company_name": "CROCODILE GOLD CORP",
+      "author": "john771",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "entity-resolution; capital-cycle; catalyst; valuation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "perf_1y": null,
+      "perf_3y": null,
+      "perf_5y": null,
+      "idea_return_1y": null,
+      "idea_return_3y": null,
+      "idea_return_5y": null,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "date": "2014-12-26",
+      "year": 2014,
+      "ticker": "CRK",
+      "company_name": "CROCODILE GOLD CORP",
+      "author": "aquicap",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "entity-resolution; capital-cycle; catalyst; valuation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "perf_1y": null,
+      "perf_3y": null,
+      "perf_5y": null,
+      "idea_return_1y": null,
+      "idea_return_3y": null,
+      "idea_return_5y": null,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "date": "2018-02-02",
+      "year": 2018,
+      "ticker": "CRK",
+      "company_name": "COMSTOCK RESOURCES INC",
+      "author": "Woolly18",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": "https://www.valueinvestorsclub.com/idea/Comstock_Resources/3902742885",
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "entity-resolution; capital-cycle; catalyst; valuation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "perf_1y": null,
+      "perf_3y": null,
+      "perf_5y": null,
+      "idea_return_1y": null,
+      "idea_return_3y": null,
+      "idea_return_5y": null,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "date": "2019-09-18",
+      "year": 2019,
+      "ticker": "CRK",
+      "company_name": "COMSTOCK RESOURCES INC",
+      "author": "abcd1234",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": "https://www.valueinvestorsclub.com/idea/COMSTOCK_RESOURCES_INC/6640275800",
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "entity-resolution; capital-cycle; catalyst; valuation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "perf_1y": null,
+      "perf_3y": null,
+      "perf_5y": null,
+      "idea_return_1y": null,
+      "idea_return_3y": null,
+      "idea_return_5y": null,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "date": "2021-09-09",
+      "year": 2021,
+      "ticker": "CRK",
+      "company_name": "COMSTOCK RESOURCES INC",
+      "author": "beep899",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": "https://www.valueinvestorsclub.com/idea/COMSTOCK_RESOURCES_INC/4565119373",
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "entity-resolution; capital-cycle; catalyst; valuation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "perf_1y": null,
+      "perf_3y": null,
+      "perf_5y": null,
+      "idea_return_1y": null,
+      "idea_return_3y": null,
+      "idea_return_5y": null,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "date": "2002-10-02",
+      "year": 2002,
+      "ticker": "FC",
+      "company_name": "FRANKLIN COVEY CO",
+      "author": "north481",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 1,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "entity-resolution; capital-cycle; catalyst; valuation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "perf_1y": null,
+      "perf_3y": null,
+      "perf_5y": null,
+      "idea_return_1y": null,
+      "idea_return_3y": null,
+      "idea_return_5y": null,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "date": "2006-07-11",
+      "year": 2006,
+      "ticker": "FC",
+      "company_name": "FRANKLIN COVEY CO",
+      "author": "zach721",
+      "direction_ko": "롱",
+      "is_short": false,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "entity-resolution; capital-cycle; catalyst; valuation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 1,
+      "perf_1y": 1.4135220125786163,
+      "perf_3y": 0.9528301886792452,
+      "perf_5y": 1.7594339622641508,
+      "idea_return_1y": 0.4135220125786163,
+      "idea_return_3y": -0.04716981132075482,
+      "idea_return_5y": 0.7594339622641508,
+      "auto_tag_status_ko": "수동 심층검증"
+    }
+  ],
+  "postmortems": [
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "ticker": "CRK",
+      "research_direction_ko": "Short",
+      "company_description_ko": "Comstock Resources는 미국 독립 천연가스 E&P로 현재 핵심은 Louisiana·East Texas의 Haynesville/Bossier shale이다. 매출은 생산량×실현 가스가격으로 정해지지만 equity의 실질 경제성은 well-level EUR·drilling/completion cost·basis/transport·hedge와 유지개발비를 차감한 free cash flow, 그리고 순부채의 조합으로 결정된다. 2018 Jerry Jones의 Bakken 자산 출자와 지배권 취득, 2019 Covey Park 인수는 기업의 자산·지배구조·레버리지를 크게 바꾼 regime shift였다.",
+      "original_thesis_ko": "2004 Comstock Short는 높은 commodity sensitivity와 인수·개발 중심 자본배분이 자산가치보다 부채를 빠르게 늘릴 수 있으며, reserve/NAV가 commodity price와 capital intensity를 충분히 반영하지 못한다는 논지로 재구성한다.",
+      "actual_development_ko": "2004년 중반 장기부채는 약 $324m였다. 회사는 이후 수차례 shale 개발·인수 사이클을 거치며 존속했고, 2018 Jones recapitalization과 2019 Covey Park 인수로 사실상 다른 규모·지배구조의 Haynesville gas producer가 됐다. 2026년에도 Haynesville 중심으로 운영 중이다.",
+      "thesis_verdict_ko": "E&P의 NAV/레버리지 취약성 진단은 타당했지만 terminal failure로 이어지지 않았다. 자산·스폰서·자본구조가 계속 재편되므로 오래된 Short를 동일 법인의 정적 balance-sheet thesis로 유지하면 안 된다.",
+      "business_verdict_ko": "2004년 중반 장기부채는 약 $324m였다. 회사는 이후 수차례 shale 개발·인수 사이클을 거치며 존속했고, 2018 Jones recapitalization과 2019 Covey Park 인수로 사실상 다른 규모·지배구조의 Haynesville gas producer가 됐다. 2026년에도 Haynesville 중심으로 운영 중이다.",
+      "catalyst_verdict_ko": "부채보다 생산자산·자본조달 경로가 확대",
+      "valuation_verdict_ko": "단일 multiple보다 probability-weighted cash-flow/asset waterfall과 시간가치를 사용한다.",
+      "stock_verdict_ko": "부분적중·장기 구조변화",
+      "current_verdict_ko": "2004년 중반 장기부채는 약 $324m였다. 회사는 이후 수차례 shale 개발·인수 사이클을 거치며 존속했고, 2018 Jones recapitalization과 2019 Covey Park 인수로 사실상 다른 규모·지배구조의 Haynesville gas producer가 됐다. 2026년에도 Haynesville 중심으로 운영 중이다.",
+      "overall_verdict_ko": "부분적중·장기 구조변화",
+      "why_ko": "E&P의 NAV/레버리지 취약성 진단은 타당했지만 terminal failure로 이어지지 않았다. 자산·스폰서·자본구조가 계속 재편되므로 오래된 Short를 동일 법인의 정적 balance-sheet thesis로 유지하면 안 된다.",
+      "success_pattern_ko": "catalyst + balance-sheet path + operating KPI",
+      "failure_pattern_ko": "",
+      "root_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "first_signal_ko": "부채보다 생산자산·자본조달 경로가 확대",
+      "first_signal_date": "2008-12-31",
+      "knowable_at_t0_ko": "당시 공시에서 debt, capital intensity, asset/segment 구조, 거래조건과 주요 KPI를 추적할 수 있었다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "가장 불리한 가격·운영·자본조달 경로에서도 3년 IRR이 hurdle을 넘는가?",
+      "analyst_note_ko": "raw source는 ticker CRK의 재사용 때문에 company_name을 Crocodile Gold로 잘못 매핑했다. VIC source/event/date를 기준으로 Comstock Resources로 교정. VIC 전체 본문이 로그인 없이 제공되지 않는 경우 thesis 문장은 raw metadata·공개 VIC header·동시기 1차자료에 기반한 구조적 재구성이며 직접인용이 아니다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.96,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "ticker": "CRK",
+      "research_direction_ko": "Short",
+      "company_description_ko": "Comstock Resources는 미국 독립 천연가스 E&P로 현재 핵심은 Louisiana·East Texas의 Haynesville/Bossier shale이다. 매출은 생산량×실현 가스가격으로 정해지지만 equity의 실질 경제성은 well-level EUR·drilling/completion cost·basis/transport·hedge와 유지개발비를 차감한 free cash flow, 그리고 순부채의 조합으로 결정된다. 2018 Jerry Jones의 Bakken 자산 출자와 지배권 취득, 2019 Covey Park 인수는 기업의 자산·지배구조·레버리지를 크게 바꾼 regime shift였다.",
+      "original_thesis_ko": "2010 Comstock Short는 Haynesville 개발이 높은 decline과 지속 CapEx를 요구해 headline reserve growth가 equity FCF로 연결되지 않고, 약한 가스가격에서 레버리지와 negative FCF가 동시에 악화될 수 있다는 논지로 재구성한다.",
+      "actual_development_ko": "2010년 VIC 페이지 기준 주가는 $27.50, 약 47m주, 시총 약 $1.3bn, 순부채 약 $340m로 확인되는 사례다. 2011 Delaware Basin 인수 등 자본집약적 확장이 이어졌고 가스 약세는 실제 재무압력을 키웠다. 그러나 2018 대규모 sponsor recapitalization이 생존경로를 바꿨다.",
+      "thesis_verdict_ko": "well decline·CapEx·gas price를 연결한 Short 프레임은 옳았지만 equity outcome은 sponsor capital과 자산재편에 크게 좌우됐다. credit/liquidity runway를 별도 확률변수로 둬야 했다.",
+      "business_verdict_ko": "2010년 VIC 페이지 기준 주가는 $27.50, 약 47m주, 시총 약 $1.3bn, 순부채 약 $340m로 확인되는 사례다. 2011 Delaware Basin 인수 등 자본집약적 확장이 이어졌고 가스 약세는 실제 재무압력을 키웠다. 그러나 2018 대규모 sponsor recapitalization이 생존경로를 바꿨다.",
+      "catalyst_verdict_ko": "2011 인수로 projected leverage·CapEx 상승",
+      "valuation_verdict_ko": "단일 multiple보다 probability-weighted cash-flow/asset waterfall과 시간가치를 사용한다.",
+      "stock_verdict_ko": "부분적중·타이밍 의존",
+      "current_verdict_ko": "2010년 VIC 페이지 기준 주가는 $27.50, 약 47m주, 시총 약 $1.3bn, 순부채 약 $340m로 확인되는 사례다. 2011 Delaware Basin 인수 등 자본집약적 확장이 이어졌고 가스 약세는 실제 재무압력을 키웠다. 그러나 2018 대규모 sponsor recapitalization이 생존경로를 바꿨다.",
+      "overall_verdict_ko": "부분적중·타이밍 의존",
+      "why_ko": "well decline·CapEx·gas price를 연결한 Short 프레임은 옳았지만 equity outcome은 sponsor capital과 자산재편에 크게 좌우됐다. credit/liquidity runway를 별도 확률변수로 둬야 했다.",
+      "success_pattern_ko": "catalyst + balance-sheet path + operating KPI",
+      "failure_pattern_ko": "",
+      "root_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "first_signal_ko": "2011 인수로 projected leverage·CapEx 상승",
+      "first_signal_date": "2011-12-05",
+      "knowable_at_t0_ko": "당시 공시에서 debt, capital intensity, asset/segment 구조, 거래조건과 주요 KPI를 추적할 수 있었다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "가장 불리한 가격·운영·자본조달 경로에서도 3년 IRR이 hurdle을 넘는가?",
+      "analyst_note_ko": "raw source는 ticker CRK의 재사용 때문에 company_name을 Crocodile Gold로 잘못 매핑했다. VIC source/event/date를 기준으로 Comstock Resources로 교정. VIC 전체 본문이 로그인 없이 제공되지 않는 경우 thesis 문장은 raw metadata·공개 VIC header·동시기 1차자료에 기반한 구조적 재구성이며 직접인용이 아니다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.96,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "ticker": "CRK",
+      "research_direction_ko": "Long",
+      "company_description_ko": "Crocodile Gold는 호주 금광 자산을 운영한 캐나다 상장 금광사였다. 가치는 단순 매장량보다 실제 회수율·grade·cash cost/AISC·sustaining capital·mine life에 좌우되고, 2012 Fosterville·Stawell 인수 후에는 AuRico에 대한 deferred/free-cash-flow sharing obligation과 Luxor 자금조달·지배력이 equity waterfall의 핵심이 됐다. 2015 Newmarket Gold와 합병되며 독립 상장사는 사라졌고 이후 계보는 Kirkland Lake Gold로 이어졌다.",
+      "original_thesis_ko": "2011 Crocodile Gold Long은 호주 금광 포트폴리오의 생산 ramp와 금가격 환경이 개선되면 고정비 흡수와 mine cash flow가 빠르게 좋아지고, 당시 낮은 valuation이 재평가될 수 있다는 turnaround/asset-optionality 논지로 재구성한다.",
+      "actual_development_ko": "2011 운영경로는 매끄럽지 않았고 같은 해 12월 최대주주 Luxor가 C$0.56 현금 공개매수를 제안했다. 2012에는 Fosterville·Stawell을 최대 C$105m 조건으로 인수해 사업구조가 크게 변했고, 2015 Newmarket Gold와 합병됐다.",
+      "thesis_verdict_ko": "광산자산 optionality와 M&A value는 실제로 존재했지만 standalone mine execution만으로 복리화된 사례가 아니다. financing·대주주 지배·deal waterfall이 thesis의 절반 이상이었다.",
+      "business_verdict_ko": "2011 운영경로는 매끄럽지 않았고 같은 해 12월 최대주주 Luxor가 C$0.56 현금 공개매수를 제안했다. 2012에는 Fosterville·Stawell을 최대 C$105m 조건으로 인수해 사업구조가 크게 변했고, 2015 Newmarket Gold와 합병됐다.",
+      "catalyst_verdict_ko": "Luxor C$0.56 공개매수 제안",
+      "valuation_verdict_ko": "단일 multiple보다 probability-weighted cash-flow/asset waterfall과 시간가치를 사용한다.",
+      "stock_verdict_ko": "부분적중·M&A로 실현",
+      "current_verdict_ko": "2011 운영경로는 매끄럽지 않았고 같은 해 12월 최대주주 Luxor가 C$0.56 현금 공개매수를 제안했다. 2012에는 Fosterville·Stawell을 최대 C$105m 조건으로 인수해 사업구조가 크게 변했고, 2015 Newmarket Gold와 합병됐다.",
+      "overall_verdict_ko": "부분적중·M&A로 실현",
+      "why_ko": "광산자산 optionality와 M&A value는 실제로 존재했지만 standalone mine execution만으로 복리화된 사례가 아니다. financing·대주주 지배·deal waterfall이 thesis의 절반 이상이었다.",
+      "success_pattern_ko": "catalyst + balance-sheet path + operating KPI",
+      "failure_pattern_ko": "",
+      "root_error_ko": "운영자산 가치와 financing·royalty·M&A waterfall의 상호작용을 충분히 분리하지 못한 오류.",
+      "first_signal_ko": "Luxor C$0.56 공개매수 제안",
+      "first_signal_date": "2011-12-13",
+      "knowable_at_t0_ko": "당시 공시에서 debt, capital intensity, asset/segment 구조, 거래조건과 주요 KPI를 추적할 수 있었다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "가장 불리한 가격·운영·자본조달 경로에서도 3년 IRR이 hurdle을 넘는가?",
+      "analyst_note_ko": "raw CRK는 TSX Crocodile Gold를 뜻한다. 동일 ticker의 NYSE Comstock Resources와 분리해 entity를 확정. VIC 전체 본문이 로그인 없이 제공되지 않는 경우 thesis 문장은 raw metadata·공개 VIC header·동시기 1차자료에 기반한 구조적 재구성이며 직접인용이 아니다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.96,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "ticker": "CRK",
+      "research_direction_ko": "Short",
+      "company_description_ko": "Crocodile Gold는 호주 금광 자산을 운영한 캐나다 상장 금광사였다. 가치는 단순 매장량보다 실제 회수율·grade·cash cost/AISC·sustaining capital·mine life에 좌우되고, 2012 Fosterville·Stawell 인수 후에는 AuRico에 대한 deferred/free-cash-flow sharing obligation과 Luxor 자금조달·지배력이 equity waterfall의 핵심이 됐다. 2015 Newmarket Gold와 합병되며 독립 상장사는 사라졌고 이후 계보는 Kirkland Lake Gold로 이어졌다.",
+      "original_thesis_ko": "2011-12 Crocodile Gold raw Short는 Luxor의 C$0.56 부분공개매수가 전체 주주에게 동일한 확정가치를 보장하지 않으며, 조건·proration·지배권 집중 뒤 minority stub의 가격이 다시 운영가치로 수렴할 수 있다는 event-driven Short로 구조적으로 재구성한다. 원문 본문 미확보로 세부 논지는 확정하지 않는다.",
+      "actual_development_ko": "Luxor는 12월 13일 최대 215.4m주를 C$0.56에 사서 기존 지분과 합쳐 약 85%를 목표로 한다고 발표했고 12월 23일 formal offer를 개시했다. 회사는 이후 독립 상장사로 계속 운영했고 2012 대형 광산 인수, 2015 Newmarket 합병으로 경로가 다시 바뀌었다.",
+      "thesis_verdict_ko": "부분공개매수의 proration/stub-risk라는 구조적 포인트는 중요하지만, 원문이 없어 이 raw Short의 정확한 payoff와 entry를 재현할 수 없다. 방향성 성공/실패를 억지로 단정하지 않고 판정 제한으로 둔다.",
+      "business_verdict_ko": "Luxor는 12월 13일 최대 215.4m주를 C$0.56에 사서 기존 지분과 합쳐 약 85%를 목표로 한다고 발표했고 12월 23일 formal offer를 개시했다. 회사는 이후 독립 상장사로 계속 운영했고 2012 대형 광산 인수, 2015 Newmarket 합병으로 경로가 다시 바뀌었다.",
+      "catalyst_verdict_ko": "formal partial tender 개시",
+      "valuation_verdict_ko": "단일 multiple보다 probability-weighted cash-flow/asset waterfall과 시간가치를 사용한다.",
+      "stock_verdict_ko": "판정 제한·원문 미확보",
+      "current_verdict_ko": "Luxor는 12월 13일 최대 215.4m주를 C$0.56에 사서 기존 지분과 합쳐 약 85%를 목표로 한다고 발표했고 12월 23일 formal offer를 개시했다. 회사는 이후 독립 상장사로 계속 운영했고 2012 대형 광산 인수, 2015 Newmarket 합병으로 경로가 다시 바뀌었다.",
+      "overall_verdict_ko": "판정 제한·원문 미확보",
+      "why_ko": "부분공개매수의 proration/stub-risk라는 구조적 포인트는 중요하지만, 원문이 없어 이 raw Short의 정확한 payoff와 entry를 재현할 수 없다. 방향성 성공/실패를 억지로 단정하지 않고 판정 제한으로 둔다.",
+      "success_pattern_ko": "catalyst + balance-sheet path + operating KPI",
+      "failure_pattern_ko": "",
+      "root_error_ko": "원문 미확보 때문에 payoff 정의까지 복원할 수 없어 success/failure 단정이 불가능하다.",
+      "first_signal_ko": "formal partial tender 개시",
+      "first_signal_date": "2011-12-23",
+      "knowable_at_t0_ko": "당시 공시에서 debt, capital intensity, asset/segment 구조, 거래조건과 주요 KPI를 추적할 수 있었다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "가장 불리한 가격·운영·자본조달 경로에서도 3년 IRR이 hurdle을 넘는가?",
+      "analyst_note_ko": "raw CRK는 TSX Crocodile Gold를 뜻한다. 동일 ticker의 NYSE Comstock Resources와 분리해 entity를 확정. VIC 전체 본문이 로그인 없이 제공되지 않는 경우 thesis 문장은 raw metadata·공개 VIC header·동시기 1차자료에 기반한 구조적 재구성이며 직접인용이 아니다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.78,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "ticker": "CRK",
+      "research_direction_ko": "Short",
+      "company_description_ko": "Crocodile Gold는 호주 금광 자산을 운영한 캐나다 상장 금광사였다. 가치는 단순 매장량보다 실제 회수율·grade·cash cost/AISC·sustaining capital·mine life에 좌우되고, 2012 Fosterville·Stawell 인수 후에는 AuRico에 대한 deferred/free-cash-flow sharing obligation과 Luxor 자금조달·지배력이 equity waterfall의 핵심이 됐다. 2015 Newmarket Gold와 합병되며 독립 상장사는 사라졌고 이후 계보는 Kirkland Lake Gold로 이어졌다.",
+      "original_thesis_ko": "2014-12 Crocodile Gold raw Short는 높은 금광 operational risk와 대주주/자본구조 복잡성, AuRico FCF-sharing obligation 때문에 headline gold exposure 대비 common equity가 불리하다는 논지로 재구성한다. entity는 날짜·M&A/자본배분 태그와 동시기 corporate events로 Crocodile Gold로 교정한다.",
+      "actual_development_ko": "12월 22일 회사는 AuRico와 기존 FCF-sharing을 C$20m 현금 + Fosterville 2%/Stawell 1% NSR로 바꾸는 계약을 발표했다. 2015년 5월 Newmarket과 거래를 발표했고 Crocodile 주주는 C$0.37 현금 또는 주식 선택권을 받았으며 7월 합병이 완료됐다.",
+      "thesis_verdict_ko": "liability와 governance 복잡성은 맞았지만 2015 strategic transaction이 late-2014 equity에 실현가치를 부여했다. raw directional Short 관점에서는 M&A optionality를 과소평가한 실패로 보는 편이 타당하다.",
+      "business_verdict_ko": "12월 22일 회사는 AuRico와 기존 FCF-sharing을 C$20m 현금 + Fosterville 2%/Stawell 1% NSR로 바꾸는 계약을 발표했다. 2015년 5월 Newmarket과 거래를 발표했고 Crocodile 주주는 C$0.37 현금 또는 주식 선택권을 받았으며 7월 합병이 완료됐다.",
+      "catalyst_verdict_ko": "AuRico FCF-sharing 종료로 구조 단순화",
+      "valuation_verdict_ko": "단일 multiple보다 probability-weighted cash-flow/asset waterfall과 시간가치를 사용한다.",
+      "stock_verdict_ko": "실패·M&A optionality 과소평가",
+      "current_verdict_ko": "12월 22일 회사는 AuRico와 기존 FCF-sharing을 C$20m 현금 + Fosterville 2%/Stawell 1% NSR로 바꾸는 계약을 발표했다. 2015년 5월 Newmarket과 거래를 발표했고 Crocodile 주주는 C$0.37 현금 또는 주식 선택권을 받았으며 7월 합병이 완료됐다.",
+      "overall_verdict_ko": "실패·M&A optionality 과소평가",
+      "why_ko": "liability와 governance 복잡성은 맞았지만 2015 strategic transaction이 late-2014 equity에 실현가치를 부여했다. raw directional Short 관점에서는 M&A optionality를 과소평가한 실패로 보는 편이 타당하다.",
+      "success_pattern_ko": "",
+      "failure_pattern_ko": "path-dependence / optionality omission",
+      "root_error_ko": "운영자산 가치와 financing·royalty·M&A waterfall의 상호작용을 충분히 분리하지 못한 오류.",
+      "first_signal_ko": "AuRico FCF-sharing 종료로 구조 단순화",
+      "first_signal_date": "2014-12-22",
+      "knowable_at_t0_ko": "당시 공시에서 debt, capital intensity, asset/segment 구조, 거래조건과 주요 KPI를 추적할 수 있었다.",
+      "avoidability_ko": "높음",
+      "counterfactual_question_ko": "가장 불리한 가격·운영·자본조달 경로에서도 3년 IRR이 hurdle을 넘는가?",
+      "analyst_note_ko": "raw CRK는 TSX Crocodile Gold를 뜻한다. 동일 ticker의 NYSE Comstock Resources와 분리해 entity를 확정. VIC 전체 본문이 로그인 없이 제공되지 않는 경우 thesis 문장은 raw metadata·공개 VIC header·동시기 1차자료에 기반한 구조적 재구성이며 직접인용이 아니다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.82,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "ticker": "CRK",
+      "research_direction_ko": "Short",
+      "company_description_ko": "Comstock Resources는 미국 독립 천연가스 E&P로 현재 핵심은 Louisiana·East Texas의 Haynesville/Bossier shale이다. 매출은 생산량×실현 가스가격으로 정해지지만 equity의 실질 경제성은 well-level EUR·drilling/completion cost·basis/transport·hedge와 유지개발비를 차감한 free cash flow, 그리고 순부채의 조합으로 결정된다. 2018 Jerry Jones의 Bakken 자산 출자와 지배권 취득, 2019 Covey Park 인수는 기업의 자산·지배구조·레버리지를 크게 바꾼 regime shift였다.",
+      "original_thesis_ko": "2018 Comstock Short는 높은 부채와 drilling cash burn을 가진 E&P에서 asset sale·refinancing만으로 common equity가 보전되기 어렵고, 구조조정 또는 대규모 dilution 위험이 크다는 event/capital-structure 논지로 재구성한다.",
+      "actual_development_ko": "불과 몇 달 뒤 Jerry Jones 계열은 약 $620m로 평가된 Bakken 자산을 출자하고 최대 88.57m 신주를 받아 pro forma 약 84.5%를 보유하는 거래에 합의했다. 8월 거래·refinancing이 닫히면서 기존 equity는 희석됐지만 동시에 유동성과 생존경로가 크게 개선됐다.",
+      "thesis_verdict_ko": "희석·자본구조 리스크는 정확했으나 sponsor recapitalization이 distress를 equity extinction이 아니라 control transfer로 바꿨다. distressed E&P Short는 신규 외부자본의 option value를 반드시 모델링해야 한다.",
+      "business_verdict_ko": "불과 몇 달 뒤 Jerry Jones 계열은 약 $620m로 평가된 Bakken 자산을 출자하고 최대 88.57m 신주를 받아 pro forma 약 84.5%를 보유하는 거래에 합의했다. 8월 거래·refinancing이 닫히면서 기존 equity는 희석됐지만 동시에 유동성과 생존경로가 크게 개선됐다.",
+      "catalyst_verdict_ko": "Jones contribution agreement",
+      "valuation_verdict_ko": "단일 multiple보다 probability-weighted cash-flow/asset waterfall과 시간가치를 사용한다.",
+      "stock_verdict_ko": "부분적중·recap으로 뒤집힘",
+      "current_verdict_ko": "불과 몇 달 뒤 Jerry Jones 계열은 약 $620m로 평가된 Bakken 자산을 출자하고 최대 88.57m 신주를 받아 pro forma 약 84.5%를 보유하는 거래에 합의했다. 8월 거래·refinancing이 닫히면서 기존 equity는 희석됐지만 동시에 유동성과 생존경로가 크게 개선됐다.",
+      "overall_verdict_ko": "부분적중·recap으로 뒤집힘",
+      "why_ko": "희석·자본구조 리스크는 정확했으나 sponsor recapitalization이 distress를 equity extinction이 아니라 control transfer로 바꿨다. distressed E&P Short는 신규 외부자본의 option value를 반드시 모델링해야 한다.",
+      "success_pattern_ko": "catalyst + balance-sheet path + operating KPI",
+      "failure_pattern_ko": "",
+      "root_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "first_signal_ko": "Jones contribution agreement",
+      "first_signal_date": "2018-05-09",
+      "knowable_at_t0_ko": "당시 공시에서 debt, capital intensity, asset/segment 구조, 거래조건과 주요 KPI를 추적할 수 있었다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "가장 불리한 가격·운영·자본조달 경로에서도 3년 IRR이 hurdle을 넘는가?",
+      "analyst_note_ko": "raw source는 ticker CRK의 재사용 때문에 company_name을 Crocodile Gold로 잘못 매핑했다. VIC source/event/date를 기준으로 Comstock Resources로 교정. VIC 전체 본문이 로그인 없이 제공되지 않는 경우 thesis 문장은 raw metadata·공개 VIC header·동시기 1차자료에 기반한 구조적 재구성이며 직접인용이 아니다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.96,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "ticker": "CRK",
+      "research_direction_ko": "Short",
+      "company_description_ko": "Comstock Resources는 미국 독립 천연가스 E&P로 현재 핵심은 Louisiana·East Texas의 Haynesville/Bossier shale이다. 매출은 생산량×실현 가스가격으로 정해지지만 equity의 실질 경제성은 well-level EUR·drilling/completion cost·basis/transport·hedge와 유지개발비를 차감한 free cash flow, 그리고 순부채의 조합으로 결정된다. 2018 Jerry Jones의 Bakken 자산 출자와 지배권 취득, 2019 Covey Park 인수는 기업의 자산·지배구조·레버리지를 크게 바꾼 regime shift였다.",
+      "original_thesis_ko": "2019 Comstock Short는 Covey Park 인수 후 약 $5.3bn TEV와 $2.73bn 순부채, 50%+ borrow cost가 보여주듯 leverage·control concentration·preferred dilution이 큰데 시장이 Haynesville scale synergy와 gas economics를 과대평가한다는 논지다.",
+      "actual_development_ko": "VIC 페이지는 $9.35, 시총 $2.627bn, 순부채 $2.732bn, TEV $5.332bn을 기록한다. 실제 Covey Park deal은 약 $2.2bn이었고 Jones는 $475m를 추가 투자했다. 이후 2021~22 gas price 급등으로 FCF가 폭발해 2022 FCF $673m, debt retirement $506m을 기록했다.",
+      "thesis_verdict_ko": "leverage와 preferred/지배구조 위험은 실재했지만 commodity upside의 convexity를 놓쳤다. 높은 부채는 downside만 키우는 게 아니라 gas price 상승 시 equity beta도 폭발적으로 키웠다.",
+      "business_verdict_ko": "VIC 페이지는 $9.35, 시총 $2.627bn, 순부채 $2.732bn, TEV $5.332bn을 기록한다. 실제 Covey Park deal은 약 $2.2bn이었고 Jones는 $475m를 추가 투자했다. 이후 2021~22 gas price 급등으로 FCF가 폭발해 2022 FCF $673m, debt retirement $506m을 기록했다.",
+      "catalyst_verdict_ko": "2021 gas rally와 FCF inflection",
+      "valuation_verdict_ko": "단일 multiple보다 probability-weighted cash-flow/asset waterfall과 시간가치를 사용한다.",
+      "stock_verdict_ko": "실패·commodity convexity 과소평가",
+      "current_verdict_ko": "VIC 페이지는 $9.35, 시총 $2.627bn, 순부채 $2.732bn, TEV $5.332bn을 기록한다. 실제 Covey Park deal은 약 $2.2bn이었고 Jones는 $475m를 추가 투자했다. 이후 2021~22 gas price 급등으로 FCF가 폭발해 2022 FCF $673m, debt retirement $506m을 기록했다.",
+      "overall_verdict_ko": "실패·commodity convexity 과소평가",
+      "why_ko": "leverage와 preferred/지배구조 위험은 실재했지만 commodity upside의 convexity를 놓쳤다. 높은 부채는 downside만 키우는 게 아니라 gas price 상승 시 equity beta도 폭발적으로 키웠다.",
+      "success_pattern_ko": "",
+      "failure_pattern_ko": "path-dependence / optionality omission",
+      "root_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "first_signal_ko": "2021 gas rally와 FCF inflection",
+      "first_signal_date": "2021-06-30",
+      "knowable_at_t0_ko": "당시 공시에서 debt, capital intensity, asset/segment 구조, 거래조건과 주요 KPI를 추적할 수 있었다.",
+      "avoidability_ko": "높음",
+      "counterfactual_question_ko": "가장 불리한 가격·운영·자본조달 경로에서도 3년 IRR이 hurdle을 넘는가?",
+      "analyst_note_ko": "raw source는 ticker CRK의 재사용 때문에 company_name을 Crocodile Gold로 잘못 매핑했다. VIC source/event/date를 기준으로 Comstock Resources로 교정. VIC 전체 본문이 로그인 없이 제공되지 않는 경우 thesis 문장은 raw metadata·공개 VIC header·동시기 1차자료에 기반한 구조적 재구성이며 직접인용이 아니다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.96,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "ticker": "CRK",
+      "research_direction_ko": "Short",
+      "company_description_ko": "Comstock Resources는 미국 독립 천연가스 E&P로 현재 핵심은 Louisiana·East Texas의 Haynesville/Bossier shale이다. 매출은 생산량×실현 가스가격으로 정해지지만 equity의 실질 경제성은 well-level EUR·drilling/completion cost·basis/transport·hedge와 유지개발비를 차감한 free cash flow, 그리고 순부채의 조합으로 결정된다. 2018 Jerry Jones의 Bakken 자산 출자와 지배권 취득, 2019 Covey Park 인수는 기업의 자산·지배구조·레버리지를 크게 바꾼 regime shift였다.",
+      "original_thesis_ko": "2021 Comstock Short는 주가 $7.65, 시총 약 $2.075bn 대비 순부채 약 $2.934bn인 고레버리지 gas producer에서 hedges·개발비·가스가격 정상화를 감안하면 당시 기대 FCF가 지속되기 어렵다는 논지로 재구성한다.",
+      "actual_development_ko": "2021 회사는 FCF $262m과 Q4 debt paydown $190m을 냈고, 2022에는 gas 가격 급등으로 FCF $673m, $506m debt retirement, 배당 재개까지 갔다. 이후 2023 가스가격 약세로 실현가격이 크게 내려가고 현금창출이 다시 둔화해 원래의 cyclicality 경고는 뒤늦게 나타났다. 2026년에도 회사는 Haynesville 개발을 지속한다.",
+      "thesis_verdict_ko": "cycle-normalization 리스크는 맞았으나 12개월 horizon에서 2022 gas spike를 견디지 못한 타이밍 오류다. commodity Short는 장기 평균가격보다 hedge book·storage/LNG·supply response가 만드는 path를 먼저 모델링해야 한다.",
+      "business_verdict_ko": "2021 회사는 FCF $262m과 Q4 debt paydown $190m을 냈고, 2022에는 gas 가격 급등으로 FCF $673m, $506m debt retirement, 배당 재개까지 갔다. 이후 2023 가스가격 약세로 실현가격이 크게 내려가고 현금창출이 다시 둔화해 원래의 cyclicality 경고는 뒤늦게 나타났다. 2026년에도 회사는 Haynesville 개발을 지속한다.",
+      "catalyst_verdict_ko": "2022 record FCF/deleveraging",
+      "valuation_verdict_ko": "단일 multiple보다 probability-weighted cash-flow/asset waterfall과 시간가치를 사용한다.",
+      "stock_verdict_ko": "부분적중·초기 실패 후 정상화",
+      "current_verdict_ko": "2021 회사는 FCF $262m과 Q4 debt paydown $190m을 냈고, 2022에는 gas 가격 급등으로 FCF $673m, $506m debt retirement, 배당 재개까지 갔다. 이후 2023 가스가격 약세로 실현가격이 크게 내려가고 현금창출이 다시 둔화해 원래의 cyclicality 경고는 뒤늦게 나타났다. 2026년에도 회사는 Haynesville 개발을 지속한다.",
+      "overall_verdict_ko": "부분적중·초기 실패 후 정상화",
+      "why_ko": "cycle-normalization 리스크는 맞았으나 12개월 horizon에서 2022 gas spike를 견디지 못한 타이밍 오류다. commodity Short는 장기 평균가격보다 hedge book·storage/LNG·supply response가 만드는 path를 먼저 모델링해야 한다.",
+      "success_pattern_ko": "",
+      "failure_pattern_ko": "path-dependence / optionality omission",
+      "root_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "first_signal_ko": "2022 record FCF/deleveraging",
+      "first_signal_date": "2022-12-31",
+      "knowable_at_t0_ko": "당시 공시에서 debt, capital intensity, asset/segment 구조, 거래조건과 주요 KPI를 추적할 수 있었다.",
+      "avoidability_ko": "높음",
+      "counterfactual_question_ko": "가장 불리한 가격·운영·자본조달 경로에서도 3년 IRR이 hurdle을 넘는가?",
+      "analyst_note_ko": "raw source는 ticker CRK의 재사용 때문에 company_name을 Crocodile Gold로 잘못 매핑했다. VIC source/event/date를 기준으로 Comstock Resources로 교정. VIC 전체 본문이 로그인 없이 제공되지 않는 경우 thesis 문장은 raw metadata·공개 VIC header·동시기 1차자료에 기반한 구조적 재구성이며 직접인용이 아니다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.96,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "ticker": "FC",
+      "research_direction_ko": "Short",
+      "company_description_ko": "Franklin Covey는 7 Habits, 4 Disciplines of Execution 등 지적재산을 기반으로 조직 성과개선 교육·컨설팅·도구를 판매하는 회사다. 2000년대 초에는 Franklin Planner 중심 소비자 제품·소매점 비중이 컸지만, 2008년 Consumer Solutions Business Unit을 매각하고 기업 교육·컨설팅 중심으로 단순화했다. 이후 All Access Pass(AAP)와 Leader in Me 같은 구독형 모델로 전환해 현재는 반복매출·deferred revenue·renewal이 경제성의 핵심이다.",
+      "original_thesis_ko": "2002 Franklin Covey Short는 planner·retail 중심 소비자 사업의 매출하락과 높은 고정비가 유명 브랜드/IP의 질을 상쇄하고, turnaround가 지연될수록 자산가치와 현금이 소모된다는 논지로 재구성한다.",
+      "actual_development_ko": "회사는 2000년대 중반까지 retail/consumer 구조조정을 이어갔다. FY2007 매출은 $284.1m, 영업이익 $18.1m으로 FY2006 대비 개선됐고, 2008 소비자 사업을 Peterson Partners와 만든 별도법인에 $32m에 매각해 기업 교육·컨설팅 중심으로 재편했다. 장기적으로 회사는 존속하며 구독형 교육회사로 전환했다.",
+      "thesis_verdict_ko": "초기 retail economics와 구조조정 필요성은 적중했지만 브랜드/IP의 재배치 가능성을 terminal decline로 보면 틀린다. 낮은 quality 사업부를 떼어낸 뒤 남는 core의 경제성을 별도 평가해야 한다.",
+      "business_verdict_ko": "회사는 2000년대 중반까지 retail/consumer 구조조정을 이어갔다. FY2007 매출은 $284.1m, 영업이익 $18.1m으로 FY2006 대비 개선됐고, 2008 소비자 사업을 Peterson Partners와 만든 별도법인에 $32m에 매각해 기업 교육·컨설팅 중심으로 재편했다. 장기적으로 회사는 존속하며 구독형 교육회사로 전환했다.",
+      "catalyst_verdict_ko": "FY2006~07 영업이익 회복",
+      "valuation_verdict_ko": "단일 multiple보다 probability-weighted cash-flow/asset waterfall과 시간가치를 사용한다.",
+      "stock_verdict_ko": "부분적중·사업부 매각으로 전환",
+      "current_verdict_ko": "회사는 2000년대 중반까지 retail/consumer 구조조정을 이어갔다. FY2007 매출은 $284.1m, 영업이익 $18.1m으로 FY2006 대비 개선됐고, 2008 소비자 사업을 Peterson Partners와 만든 별도법인에 $32m에 매각해 기업 교육·컨설팅 중심으로 재편했다. 장기적으로 회사는 존속하며 구독형 교육회사로 전환했다.",
+      "overall_verdict_ko": "부분적중·사업부 매각으로 전환",
+      "why_ko": "초기 retail economics와 구조조정 필요성은 적중했지만 브랜드/IP의 재배치 가능성을 terminal decline로 보면 틀린다. 낮은 quality 사업부를 떼어낸 뒤 남는 core의 경제성을 별도 평가해야 한다.",
+      "success_pattern_ko": "catalyst + balance-sheet path + operating KPI",
+      "failure_pattern_ko": "",
+      "root_error_ko": "legacy retail과 durable IP/training core를 하나의 성장률로 합쳐 보는 오류.",
+      "first_signal_ko": "FY2006~07 영업이익 회복",
+      "first_signal_date": "2007-08-31",
+      "knowable_at_t0_ko": "당시 공시에서 debt, capital intensity, asset/segment 구조, 거래조건과 주요 KPI를 추적할 수 있었다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "가장 불리한 가격·운영·자본조달 경로에서도 3년 IRR이 hurdle을 넘는가?",
+      "analyst_note_ko": "VIC 전체 본문이 로그인 없이 제공되지 않는 경우 thesis 문장은 raw metadata·공개 VIC header·동시기 1차자료에 기반한 구조적 재구성이며 직접인용이 아니다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.9,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "ticker": "FC",
+      "research_direction_ko": "Long",
+      "company_description_ko": "Franklin Covey는 7 Habits, 4 Disciplines of Execution 등 지적재산을 기반으로 조직 성과개선 교육·컨설팅·도구를 판매하는 회사다. 2000년대 초에는 Franklin Planner 중심 소비자 제품·소매점 비중이 컸지만, 2008년 Consumer Solutions Business Unit을 매각하고 기업 교육·컨설팅 중심으로 단순화했다. 이후 All Access Pass(AAP)와 Leader in Me 같은 구독형 모델로 전환해 현재는 반복매출·deferred revenue·renewal이 경제성의 핵심이다.",
+      "original_thesis_ko": "2006 Franklin Covey Long은 구조조정으로 비용이 내려가고 training/consulting이 회복되는 가운데 소비자·부동산/기타 자산과 자본환원이 downside를 지지해, 낮은 기대에서 turnaround operating leverage가 발생한다는 논지로 재구성한다.",
+      "actual_development_ko": "FY2007 매출 $284.1m, 영업이익 $18.1m으로 FY2006 $14.0m 대비 개선됐다. 2008 소비자 사업을 $32m 현금에 매각하고 proceeds를 자사주 매입에 쓰겠다고 발표해 core를 교육/컨설팅으로 단순화했다. raw 성과는 1년 +41.4%, 3년 -4.7%, 5년 +75.9%다. 이후 AAP 구독모델로 진화했고 Q3 FY2026 deferred revenue는 $96m이었다.",
+      "thesis_verdict_ko": "turnaround와 asset/capital-allocation catalyst는 실제로 작동했다. 다만 3년 수익률이 마이너스였다는 점은 실행경로가 매끄럽지 않았음을 보여준다. 긴 horizon과 core-business 재편을 견딘 경우 성공한 사례다.",
+      "business_verdict_ko": "FY2007 매출 $284.1m, 영업이익 $18.1m으로 FY2006 $14.0m 대비 개선됐다. 2008 소비자 사업을 $32m 현금에 매각하고 proceeds를 자사주 매입에 쓰겠다고 발표해 core를 교육/컨설팅으로 단순화했다. raw 성과는 1년 +41.4%, 3년 -4.7%, 5년 +75.9%다. 이후 AAP 구독모델로 진화했고 Q3 FY2026 deferred revenue는 $96m이었다.",
+      "catalyst_verdict_ko": "FY2007 operating improvement",
+      "valuation_verdict_ko": "단일 multiple보다 probability-weighted cash-flow/asset waterfall과 시간가치를 사용한다.",
+      "stock_verdict_ko": "성공·경로 변동성 큼",
+      "current_verdict_ko": "FY2007 매출 $284.1m, 영업이익 $18.1m으로 FY2006 $14.0m 대비 개선됐다. 2008 소비자 사업을 $32m 현금에 매각하고 proceeds를 자사주 매입에 쓰겠다고 발표해 core를 교육/컨설팅으로 단순화했다. raw 성과는 1년 +41.4%, 3년 -4.7%, 5년 +75.9%다. 이후 AAP 구독모델로 진화했고 Q3 FY2026 deferred revenue는 $96m이었다.",
+      "overall_verdict_ko": "성공·경로 변동성 큼",
+      "why_ko": "turnaround와 asset/capital-allocation catalyst는 실제로 작동했다. 다만 3년 수익률이 마이너스였다는 점은 실행경로가 매끄럽지 않았음을 보여준다. 긴 horizon과 core-business 재편을 견딘 경우 성공한 사례다.",
+      "success_pattern_ko": "catalyst + balance-sheet path + operating KPI",
+      "failure_pattern_ko": "",
+      "root_error_ko": "legacy retail과 durable IP/training core를 하나의 성장률로 합쳐 보는 오류.",
+      "first_signal_ko": "FY2007 operating improvement",
+      "first_signal_date": "2007-08-31",
+      "knowable_at_t0_ko": "당시 공시에서 debt, capital intensity, asset/segment 구조, 거래조건과 주요 KPI를 추적할 수 있었다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "가장 불리한 가격·운영·자본조달 경로에서도 3년 IRR이 hurdle을 넘는가?",
+      "analyst_note_ko": "VIC 전체 본문이 로그인 없이 제공되지 않는 경우 thesis 문장은 raw metadata·공개 VIC header·동시기 1차자료에 기반한 구조적 재구성이며 직접인용이 아니다.",
+      "corrected_return_1y": 0.4135220125786163,
+      "corrected_return_3y": -0.04716981132075482,
+      "corrected_return_5y": 0.7594339622641508,
+      "confidence": 0.9,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    }
+  ],
+  "sections": [
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Comstock Resources는 미국 독립 천연가스 E&P로 현재 핵심은 Louisiana·East Texas의 Haynesville/Bossier shale이다. 매출은 생산량×실현 가스가격으로 정해지지만 equity의 실질 경제성은 well-level EUR·drilling/completion cost·basis/transport·hedge와 유지개발비를 차감한 free cash flow, 그리고 순부채의 조합으로 결정된다. 2018 Jerry Jones의 Bakken 자산 출자와 지배권 취득, 2019 Covey Park 인수는 기업의 자산·지배구조·레버리지를 크게 바꾼 regime shift였다."
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Comstock Resources는 미국 독립 천연가스 E&P로 현재 핵심은 Louisiana·East Texas의 Haynesville/Bossier shale이다. 매출은 생산량×실현 가스가격으로 정해지지만 equity의 실질 경제성은 well-level EUR·drilling/completion cost·basis/transport·hedge와 유지개발비를 차감한 free cash flow, 그리고 순부채의 조합으로 결정된다. 2018 Jerry Jones의 Bakken 자산 출자와 지배권 취득, 2019 Covey Park 인수는 기업의 자산·지배구조·레버리지를 크게 바꾼 regime shift였다. 핵심은 회계상 EPS보다 commodity/operating KPI에서 실제 equity cash flow로 이어지는 경로다."
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "경쟁우위는 low-cost Haynesville inventory와 Gulf Coast 접근성이지만 gas price·capital intensity가 이를 압도할 수 있다."
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2004 Comstock Short는 높은 commodity sensitivity와 인수·개발 중심 자본배분이 자산가치보다 부채를 빠르게 늘릴 수 있으며, reserve/NAV가 commodity price와 capital intensity를 충분히 반영하지 못한다는 논지로 재구성한다. raw source는 ticker CRK의 재사용 때문에 company_name을 Crocodile Gold로 잘못 매핑했다. VIC source/event/date를 기준으로 Comstock Resources로 교정."
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "밸류에이션은 당시 headline multiple이 아니라 핵심 KPI가 현금으로 전환되는 속도와 downside financing을 함께 할인해야 한다."
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2004년 중반 장기부채는 약 $324m였다. 회사는 이후 수차례 shale 개발·인수 사이클을 거치며 존속했고, 2018 Jones recapitalization과 2019 Covey Park 인수로 사실상 다른 규모·지배구조의 Haynesville gas producer가 됐다. 2026년에도 Haynesville 중심으로 운영 중이다."
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "E&P의 NAV/레버리지 취약성 진단은 타당했지만 terminal failure로 이어지지 않았다. 자산·스폰서·자본구조가 계속 재편되므로 오래된 Short를 동일 법인의 정적 balance-sheet thesis로 유지하면 안 된다."
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류."
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증은 핵심 KPI 또는 capital/catalyst path가 원 논지와 반대로 확인되는 경우다. 최초 주요 신호: 부채보다 생산자산·자본조달 경로가 확대 (2008-12-31)."
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Comstock Resources는 미국 독립 천연가스 E&P로 현재 핵심은 Louisiana·East Texas의 Haynesville/Bossier shale이다. 매출은 생산량×실현 가스가격으로 정해지지만 equity의 실질 경제성은 well-level EUR·drilling/completion cost·basis/transport·hedge와 유지개발비를 차감한 free cash flow, 그리고 순부채의 조합으로 결정된다. 2018 Jerry Jones의 Bakken 자산 출자와 지배권 취득, 2019 Covey Park 인수는 기업의 자산·지배구조·레버리지를 크게 바꾼 regime shift였다."
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Comstock Resources는 미국 독립 천연가스 E&P로 현재 핵심은 Louisiana·East Texas의 Haynesville/Bossier shale이다. 매출은 생산량×실현 가스가격으로 정해지지만 equity의 실질 경제성은 well-level EUR·drilling/completion cost·basis/transport·hedge와 유지개발비를 차감한 free cash flow, 그리고 순부채의 조합으로 결정된다. 2018 Jerry Jones의 Bakken 자산 출자와 지배권 취득, 2019 Covey Park 인수는 기업의 자산·지배구조·레버리지를 크게 바꾼 regime shift였다. 핵심은 회계상 EPS보다 commodity/operating KPI에서 실제 equity cash flow로 이어지는 경로다."
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "경쟁우위는 low-cost Haynesville inventory와 Gulf Coast 접근성이지만 gas price·capital intensity가 이를 압도할 수 있다."
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2010 Comstock Short는 Haynesville 개발이 높은 decline과 지속 CapEx를 요구해 headline reserve growth가 equity FCF로 연결되지 않고, 약한 가스가격에서 레버리지와 negative FCF가 동시에 악화될 수 있다는 논지로 재구성한다. raw source는 ticker CRK의 재사용 때문에 company_name을 Crocodile Gold로 잘못 매핑했다. VIC source/event/date를 기준으로 Comstock Resources로 교정."
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "밸류에이션은 당시 headline multiple이 아니라 핵심 KPI가 현금으로 전환되는 속도와 downside financing을 함께 할인해야 한다."
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2010년 VIC 페이지 기준 주가는 $27.50, 약 47m주, 시총 약 $1.3bn, 순부채 약 $340m로 확인되는 사례다. 2011 Delaware Basin 인수 등 자본집약적 확장이 이어졌고 가스 약세는 실제 재무압력을 키웠다. 그러나 2018 대규모 sponsor recapitalization이 생존경로를 바꿨다."
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "well decline·CapEx·gas price를 연결한 Short 프레임은 옳았지만 equity outcome은 sponsor capital과 자산재편에 크게 좌우됐다. credit/liquidity runway를 별도 확률변수로 둬야 했다."
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류."
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증은 핵심 KPI 또는 capital/catalyst path가 원 논지와 반대로 확인되는 경우다. 최초 주요 신호: 2011 인수로 projected leverage·CapEx 상승 (2011-12-05)."
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Crocodile Gold는 호주 금광 자산을 운영한 캐나다 상장 금광사였다. 가치는 단순 매장량보다 실제 회수율·grade·cash cost/AISC·sustaining capital·mine life에 좌우되고, 2012 Fosterville·Stawell 인수 후에는 AuRico에 대한 deferred/free-cash-flow sharing obligation과 Luxor 자금조달·지배력이 equity waterfall의 핵심이 됐다. 2015 Newmarket Gold와 합병되며 독립 상장사는 사라졌고 이후 계보는 Kirkland Lake Gold로 이어졌다."
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Crocodile Gold는 호주 금광 자산을 운영한 캐나다 상장 금광사였다. 가치는 단순 매장량보다 실제 회수율·grade·cash cost/AISC·sustaining capital·mine life에 좌우되고, 2012 Fosterville·Stawell 인수 후에는 AuRico에 대한 deferred/free-cash-flow sharing obligation과 Luxor 자금조달·지배력이 equity waterfall의 핵심이 됐다. 2015 Newmarket Gold와 합병되며 독립 상장사는 사라졌고 이후 계보는 Kirkland Lake Gold로 이어졌다. 핵심은 회계상 EPS보다 commodity/operating KPI에서 실제 equity cash flow로 이어지는 경로다."
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "광산의 경쟁력은 고정된 브랜드가 아니라 orebody quality·운영실행·자금조달 조건에 의해 바뀐다."
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2011 Crocodile Gold Long은 호주 금광 포트폴리오의 생산 ramp와 금가격 환경이 개선되면 고정비 흡수와 mine cash flow가 빠르게 좋아지고, 당시 낮은 valuation이 재평가될 수 있다는 turnaround/asset-optionality 논지로 재구성한다. raw CRK는 TSX Crocodile Gold를 뜻한다. 동일 ticker의 NYSE Comstock Resources와 분리해 entity를 확정."
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "밸류에이션은 당시 headline multiple이 아니라 핵심 KPI가 현금으로 전환되는 속도와 downside financing을 함께 할인해야 한다."
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2011 운영경로는 매끄럽지 않았고 같은 해 12월 최대주주 Luxor가 C$0.56 현금 공개매수를 제안했다. 2012에는 Fosterville·Stawell을 최대 C$105m 조건으로 인수해 사업구조가 크게 변했고, 2015 Newmarket Gold와 합병됐다."
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "광산자산 optionality와 M&A value는 실제로 존재했지만 standalone mine execution만으로 복리화된 사례가 아니다. financing·대주주 지배·deal waterfall이 thesis의 절반 이상이었다."
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "운영자산 가치와 financing·royalty·M&A waterfall의 상호작용을 충분히 분리하지 못한 오류."
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증은 핵심 KPI 또는 capital/catalyst path가 원 논지와 반대로 확인되는 경우다. 최초 주요 신호: Luxor C$0.56 공개매수 제안 (2011-12-13)."
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다."
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Crocodile Gold는 호주 금광 자산을 운영한 캐나다 상장 금광사였다. 가치는 단순 매장량보다 실제 회수율·grade·cash cost/AISC·sustaining capital·mine life에 좌우되고, 2012 Fosterville·Stawell 인수 후에는 AuRico에 대한 deferred/free-cash-flow sharing obligation과 Luxor 자금조달·지배력이 equity waterfall의 핵심이 됐다. 2015 Newmarket Gold와 합병되며 독립 상장사는 사라졌고 이후 계보는 Kirkland Lake Gold로 이어졌다."
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Crocodile Gold는 호주 금광 자산을 운영한 캐나다 상장 금광사였다. 가치는 단순 매장량보다 실제 회수율·grade·cash cost/AISC·sustaining capital·mine life에 좌우되고, 2012 Fosterville·Stawell 인수 후에는 AuRico에 대한 deferred/free-cash-flow sharing obligation과 Luxor 자금조달·지배력이 equity waterfall의 핵심이 됐다. 2015 Newmarket Gold와 합병되며 독립 상장사는 사라졌고 이후 계보는 Kirkland Lake Gold로 이어졌다. 핵심은 회계상 EPS보다 commodity/operating KPI에서 실제 equity cash flow로 이어지는 경로다."
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "광산의 경쟁력은 고정된 브랜드가 아니라 orebody quality·운영실행·자금조달 조건에 의해 바뀐다."
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2011-12 Crocodile Gold raw Short는 Luxor의 C$0.56 부분공개매수가 전체 주주에게 동일한 확정가치를 보장하지 않으며, 조건·proration·지배권 집중 뒤 minority stub의 가격이 다시 운영가치로 수렴할 수 있다는 event-driven Short로 구조적으로 재구성한다. 원문 본문 미확보로 세부 논지는 확정하지 않는다. raw CRK는 TSX Crocodile Gold를 뜻한다. 동일 ticker의 NYSE Comstock Resources와 분리해 entity를 확정."
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "밸류에이션은 당시 headline multiple이 아니라 핵심 KPI가 현금으로 전환되는 속도와 downside financing을 함께 할인해야 한다."
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "Luxor는 12월 13일 최대 215.4m주를 C$0.56에 사서 기존 지분과 합쳐 약 85%를 목표로 한다고 발표했고 12월 23일 formal offer를 개시했다. 회사는 이후 독립 상장사로 계속 운영했고 2012 대형 광산 인수, 2015 Newmarket 합병으로 경로가 다시 바뀌었다."
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "부분공개매수의 proration/stub-risk라는 구조적 포인트는 중요하지만, 원문이 없어 이 raw Short의 정확한 payoff와 entry를 재현할 수 없다. 방향성 성공/실패를 억지로 단정하지 않고 판정 제한으로 둔다."
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "원문 미확보 때문에 payoff 정의까지 복원할 수 없어 success/failure 단정이 불가능하다."
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증은 핵심 KPI 또는 capital/catalyst path가 원 논지와 반대로 확인되는 경우다. 최초 주요 신호: formal partial tender 개시 (2011-12-23)."
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다."
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Crocodile Gold는 호주 금광 자산을 운영한 캐나다 상장 금광사였다. 가치는 단순 매장량보다 실제 회수율·grade·cash cost/AISC·sustaining capital·mine life에 좌우되고, 2012 Fosterville·Stawell 인수 후에는 AuRico에 대한 deferred/free-cash-flow sharing obligation과 Luxor 자금조달·지배력이 equity waterfall의 핵심이 됐다. 2015 Newmarket Gold와 합병되며 독립 상장사는 사라졌고 이후 계보는 Kirkland Lake Gold로 이어졌다."
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Crocodile Gold는 호주 금광 자산을 운영한 캐나다 상장 금광사였다. 가치는 단순 매장량보다 실제 회수율·grade·cash cost/AISC·sustaining capital·mine life에 좌우되고, 2012 Fosterville·Stawell 인수 후에는 AuRico에 대한 deferred/free-cash-flow sharing obligation과 Luxor 자금조달·지배력이 equity waterfall의 핵심이 됐다. 2015 Newmarket Gold와 합병되며 독립 상장사는 사라졌고 이후 계보는 Kirkland Lake Gold로 이어졌다. 핵심은 회계상 EPS보다 commodity/operating KPI에서 실제 equity cash flow로 이어지는 경로다."
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "광산의 경쟁력은 고정된 브랜드가 아니라 orebody quality·운영실행·자금조달 조건에 의해 바뀐다."
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2014-12 Crocodile Gold raw Short는 높은 금광 operational risk와 대주주/자본구조 복잡성, AuRico FCF-sharing obligation 때문에 headline gold exposure 대비 common equity가 불리하다는 논지로 재구성한다. entity는 날짜·M&A/자본배분 태그와 동시기 corporate events로 Crocodile Gold로 교정한다. raw CRK는 TSX Crocodile Gold를 뜻한다. 동일 ticker의 NYSE Comstock Resources와 분리해 entity를 확정."
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "밸류에이션은 당시 headline multiple이 아니라 핵심 KPI가 현금으로 전환되는 속도와 downside financing을 함께 할인해야 한다."
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "12월 22일 회사는 AuRico와 기존 FCF-sharing을 C$20m 현금 + Fosterville 2%/Stawell 1% NSR로 바꾸는 계약을 발표했다. 2015년 5월 Newmarket과 거래를 발표했고 Crocodile 주주는 C$0.37 현금 또는 주식 선택권을 받았으며 7월 합병이 완료됐다."
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "liability와 governance 복잡성은 맞았지만 2015 strategic transaction이 late-2014 equity에 실현가치를 부여했다. raw directional Short 관점에서는 M&A optionality를 과소평가한 실패로 보는 편이 타당하다."
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "운영자산 가치와 financing·royalty·M&A waterfall의 상호작용을 충분히 분리하지 못한 오류."
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증은 핵심 KPI 또는 capital/catalyst path가 원 논지와 반대로 확인되는 경우다. 최초 주요 신호: AuRico FCF-sharing 종료로 구조 단순화 (2014-12-22)."
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다."
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Comstock Resources는 미국 독립 천연가스 E&P로 현재 핵심은 Louisiana·East Texas의 Haynesville/Bossier shale이다. 매출은 생산량×실현 가스가격으로 정해지지만 equity의 실질 경제성은 well-level EUR·drilling/completion cost·basis/transport·hedge와 유지개발비를 차감한 free cash flow, 그리고 순부채의 조합으로 결정된다. 2018 Jerry Jones의 Bakken 자산 출자와 지배권 취득, 2019 Covey Park 인수는 기업의 자산·지배구조·레버리지를 크게 바꾼 regime shift였다."
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Comstock Resources는 미국 독립 천연가스 E&P로 현재 핵심은 Louisiana·East Texas의 Haynesville/Bossier shale이다. 매출은 생산량×실현 가스가격으로 정해지지만 equity의 실질 경제성은 well-level EUR·drilling/completion cost·basis/transport·hedge와 유지개발비를 차감한 free cash flow, 그리고 순부채의 조합으로 결정된다. 2018 Jerry Jones의 Bakken 자산 출자와 지배권 취득, 2019 Covey Park 인수는 기업의 자산·지배구조·레버리지를 크게 바꾼 regime shift였다. 핵심은 회계상 EPS보다 commodity/operating KPI에서 실제 equity cash flow로 이어지는 경로다."
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "경쟁우위는 low-cost Haynesville inventory와 Gulf Coast 접근성이지만 gas price·capital intensity가 이를 압도할 수 있다."
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2018 Comstock Short는 높은 부채와 drilling cash burn을 가진 E&P에서 asset sale·refinancing만으로 common equity가 보전되기 어렵고, 구조조정 또는 대규모 dilution 위험이 크다는 event/capital-structure 논지로 재구성한다. raw source는 ticker CRK의 재사용 때문에 company_name을 Crocodile Gold로 잘못 매핑했다. VIC source/event/date를 기준으로 Comstock Resources로 교정."
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "밸류에이션은 당시 headline multiple이 아니라 핵심 KPI가 현금으로 전환되는 속도와 downside financing을 함께 할인해야 한다."
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "불과 몇 달 뒤 Jerry Jones 계열은 약 $620m로 평가된 Bakken 자산을 출자하고 최대 88.57m 신주를 받아 pro forma 약 84.5%를 보유하는 거래에 합의했다. 8월 거래·refinancing이 닫히면서 기존 equity는 희석됐지만 동시에 유동성과 생존경로가 크게 개선됐다."
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "희석·자본구조 리스크는 정확했으나 sponsor recapitalization이 distress를 equity extinction이 아니라 control transfer로 바꿨다. distressed E&P Short는 신규 외부자본의 option value를 반드시 모델링해야 한다."
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류."
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증은 핵심 KPI 또는 capital/catalyst path가 원 논지와 반대로 확인되는 경우다. 최초 주요 신호: Jones contribution agreement (2018-05-09)."
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Comstock Resources는 미국 독립 천연가스 E&P로 현재 핵심은 Louisiana·East Texas의 Haynesville/Bossier shale이다. 매출은 생산량×실현 가스가격으로 정해지지만 equity의 실질 경제성은 well-level EUR·drilling/completion cost·basis/transport·hedge와 유지개발비를 차감한 free cash flow, 그리고 순부채의 조합으로 결정된다. 2018 Jerry Jones의 Bakken 자산 출자와 지배권 취득, 2019 Covey Park 인수는 기업의 자산·지배구조·레버리지를 크게 바꾼 regime shift였다."
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Comstock Resources는 미국 독립 천연가스 E&P로 현재 핵심은 Louisiana·East Texas의 Haynesville/Bossier shale이다. 매출은 생산량×실현 가스가격으로 정해지지만 equity의 실질 경제성은 well-level EUR·drilling/completion cost·basis/transport·hedge와 유지개발비를 차감한 free cash flow, 그리고 순부채의 조합으로 결정된다. 2018 Jerry Jones의 Bakken 자산 출자와 지배권 취득, 2019 Covey Park 인수는 기업의 자산·지배구조·레버리지를 크게 바꾼 regime shift였다. 핵심은 회계상 EPS보다 commodity/operating KPI에서 실제 equity cash flow로 이어지는 경로다."
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "경쟁우위는 low-cost Haynesville inventory와 Gulf Coast 접근성이지만 gas price·capital intensity가 이를 압도할 수 있다."
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2019 Comstock Short는 Covey Park 인수 후 약 $5.3bn TEV와 $2.73bn 순부채, 50%+ borrow cost가 보여주듯 leverage·control concentration·preferred dilution이 큰데 시장이 Haynesville scale synergy와 gas economics를 과대평가한다는 논지다. raw source는 ticker CRK의 재사용 때문에 company_name을 Crocodile Gold로 잘못 매핑했다. VIC source/event/date를 기준으로 Comstock Resources로 교정."
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "밸류에이션은 당시 headline multiple이 아니라 핵심 KPI가 현금으로 전환되는 속도와 downside financing을 함께 할인해야 한다."
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "VIC 페이지는 $9.35, 시총 $2.627bn, 순부채 $2.732bn, TEV $5.332bn을 기록한다. 실제 Covey Park deal은 약 $2.2bn이었고 Jones는 $475m를 추가 투자했다. 이후 2021~22 gas price 급등으로 FCF가 폭발해 2022 FCF $673m, debt retirement $506m을 기록했다."
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "leverage와 preferred/지배구조 위험은 실재했지만 commodity upside의 convexity를 놓쳤다. 높은 부채는 downside만 키우는 게 아니라 gas price 상승 시 equity beta도 폭발적으로 키웠다."
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류."
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증은 핵심 KPI 또는 capital/catalyst path가 원 논지와 반대로 확인되는 경우다. 최초 주요 신호: 2021 gas rally와 FCF inflection (2021-06-30)."
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Comstock Resources는 미국 독립 천연가스 E&P로 현재 핵심은 Louisiana·East Texas의 Haynesville/Bossier shale이다. 매출은 생산량×실현 가스가격으로 정해지지만 equity의 실질 경제성은 well-level EUR·drilling/completion cost·basis/transport·hedge와 유지개발비를 차감한 free cash flow, 그리고 순부채의 조합으로 결정된다. 2018 Jerry Jones의 Bakken 자산 출자와 지배권 취득, 2019 Covey Park 인수는 기업의 자산·지배구조·레버리지를 크게 바꾼 regime shift였다."
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Comstock Resources는 미국 독립 천연가스 E&P로 현재 핵심은 Louisiana·East Texas의 Haynesville/Bossier shale이다. 매출은 생산량×실현 가스가격으로 정해지지만 equity의 실질 경제성은 well-level EUR·drilling/completion cost·basis/transport·hedge와 유지개발비를 차감한 free cash flow, 그리고 순부채의 조합으로 결정된다. 2018 Jerry Jones의 Bakken 자산 출자와 지배권 취득, 2019 Covey Park 인수는 기업의 자산·지배구조·레버리지를 크게 바꾼 regime shift였다. 핵심은 회계상 EPS보다 commodity/operating KPI에서 실제 equity cash flow로 이어지는 경로다."
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "경쟁우위는 low-cost Haynesville inventory와 Gulf Coast 접근성이지만 gas price·capital intensity가 이를 압도할 수 있다."
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2021 Comstock Short는 주가 $7.65, 시총 약 $2.075bn 대비 순부채 약 $2.934bn인 고레버리지 gas producer에서 hedges·개발비·가스가격 정상화를 감안하면 당시 기대 FCF가 지속되기 어렵다는 논지로 재구성한다. raw source는 ticker CRK의 재사용 때문에 company_name을 Crocodile Gold로 잘못 매핑했다. VIC source/event/date를 기준으로 Comstock Resources로 교정."
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "밸류에이션은 당시 headline multiple이 아니라 핵심 KPI가 현금으로 전환되는 속도와 downside financing을 함께 할인해야 한다."
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2021 회사는 FCF $262m과 Q4 debt paydown $190m을 냈고, 2022에는 gas 가격 급등으로 FCF $673m, $506m debt retirement, 배당 재개까지 갔다. 이후 2023 가스가격 약세로 실현가격이 크게 내려가고 현금창출이 다시 둔화해 원래의 cyclicality 경고는 뒤늦게 나타났다. 2026년에도 회사는 Haynesville 개발을 지속한다."
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "cycle-normalization 리스크는 맞았으나 12개월 horizon에서 2022 gas spike를 견디지 못한 타이밍 오류다. commodity Short는 장기 평균가격보다 hedge book·storage/LNG·supply response가 만드는 path를 먼저 모델링해야 한다."
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류."
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증은 핵심 KPI 또는 capital/catalyst path가 원 논지와 반대로 확인되는 경우다. 최초 주요 신호: 2022 record FCF/deleveraging (2022-12-31)."
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Franklin Covey는 7 Habits, 4 Disciplines of Execution 등 지적재산을 기반으로 조직 성과개선 교육·컨설팅·도구를 판매하는 회사다. 2000년대 초에는 Franklin Planner 중심 소비자 제품·소매점 비중이 컸지만, 2008년 Consumer Solutions Business Unit을 매각하고 기업 교육·컨설팅 중심으로 단순화했다. 이후 All Access Pass(AAP)와 Leader in Me 같은 구독형 모델로 전환해 현재는 반복매출·deferred revenue·renewal이 경제성의 핵심이다."
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Franklin Covey는 7 Habits, 4 Disciplines of Execution 등 지적재산을 기반으로 조직 성과개선 교육·컨설팅·도구를 판매하는 회사다. 2000년대 초에는 Franklin Planner 중심 소비자 제품·소매점 비중이 컸지만, 2008년 Consumer Solutions Business Unit을 매각하고 기업 교육·컨설팅 중심으로 단순화했다. 이후 All Access Pass(AAP)와 Leader in Me 같은 구독형 모델로 전환해 현재는 반복매출·deferred revenue·renewal이 경제성의 핵심이다. 핵심은 회계상 EPS보다 commodity/operating KPI에서 실제 equity cash flow로 이어지는 경로다."
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "지속 경쟁력은 브랜드 IP, 고객 조직 내 확산, facilitator ecosystem과 구독 renewal에서 나온다."
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2002 Franklin Covey Short는 planner·retail 중심 소비자 사업의 매출하락과 높은 고정비가 유명 브랜드/IP의 질을 상쇄하고, turnaround가 지연될수록 자산가치와 현금이 소모된다는 논지로 재구성한다."
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "밸류에이션은 당시 headline multiple이 아니라 핵심 KPI가 현금으로 전환되는 속도와 downside financing을 함께 할인해야 한다."
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "회사는 2000년대 중반까지 retail/consumer 구조조정을 이어갔다. FY2007 매출은 $284.1m, 영업이익 $18.1m으로 FY2006 대비 개선됐고, 2008 소비자 사업을 Peterson Partners와 만든 별도법인에 $32m에 매각해 기업 교육·컨설팅 중심으로 재편했다. 장기적으로 회사는 존속하며 구독형 교육회사로 전환했다."
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "초기 retail economics와 구조조정 필요성은 적중했지만 브랜드/IP의 재배치 가능성을 terminal decline로 보면 틀린다. 낮은 quality 사업부를 떼어낸 뒤 남는 core의 경제성을 별도 평가해야 한다."
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "legacy retail과 durable IP/training core를 하나의 성장률로 합쳐 보는 오류."
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증은 핵심 KPI 또는 capital/catalyst path가 원 논지와 반대로 확인되는 경우다. 최초 주요 신호: FY2006~07 영업이익 회복 (2007-08-31)."
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "turnaround에서 전체 매출 추세보다 좋은 core와 나쁜 legacy segment를 분리한다. 매각·비용절감 후 남는 core의 반복매출·retention·incremental margin이 장기 가치의 핵심이다."
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Franklin Covey는 7 Habits, 4 Disciplines of Execution 등 지적재산을 기반으로 조직 성과개선 교육·컨설팅·도구를 판매하는 회사다. 2000년대 초에는 Franklin Planner 중심 소비자 제품·소매점 비중이 컸지만, 2008년 Consumer Solutions Business Unit을 매각하고 기업 교육·컨설팅 중심으로 단순화했다. 이후 All Access Pass(AAP)와 Leader in Me 같은 구독형 모델로 전환해 현재는 반복매출·deferred revenue·renewal이 경제성의 핵심이다."
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Franklin Covey는 7 Habits, 4 Disciplines of Execution 등 지적재산을 기반으로 조직 성과개선 교육·컨설팅·도구를 판매하는 회사다. 2000년대 초에는 Franklin Planner 중심 소비자 제품·소매점 비중이 컸지만, 2008년 Consumer Solutions Business Unit을 매각하고 기업 교육·컨설팅 중심으로 단순화했다. 이후 All Access Pass(AAP)와 Leader in Me 같은 구독형 모델로 전환해 현재는 반복매출·deferred revenue·renewal이 경제성의 핵심이다. 핵심은 회계상 EPS보다 commodity/operating KPI에서 실제 equity cash flow로 이어지는 경로다."
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "지속 경쟁력은 브랜드 IP, 고객 조직 내 확산, facilitator ecosystem과 구독 renewal에서 나온다."
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2006 Franklin Covey Long은 구조조정으로 비용이 내려가고 training/consulting이 회복되는 가운데 소비자·부동산/기타 자산과 자본환원이 downside를 지지해, 낮은 기대에서 turnaround operating leverage가 발생한다는 논지로 재구성한다."
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "밸류에이션은 당시 headline multiple이 아니라 핵심 KPI가 현금으로 전환되는 속도와 downside financing을 함께 할인해야 한다."
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "FY2007 매출 $284.1m, 영업이익 $18.1m으로 FY2006 $14.0m 대비 개선됐다. 2008 소비자 사업을 $32m 현금에 매각하고 proceeds를 자사주 매입에 쓰겠다고 발표해 core를 교육/컨설팅으로 단순화했다. raw 성과는 1년 +41.4%, 3년 -4.7%, 5년 +75.9%다. 이후 AAP 구독모델로 진화했고 Q3 FY2026 deferred revenue는 $96m이었다."
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "turnaround와 asset/capital-allocation catalyst는 실제로 작동했다. 다만 3년 수익률이 마이너스였다는 점은 실행경로가 매끄럽지 않았음을 보여준다. 긴 horizon과 core-business 재편을 견딘 경우 성공한 사례다."
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "legacy retail과 durable IP/training core를 하나의 성장률로 합쳐 보는 오류."
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증은 핵심 KPI 또는 capital/catalyst path가 원 논지와 반대로 확인되는 경우다. 최초 주요 신호: FY2007 operating improvement (2007-08-31)."
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "turnaround에서 전체 매출 추세보다 좋은 core와 나쁜 legacy segment를 분리한다. 매각·비용절감 후 남는 core의 반복매출·retention·incremental margin이 장기 가치의 핵심이다."
+    }
+  ],
+  "claims": [
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "claim_order": 1,
+      "claim_title_ko": "commodity price·hedge",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2004 Comstock Short는 높은 commodity sensitivity와 인수·개발 중심 자본배분이 자산가치보다 부채를 빠르게 늘릴 수 있으며, reserve/NAV가 commodity price와 capital intensity를 충분히 반영하지 못한다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "핵심 가격/수요 변수가 thesis 반대방향으로 지속",
+      "actual_result_ko": "2004년 중반 장기부채는 약 $324m였다. 회사는 이후 수차례 shale 개발·인수 사이클을 거치며 존속했고, 2018 Jones recapitalization과 2019 Covey Park 인수로 사실상 다른 규모·지배구조의 Haynesville gas producer가 됐다. 2026년에도 Haynesville 중심으로 운영 중이다.",
+      "quantitative_gap_ko": "2004 debt ≈$324m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "claim_order": 2,
+      "claim_title_ko": "well EUR·decline·unit cost",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2004 Comstock Short는 높은 commodity sensitivity와 인수·개발 중심 자본배분이 자산가치보다 부채를 빠르게 늘릴 수 있으며, reserve/NAV가 commodity price와 capital intensity를 충분히 반영하지 못한다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "unit economics 또는 asset quality가 예상보다 강함",
+      "actual_result_ko": "2004년 중반 장기부채는 약 $324m였다. 회사는 이후 수차례 shale 개발·인수 사이클을 거치며 존속했고, 2018 Jones recapitalization과 2019 Covey Park 인수로 사실상 다른 규모·지배구조의 Haynesville gas producer가 됐다. 2026년에도 Haynesville 중심으로 운영 중이다.",
+      "quantitative_gap_ko": "2018 Jones 84% control",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "claim_order": 3,
+      "claim_title_ko": "drilling CapEx·FCF",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2004 Comstock Short는 높은 commodity sensitivity와 인수·개발 중심 자본배분이 자산가치보다 부채를 빠르게 늘릴 수 있으며, reserve/NAV가 commodity price와 capital intensity를 충분히 반영하지 못한다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "FCF가 capital intensity를 흡수하며 개선",
+      "actual_result_ko": "2004년 중반 장기부채는 약 $324m였다. 회사는 이후 수차례 shale 개발·인수 사이클을 거치며 존속했고, 2018 Jones recapitalization과 2019 Covey Park 인수로 사실상 다른 규모·지배구조의 Haynesville gas producer가 됐다. 2026년에도 Haynesville 중심으로 운영 중이다.",
+      "quantitative_gap_ko": "2019 Covey Park $2.2bn",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "claim_order": 4,
+      "claim_title_ko": "debt·refinancing",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2004 Comstock Short는 높은 commodity sensitivity와 인수·개발 중심 자본배분이 자산가치보다 부채를 빠르게 늘릴 수 있으며, reserve/NAV가 commodity price와 capital intensity를 충분히 반영하지 못한다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "debt/refinancing runway가 충분히 연장",
+      "actual_result_ko": "2004년 중반 장기부채는 약 $324m였다. 회사는 이후 수차례 shale 개발·인수 사이클을 거치며 존속했고, 2018 Jones recapitalization과 2019 Covey Park 인수로 사실상 다른 규모·지배구조의 Haynesville gas producer가 됐다. 2026년에도 Haynesville 중심으로 운영 중이다.",
+      "quantitative_gap_ko": "2026 Haynesville focus",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "claim_order": 5,
+      "claim_title_ko": "asset/M&A·sponsor capital",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2004 Comstock Short는 높은 commodity sensitivity와 인수·개발 중심 자본배분이 자산가치보다 부채를 빠르게 늘릴 수 있으며, reserve/NAV가 commodity price와 capital intensity를 충분히 반영하지 못한다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "M&A/sponsor/segment-sale optionality가 실현",
+      "actual_result_ko": "2004년 중반 장기부채는 약 $324m였다. 회사는 이후 수차례 shale 개발·인수 사이클을 거치며 존속했고, 2018 Jones recapitalization과 2019 Covey Park 인수로 사실상 다른 규모·지배구조의 Haynesville gas producer가 됐다. 2026년에도 Haynesville 중심으로 운영 중이다.",
+      "quantitative_gap_ko": "2026 Haynesville focus",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "claim_order": 6,
+      "claim_title_ko": "valuation·반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2004 Comstock Short는 높은 commodity sensitivity와 인수·개발 중심 자본배분이 자산가치보다 부채를 빠르게 늘릴 수 있으며, reserve/NAV가 commodity price와 capital intensity를 충분히 반영하지 못한다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "risk-adjusted IRR이 hurdle을 상회",
+      "actual_result_ko": "2004년 중반 장기부채는 약 $324m였다. 회사는 이후 수차례 shale 개발·인수 사이클을 거치며 존속했고, 2018 Jones recapitalization과 2019 Covey Park 인수로 사실상 다른 규모·지배구조의 Haynesville gas producer가 됐다. 2026년에도 Haynesville 중심으로 운영 중이다.",
+      "quantitative_gap_ko": "2026 Haynesville focus",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "claim_order": 1,
+      "claim_title_ko": "commodity price·hedge",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2010 Comstock Short는 Haynesville 개발이 높은 decline과 지속 CapEx를 요구해 headline reserve growth가 equity FCF로 연결되지 않고, 약한 가스가격에서 레버리지와 negative FCF가 동시에 악화될 수 있다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "핵심 가격/수요 변수가 thesis 반대방향으로 지속",
+      "actual_result_ko": "2010년 VIC 페이지 기준 주가는 $27.50, 약 47m주, 시총 약 $1.3bn, 순부채 약 $340m로 확인되는 사례다. 2011 Delaware Basin 인수 등 자본집약적 확장이 이어졌고 가스 약세는 실제 재무압력을 키웠다. 그러나 2018 대규모 sponsor recapitalization이 생존경로를 바꿨다.",
+      "quantitative_gap_ko": "2010 price $27.50",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "claim_order": 2,
+      "claim_title_ko": "well EUR·decline·unit cost",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2010 Comstock Short는 Haynesville 개발이 높은 decline과 지속 CapEx를 요구해 headline reserve growth가 equity FCF로 연결되지 않고, 약한 가스가격에서 레버리지와 negative FCF가 동시에 악화될 수 있다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "unit economics 또는 asset quality가 예상보다 강함",
+      "actual_result_ko": "2010년 VIC 페이지 기준 주가는 $27.50, 약 47m주, 시총 약 $1.3bn, 순부채 약 $340m로 확인되는 사례다. 2011 Delaware Basin 인수 등 자본집약적 확장이 이어졌고 가스 약세는 실제 재무압력을 키웠다. 그러나 2018 대규모 sponsor recapitalization이 생존경로를 바꿨다.",
+      "quantitative_gap_ko": "2010 net debt ≈$340m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "claim_order": 3,
+      "claim_title_ko": "drilling CapEx·FCF",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2010 Comstock Short는 Haynesville 개발이 높은 decline과 지속 CapEx를 요구해 headline reserve growth가 equity FCF로 연결되지 않고, 약한 가스가격에서 레버리지와 negative FCF가 동시에 악화될 수 있다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "FCF가 capital intensity를 흡수하며 개선",
+      "actual_result_ko": "2010년 VIC 페이지 기준 주가는 $27.50, 약 47m주, 시총 약 $1.3bn, 순부채 약 $340m로 확인되는 사례다. 2011 Delaware Basin 인수 등 자본집약적 확장이 이어졌고 가스 약세는 실제 재무압력을 키웠다. 그러나 2018 대규모 sponsor recapitalization이 생존경로를 바꿨다.",
+      "quantitative_gap_ko": "2011 Delaware deal ≈$333m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "claim_order": 4,
+      "claim_title_ko": "debt·refinancing",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2010 Comstock Short는 Haynesville 개발이 높은 decline과 지속 CapEx를 요구해 headline reserve growth가 equity FCF로 연결되지 않고, 약한 가스가격에서 레버리지와 negative FCF가 동시에 악화될 수 있다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "debt/refinancing runway가 충분히 연장",
+      "actual_result_ko": "2010년 VIC 페이지 기준 주가는 $27.50, 약 47m주, 시총 약 $1.3bn, 순부채 약 $340m로 확인되는 사례다. 2011 Delaware Basin 인수 등 자본집약적 확장이 이어졌고 가스 약세는 실제 재무압력을 키웠다. 그러나 2018 대규모 sponsor recapitalization이 생존경로를 바꿨다.",
+      "quantitative_gap_ko": "2018 sponsor recap",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "claim_order": 5,
+      "claim_title_ko": "asset/M&A·sponsor capital",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2010 Comstock Short는 Haynesville 개발이 높은 decline과 지속 CapEx를 요구해 headline reserve growth가 equity FCF로 연결되지 않고, 약한 가스가격에서 레버리지와 negative FCF가 동시에 악화될 수 있다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "M&A/sponsor/segment-sale optionality가 실현",
+      "actual_result_ko": "2010년 VIC 페이지 기준 주가는 $27.50, 약 47m주, 시총 약 $1.3bn, 순부채 약 $340m로 확인되는 사례다. 2011 Delaware Basin 인수 등 자본집약적 확장이 이어졌고 가스 약세는 실제 재무압력을 키웠다. 그러나 2018 대규모 sponsor recapitalization이 생존경로를 바꿨다.",
+      "quantitative_gap_ko": "2018 sponsor recap",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "claim_order": 6,
+      "claim_title_ko": "valuation·반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2010 Comstock Short는 Haynesville 개발이 높은 decline과 지속 CapEx를 요구해 headline reserve growth가 equity FCF로 연결되지 않고, 약한 가스가격에서 레버리지와 negative FCF가 동시에 악화될 수 있다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "risk-adjusted IRR이 hurdle을 상회",
+      "actual_result_ko": "2010년 VIC 페이지 기준 주가는 $27.50, 약 47m주, 시총 약 $1.3bn, 순부채 약 $340m로 확인되는 사례다. 2011 Delaware Basin 인수 등 자본집약적 확장이 이어졌고 가스 약세는 실제 재무압력을 키웠다. 그러나 2018 대규모 sponsor recapitalization이 생존경로를 바꿨다.",
+      "quantitative_gap_ko": "2018 sponsor recap",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "claim_order": 1,
+      "claim_title_ko": "grade·recovery·production",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2011 Crocodile Gold Long은 호주 금광 포트폴리오의 생산 ramp와 금가격 환경이 개선되면 고정비 흡수와 mine cash flow가 빠르게 좋아지고, 당시 낮은 valuation이 재평가될 수 있다는 turnaround/asset-optionality 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "핵심 가격/수요 변수가 thesis 반대방향으로 지속",
+      "actual_result_ko": "2011 운영경로는 매끄럽지 않았고 같은 해 12월 최대주주 Luxor가 C$0.56 현금 공개매수를 제안했다. 2012에는 Fosterville·Stawell을 최대 C$105m 조건으로 인수해 사업구조가 크게 변했고, 2015 Newmarket Gold와 합병됐다.",
+      "quantitative_gap_ko": "Luxor bid C$0.56",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "운영자산 가치와 financing·royalty·M&A waterfall의 상호작용을 충분히 분리하지 못한 오류.",
+      "reusable_lesson_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다."
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "claim_order": 2,
+      "claim_title_ko": "cash cost·sustaining CapEx",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2011 Crocodile Gold Long은 호주 금광 포트폴리오의 생산 ramp와 금가격 환경이 개선되면 고정비 흡수와 mine cash flow가 빠르게 좋아지고, 당시 낮은 valuation이 재평가될 수 있다는 turnaround/asset-optionality 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "unit economics 또는 asset quality가 예상보다 강함",
+      "actual_result_ko": "2011 운영경로는 매끄럽지 않았고 같은 해 12월 최대주주 Luxor가 C$0.56 현금 공개매수를 제안했다. 2012에는 Fosterville·Stawell을 최대 C$105m 조건으로 인수해 사업구조가 크게 변했고, 2015 Newmarket Gold와 합병됐다.",
+      "quantitative_gap_ko": "bid premium ≈60%",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "운영자산 가치와 financing·royalty·M&A waterfall의 상호작용을 충분히 분리하지 못한 오류.",
+      "reusable_lesson_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다."
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "claim_order": 3,
+      "claim_title_ko": "liquidity·financing",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2011 Crocodile Gold Long은 호주 금광 포트폴리오의 생산 ramp와 금가격 환경이 개선되면 고정비 흡수와 mine cash flow가 빠르게 좋아지고, 당시 낮은 valuation이 재평가될 수 있다는 turnaround/asset-optionality 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "FCF가 capital intensity를 흡수하며 개선",
+      "actual_result_ko": "2011 운영경로는 매끄럽지 않았고 같은 해 12월 최대주주 Luxor가 C$0.56 현금 공개매수를 제안했다. 2012에는 Fosterville·Stawell을 최대 C$105m 조건으로 인수해 사업구조가 크게 변했고, 2015 Newmarket Gold와 합병됐다.",
+      "quantitative_gap_ko": "2012 asset deal up to C$105m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "운영자산 가치와 financing·royalty·M&A waterfall의 상호작용을 충분히 분리하지 못한 오류.",
+      "reusable_lesson_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다."
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "claim_order": 4,
+      "claim_title_ko": "Luxor/governance",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2011 Crocodile Gold Long은 호주 금광 포트폴리오의 생산 ramp와 금가격 환경이 개선되면 고정비 흡수와 mine cash flow가 빠르게 좋아지고, 당시 낮은 valuation이 재평가될 수 있다는 turnaround/asset-optionality 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "debt/refinancing runway가 충분히 연장",
+      "actual_result_ko": "2011 운영경로는 매끄럽지 않았고 같은 해 12월 최대주주 Luxor가 C$0.56 현금 공개매수를 제안했다. 2012에는 Fosterville·Stawell을 최대 C$105m 조건으로 인수해 사업구조가 크게 변했고, 2015 Newmarket Gold와 합병됐다.",
+      "quantitative_gap_ko": "2015 merger cash option C$0.37",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "운영자산 가치와 financing·royalty·M&A waterfall의 상호작용을 충분히 분리하지 못한 오류.",
+      "reusable_lesson_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다."
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "claim_order": 5,
+      "claim_title_ko": "M&A·royalty waterfall",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2011 Crocodile Gold Long은 호주 금광 포트폴리오의 생산 ramp와 금가격 환경이 개선되면 고정비 흡수와 mine cash flow가 빠르게 좋아지고, 당시 낮은 valuation이 재평가될 수 있다는 turnaround/asset-optionality 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "M&A/sponsor/segment-sale optionality가 실현",
+      "actual_result_ko": "2011 운영경로는 매끄럽지 않았고 같은 해 12월 최대주주 Luxor가 C$0.56 현금 공개매수를 제안했다. 2012에는 Fosterville·Stawell을 최대 C$105m 조건으로 인수해 사업구조가 크게 변했고, 2015 Newmarket Gold와 합병됐다.",
+      "quantitative_gap_ko": "2015 merger cash option C$0.37",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "운영자산 가치와 financing·royalty·M&A waterfall의 상호작용을 충분히 분리하지 못한 오류.",
+      "reusable_lesson_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다."
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "claim_order": 6,
+      "claim_title_ko": "valuation·반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2011 Crocodile Gold Long은 호주 금광 포트폴리오의 생산 ramp와 금가격 환경이 개선되면 고정비 흡수와 mine cash flow가 빠르게 좋아지고, 당시 낮은 valuation이 재평가될 수 있다는 turnaround/asset-optionality 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "risk-adjusted IRR이 hurdle을 상회",
+      "actual_result_ko": "2011 운영경로는 매끄럽지 않았고 같은 해 12월 최대주주 Luxor가 C$0.56 현금 공개매수를 제안했다. 2012에는 Fosterville·Stawell을 최대 C$105m 조건으로 인수해 사업구조가 크게 변했고, 2015 Newmarket Gold와 합병됐다.",
+      "quantitative_gap_ko": "2015 merger cash option C$0.37",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "운영자산 가치와 financing·royalty·M&A waterfall의 상호작용을 충분히 분리하지 못한 오류.",
+      "reusable_lesson_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다."
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "claim_order": 1,
+      "claim_title_ko": "grade·recovery·production",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2011-12 Crocodile Gold raw Short는 Luxor의 C$0.56 부분공개매수가 전체 주주에게 동일한 확정가치를 보장하지 않으며, 조건·proration·지배권 집중 뒤 minority stub의 가격이 다시 운영가치로 수렴할 수 있다는 event-driven Short로 구조적으로 재구성한다. 원문 본문 미확보로 세부 논지는 확정하지 않는다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "핵심 가격/수요 변수가 thesis 반대방향으로 지속",
+      "actual_result_ko": "Luxor는 12월 13일 최대 215.4m주를 C$0.56에 사서 기존 지분과 합쳐 약 85%를 목표로 한다고 발표했고 12월 23일 formal offer를 개시했다. 회사는 이후 독립 상장사로 계속 운영했고 2012 대형 광산 인수, 2015 Newmarket 합병으로 경로가 다시 바뀌었다.",
+      "quantitative_gap_ko": "offer C$0.56",
+      "verdict_ko": "판정 제한",
+      "analytical_error_ko": "원문 미확보 때문에 payoff 정의까지 복원할 수 없어 success/failure 단정이 불가능하다.",
+      "reusable_lesson_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다."
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "claim_order": 2,
+      "claim_title_ko": "cash cost·sustaining CapEx",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2011-12 Crocodile Gold raw Short는 Luxor의 C$0.56 부분공개매수가 전체 주주에게 동일한 확정가치를 보장하지 않으며, 조건·proration·지배권 집중 뒤 minority stub의 가격이 다시 운영가치로 수렴할 수 있다는 event-driven Short로 구조적으로 재구성한다. 원문 본문 미확보로 세부 논지는 확정하지 않는다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "unit economics 또는 asset quality가 예상보다 강함",
+      "actual_result_ko": "Luxor는 12월 13일 최대 215.4m주를 C$0.56에 사서 기존 지분과 합쳐 약 85%를 목표로 한다고 발표했고 12월 23일 formal offer를 개시했다. 회사는 이후 독립 상장사로 계속 운영했고 2012 대형 광산 인수, 2015 Newmarket 합병으로 경로가 다시 바뀌었다.",
+      "quantitative_gap_ko": "up to 215.4m shares",
+      "verdict_ko": "판정 제한",
+      "analytical_error_ko": "원문 미확보 때문에 payoff 정의까지 복원할 수 없어 success/failure 단정이 불가능하다.",
+      "reusable_lesson_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다."
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "claim_order": 3,
+      "claim_title_ko": "liquidity·financing",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2011-12 Crocodile Gold raw Short는 Luxor의 C$0.56 부분공개매수가 전체 주주에게 동일한 확정가치를 보장하지 않으며, 조건·proration·지배권 집중 뒤 minority stub의 가격이 다시 운영가치로 수렴할 수 있다는 event-driven Short로 구조적으로 재구성한다. 원문 본문 미확보로 세부 논지는 확정하지 않는다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "FCF가 capital intensity를 흡수하며 개선",
+      "actual_result_ko": "Luxor는 12월 13일 최대 215.4m주를 C$0.56에 사서 기존 지분과 합쳐 약 85%를 목표로 한다고 발표했고 12월 23일 formal offer를 개시했다. 회사는 이후 독립 상장사로 계속 운영했고 2012 대형 광산 인수, 2015 Newmarket 합병으로 경로가 다시 바뀌었다.",
+      "quantitative_gap_ko": "target ownership ≈85%",
+      "verdict_ko": "판정 제한",
+      "analytical_error_ko": "원문 미확보 때문에 payoff 정의까지 복원할 수 없어 success/failure 단정이 불가능하다.",
+      "reusable_lesson_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다."
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "claim_order": 4,
+      "claim_title_ko": "Luxor/governance",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2011-12 Crocodile Gold raw Short는 Luxor의 C$0.56 부분공개매수가 전체 주주에게 동일한 확정가치를 보장하지 않으며, 조건·proration·지배권 집중 뒤 minority stub의 가격이 다시 운영가치로 수렴할 수 있다는 event-driven Short로 구조적으로 재구성한다. 원문 본문 미확보로 세부 논지는 확정하지 않는다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "debt/refinancing runway가 충분히 연장",
+      "actual_result_ko": "Luxor는 12월 13일 최대 215.4m주를 C$0.56에 사서 기존 지분과 합쳐 약 85%를 목표로 한다고 발표했고 12월 23일 formal offer를 개시했다. 회사는 이후 독립 상장사로 계속 운영했고 2012 대형 광산 인수, 2015 Newmarket 합병으로 경로가 다시 바뀌었다.",
+      "quantitative_gap_ko": "2015 independent listing ends",
+      "verdict_ko": "판정 제한",
+      "analytical_error_ko": "원문 미확보 때문에 payoff 정의까지 복원할 수 없어 success/failure 단정이 불가능하다.",
+      "reusable_lesson_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다."
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "claim_order": 5,
+      "claim_title_ko": "M&A·royalty waterfall",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2011-12 Crocodile Gold raw Short는 Luxor의 C$0.56 부분공개매수가 전체 주주에게 동일한 확정가치를 보장하지 않으며, 조건·proration·지배권 집중 뒤 minority stub의 가격이 다시 운영가치로 수렴할 수 있다는 event-driven Short로 구조적으로 재구성한다. 원문 본문 미확보로 세부 논지는 확정하지 않는다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "M&A/sponsor/segment-sale optionality가 실현",
+      "actual_result_ko": "Luxor는 12월 13일 최대 215.4m주를 C$0.56에 사서 기존 지분과 합쳐 약 85%를 목표로 한다고 발표했고 12월 23일 formal offer를 개시했다. 회사는 이후 독립 상장사로 계속 운영했고 2012 대형 광산 인수, 2015 Newmarket 합병으로 경로가 다시 바뀌었다.",
+      "quantitative_gap_ko": "2015 independent listing ends",
+      "verdict_ko": "판정 제한",
+      "analytical_error_ko": "원문 미확보 때문에 payoff 정의까지 복원할 수 없어 success/failure 단정이 불가능하다.",
+      "reusable_lesson_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다."
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "claim_order": 6,
+      "claim_title_ko": "valuation·반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2011-12 Crocodile Gold raw Short는 Luxor의 C$0.56 부분공개매수가 전체 주주에게 동일한 확정가치를 보장하지 않으며, 조건·proration·지배권 집중 뒤 minority stub의 가격이 다시 운영가치로 수렴할 수 있다는 event-driven Short로 구조적으로 재구성한다. 원문 본문 미확보로 세부 논지는 확정하지 않는다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "risk-adjusted IRR이 hurdle을 상회",
+      "actual_result_ko": "Luxor는 12월 13일 최대 215.4m주를 C$0.56에 사서 기존 지분과 합쳐 약 85%를 목표로 한다고 발표했고 12월 23일 formal offer를 개시했다. 회사는 이후 독립 상장사로 계속 운영했고 2012 대형 광산 인수, 2015 Newmarket 합병으로 경로가 다시 바뀌었다.",
+      "quantitative_gap_ko": "2015 independent listing ends",
+      "verdict_ko": "판정 제한",
+      "analytical_error_ko": "원문 미확보 때문에 payoff 정의까지 복원할 수 없어 success/failure 단정이 불가능하다.",
+      "reusable_lesson_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다."
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "claim_order": 1,
+      "claim_title_ko": "grade·recovery·production",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2014-12 Crocodile Gold raw Short는 높은 금광 operational risk와 대주주/자본구조 복잡성, AuRico FCF-sharing obligation 때문에 headline gold exposure 대비 common equity가 불리하다는 논지로 재구성한다. entity는 날짜·M&A/자본배분 태그와 동시기 corporate events로 Crocodile Gold로 교정한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "핵심 가격/수요 변수가 thesis 반대방향으로 지속",
+      "actual_result_ko": "12월 22일 회사는 AuRico와 기존 FCF-sharing을 C$20m 현금 + Fosterville 2%/Stawell 1% NSR로 바꾸는 계약을 발표했다. 2015년 5월 Newmarket과 거래를 발표했고 Crocodile 주주는 C$0.37 현금 또는 주식 선택권을 받았으며 7월 합병이 완료됐다.",
+      "quantitative_gap_ko": "C$20m termination payment",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "운영자산 가치와 financing·royalty·M&A waterfall의 상호작용을 충분히 분리하지 못한 오류.",
+      "reusable_lesson_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다."
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "claim_order": 2,
+      "claim_title_ko": "cash cost·sustaining CapEx",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2014-12 Crocodile Gold raw Short는 높은 금광 operational risk와 대주주/자본구조 복잡성, AuRico FCF-sharing obligation 때문에 headline gold exposure 대비 common equity가 불리하다는 논지로 재구성한다. entity는 날짜·M&A/자본배분 태그와 동시기 corporate events로 Crocodile Gold로 교정한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "unit economics 또는 asset quality가 예상보다 강함",
+      "actual_result_ko": "12월 22일 회사는 AuRico와 기존 FCF-sharing을 C$20m 현금 + Fosterville 2%/Stawell 1% NSR로 바꾸는 계약을 발표했다. 2015년 5월 Newmarket과 거래를 발표했고 Crocodile 주주는 C$0.37 현금 또는 주식 선택권을 받았으며 7월 합병이 완료됐다.",
+      "quantitative_gap_ko": "Fosterville NSR 2%",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "운영자산 가치와 financing·royalty·M&A waterfall의 상호작용을 충분히 분리하지 못한 오류.",
+      "reusable_lesson_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다."
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "claim_order": 3,
+      "claim_title_ko": "liquidity·financing",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2014-12 Crocodile Gold raw Short는 높은 금광 operational risk와 대주주/자본구조 복잡성, AuRico FCF-sharing obligation 때문에 headline gold exposure 대비 common equity가 불리하다는 논지로 재구성한다. entity는 날짜·M&A/자본배분 태그와 동시기 corporate events로 Crocodile Gold로 교정한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "FCF가 capital intensity를 흡수하며 개선",
+      "actual_result_ko": "12월 22일 회사는 AuRico와 기존 FCF-sharing을 C$20m 현금 + Fosterville 2%/Stawell 1% NSR로 바꾸는 계약을 발표했다. 2015년 5월 Newmarket과 거래를 발표했고 Crocodile 주주는 C$0.37 현금 또는 주식 선택권을 받았으며 7월 합병이 완료됐다.",
+      "quantitative_gap_ko": "Stawell NSR 1%",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "운영자산 가치와 financing·royalty·M&A waterfall의 상호작용을 충분히 분리하지 못한 오류.",
+      "reusable_lesson_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다."
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "claim_order": 4,
+      "claim_title_ko": "Luxor/governance",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2014-12 Crocodile Gold raw Short는 높은 금광 operational risk와 대주주/자본구조 복잡성, AuRico FCF-sharing obligation 때문에 headline gold exposure 대비 common equity가 불리하다는 논지로 재구성한다. entity는 날짜·M&A/자본배분 태그와 동시기 corporate events로 Crocodile Gold로 교정한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "debt/refinancing runway가 충분히 연장",
+      "actual_result_ko": "12월 22일 회사는 AuRico와 기존 FCF-sharing을 C$20m 현금 + Fosterville 2%/Stawell 1% NSR로 바꾸는 계약을 발표했다. 2015년 5월 Newmarket과 거래를 발표했고 Crocodile 주주는 C$0.37 현금 또는 주식 선택권을 받았으며 7월 합병이 완료됐다.",
+      "quantitative_gap_ko": "2015 cash option C$0.37",
+      "verdict_ko": "오판",
+      "analytical_error_ko": "운영자산 가치와 financing·royalty·M&A waterfall의 상호작용을 충분히 분리하지 못한 오류.",
+      "reusable_lesson_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다."
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "claim_order": 5,
+      "claim_title_ko": "M&A·royalty waterfall",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2014-12 Crocodile Gold raw Short는 높은 금광 operational risk와 대주주/자본구조 복잡성, AuRico FCF-sharing obligation 때문에 headline gold exposure 대비 common equity가 불리하다는 논지로 재구성한다. entity는 날짜·M&A/자본배분 태그와 동시기 corporate events로 Crocodile Gold로 교정한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "M&A/sponsor/segment-sale optionality가 실현",
+      "actual_result_ko": "12월 22일 회사는 AuRico와 기존 FCF-sharing을 C$20m 현금 + Fosterville 2%/Stawell 1% NSR로 바꾸는 계약을 발표했다. 2015년 5월 Newmarket과 거래를 발표했고 Crocodile 주주는 C$0.37 현금 또는 주식 선택권을 받았으며 7월 합병이 완료됐다.",
+      "quantitative_gap_ko": "2015 cash option C$0.37",
+      "verdict_ko": "오판",
+      "analytical_error_ko": "운영자산 가치와 financing·royalty·M&A waterfall의 상호작용을 충분히 분리하지 못한 오류.",
+      "reusable_lesson_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다."
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "claim_order": 6,
+      "claim_title_ko": "valuation·반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2014-12 Crocodile Gold raw Short는 높은 금광 operational risk와 대주주/자본구조 복잡성, AuRico FCF-sharing obligation 때문에 headline gold exposure 대비 common equity가 불리하다는 논지로 재구성한다. entity는 날짜·M&A/자본배분 태그와 동시기 corporate events로 Crocodile Gold로 교정한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "risk-adjusted IRR이 hurdle을 상회",
+      "actual_result_ko": "12월 22일 회사는 AuRico와 기존 FCF-sharing을 C$20m 현금 + Fosterville 2%/Stawell 1% NSR로 바꾸는 계약을 발표했다. 2015년 5월 Newmarket과 거래를 발표했고 Crocodile 주주는 C$0.37 현금 또는 주식 선택권을 받았으며 7월 합병이 완료됐다.",
+      "quantitative_gap_ko": "2015 cash option C$0.37",
+      "verdict_ko": "오판",
+      "analytical_error_ko": "운영자산 가치와 financing·royalty·M&A waterfall의 상호작용을 충분히 분리하지 못한 오류.",
+      "reusable_lesson_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다."
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "claim_order": 1,
+      "claim_title_ko": "commodity price·hedge",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2018 Comstock Short는 높은 부채와 drilling cash burn을 가진 E&P에서 asset sale·refinancing만으로 common equity가 보전되기 어렵고, 구조조정 또는 대규모 dilution 위험이 크다는 event/capital-structure 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "핵심 가격/수요 변수가 thesis 반대방향으로 지속",
+      "actual_result_ko": "불과 몇 달 뒤 Jerry Jones 계열은 약 $620m로 평가된 Bakken 자산을 출자하고 최대 88.57m 신주를 받아 pro forma 약 84.5%를 보유하는 거래에 합의했다. 8월 거래·refinancing이 닫히면서 기존 equity는 희석됐지만 동시에 유동성과 생존경로가 크게 개선됐다.",
+      "quantitative_gap_ko": "Bakken value $620m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "claim_order": 2,
+      "claim_title_ko": "well EUR·decline·unit cost",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2018 Comstock Short는 높은 부채와 drilling cash burn을 가진 E&P에서 asset sale·refinancing만으로 common equity가 보전되기 어렵고, 구조조정 또는 대규모 dilution 위험이 크다는 event/capital-structure 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "unit economics 또는 asset quality가 예상보다 강함",
+      "actual_result_ko": "불과 몇 달 뒤 Jerry Jones 계열은 약 $620m로 평가된 Bakken 자산을 출자하고 최대 88.57m 신주를 받아 pro forma 약 84.5%를 보유하는 거래에 합의했다. 8월 거래·refinancing이 닫히면서 기존 equity는 희석됐지만 동시에 유동성과 생존경로가 크게 개선됐다.",
+      "quantitative_gap_ko": "new shares up to 88.57m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "claim_order": 3,
+      "claim_title_ko": "drilling CapEx·FCF",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2018 Comstock Short는 높은 부채와 drilling cash burn을 가진 E&P에서 asset sale·refinancing만으로 common equity가 보전되기 어렵고, 구조조정 또는 대규모 dilution 위험이 크다는 event/capital-structure 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "FCF가 capital intensity를 흡수하며 개선",
+      "actual_result_ko": "불과 몇 달 뒤 Jerry Jones 계열은 약 $620m로 평가된 Bakken 자산을 출자하고 최대 88.57m 신주를 받아 pro forma 약 84.5%를 보유하는 거래에 합의했다. 8월 거래·refinancing이 닫히면서 기존 equity는 희석됐지만 동시에 유동성과 생존경로가 크게 개선됐다.",
+      "quantitative_gap_ko": "pro forma control 84.5%",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "claim_order": 4,
+      "claim_title_ko": "debt·refinancing",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2018 Comstock Short는 높은 부채와 drilling cash burn을 가진 E&P에서 asset sale·refinancing만으로 common equity가 보전되기 어렵고, 구조조정 또는 대규모 dilution 위험이 크다는 event/capital-structure 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "debt/refinancing runway가 충분히 연장",
+      "actual_result_ko": "불과 몇 달 뒤 Jerry Jones 계열은 약 $620m로 평가된 Bakken 자산을 출자하고 최대 88.57m 신주를 받아 pro forma 약 84.5%를 보유하는 거래에 합의했다. 8월 거래·refinancing이 닫히면서 기존 equity는 희석됐지만 동시에 유동성과 생존경로가 크게 개선됐다.",
+      "quantitative_gap_ko": "2018 new notes $850m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "claim_order": 5,
+      "claim_title_ko": "asset/M&A·sponsor capital",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2018 Comstock Short는 높은 부채와 drilling cash burn을 가진 E&P에서 asset sale·refinancing만으로 common equity가 보전되기 어렵고, 구조조정 또는 대규모 dilution 위험이 크다는 event/capital-structure 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "M&A/sponsor/segment-sale optionality가 실현",
+      "actual_result_ko": "불과 몇 달 뒤 Jerry Jones 계열은 약 $620m로 평가된 Bakken 자산을 출자하고 최대 88.57m 신주를 받아 pro forma 약 84.5%를 보유하는 거래에 합의했다. 8월 거래·refinancing이 닫히면서 기존 equity는 희석됐지만 동시에 유동성과 생존경로가 크게 개선됐다.",
+      "quantitative_gap_ko": "2018 new notes $850m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "claim_order": 6,
+      "claim_title_ko": "valuation·반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2018 Comstock Short는 높은 부채와 drilling cash burn을 가진 E&P에서 asset sale·refinancing만으로 common equity가 보전되기 어렵고, 구조조정 또는 대규모 dilution 위험이 크다는 event/capital-structure 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "risk-adjusted IRR이 hurdle을 상회",
+      "actual_result_ko": "불과 몇 달 뒤 Jerry Jones 계열은 약 $620m로 평가된 Bakken 자산을 출자하고 최대 88.57m 신주를 받아 pro forma 약 84.5%를 보유하는 거래에 합의했다. 8월 거래·refinancing이 닫히면서 기존 equity는 희석됐지만 동시에 유동성과 생존경로가 크게 개선됐다.",
+      "quantitative_gap_ko": "2018 new notes $850m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "claim_order": 1,
+      "claim_title_ko": "commodity price·hedge",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2019 Comstock Short는 Covey Park 인수 후 약 $5.3bn TEV와 $2.73bn 순부채, 50%+ borrow cost가 보여주듯 leverage·control concentration·preferred dilution이 큰데 시장이 Haynesville scale synergy와 gas economics를 과대평가한다는 논지다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "핵심 가격/수요 변수가 thesis 반대방향으로 지속",
+      "actual_result_ko": "VIC 페이지는 $9.35, 시총 $2.627bn, 순부채 $2.732bn, TEV $5.332bn을 기록한다. 실제 Covey Park deal은 약 $2.2bn이었고 Jones는 $475m를 추가 투자했다. 이후 2021~22 gas price 급등으로 FCF가 폭발해 2022 FCF $673m, debt retirement $506m을 기록했다.",
+      "quantitative_gap_ko": "VIC TEV $5.332bn",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "claim_order": 2,
+      "claim_title_ko": "well EUR·decline·unit cost",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2019 Comstock Short는 Covey Park 인수 후 약 $5.3bn TEV와 $2.73bn 순부채, 50%+ borrow cost가 보여주듯 leverage·control concentration·preferred dilution이 큰데 시장이 Haynesville scale synergy와 gas economics를 과대평가한다는 논지다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "unit economics 또는 asset quality가 예상보다 강함",
+      "actual_result_ko": "VIC 페이지는 $9.35, 시총 $2.627bn, 순부채 $2.732bn, TEV $5.332bn을 기록한다. 실제 Covey Park deal은 약 $2.2bn이었고 Jones는 $475m를 추가 투자했다. 이후 2021~22 gas price 급등으로 FCF가 폭발해 2022 FCF $673m, debt retirement $506m을 기록했다.",
+      "quantitative_gap_ko": "VIC net debt $2.732bn",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "claim_order": 3,
+      "claim_title_ko": "drilling CapEx·FCF",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2019 Comstock Short는 Covey Park 인수 후 약 $5.3bn TEV와 $2.73bn 순부채, 50%+ borrow cost가 보여주듯 leverage·control concentration·preferred dilution이 큰데 시장이 Haynesville scale synergy와 gas economics를 과대평가한다는 논지다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "FCF가 capital intensity를 흡수하며 개선",
+      "actual_result_ko": "VIC 페이지는 $9.35, 시총 $2.627bn, 순부채 $2.732bn, TEV $5.332bn을 기록한다. 실제 Covey Park deal은 약 $2.2bn이었고 Jones는 $475m를 추가 투자했다. 이후 2021~22 gas price 급등으로 FCF가 폭발해 2022 FCF $673m, debt retirement $506m을 기록했다.",
+      "quantitative_gap_ko": "2019 deal $2.2bn",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "claim_order": 4,
+      "claim_title_ko": "debt·refinancing",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2019 Comstock Short는 Covey Park 인수 후 약 $5.3bn TEV와 $2.73bn 순부채, 50%+ borrow cost가 보여주듯 leverage·control concentration·preferred dilution이 큰데 시장이 Haynesville scale synergy와 gas economics를 과대평가한다는 논지다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "debt/refinancing runway가 충분히 연장",
+      "actual_result_ko": "VIC 페이지는 $9.35, 시총 $2.627bn, 순부채 $2.732bn, TEV $5.332bn을 기록한다. 실제 Covey Park deal은 약 $2.2bn이었고 Jones는 $475m를 추가 투자했다. 이후 2021~22 gas price 급등으로 FCF가 폭발해 2022 FCF $673m, debt retirement $506m을 기록했다.",
+      "quantitative_gap_ko": "2022 FCF $673m",
+      "verdict_ko": "오판",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "claim_order": 5,
+      "claim_title_ko": "asset/M&A·sponsor capital",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2019 Comstock Short는 Covey Park 인수 후 약 $5.3bn TEV와 $2.73bn 순부채, 50%+ borrow cost가 보여주듯 leverage·control concentration·preferred dilution이 큰데 시장이 Haynesville scale synergy와 gas economics를 과대평가한다는 논지다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "M&A/sponsor/segment-sale optionality가 실현",
+      "actual_result_ko": "VIC 페이지는 $9.35, 시총 $2.627bn, 순부채 $2.732bn, TEV $5.332bn을 기록한다. 실제 Covey Park deal은 약 $2.2bn이었고 Jones는 $475m를 추가 투자했다. 이후 2021~22 gas price 급등으로 FCF가 폭발해 2022 FCF $673m, debt retirement $506m을 기록했다.",
+      "quantitative_gap_ko": "2022 FCF $673m",
+      "verdict_ko": "오판",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "claim_order": 6,
+      "claim_title_ko": "valuation·반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2019 Comstock Short는 Covey Park 인수 후 약 $5.3bn TEV와 $2.73bn 순부채, 50%+ borrow cost가 보여주듯 leverage·control concentration·preferred dilution이 큰데 시장이 Haynesville scale synergy와 gas economics를 과대평가한다는 논지다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "risk-adjusted IRR이 hurdle을 상회",
+      "actual_result_ko": "VIC 페이지는 $9.35, 시총 $2.627bn, 순부채 $2.732bn, TEV $5.332bn을 기록한다. 실제 Covey Park deal은 약 $2.2bn이었고 Jones는 $475m를 추가 투자했다. 이후 2021~22 gas price 급등으로 FCF가 폭발해 2022 FCF $673m, debt retirement $506m을 기록했다.",
+      "quantitative_gap_ko": "2022 FCF $673m",
+      "verdict_ko": "오판",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "claim_order": 1,
+      "claim_title_ko": "commodity price·hedge",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2021 Comstock Short는 주가 $7.65, 시총 약 $2.075bn 대비 순부채 약 $2.934bn인 고레버리지 gas producer에서 hedges·개발비·가스가격 정상화를 감안하면 당시 기대 FCF가 지속되기 어렵다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "핵심 가격/수요 변수가 thesis 반대방향으로 지속",
+      "actual_result_ko": "2021 회사는 FCF $262m과 Q4 debt paydown $190m을 냈고, 2022에는 gas 가격 급등으로 FCF $673m, $506m debt retirement, 배당 재개까지 갔다. 이후 2023 가스가격 약세로 실현가격이 크게 내려가고 현금창출이 다시 둔화해 원래의 cyclicality 경고는 뒤늦게 나타났다. 2026년에도 회사는 Haynesville 개발을 지속한다.",
+      "quantitative_gap_ko": "VIC price $7.65",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "claim_order": 2,
+      "claim_title_ko": "well EUR·decline·unit cost",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2021 Comstock Short는 주가 $7.65, 시총 약 $2.075bn 대비 순부채 약 $2.934bn인 고레버리지 gas producer에서 hedges·개발비·가스가격 정상화를 감안하면 당시 기대 FCF가 지속되기 어렵다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "unit economics 또는 asset quality가 예상보다 강함",
+      "actual_result_ko": "2021 회사는 FCF $262m과 Q4 debt paydown $190m을 냈고, 2022에는 gas 가격 급등으로 FCF $673m, $506m debt retirement, 배당 재개까지 갔다. 이후 2023 가스가격 약세로 실현가격이 크게 내려가고 현금창출이 다시 둔화해 원래의 cyclicality 경고는 뒤늦게 나타났다. 2026년에도 회사는 Haynesville 개발을 지속한다.",
+      "quantitative_gap_ko": "VIC net debt $2.934bn",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "claim_order": 3,
+      "claim_title_ko": "drilling CapEx·FCF",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2021 Comstock Short는 주가 $7.65, 시총 약 $2.075bn 대비 순부채 약 $2.934bn인 고레버리지 gas producer에서 hedges·개발비·가스가격 정상화를 감안하면 당시 기대 FCF가 지속되기 어렵다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "FCF가 capital intensity를 흡수하며 개선",
+      "actual_result_ko": "2021 회사는 FCF $262m과 Q4 debt paydown $190m을 냈고, 2022에는 gas 가격 급등으로 FCF $673m, $506m debt retirement, 배당 재개까지 갔다. 이후 2023 가스가격 약세로 실현가격이 크게 내려가고 현금창출이 다시 둔화해 원래의 cyclicality 경고는 뒤늦게 나타났다. 2026년에도 회사는 Haynesville 개발을 지속한다.",
+      "quantitative_gap_ko": "2022 FCF $673m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "claim_order": 4,
+      "claim_title_ko": "debt·refinancing",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2021 Comstock Short는 주가 $7.65, 시총 약 $2.075bn 대비 순부채 약 $2.934bn인 고레버리지 gas producer에서 hedges·개발비·가스가격 정상화를 감안하면 당시 기대 FCF가 지속되기 어렵다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "debt/refinancing runway가 충분히 연장",
+      "actual_result_ko": "2021 회사는 FCF $262m과 Q4 debt paydown $190m을 냈고, 2022에는 gas 가격 급등으로 FCF $673m, $506m debt retirement, 배당 재개까지 갔다. 이후 2023 가스가격 약세로 실현가격이 크게 내려가고 현금창출이 다시 둔화해 원래의 cyclicality 경고는 뒤늦게 나타났다. 2026년에도 회사는 Haynesville 개발을 지속한다.",
+      "quantitative_gap_ko": "2023 avg gas $2.40/Mcf",
+      "verdict_ko": "오판",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "claim_order": 5,
+      "claim_title_ko": "asset/M&A·sponsor capital",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2021 Comstock Short는 주가 $7.65, 시총 약 $2.075bn 대비 순부채 약 $2.934bn인 고레버리지 gas producer에서 hedges·개발비·가스가격 정상화를 감안하면 당시 기대 FCF가 지속되기 어렵다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "M&A/sponsor/segment-sale optionality가 실현",
+      "actual_result_ko": "2021 회사는 FCF $262m과 Q4 debt paydown $190m을 냈고, 2022에는 gas 가격 급등으로 FCF $673m, $506m debt retirement, 배당 재개까지 갔다. 이후 2023 가스가격 약세로 실현가격이 크게 내려가고 현금창출이 다시 둔화해 원래의 cyclicality 경고는 뒤늦게 나타났다. 2026년에도 회사는 Haynesville 개발을 지속한다.",
+      "quantitative_gap_ko": "2023 avg gas $2.40/Mcf",
+      "verdict_ko": "오판",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "claim_order": 6,
+      "claim_title_ko": "valuation·반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2021 Comstock Short는 주가 $7.65, 시총 약 $2.075bn 대비 순부채 약 $2.934bn인 고레버리지 gas producer에서 hedges·개발비·가스가격 정상화를 감안하면 당시 기대 FCF가 지속되기 어렵다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "risk-adjusted IRR이 hurdle을 상회",
+      "actual_result_ko": "2021 회사는 FCF $262m과 Q4 debt paydown $190m을 냈고, 2022에는 gas 가격 급등으로 FCF $673m, $506m debt retirement, 배당 재개까지 갔다. 이후 2023 가스가격 약세로 실현가격이 크게 내려가고 현금창출이 다시 둔화해 원래의 cyclicality 경고는 뒤늦게 나타났다. 2026년에도 회사는 Haynesville 개발을 지속한다.",
+      "quantitative_gap_ko": "2023 avg gas $2.40/Mcf",
+      "verdict_ko": "오판",
+      "analytical_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "reusable_lesson_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다."
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "claim_order": 1,
+      "claim_title_ko": "core training demand",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2002 Franklin Covey Short는 planner·retail 중심 소비자 사업의 매출하락과 높은 고정비가 유명 브랜드/IP의 질을 상쇄하고, turnaround가 지연될수록 자산가치와 현금이 소모된다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "핵심 가격/수요 변수가 thesis 반대방향으로 지속",
+      "actual_result_ko": "회사는 2000년대 중반까지 retail/consumer 구조조정을 이어갔다. FY2007 매출은 $284.1m, 영업이익 $18.1m으로 FY2006 대비 개선됐고, 2008 소비자 사업을 Peterson Partners와 만든 별도법인에 $32m에 매각해 기업 교육·컨설팅 중심으로 재편했다. 장기적으로 회사는 존속하며 구독형 교육회사로 전환했다.",
+      "quantitative_gap_ko": "FY2007 revenue $284.1m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "legacy retail과 durable IP/training core를 하나의 성장률로 합쳐 보는 오류.",
+      "reusable_lesson_ko": "turnaround에서 전체 매출 추세보다 좋은 core와 나쁜 legacy segment를 분리한다. 매각·비용절감 후 남는 core의 반복매출·retention·incremental margin이 장기 가치의 핵심이다."
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "claim_order": 2,
+      "claim_title_ko": "consumer/retail drag",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2002 Franklin Covey Short는 planner·retail 중심 소비자 사업의 매출하락과 높은 고정비가 유명 브랜드/IP의 질을 상쇄하고, turnaround가 지연될수록 자산가치와 현금이 소모된다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "unit economics 또는 asset quality가 예상보다 강함",
+      "actual_result_ko": "회사는 2000년대 중반까지 retail/consumer 구조조정을 이어갔다. FY2007 매출은 $284.1m, 영업이익 $18.1m으로 FY2006 대비 개선됐고, 2008 소비자 사업을 Peterson Partners와 만든 별도법인에 $32m에 매각해 기업 교육·컨설팅 중심으로 재편했다. 장기적으로 회사는 존속하며 구독형 교육회사로 전환했다.",
+      "quantitative_gap_ko": "FY2007 op income $18.1m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "legacy retail과 durable IP/training core를 하나의 성장률로 합쳐 보는 오류.",
+      "reusable_lesson_ko": "turnaround에서 전체 매출 추세보다 좋은 core와 나쁜 legacy segment를 분리한다. 매각·비용절감 후 남는 core의 반복매출·retention·incremental margin이 장기 가치의 핵심이다."
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "claim_order": 3,
+      "claim_title_ko": "gross margin·operating leverage",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2002 Franklin Covey Short는 planner·retail 중심 소비자 사업의 매출하락과 높은 고정비가 유명 브랜드/IP의 질을 상쇄하고, turnaround가 지연될수록 자산가치와 현금이 소모된다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "FCF가 capital intensity를 흡수하며 개선",
+      "actual_result_ko": "회사는 2000년대 중반까지 retail/consumer 구조조정을 이어갔다. FY2007 매출은 $284.1m, 영업이익 $18.1m으로 FY2006 대비 개선됐고, 2008 소비자 사업을 Peterson Partners와 만든 별도법인에 $32m에 매각해 기업 교육·컨설팅 중심으로 재편했다. 장기적으로 회사는 존속하며 구독형 교육회사로 전환했다.",
+      "quantitative_gap_ko": "2008 CSBU sale $32m",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "legacy retail과 durable IP/training core를 하나의 성장률로 합쳐 보는 오류.",
+      "reusable_lesson_ko": "turnaround에서 전체 매출 추세보다 좋은 core와 나쁜 legacy segment를 분리한다. 매각·비용절감 후 남는 core의 반복매출·retention·incremental margin이 장기 가치의 핵심이다."
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "claim_order": 4,
+      "claim_title_ko": "cash·capital allocation",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2002 Franklin Covey Short는 planner·retail 중심 소비자 사업의 매출하락과 높은 고정비가 유명 브랜드/IP의 질을 상쇄하고, turnaround가 지연될수록 자산가치와 현금이 소모된다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "debt/refinancing runway가 충분히 연장",
+      "actual_result_ko": "회사는 2000년대 중반까지 retail/consumer 구조조정을 이어갔다. FY2007 매출은 $284.1m, 영업이익 $18.1m으로 FY2006 대비 개선됐고, 2008 소비자 사업을 Peterson Partners와 만든 별도법인에 $32m에 매각해 기업 교육·컨설팅 중심으로 재편했다. 장기적으로 회사는 존속하며 구독형 교육회사로 전환했다.",
+      "quantitative_gap_ko": "2026 subscription-led",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "legacy retail과 durable IP/training core를 하나의 성장률로 합쳐 보는 오류.",
+      "reusable_lesson_ko": "turnaround에서 전체 매출 추세보다 좋은 core와 나쁜 legacy segment를 분리한다. 매각·비용절감 후 남는 core의 반복매출·retention·incremental margin이 장기 가치의 핵심이다."
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "claim_order": 5,
+      "claim_title_ko": "IP/recurring revenue quality",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2002 Franklin Covey Short는 planner·retail 중심 소비자 사업의 매출하락과 높은 고정비가 유명 브랜드/IP의 질을 상쇄하고, turnaround가 지연될수록 자산가치와 현금이 소모된다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "M&A/sponsor/segment-sale optionality가 실현",
+      "actual_result_ko": "회사는 2000년대 중반까지 retail/consumer 구조조정을 이어갔다. FY2007 매출은 $284.1m, 영업이익 $18.1m으로 FY2006 대비 개선됐고, 2008 소비자 사업을 Peterson Partners와 만든 별도법인에 $32m에 매각해 기업 교육·컨설팅 중심으로 재편했다. 장기적으로 회사는 존속하며 구독형 교육회사로 전환했다.",
+      "quantitative_gap_ko": "2026 subscription-led",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "legacy retail과 durable IP/training core를 하나의 성장률로 합쳐 보는 오류.",
+      "reusable_lesson_ko": "turnaround에서 전체 매출 추세보다 좋은 core와 나쁜 legacy segment를 분리한다. 매각·비용절감 후 남는 core의 반복매출·retention·incremental margin이 장기 가치의 핵심이다."
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "claim_order": 6,
+      "claim_title_ko": "valuation·반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2002 Franklin Covey Short는 planner·retail 중심 소비자 사업의 매출하락과 높은 고정비가 유명 브랜드/IP의 질을 상쇄하고, turnaround가 지연될수록 자산가치와 현금이 소모된다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "risk-adjusted IRR이 hurdle을 상회",
+      "actual_result_ko": "회사는 2000년대 중반까지 retail/consumer 구조조정을 이어갔다. FY2007 매출은 $284.1m, 영업이익 $18.1m으로 FY2006 대비 개선됐고, 2008 소비자 사업을 Peterson Partners와 만든 별도법인에 $32m에 매각해 기업 교육·컨설팅 중심으로 재편했다. 장기적으로 회사는 존속하며 구독형 교육회사로 전환했다.",
+      "quantitative_gap_ko": "2026 subscription-led",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "legacy retail과 durable IP/training core를 하나의 성장률로 합쳐 보는 오류.",
+      "reusable_lesson_ko": "turnaround에서 전체 매출 추세보다 좋은 core와 나쁜 legacy segment를 분리한다. 매각·비용절감 후 남는 core의 반복매출·retention·incremental margin이 장기 가치의 핵심이다."
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "claim_order": 1,
+      "claim_title_ko": "core training demand",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2006 Franklin Covey Long은 구조조정으로 비용이 내려가고 training/consulting이 회복되는 가운데 소비자·부동산/기타 자산과 자본환원이 downside를 지지해, 낮은 기대에서 turnaround operating leverage가 발생한다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "핵심 가격/수요 변수가 thesis 반대방향으로 지속",
+      "actual_result_ko": "FY2007 매출 $284.1m, 영업이익 $18.1m으로 FY2006 $14.0m 대비 개선됐다. 2008 소비자 사업을 $32m 현금에 매각하고 proceeds를 자사주 매입에 쓰겠다고 발표해 core를 교육/컨설팅으로 단순화했다. raw 성과는 1년 +41.4%, 3년 -4.7%, 5년 +75.9%다. 이후 AAP 구독모델로 진화했고 Q3 FY2026 deferred revenue는 $96m이었다.",
+      "quantitative_gap_ko": "1y return +41.4%",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "legacy retail과 durable IP/training core를 하나의 성장률로 합쳐 보는 오류.",
+      "reusable_lesson_ko": "turnaround에서 전체 매출 추세보다 좋은 core와 나쁜 legacy segment를 분리한다. 매각·비용절감 후 남는 core의 반복매출·retention·incremental margin이 장기 가치의 핵심이다."
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "claim_order": 2,
+      "claim_title_ko": "consumer/retail drag",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2006 Franklin Covey Long은 구조조정으로 비용이 내려가고 training/consulting이 회복되는 가운데 소비자·부동산/기타 자산과 자본환원이 downside를 지지해, 낮은 기대에서 turnaround operating leverage가 발생한다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "unit economics 또는 asset quality가 예상보다 강함",
+      "actual_result_ko": "FY2007 매출 $284.1m, 영업이익 $18.1m으로 FY2006 $14.0m 대비 개선됐다. 2008 소비자 사업을 $32m 현금에 매각하고 proceeds를 자사주 매입에 쓰겠다고 발표해 core를 교육/컨설팅으로 단순화했다. raw 성과는 1년 +41.4%, 3년 -4.7%, 5년 +75.9%다. 이후 AAP 구독모델로 진화했고 Q3 FY2026 deferred revenue는 $96m이었다.",
+      "quantitative_gap_ko": "3y return -4.7%",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "legacy retail과 durable IP/training core를 하나의 성장률로 합쳐 보는 오류.",
+      "reusable_lesson_ko": "turnaround에서 전체 매출 추세보다 좋은 core와 나쁜 legacy segment를 분리한다. 매각·비용절감 후 남는 core의 반복매출·retention·incremental margin이 장기 가치의 핵심이다."
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "claim_order": 3,
+      "claim_title_ko": "gross margin·operating leverage",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2006 Franklin Covey Long은 구조조정으로 비용이 내려가고 training/consulting이 회복되는 가운데 소비자·부동산/기타 자산과 자본환원이 downside를 지지해, 낮은 기대에서 turnaround operating leverage가 발생한다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "FCF가 capital intensity를 흡수하며 개선",
+      "actual_result_ko": "FY2007 매출 $284.1m, 영업이익 $18.1m으로 FY2006 $14.0m 대비 개선됐다. 2008 소비자 사업을 $32m 현금에 매각하고 proceeds를 자사주 매입에 쓰겠다고 발표해 core를 교육/컨설팅으로 단순화했다. raw 성과는 1년 +41.4%, 3년 -4.7%, 5년 +75.9%다. 이후 AAP 구독모델로 진화했고 Q3 FY2026 deferred revenue는 $96m이었다.",
+      "quantitative_gap_ko": "5y return +75.9%",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "legacy retail과 durable IP/training core를 하나의 성장률로 합쳐 보는 오류.",
+      "reusable_lesson_ko": "turnaround에서 전체 매출 추세보다 좋은 core와 나쁜 legacy segment를 분리한다. 매각·비용절감 후 남는 core의 반복매출·retention·incremental margin이 장기 가치의 핵심이다."
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "claim_order": 4,
+      "claim_title_ko": "cash·capital allocation",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2006 Franklin Covey Long은 구조조정으로 비용이 내려가고 training/consulting이 회복되는 가운데 소비자·부동산/기타 자산과 자본환원이 downside를 지지해, 낮은 기대에서 turnaround operating leverage가 발생한다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "debt/refinancing runway가 충분히 연장",
+      "actual_result_ko": "FY2007 매출 $284.1m, 영업이익 $18.1m으로 FY2006 $14.0m 대비 개선됐다. 2008 소비자 사업을 $32m 현금에 매각하고 proceeds를 자사주 매입에 쓰겠다고 발표해 core를 교육/컨설팅으로 단순화했다. raw 성과는 1년 +41.4%, 3년 -4.7%, 5년 +75.9%다. 이후 AAP 구독모델로 진화했고 Q3 FY2026 deferred revenue는 $96m이었다.",
+      "quantitative_gap_ko": "Q3 FY26 deferred revenue $96m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "legacy retail과 durable IP/training core를 하나의 성장률로 합쳐 보는 오류.",
+      "reusable_lesson_ko": "turnaround에서 전체 매출 추세보다 좋은 core와 나쁜 legacy segment를 분리한다. 매각·비용절감 후 남는 core의 반복매출·retention·incremental margin이 장기 가치의 핵심이다."
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "claim_order": 5,
+      "claim_title_ko": "IP/recurring revenue quality",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2006 Franklin Covey Long은 구조조정으로 비용이 내려가고 training/consulting이 회복되는 가운데 소비자·부동산/기타 자산과 자본환원이 downside를 지지해, 낮은 기대에서 turnaround operating leverage가 발생한다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "M&A/sponsor/segment-sale optionality가 실현",
+      "actual_result_ko": "FY2007 매출 $284.1m, 영업이익 $18.1m으로 FY2006 $14.0m 대비 개선됐다. 2008 소비자 사업을 $32m 현금에 매각하고 proceeds를 자사주 매입에 쓰겠다고 발표해 core를 교육/컨설팅으로 단순화했다. raw 성과는 1년 +41.4%, 3년 -4.7%, 5년 +75.9%다. 이후 AAP 구독모델로 진화했고 Q3 FY2026 deferred revenue는 $96m이었다.",
+      "quantitative_gap_ko": "Q3 FY26 deferred revenue $96m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "legacy retail과 durable IP/training core를 하나의 성장률로 합쳐 보는 오류.",
+      "reusable_lesson_ko": "turnaround에서 전체 매출 추세보다 좋은 core와 나쁜 legacy segment를 분리한다. 매각·비용절감 후 남는 core의 반복매출·retention·incremental margin이 장기 가치의 핵심이다."
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "claim_order": 6,
+      "claim_title_ko": "valuation·반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2006 Franklin Covey Long은 구조조정으로 비용이 내려가고 training/consulting이 회복되는 가운데 소비자·부동산/기타 자산과 자본환원이 downside를 지지해, 낮은 기대에서 turnaround operating leverage가 발생한다는 논지로 재구성한다.",
+      "t0_evidence_ko": "VIC date/direction/header와 동시기 SEC·기업 공시의 재무·거래·운영정보를 교차검증.",
+      "key_assumption_ko": "해당 claim이 accounting metric에서 equity cash flow로 전달된다.",
+      "ex_ante_falsifier_ko": "risk-adjusted IRR이 hurdle을 상회",
+      "actual_result_ko": "FY2007 매출 $284.1m, 영업이익 $18.1m으로 FY2006 $14.0m 대비 개선됐다. 2008 소비자 사업을 $32m 현금에 매각하고 proceeds를 자사주 매입에 쓰겠다고 발표해 core를 교육/컨설팅으로 단순화했다. raw 성과는 1년 +41.4%, 3년 -4.7%, 5년 +75.9%다. 이후 AAP 구독모델로 진화했고 Q3 FY2026 deferred revenue는 $96m이었다.",
+      "quantitative_gap_ko": "Q3 FY26 deferred revenue $96m",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "legacy retail과 durable IP/training core를 하나의 성장률로 합쳐 보는 오류.",
+      "reusable_lesson_ko": "turnaround에서 전체 매출 추세보다 좋은 core와 나쁜 legacy segment를 분리한다. 매각·비용절감 후 남는 core의 반복매출·retention·incremental margin이 장기 가치의 핵심이다."
+    }
+  ],
+  "metrics": [
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "metric_order": 1,
+      "metric_name_ko": "T0/핵심 valuation",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "2004 debt ≈$324m",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "metric_order": 2,
+      "metric_name_ko": "capital structure/catalyst",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "2018 Jones 84% control",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "metric_order": 3,
+      "metric_name_ko": "후속 operating outcome",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "2019 Covey Park $2.2bn",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "metric_order": 4,
+      "metric_name_ko": "최종/current outcome",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "2026 Haynesville focus",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "metric_order": 1,
+      "metric_name_ko": "T0/핵심 valuation",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "2010 price $27.50",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "metric_order": 2,
+      "metric_name_ko": "capital structure/catalyst",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "2010 net debt ≈$340m",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "metric_order": 3,
+      "metric_name_ko": "후속 operating outcome",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "2011 Delaware deal ≈$333m",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "metric_order": 4,
+      "metric_name_ko": "최종/current outcome",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "2018 sponsor recap",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "metric_order": 1,
+      "metric_name_ko": "T0/핵심 valuation",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "Luxor bid C$0.56",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "metric_order": 2,
+      "metric_name_ko": "capital structure/catalyst",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "bid premium ≈60%",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "metric_order": 3,
+      "metric_name_ko": "후속 operating outcome",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "2012 asset deal up to C$105m",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "metric_order": 4,
+      "metric_name_ko": "최종/current outcome",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "2015 merger cash option C$0.37",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "metric_order": 1,
+      "metric_name_ko": "T0/핵심 valuation",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "offer C$0.56",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "metric_order": 2,
+      "metric_name_ko": "capital structure/catalyst",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "up to 215.4m shares",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "metric_order": 3,
+      "metric_name_ko": "후속 operating outcome",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "target ownership ≈85%",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "metric_order": 4,
+      "metric_name_ko": "최종/current outcome",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "2015 independent listing ends",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "metric_order": 1,
+      "metric_name_ko": "T0/핵심 valuation",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "C$20m termination payment",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "metric_order": 2,
+      "metric_name_ko": "capital structure/catalyst",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "Fosterville NSR 2%",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "metric_order": 3,
+      "metric_name_ko": "후속 operating outcome",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "Stawell NSR 1%",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "metric_order": 4,
+      "metric_name_ko": "최종/current outcome",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "2015 cash option C$0.37",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "metric_order": 1,
+      "metric_name_ko": "T0/핵심 valuation",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "Bakken value $620m",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "metric_order": 2,
+      "metric_name_ko": "capital structure/catalyst",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "new shares up to 88.57m",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "metric_order": 3,
+      "metric_name_ko": "후속 operating outcome",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "pro forma control 84.5%",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "metric_order": 4,
+      "metric_name_ko": "최종/current outcome",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "2018 new notes $850m",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "metric_order": 1,
+      "metric_name_ko": "T0/핵심 valuation",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "VIC TEV $5.332bn",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "metric_order": 2,
+      "metric_name_ko": "capital structure/catalyst",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "VIC net debt $2.732bn",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "metric_order": 3,
+      "metric_name_ko": "후속 operating outcome",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "2019 deal $2.2bn",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "metric_order": 4,
+      "metric_name_ko": "최종/current outcome",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "2022 FCF $673m",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "metric_order": 1,
+      "metric_name_ko": "T0/핵심 valuation",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "VIC price $7.65",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "metric_order": 2,
+      "metric_name_ko": "capital structure/catalyst",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "VIC net debt $2.934bn",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "metric_order": 3,
+      "metric_name_ko": "후속 operating outcome",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "2022 FCF $673m",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "metric_order": 4,
+      "metric_name_ko": "최종/current outcome",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "2023 avg gas $2.40/Mcf",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "metric_order": 1,
+      "metric_name_ko": "T0/핵심 valuation",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "FY2007 revenue $284.1m",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "metric_order": 2,
+      "metric_name_ko": "capital structure/catalyst",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "FY2007 op income $18.1m",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "metric_order": 3,
+      "metric_name_ko": "후속 operating outcome",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "2008 CSBU sale $32m",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "metric_order": 4,
+      "metric_name_ko": "최종/current outcome",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "2026 subscription-led",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "metric_order": 1,
+      "metric_name_ko": "T0/핵심 valuation",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "1y return +41.4%",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "metric_order": 2,
+      "metric_name_ko": "capital structure/catalyst",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "3y return -4.7%",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "metric_order": 3,
+      "metric_name_ko": "후속 operating outcome",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "5y return +75.9%",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "metric_order": 4,
+      "metric_name_ko": "최종/current outcome",
+      "t0_value_ko": "당시 공시/VIC 기준",
+      "actual_value_ko": "Q3 FY26 deferred revenue $96m",
+      "interpretation_ko": "원 논지를 실제 cash-flow·capital path와 연결하는 핵심 검증치."
+    }
+  ],
+  "timeline": [
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "event_order": 1,
+      "event_date": "2004-12-08",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "T0"
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "event_order": 2,
+      "event_date": "2008-12-31",
+      "event_ko": "부채보다 생산자산·자본조달 경로가 확대",
+      "signal_ko": "첫 핵심 반증/확인 신호"
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "event_order": 3,
+      "event_date": "2018-08-14",
+      "event_ko": "Jones contribution/refinancing",
+      "signal_ko": "자본구조 regime shift"
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "event_order": 4,
+      "event_date": "2019-07-16",
+      "event_ko": "Covey Park acquisition close",
+      "signal_ko": "Haynesville scale 확대"
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "event_order": 5,
+      "event_date": "2022-12-31",
+      "event_ko": "record FCF/deleveraging year",
+      "signal_ko": "commodity upside 확인"
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "event_order": 6,
+      "event_date": "2026-06-30",
+      "event_ko": "Q2 2026 Haynesville update",
+      "signal_ko": "현재 사업 지속"
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "event_order": 1,
+      "event_date": "2010-07-15",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "T0"
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "event_order": 2,
+      "event_date": "2011-12-05",
+      "event_ko": "2011 인수로 projected leverage·CapEx 상승",
+      "signal_ko": "첫 핵심 반증/확인 신호"
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "event_order": 3,
+      "event_date": "2018-08-14",
+      "event_ko": "Jones contribution/refinancing",
+      "signal_ko": "자본구조 regime shift"
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "event_order": 4,
+      "event_date": "2019-07-16",
+      "event_ko": "Covey Park acquisition close",
+      "signal_ko": "Haynesville scale 확대"
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "event_order": 5,
+      "event_date": "2022-12-31",
+      "event_ko": "record FCF/deleveraging year",
+      "signal_ko": "commodity upside 확인"
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "event_order": 6,
+      "event_date": "2026-06-30",
+      "event_ko": "Q2 2026 Haynesville update",
+      "signal_ko": "현재 사업 지속"
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "event_order": 1,
+      "event_date": "2011-01-12",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "T0"
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "event_order": 2,
+      "event_date": "2011-12-13",
+      "event_ko": "Luxor C$0.56 공개매수 제안",
+      "signal_ko": "첫 핵심 반증/확인 신호"
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "event_order": 3,
+      "event_date": "2011-12-23",
+      "event_ko": "Luxor formal partial offer",
+      "signal_ko": "지배구조 이벤트"
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "event_order": 4,
+      "event_date": "2012-05-04",
+      "event_ko": "Fosterville/Stawell acquisition",
+      "signal_ko": "자산구조 변화"
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "event_order": 5,
+      "event_date": "2015-01-14",
+      "event_ko": "AuRico FCF sharing termination close",
+      "signal_ko": "waterfall 단순화"
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "event_order": 6,
+      "event_date": "2015-07-10",
+      "event_ko": "Newmarket combination complete",
+      "signal_ko": "독립 상장 종료"
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "event_order": 1,
+      "event_date": "2011-12-15",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "T0"
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "event_order": 2,
+      "event_date": "2011-12-23",
+      "event_ko": "formal partial tender 개시",
+      "signal_ko": "첫 핵심 반증/확인 신호"
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "event_order": 3,
+      "event_date": "2011-12-23",
+      "event_ko": "Luxor formal partial offer",
+      "signal_ko": "지배구조 이벤트"
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "event_order": 4,
+      "event_date": "2012-05-04",
+      "event_ko": "Fosterville/Stawell acquisition",
+      "signal_ko": "자산구조 변화"
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "event_order": 5,
+      "event_date": "2015-01-14",
+      "event_ko": "AuRico FCF sharing termination close",
+      "signal_ko": "waterfall 단순화"
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "event_order": 6,
+      "event_date": "2015-07-10",
+      "event_ko": "Newmarket combination complete",
+      "signal_ko": "독립 상장 종료"
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "event_order": 1,
+      "event_date": "2014-12-26",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "T0"
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "event_order": 2,
+      "event_date": "2014-12-22",
+      "event_ko": "AuRico FCF-sharing 종료로 구조 단순화",
+      "signal_ko": "첫 핵심 반증/확인 신호"
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "event_order": 3,
+      "event_date": "2011-12-23",
+      "event_ko": "Luxor formal partial offer",
+      "signal_ko": "지배구조 이벤트"
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "event_order": 4,
+      "event_date": "2012-05-04",
+      "event_ko": "Fosterville/Stawell acquisition",
+      "signal_ko": "자산구조 변화"
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "event_order": 5,
+      "event_date": "2015-01-14",
+      "event_ko": "AuRico FCF sharing termination close",
+      "signal_ko": "waterfall 단순화"
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "event_order": 6,
+      "event_date": "2015-07-10",
+      "event_ko": "Newmarket combination complete",
+      "signal_ko": "독립 상장 종료"
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "event_order": 1,
+      "event_date": "2018-02-02",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "T0"
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "event_order": 2,
+      "event_date": "2018-05-09",
+      "event_ko": "Jones contribution agreement",
+      "signal_ko": "첫 핵심 반증/확인 신호"
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "event_order": 3,
+      "event_date": "2018-08-14",
+      "event_ko": "Jones contribution/refinancing",
+      "signal_ko": "자본구조 regime shift"
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "event_order": 4,
+      "event_date": "2019-07-16",
+      "event_ko": "Covey Park acquisition close",
+      "signal_ko": "Haynesville scale 확대"
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "event_order": 5,
+      "event_date": "2022-12-31",
+      "event_ko": "record FCF/deleveraging year",
+      "signal_ko": "commodity upside 확인"
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "event_order": 6,
+      "event_date": "2026-06-30",
+      "event_ko": "Q2 2026 Haynesville update",
+      "signal_ko": "현재 사업 지속"
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "event_order": 1,
+      "event_date": "2019-09-18",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "T0"
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "event_order": 2,
+      "event_date": "2021-06-30",
+      "event_ko": "2021 gas rally와 FCF inflection",
+      "signal_ko": "첫 핵심 반증/확인 신호"
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "event_order": 3,
+      "event_date": "2018-08-14",
+      "event_ko": "Jones contribution/refinancing",
+      "signal_ko": "자본구조 regime shift"
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "event_order": 4,
+      "event_date": "2019-07-16",
+      "event_ko": "Covey Park acquisition close",
+      "signal_ko": "Haynesville scale 확대"
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "event_order": 5,
+      "event_date": "2022-12-31",
+      "event_ko": "record FCF/deleveraging year",
+      "signal_ko": "commodity upside 확인"
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "event_order": 6,
+      "event_date": "2026-06-30",
+      "event_ko": "Q2 2026 Haynesville update",
+      "signal_ko": "현재 사업 지속"
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "event_order": 1,
+      "event_date": "2021-09-09",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "T0"
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "event_order": 2,
+      "event_date": "2022-12-31",
+      "event_ko": "2022 record FCF/deleveraging",
+      "signal_ko": "첫 핵심 반증/확인 신호"
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "event_order": 3,
+      "event_date": "2018-08-14",
+      "event_ko": "Jones contribution/refinancing",
+      "signal_ko": "자본구조 regime shift"
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "event_order": 4,
+      "event_date": "2019-07-16",
+      "event_ko": "Covey Park acquisition close",
+      "signal_ko": "Haynesville scale 확대"
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "event_order": 5,
+      "event_date": "2022-12-31",
+      "event_ko": "record FCF/deleveraging year",
+      "signal_ko": "commodity upside 확인"
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "event_order": 6,
+      "event_date": "2026-06-30",
+      "event_ko": "Q2 2026 Haynesville update",
+      "signal_ko": "현재 사업 지속"
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "event_order": 1,
+      "event_date": "2002-10-02",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "T0"
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "event_order": 2,
+      "event_date": "2007-08-31",
+      "event_ko": "FY2006~07 영업이익 회복",
+      "signal_ko": "첫 핵심 반증/확인 신호"
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "event_order": 3,
+      "event_date": "2007-08-31",
+      "event_ko": "FY2007 operating improvement",
+      "signal_ko": "turnaround 진행"
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "event_order": 4,
+      "event_date": "2008-05-22",
+      "event_ko": "Consumer Solutions sale announced",
+      "signal_ko": "portfolio simplification"
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "event_order": 5,
+      "event_date": "2008-07-07",
+      "event_ko": "CSBU sale completion documents",
+      "signal_ko": "core training focus"
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "event_order": 6,
+      "event_date": "2026-05-31",
+      "event_ko": "Q3 FY2026 subscription/deferred revenue update",
+      "signal_ko": "현재 모델 확인"
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "event_order": 1,
+      "event_date": "2006-07-11",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "T0"
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "event_order": 2,
+      "event_date": "2007-08-31",
+      "event_ko": "FY2007 operating improvement",
+      "signal_ko": "첫 핵심 반증/확인 신호"
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "event_order": 3,
+      "event_date": "2007-08-31",
+      "event_ko": "FY2007 operating improvement",
+      "signal_ko": "turnaround 진행"
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "event_order": 4,
+      "event_date": "2008-05-22",
+      "event_ko": "Consumer Solutions sale announced",
+      "signal_ko": "portfolio simplification"
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "event_order": 5,
+      "event_date": "2008-07-07",
+      "event_ko": "CSBU sale completion documents",
+      "signal_ko": "core training focus"
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "event_order": 6,
+      "event_date": "2026-05-31",
+      "event_ko": "Q3 FY2026 subscription/deferred revenue update",
+      "signal_ko": "현재 모델 확인"
+    }
+  ],
+  "sources": [
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "source_order": 1,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "VIC 2019 CRK page",
+      "source_url": "https://www.valueinvestorsclub.com/idea/COMSTOCK_RESOURCES_INC/6640275800",
+      "source_date": null,
+      "use_ko": "VIC 메타데이터·당시 가격/시총/순부채/Short 표시 확인"
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "source_order": 2,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC 2004 10-Q",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000095013404011584/d16950e10vq.htm",
+      "source_date": null,
+      "use_ko": "2004 debt 및 자본구조 확인"
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "source_order": 3,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC 2018 Jones contribution",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000119312518217312/d490208dex99a1i.htm",
+      "source_date": null,
+      "use_ko": "Bakken 자산 $620m, 최대 88.57m주·지배권 구조 확인"
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "source_order": 4,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "Comstock Covey Park announcement",
+      "source_url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-become-haynesville-basin-leader-acquisition",
+      "source_date": null,
+      "use_ko": "2019 $2.2bn Covey Park, Jones $475m 추가 투자, 2,000 locations 확인"
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "source_order": 5,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "Comstock FY2022 results",
+      "source_url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-inc-reports-fourth-quarter-2022-financial-and",
+      "source_date": null,
+      "use_ko": "2022 $673m FCF, $506m debt retirement, gas-cycle upside 확인"
+    },
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "source_order": 6,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC Q2 2026 results",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000119312526323767/crk-ex99_1.htm",
+      "source_date": null,
+      "use_ko": "2026 Haynesville 집중·생산/현금흐름 최신 상태 확인"
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "source_order": 1,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "VIC 2019 CRK page",
+      "source_url": "https://www.valueinvestorsclub.com/idea/COMSTOCK_RESOURCES_INC/6640275800",
+      "source_date": null,
+      "use_ko": "VIC 메타데이터·당시 가격/시총/순부채/Short 표시 확인"
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "source_order": 2,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC 2004 10-Q",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000095013404011584/d16950e10vq.htm",
+      "source_date": null,
+      "use_ko": "2004 debt 및 자본구조 확인"
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "source_order": 3,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC 2018 Jones contribution",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000119312518217312/d490208dex99a1i.htm",
+      "source_date": null,
+      "use_ko": "Bakken 자산 $620m, 최대 88.57m주·지배권 구조 확인"
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "source_order": 4,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "Comstock Covey Park announcement",
+      "source_url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-become-haynesville-basin-leader-acquisition",
+      "source_date": null,
+      "use_ko": "2019 $2.2bn Covey Park, Jones $475m 추가 투자, 2,000 locations 확인"
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "source_order": 5,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "Comstock FY2022 results",
+      "source_url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-inc-reports-fourth-quarter-2022-financial-and",
+      "source_date": null,
+      "use_ko": "2022 $673m FCF, $506m debt retirement, gas-cycle upside 확인"
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "source_order": 6,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC Q2 2026 results",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000119312526323767/crk-ex99_1.htm",
+      "source_date": null,
+      "use_ko": "2026 Haynesville 집중·생산/현금흐름 최신 상태 확인"
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "source_order": 1,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "VIC Crocodile Gold 2011",
+      "source_url": "https://www.valueinvestorsclub.com/idea/CROCODILE_GOLD_CORP/0373325138",
+      "source_date": null,
+      "use_ko": "2011 Long의 entity·날짜 확인"
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "source_order": 2,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "Luxor bid announcement",
+      "source_url": "https://www.prnewswire.com/news-releases/luxor-capital-announces-premium-offer-to-purchase-common-shares-of-crocodile-gold-135545133.html",
+      "source_date": null,
+      "use_ko": "2011 C$0.56 bid·약 60% premium·85% 목표 확인"
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "source_order": 3,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "Luxor formal offer",
+      "source_url": "https://www.prnewswire.com/news-releases/luxor-commences-offer-to-acquire-common-shares-of-crocodile-gold-for-056-per-share-in-cash-136135378.html",
+      "source_date": null,
+      "use_ko": "2011-12-23 formal offer 확인"
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "source_order": 4,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC AuRico/Crocodile acquisition",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1078217/000120445912000644/exhibit99-1.htm",
+      "source_date": null,
+      "use_ko": "2012 Fosterville·Stawell 최대 C$105m 인수조건 확인"
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "source_order": 5,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC AuRico 2014 royalty amendment",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1078217/000106299315000967/exhibit99-3.htm",
+      "source_date": null,
+      "use_ko": "2014 C$20m + 2%/1% NSR로 FCF sharing 종료 확인"
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "source_order": 6,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC Newmarket/Crocodile arrangement",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1713443/000106299317003535/exhibit99-87.htm",
+      "source_date": null,
+      "use_ko": "2015 합병·C$0.37 cash/주식 선택·최종 corporate outcome 확인"
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "source_order": 1,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "VIC Crocodile Gold 2011",
+      "source_url": "https://www.valueinvestorsclub.com/idea/CROCODILE_GOLD_CORP/0373325138",
+      "source_date": null,
+      "use_ko": "2011 Long의 entity·날짜 확인"
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "source_order": 2,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "Luxor bid announcement",
+      "source_url": "https://www.prnewswire.com/news-releases/luxor-capital-announces-premium-offer-to-purchase-common-shares-of-crocodile-gold-135545133.html",
+      "source_date": null,
+      "use_ko": "2011 C$0.56 bid·약 60% premium·85% 목표 확인"
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "source_order": 3,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "Luxor formal offer",
+      "source_url": "https://www.prnewswire.com/news-releases/luxor-commences-offer-to-acquire-common-shares-of-crocodile-gold-for-056-per-share-in-cash-136135378.html",
+      "source_date": null,
+      "use_ko": "2011-12-23 formal offer 확인"
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "source_order": 4,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC AuRico/Crocodile acquisition",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1078217/000120445912000644/exhibit99-1.htm",
+      "source_date": null,
+      "use_ko": "2012 Fosterville·Stawell 최대 C$105m 인수조건 확인"
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "source_order": 5,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC AuRico 2014 royalty amendment",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1078217/000106299315000967/exhibit99-3.htm",
+      "source_date": null,
+      "use_ko": "2014 C$20m + 2%/1% NSR로 FCF sharing 종료 확인"
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "source_order": 6,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC Newmarket/Crocodile arrangement",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1713443/000106299317003535/exhibit99-87.htm",
+      "source_date": null,
+      "use_ko": "2015 합병·C$0.37 cash/주식 선택·최종 corporate outcome 확인"
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "source_order": 1,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "VIC Crocodile Gold 2011",
+      "source_url": "https://www.valueinvestorsclub.com/idea/CROCODILE_GOLD_CORP/0373325138",
+      "source_date": null,
+      "use_ko": "2011 Long의 entity·날짜 확인"
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "source_order": 2,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "Luxor bid announcement",
+      "source_url": "https://www.prnewswire.com/news-releases/luxor-capital-announces-premium-offer-to-purchase-common-shares-of-crocodile-gold-135545133.html",
+      "source_date": null,
+      "use_ko": "2011 C$0.56 bid·약 60% premium·85% 목표 확인"
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "source_order": 3,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "Luxor formal offer",
+      "source_url": "https://www.prnewswire.com/news-releases/luxor-commences-offer-to-acquire-common-shares-of-crocodile-gold-for-056-per-share-in-cash-136135378.html",
+      "source_date": null,
+      "use_ko": "2011-12-23 formal offer 확인"
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "source_order": 4,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC AuRico/Crocodile acquisition",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1078217/000120445912000644/exhibit99-1.htm",
+      "source_date": null,
+      "use_ko": "2012 Fosterville·Stawell 최대 C$105m 인수조건 확인"
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "source_order": 5,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC AuRico 2014 royalty amendment",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1078217/000106299315000967/exhibit99-3.htm",
+      "source_date": null,
+      "use_ko": "2014 C$20m + 2%/1% NSR로 FCF sharing 종료 확인"
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "source_order": 6,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC Newmarket/Crocodile arrangement",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1713443/000106299317003535/exhibit99-87.htm",
+      "source_date": null,
+      "use_ko": "2015 합병·C$0.37 cash/주식 선택·최종 corporate outcome 확인"
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "source_order": 1,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "VIC 2019 CRK page",
+      "source_url": "https://www.valueinvestorsclub.com/idea/COMSTOCK_RESOURCES_INC/6640275800",
+      "source_date": null,
+      "use_ko": "VIC 메타데이터·당시 가격/시총/순부채/Short 표시 확인"
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "source_order": 2,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC 2004 10-Q",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000095013404011584/d16950e10vq.htm",
+      "source_date": null,
+      "use_ko": "2004 debt 및 자본구조 확인"
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "source_order": 3,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC 2018 Jones contribution",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000119312518217312/d490208dex99a1i.htm",
+      "source_date": null,
+      "use_ko": "Bakken 자산 $620m, 최대 88.57m주·지배권 구조 확인"
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "source_order": 4,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "Comstock Covey Park announcement",
+      "source_url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-become-haynesville-basin-leader-acquisition",
+      "source_date": null,
+      "use_ko": "2019 $2.2bn Covey Park, Jones $475m 추가 투자, 2,000 locations 확인"
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "source_order": 5,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "Comstock FY2022 results",
+      "source_url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-inc-reports-fourth-quarter-2022-financial-and",
+      "source_date": null,
+      "use_ko": "2022 $673m FCF, $506m debt retirement, gas-cycle upside 확인"
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "source_order": 6,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC Q2 2026 results",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000119312526323767/crk-ex99_1.htm",
+      "source_date": null,
+      "use_ko": "2026 Haynesville 집중·생산/현금흐름 최신 상태 확인"
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "source_order": 1,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "VIC 2019 CRK page",
+      "source_url": "https://www.valueinvestorsclub.com/idea/COMSTOCK_RESOURCES_INC/6640275800",
+      "source_date": null,
+      "use_ko": "VIC 메타데이터·당시 가격/시총/순부채/Short 표시 확인"
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "source_order": 2,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC 2004 10-Q",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000095013404011584/d16950e10vq.htm",
+      "source_date": null,
+      "use_ko": "2004 debt 및 자본구조 확인"
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "source_order": 3,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC 2018 Jones contribution",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000119312518217312/d490208dex99a1i.htm",
+      "source_date": null,
+      "use_ko": "Bakken 자산 $620m, 최대 88.57m주·지배권 구조 확인"
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "source_order": 4,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "Comstock Covey Park announcement",
+      "source_url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-become-haynesville-basin-leader-acquisition",
+      "source_date": null,
+      "use_ko": "2019 $2.2bn Covey Park, Jones $475m 추가 투자, 2,000 locations 확인"
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "source_order": 5,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "Comstock FY2022 results",
+      "source_url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-inc-reports-fourth-quarter-2022-financial-and",
+      "source_date": null,
+      "use_ko": "2022 $673m FCF, $506m debt retirement, gas-cycle upside 확인"
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "source_order": 6,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC Q2 2026 results",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000119312526323767/crk-ex99_1.htm",
+      "source_date": null,
+      "use_ko": "2026 Haynesville 집중·생산/현금흐름 최신 상태 확인"
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "source_order": 1,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "VIC 2019 CRK page",
+      "source_url": "https://www.valueinvestorsclub.com/idea/COMSTOCK_RESOURCES_INC/6640275800",
+      "source_date": null,
+      "use_ko": "VIC 메타데이터·당시 가격/시총/순부채/Short 표시 확인"
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "source_order": 2,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC 2004 10-Q",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000095013404011584/d16950e10vq.htm",
+      "source_date": null,
+      "use_ko": "2004 debt 및 자본구조 확인"
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "source_order": 3,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC 2018 Jones contribution",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000119312518217312/d490208dex99a1i.htm",
+      "source_date": null,
+      "use_ko": "Bakken 자산 $620m, 최대 88.57m주·지배권 구조 확인"
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "source_order": 4,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "Comstock Covey Park announcement",
+      "source_url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-become-haynesville-basin-leader-acquisition",
+      "source_date": null,
+      "use_ko": "2019 $2.2bn Covey Park, Jones $475m 추가 투자, 2,000 locations 확인"
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "source_order": 5,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "Comstock FY2022 results",
+      "source_url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-inc-reports-fourth-quarter-2022-financial-and",
+      "source_date": null,
+      "use_ko": "2022 $673m FCF, $506m debt retirement, gas-cycle upside 확인"
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "source_order": 6,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC Q2 2026 results",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000119312526323767/crk-ex99_1.htm",
+      "source_date": null,
+      "use_ko": "2026 Haynesville 집중·생산/현금흐름 최신 상태 확인"
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "source_order": 1,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC Franklin Covey FY2002 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000088620602000048/fy02_10k.htm",
+      "source_date": null,
+      "use_ko": "2002 사업구조·교육/소비자 segment·채널 확인"
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "source_order": 2,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC Franklin Covey FY2007 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000088620607000030/form10k_111407.htm",
+      "source_date": null,
+      "use_ko": "FY2006~07 매출·영업이익 개선 및 retail footprint 확인"
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "source_order": 3,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC Consumer Solutions sale release",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000088620608000027/ex991_052208.htm",
+      "source_date": null,
+      "use_ko": "2008 CSBU $32m 매각·proceeds buyback 계획 확인"
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "source_order": 4,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC 2009 Q3 filing",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000088620609000026/form10q_070907.htm",
+      "source_date": null,
+      "use_ko": "소비자 사업 매각 후 training/consulting 중심 구조 확인"
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "source_order": 5,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC FY2025 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000088620625000085/fc-20250831x10k.htm",
+      "source_date": null,
+      "use_ko": "AAP/Leader in Me 구독모델·2025 deferred revenue 확인"
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "source_order": 6,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC Q3 FY2026 results",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000119312526292604/fc-ex99_1.htm",
+      "source_date": null,
+      "use_ko": "2026 매출·deferred revenue·EBITDA·유동성 최신 확인"
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "source_order": 1,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC Franklin Covey FY2002 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000088620602000048/fy02_10k.htm",
+      "source_date": null,
+      "use_ko": "2002 사업구조·교육/소비자 segment·채널 확인"
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "source_order": 2,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC Franklin Covey FY2007 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000088620607000030/form10k_111407.htm",
+      "source_date": null,
+      "use_ko": "FY2006~07 매출·영업이익 개선 및 retail footprint 확인"
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "source_order": 3,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC Consumer Solutions sale release",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000088620608000027/ex991_052208.htm",
+      "source_date": null,
+      "use_ko": "2008 CSBU $32m 매각·proceeds buyback 계획 확인"
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "source_order": 4,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC 2009 Q3 filing",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000088620609000026/form10q_070907.htm",
+      "source_date": null,
+      "use_ko": "소비자 사업 매각 후 training/consulting 중심 구조 확인"
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "source_order": 5,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC FY2025 10-K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000088620625000085/fc-20250831x10k.htm",
+      "source_date": null,
+      "use_ko": "AAP/Leader in Me 구독모델·2025 deferred revenue 확인"
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "source_order": 6,
+      "source_type": "Primary/company/VIC source",
+      "source_name": "SEC Q3 FY2026 results",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000119312526292604/fc-ex99_1.htm",
+      "source_date": null,
+      "use_ko": "2026 매출·deferred revenue·EBITDA·유동성 최신 확인"
+    }
+  ]
+}
