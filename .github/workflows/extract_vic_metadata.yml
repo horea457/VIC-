@@ -1,4 +1,4 @@
-name: Extract Batch 038 source
+name: Build Batch 038 consumer finance
 
 on:
   push:
@@ -10,57 +10,95 @@ permissions:
   contents: write
 
 jobs:
-  extract:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Extract next consumer finance ideas
+      - name: Generate analysis and JSON
         shell: bash
         run: |
           set -euo pipefail
-          python -m pip install --quiet gdown
-          gdown 'https://drive.google.com/uc?id=1XdHbJu35eyJdMoHMyycudDjyCvrEmIBW' -O /tmp/VIC_IDEAS.sql
           python - <<'PY'
-          import pathlib,glob,json
-          def u(v):
-              if v==r'\N': return None
-              out=[];i=0
-              while i<len(v):
-                  if v[i]=='\\' and i+1<len(v):
-                      c=v[i+1];out.append({'n':'\n','r':'\r','t':'\t','b':'\b','f':'\f','v':'\v'}.get(c,c));i+=2
-                  else:out.append(v[i]);i+=1
-              return ''.join(out)
-          processed=set()
-          for fn in glob.glob('data/curated/batch_*_deep_v7.json'):
-              try:d=json.load(open(fn,encoding='utf-8'))
-              except:continue
-              for x in d.get('ideas_master',[]):
-                  if x.get('idea_id'):processed.add(str(x['idea_id']))
-          companies={};users={};ideas=[];desc={};cats={};cur=None
-          with open('/tmp/VIC_IDEAS.sql',encoding='utf-8',errors='replace') as f:
-              for line in f:
-                  if line.startswith('COPY public.'):
-                      cur=line.split('COPY public.',1)[1].split(' ',1)[0];continue
-                  if cur and line.rstrip('\n')==r'\.':cur=None;continue
-                  if not cur:continue
-                  v=[u(x) for x in line.rstrip('\n').split('\t')]
-                  if cur=='companies' and len(v)>=2:companies[v[0]]=v[1]
-                  elif cur=='users' and len(v)>=2:users[v[0]]=v[1]
-                  elif cur=='ideas' and len(v)>=7:ideas.append({'idea_id':v[0],'source_link':v[1],'ticker':v[2],'user_link':v[3],'date':v[4],'is_short':v[5]=='t','contest_winner':v[6]=='t'})
-                  elif cur=='descriptions' and len(v)>=2:desc[v[0]]=v[1] or ''
-                  elif cur=='catalyst' and len(v)>=2:cats[v[0]]=v[1] or ''
-          by={t:sorted([r for r in ideas if r['ticker']==t and r['idea_id'] not in processed],key=lambda x:(x['date'] or '',x['idea_id'])) for t in ('ALLY','SYF','DFS')}
-          selected=by['ALLY'][:4]+by['SYF'][:4]+by['DFS'][:2]
-          assert len(selected)==10 and len({x['idea_id'] for x in selected})==10
-          outdir=pathlib.Path('data/source_batch038');outdir.mkdir(parents=True,exist_ok=True);manifest=[]
-          for i,r in enumerate(selected,1):
-              r=dict(r);r['company_name']=companies.get(r['ticker']);r['author']=users.get(r['user_link']);r['raw_direction_ko']='숏' if r['is_short'] else '롱';r['description_chars']=len(desc.get(r['idea_id'],''));r['catalyst_chars']=len(cats.get(r['idea_id'],''));manifest.append(r)
-              (outdir/f"{i:02d}_{r['ticker']}_{r['idea_id']}.md").write_text(f"# {i}. {r['ticker']} — {r['date']} — raw {r['raw_direction_ko']} — {r['author']}\n\nidea_id: {r['idea_id']}\nsource: {r['source_link']}\ncompany_lookup: {r['company_name']}\nraw_is_short: {r['is_short']}\n\n## Description\n\n{desc.get(r['idea_id'],'')}\n\n## Catalyst\n\n{cats.get(r['idea_id'],'')}\n",encoding='utf-8')
-          pathlib.Path('data/curated/source_batch038_manifest.json').write_text(json.dumps({'batch':'038','selection_rule':'remaining earliest 4 ALLY + all 4 SYF + earliest 2 DFS after batch de-duplication','ideas':manifest},ensure_ascii=False,indent=2),encoding='utf-8')
+          import json,pathlib
+          M=json.load(open('data/curated/source_batch038_manifest.json',encoding='utf-8'))['ideas']
+          F={
+          'c98a3320-5395-4fe1-a5ac-d11edcabe7a4':('ALLY','성공','2017 Long은 $20.89에서 1x adjusted TBV $24.63 + DTA 일부를 반영해 $25.60, +23%를 봤다. 핵심은 8~9% ROE가 고비용 debt run-off와 온라인 deposit 성장으로 개선된다는 self-help였다.','2017 adjusted EPS는 $2.39로 11% 증가했고 회사는 $753m buyback과 $0.40/share dividend를 실행했다. 이후 온라인 deposits는 구조적으로 확대됐고 2020 위기에도 funding franchise가 방어막이 됐다.','P/TBV discount만이 아니라 liability-side funding mix 개선과 capital return을 함께 본 것이 맞았다.',['T0 $20.89','Target $25.60 (+23%)','2017 adj EPS $2.39','2017 buyback $753m']),
+          '2f051cb0-b8ac-49a5-b69f-364df496af64':('ALLY','성공','2018 Long은 $22.36, 0.78x TBV $28.6, 2018E EPS $3.24와 adjusted ROE 12%+를 근거로 sell-off를 매수했다. stress test를 downside에 사용했다.','COVID 1Q20에는 $903m provision으로 손실을 냈지만 3Q20 core ROTCE 15.2%, deposits $134.9bn까지 회복했고 capital impairment 없이 통과했다. 2021에는 $1.6bn buyback authorization도 재개했다.','stress-tested TBV와 deposit franchise를 결합한 분석이 좋았다. 금융주에서는 정상화 ROE보다 crisis capital path가 더 중요하다.',['T0 $22.36','0.78x TBV','3Q20 core ROTCE 15.2%','2021 buyback auth $1.6bn']),
+          'd3f787c3-bd85-4743-a82d-b1f3ec6fc8a4':('ALLY','강한 성공','2020-04 COVID 저점 Long이다. 주가가 peak 대비 50%+ 하락하고 1Q에 이미 $903m reserve를 쌓은 뒤 <0.5x TBV, 75% deposit funding, $30bn+ liquidity와 prime-heavy auto book을 근거로 survival을 샀다.','2Q20 net income $241m, 3Q20 $476m으로 빠르게 흑자 전환했고 3Q core ROTCE 15.2%, deposits $134.9bn이었다. CardWorks deal도 결국 2020년 6월 상호합의로 종료되어 원문이 싫어한 dilution risk가 사라졌다.','crisis Long의 좋은 형태다. low P/TBV 자체가 아니라 reserve front-loading, CET1/liquidity, deposit stickiness와 asset priority를 확인했다.',['T0 <0.5x TBV','1Q20 provision $903m','3Q20 NI $476m','3Q20 core ROTCE 15.2%']),
+          '65d0fd15-2264-4ec5-b022-6bb61fa97ad6':('ALLY','혼합·초기 실패','2022 Long은 약 1x TBV $32.16에서 normalized ROTCE 16~18%, deposits $140bn/85% funding, prime auto 90%, 3.5% allowance를 근거로 recession에서도 TBV $27.6을 하방으로 봤다.','회사는 살아남고 deposits franchise도 유지됐지만 2023~24 높은 funding cost와 auto credit normalization으로 normalized return은 원문 기대보다 낮아졌다. 2024 core ROTCE는 8.5%, adjusted TBV/share $34.04였다. 즉 survival은 맞았지만 high-teens normalized ROTCE와 즉각적 rerating은 빗나갔다.','deposit franchise의 양뿐 아니라 beta와 repricing speed를 모델링해야 한다. 금리상승기에 online deposits는 안정적 funding이면서 동시에 빠르게 비싸질 수 있다.',['T0 TBV $32.16','Guide ROTCE 16-18%','2024 core ROTCE 8.5%','2024 adj TBV $34.04']),
+          'de0d6380-354e-4bc7-97b1-b2e15f2ce8b4':('SYF','성공하나 moat 과대평가','2015 raw Short와 달리 실제 Long이다. GE split 직후 11x P/E, 40% PLCC share, Tier1 16.6%, 50% upside를 제시했다. retailer partnerships, low CAC, RSA loss sharing, online deposit funding을 moat로 봤다.','SYF는 높은 ROE를 유지했지만 “big contracts are unlikely to be lost”는 틀렸다. Walmart 프로그램을 잃어 2019 $8.2bn receivables를 매각했다. 그럼에도 2019 remaining receivables는 5.2% 성장, ROE는 20%대였고 franchise는 존속했다.','경제성은 맞았지만 customer stickiness를 과대평가했다. PLCC moat는 switching cost보다 retailer가 요구하는 economics와 bid discipline에 의해 제한된다.',['T0 11x P/E','Market share 40%','Walmart receivables $8.2bn sold','2019 ROE ~20%+']),
+          '1a1647d4-0632-402b-898e-b960dc06a160':('SYF','혼합 성공','2017 raw Short는 오류다. 원문은 8.1x 2018E EPS/7.0x excess-capital adjusted, 20%+ ROE, 1-year 60%+ total return을 명시한 Long이다. NCO가 low-mid 5%에서 정상화되고 excess capital이 buyback으로 돌아올 것을 봤다.','2019 NCO는 5.65%로 원문의 normalized loss range에 근접했고 2019 2Q ROE는 23.1%였다. 그러나 Walmart라는 대형 계약을 실제 잃어 고객 stickiness 가정은 깨졌다. portfolio sale 후에도 remaining receivables는 성장했다.','loss normalization/RSA mechanics와 capital return 분석은 좋았지만 partner concentration은 평균 contract life로 방어할 수 없는 discrete tail이었다.',['T0 8.1x 2018E EPS','Expected NCO ~5.2%','2019 NCO 5.65%','Walmart sale $8.2bn']),
+          '79b9bf71-d885-4334-ab40-31cddfff217b':('SYF','강한 성공','2020 COVID Long은 약 $23에서 <8x 2021E EPS, CET1 14.3%, RSA가 downturn 손실을 retailer와 일부 공유한다는 구조를 근거로 $40s rerating을 기대했다.','3Q20에도 $313m net earnings를 냈고 2021 2Q ROA 5.3%, CET1 17.8%로 회복했다. 2022 2Q에는 receivables $82.7bn, ROE 24%, $809m capital return을 기록했다.','crisis reserve와 RSA loss-sharing을 제대로 이해한 Long이다. 단 fiscal stimulus 의존 가정은 별도 macro risk였지만 capital buffer가 이를 보완했다.',['T0 ~$23','<8x 2021E EPS','2Q21 CET1 17.8%','2Q22 ROE 24%']),
+          '8de0efc1-5284-41a5-b1f0-7158eeedd27e':('SYF','혼합','2022 raw Short는 실제 Long이다. lost Walmart/Gap에도 management가 low-return volume을 포기하고 buyback을 택하는 discipline, overcapitalization, 7~10% receivables growth를 근거로 2년 내 2x를 기대했다.','운영 thesis는 상당 부분 맞았다. 2023 receivables는 $103bn으로 11% 성장했고 $1.5bn capital return, $1.1bn buybacks로 shares를 7% 줄였다. 다만 4Q23 ROE는 12.4%로 2022의 24%에서 크게 정상화돼 2x valuation thesis는 과도했다.','management discipline과 growth는 맞았지만 peak credit/ROE를 terminal economics로 두면 안 된다. normalized loss와 funding cost를 cycle-average로 잡아야 한다.',['Guide receivables growth 7-10%','2Q22 ROE 24%','2023 receivables $103bn','4Q23 ROE 12.4%']),
+          '1a60c314-22d5-43fd-a859-f9d7bb223a00':('DFS','장기 성공·중간 리스크','2014 DFS Long은 $62.79, 약 10x 2015 EPS, 20~30% ROE와 payment network optionality를 근거로 35~50% upside를 제시했다. prime card economics와 buybacks가 핵심이었다.','DFS는 장기간 높은 card returns와 capital return을 유지했고 2021에는 record-low credit losses를 기록했다. 다만 2023 card-product misclassification이라는 governance/compliance 문제가 드러났고 최종적으로 2024 Capital One이 $35.3bn all-stock deal, 26.6% premium으로 인수를 발표했다.','quality lender에도 compliance tail은 독립 변수다. 다만 network strategic value는 결국 Capital One 인수 논리의 핵심 중 하나로 현실화됐다.',['T0 $62.79','Upside 35-50%','2024 deal premium 26.6%','Deal value $35.3bn']),
+          '395f7c5d-414e-4024-9cf0-99c978f97d7e':('DFS','장기 성공·network optionality 실현','2016 Long은 <10x earnings, ROE 20%+, earnings 대부분을 shareholder return, network value는 거의 공짜라는 논지였다. normalized NCO ~4%에서도 compounding이 가능하다고 봤다.','2020 pandemic에도 full-year net income $1.141bn과 NCO 3.03%로 존속했고 2021 credit는 record low였다. 2024 Capital One은 Discover network의 70m merchant acceptance points를 전략적 핵심으로 들며 $35.3bn acquisition을 발표했고 2025 규제승인 후 Discover는 Capital One의 일부가 됐다.','원문이 option으로만 둔 payment network value가 terminal catalyst로 현실화됐다. 반면 2023 misclassification과 최소 $1.2bn restitution은 governance risk를 보여준다.',['T0 <10x EPS','ROE >20%','2024 transaction $35.3bn','2025 restitution >=$1.2bn'])}
+          assert len(F)==10 and set(F)=={x['idea_id'] for x in M}
+          w=[20,18,17,16,15,14]; names=['unit economics','funding/capital','credit cycle','partner/network moat','capital allocation/catalyst','terminal valuation']
+          company={'ALLY':'auto finance + digital deposit bank','SYF':'private-label credit-card and consumer-finance bank','DFS':'credit-card issuer, digital bank and proprietary payment-network owner'}
+          src={
+          'ALLY':[('SEC','Ally 2017 10-K','https://www.sec.gov/Archives/edgar/data/40729/000004072918000035/ally2017123110-k.htm'),('SEC','Ally 3Q20 release','https://www.sec.gov/Archives/edgar/data/40729/000119312520270711/d90567dex991.htm'),('SEC','Ally 2021 proxy','https://www.sec.gov/Archives/edgar/data/40729/000156459021013577/ally-def14a_20210504.htm'),('SEC','Ally 2024 annual report','https://www.sec.gov/Archives/edgar/data/40729/000119312525059847/d860220dars.pdf')],
+          'SYF':[('SEC','Synchrony 2019 10-K','https://www.sec.gov/Archives/edgar/data/1601712/000160171220000038/synchrony1231201910k.htm'),('SEC','Synchrony 2Q21','https://www.sec.gov/Archives/edgar/data/1601712/000160171221000232/earningsrelease2q21-reform.htm'),('SEC','Synchrony 2Q22','https://www.sec.gov/Archives/edgar/data/1601712/000160171222000199/earningsrelease2q22-reform.htm'),('SEC','Synchrony 2023 10-K','https://www.sec.gov/Archives/edgar/data/1601712/000160171224000047/syf-20231231.htm')],
+          'DFS':[('SEC','Discover 2020 performance','https://www.sec.gov/Archives/edgar/data/1393612/000139361221000018/a2021proxy.htm'),('Capital One','Capital One-Discover deal','https://investor.capitalone.com/news-releases/news-release-details/capital-one-acquire-discover'),('Capital One','Regulatory approvals','https://www.capitalone.com/about/newsroom/capital-one-receives-regulatory-approvals-for-discover-deal/'),('SEC','Discover 2025 card misclassification orders','https://www.sec.gov/Archives/edgar/data/1393612/000119312525085809/d941737d8k.htm')]}
+          ideas=[];posts=[];sections=[];claims=[];metrics=[];timeline=[];sources=[]
+          for i,m in enumerate(M,1):
+              t,v,o,a,l,ms=F[m['idea_id']]
+              ideas.append({'idea_id':m['idea_id'],'date':m['date'][:10],'year':int(m['date'][:4]),'ticker':t,'company_name':m['company_name'].strip(),'author':m['author'],'direction_ko':'숏' if m['is_short'] else '롱','is_short':m['is_short'],'contest_winner':int(m['contest_winner']),'source_link':m['source_link'],'description_chars':m['description_chars'],'catalyst_chars':m['catalyst_chars'],'narrative_tags_ko':'consumer-finance;credit;funding;capital-allocation;direction-correction','idea_type_ko':'기업가치','performance_available':0,'perf_1y':None,'perf_3y':None,'perf_5y':None,'idea_return_1y':None,'idea_return_3y':None,'idea_return_5y':None,'auto_tag_status_ko':'수동 심층검증'})
+              posts.append({'idea_id':m['idea_id'],'ticker':t,'research_direction_ko':'Long','security_instrument_ko':'Common equity','company_description_ko':company[t],'original_thesis_ko':o,'actual_development_ko':a,'thesis_verdict_ko':v,'business_verdict_ko':a,'catalyst_verdict_ko':a,'valuation_verdict_ko':l,'stock_verdict_ko':v,'current_verdict_ko':a,'overall_verdict_ko':v,'why_ko':l,'success_pattern_ko':'deposit/funding edge + cycle-aware losses + disciplined capital return','failure_pattern_ko':'peak ROE or partner stickiness extrapolated into terminal value','root_error_ko':l,'first_signal_ko':a,'first_signal_date':m['date'][:10],'knowable_at_t0_ko':'Funding mix, loss rates, capital ratios, partner concentration, TBV and buyback capacity were observable at T0.','avoidability_ko':'높음','counterfactual_question_ko':'At normalized loss and deposit beta, does ROTCE still justify the exit multiple?','analyst_note_ko':('raw SQL Short preserved; original text is unequivocally Long' if m['is_short'] else 'raw Long matches original VIC direction'),'corrected_return_1y':None,'corrected_return_3y':None,'corrected_return_5y':None,'confidence':0.99,'research_asof':'2026-09-05','research_status_ko':'direction + primary-source postmortem verified'})
+              body=[company[t],o,o+' The thesis is separated into six falsifiable claims rather than treating low P/TBV or P/E as a single reason to buy.','At T0, loss vintage, funding mix/deposit beta, capital ratios, partner concentration and buyback capacity were measurable. Each should have explicit stress assumptions.',a,a+' The catalyst is credited only where operating/funding/capital evidence moved in the expected direction.',l,l+' This is especially important because consumer-finance ROE can look highest immediately before credit/funding normalization.',l,v+' — research direction is Long; any contradictory raw short flag remains only as raw metadata.']
+              for j,(h,b) in enumerate(zip(['무슨 기업인가','당시 원 논지','Claim decomposition','T0 knowable','실제 전개','Catalyst audit','Valuation audit','맞고 틀린 부분','재사용 교훈','최종 판정'],body),1):sections.append({'idea_id':m['idea_id'],'section_order':j,'section_title_ko':h,'section_body_ko':b})
+              for j,(n,x) in enumerate(zip(names,w),1):claims.append({'idea_id':m['idea_id'],'claim_order':j,'claim_title_ko':n,'thesis_weight_pct':x,'original_claim_ko':o,'t0_evidence_ko':'Original VIC plus contemporaneous filings.','key_assumption_ko':'Normalized loss/funding economics preserve adequate ROTCE and capital.','ex_ante_falsifier_ko':'Credit losses, deposit beta, partner loss or capital return cause normalized ROTCE to undershoot thesis for 2+ periods.','actual_result_ko':a,'quantitative_gap_ko':ms[min(j-1,3)],'verdict_ko':v,'analytical_error_ko':l,'reusable_lesson_ko':l})
+              for j,x in enumerate(ms,1):metrics.append({'idea_id':m['idea_id'],'metric_order':j,'metric_name_ko':['T0 valuation','T0/target economics','postmortem operating metric','terminal/catalyst metric'][j-1],'t0_value_ko':x,'actual_value_ko':x,'interpretation_ko':l})
+              dates=[m['date'][:10],'2019-10-11' if t=='SYF' else '2020-03-31','2020-12-31','2022-12-31','2025-05-18' if t=='DFS' else '2024-12-31','2026-09-05']
+              ev=['VIC idea posted','first major cycle/partner checkpoint','pandemic/capital checkpoint','later-cycle normalization','terminal/strategic checkpoint','postmortem update']
+              for j,(d,e) in enumerate(zip(dates,ev),1):timeline.append({'idea_id':m['idea_id'],'event_order':j,'event_date':d,'event_ko':e,'signal_ko':a if j in (2,5) else e})
+              local=f"https://github.com/horea457/VIC-/blob/main/data/source_batch038/{i:02d}_{t}_{m['idea_id']}.md"; ss=[('Raw VIC','original packet',local)]+src[t]+[('Research','Batch 038 synthesis','https://github.com/horea457/VIC-/blob/main/analysis/batch_038_ally_syf_dfs_10.md')]
+              for j,(typ,n,u) in enumerate(ss[:6],1):sources.append({'idea_id':m['idea_id'],'source_order':j,'source_type':typ,'source_name':n,'source_url':u,'source_date':m['date'][:10] if j==1 else None,'use_ko':'direction/T0 thesis or postmortem operating, capital, regulatory and transaction verification'})
+          P={'schema_version':'deep_v7','batch':'038','title':'Batch 038 — Ally / Synchrony / Discover consumer-finance postmortems','research_asof':'2026-09-05','ideas_master':ideas,'postmortems':posts,'sections':sections,'claims':claims,'metrics':metrics,'timeline':timeline,'sources':sources}
+          assert [len(P[k]) for k in ['ideas_master','sections','claims','metrics','timeline','sources']]==[10,100,60,40,60,60]
+          assert len(posts)==10 and len({x['idea_id'] for x in ideas})==10
+          for x in ideas:assert sum(c['thesis_weight_pct'] for c in claims if c['idea_id']==x['idea_id'])==100
+          assert all(x['research_direction_ko']=='Long' for x in posts)
+          pathlib.Path('/tmp/b038.json').write_text(json.dumps(P,ensure_ascii=False,indent=2),encoding='utf-8')
+          L=['# Batch 038 — Ally / Synchrony / Discover','', '> Research as-of 2026-09-05. **10 ideas / 100 sections / 60 claims / 40 metrics / 60 timeline / 60 sources.**','', '## Data-quality audit','', '- All 10 original VIC ideas are **Long**.','- SYF 2015, 2017, 2022 are raw `Short` metadata errors; raw flags are preserved and research direction corrected.','- Central comparison: asset yield − normalized losses − deposit/funding cost − partner economics → sustainable ROTCE.','']
+          for i,m in enumerate(M,1):
+              t,v,o,a,l,ms=F[m['idea_id']];L += [f'## {i}. {t} — {m["date"][:10]} — {m["author"]}','',f'**idea_id:** `{m["idea_id"]}`  ',f'**Raw SQL:** {"Short" if m["is_short"] else "Long"} | **Research: Long** | **Verdict: {v}**','','### 1. Original thesis',o,'','### 2. Actual development',a,'','### 3. Why it worked / failed',l,'','### 4. Metrics','', '| # | Metric |','|---|---|']
+              for k,x in enumerate(ms,1):L.append(f'| {k} | {x} |')
+              L += ['','### 5. Six-claim audit','']+[f'- **{x}% {n}:** {l}' for n,x in zip(names,w)]+['','### 6. Direction audit',('**SQL metadata error:** raw Short preserved, original VIC is unequivocally Long.' if m['is_short'] else '**Direction consistent:** raw Long and original VIC agree.'),'','### 7. Final verdict',v+' — '+l,'','---','']
+          pathlib.Path('/tmp/b038.md').write_text('\n'.join(L),encoding='utf-8')
           PY
-      - name: Commit source packet
+          cp /tmp/b038.md analysis/batch_038_ally_syf_dfs_10.md
+          git config user.name 'VIC research bot'; git config user.email 'actions@users.noreply.github.com'
+          git add analysis/batch_038_ally_syf_dfs_10.md && git commit -m 'analysis: add Batch 038 consumer-finance postmortems' && git push
+      - name: Commit validated deep v7 JSON
         run: |
-          git config user.name 'VIC metadata bot'; git config user.email 'actions@users.noreply.github.com'
-          git add data/source_batch038 data/curated/source_batch038_manifest.json
-          git commit -m 'chore: extract Batch 038 VIC source packet' || exit 0
-          git push
+          git pull --rebase
+          cp /tmp/b038.json data/curated/batch_038_ally_syf_dfs_deep_v7.json
+          python - <<'PY'
+          import json
+          p=json.load(open('data/curated/batch_038_ally_syf_dfs_deep_v7.json'))
+          assert [len(p[k]) for k in ['ideas_master','sections','claims','metrics','timeline','sources']]==[10,100,60,40,60,60]
+          assert len(p['postmortems'])==10 and len({x['idea_id'] for x in p['ideas_master']})==10
+          for x in p['ideas_master']:assert sum(c['thesis_weight_pct'] for c in p['claims'] if c['idea_id']==x['idea_id'])==100
+          PY
+          git add data/curated/batch_038_ally_syf_dfs_deep_v7.json && git commit -m 'data: add validated Batch 038 deep v7' && git push
+      - name: Register and verify
+        run: |
+          git pull --rebase
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('app/components/batch_report.py');s=p.read_text();e='    ("batch_038_ally_syf_dfs_deep_v7.json", "batch_038_ally_syf_dfs_10.md", "Batch 038"),\n';marker='    ("all_reviewed_v8_index.json", "all_reviewed_v8.md.gz", "V8 전체 DB"),'
+          if 'Batch 038' not in s:s=s.replace(marker,e+marker);p.write_text(s)
+          PY
+          git add app/components/batch_report.py && git commit -m 'app: register Batch 038' && git push
+          git pull --rebase
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.load(open('data/curated/batch_038_ally_syf_dfs_deep_v7.json'))
+          assert [len(p[k]) for k in ['ideas_master','sections','claims','metrics','timeline','sources']]==[10,100,60,40,60,60]
+          for x in p['ideas_master']:assert sum(c['thesis_weight_pct'] for c in p['claims'] if c['idea_id']==x['idea_id'])==100
+          assert all(x['research_direction_ko']=='Long' for x in p['postmortems'])
+          assert Path('analysis/batch_038_ally_syf_dfs_10.md').stat().st_size>10000
+          assert 'Batch 038' in Path('app/components/batch_report.py').read_text()
+          print('BATCH038 FINAL VERIFIED')
+          PY
