@@ -49,6 +49,7 @@ BATCH_SOURCES = (
     ("batch_028_tripadvisor_grubhub_deep_v7.json", "batch_028_tripadvisor_grubhub_10.md", "Batch 028"),
     ("batch_029_uhal_united_rentals_deep_v7.json", "batch_029_uhal_united_rentals_10.md", "Batch 029"),
     ("batch_030_clearwater_crown_deep_v7.json", "batch_030_clearwater_crown_10.md", "Batch 030"),
+    ("batch_031_rentacenter_worldacceptance_deep_v7.json", "batch_031_rentacenter_worldacceptance_10.md", "Batch 031"),
     ("all_reviewed_v8_index.json", "all_reviewed_v8.md.gz", "V8 전체 DB"),
 )
 
