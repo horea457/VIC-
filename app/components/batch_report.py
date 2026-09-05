@@ -45,6 +45,7 @@ BATCH_SOURCES = (
 ("batch_037_cit_cacc_ally_deep_v7.json","batch_037_cit_cacc_ally_10.md","Batch 037"),
 ("batch_038_ally_syf_dfs_deep_v7.json","batch_038_ally_syf_dfs_10.md","Batch 038"),
 ("batch_039_nexstar_sinclair_deep_v7.json","batch_039_nexstar_sinclair_10.md","Batch 039"),
+("batch_040_gray_townsquare_deep_v7.json","batch_040_gray_townsquare_10.md","Batch 040"),
 ("all_reviewed_v8_index.json","all_reviewed_v8.md.gz","V8 전체 DB"),)
 
 @st.cache_data(show_spinner=False)
