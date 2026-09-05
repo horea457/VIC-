@@ -46,6 +46,7 @@ BATCH_SOURCES = (
 ("batch_038_ally_syf_dfs_deep_v7.json","batch_038_ally_syf_dfs_10.md","Batch 038"),
 ("batch_039_nexstar_sinclair_deep_v7.json","batch_039_nexstar_sinclair_10.md","Batch 039"),
 ("batch_040_gray_townsquare_deep_v7.json","batch_040_gray_townsquare_10.md","Batch 040"),
+("batch_041_local_radio_audio_deep_v7.json","batch_041_local_radio_audio_10.md","Batch 041"),
 ("all_reviewed_v8_index.json","all_reviewed_v8.md.gz","V8 전체 DB"),)
 
 @st.cache_data(show_spinner=False)
@@ -73,7 +74,15 @@ def _expand_markdown_parts(markdown_path,text):
 
 def _extract_modern_company_report(text,date):
     ideas=_heading_starts(text,rf'^## \d+\. {re.escape(date)}(?:\s|—|-).*$')
-    if not ideas: return None
+    if not ideas:
+        dated_h1=_heading_starts(text,rf'^# .+ — {re.escape(date)}(?:\s|—|-).*$')
+        if dated_h1:
+            selected=dated_h1[0]
+            all_h1=_heading_starts(text,r'^# (?!#).+$')
+            end=next((h.start() for h in all_h1 if h.start()>selected.start()),len(text))
+            intro_end=all_h1[0].start() if all_h1 else selected.start()
+            return '\n\n---\n\n'.join(x for x in (text[:intro_end].strip(),text[selected.start():end].strip()) if x)
+        return None
     selected=ideas[0]; all_h1=_heading_starts(text,r'^# (?!#).+$')
     company_heads=[h for h in all_h1 if not re.match(r'^# (?:Batch |Part |배치 )',h.group(0))]
     start=end=None
