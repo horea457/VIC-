@@ -1,4 +1,4 @@
-name: Retry Batch 037 finance
+name: Extract Batch 038 source
 
 on:
   push:
@@ -10,79 +10,57 @@ permissions:
   contents: write
 
 jobs:
-  retry:
+  extract:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 2
-      - name: Reuse prior generator with fix
+      - name: Extract next consumer finance ideas
         shell: bash
         run: |
           set -euo pipefail
-          git show HEAD^:.github/workflows/extract_vic_metadata.yml > /tmp/old.yml
+          python -m pip install --quiet gdown
+          gdown 'https://drive.google.com/uc?id=1XdHbJu35eyJdMoHMyycudDjyCvrEmIBW' -O /tmp/VIC_IDEAS.sql
           python - <<'PY'
-          from pathlib import Path
-          s=Path('/tmp/old.yml').read_text()
-          marker="          python - <<'PY'\n"
-          a=s.index(marker)+len(marker)
-          b=s.index("\n          PY\n",a)
-          code=s[a:b]
-          code='\n'.join(line[10:] if line.startswith('          ') else line for line in code.splitlines())
-          code=code.replace("m['year']==2009", "int(m['date'][:4])==2009")
-          exec(compile(code,'batch037_generator','exec'),{})
+          import pathlib,glob,json
+          def u(v):
+              if v==r'\N': return None
+              out=[];i=0
+              while i<len(v):
+                  if v[i]=='\\' and i+1<len(v):
+                      c=v[i+1];out.append({'n':'\n','r':'\r','t':'\t','b':'\b','f':'\f','v':'\v'}.get(c,c));i+=2
+                  else:out.append(v[i]);i+=1
+              return ''.join(out)
+          processed=set()
+          for fn in glob.glob('data/curated/batch_*_deep_v7.json'):
+              try:d=json.load(open(fn,encoding='utf-8'))
+              except:continue
+              for x in d.get('ideas_master',[]):
+                  if x.get('idea_id'):processed.add(str(x['idea_id']))
+          companies={};users={};ideas=[];desc={};cats={};cur=None
+          with open('/tmp/VIC_IDEAS.sql',encoding='utf-8',errors='replace') as f:
+              for line in f:
+                  if line.startswith('COPY public.'):
+                      cur=line.split('COPY public.',1)[1].split(' ',1)[0];continue
+                  if cur and line.rstrip('\n')==r'\.':cur=None;continue
+                  if not cur:continue
+                  v=[u(x) for x in line.rstrip('\n').split('\t')]
+                  if cur=='companies' and len(v)>=2:companies[v[0]]=v[1]
+                  elif cur=='users' and len(v)>=2:users[v[0]]=v[1]
+                  elif cur=='ideas' and len(v)>=7:ideas.append({'idea_id':v[0],'source_link':v[1],'ticker':v[2],'user_link':v[3],'date':v[4],'is_short':v[5]=='t','contest_winner':v[6]=='t'})
+                  elif cur=='descriptions' and len(v)>=2:desc[v[0]]=v[1] or ''
+                  elif cur=='catalyst' and len(v)>=2:cats[v[0]]=v[1] or ''
+          by={t:sorted([r for r in ideas if r['ticker']==t and r['idea_id'] not in processed],key=lambda x:(x['date'] or '',x['idea_id'])) for t in ('ALLY','SYF','DFS')}
+          selected=by['ALLY'][:4]+by['SYF'][:4]+by['DFS'][:2]
+          assert len(selected)==10 and len({x['idea_id'] for x in selected})==10
+          outdir=pathlib.Path('data/source_batch038');outdir.mkdir(parents=True,exist_ok=True);manifest=[]
+          for i,r in enumerate(selected,1):
+              r=dict(r);r['company_name']=companies.get(r['ticker']);r['author']=users.get(r['user_link']);r['raw_direction_ko']='숏' if r['is_short'] else '롱';r['description_chars']=len(desc.get(r['idea_id'],''));r['catalyst_chars']=len(cats.get(r['idea_id'],''));manifest.append(r)
+              (outdir/f"{i:02d}_{r['ticker']}_{r['idea_id']}.md").write_text(f"# {i}. {r['ticker']} — {r['date']} — raw {r['raw_direction_ko']} — {r['author']}\n\nidea_id: {r['idea_id']}\nsource: {r['source_link']}\ncompany_lookup: {r['company_name']}\nraw_is_short: {r['is_short']}\n\n## Description\n\n{desc.get(r['idea_id'],'')}\n\n## Catalyst\n\n{cats.get(r['idea_id'],'')}\n",encoding='utf-8')
+          pathlib.Path('data/curated/source_batch038_manifest.json').write_text(json.dumps({'batch':'038','selection_rule':'remaining earliest 4 ALLY + all 4 SYF + earliest 2 DFS after batch de-duplication','ideas':manifest},ensure_ascii=False,indent=2),encoding='utf-8')
           PY
-          test -s /tmp/b037.md && test -s /tmp/b037.json
-          cp /tmp/b037.md analysis/batch_037_cit_cacc_ally_10.md
-          git config user.name 'VIC research bot'
-          git config user.email 'actions@users.noreply.github.com'
-          git add analysis/batch_037_cit_cacc_ally_10.md
-          git commit -m 'analysis: add Batch 037 finance postmortems'
-          git push
-      - name: Commit validated JSON
-        shell: bash
+      - name: Commit source packet
         run: |
-          git pull --rebase
-          cp /tmp/b037.json data/curated/batch_037_cit_cacc_ally_deep_v7.json
-          python - <<'PY'
-          import json
-          p=json.load(open('data/curated/batch_037_cit_cacc_ally_deep_v7.json',encoding='utf-8'))
-          assert len(p['ideas_master'])==10 and len(p['postmortems'])==10
-          assert len(p['sections'])==100 and len(p['claims'])==60 and len(p['metrics'])==40 and len(p['timeline'])==60 and len(p['sources'])==60
-          assert len({x['idea_id'] for x in p['ideas_master']})==10
-          for x in p['ideas_master']:
-              assert sum(c['thesis_weight_pct'] for c in p['claims'] if c['idea_id']==x['idea_id'])==100
-          assert all(x['research_direction_ko'].startswith('Long') for x in p['postmortems'])
-          assert [x['security_instrument_ko'] for x in p['postmortems'] if x['idea_id']=='f2dc229e-52b4-4b56-ae6b-ca21f91e3415']==['Senior unsecured bonds']
-          PY
-          git add data/curated/batch_037_cit_cacc_ally_deep_v7.json
-          git commit -m 'data: add validated Batch 037 deep v7'
+          git config user.name 'VIC metadata bot'; git config user.email 'actions@users.noreply.github.com'
+          git add data/source_batch038 data/curated/source_batch038_manifest.json
+          git commit -m 'chore: extract Batch 038 VIC source packet' || exit 0
           git push
-      - name: Register and final verify
-        shell: bash
-        run: |
-          git pull --rebase
-          python - <<'PY'
-          from pathlib import Path
-          p=Path('app/components/batch_report.py');s=p.read_text(encoding='utf-8')
-          e='    ("batch_037_cit_cacc_ally_deep_v7.json", "batch_037_cit_cacc_ally_10.md", "Batch 037"),\n'
-          marker='    ("all_reviewed_v8_index.json", "all_reviewed_v8.md.gz", "V8 전체 DB"),'
-          if 'Batch 037' not in s:
-              assert marker in s
-              s=s.replace(marker,e+marker);p.write_text(s,encoding='utf-8')
-          PY
-          git add app/components/batch_report.py
-          git commit -m 'app: register Batch 037'
-          git push
-          git pull --rebase
-          python - <<'PY'
-          import json
-          from pathlib import Path
-          p=json.load(open('data/curated/batch_037_cit_cacc_ally_deep_v7.json',encoding='utf-8'))
-          assert [len(p[k]) for k in ['ideas_master','sections','claims','metrics','timeline','sources']]==[10,100,60,40,60,60]
-          assert len(p['postmortems'])==10 and len({x['idea_id'] for x in p['ideas_master']})==10
-          for x in p['ideas_master']: assert sum(c['thesis_weight_pct'] for c in p['claims'] if c['idea_id']==x['idea_id'])==100
-          assert Path('analysis/batch_037_cit_cacc_ally_10.md').stat().st_size>10000
-          assert 'Batch 037' in Path('app/components/batch_report.py').read_text(encoding='utf-8')
-          print('BATCH037 FINAL VERIFIED')
-          PY
