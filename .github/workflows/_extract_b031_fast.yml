@@ -1,4 +1,4 @@
-name: Extract Batch 031 source fast
+name: Extract Batch 031 source fast v2
 on:
   push:
     branches: [main]
