@@ -14,19 +14,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Test stored payload variants
+      - name: Inspect payload boundaries
         shell: bash
         run: |
-          set -u
-          echo 'sizes:'
-          wc -c .github/batch042_payload_*.txt
-          test_variant() {
-            name="$1"; shift
-            cat "$@" | base64 -d > "/tmp/${name}.tgz" 2>"/tmp/${name}.b64err" || true
-            echo "-- ${name} --"
-            gzip -t "/tmp/${name}.tgz" && echo "CRC_OK ${name}" || echo "CRC_FAIL ${name}"
-          }
-          test_variant v1 .github/batch042_payload_1.txt .github/batch042_payload_2.txt .github/batch042_payload_3a.txt .github/batch042_payload_4a.txt .github/batch042_payload_4b.txt .github/batch042_payload_4c.txt .github/batch042_payload_5.txt
-          test_variant v2 .github/batch042_payload_1.txt .github/batch042_payload_2.txt .github/batch042_payload_3a.txt .github/batch042_payload_4.txt .github/batch042_payload_5.txt
-          test_variant v3 .github/batch042_payload_1.txt .github/batch042_payload_2.txt .github/batch042_payload_3.txt .github/batch042_payload_4a.txt .github/batch042_payload_4b.txt .github/batch042_payload_4c.txt .github/batch042_payload_5.txt
-          test_variant v4 .github/batch042_payload_1.txt .github/batch042_payload_2.txt .github/batch042_payload_3.txt .github/batch042_payload_4.txt .github/batch042_payload_5.txt
+          python - <<'PY'
+          from pathlib import Path
+          ns=['1','2','3','3a','4','4a','4b','4c','5']
+          c={n:Path(f'.github/batch042_payload_{n}.txt').read_text().strip() for n in ns}
+          def ov(a,b):
+              m=min(len(a),len(b),1000)
+              for k in range(m,0,-1):
+                  if a[-k:]==b[:k]: return k
+              return 0
+          for x,y in [('1','2'),('2','3a'),('3a','4a'),('4a','4b'),('4b','4c'),('4c','5'),('3a','4'),('3','4'),('4','5')]:
+              print(x,y,'overlap',ov(c[x],c[y]),'tail',c[x][-80:],'head',c[y][:80])
+          PY
