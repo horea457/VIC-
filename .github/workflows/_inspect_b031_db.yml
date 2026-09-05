@@ -1,0 +1,26 @@
+name: Inspect Batch 031 old DB
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/_inspect_b031_db.yml'
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/_inspect_b031_db.py
+      - run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .vic_tmp/b031_old_db.json
+          git rm scripts/_inspect_b031_db.py .github/workflows/_inspect_b031_db.yml
+          git commit -m 'Extract Batch 031 old DB rows'
+          git push origin main
