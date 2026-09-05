@@ -1,0 +1,3290 @@
+{
+  "schema_version": "deep_v7",
+  "batch": "031",
+  "title": "Rent-A-Center & World Acceptance consumer-credit postmortems",
+  "research_asof": "2026-09-05",
+  "ideas_master": [
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "date": "2002-03-31",
+      "year": 2002,
+      "ticker": "WRLD",
+      "company_name": "WORLD ACCEPTANCE CORP/DE",
+      "author": "hbomb5",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 1,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "consumer finance; credit; operating leverage; capital allocation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "date": "2003-08-08",
+      "year": 2003,
+      "ticker": "RCII",
+      "company_name": "RENT-A-CENTER INC",
+      "author": "delta2delta",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "consumer finance; credit; operating leverage; capital allocation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "date": "2004-12-08",
+      "year": 2004,
+      "ticker": "RCII",
+      "company_name": "RENT-A-CENTER INC",
+      "author": "bode314",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": "https://www.valueinvestorsclub.com/idea/Rent-A-Center/1915207081",
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "consumer finance; credit; operating leverage; capital allocation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "date": "2005-11-06",
+      "year": 2005,
+      "ticker": "RCII",
+      "company_name": "RENT-A-CENTER INC",
+      "author": "bal602",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "consumer finance; credit; operating leverage; capital allocation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "date": "2007-10-04",
+      "year": 2007,
+      "ticker": "RCII",
+      "company_name": "RENT-A-CENTER INC",
+      "author": "jim211",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": "https://www.valueinvestorsclub.com/idea/Rent-a-Center/0987052640",
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "consumer finance; credit; operating leverage; capital allocation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "date": "2010-12-18",
+      "year": 2010,
+      "ticker": "WRLD",
+      "company_name": "WORLD ACCEPTANCE CORP/DE",
+      "author": "casper719",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "consumer finance; credit; operating leverage; capital allocation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "date": "2012-08-24",
+      "year": 2012,
+      "ticker": "RCII",
+      "company_name": "RENT-A-CENTER INC",
+      "author": "Rightlanedriver",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": "https://www.valueinvestorsclub.com/idea/RENT-A-CENTER_INC/3737409951",
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "consumer finance; credit; operating leverage; capital allocation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "date": "2015-12-23",
+      "year": 2015,
+      "ticker": "RCII",
+      "company_name": "RENT-A-CENTER INC",
+      "author": "RiskReward",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "consumer finance; credit; operating leverage; capital allocation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "date": "2021-08-18",
+      "year": 2021,
+      "ticker": "RCII",
+      "company_name": "RENT-A-CENTER INC",
+      "author": "bigvic",
+      "direction_ko": "롱",
+      "is_short": false,
+      "contest_winner": 0,
+      "source_link": "https://www.valueinvestorsclub.com/idea/RENT-A-CENTER_INC/7941385695",
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "consumer finance; credit; operating leverage; capital allocation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "date": "2022-05-24",
+      "year": 2022,
+      "ticker": "RCII",
+      "company_name": "RENT-A-CENTER INC",
+      "author": "AIFL",
+      "direction_ko": "숏",
+      "is_short": true,
+      "contest_winner": 0,
+      "source_link": null,
+      "description_chars": 0,
+      "catalyst_chars": 0,
+      "narrative_tags_ko": "consumer finance; credit; operating leverage; capital allocation; 심층검증",
+      "idea_type_ko": "기업가치",
+      "performance_available": 0,
+      "auto_tag_status_ko": "수동 심층검증"
+    }
+  ],
+  "postmortems": [
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "ticker": "WRLD",
+      "research_direction_ko": "Short",
+      "company_description_ko": "World Acceptance는 미국 남부·중서부와 과거 멕시코에서 소액 installment loan을 지점망을 통해 취급한 소비자금융사다. 수익은 대출 이자·수수료와 관련 보험상품에서 발생하며, 반복 고객의 renewal/refinancing 비중과 신규 고객 획득, charge-off·provision, 지점 생산성, 자금조달비용, 소비자보호 규제가 ROE를 좌우한다. 성장률만 볼 것이 아니라 대출 vintage별 손실과 renewals가 경제성을 얼마나 지탱하는지 봐야 한다.",
+      "original_thesis_ko": "2002년 Short는 빠른 지점·대출 성장이 곧 경제적 가치 증가라는 시장 해석을 의심하고, 반복 refinancing/renewal과 신용손실 인식이 보고 성장률과 ROE를 과대하게 보이게 할 수 있다는 구조적 회의론으로 재구성된다. 원문 방향은 Short로 확인되지만 전체 VIC 본문은 현재 연구환경에서 재수집되지 않아 숫자 문장은 contemporaneous filing과 raw metadata를 바탕으로 재구성했다.",
+      "actual_development_ko": "회사는 이후 오랜 기간 생존·확장했고 2014년에도 14개 주와 멕시코에서 영업할 정도로 branch franchise를 유지했다. 즉 2002년에 즉시 구조 붕괴를 기대했다면 timing은 실패했다. 다만 2014년 CFPB CID로 renewals·마케팅·신용공여 관행이 조사 대상이 되면서 원래의 규제·상품구조 위험 자체는 훨씬 뒤에 현실화했다.",
+      "thesis_verdict_ko": "핵심 구조적 위험은 있었지만 조기 Short의 시간축이 너무 짧았다. 높은 renewal 의존을 곧바로 파산/earnings collapse로 번역하기보다 vintage loss, branch maturity, funding과 규제의 임계점을 따로 추적했어야 한다.",
+      "business_verdict_ko": "회사는 이후 오랜 기간 생존·확장했고 2014년에도 14개 주와 멕시코에서 영업할 정도로 branch franchise를 유지했다. 즉 2002년에 즉시 구조 붕괴를 기대했다면 timing은 실패했다. 다만 2014년 CFPB CID로 renewals·마케팅·신용공여 관행이 조사 대상이 되면서 원래의 규제·상품구조 위험 자체는 훨씬 뒤에 현실화했다.",
+      "catalyst_verdict_ko": "2014-03-12 CFPB CID",
+      "valuation_verdict_ko": "valuation은 성장률 단독이 아니라 loss-adjusted FCF와 balance-sheet sensitivity로 재검증해야 한다.",
+      "stock_verdict_ko": "부분적중·타이밍 실패",
+      "current_verdict_ko": "회사는 이후 오랜 기간 생존·확장했고 2014년에도 14개 주와 멕시코에서 영업할 정도로 branch franchise를 유지했다. 즉 2002년에 즉시 구조 붕괴를 기대했다면 timing은 실패했다. 다만 2014년 CFPB CID로 renewals·마케팅·신용공여 관행이 조사 대상이 되면서 원래의 규제·상품구조 위험 자체는 훨씬 뒤에 현실화했다.",
+      "overall_verdict_ko": "부분적중·타이밍 실패",
+      "why_ko": "핵심 구조적 위험은 있었지만 조기 Short의 시간축이 너무 짧았다. 높은 renewal 의존을 곧바로 파산/earnings collapse로 번역하기보다 vintage loss, branch maturity, funding과 규제의 임계점을 따로 추적했어야 한다.",
+      "success_pattern_ko": "",
+      "failure_pattern_ko": "",
+      "root_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "first_signal_ko": "2014-03-12 CFPB CID",
+      "first_signal_date": "2014-03-12",
+      "knowable_at_t0_ko": "same-store/origination, loss/charge-off, margin, FCF, debt와 규제상태는 공시자료로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "성장률이 0이 되어도 loss-adjusted FCF와 balance sheet만으로 현재 equity value를 지지하는가?",
+      "analyst_note_ko": "raw is_short=true 보존. research direction=Short. 원문 전체 텍스트가 재수집되지 않은 오래된 건은 raw VIC metadata·방향과 contemporaneous SEC filings를 바탕으로 thesis structure를 재구성했으며, 원문 직접인용으로 취급하지 않는다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.88,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "ticker": "RCII",
+      "research_direction_ko": "Short",
+      "company_description_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다.",
+      "original_thesis_ko": "2003년 Short는 핵심 rent-to-own 매장의 성숙·포화와 공격적인 unit growth가 same-store economics를 약화시키고, 높은 고정비 때문에 작은 revenue miss가 EBIT에 크게 전이될 수 있다는 논지로 재구성된다. 단순 저소득 소비자 노출보다 store cohort productivity와 loss/expense leverage가 핵심이다.",
+      "actual_development_ko": "Rent-A-Center는 단기적으로 무너지지 않았고 이후 Rent-Way 등 인수를 통해 규모를 확대했다. 그러나 사업은 반복적으로 매장 구조조정과 비용절감이 필요했고 경기 하강기에 영업레버리지가 크게 드러났다. 따라서 포화 논리는 방향성은 있었지만 2003년의 즉시 catalyst로는 약했다.",
+      "thesis_verdict_ko": "좋은 산업구조 질문이었지만 신규점/기존점 cohort를 분리하지 않으면 saturation thesis는 너무 일찍 short를 만들 수 있다.",
+      "business_verdict_ko": "Rent-A-Center는 단기적으로 무너지지 않았고 이후 Rent-Way 등 인수를 통해 규모를 확대했다. 그러나 사업은 반복적으로 매장 구조조정과 비용절감이 필요했고 경기 하강기에 영업레버리지가 크게 드러났다. 따라서 포화 논리는 방향성은 있었지만 2003년의 즉시 catalyst로는 약했다.",
+      "catalyst_verdict_ko": "2006~08 통합·경기하강 압력 확대",
+      "valuation_verdict_ko": "valuation은 성장률 단독이 아니라 loss-adjusted FCF와 balance-sheet sensitivity로 재검증해야 한다.",
+      "stock_verdict_ko": "부분적중·조기",
+      "current_verdict_ko": "Rent-A-Center는 단기적으로 무너지지 않았고 이후 Rent-Way 등 인수를 통해 규모를 확대했다. 그러나 사업은 반복적으로 매장 구조조정과 비용절감이 필요했고 경기 하강기에 영업레버리지가 크게 드러났다. 따라서 포화 논리는 방향성은 있었지만 2003년의 즉시 catalyst로는 약했다.",
+      "overall_verdict_ko": "부분적중·조기",
+      "why_ko": "좋은 산업구조 질문이었지만 신규점/기존점 cohort를 분리하지 않으면 saturation thesis는 너무 일찍 short를 만들 수 있다.",
+      "success_pattern_ko": "causal operating KPI; loss-adjusted economics; balance-sheet awareness",
+      "failure_pattern_ko": "",
+      "root_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "first_signal_ko": "2006~08 통합·경기하강 압력 확대",
+      "first_signal_date": "2008-12-31",
+      "knowable_at_t0_ko": "same-store/origination, loss/charge-off, margin, FCF, debt와 규제상태는 공시자료로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "성장률이 0이 되어도 loss-adjusted FCF와 balance sheet만으로 현재 equity value를 지지하는가?",
+      "analyst_note_ko": "raw is_short=true 보존. research direction=Short. 원문 전체 텍스트가 재수집되지 않은 오래된 건은 raw VIC metadata·방향과 contemporaneous SEC filings를 바탕으로 thesis structure를 재구성했으며, 원문 직접인용으로 취급하지 않는다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.88,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "ticker": "RCII",
+      "research_direction_ko": "Short",
+      "company_description_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다.",
+      "original_thesis_ko": "2004년 Short는 성숙한 core RTO에 대해 높은 headline EPS/FCF가 영구 성장으로 자본화되는 것을 경계하고, 상품손실·매장비용·자사주/부채를 포함한 per-share economics가 valuation을 지지하는지 묻는 논지로 재구성된다.",
+      "actual_development_ko": "회사는 이후 여러 해 영업을 지속하고 규모도 커져 즉시 multiple collapse는 없었다. 그러나 장기적으로 매장 생산성·통합·자본배분 문제는 되풀이됐고, 2018년에는 전략적 매각 과정까지 갔다. 당시 Short는 구조 문제를 봤지만 catalyst와 horizon이 길었다.",
+      "thesis_verdict_ko": "질 낮은 성장과 자본배분을 묶어 본 점은 유효하지만, 높은 FCF가 실제로 debt/buyback을 통해 per-share value를 만들 수 있는 반대경로도 확률에 넣어야 했다.",
+      "business_verdict_ko": "회사는 이후 여러 해 영업을 지속하고 규모도 커져 즉시 multiple collapse는 없었다. 그러나 장기적으로 매장 생산성·통합·자본배분 문제는 되풀이됐고, 2018년에는 전략적 매각 과정까지 갔다. 당시 Short는 구조 문제를 봤지만 catalyst와 horizon이 길었다.",
+      "catalyst_verdict_ko": "후속 구조조정·전략대안 반복",
+      "valuation_verdict_ko": "valuation은 성장률 단독이 아니라 loss-adjusted FCF와 balance-sheet sensitivity로 재검증해야 한다.",
+      "stock_verdict_ko": "혼합",
+      "current_verdict_ko": "회사는 이후 여러 해 영업을 지속하고 규모도 커져 즉시 multiple collapse는 없었다. 그러나 장기적으로 매장 생산성·통합·자본배분 문제는 되풀이됐고, 2018년에는 전략적 매각 과정까지 갔다. 당시 Short는 구조 문제를 봤지만 catalyst와 horizon이 길었다.",
+      "overall_verdict_ko": "혼합",
+      "why_ko": "질 낮은 성장과 자본배분을 묶어 본 점은 유효하지만, 높은 FCF가 실제로 debt/buyback을 통해 per-share value를 만들 수 있는 반대경로도 확률에 넣어야 했다.",
+      "success_pattern_ko": "causal operating KPI; loss-adjusted economics; balance-sheet awareness",
+      "failure_pattern_ko": "",
+      "root_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "first_signal_ko": "후속 구조조정·전략대안 반복",
+      "first_signal_date": "2016-12-31",
+      "knowable_at_t0_ko": "same-store/origination, loss/charge-off, margin, FCF, debt와 규제상태는 공시자료로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "성장률이 0이 되어도 loss-adjusted FCF와 balance sheet만으로 현재 equity value를 지지하는가?",
+      "analyst_note_ko": "raw is_short=true 보존. research direction=Short. 원문 전체 텍스트가 재수집되지 않은 오래된 건은 raw VIC metadata·방향과 contemporaneous SEC filings를 바탕으로 thesis structure를 재구성했으며, 원문 직접인용으로 취급하지 않는다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.93,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "ticker": "RCII",
+      "research_direction_ko": "Short",
+      "company_description_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다.",
+      "original_thesis_ko": "2005년 Short는 same-store deceleration과 비용 구조 때문에 영업레버리지가 역으로 작동할 위험, 그리고 추가 M&A가 headline growth는 만들지만 integration risk와 balance-sheet 부담을 높일 수 있다는 논지로 재구성된다.",
+      "actual_development_ko": "곧이어 Rent-Way 인수로 외형은 커졌지만 통합과 경기 하강이 겹치며 운영 난도가 상승했다. 2008년 10-K에서 경기·고객 신용여건과 손실관리 중요성이 더 커졌다. Short의 핵심인 operating leverage는 맞았지만 정확한 손익 경로는 M&A와 거시 충격에 좌우됐다.",
+      "thesis_verdict_ko": "매출 성장률보다 acquired stores의 mature margin과 loss rate를 별도 cohort로 추적했어야 더 강한 논지가 됐다.",
+      "business_verdict_ko": "곧이어 Rent-Way 인수로 외형은 커졌지만 통합과 경기 하강이 겹치며 운영 난도가 상승했다. 2008년 10-K에서 경기·고객 신용여건과 손실관리 중요성이 더 커졌다. Short의 핵심인 operating leverage는 맞았지만 정확한 손익 경로는 M&A와 거시 충격에 좌우됐다.",
+      "catalyst_verdict_ko": "Rent-Way 통합 후 경기하강",
+      "valuation_verdict_ko": "valuation은 성장률 단독이 아니라 loss-adjusted FCF와 balance-sheet sensitivity로 재검증해야 한다.",
+      "stock_verdict_ko": "대체로 적중",
+      "current_verdict_ko": "곧이어 Rent-Way 인수로 외형은 커졌지만 통합과 경기 하강이 겹치며 운영 난도가 상승했다. 2008년 10-K에서 경기·고객 신용여건과 손실관리 중요성이 더 커졌다. Short의 핵심인 operating leverage는 맞았지만 정확한 손익 경로는 M&A와 거시 충격에 좌우됐다.",
+      "overall_verdict_ko": "대체로 적중",
+      "why_ko": "매출 성장률보다 acquired stores의 mature margin과 loss rate를 별도 cohort로 추적했어야 더 강한 논지가 됐다.",
+      "success_pattern_ko": "causal operating KPI; loss-adjusted economics; balance-sheet awareness",
+      "failure_pattern_ko": "",
+      "root_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "first_signal_ko": "Rent-Way 통합 후 경기하강",
+      "first_signal_date": "2008-12-31",
+      "knowable_at_t0_ko": "same-store/origination, loss/charge-off, margin, FCF, debt와 규제상태는 공시자료로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "성장률이 0이 되어도 loss-adjusted FCF와 balance sheet만으로 현재 equity value를 지지하는가?",
+      "analyst_note_ko": "raw is_short=true 보존. research direction=Short. 원문 전체 텍스트가 재수집되지 않은 오래된 건은 raw VIC metadata·방향과 contemporaneous SEC filings를 바탕으로 thesis structure를 재구성했으며, 원문 직접인용으로 취급하지 않는다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.88,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "ticker": "RCII",
+      "research_direction_ko": "Short",
+      "company_description_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다.",
+      "original_thesis_ko": "2007년 Short는 Rent-Way 통합 직후의 높은 실행부담에 저소득 소비자 스트레스가 겹칠 경우 same-store sales, collection/loss, SG&A와 leverage가 동시에 악화될 수 있다는 경기민감 downside thesis로 재구성된다.",
+      "actual_development_ko": "2008년 금융위기는 저소득층 현금흐름과 retail demand를 압박했고 회사는 비용·매장구조 관리가 중요해졌다. 이 아이디어는 다른 RCII shorts보다 catalyst가 가까웠고 downside 변수들이 같은 방향으로 움직이는 시점에 제시됐다.",
+      "thesis_verdict_ko": "사이클 short의 질은 거시전망 자체보다 이미 높아진 operating leverage와 integration risk가 있는지를 보는 데서 나왔다.",
+      "business_verdict_ko": "2008년 금융위기는 저소득층 현금흐름과 retail demand를 압박했고 회사는 비용·매장구조 관리가 중요해졌다. 이 아이디어는 다른 RCII shorts보다 catalyst가 가까웠고 downside 변수들이 같은 방향으로 움직이는 시점에 제시됐다.",
+      "catalyst_verdict_ko": "2008 recession stress",
+      "valuation_verdict_ko": "valuation은 성장률 단독이 아니라 loss-adjusted FCF와 balance-sheet sensitivity로 재검증해야 한다.",
+      "stock_verdict_ko": "적중",
+      "current_verdict_ko": "2008년 금융위기는 저소득층 현금흐름과 retail demand를 압박했고 회사는 비용·매장구조 관리가 중요해졌다. 이 아이디어는 다른 RCII shorts보다 catalyst가 가까웠고 downside 변수들이 같은 방향으로 움직이는 시점에 제시됐다.",
+      "overall_verdict_ko": "적중",
+      "why_ko": "사이클 short의 질은 거시전망 자체보다 이미 높아진 operating leverage와 integration risk가 있는지를 보는 데서 나왔다.",
+      "success_pattern_ko": "causal operating KPI; loss-adjusted economics; balance-sheet awareness",
+      "failure_pattern_ko": "",
+      "root_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "first_signal_ko": "2008 recession stress",
+      "first_signal_date": "2008-12-31",
+      "knowable_at_t0_ko": "same-store/origination, loss/charge-off, margin, FCF, debt와 규제상태는 공시자료로 추적 가능했다.",
+      "avoidability_ko": "높음",
+      "counterfactual_question_ko": "성장률이 0이 되어도 loss-adjusted FCF와 balance sheet만으로 현재 equity value를 지지하는가?",
+      "analyst_note_ko": "raw is_short=true 보존. research direction=Short. 원문 전체 텍스트가 재수집되지 않은 오래된 건은 raw VIC metadata·방향과 contemporaneous SEC filings를 바탕으로 thesis structure를 재구성했으며, 원문 직접인용으로 취급하지 않는다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.93,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "ticker": "WRLD",
+      "research_direction_ko": "Short",
+      "company_description_ko": "World Acceptance는 미국 남부·중서부와 과거 멕시코에서 소액 installment loan을 지점망을 통해 취급한 소비자금융사다. 수익은 대출 이자·수수료와 관련 보험상품에서 발생하며, 반복 고객의 renewal/refinancing 비중과 신규 고객 획득, charge-off·provision, 지점 생산성, 자금조달비용, 소비자보호 규제가 ROE를 좌우한다. 성장률만 볼 것이 아니라 대출 vintage별 손실과 renewals가 경제성을 얼마나 지탱하는지 봐야 한다.",
+      "original_thesis_ko": "2010년 WRLD Short는 높은 ROE와 성장률이 반복 renewals/refinancing, 높은 effective pricing과 benign credit에 의존할 수 있고, 소비자보호 규제가 강화되면 branch economics와 valuation이 동시에 훼손될 수 있다는 논지로 재구성된다.",
+      "actual_development_ko": "규제 위험은 실제로 커졌다. 회사는 2014년 3월 CFPB로부터 CID를 받았고 2015년 10-K에 광범위한 마케팅·신용공여 관행 조사가 공시됐다. 그러나 2018년 CFPB 조사는 enforcement action 없이 종료됐다. 따라서 규제 tail risk는 정확했지만 파국적 outcome을 전제했다면 과도했다.",
+      "thesis_verdict_ko": "규제 thesis는 binary 사건 예측보다 규제로 고객 acquisition, renewals, pricing, compliance cost가 얼마나 달라지는지를 손익 bridge로 만들어야 한다.",
+      "business_verdict_ko": "규제 위험은 실제로 커졌다. 회사는 2014년 3월 CFPB로부터 CID를 받았고 2015년 10-K에 광범위한 마케팅·신용공여 관행 조사가 공시됐다. 그러나 2018년 CFPB 조사는 enforcement action 없이 종료됐다. 따라서 규제 tail risk는 정확했지만 파국적 outcome을 전제했다면 과도했다.",
+      "catalyst_verdict_ko": "CFPB CID",
+      "valuation_verdict_ko": "valuation은 성장률 단독이 아니라 loss-adjusted FCF와 balance-sheet sensitivity로 재검증해야 한다.",
+      "stock_verdict_ko": "부분적중",
+      "current_verdict_ko": "규제 위험은 실제로 커졌다. 회사는 2014년 3월 CFPB로부터 CID를 받았고 2015년 10-K에 광범위한 마케팅·신용공여 관행 조사가 공시됐다. 그러나 2018년 CFPB 조사는 enforcement action 없이 종료됐다. 따라서 규제 tail risk는 정확했지만 파국적 outcome을 전제했다면 과도했다.",
+      "overall_verdict_ko": "부분적중",
+      "why_ko": "규제 thesis는 binary 사건 예측보다 규제로 고객 acquisition, renewals, pricing, compliance cost가 얼마나 달라지는지를 손익 bridge로 만들어야 한다.",
+      "success_pattern_ko": "causal operating KPI; loss-adjusted economics; balance-sheet awareness",
+      "failure_pattern_ko": "",
+      "root_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "first_signal_ko": "CFPB CID",
+      "first_signal_date": "2014-03-12",
+      "knowable_at_t0_ko": "same-store/origination, loss/charge-off, margin, FCF, debt와 규제상태는 공시자료로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "성장률이 0이 되어도 loss-adjusted FCF와 balance sheet만으로 현재 equity value를 지지하는가?",
+      "analyst_note_ko": "raw is_short=true 보존. research direction=Short. 원문 전체 텍스트가 재수집되지 않은 오래된 건은 raw VIC metadata·방향과 contemporaneous SEC filings를 바탕으로 thesis structure를 재구성했으며, 원문 직접인용으로 취급하지 않는다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.88,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "ticker": "RCII",
+      "research_direction_ko": "Short",
+      "company_description_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다.",
+      "original_thesis_ko": "2012년 Short는 Acceptance Now 같은 kiosk/partner channel이 빠른 originations를 만들더라도 core store maturity를 상쇄할 만큼 좋은 unit economics인지, 손실·SG&A·working capital을 반영한 incremental ROIC가 진짜 높은지 의심하는 논지로 재구성된다.",
+      "actual_development_ko": "신규 채널은 회사 성장축이 되었지만 이후 core business 약화와 운영문제가 누적되어 2016~17 실적 압박과 전략 재검토로 이어졌다. 단순 매장수보다 channel별 loss-adjusted contribution을 봐야 한다는 문제제기는 유효했다.",
+      "thesis_verdict_ko": "신규 포맷 성장률을 외삽하지 않고 mature cohort contribution과 cannibalization을 봤다는 점이 핵심 교훈이다.",
+      "business_verdict_ko": "신규 채널은 회사 성장축이 되었지만 이후 core business 약화와 운영문제가 누적되어 2016~17 실적 압박과 전략 재검토로 이어졌다. 단순 매장수보다 channel별 loss-adjusted contribution을 봐야 한다는 문제제기는 유효했다.",
+      "catalyst_verdict_ko": "2016 core deterioration",
+      "valuation_verdict_ko": "valuation은 성장률 단독이 아니라 loss-adjusted FCF와 balance-sheet sensitivity로 재검증해야 한다.",
+      "stock_verdict_ko": "대체로 적중",
+      "current_verdict_ko": "신규 채널은 회사 성장축이 되었지만 이후 core business 약화와 운영문제가 누적되어 2016~17 실적 압박과 전략 재검토로 이어졌다. 단순 매장수보다 channel별 loss-adjusted contribution을 봐야 한다는 문제제기는 유효했다.",
+      "overall_verdict_ko": "대체로 적중",
+      "why_ko": "신규 포맷 성장률을 외삽하지 않고 mature cohort contribution과 cannibalization을 봤다는 점이 핵심 교훈이다.",
+      "success_pattern_ko": "causal operating KPI; loss-adjusted economics; balance-sheet awareness",
+      "failure_pattern_ko": "",
+      "root_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "first_signal_ko": "2016 core deterioration",
+      "first_signal_date": "2016-12-31",
+      "knowable_at_t0_ko": "same-store/origination, loss/charge-off, margin, FCF, debt와 규제상태는 공시자료로 추적 가능했다.",
+      "avoidability_ko": "중간",
+      "counterfactual_question_ko": "성장률이 0이 되어도 loss-adjusted FCF와 balance sheet만으로 현재 equity value를 지지하는가?",
+      "analyst_note_ko": "raw is_short=true 보존. research direction=Short. 원문 전체 텍스트가 재수집되지 않은 오래된 건은 raw VIC metadata·방향과 contemporaneous SEC filings를 바탕으로 thesis structure를 재구성했으며, 원문 직접인용으로 취급하지 않는다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.93,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "ticker": "RCII",
+      "research_direction_ko": "Short",
+      "company_description_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다.",
+      "original_thesis_ko": "2015년 Short는 Acceptance Now의 높은 headline growth가 core store의 약화, loss/collection pressure와 SG&A deleverage를 가릴 수 있으며, 성장채널의 economics가 둔화되면 전체 enterprise가 구조조정 모드로 들어갈 수 있다는 논지로 재구성된다.",
+      "actual_development_ko": "2016~17에 운영악화와 경영진 변화가 나타났고 회사는 결국 전략적 대안을 검토했다. 2018년 Vintage와 $15/share 매각계약까지 갔지만 거래는 깨졌고 회사는 $126.5m reverse fee를 요구한 뒤 2019년 $92.5m 현금 합의금을 받았다. Short가 본 사업 스트레스는 현실화했지만 event-driven path는 복잡했다.",
+      "thesis_verdict_ko": "성장채널이 core weakness를 상쇄하는지 판단할 때 revenue mix가 아니라 incremental contribution, loss rate, cash conversion을 봐야 한다.",
+      "business_verdict_ko": "2016~17에 운영악화와 경영진 변화가 나타났고 회사는 결국 전략적 대안을 검토했다. 2018년 Vintage와 $15/share 매각계약까지 갔지만 거래는 깨졌고 회사는 $126.5m reverse fee를 요구한 뒤 2019년 $92.5m 현금 합의금을 받았다. Short가 본 사업 스트레스는 현실화했지만 event-driven path는 복잡했다.",
+      "catalyst_verdict_ko": "2016~17 운영악화·전략대안",
+      "valuation_verdict_ko": "valuation은 성장률 단독이 아니라 loss-adjusted FCF와 balance-sheet sensitivity로 재검증해야 한다.",
+      "stock_verdict_ko": "적중",
+      "current_verdict_ko": "2016~17에 운영악화와 경영진 변화가 나타났고 회사는 결국 전략적 대안을 검토했다. 2018년 Vintage와 $15/share 매각계약까지 갔지만 거래는 깨졌고 회사는 $126.5m reverse fee를 요구한 뒤 2019년 $92.5m 현금 합의금을 받았다. Short가 본 사업 스트레스는 현실화했지만 event-driven path는 복잡했다.",
+      "overall_verdict_ko": "적중",
+      "why_ko": "성장채널이 core weakness를 상쇄하는지 판단할 때 revenue mix가 아니라 incremental contribution, loss rate, cash conversion을 봐야 한다.",
+      "success_pattern_ko": "causal operating KPI; loss-adjusted economics; balance-sheet awareness",
+      "failure_pattern_ko": "",
+      "root_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "first_signal_ko": "2016~17 운영악화·전략대안",
+      "first_signal_date": "2016-12-31",
+      "knowable_at_t0_ko": "same-store/origination, loss/charge-off, margin, FCF, debt와 규제상태는 공시자료로 추적 가능했다.",
+      "avoidability_ko": "높음",
+      "counterfactual_question_ko": "성장률이 0이 되어도 loss-adjusted FCF와 balance sheet만으로 현재 equity value를 지지하는가?",
+      "analyst_note_ko": "raw is_short=true 보존. research direction=Short. 원문 전체 텍스트가 재수집되지 않은 오래된 건은 raw VIC metadata·방향과 contemporaneous SEC filings를 바탕으로 thesis structure를 재구성했으며, 원문 직접인용으로 취급하지 않는다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.88,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "ticker": "RCII",
+      "research_direction_ko": "Long",
+      "company_description_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다.",
+      "original_thesis_ko": "2021년 Long은 Acima 인수로 RCII가 매장형 RTO에서 merchant-integrated virtual lease-to-own 플랫폼으로 확장되고, 더 큰 TAM·merchant network·디지털 underwriting이 높은 성장과 FCF를 만들며 시너지가 acquisition leverage를 빠르게 낮춘다는 논지였다. 이 건은 VIC 2021 A-Z에서도 Short 표식이 없는 Long으로 확인된다.",
+      "actual_development_ko": "2020말 RCII는 net debt/adjusted EBITDA 약 0.1x였지만 Acima 거래는 약 $1.3bn cash와 주식대가를 수반했고 $875m term loan과 $450m 6.375% notes 등으로 자금조달됐다. 2021 매출은 $4.6bn으로 커졌지만 2022 Acima revenue -9.4%, GMV -17.2%, segment operating profit -14.3%; 회사 전체 adjusted EBITDA는 $453.5m로 28.2% 감소했고 net debt/adjusted EBITDA는 2.8x가 됐다. 성장 플랫폼보다 post-stimulus normalization, underwriting/loss와 leverage가 먼저 지배했다.",
+      "thesis_verdict_ko": "TAM과 merchant count를 성장률로 외삽하고 acquisition leverage의 비선형 downside를 작게 본 실패다. deal 전 낮은 leverage는 안전마진이 아니라 큰 인수를 가능하게 한 capacity였고, 인수 후에는 downside convexity가 커졌다.",
+      "business_verdict_ko": "2020말 RCII는 net debt/adjusted EBITDA 약 0.1x였지만 Acima 거래는 약 $1.3bn cash와 주식대가를 수반했고 $875m term loan과 $450m 6.375% notes 등으로 자금조달됐다. 2021 매출은 $4.6bn으로 커졌지만 2022 Acima revenue -9.4%, GMV -17.2%, segment operating profit -14.3%; 회사 전체 adjusted EBITDA는 $453.5m로 28.2% 감소했고 net debt/adjusted EBITDA는 2.8x가 됐다. 성장 플랫폼보다 post-stimulus normalization, underwriting/loss와 leverage가 먼저 지배했다.",
+      "catalyst_verdict_ko": "2022 Acima GMV·EBITDA 급감",
+      "valuation_verdict_ko": "valuation은 성장률 단독이 아니라 loss-adjusted FCF와 balance-sheet sensitivity로 재검증해야 한다.",
+      "stock_verdict_ko": "실패",
+      "current_verdict_ko": "2020말 RCII는 net debt/adjusted EBITDA 약 0.1x였지만 Acima 거래는 약 $1.3bn cash와 주식대가를 수반했고 $875m term loan과 $450m 6.375% notes 등으로 자금조달됐다. 2021 매출은 $4.6bn으로 커졌지만 2022 Acima revenue -9.4%, GMV -17.2%, segment operating profit -14.3%; 회사 전체 adjusted EBITDA는 $453.5m로 28.2% 감소했고 net debt/adjusted EBITDA는 2.8x가 됐다. 성장 플랫폼보다 post-stimulus normalization, underwriting/loss와 leverage가 먼저 지배했다.",
+      "overall_verdict_ko": "실패",
+      "why_ko": "TAM과 merchant count를 성장률로 외삽하고 acquisition leverage의 비선형 downside를 작게 본 실패다. deal 전 낮은 leverage는 안전마진이 아니라 큰 인수를 가능하게 한 capacity였고, 인수 후에는 downside convexity가 커졌다.",
+      "success_pattern_ko": "",
+      "failure_pattern_ko": "growth extrapolation; leverage convexity",
+      "root_error_ko": "TAM·성장률을 외삽하고 acquisition leverage와 credit normalization의 비선형 downside를 과소평가했다.",
+      "first_signal_ko": "2022 Acima GMV·EBITDA 급감",
+      "first_signal_date": "2022-12-31",
+      "knowable_at_t0_ko": "same-store/origination, loss/charge-off, margin, FCF, debt와 규제상태는 공시자료로 추적 가능했다.",
+      "avoidability_ko": "높음",
+      "counterfactual_question_ko": "성장률이 0이 되어도 loss-adjusted FCF와 balance sheet만으로 현재 equity value를 지지하는가?",
+      "analyst_note_ko": "raw is_short=false 보존. research direction=Long. 원문 전체 텍스트가 재수집되지 않은 오래된 건은 raw VIC metadata·방향과 contemporaneous SEC filings를 바탕으로 thesis structure를 재구성했으며, 원문 직접인용으로 취급하지 않는다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.93,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "ticker": "RCII",
+      "research_direction_ko": "Short",
+      "company_description_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다.",
+      "original_thesis_ko": "2022년 Short는 stimulus 종료와 소비 정상화로 Acima/RAC originations가 둔화되는 동시에 loss rate가 올라가고, 2021 Acima 인수로 높아진 debt가 EBITDA 감소를 equity에 증폭시킨다는 post-acquisition deleveraging 실패 thesis로 재구성된다.",
+      "actual_development_ko": "2022년 결과는 논지를 강하게 지지했다. Acima revenue는 $2.328bn에서 $2.110bn으로 9.4% 감소했고 GMV는 17.2% 감소했다. Acima gross profit -13.3%, operating profit -14.3%; RAC segment skip/stolen losses는 revenue의 4.9%로 2021년 3.1%보다 상승했다. 전체 adjusted EBITDA는 28.2% 감소하고 year-end net leverage는 2.8x였다.",
+      "thesis_verdict_ko": "이 Short는 성장둔화 하나가 아니라 volume, credit/loss, margin과 leverage가 같은 방향으로 움직이는 causal chain을 잡았다. 인수 후 기업의 가장 중요한 지표는 pro forma growth가 아니라 debt service 전 loss-adjusted FCF다.",
+      "business_verdict_ko": "2022년 결과는 논지를 강하게 지지했다. Acima revenue는 $2.328bn에서 $2.110bn으로 9.4% 감소했고 GMV는 17.2% 감소했다. Acima gross profit -13.3%, operating profit -14.3%; RAC segment skip/stolen losses는 revenue의 4.9%로 2021년 3.1%보다 상승했다. 전체 adjusted EBITDA는 28.2% 감소하고 year-end net leverage는 2.8x였다.",
+      "catalyst_verdict_ko": "2022 GMV·loss·EBITDA 동시 악화",
+      "valuation_verdict_ko": "valuation은 성장률 단독이 아니라 loss-adjusted FCF와 balance-sheet sensitivity로 재검증해야 한다.",
+      "stock_verdict_ko": "적중",
+      "current_verdict_ko": "2022년 결과는 논지를 강하게 지지했다. Acima revenue는 $2.328bn에서 $2.110bn으로 9.4% 감소했고 GMV는 17.2% 감소했다. Acima gross profit -13.3%, operating profit -14.3%; RAC segment skip/stolen losses는 revenue의 4.9%로 2021년 3.1%보다 상승했다. 전체 adjusted EBITDA는 28.2% 감소하고 year-end net leverage는 2.8x였다.",
+      "overall_verdict_ko": "적중",
+      "why_ko": "이 Short는 성장둔화 하나가 아니라 volume, credit/loss, margin과 leverage가 같은 방향으로 움직이는 causal chain을 잡았다. 인수 후 기업의 가장 중요한 지표는 pro forma growth가 아니라 debt service 전 loss-adjusted FCF다.",
+      "success_pattern_ko": "causal operating KPI; loss-adjusted economics; balance-sheet awareness",
+      "failure_pattern_ko": "",
+      "root_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "first_signal_ko": "2022 GMV·loss·EBITDA 동시 악화",
+      "first_signal_date": "2022-12-31",
+      "knowable_at_t0_ko": "same-store/origination, loss/charge-off, margin, FCF, debt와 규제상태는 공시자료로 추적 가능했다.",
+      "avoidability_ko": "높음",
+      "counterfactual_question_ko": "성장률이 0이 되어도 loss-adjusted FCF와 balance sheet만으로 현재 equity value를 지지하는가?",
+      "analyst_note_ko": "raw is_short=true 보존. research direction=Short. 원문 전체 텍스트가 재수집되지 않은 오래된 건은 raw VIC metadata·방향과 contemporaneous SEC filings를 바탕으로 thesis structure를 재구성했으며, 원문 직접인용으로 취급하지 않는다.",
+      "corrected_return_1y": null,
+      "corrected_return_3y": null,
+      "corrected_return_5y": null,
+      "confidence": 0.88,
+      "research_asof": "2026-09-05",
+      "research_status_ko": "1차자료 외부검증 완료"
+    }
+  ],
+  "sections": [
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "World Acceptance는 미국 남부·중서부와 과거 멕시코에서 소액 installment loan을 지점망을 통해 취급한 소비자금융사다. 수익은 대출 이자·수수료와 관련 보험상품에서 발생하며, 반복 고객의 renewal/refinancing 비중과 신규 고객 획득, charge-off·provision, 지점 생산성, 자금조달비용, 소비자보호 규제가 ROE를 좌우한다. 성장률만 볼 것이 아니라 대출 vintage별 손실과 renewals가 경제성을 얼마나 지탱하는지 봐야 한다."
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "World Acceptance는 미국 남부·중서부와 과거 멕시코에서 소액 installment loan을 지점망을 통해 취급한 소비자금융사다. 수익은 대출 이자·수수료와 관련 보험상품에서 발생하며, 반복 고객의 renewal/refinancing 비중과 신규 고객 획득, charge-off·provision, 지점 생산성, 자금조달비용, 소비자보호 규제가 ROE를 좌우한다. 성장률만 볼 것이 아니라 대출 vintage별 손실과 renewals가 경제성을 얼마나 지탱하는지 봐야 한다. 지점은 고객 획득·collection과 renewal의 현장 unit이며 funding과 credit cost가 branch contribution을 결정한다."
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "핵심 경쟁력은 자금 접근성·distribution·underwriting/collection 데이터와 density지만 고객층의 취약성과 규제가 동시에 moat의 한계를 만든다."
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2002년 Short는 빠른 지점·대출 성장이 곧 경제적 가치 증가라는 시장 해석을 의심하고, 반복 refinancing/renewal과 신용손실 인식이 보고 성장률과 ROE를 과대하게 보이게 할 수 있다는 구조적 회의론으로 재구성된다. 원문 방향은 Short로 확인되지만 전체 VIC 본문은 현재 연구환경에서 재수집되지 않아 숫자 문장은 contemporaneous filing과 raw metadata를 바탕으로 재구성했다."
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "당시 valuation은 headline EPS나 TAM보다 loss-adjusted FCF, mature-unit margin과 debt sensitivity를 중심으로 재구성하는 것이 적절하다."
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "회사는 이후 오랜 기간 생존·확장했고 2014년에도 14개 주와 멕시코에서 영업할 정도로 branch franchise를 유지했다. 즉 2002년에 즉시 구조 붕괴를 기대했다면 timing은 실패했다. 다만 2014년 CFPB CID로 renewals·마케팅·신용공여 관행이 조사 대상이 되면서 원래의 규제·상품구조 위험 자체는 훨씬 뒤에 현실화했다."
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "핵심 구조적 위험은 있었지만 조기 Short의 시간축이 너무 짧았다. 높은 renewal 의존을 곧바로 파산/earnings collapse로 번역하기보다 vintage loss, branch maturity, funding과 규제의 임계점을 따로 추적했어야 한다."
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다."
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증조건은 volume/origination, loss/charge-off, margin/FCF, leverage 중 2개 이상이 2개 분기 연속 악화하는 경우다. 첫 신호: 2014-03-12 CFPB CID."
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "소액대출은 reported loan growth보다 신규대출/renewal을 분리하고 vintage charge-off, provision, branch maturity, funding과 규제비용을 같이 추적해야 한다."
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다."
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다. 고객이 매장/merchant에서 상품을 선택하면 계약자산과 collection risk를 회사가 부담한다."
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "핵심 경쟁력은 자금 접근성·distribution·underwriting/collection 데이터와 density지만 고객층의 취약성과 규제가 동시에 moat의 한계를 만든다."
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2003년 Short는 핵심 rent-to-own 매장의 성숙·포화와 공격적인 unit growth가 same-store economics를 약화시키고, 높은 고정비 때문에 작은 revenue miss가 EBIT에 크게 전이될 수 있다는 논지로 재구성된다. 단순 저소득 소비자 노출보다 store cohort productivity와 loss/expense leverage가 핵심이다."
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "당시 valuation은 headline EPS나 TAM보다 loss-adjusted FCF, mature-unit margin과 debt sensitivity를 중심으로 재구성하는 것이 적절하다."
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "Rent-A-Center는 단기적으로 무너지지 않았고 이후 Rent-Way 등 인수를 통해 규모를 확대했다. 그러나 사업은 반복적으로 매장 구조조정과 비용절감이 필요했고 경기 하강기에 영업레버리지가 크게 드러났다. 따라서 포화 논리는 방향성은 있었지만 2003년의 즉시 catalyst로는 약했다."
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "좋은 산업구조 질문이었지만 신규점/기존점 cohort를 분리하지 않으면 saturation thesis는 너무 일찍 short를 만들 수 있다."
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다."
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증조건은 volume/origination, loss/charge-off, margin/FCF, leverage 중 2개 이상이 2개 분기 연속 악화하는 경우다. 첫 신호: 2006~08 통합·경기하강 압력 확대."
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다."
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다. 고객이 매장/merchant에서 상품을 선택하면 계약자산과 collection risk를 회사가 부담한다."
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "핵심 경쟁력은 자금 접근성·distribution·underwriting/collection 데이터와 density지만 고객층의 취약성과 규제가 동시에 moat의 한계를 만든다."
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2004년 Short는 성숙한 core RTO에 대해 높은 headline EPS/FCF가 영구 성장으로 자본화되는 것을 경계하고, 상품손실·매장비용·자사주/부채를 포함한 per-share economics가 valuation을 지지하는지 묻는 논지로 재구성된다."
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "당시 valuation은 headline EPS나 TAM보다 loss-adjusted FCF, mature-unit margin과 debt sensitivity를 중심으로 재구성하는 것이 적절하다."
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "회사는 이후 여러 해 영업을 지속하고 규모도 커져 즉시 multiple collapse는 없었다. 그러나 장기적으로 매장 생산성·통합·자본배분 문제는 되풀이됐고, 2018년에는 전략적 매각 과정까지 갔다. 당시 Short는 구조 문제를 봤지만 catalyst와 horizon이 길었다."
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "질 낮은 성장과 자본배분을 묶어 본 점은 유효하지만, 높은 FCF가 실제로 debt/buyback을 통해 per-share value를 만들 수 있는 반대경로도 확률에 넣어야 했다."
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다."
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증조건은 volume/origination, loss/charge-off, margin/FCF, leverage 중 2개 이상이 2개 분기 연속 악화하는 경우다. 첫 신호: 후속 구조조정·전략대안 반복."
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다."
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다. 고객이 매장/merchant에서 상품을 선택하면 계약자산과 collection risk를 회사가 부담한다."
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "핵심 경쟁력은 자금 접근성·distribution·underwriting/collection 데이터와 density지만 고객층의 취약성과 규제가 동시에 moat의 한계를 만든다."
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2005년 Short는 same-store deceleration과 비용 구조 때문에 영업레버리지가 역으로 작동할 위험, 그리고 추가 M&A가 headline growth는 만들지만 integration risk와 balance-sheet 부담을 높일 수 있다는 논지로 재구성된다."
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "당시 valuation은 headline EPS나 TAM보다 loss-adjusted FCF, mature-unit margin과 debt sensitivity를 중심으로 재구성하는 것이 적절하다."
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "곧이어 Rent-Way 인수로 외형은 커졌지만 통합과 경기 하강이 겹치며 운영 난도가 상승했다. 2008년 10-K에서 경기·고객 신용여건과 손실관리 중요성이 더 커졌다. Short의 핵심인 operating leverage는 맞았지만 정확한 손익 경로는 M&A와 거시 충격에 좌우됐다."
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "매출 성장률보다 acquired stores의 mature margin과 loss rate를 별도 cohort로 추적했어야 더 강한 논지가 됐다."
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다."
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증조건은 volume/origination, loss/charge-off, margin/FCF, leverage 중 2개 이상이 2개 분기 연속 악화하는 경우다. 첫 신호: Rent-Way 통합 후 경기하강."
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다."
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다. 고객이 매장/merchant에서 상품을 선택하면 계약자산과 collection risk를 회사가 부담한다."
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "핵심 경쟁력은 자금 접근성·distribution·underwriting/collection 데이터와 density지만 고객층의 취약성과 규제가 동시에 moat의 한계를 만든다."
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2007년 Short는 Rent-Way 통합 직후의 높은 실행부담에 저소득 소비자 스트레스가 겹칠 경우 same-store sales, collection/loss, SG&A와 leverage가 동시에 악화될 수 있다는 경기민감 downside thesis로 재구성된다."
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "당시 valuation은 headline EPS나 TAM보다 loss-adjusted FCF, mature-unit margin과 debt sensitivity를 중심으로 재구성하는 것이 적절하다."
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2008년 금융위기는 저소득층 현금흐름과 retail demand를 압박했고 회사는 비용·매장구조 관리가 중요해졌다. 이 아이디어는 다른 RCII shorts보다 catalyst가 가까웠고 downside 변수들이 같은 방향으로 움직이는 시점에 제시됐다."
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "사이클 short의 질은 거시전망 자체보다 이미 높아진 operating leverage와 integration risk가 있는지를 보는 데서 나왔다."
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다."
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증조건은 volume/origination, loss/charge-off, margin/FCF, leverage 중 2개 이상이 2개 분기 연속 악화하는 경우다. 첫 신호: 2008 recession stress."
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "World Acceptance는 미국 남부·중서부와 과거 멕시코에서 소액 installment loan을 지점망을 통해 취급한 소비자금융사다. 수익은 대출 이자·수수료와 관련 보험상품에서 발생하며, 반복 고객의 renewal/refinancing 비중과 신규 고객 획득, charge-off·provision, 지점 생산성, 자금조달비용, 소비자보호 규제가 ROE를 좌우한다. 성장률만 볼 것이 아니라 대출 vintage별 손실과 renewals가 경제성을 얼마나 지탱하는지 봐야 한다."
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "World Acceptance는 미국 남부·중서부와 과거 멕시코에서 소액 installment loan을 지점망을 통해 취급한 소비자금융사다. 수익은 대출 이자·수수료와 관련 보험상품에서 발생하며, 반복 고객의 renewal/refinancing 비중과 신규 고객 획득, charge-off·provision, 지점 생산성, 자금조달비용, 소비자보호 규제가 ROE를 좌우한다. 성장률만 볼 것이 아니라 대출 vintage별 손실과 renewals가 경제성을 얼마나 지탱하는지 봐야 한다. 지점은 고객 획득·collection과 renewal의 현장 unit이며 funding과 credit cost가 branch contribution을 결정한다."
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "핵심 경쟁력은 자금 접근성·distribution·underwriting/collection 데이터와 density지만 고객층의 취약성과 규제가 동시에 moat의 한계를 만든다."
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2010년 WRLD Short는 높은 ROE와 성장률이 반복 renewals/refinancing, 높은 effective pricing과 benign credit에 의존할 수 있고, 소비자보호 규제가 강화되면 branch economics와 valuation이 동시에 훼손될 수 있다는 논지로 재구성된다."
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "당시 valuation은 headline EPS나 TAM보다 loss-adjusted FCF, mature-unit margin과 debt sensitivity를 중심으로 재구성하는 것이 적절하다."
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "규제 위험은 실제로 커졌다. 회사는 2014년 3월 CFPB로부터 CID를 받았고 2015년 10-K에 광범위한 마케팅·신용공여 관행 조사가 공시됐다. 그러나 2018년 CFPB 조사는 enforcement action 없이 종료됐다. 따라서 규제 tail risk는 정확했지만 파국적 outcome을 전제했다면 과도했다."
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "규제 thesis는 binary 사건 예측보다 규제로 고객 acquisition, renewals, pricing, compliance cost가 얼마나 달라지는지를 손익 bridge로 만들어야 한다."
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다."
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증조건은 volume/origination, loss/charge-off, margin/FCF, leverage 중 2개 이상이 2개 분기 연속 악화하는 경우다. 첫 신호: CFPB CID."
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "소액대출은 reported loan growth보다 신규대출/renewal을 분리하고 vintage charge-off, provision, branch maturity, funding과 규제비용을 같이 추적해야 한다."
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다."
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다. 고객이 매장/merchant에서 상품을 선택하면 계약자산과 collection risk를 회사가 부담한다."
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "핵심 경쟁력은 자금 접근성·distribution·underwriting/collection 데이터와 density지만 고객층의 취약성과 규제가 동시에 moat의 한계를 만든다."
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2012년 Short는 Acceptance Now 같은 kiosk/partner channel이 빠른 originations를 만들더라도 core store maturity를 상쇄할 만큼 좋은 unit economics인지, 손실·SG&A·working capital을 반영한 incremental ROIC가 진짜 높은지 의심하는 논지로 재구성된다."
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "당시 valuation은 headline EPS나 TAM보다 loss-adjusted FCF, mature-unit margin과 debt sensitivity를 중심으로 재구성하는 것이 적절하다."
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "신규 채널은 회사 성장축이 되었지만 이후 core business 약화와 운영문제가 누적되어 2016~17 실적 압박과 전략 재검토로 이어졌다. 단순 매장수보다 channel별 loss-adjusted contribution을 봐야 한다는 문제제기는 유효했다."
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "신규 포맷 성장률을 외삽하지 않고 mature cohort contribution과 cannibalization을 봤다는 점이 핵심 교훈이다."
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다."
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증조건은 volume/origination, loss/charge-off, margin/FCF, leverage 중 2개 이상이 2개 분기 연속 악화하는 경우다. 첫 신호: 2016 core deterioration."
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다."
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다. 고객이 매장/merchant에서 상품을 선택하면 계약자산과 collection risk를 회사가 부담한다."
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "핵심 경쟁력은 자금 접근성·distribution·underwriting/collection 데이터와 density지만 고객층의 취약성과 규제가 동시에 moat의 한계를 만든다."
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2015년 Short는 Acceptance Now의 높은 headline growth가 core store의 약화, loss/collection pressure와 SG&A deleverage를 가릴 수 있으며, 성장채널의 economics가 둔화되면 전체 enterprise가 구조조정 모드로 들어갈 수 있다는 논지로 재구성된다."
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "당시 valuation은 headline EPS나 TAM보다 loss-adjusted FCF, mature-unit margin과 debt sensitivity를 중심으로 재구성하는 것이 적절하다."
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2016~17에 운영악화와 경영진 변화가 나타났고 회사는 결국 전략적 대안을 검토했다. 2018년 Vintage와 $15/share 매각계약까지 갔지만 거래는 깨졌고 회사는 $126.5m reverse fee를 요구한 뒤 2019년 $92.5m 현금 합의금을 받았다. Short가 본 사업 스트레스는 현실화했지만 event-driven path는 복잡했다."
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "성장채널이 core weakness를 상쇄하는지 판단할 때 revenue mix가 아니라 incremental contribution, loss rate, cash conversion을 봐야 한다."
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다."
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증조건은 volume/origination, loss/charge-off, margin/FCF, leverage 중 2개 이상이 2개 분기 연속 악화하는 경우다. 첫 신호: 2016~17 운영악화·전략대안."
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다."
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다. 고객이 매장/merchant에서 상품을 선택하면 계약자산과 collection risk를 회사가 부담한다."
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "핵심 경쟁력은 자금 접근성·distribution·underwriting/collection 데이터와 density지만 고객층의 취약성과 규제가 동시에 moat의 한계를 만든다."
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2021년 Long은 Acima 인수로 RCII가 매장형 RTO에서 merchant-integrated virtual lease-to-own 플랫폼으로 확장되고, 더 큰 TAM·merchant network·디지털 underwriting이 높은 성장과 FCF를 만들며 시너지가 acquisition leverage를 빠르게 낮춘다는 논지였다. 이 건은 VIC 2021 A-Z에서도 Short 표식이 없는 Long으로 확인된다."
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "당시 valuation은 headline EPS나 TAM보다 loss-adjusted FCF, mature-unit margin과 debt sensitivity를 중심으로 재구성하는 것이 적절하다."
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2020말 RCII는 net debt/adjusted EBITDA 약 0.1x였지만 Acima 거래는 약 $1.3bn cash와 주식대가를 수반했고 $875m term loan과 $450m 6.375% notes 등으로 자금조달됐다. 2021 매출은 $4.6bn으로 커졌지만 2022 Acima revenue -9.4%, GMV -17.2%, segment operating profit -14.3%; 회사 전체 adjusted EBITDA는 $453.5m로 28.2% 감소했고 net debt/adjusted EBITDA는 2.8x가 됐다. 성장 플랫폼보다 post-stimulus normalization, underwriting/loss와 leverage가 먼저 지배했다."
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "TAM과 merchant count를 성장률로 외삽하고 acquisition leverage의 비선형 downside를 작게 본 실패다. deal 전 낮은 leverage는 안전마진이 아니라 큰 인수를 가능하게 한 capacity였고, 인수 후에는 downside convexity가 커졌다."
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "TAM·성장률을 외삽하고 acquisition leverage와 credit normalization의 비선형 downside를 과소평가했다."
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증조건은 volume/origination, loss/charge-off, margin/FCF, leverage 중 2개 이상이 2개 분기 연속 악화하는 경우다. 첫 신호: 2022 Acima GMV·EBITDA 급감."
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "section_order": 1,
+      "section_title_ko": "무슨 기업인가",
+      "section_body_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다."
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "section_order": 2,
+      "section_title_ko": "산업 가치사슬과 돈의 흐름",
+      "section_body_ko": "Rent-A-Center는 미국의 rent-to-own 사업자다. 전통 매장은 가전·가구·전자제품을 주·월 단위 rental-purchase 계약으로 제공하고, 고객은 계약을 끝까지 이행하면 소유권을 취득한다. 2021년 Acima 인수 후에는 제휴 소매점 POS에서 가상 lease-to-own를 제공하는 디지털 채널이 커졌다. 경제성의 핵심은 신규 계약/GMV, 반복 지불률, 상품 원가와 depreciation, skip/stolen losses, 매장·merchant 생산성, CAC·underwriting, SG&A와 차입비용이다. 고객이 매장/merchant에서 상품을 선택하면 계약자산과 collection risk를 회사가 부담한다."
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "section_order": 3,
+      "section_title_ko": "경쟁우위·경쟁구도·핵심 지표",
+      "section_body_ko": "핵심 경쟁력은 자금 접근성·distribution·underwriting/collection 데이터와 density지만 고객층의 취약성과 규제가 동시에 moat의 한계를 만든다."
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "section_order": 4,
+      "section_title_ko": "당시 VIC 원문과 핵심 숫자",
+      "section_body_ko": "2022년 Short는 stimulus 종료와 소비 정상화로 Acima/RAC originations가 둔화되는 동시에 loss rate가 올라가고, 2021 Acima 인수로 높아진 debt가 EBITDA 감소를 equity에 증폭시킨다는 post-acquisition deleveraging 실패 thesis로 재구성된다."
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "section_order": 5,
+      "section_title_ko": "밸류에이션과 기대수익의 연결",
+      "section_body_ko": "당시 valuation은 headline EPS나 TAM보다 loss-adjusted FCF, mature-unit margin과 debt sensitivity를 중심으로 재구성하는 것이 적절하다."
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "section_order": 6,
+      "section_title_ko": "실제 전개",
+      "section_body_ko": "2022년 결과는 논지를 강하게 지지했다. Acima revenue는 $2.328bn에서 $2.110bn으로 9.4% 감소했고 GMV는 17.2% 감소했다. Acima gross profit -13.3%, operating profit -14.3%; RAC segment skip/stolen losses는 revenue의 4.9%로 2021년 3.1%보다 상승했다. 전체 adjusted EBITDA는 28.2% 감소하고 year-end net leverage는 2.8x였다."
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "section_order": 7,
+      "section_title_ko": "무엇이 맞았나",
+      "section_body_ko": "이 Short는 성장둔화 하나가 아니라 volume, credit/loss, margin과 leverage가 같은 방향으로 움직이는 causal chain을 잡았다. 인수 후 기업의 가장 중요한 지표는 pro forma growth가 아니라 debt service 전 loss-adjusted FCF다."
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "section_order": 8,
+      "section_title_ko": "무엇이 틀렸나/놓쳤나",
+      "section_body_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다."
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "section_order": 9,
+      "section_title_ko": "사전 반증조건과 첫 신호",
+      "section_body_ko": "사전 반증조건은 volume/origination, loss/charge-off, margin/FCF, leverage 중 2개 이상이 2개 분기 연속 악화하는 경우다. 첫 신호: 2022 GMV·loss·EBITDA 동시 악화."
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "section_order": 10,
+      "section_title_ko": "재사용 가능한 교훈",
+      "section_body_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    }
+  ],
+  "claims": [
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "claim_order": 1,
+      "claim_title_ko": "loan growth·branch productivity",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2002년 Short는 빠른 지점·대출 성장이 곧 경제적 가치 증가라는 시장 해석을 의심하고, 반복 refinancing/renewal과 신용손실 인식이 보고 성장률과 ROE를 과대하게 보이게 할 수 있다는 구조적 회의론으로 재구성된다. 원문 방향은 Short로 확인되지만 전체 VIC 본문은 현재 연구환경에서 재수집되지 않아 숫자 문장은 contemporaneous filing과 raw metadata를 바탕으로 재구성했다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "volume/origination 또는 same-store/loan growth가 2개 분기 연속 악화",
+      "actual_result_ko": "회사는 이후 오랜 기간 생존·확장했고 2014년에도 14개 주와 멕시코에서 영업할 정도로 branch franchise를 유지했다. 즉 2002년에 즉시 구조 붕괴를 기대했다면 timing은 실패했다. 다만 2014년 CFPB CID로 renewals·마케팅·신용공여 관행이 조사 대상이 되면서 원래의 규제·상품구조 위험 자체는 훨씬 뒤에 현실화했다.",
+      "quantitative_gap_ko": "정량치는 당시/후속 SEC filing으로 검증",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "소액대출은 reported loan growth보다 신규대출/renewal을 분리하고 vintage charge-off, provision, branch maturity, funding과 규제비용을 같이 추적해야 한다."
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "claim_order": 2,
+      "claim_title_ko": "renewal/refinance·credit quality",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2002년 Short는 빠른 지점·대출 성장이 곧 경제적 가치 증가라는 시장 해석을 의심하고, 반복 refinancing/renewal과 신용손실 인식이 보고 성장률과 ROE를 과대하게 보이게 할 수 있다는 구조적 회의론으로 재구성된다. 원문 방향은 Short로 확인되지만 전체 VIC 본문은 현재 연구환경에서 재수집되지 않아 숫자 문장은 contemporaneous filing과 raw metadata를 바탕으로 재구성했다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "loss/charge-off가 가격·yield 개선보다 빠르게 악화",
+      "actual_result_ko": "회사는 이후 오랜 기간 생존·확장했고 2014년에도 14개 주와 멕시코에서 영업할 정도로 branch franchise를 유지했다. 즉 2002년에 즉시 구조 붕괴를 기대했다면 timing은 실패했다. 다만 2014년 CFPB CID로 renewals·마케팅·신용공여 관행이 조사 대상이 되면서 원래의 규제·상품구조 위험 자체는 훨씬 뒤에 현실화했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "소액대출은 reported loan growth보다 신규대출/renewal을 분리하고 vintage charge-off, provision, branch maturity, funding과 규제비용을 같이 추적해야 한다."
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "claim_order": 3,
+      "claim_title_ko": "charge-off·provision economics",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2002년 Short는 빠른 지점·대출 성장이 곧 경제적 가치 증가라는 시장 해석을 의심하고, 반복 refinancing/renewal과 신용손실 인식이 보고 성장률과 ROE를 과대하게 보이게 할 수 있다는 구조적 회의론으로 재구성된다. 원문 방향은 Short로 확인되지만 전체 VIC 본문은 현재 연구환경에서 재수집되지 않아 숫자 문장은 contemporaneous filing과 raw metadata를 바탕으로 재구성했다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "mature-unit contribution margin 하락",
+      "actual_result_ko": "회사는 이후 오랜 기간 생존·확장했고 2014년에도 14개 주와 멕시코에서 영업할 정도로 branch franchise를 유지했다. 즉 2002년에 즉시 구조 붕괴를 기대했다면 timing은 실패했다. 다만 2014년 CFPB CID로 renewals·마케팅·신용공여 관행이 조사 대상이 되면서 원래의 규제·상품구조 위험 자체는 훨씬 뒤에 현실화했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "소액대출은 reported loan growth보다 신규대출/renewal을 분리하고 vintage charge-off, provision, branch maturity, funding과 규제비용을 같이 추적해야 한다."
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "claim_order": 4,
+      "claim_title_ko": "funding·balance sheet",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2002년 Short는 빠른 지점·대출 성장이 곧 경제적 가치 증가라는 시장 해석을 의심하고, 반복 refinancing/renewal과 신용손실 인식이 보고 성장률과 ROE를 과대하게 보이게 할 수 있다는 구조적 회의론으로 재구성된다. 원문 방향은 Short로 확인되지만 전체 VIC 본문은 현재 연구환경에서 재수집되지 않아 숫자 문장은 contemporaneous filing과 raw metadata를 바탕으로 재구성했다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "FCF 적자 또는 leverage 상승",
+      "actual_result_ko": "회사는 이후 오랜 기간 생존·확장했고 2014년에도 14개 주와 멕시코에서 영업할 정도로 branch franchise를 유지했다. 즉 2002년에 즉시 구조 붕괴를 기대했다면 timing은 실패했다. 다만 2014년 CFPB CID로 renewals·마케팅·신용공여 관행이 조사 대상이 되면서 원래의 규제·상품구조 위험 자체는 훨씬 뒤에 현실화했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "소액대출은 reported loan growth보다 신규대출/renewal을 분리하고 vintage charge-off, provision, branch maturity, funding과 규제비용을 같이 추적해야 한다."
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·capital allocation",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2002년 Short는 빠른 지점·대출 성장이 곧 경제적 가치 증가라는 시장 해석을 의심하고, 반복 refinancing/renewal과 신용손실 인식이 보고 성장률과 ROE를 과대하게 보이게 할 수 있다는 구조적 회의론으로 재구성된다. 원문 방향은 Short로 확인되지만 전체 VIC 본문은 현재 연구환경에서 재수집되지 않아 숫자 문장은 contemporaneous filing과 raw metadata를 바탕으로 재구성했다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "loss-adjusted normalized FCF 기준 기대수익률 소멸",
+      "actual_result_ko": "회사는 이후 오랜 기간 생존·확장했고 2014년에도 14개 주와 멕시코에서 영업할 정도로 branch franchise를 유지했다. 즉 2002년에 즉시 구조 붕괴를 기대했다면 timing은 실패했다. 다만 2014년 CFPB CID로 renewals·마케팅·신용공여 관행이 조사 대상이 되면서 원래의 규제·상품구조 위험 자체는 훨씬 뒤에 현실화했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "소액대출은 reported loan growth보다 신규대출/renewal을 분리하고 vintage charge-off, provision, branch maturity, funding과 규제비용을 같이 추적해야 한다."
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "claim_order": 6,
+      "claim_title_ko": "regulation·반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2002년 Short는 빠른 지점·대출 성장이 곧 경제적 가치 증가라는 시장 해석을 의심하고, 반복 refinancing/renewal과 신용손실 인식이 보고 성장률과 ROE를 과대하게 보이게 할 수 있다는 구조적 회의론으로 재구성된다. 원문 방향은 Short로 확인되지만 전체 VIC 본문은 현재 연구환경에서 재수집되지 않아 숫자 문장은 contemporaneous filing과 raw metadata를 바탕으로 재구성했다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "규제·catalyst가 반대로 전개되거나 핵심 KPI 반증에도 thesis 유지",
+      "actual_result_ko": "회사는 이후 오랜 기간 생존·확장했고 2014년에도 14개 주와 멕시코에서 영업할 정도로 branch franchise를 유지했다. 즉 2002년에 즉시 구조 붕괴를 기대했다면 timing은 실패했다. 다만 2014년 CFPB CID로 renewals·마케팅·신용공여 관행이 조사 대상이 되면서 원래의 규제·상품구조 위험 자체는 훨씬 뒤에 현실화했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "소액대출은 reported loan growth보다 신규대출/renewal을 분리하고 vintage charge-off, provision, branch maturity, funding과 규제비용을 같이 추적해야 한다."
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "claim_order": 1,
+      "claim_title_ko": "수요·originations / same-store",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2003년 Short는 핵심 rent-to-own 매장의 성숙·포화와 공격적인 unit growth가 same-store economics를 약화시키고, 높은 고정비 때문에 작은 revenue miss가 EBIT에 크게 전이될 수 있다는 논지로 재구성된다. 단순 저소득 소비자 노출보다 store cohort productivity와 loss/expense leverage가 핵심이다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "volume/origination 또는 same-store/loan growth가 2개 분기 연속 악화",
+      "actual_result_ko": "Rent-A-Center는 단기적으로 무너지지 않았고 이후 Rent-Way 등 인수를 통해 규모를 확대했다. 그러나 사업은 반복적으로 매장 구조조정과 비용절감이 필요했고 경기 하강기에 영업레버리지가 크게 드러났다. 따라서 포화 논리는 방향성은 있었지만 2003년의 즉시 catalyst로는 약했다.",
+      "quantitative_gap_ko": "정량치는 당시/후속 SEC filing으로 검증",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "claim_order": 2,
+      "claim_title_ko": "loss rate·underwriting",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2003년 Short는 핵심 rent-to-own 매장의 성숙·포화와 공격적인 unit growth가 same-store economics를 약화시키고, 높은 고정비 때문에 작은 revenue miss가 EBIT에 크게 전이될 수 있다는 논지로 재구성된다. 단순 저소득 소비자 노출보다 store cohort productivity와 loss/expense leverage가 핵심이다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "loss/charge-off가 가격·yield 개선보다 빠르게 악화",
+      "actual_result_ko": "Rent-A-Center는 단기적으로 무너지지 않았고 이후 Rent-Way 등 인수를 통해 규모를 확대했다. 그러나 사업은 반복적으로 매장 구조조정과 비용절감이 필요했고 경기 하강기에 영업레버리지가 크게 드러났다. 따라서 포화 논리는 방향성은 있었지만 2003년의 즉시 catalyst로는 약했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "claim_order": 3,
+      "claim_title_ko": "unit economics·operating leverage",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2003년 Short는 핵심 rent-to-own 매장의 성숙·포화와 공격적인 unit growth가 same-store economics를 약화시키고, 높은 고정비 때문에 작은 revenue miss가 EBIT에 크게 전이될 수 있다는 논지로 재구성된다. 단순 저소득 소비자 노출보다 store cohort productivity와 loss/expense leverage가 핵심이다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "mature-unit contribution margin 하락",
+      "actual_result_ko": "Rent-A-Center는 단기적으로 무너지지 않았고 이후 Rent-Way 등 인수를 통해 규모를 확대했다. 그러나 사업은 반복적으로 매장 구조조정과 비용절감이 필요했고 경기 하강기에 영업레버리지가 크게 드러났다. 따라서 포화 논리는 방향성은 있었지만 2003년의 즉시 catalyst로는 약했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "claim_order": 4,
+      "claim_title_ko": "FCF·balance sheet",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2003년 Short는 핵심 rent-to-own 매장의 성숙·포화와 공격적인 unit growth가 same-store economics를 약화시키고, 높은 고정비 때문에 작은 revenue miss가 EBIT에 크게 전이될 수 있다는 논지로 재구성된다. 단순 저소득 소비자 노출보다 store cohort productivity와 loss/expense leverage가 핵심이다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "FCF 적자 또는 leverage 상승",
+      "actual_result_ko": "Rent-A-Center는 단기적으로 무너지지 않았고 이후 Rent-Way 등 인수를 통해 규모를 확대했다. 그러나 사업은 반복적으로 매장 구조조정과 비용절감이 필요했고 경기 하강기에 영업레버리지가 크게 드러났다. 따라서 포화 논리는 방향성은 있었지만 2003년의 즉시 catalyst로는 약했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·capital allocation",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2003년 Short는 핵심 rent-to-own 매장의 성숙·포화와 공격적인 unit growth가 same-store economics를 약화시키고, 높은 고정비 때문에 작은 revenue miss가 EBIT에 크게 전이될 수 있다는 논지로 재구성된다. 단순 저소득 소비자 노출보다 store cohort productivity와 loss/expense leverage가 핵심이다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "loss-adjusted normalized FCF 기준 기대수익률 소멸",
+      "actual_result_ko": "Rent-A-Center는 단기적으로 무너지지 않았고 이후 Rent-Way 등 인수를 통해 규모를 확대했다. 그러나 사업은 반복적으로 매장 구조조정과 비용절감이 필요했고 경기 하강기에 영업레버리지가 크게 드러났다. 따라서 포화 논리는 방향성은 있었지만 2003년의 즉시 catalyst로는 약했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "claim_order": 6,
+      "claim_title_ko": "규제·catalyst·반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2003년 Short는 핵심 rent-to-own 매장의 성숙·포화와 공격적인 unit growth가 same-store economics를 약화시키고, 높은 고정비 때문에 작은 revenue miss가 EBIT에 크게 전이될 수 있다는 논지로 재구성된다. 단순 저소득 소비자 노출보다 store cohort productivity와 loss/expense leverage가 핵심이다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "규제·catalyst가 반대로 전개되거나 핵심 KPI 반증에도 thesis 유지",
+      "actual_result_ko": "Rent-A-Center는 단기적으로 무너지지 않았고 이후 Rent-Way 등 인수를 통해 규모를 확대했다. 그러나 사업은 반복적으로 매장 구조조정과 비용절감이 필요했고 경기 하강기에 영업레버리지가 크게 드러났다. 따라서 포화 논리는 방향성은 있었지만 2003년의 즉시 catalyst로는 약했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "claim_order": 1,
+      "claim_title_ko": "수요·originations / same-store",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2004년 Short는 성숙한 core RTO에 대해 높은 headline EPS/FCF가 영구 성장으로 자본화되는 것을 경계하고, 상품손실·매장비용·자사주/부채를 포함한 per-share economics가 valuation을 지지하는지 묻는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "volume/origination 또는 same-store/loan growth가 2개 분기 연속 악화",
+      "actual_result_ko": "회사는 이후 여러 해 영업을 지속하고 규모도 커져 즉시 multiple collapse는 없었다. 그러나 장기적으로 매장 생산성·통합·자본배분 문제는 되풀이됐고, 2018년에는 전략적 매각 과정까지 갔다. 당시 Short는 구조 문제를 봤지만 catalyst와 horizon이 길었다.",
+      "quantitative_gap_ko": "정량치는 당시/후속 SEC filing으로 검증",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "claim_order": 2,
+      "claim_title_ko": "loss rate·underwriting",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2004년 Short는 성숙한 core RTO에 대해 높은 headline EPS/FCF가 영구 성장으로 자본화되는 것을 경계하고, 상품손실·매장비용·자사주/부채를 포함한 per-share economics가 valuation을 지지하는지 묻는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "loss/charge-off가 가격·yield 개선보다 빠르게 악화",
+      "actual_result_ko": "회사는 이후 여러 해 영업을 지속하고 규모도 커져 즉시 multiple collapse는 없었다. 그러나 장기적으로 매장 생산성·통합·자본배분 문제는 되풀이됐고, 2018년에는 전략적 매각 과정까지 갔다. 당시 Short는 구조 문제를 봤지만 catalyst와 horizon이 길었다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "claim_order": 3,
+      "claim_title_ko": "unit economics·operating leverage",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2004년 Short는 성숙한 core RTO에 대해 높은 headline EPS/FCF가 영구 성장으로 자본화되는 것을 경계하고, 상품손실·매장비용·자사주/부채를 포함한 per-share economics가 valuation을 지지하는지 묻는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "mature-unit contribution margin 하락",
+      "actual_result_ko": "회사는 이후 여러 해 영업을 지속하고 규모도 커져 즉시 multiple collapse는 없었다. 그러나 장기적으로 매장 생산성·통합·자본배분 문제는 되풀이됐고, 2018년에는 전략적 매각 과정까지 갔다. 당시 Short는 구조 문제를 봤지만 catalyst와 horizon이 길었다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "claim_order": 4,
+      "claim_title_ko": "FCF·balance sheet",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2004년 Short는 성숙한 core RTO에 대해 높은 headline EPS/FCF가 영구 성장으로 자본화되는 것을 경계하고, 상품손실·매장비용·자사주/부채를 포함한 per-share economics가 valuation을 지지하는지 묻는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "FCF 적자 또는 leverage 상승",
+      "actual_result_ko": "회사는 이후 여러 해 영업을 지속하고 규모도 커져 즉시 multiple collapse는 없었다. 그러나 장기적으로 매장 생산성·통합·자본배분 문제는 되풀이됐고, 2018년에는 전략적 매각 과정까지 갔다. 당시 Short는 구조 문제를 봤지만 catalyst와 horizon이 길었다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·capital allocation",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2004년 Short는 성숙한 core RTO에 대해 높은 headline EPS/FCF가 영구 성장으로 자본화되는 것을 경계하고, 상품손실·매장비용·자사주/부채를 포함한 per-share economics가 valuation을 지지하는지 묻는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "loss-adjusted normalized FCF 기준 기대수익률 소멸",
+      "actual_result_ko": "회사는 이후 여러 해 영업을 지속하고 규모도 커져 즉시 multiple collapse는 없었다. 그러나 장기적으로 매장 생산성·통합·자본배분 문제는 되풀이됐고, 2018년에는 전략적 매각 과정까지 갔다. 당시 Short는 구조 문제를 봤지만 catalyst와 horizon이 길었다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "claim_order": 6,
+      "claim_title_ko": "규제·catalyst·반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2004년 Short는 성숙한 core RTO에 대해 높은 headline EPS/FCF가 영구 성장으로 자본화되는 것을 경계하고, 상품손실·매장비용·자사주/부채를 포함한 per-share economics가 valuation을 지지하는지 묻는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "규제·catalyst가 반대로 전개되거나 핵심 KPI 반증에도 thesis 유지",
+      "actual_result_ko": "회사는 이후 여러 해 영업을 지속하고 규모도 커져 즉시 multiple collapse는 없었다. 그러나 장기적으로 매장 생산성·통합·자본배분 문제는 되풀이됐고, 2018년에는 전략적 매각 과정까지 갔다. 당시 Short는 구조 문제를 봤지만 catalyst와 horizon이 길었다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "claim_order": 1,
+      "claim_title_ko": "수요·originations / same-store",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2005년 Short는 same-store deceleration과 비용 구조 때문에 영업레버리지가 역으로 작동할 위험, 그리고 추가 M&A가 headline growth는 만들지만 integration risk와 balance-sheet 부담을 높일 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "volume/origination 또는 same-store/loan growth가 2개 분기 연속 악화",
+      "actual_result_ko": "곧이어 Rent-Way 인수로 외형은 커졌지만 통합과 경기 하강이 겹치며 운영 난도가 상승했다. 2008년 10-K에서 경기·고객 신용여건과 손실관리 중요성이 더 커졌다. Short의 핵심인 operating leverage는 맞았지만 정확한 손익 경로는 M&A와 거시 충격에 좌우됐다.",
+      "quantitative_gap_ko": "정량치는 당시/후속 SEC filing으로 검증",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "claim_order": 2,
+      "claim_title_ko": "loss rate·underwriting",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2005년 Short는 same-store deceleration과 비용 구조 때문에 영업레버리지가 역으로 작동할 위험, 그리고 추가 M&A가 headline growth는 만들지만 integration risk와 balance-sheet 부담을 높일 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "loss/charge-off가 가격·yield 개선보다 빠르게 악화",
+      "actual_result_ko": "곧이어 Rent-Way 인수로 외형은 커졌지만 통합과 경기 하강이 겹치며 운영 난도가 상승했다. 2008년 10-K에서 경기·고객 신용여건과 손실관리 중요성이 더 커졌다. Short의 핵심인 operating leverage는 맞았지만 정확한 손익 경로는 M&A와 거시 충격에 좌우됐다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "claim_order": 3,
+      "claim_title_ko": "unit economics·operating leverage",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2005년 Short는 same-store deceleration과 비용 구조 때문에 영업레버리지가 역으로 작동할 위험, 그리고 추가 M&A가 headline growth는 만들지만 integration risk와 balance-sheet 부담을 높일 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "mature-unit contribution margin 하락",
+      "actual_result_ko": "곧이어 Rent-Way 인수로 외형은 커졌지만 통합과 경기 하강이 겹치며 운영 난도가 상승했다. 2008년 10-K에서 경기·고객 신용여건과 손실관리 중요성이 더 커졌다. Short의 핵심인 operating leverage는 맞았지만 정확한 손익 경로는 M&A와 거시 충격에 좌우됐다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "claim_order": 4,
+      "claim_title_ko": "FCF·balance sheet",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2005년 Short는 same-store deceleration과 비용 구조 때문에 영업레버리지가 역으로 작동할 위험, 그리고 추가 M&A가 headline growth는 만들지만 integration risk와 balance-sheet 부담을 높일 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "FCF 적자 또는 leverage 상승",
+      "actual_result_ko": "곧이어 Rent-Way 인수로 외형은 커졌지만 통합과 경기 하강이 겹치며 운영 난도가 상승했다. 2008년 10-K에서 경기·고객 신용여건과 손실관리 중요성이 더 커졌다. Short의 핵심인 operating leverage는 맞았지만 정확한 손익 경로는 M&A와 거시 충격에 좌우됐다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·capital allocation",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2005년 Short는 same-store deceleration과 비용 구조 때문에 영업레버리지가 역으로 작동할 위험, 그리고 추가 M&A가 headline growth는 만들지만 integration risk와 balance-sheet 부담을 높일 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "loss-adjusted normalized FCF 기준 기대수익률 소멸",
+      "actual_result_ko": "곧이어 Rent-Way 인수로 외형은 커졌지만 통합과 경기 하강이 겹치며 운영 난도가 상승했다. 2008년 10-K에서 경기·고객 신용여건과 손실관리 중요성이 더 커졌다. Short의 핵심인 operating leverage는 맞았지만 정확한 손익 경로는 M&A와 거시 충격에 좌우됐다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "claim_order": 6,
+      "claim_title_ko": "규제·catalyst·반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2005년 Short는 same-store deceleration과 비용 구조 때문에 영업레버리지가 역으로 작동할 위험, 그리고 추가 M&A가 headline growth는 만들지만 integration risk와 balance-sheet 부담을 높일 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "규제·catalyst가 반대로 전개되거나 핵심 KPI 반증에도 thesis 유지",
+      "actual_result_ko": "곧이어 Rent-Way 인수로 외형은 커졌지만 통합과 경기 하강이 겹치며 운영 난도가 상승했다. 2008년 10-K에서 경기·고객 신용여건과 손실관리 중요성이 더 커졌다. Short의 핵심인 operating leverage는 맞았지만 정확한 손익 경로는 M&A와 거시 충격에 좌우됐다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "claim_order": 1,
+      "claim_title_ko": "수요·originations / same-store",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2007년 Short는 Rent-Way 통합 직후의 높은 실행부담에 저소득 소비자 스트레스가 겹칠 경우 same-store sales, collection/loss, SG&A와 leverage가 동시에 악화될 수 있다는 경기민감 downside thesis로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "volume/origination 또는 same-store/loan growth가 2개 분기 연속 악화",
+      "actual_result_ko": "2008년 금융위기는 저소득층 현금흐름과 retail demand를 압박했고 회사는 비용·매장구조 관리가 중요해졌다. 이 아이디어는 다른 RCII shorts보다 catalyst가 가까웠고 downside 변수들이 같은 방향으로 움직이는 시점에 제시됐다.",
+      "quantitative_gap_ko": "정량치는 당시/후속 SEC filing으로 검증",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "claim_order": 2,
+      "claim_title_ko": "loss rate·underwriting",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2007년 Short는 Rent-Way 통합 직후의 높은 실행부담에 저소득 소비자 스트레스가 겹칠 경우 same-store sales, collection/loss, SG&A와 leverage가 동시에 악화될 수 있다는 경기민감 downside thesis로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "loss/charge-off가 가격·yield 개선보다 빠르게 악화",
+      "actual_result_ko": "2008년 금융위기는 저소득층 현금흐름과 retail demand를 압박했고 회사는 비용·매장구조 관리가 중요해졌다. 이 아이디어는 다른 RCII shorts보다 catalyst가 가까웠고 downside 변수들이 같은 방향으로 움직이는 시점에 제시됐다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "claim_order": 3,
+      "claim_title_ko": "unit economics·operating leverage",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2007년 Short는 Rent-Way 통합 직후의 높은 실행부담에 저소득 소비자 스트레스가 겹칠 경우 same-store sales, collection/loss, SG&A와 leverage가 동시에 악화될 수 있다는 경기민감 downside thesis로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "mature-unit contribution margin 하락",
+      "actual_result_ko": "2008년 금융위기는 저소득층 현금흐름과 retail demand를 압박했고 회사는 비용·매장구조 관리가 중요해졌다. 이 아이디어는 다른 RCII shorts보다 catalyst가 가까웠고 downside 변수들이 같은 방향으로 움직이는 시점에 제시됐다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "claim_order": 4,
+      "claim_title_ko": "FCF·balance sheet",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2007년 Short는 Rent-Way 통합 직후의 높은 실행부담에 저소득 소비자 스트레스가 겹칠 경우 same-store sales, collection/loss, SG&A와 leverage가 동시에 악화될 수 있다는 경기민감 downside thesis로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "FCF 적자 또는 leverage 상승",
+      "actual_result_ko": "2008년 금융위기는 저소득층 현금흐름과 retail demand를 압박했고 회사는 비용·매장구조 관리가 중요해졌다. 이 아이디어는 다른 RCII shorts보다 catalyst가 가까웠고 downside 변수들이 같은 방향으로 움직이는 시점에 제시됐다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·capital allocation",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2007년 Short는 Rent-Way 통합 직후의 높은 실행부담에 저소득 소비자 스트레스가 겹칠 경우 same-store sales, collection/loss, SG&A와 leverage가 동시에 악화될 수 있다는 경기민감 downside thesis로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "loss-adjusted normalized FCF 기준 기대수익률 소멸",
+      "actual_result_ko": "2008년 금융위기는 저소득층 현금흐름과 retail demand를 압박했고 회사는 비용·매장구조 관리가 중요해졌다. 이 아이디어는 다른 RCII shorts보다 catalyst가 가까웠고 downside 변수들이 같은 방향으로 움직이는 시점에 제시됐다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "claim_order": 6,
+      "claim_title_ko": "규제·catalyst·반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2007년 Short는 Rent-Way 통합 직후의 높은 실행부담에 저소득 소비자 스트레스가 겹칠 경우 same-store sales, collection/loss, SG&A와 leverage가 동시에 악화될 수 있다는 경기민감 downside thesis로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "규제·catalyst가 반대로 전개되거나 핵심 KPI 반증에도 thesis 유지",
+      "actual_result_ko": "2008년 금융위기는 저소득층 현금흐름과 retail demand를 압박했고 회사는 비용·매장구조 관리가 중요해졌다. 이 아이디어는 다른 RCII shorts보다 catalyst가 가까웠고 downside 변수들이 같은 방향으로 움직이는 시점에 제시됐다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "claim_order": 1,
+      "claim_title_ko": "loan growth·branch productivity",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2010년 WRLD Short는 높은 ROE와 성장률이 반복 renewals/refinancing, 높은 effective pricing과 benign credit에 의존할 수 있고, 소비자보호 규제가 강화되면 branch economics와 valuation이 동시에 훼손될 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "volume/origination 또는 same-store/loan growth가 2개 분기 연속 악화",
+      "actual_result_ko": "규제 위험은 실제로 커졌다. 회사는 2014년 3월 CFPB로부터 CID를 받았고 2015년 10-K에 광범위한 마케팅·신용공여 관행 조사가 공시됐다. 그러나 2018년 CFPB 조사는 enforcement action 없이 종료됐다. 따라서 규제 tail risk는 정확했지만 파국적 outcome을 전제했다면 과도했다.",
+      "quantitative_gap_ko": "정량치는 당시/후속 SEC filing으로 검증",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "소액대출은 reported loan growth보다 신규대출/renewal을 분리하고 vintage charge-off, provision, branch maturity, funding과 규제비용을 같이 추적해야 한다."
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "claim_order": 2,
+      "claim_title_ko": "renewal/refinance·credit quality",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2010년 WRLD Short는 높은 ROE와 성장률이 반복 renewals/refinancing, 높은 effective pricing과 benign credit에 의존할 수 있고, 소비자보호 규제가 강화되면 branch economics와 valuation이 동시에 훼손될 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "loss/charge-off가 가격·yield 개선보다 빠르게 악화",
+      "actual_result_ko": "규제 위험은 실제로 커졌다. 회사는 2014년 3월 CFPB로부터 CID를 받았고 2015년 10-K에 광범위한 마케팅·신용공여 관행 조사가 공시됐다. 그러나 2018년 CFPB 조사는 enforcement action 없이 종료됐다. 따라서 규제 tail risk는 정확했지만 파국적 outcome을 전제했다면 과도했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "소액대출은 reported loan growth보다 신규대출/renewal을 분리하고 vintage charge-off, provision, branch maturity, funding과 규제비용을 같이 추적해야 한다."
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "claim_order": 3,
+      "claim_title_ko": "charge-off·provision economics",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2010년 WRLD Short는 높은 ROE와 성장률이 반복 renewals/refinancing, 높은 effective pricing과 benign credit에 의존할 수 있고, 소비자보호 규제가 강화되면 branch economics와 valuation이 동시에 훼손될 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "mature-unit contribution margin 하락",
+      "actual_result_ko": "규제 위험은 실제로 커졌다. 회사는 2014년 3월 CFPB로부터 CID를 받았고 2015년 10-K에 광범위한 마케팅·신용공여 관행 조사가 공시됐다. 그러나 2018년 CFPB 조사는 enforcement action 없이 종료됐다. 따라서 규제 tail risk는 정확했지만 파국적 outcome을 전제했다면 과도했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "소액대출은 reported loan growth보다 신규대출/renewal을 분리하고 vintage charge-off, provision, branch maturity, funding과 규제비용을 같이 추적해야 한다."
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "claim_order": 4,
+      "claim_title_ko": "funding·balance sheet",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2010년 WRLD Short는 높은 ROE와 성장률이 반복 renewals/refinancing, 높은 effective pricing과 benign credit에 의존할 수 있고, 소비자보호 규제가 강화되면 branch economics와 valuation이 동시에 훼손될 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "FCF 적자 또는 leverage 상승",
+      "actual_result_ko": "규제 위험은 실제로 커졌다. 회사는 2014년 3월 CFPB로부터 CID를 받았고 2015년 10-K에 광범위한 마케팅·신용공여 관행 조사가 공시됐다. 그러나 2018년 CFPB 조사는 enforcement action 없이 종료됐다. 따라서 규제 tail risk는 정확했지만 파국적 outcome을 전제했다면 과도했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "소액대출은 reported loan growth보다 신규대출/renewal을 분리하고 vintage charge-off, provision, branch maturity, funding과 규제비용을 같이 추적해야 한다."
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·capital allocation",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2010년 WRLD Short는 높은 ROE와 성장률이 반복 renewals/refinancing, 높은 effective pricing과 benign credit에 의존할 수 있고, 소비자보호 규제가 강화되면 branch economics와 valuation이 동시에 훼손될 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "loss-adjusted normalized FCF 기준 기대수익률 소멸",
+      "actual_result_ko": "규제 위험은 실제로 커졌다. 회사는 2014년 3월 CFPB로부터 CID를 받았고 2015년 10-K에 광범위한 마케팅·신용공여 관행 조사가 공시됐다. 그러나 2018년 CFPB 조사는 enforcement action 없이 종료됐다. 따라서 규제 tail risk는 정확했지만 파국적 outcome을 전제했다면 과도했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "소액대출은 reported loan growth보다 신규대출/renewal을 분리하고 vintage charge-off, provision, branch maturity, funding과 규제비용을 같이 추적해야 한다."
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "claim_order": 6,
+      "claim_title_ko": "regulation·반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2010년 WRLD Short는 높은 ROE와 성장률이 반복 renewals/refinancing, 높은 effective pricing과 benign credit에 의존할 수 있고, 소비자보호 규제가 강화되면 branch economics와 valuation이 동시에 훼손될 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "규제·catalyst가 반대로 전개되거나 핵심 KPI 반증에도 thesis 유지",
+      "actual_result_ko": "규제 위험은 실제로 커졌다. 회사는 2014년 3월 CFPB로부터 CID를 받았고 2015년 10-K에 광범위한 마케팅·신용공여 관행 조사가 공시됐다. 그러나 2018년 CFPB 조사는 enforcement action 없이 종료됐다. 따라서 규제 tail risk는 정확했지만 파국적 outcome을 전제했다면 과도했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "reusable_lesson_ko": "소액대출은 reported loan growth보다 신규대출/renewal을 분리하고 vintage charge-off, provision, branch maturity, funding과 규제비용을 같이 추적해야 한다."
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "claim_order": 1,
+      "claim_title_ko": "수요·originations / same-store",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2012년 Short는 Acceptance Now 같은 kiosk/partner channel이 빠른 originations를 만들더라도 core store maturity를 상쇄할 만큼 좋은 unit economics인지, 손실·SG&A·working capital을 반영한 incremental ROIC가 진짜 높은지 의심하는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "volume/origination 또는 same-store/loan growth가 2개 분기 연속 악화",
+      "actual_result_ko": "신규 채널은 회사 성장축이 되었지만 이후 core business 약화와 운영문제가 누적되어 2016~17 실적 압박과 전략 재검토로 이어졌다. 단순 매장수보다 channel별 loss-adjusted contribution을 봐야 한다는 문제제기는 유효했다.",
+      "quantitative_gap_ko": "정량치는 당시/후속 SEC filing으로 검증",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "claim_order": 2,
+      "claim_title_ko": "loss rate·underwriting",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2012년 Short는 Acceptance Now 같은 kiosk/partner channel이 빠른 originations를 만들더라도 core store maturity를 상쇄할 만큼 좋은 unit economics인지, 손실·SG&A·working capital을 반영한 incremental ROIC가 진짜 높은지 의심하는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "loss/charge-off가 가격·yield 개선보다 빠르게 악화",
+      "actual_result_ko": "신규 채널은 회사 성장축이 되었지만 이후 core business 약화와 운영문제가 누적되어 2016~17 실적 압박과 전략 재검토로 이어졌다. 단순 매장수보다 channel별 loss-adjusted contribution을 봐야 한다는 문제제기는 유효했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "claim_order": 3,
+      "claim_title_ko": "unit economics·operating leverage",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2012년 Short는 Acceptance Now 같은 kiosk/partner channel이 빠른 originations를 만들더라도 core store maturity를 상쇄할 만큼 좋은 unit economics인지, 손실·SG&A·working capital을 반영한 incremental ROIC가 진짜 높은지 의심하는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "mature-unit contribution margin 하락",
+      "actual_result_ko": "신규 채널은 회사 성장축이 되었지만 이후 core business 약화와 운영문제가 누적되어 2016~17 실적 압박과 전략 재검토로 이어졌다. 단순 매장수보다 channel별 loss-adjusted contribution을 봐야 한다는 문제제기는 유효했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "claim_order": 4,
+      "claim_title_ko": "FCF·balance sheet",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2012년 Short는 Acceptance Now 같은 kiosk/partner channel이 빠른 originations를 만들더라도 core store maturity를 상쇄할 만큼 좋은 unit economics인지, 손실·SG&A·working capital을 반영한 incremental ROIC가 진짜 높은지 의심하는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "FCF 적자 또는 leverage 상승",
+      "actual_result_ko": "신규 채널은 회사 성장축이 되었지만 이후 core business 약화와 운영문제가 누적되어 2016~17 실적 압박과 전략 재검토로 이어졌다. 단순 매장수보다 channel별 loss-adjusted contribution을 봐야 한다는 문제제기는 유효했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·capital allocation",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2012년 Short는 Acceptance Now 같은 kiosk/partner channel이 빠른 originations를 만들더라도 core store maturity를 상쇄할 만큼 좋은 unit economics인지, 손실·SG&A·working capital을 반영한 incremental ROIC가 진짜 높은지 의심하는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "loss-adjusted normalized FCF 기준 기대수익률 소멸",
+      "actual_result_ko": "신규 채널은 회사 성장축이 되었지만 이후 core business 약화와 운영문제가 누적되어 2016~17 실적 압박과 전략 재검토로 이어졌다. 단순 매장수보다 channel별 loss-adjusted contribution을 봐야 한다는 문제제기는 유효했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "claim_order": 6,
+      "claim_title_ko": "규제·catalyst·반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2012년 Short는 Acceptance Now 같은 kiosk/partner channel이 빠른 originations를 만들더라도 core store maturity를 상쇄할 만큼 좋은 unit economics인지, 손실·SG&A·working capital을 반영한 incremental ROIC가 진짜 높은지 의심하는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "규제·catalyst가 반대로 전개되거나 핵심 KPI 반증에도 thesis 유지",
+      "actual_result_ko": "신규 채널은 회사 성장축이 되었지만 이후 core business 약화와 운영문제가 누적되어 2016~17 실적 압박과 전략 재검토로 이어졌다. 단순 매장수보다 channel별 loss-adjusted contribution을 봐야 한다는 문제제기는 유효했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "부분적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "claim_order": 1,
+      "claim_title_ko": "수요·originations / same-store",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2015년 Short는 Acceptance Now의 높은 headline growth가 core store의 약화, loss/collection pressure와 SG&A deleverage를 가릴 수 있으며, 성장채널의 economics가 둔화되면 전체 enterprise가 구조조정 모드로 들어갈 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "volume/origination 또는 same-store/loan growth가 2개 분기 연속 악화",
+      "actual_result_ko": "2016~17에 운영악화와 경영진 변화가 나타났고 회사는 결국 전략적 대안을 검토했다. 2018년 Vintage와 $15/share 매각계약까지 갔지만 거래는 깨졌고 회사는 $126.5m reverse fee를 요구한 뒤 2019년 $92.5m 현금 합의금을 받았다. Short가 본 사업 스트레스는 현실화했지만 event-driven path는 복잡했다.",
+      "quantitative_gap_ko": "정량치는 당시/후속 SEC filing으로 검증",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "claim_order": 2,
+      "claim_title_ko": "loss rate·underwriting",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2015년 Short는 Acceptance Now의 높은 headline growth가 core store의 약화, loss/collection pressure와 SG&A deleverage를 가릴 수 있으며, 성장채널의 economics가 둔화되면 전체 enterprise가 구조조정 모드로 들어갈 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "loss/charge-off가 가격·yield 개선보다 빠르게 악화",
+      "actual_result_ko": "2016~17에 운영악화와 경영진 변화가 나타났고 회사는 결국 전략적 대안을 검토했다. 2018년 Vintage와 $15/share 매각계약까지 갔지만 거래는 깨졌고 회사는 $126.5m reverse fee를 요구한 뒤 2019년 $92.5m 현금 합의금을 받았다. Short가 본 사업 스트레스는 현실화했지만 event-driven path는 복잡했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "claim_order": 3,
+      "claim_title_ko": "unit economics·operating leverage",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2015년 Short는 Acceptance Now의 높은 headline growth가 core store의 약화, loss/collection pressure와 SG&A deleverage를 가릴 수 있으며, 성장채널의 economics가 둔화되면 전체 enterprise가 구조조정 모드로 들어갈 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "mature-unit contribution margin 하락",
+      "actual_result_ko": "2016~17에 운영악화와 경영진 변화가 나타났고 회사는 결국 전략적 대안을 검토했다. 2018년 Vintage와 $15/share 매각계약까지 갔지만 거래는 깨졌고 회사는 $126.5m reverse fee를 요구한 뒤 2019년 $92.5m 현금 합의금을 받았다. Short가 본 사업 스트레스는 현실화했지만 event-driven path는 복잡했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "claim_order": 4,
+      "claim_title_ko": "FCF·balance sheet",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2015년 Short는 Acceptance Now의 높은 headline growth가 core store의 약화, loss/collection pressure와 SG&A deleverage를 가릴 수 있으며, 성장채널의 economics가 둔화되면 전체 enterprise가 구조조정 모드로 들어갈 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "FCF 적자 또는 leverage 상승",
+      "actual_result_ko": "2016~17에 운영악화와 경영진 변화가 나타났고 회사는 결국 전략적 대안을 검토했다. 2018년 Vintage와 $15/share 매각계약까지 갔지만 거래는 깨졌고 회사는 $126.5m reverse fee를 요구한 뒤 2019년 $92.5m 현금 합의금을 받았다. Short가 본 사업 스트레스는 현실화했지만 event-driven path는 복잡했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·capital allocation",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2015년 Short는 Acceptance Now의 높은 headline growth가 core store의 약화, loss/collection pressure와 SG&A deleverage를 가릴 수 있으며, 성장채널의 economics가 둔화되면 전체 enterprise가 구조조정 모드로 들어갈 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "loss-adjusted normalized FCF 기준 기대수익률 소멸",
+      "actual_result_ko": "2016~17에 운영악화와 경영진 변화가 나타났고 회사는 결국 전략적 대안을 검토했다. 2018년 Vintage와 $15/share 매각계약까지 갔지만 거래는 깨졌고 회사는 $126.5m reverse fee를 요구한 뒤 2019년 $92.5m 현금 합의금을 받았다. Short가 본 사업 스트레스는 현실화했지만 event-driven path는 복잡했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "claim_order": 6,
+      "claim_title_ko": "규제·catalyst·반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2015년 Short는 Acceptance Now의 높은 headline growth가 core store의 약화, loss/collection pressure와 SG&A deleverage를 가릴 수 있으며, 성장채널의 economics가 둔화되면 전체 enterprise가 구조조정 모드로 들어갈 수 있다는 논지로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "규제·catalyst가 반대로 전개되거나 핵심 KPI 반증에도 thesis 유지",
+      "actual_result_ko": "2016~17에 운영악화와 경영진 변화가 나타났고 회사는 결국 전략적 대안을 검토했다. 2018년 Vintage와 $15/share 매각계약까지 갔지만 거래는 깨졌고 회사는 $126.5m reverse fee를 요구한 뒤 2019년 $92.5m 현금 합의금을 받았다. Short가 본 사업 스트레스는 현실화했지만 event-driven path는 복잡했다.",
+      "quantitative_gap_ko": "공시 KPI 추적",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "claim_order": 1,
+      "claim_title_ko": "수요·originations / same-store",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2021년 Long은 Acima 인수로 RCII가 매장형 RTO에서 merchant-integrated virtual lease-to-own 플랫폼으로 확장되고, 더 큰 TAM·merchant network·디지털 underwriting이 높은 성장과 FCF를 만들며 시너지가 acquisition leverage를 빠르게 낮춘다는 논지였다. 이 건은 VIC 2021 A-Z에서도 Short 표식이 없는 Long으로 확인된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "volume/origination 또는 same-store/loan growth가 2개 분기 연속 악화",
+      "actual_result_ko": "2020말 RCII는 net debt/adjusted EBITDA 약 0.1x였지만 Acima 거래는 약 $1.3bn cash와 주식대가를 수반했고 $875m term loan과 $450m 6.375% notes 등으로 자금조달됐다. 2021 매출은 $4.6bn으로 커졌지만 2022 Acima revenue -9.4%, GMV -17.2%, segment operating profit -14.3%; 회사 전체 adjusted EBITDA는 $453.5m로 28.2% 감소했고 net debt/adjusted EBITDA는 2.8x가 됐다. 성장 플랫폼보다 post-stimulus normalization, underwriting/loss와 leverage가 먼저 지배했다.",
+      "quantitative_gap_ko": "2022 -17.2%",
+      "verdict_ko": "오판",
+      "analytical_error_ko": "TAM·성장률을 외삽하고 acquisition leverage와 credit normalization의 비선형 downside를 과소평가했다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "claim_order": 2,
+      "claim_title_ko": "loss rate·underwriting",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2021년 Long은 Acima 인수로 RCII가 매장형 RTO에서 merchant-integrated virtual lease-to-own 플랫폼으로 확장되고, 더 큰 TAM·merchant network·디지털 underwriting이 높은 성장과 FCF를 만들며 시너지가 acquisition leverage를 빠르게 낮춘다는 논지였다. 이 건은 VIC 2021 A-Z에서도 Short 표식이 없는 Long으로 확인된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "loss/charge-off가 가격·yield 개선보다 빠르게 악화",
+      "actual_result_ko": "2020말 RCII는 net debt/adjusted EBITDA 약 0.1x였지만 Acima 거래는 약 $1.3bn cash와 주식대가를 수반했고 $875m term loan과 $450m 6.375% notes 등으로 자금조달됐다. 2021 매출은 $4.6bn으로 커졌지만 2022 Acima revenue -9.4%, GMV -17.2%, segment operating profit -14.3%; 회사 전체 adjusted EBITDA는 $453.5m로 28.2% 감소했고 net debt/adjusted EBITDA는 2.8x가 됐다. 성장 플랫폼보다 post-stimulus normalization, underwriting/loss와 leverage가 먼저 지배했다.",
+      "quantitative_gap_ko": "2022 -9.4%",
+      "verdict_ko": "오판",
+      "analytical_error_ko": "TAM·성장률을 외삽하고 acquisition leverage와 credit normalization의 비선형 downside를 과소평가했다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "claim_order": 3,
+      "claim_title_ko": "unit economics·operating leverage",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2021년 Long은 Acima 인수로 RCII가 매장형 RTO에서 merchant-integrated virtual lease-to-own 플랫폼으로 확장되고, 더 큰 TAM·merchant network·디지털 underwriting이 높은 성장과 FCF를 만들며 시너지가 acquisition leverage를 빠르게 낮춘다는 논지였다. 이 건은 VIC 2021 A-Z에서도 Short 표식이 없는 Long으로 확인된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "mature-unit contribution margin 하락",
+      "actual_result_ko": "2020말 RCII는 net debt/adjusted EBITDA 약 0.1x였지만 Acima 거래는 약 $1.3bn cash와 주식대가를 수반했고 $875m term loan과 $450m 6.375% notes 등으로 자금조달됐다. 2021 매출은 $4.6bn으로 커졌지만 2022 Acima revenue -9.4%, GMV -17.2%, segment operating profit -14.3%; 회사 전체 adjusted EBITDA는 $453.5m로 28.2% 감소했고 net debt/adjusted EBITDA는 2.8x가 됐다. 성장 플랫폼보다 post-stimulus normalization, underwriting/loss와 leverage가 먼저 지배했다.",
+      "quantitative_gap_ko": "2022 $453.5m, -28.2%",
+      "verdict_ko": "오판",
+      "analytical_error_ko": "TAM·성장률을 외삽하고 acquisition leverage와 credit normalization의 비선형 downside를 과소평가했다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "claim_order": 4,
+      "claim_title_ko": "FCF·balance sheet",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2021년 Long은 Acima 인수로 RCII가 매장형 RTO에서 merchant-integrated virtual lease-to-own 플랫폼으로 확장되고, 더 큰 TAM·merchant network·디지털 underwriting이 높은 성장과 FCF를 만들며 시너지가 acquisition leverage를 빠르게 낮춘다는 논지였다. 이 건은 VIC 2021 A-Z에서도 Short 표식이 없는 Long으로 확인된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "FCF 적자 또는 leverage 상승",
+      "actual_result_ko": "2020말 RCII는 net debt/adjusted EBITDA 약 0.1x였지만 Acima 거래는 약 $1.3bn cash와 주식대가를 수반했고 $875m term loan과 $450m 6.375% notes 등으로 자금조달됐다. 2021 매출은 $4.6bn으로 커졌지만 2022 Acima revenue -9.4%, GMV -17.2%, segment operating profit -14.3%; 회사 전체 adjusted EBITDA는 $453.5m로 28.2% 감소했고 net debt/adjusted EBITDA는 2.8x가 됐다. 성장 플랫폼보다 post-stimulus normalization, underwriting/loss와 leverage가 먼저 지배했다.",
+      "quantitative_gap_ko": "2022 2.8x",
+      "verdict_ko": "오판",
+      "analytical_error_ko": "TAM·성장률을 외삽하고 acquisition leverage와 credit normalization의 비선형 downside를 과소평가했다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·capital allocation",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2021년 Long은 Acima 인수로 RCII가 매장형 RTO에서 merchant-integrated virtual lease-to-own 플랫폼으로 확장되고, 더 큰 TAM·merchant network·디지털 underwriting이 높은 성장과 FCF를 만들며 시너지가 acquisition leverage를 빠르게 낮춘다는 논지였다. 이 건은 VIC 2021 A-Z에서도 Short 표식이 없는 Long으로 확인된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "loss-adjusted normalized FCF 기준 기대수익률 소멸",
+      "actual_result_ko": "2020말 RCII는 net debt/adjusted EBITDA 약 0.1x였지만 Acima 거래는 약 $1.3bn cash와 주식대가를 수반했고 $875m term loan과 $450m 6.375% notes 등으로 자금조달됐다. 2021 매출은 $4.6bn으로 커졌지만 2022 Acima revenue -9.4%, GMV -17.2%, segment operating profit -14.3%; 회사 전체 adjusted EBITDA는 $453.5m로 28.2% 감소했고 net debt/adjusted EBITDA는 2.8x가 됐다. 성장 플랫폼보다 post-stimulus normalization, underwriting/loss와 leverage가 먼저 지배했다.",
+      "quantitative_gap_ko": "2022 2.8x",
+      "verdict_ko": "오판",
+      "analytical_error_ko": "TAM·성장률을 외삽하고 acquisition leverage와 credit normalization의 비선형 downside를 과소평가했다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "claim_order": 6,
+      "claim_title_ko": "규제·catalyst·반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2021년 Long은 Acima 인수로 RCII가 매장형 RTO에서 merchant-integrated virtual lease-to-own 플랫폼으로 확장되고, 더 큰 TAM·merchant network·디지털 underwriting이 높은 성장과 FCF를 만들며 시너지가 acquisition leverage를 빠르게 낮춘다는 논지였다. 이 건은 VIC 2021 A-Z에서도 Short 표식이 없는 Long으로 확인된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "규제·catalyst가 반대로 전개되거나 핵심 KPI 반증에도 thesis 유지",
+      "actual_result_ko": "2020말 RCII는 net debt/adjusted EBITDA 약 0.1x였지만 Acima 거래는 약 $1.3bn cash와 주식대가를 수반했고 $875m term loan과 $450m 6.375% notes 등으로 자금조달됐다. 2021 매출은 $4.6bn으로 커졌지만 2022 Acima revenue -9.4%, GMV -17.2%, segment operating profit -14.3%; 회사 전체 adjusted EBITDA는 $453.5m로 28.2% 감소했고 net debt/adjusted EBITDA는 2.8x가 됐다. 성장 플랫폼보다 post-stimulus normalization, underwriting/loss와 leverage가 먼저 지배했다.",
+      "quantitative_gap_ko": "2022 2.8x",
+      "verdict_ko": "오판",
+      "analytical_error_ko": "TAM·성장률을 외삽하고 acquisition leverage와 credit normalization의 비선형 downside를 과소평가했다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "claim_order": 1,
+      "claim_title_ko": "수요·originations / same-store",
+      "thesis_weight_pct": 20,
+      "original_claim_ko": "2022년 Short는 stimulus 종료와 소비 정상화로 Acima/RAC originations가 둔화되는 동시에 loss rate가 올라가고, 2021 Acima 인수로 높아진 debt가 EBITDA 감소를 equity에 증폭시킨다는 post-acquisition deleveraging 실패 thesis로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "volume/origination 또는 same-store/loan growth가 2개 분기 연속 악화",
+      "actual_result_ko": "2022년 결과는 논지를 강하게 지지했다. Acima revenue는 $2.328bn에서 $2.110bn으로 9.4% 감소했고 GMV는 17.2% 감소했다. Acima gross profit -13.3%, operating profit -14.3%; RAC segment skip/stolen losses는 revenue의 4.9%로 2021년 3.1%보다 상승했다. 전체 adjusted EBITDA는 28.2% 감소하고 year-end net leverage는 2.8x였다.",
+      "quantitative_gap_ko": "2022 -17.2%",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "claim_order": 2,
+      "claim_title_ko": "loss rate·underwriting",
+      "thesis_weight_pct": 18,
+      "original_claim_ko": "2022년 Short는 stimulus 종료와 소비 정상화로 Acima/RAC originations가 둔화되는 동시에 loss rate가 올라가고, 2021 Acima 인수로 높아진 debt가 EBITDA 감소를 equity에 증폭시킨다는 post-acquisition deleveraging 실패 thesis로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "loss/charge-off가 가격·yield 개선보다 빠르게 악화",
+      "actual_result_ko": "2022년 결과는 논지를 강하게 지지했다. Acima revenue는 $2.328bn에서 $2.110bn으로 9.4% 감소했고 GMV는 17.2% 감소했다. Acima gross profit -13.3%, operating profit -14.3%; RAC segment skip/stolen losses는 revenue의 4.9%로 2021년 3.1%보다 상승했다. 전체 adjusted EBITDA는 28.2% 감소하고 year-end net leverage는 2.8x였다.",
+      "quantitative_gap_ko": "2022 4.9% vs 3.1%",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "claim_order": 3,
+      "claim_title_ko": "unit economics·operating leverage",
+      "thesis_weight_pct": 17,
+      "original_claim_ko": "2022년 Short는 stimulus 종료와 소비 정상화로 Acima/RAC originations가 둔화되는 동시에 loss rate가 올라가고, 2021 Acima 인수로 높아진 debt가 EBITDA 감소를 equity에 증폭시킨다는 post-acquisition deleveraging 실패 thesis로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "mature-unit contribution margin 하락",
+      "actual_result_ko": "2022년 결과는 논지를 강하게 지지했다. Acima revenue는 $2.328bn에서 $2.110bn으로 9.4% 감소했고 GMV는 17.2% 감소했다. Acima gross profit -13.3%, operating profit -14.3%; RAC segment skip/stolen losses는 revenue의 4.9%로 2021년 3.1%보다 상승했다. 전체 adjusted EBITDA는 28.2% 감소하고 year-end net leverage는 2.8x였다.",
+      "quantitative_gap_ko": "2022 $453.5m, -28.2%",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "claim_order": 4,
+      "claim_title_ko": "FCF·balance sheet",
+      "thesis_weight_pct": 16,
+      "original_claim_ko": "2022년 Short는 stimulus 종료와 소비 정상화로 Acima/RAC originations가 둔화되는 동시에 loss rate가 올라가고, 2021 Acima 인수로 높아진 debt가 EBITDA 감소를 equity에 증폭시킨다는 post-acquisition deleveraging 실패 thesis로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "FCF 적자 또는 leverage 상승",
+      "actual_result_ko": "2022년 결과는 논지를 강하게 지지했다. Acima revenue는 $2.328bn에서 $2.110bn으로 9.4% 감소했고 GMV는 17.2% 감소했다. Acima gross profit -13.3%, operating profit -14.3%; RAC segment skip/stolen losses는 revenue의 4.9%로 2021년 3.1%보다 상승했다. 전체 adjusted EBITDA는 28.2% 감소하고 year-end net leverage는 2.8x였다.",
+      "quantitative_gap_ko": "2022 2.8x",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "claim_order": 5,
+      "claim_title_ko": "valuation·capital allocation",
+      "thesis_weight_pct": 15,
+      "original_claim_ko": "2022년 Short는 stimulus 종료와 소비 정상화로 Acima/RAC originations가 둔화되는 동시에 loss rate가 올라가고, 2021 Acima 인수로 높아진 debt가 EBITDA 감소를 equity에 증폭시킨다는 post-acquisition deleveraging 실패 thesis로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "loss-adjusted normalized FCF 기준 기대수익률 소멸",
+      "actual_result_ko": "2022년 결과는 논지를 강하게 지지했다. Acima revenue는 $2.328bn에서 $2.110bn으로 9.4% 감소했고 GMV는 17.2% 감소했다. Acima gross profit -13.3%, operating profit -14.3%; RAC segment skip/stolen losses는 revenue의 4.9%로 2021년 3.1%보다 상승했다. 전체 adjusted EBITDA는 28.2% 감소하고 year-end net leverage는 2.8x였다.",
+      "quantitative_gap_ko": "2022 2.8x",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "claim_order": 6,
+      "claim_title_ko": "규제·catalyst·반증규칙",
+      "thesis_weight_pct": 14,
+      "original_claim_ko": "2022년 Short는 stimulus 종료와 소비 정상화로 Acima/RAC originations가 둔화되는 동시에 loss rate가 올라가고, 2021 Acima 인수로 높아진 debt가 EBITDA 감소를 equity에 증폭시킨다는 post-acquisition deleveraging 실패 thesis로 재구성된다.",
+      "t0_evidence_ko": "VIC raw 방향·연도·저자 metadata와 당시 회사 SEC filing의 사업·위험·재무구조를 교차검증했다.",
+      "key_assumption_ko": "해당 KPI가 reported growth와 equity value 사이의 causal bridge를 설명한다.",
+      "ex_ante_falsifier_ko": "규제·catalyst가 반대로 전개되거나 핵심 KPI 반증에도 thesis 유지",
+      "actual_result_ko": "2022년 결과는 논지를 강하게 지지했다. Acima revenue는 $2.328bn에서 $2.110bn으로 9.4% 감소했고 GMV는 17.2% 감소했다. Acima gross profit -13.3%, operating profit -14.3%; RAC segment skip/stolen losses는 revenue의 4.9%로 2021년 3.1%보다 상승했다. 전체 adjusted EBITDA는 28.2% 감소하고 year-end net leverage는 2.8x였다.",
+      "quantitative_gap_ko": "2022 2.8x",
+      "verdict_ko": "적중",
+      "analytical_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "reusable_lesson_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다."
+    }
+  ],
+  "metrics": [
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "metric_order": 1,
+      "metric_name_ko": "branch/loan growth",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "metric_order": 2,
+      "metric_name_ko": "renewal mix",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "metric_order": 3,
+      "metric_name_ko": "charge-off/provision",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "metric_order": 4,
+      "metric_name_ko": "regulatory status",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "metric_order": 1,
+      "metric_name_ko": "same-store sales",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "metric_order": 2,
+      "metric_name_ko": "store count",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "metric_order": 3,
+      "metric_name_ko": "rental merchandise loss",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "metric_order": 4,
+      "metric_name_ko": "operating margin",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "metric_order": 1,
+      "metric_name_ko": "core revenue",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "metric_order": 2,
+      "metric_name_ko": "store productivity",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "metric_order": 3,
+      "metric_name_ko": "FCF",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "metric_order": 4,
+      "metric_name_ko": "net debt/share",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "metric_order": 1,
+      "metric_name_ko": "same-store sales",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "metric_order": 2,
+      "metric_name_ko": "acquired-store margin",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "metric_order": 3,
+      "metric_name_ko": "skip/stolen loss",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "metric_order": 4,
+      "metric_name_ko": "net debt",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "metric_order": 1,
+      "metric_name_ko": "same-store sales",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "metric_order": 2,
+      "metric_name_ko": "customer loss rates",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "metric_order": 3,
+      "metric_name_ko": "SG&A/store",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "metric_order": 4,
+      "metric_name_ko": "leverage",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "metric_order": 1,
+      "metric_name_ko": "loan growth",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "metric_order": 2,
+      "metric_name_ko": "renewal/refinance",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "metric_order": 3,
+      "metric_name_ko": "charge-offs",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "metric_order": 4,
+      "metric_name_ko": "regulatory status",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "metric_order": 1,
+      "metric_name_ko": "Acceptance Now locations",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "metric_order": 2,
+      "metric_name_ko": "core same-store sales",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "metric_order": 3,
+      "metric_name_ko": "loss-adjusted margin",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "metric_order": 4,
+      "metric_name_ko": "FCF/net debt",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "metric_order": 1,
+      "metric_name_ko": "core same-store sales",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "metric_order": 2,
+      "metric_name_ko": "Acceptance Now growth",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "metric_order": 3,
+      "metric_name_ko": "loss rate",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "metric_order": 4,
+      "metric_name_ko": "operating margin",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "후속 공시로 추적",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "metric_order": 1,
+      "metric_name_ko": "Acima GMV",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "2022 -17.2%",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "metric_order": 2,
+      "metric_name_ko": "Acima revenue",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "2022 -9.4%",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "metric_order": 3,
+      "metric_name_ko": "adjusted EBITDA",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "2022 $453.5m, -28.2%",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "metric_order": 4,
+      "metric_name_ko": "net debt/EBITDA",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "2022 2.8x",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "metric_order": 1,
+      "metric_name_ko": "Acima GMV",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "2022 -17.2%",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "metric_order": 2,
+      "metric_name_ko": "RAC skip/stolen loss",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "2022 4.9% vs 3.1%",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "metric_order": 3,
+      "metric_name_ko": "adjusted EBITDA",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "2022 $453.5m, -28.2%",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "metric_order": 4,
+      "metric_name_ko": "net leverage",
+      "t0_value_ko": "당시 filing/VIC에서 추적",
+      "actual_value_ko": "2022 2.8x",
+      "interpretation_ko": "단독 수치가 아니라 다른 운영·신용·balance-sheet KPI와 함께 causal chain을 검증한다."
+    }
+  ],
+  "timeline": [
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "event_order": 1,
+      "event_date": "2002-03-31",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "원 논지와 방향의 기준점"
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "event_order": 2,
+      "event_date": "2002-03-31",
+      "event_ko": "당시 SEC filing / 사업구조 확인",
+      "signal_ko": "T0 base-rate와 balance sheet"
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "event_order": 3,
+      "event_date": "2014-03-12",
+      "event_ko": "2014-03-12 CFPB CID",
+      "signal_ko": "첫 핵심 신호"
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "event_order": 4,
+      "event_date": "2018-12-31",
+      "event_ko": "규제·전략·산업구조의 후속 변화 점검",
+      "signal_ko": "중간 posterior update"
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "event_order": 5,
+      "event_date": "2021-12-31",
+      "event_ko": "pandemic/Acima 등 후속 regime 점검",
+      "signal_ko": "경로의 비선형성 확인"
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "event_order": 6,
+      "event_date": "2022-12-31",
+      "event_ko": "회사는 이후 오랜 기간 생존·확장했고 2014년에도 14개 주와 멕시코에서 영업할 정도로 branch franchise를 유지했다. 즉 2002년에 즉시 구조 붕괴를 기대했다면 timing은 실패했다. 다만 2014년 CFPB CID로 renewals·마케팅·신용공여 관행이 조사 대상이 되면서 원래의 규제·상품구조 위험 ",
+      "signal_ko": "사후 판정"
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "event_order": 1,
+      "event_date": "2003-08-08",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "원 논지와 방향의 기준점"
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "event_order": 2,
+      "event_date": "2003-08-08",
+      "event_ko": "당시 SEC filing / 사업구조 확인",
+      "signal_ko": "T0 base-rate와 balance sheet"
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "event_order": 3,
+      "event_date": "2008-12-31",
+      "event_ko": "2006~08 통합·경기하강 압력 확대",
+      "signal_ko": "첫 핵심 신호"
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "event_order": 4,
+      "event_date": "2018-12-31",
+      "event_ko": "규제·전략·산업구조의 후속 변화 점검",
+      "signal_ko": "중간 posterior update"
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "event_order": 5,
+      "event_date": "2021-12-31",
+      "event_ko": "pandemic/Acima 등 후속 regime 점검",
+      "signal_ko": "경로의 비선형성 확인"
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "event_order": 6,
+      "event_date": "2022-12-31",
+      "event_ko": "Rent-A-Center는 단기적으로 무너지지 않았고 이후 Rent-Way 등 인수를 통해 규모를 확대했다. 그러나 사업은 반복적으로 매장 구조조정과 비용절감이 필요했고 경기 하강기에 영업레버리지가 크게 드러났다. 따라서 포화 논리는 방향성은 있었지만 2003년의 즉시 catalyst로는 약했다.",
+      "signal_ko": "사후 판정"
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "event_order": 1,
+      "event_date": "2004-12-08",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "원 논지와 방향의 기준점"
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "event_order": 2,
+      "event_date": "2004-12-08",
+      "event_ko": "당시 SEC filing / 사업구조 확인",
+      "signal_ko": "T0 base-rate와 balance sheet"
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "event_order": 3,
+      "event_date": "2016-12-31",
+      "event_ko": "후속 구조조정·전략대안 반복",
+      "signal_ko": "첫 핵심 신호"
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "event_order": 4,
+      "event_date": "2018-12-31",
+      "event_ko": "규제·전략·산업구조의 후속 변화 점검",
+      "signal_ko": "중간 posterior update"
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "event_order": 5,
+      "event_date": "2021-12-31",
+      "event_ko": "pandemic/Acima 등 후속 regime 점검",
+      "signal_ko": "경로의 비선형성 확인"
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "event_order": 6,
+      "event_date": "2022-12-31",
+      "event_ko": "회사는 이후 여러 해 영업을 지속하고 규모도 커져 즉시 multiple collapse는 없었다. 그러나 장기적으로 매장 생산성·통합·자본배분 문제는 되풀이됐고, 2018년에는 전략적 매각 과정까지 갔다. 당시 Short는 구조 문제를 봤지만 catalyst와 horizon이 길었다.",
+      "signal_ko": "사후 판정"
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "event_order": 1,
+      "event_date": "2005-11-06",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "원 논지와 방향의 기준점"
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "event_order": 2,
+      "event_date": "2005-11-06",
+      "event_ko": "당시 SEC filing / 사업구조 확인",
+      "signal_ko": "T0 base-rate와 balance sheet"
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "event_order": 3,
+      "event_date": "2008-12-31",
+      "event_ko": "Rent-Way 통합 후 경기하강",
+      "signal_ko": "첫 핵심 신호"
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "event_order": 4,
+      "event_date": "2018-12-31",
+      "event_ko": "규제·전략·산업구조의 후속 변화 점검",
+      "signal_ko": "중간 posterior update"
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "event_order": 5,
+      "event_date": "2021-12-31",
+      "event_ko": "pandemic/Acima 등 후속 regime 점검",
+      "signal_ko": "경로의 비선형성 확인"
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "event_order": 6,
+      "event_date": "2022-12-31",
+      "event_ko": "곧이어 Rent-Way 인수로 외형은 커졌지만 통합과 경기 하강이 겹치며 운영 난도가 상승했다. 2008년 10-K에서 경기·고객 신용여건과 손실관리 중요성이 더 커졌다. Short의 핵심인 operating leverage는 맞았지만 정확한 손익 경로는 M&A와 거시 충격에 좌우됐다.",
+      "signal_ko": "사후 판정"
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "event_order": 1,
+      "event_date": "2007-10-04",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "원 논지와 방향의 기준점"
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "event_order": 2,
+      "event_date": "2007-10-04",
+      "event_ko": "당시 SEC filing / 사업구조 확인",
+      "signal_ko": "T0 base-rate와 balance sheet"
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "event_order": 3,
+      "event_date": "2008-12-31",
+      "event_ko": "2008 recession stress",
+      "signal_ko": "첫 핵심 신호"
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "event_order": 4,
+      "event_date": "2018-12-31",
+      "event_ko": "규제·전략·산업구조의 후속 변화 점검",
+      "signal_ko": "중간 posterior update"
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "event_order": 5,
+      "event_date": "2021-12-31",
+      "event_ko": "pandemic/Acima 등 후속 regime 점검",
+      "signal_ko": "경로의 비선형성 확인"
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "event_order": 6,
+      "event_date": "2022-12-31",
+      "event_ko": "2008년 금융위기는 저소득층 현금흐름과 retail demand를 압박했고 회사는 비용·매장구조 관리가 중요해졌다. 이 아이디어는 다른 RCII shorts보다 catalyst가 가까웠고 downside 변수들이 같은 방향으로 움직이는 시점에 제시됐다.",
+      "signal_ko": "사후 판정"
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "event_order": 1,
+      "event_date": "2010-12-18",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "원 논지와 방향의 기준점"
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "event_order": 2,
+      "event_date": "2010-12-18",
+      "event_ko": "당시 SEC filing / 사업구조 확인",
+      "signal_ko": "T0 base-rate와 balance sheet"
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "event_order": 3,
+      "event_date": "2014-03-12",
+      "event_ko": "CFPB CID",
+      "signal_ko": "첫 핵심 신호"
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "event_order": 4,
+      "event_date": "2018-12-31",
+      "event_ko": "규제·전략·산업구조의 후속 변화 점검",
+      "signal_ko": "중간 posterior update"
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "event_order": 5,
+      "event_date": "2021-12-31",
+      "event_ko": "pandemic/Acima 등 후속 regime 점검",
+      "signal_ko": "경로의 비선형성 확인"
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "event_order": 6,
+      "event_date": "2022-12-31",
+      "event_ko": "규제 위험은 실제로 커졌다. 회사는 2014년 3월 CFPB로부터 CID를 받았고 2015년 10-K에 광범위한 마케팅·신용공여 관행 조사가 공시됐다. 그러나 2018년 CFPB 조사는 enforcement action 없이 종료됐다. 따라서 규제 tail risk는 정확했지만 파국적 outcome을 전제했다면 과도했다.",
+      "signal_ko": "사후 판정"
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "event_order": 1,
+      "event_date": "2012-08-24",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "원 논지와 방향의 기준점"
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "event_order": 2,
+      "event_date": "2012-08-24",
+      "event_ko": "당시 SEC filing / 사업구조 확인",
+      "signal_ko": "T0 base-rate와 balance sheet"
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "event_order": 3,
+      "event_date": "2016-12-31",
+      "event_ko": "2016 core deterioration",
+      "signal_ko": "첫 핵심 신호"
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "event_order": 4,
+      "event_date": "2018-12-31",
+      "event_ko": "규제·전략·산업구조의 후속 변화 점검",
+      "signal_ko": "중간 posterior update"
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "event_order": 5,
+      "event_date": "2021-12-31",
+      "event_ko": "pandemic/Acima 등 후속 regime 점검",
+      "signal_ko": "경로의 비선형성 확인"
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "event_order": 6,
+      "event_date": "2022-12-31",
+      "event_ko": "신규 채널은 회사 성장축이 되었지만 이후 core business 약화와 운영문제가 누적되어 2016~17 실적 압박과 전략 재검토로 이어졌다. 단순 매장수보다 channel별 loss-adjusted contribution을 봐야 한다는 문제제기는 유효했다.",
+      "signal_ko": "사후 판정"
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "event_order": 1,
+      "event_date": "2015-12-23",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "원 논지와 방향의 기준점"
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "event_order": 2,
+      "event_date": "2015-12-23",
+      "event_ko": "당시 SEC filing / 사업구조 확인",
+      "signal_ko": "T0 base-rate와 balance sheet"
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "event_order": 3,
+      "event_date": "2016-12-31",
+      "event_ko": "2016~17 운영악화·전략대안",
+      "signal_ko": "첫 핵심 신호"
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "event_order": 4,
+      "event_date": "2018-12-31",
+      "event_ko": "규제·전략·산업구조의 후속 변화 점검",
+      "signal_ko": "중간 posterior update"
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "event_order": 5,
+      "event_date": "2021-12-31",
+      "event_ko": "pandemic/Acima 등 후속 regime 점검",
+      "signal_ko": "경로의 비선형성 확인"
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "event_order": 6,
+      "event_date": "2022-12-31",
+      "event_ko": "2016~17에 운영악화와 경영진 변화가 나타났고 회사는 결국 전략적 대안을 검토했다. 2018년 Vintage와 $15/share 매각계약까지 갔지만 거래는 깨졌고 회사는 $126.5m reverse fee를 요구한 뒤 2019년 $92.5m 현금 합의금을 받았다. Short가 본 사업 스트레스는 현실화했지만 event",
+      "signal_ko": "사후 판정"
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "event_order": 1,
+      "event_date": "2021-08-18",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "원 논지와 방향의 기준점"
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "event_order": 2,
+      "event_date": "2021-08-18",
+      "event_ko": "당시 SEC filing / 사업구조 확인",
+      "signal_ko": "T0 base-rate와 balance sheet"
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "event_order": 3,
+      "event_date": "2022-12-31",
+      "event_ko": "2022 Acima GMV·EBITDA 급감",
+      "signal_ko": "첫 핵심 신호"
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "event_order": 4,
+      "event_date": "2018-12-31",
+      "event_ko": "규제·전략·산업구조의 후속 변화 점검",
+      "signal_ko": "중간 posterior update"
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "event_order": 5,
+      "event_date": "2021-12-31",
+      "event_ko": "pandemic/Acima 등 후속 regime 점검",
+      "signal_ko": "경로의 비선형성 확인"
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "event_order": 6,
+      "event_date": "2022-12-31",
+      "event_ko": "2020말 RCII는 net debt/adjusted EBITDA 약 0.1x였지만 Acima 거래는 약 $1.3bn cash와 주식대가를 수반했고 $875m term loan과 $450m 6.375% notes 등으로 자금조달됐다. 2021 매출은 $4.6bn으로 커졌지만 2022 Acima revenue -9.4%, ",
+      "signal_ko": "사후 판정"
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "event_order": 1,
+      "event_date": "2022-05-24",
+      "event_ko": "VIC idea 게시",
+      "signal_ko": "원 논지와 방향의 기준점"
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "event_order": 2,
+      "event_date": "2022-05-24",
+      "event_ko": "당시 SEC filing / 사업구조 확인",
+      "signal_ko": "T0 base-rate와 balance sheet"
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "event_order": 3,
+      "event_date": "2022-12-31",
+      "event_ko": "2022 GMV·loss·EBITDA 동시 악화",
+      "signal_ko": "첫 핵심 신호"
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "event_order": 4,
+      "event_date": "2018-12-31",
+      "event_ko": "규제·전략·산업구조의 후속 변화 점검",
+      "signal_ko": "중간 posterior update"
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "event_order": 5,
+      "event_date": "2021-12-31",
+      "event_ko": "pandemic/Acima 등 후속 regime 점검",
+      "signal_ko": "경로의 비선형성 확인"
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "event_order": 6,
+      "event_date": "2022-12-31",
+      "event_ko": "2022년 결과는 논지를 강하게 지지했다. Acima revenue는 $2.328bn에서 $2.110bn으로 9.4% 감소했고 GMV는 17.2% 감소했다. Acima gross profit -13.3%, operating profit -14.3%; RAC segment skip/stolen losses는 revenue의",
+      "signal_ko": "사후 판정"
+    }
+  ],
+  "sources": [
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "source_order": 1,
+      "source_type": "SEC primary filing",
+      "source_name": "wrld03",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/108385/000010838503000006/form10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "source_order": 2,
+      "source_type": "SEC primary filing",
+      "source_name": "wrld14",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/108385/000010838514000021/wrld-3312014x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "source_order": 3,
+      "source_type": "SEC primary filing",
+      "source_name": "wrld15",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/108385/000010838515000018/wrld-3312015x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "source_order": 4,
+      "source_type": "SEC primary filing",
+      "source_name": "wrld17",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/108385/000010838517000020/wrld-3312017x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "source_order": 5,
+      "source_type": "SEC primary filing",
+      "source_name": "wrld18close",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/108385/000010838518000002/ex991pressrelease.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "source_order": 6,
+      "source_type": "VIC",
+      "source_name": "vic2021",
+      "source_url": "https://www.valueinvestorsclub.com/ideas/a-z/2021",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "source_order": 1,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii03",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312504038444/d10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "source_order": 2,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii06",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000095013407004710/d44558e10vk.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "source_order": 3,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii08",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312509040807/d10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "source_order": 4,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii10",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312511050980/d10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "source_order": 5,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii12",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312513075350/d10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "source_order": 6,
+      "source_type": "VIC",
+      "source_name": "vic2021",
+      "source_url": "https://www.valueinvestorsclub.com/ideas/a-z/2021",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "source_order": 1,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii03",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312504038444/d10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "source_order": 2,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii06",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000095013407004710/d44558e10vk.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "source_order": 3,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii10",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312511050980/d10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "source_order": 4,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii16",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303617000010/rcii-20161231x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "source_order": 5,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii18",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000010/rcii-20181231x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "source_order": 6,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii_vintage",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303618000041/ex991pressrelease.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "source_order": 1,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii06",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000095013407004710/d44558e10vk.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "source_order": 2,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii08",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312509040807/d10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "source_order": 3,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii10",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312511050980/d10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "source_order": 4,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii12",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312513075350/d10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "source_order": 5,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii16",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303617000010/rcii-20161231x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "source_order": 6,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii18",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000010/rcii-20181231x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "source_order": 1,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii06",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000095013407004710/d44558e10vk.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "source_order": 2,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii08",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312509040807/d10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "source_order": 3,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii10",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312511050980/d10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "source_order": 4,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii12",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312513075350/d10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "source_order": 5,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii16",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303617000010/rcii-20161231x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "source_order": 6,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii18",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000010/rcii-20181231x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "source_order": 1,
+      "source_type": "SEC primary filing",
+      "source_name": "wrld03",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/108385/000010838503000006/form10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "source_order": 2,
+      "source_type": "SEC primary filing",
+      "source_name": "wrld14",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/108385/000010838514000021/wrld-3312014x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "source_order": 3,
+      "source_type": "SEC primary filing",
+      "source_name": "wrld15",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/108385/000010838515000018/wrld-3312015x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "source_order": 4,
+      "source_type": "SEC primary filing",
+      "source_name": "wrld17",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/108385/000010838517000020/wrld-3312017x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "source_order": 5,
+      "source_type": "SEC primary filing",
+      "source_name": "wrld18close",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/108385/000010838518000002/ex991pressrelease.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "source_order": 6,
+      "source_type": "VIC",
+      "source_name": "vic2021",
+      "source_url": "https://www.valueinvestorsclub.com/ideas/a-z/2021",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "source_order": 1,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii12",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312513075350/d10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "source_order": 2,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii16",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303617000010/rcii-20161231x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "source_order": 3,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii18",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000010/rcii-20181231x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "source_order": 4,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii19",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303620000006/rcii-20191231x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "source_order": 5,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii_vintage",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303618000041/ex991pressrelease.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "source_order": 6,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii_settle",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000019/ex991pressrelease.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "source_order": 1,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii16",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303617000010/rcii-20161231x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "source_order": 2,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii18",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000010/rcii-20181231x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "source_order": 3,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii_vintage",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303618000041/ex991pressrelease.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "source_order": 4,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii_settle",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000019/ex991pressrelease.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "source_order": 5,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii19",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303620000006/rcii-20191231x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "source_order": 6,
+      "source_type": "VIC",
+      "source_name": "vic2021",
+      "source_url": "https://www.valueinvestorsclub.com/ideas/a-z/2021",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "source_order": 1,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii21",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303622000008/rcii-20211231x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "source_order": 2,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii22",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303623000007/rcii-20221231x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "source_order": 3,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii18",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000010/rcii-20181231x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "source_order": 4,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii19",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303620000006/rcii-20191231x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "source_order": 5,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii_vintage",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303618000041/ex991pressrelease.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "source_order": 6,
+      "source_type": "VIC",
+      "source_name": "vic2021",
+      "source_url": "https://www.valueinvestorsclub.com/ideas/a-z/2021",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "source_order": 1,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii21",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303622000008/rcii-20211231x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "source_order": 2,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii22",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303623000007/rcii-20221231x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "source_order": 3,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii19",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303620000006/rcii-20191231x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "source_order": 4,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii18",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000010/rcii-20181231x10k.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "source_order": 5,
+      "source_type": "SEC primary filing",
+      "source_name": "rcii_vintage",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303618000041/ex991pressrelease.htm",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "source_order": 6,
+      "source_type": "VIC",
+      "source_name": "vic2021",
+      "source_url": "https://www.valueinvestorsclub.com/ideas/a-z/2021",
+      "source_date": null,
+      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+    }
+  ]
+}
