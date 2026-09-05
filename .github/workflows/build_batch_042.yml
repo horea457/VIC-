@@ -1,4 +1,4 @@
-name: Build Batch 042 radio satellite audio
+name: Diagnose Batch 042 payload
 
 on:
   push:
@@ -7,68 +7,26 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  build:
+  diagnose:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Reassemble, validate, register, and commit Batch 042
+      - name: Test stored payload variants
         shell: bash
         run: |
-          set -euo pipefail
-          test -f .github/batch042_payload_1.txt || { echo 'payload already consumed'; exit 0; }
-          cat .github/batch042_payload_1.txt .github/batch042_payload_2.txt .github/batch042_payload_3a.txt .github/batch042_payload_4a.txt .github/batch042_payload_4b.txt .github/batch042_payload_4c.txt .github/batch042_payload_5.txt | base64 -d > /tmp/batch042_payload.tar.gz
-          tar xzf /tmp/batch042_payload.tar.gz -C .
-          python - <<'PY'
-          import json
-          from pathlib import Path
-          manifest_path=Path('data/curated/batch_042_radio_satellite_audio_deep_v7.json')
-          m=json.loads(manifest_path.read_text(encoding='utf-8'))
-          assert m['batch']=='042'
-          assert len(m['ideas_master'])==10 and len(m['postmortems'])==10 and len(m['parts'])==10
-          ids=[x['idea_id'] for x in m['ideas_master']]
-          assert len(ids)==len(set(ids))==10
-          totals={'sections':0,'weighted_claims':0,'metrics':0,'timeline':0,'sources':0}
-          for p in m['parts']:
-              d=json.loads(Path(p['path']).read_text(encoding='utf-8'))
-              assert d['idea_id']==p['idea_id']
-              assert len(d['sections'])==10
-              assert len(d['weighted_claims'])==6
-              assert sum(x['weight_pct'] for x in d['weighted_claims'])==100
-              assert len(d['metrics'])==4
-              assert len(d['timeline'])==6
-              assert len(d['sources'])==6
-              totals['sections'] += len(d['sections'])
-              totals['weighted_claims'] += len(d['weighted_claims'])
-              totals['metrics'] += len(d['metrics'])
-              totals['timeline'] += len(d['timeline'])
-              totals['sources'] += len(d['sources'])
-          assert totals=={'sections':100,'weighted_claims':60,'metrics':40,'timeline':60,'sources':60}
-          assert m['aggregate_validation']['duplicate_idea_ids']==0
-          assert m['aggregate_validation']['sections']==100
-          report=Path('analysis/batch_042_radio_satellite_audio_10.md')
-          assert report.exists()
-          text=report.read_text(encoding='utf-8')
-          for i in range(1,11):
-              assert f'batch_042_radio_satellite_audio_part{i:02d}.md' in text
-          registry=Path('app/components/batch_report.py')
-          s=registry.read_text(encoding='utf-8')
-          row='("batch_042_radio_satellite_audio_deep_v7.json","batch_042_radio_satellite_audio_10.md","Batch 042"),\n'
-          if '"Batch 042"' not in s:
-              needle='("all_reviewed_v8_index.json","all_reviewed_v8.md.gz","V8 전체 DB"),)'
-              assert needle in s
-              s=s.replace(needle,row+needle)
-              registry.write_text(s,encoding='utf-8')
-          print('Batch 042 validated:', totals)
-          PY
-          rm -f .github/batch042_payload_1.txt .github/batch042_payload_2.txt .github/batch042_payload_3.txt .github/batch042_payload_3a.txt .github/batch042_payload_4.txt .github/batch042_payload_4a.txt .github/batch042_payload_4b.txt .github/batch042_payload_4c.txt .github/batch042_payload_5.txt
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A
-          git diff --cached --check
-          git commit -m 'Add Batch 042 radio and satellite audio postmortems'
-          git push
-
-# automation retrigger: 2026-09-05
+          set -u
+          echo 'sizes:'
+          wc -c .github/batch042_payload_*.txt
+          test_variant() {
+            name="$1"; shift
+            cat "$@" | base64 -d > "/tmp/${name}.tgz" 2>"/tmp/${name}.b64err" || true
+            echo "-- ${name} --"
+            gzip -t "/tmp/${name}.tgz" && echo "CRC_OK ${name}" || echo "CRC_FAIL ${name}"
+          }
+          test_variant v1 .github/batch042_payload_1.txt .github/batch042_payload_2.txt .github/batch042_payload_3a.txt .github/batch042_payload_4a.txt .github/batch042_payload_4b.txt .github/batch042_payload_4c.txt .github/batch042_payload_5.txt
+          test_variant v2 .github/batch042_payload_1.txt .github/batch042_payload_2.txt .github/batch042_payload_3a.txt .github/batch042_payload_4.txt .github/batch042_payload_5.txt
+          test_variant v3 .github/batch042_payload_1.txt .github/batch042_payload_2.txt .github/batch042_payload_3.txt .github/batch042_payload_4a.txt .github/batch042_payload_4b.txt .github/batch042_payload_4c.txt .github/batch042_payload_5.txt
+          test_variant v4 .github/batch042_payload_1.txt .github/batch042_payload_2.txt .github/batch042_payload_3.txt .github/batch042_payload_4.txt .github/batch042_payload_5.txt
