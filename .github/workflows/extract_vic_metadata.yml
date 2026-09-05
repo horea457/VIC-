@@ -10,71 +10,44 @@ permissions:
   contents: write
 
 jobs:
-  extract:
+  inspect:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-      - name: Extract Batch 035 source packet
+      - name: Inspect schema and performance
         shell: bash
         run: |
           set -euo pipefail
           python -m pip install --quiet gdown
           gdown 'https://drive.google.com/uc?id=1XdHbJu35eyJdMoHMyycudDjyCvrEmIBW' -O /tmp/VIC_IDEAS.sql
           python - <<'PY'
-          import pathlib, glob, json
-          def unescape(v):
-              if v == r'\N': return None
-              out=[]; i=0
-              while i<len(v):
-                  if v[i]=='\\' and i+1<len(v):
-                      c=v[i+1]; out.append({'n':'\n','r':'\r','t':'\t','b':'\b','f':'\f','v':'\v'}.get(c,c)); i+=2
-                  else: out.append(v[i]); i+=1
-              return ''.join(out)
-          processed=set()
-          for fn in glob.glob('data/curated/*.json'):
-              name=pathlib.Path(fn).name
-              if name.startswith('source_') or name=='all_reviewed_v8_index.json': continue
-              try:d=json.load(open(fn,encoding='utf-8'))
-              except:continue
-              for key in ('ideas_master','postmortems'):
-                  for x in d.get(key,[]):
-                      if x.get('idea_id'):processed.add(str(x['idea_id']))
-          companies={}; users={}; ideas=[]; desc={}; cats={}; current=None
-          with open('/tmp/VIC_IDEAS.sql','r',encoding='utf-8',errors='replace') as f:
+          import json,pathlib
+          old=json.load(open('data/curated/batch_034_comstock_crocodile_franklincovey_deep_v7.json',encoding='utf-8'))
+          schema={'top_keys':list(old.keys()),'arrays':{}}
+          for k,v in old.items():
+              if isinstance(v,list):
+                  schema['arrays'][k]={'count':len(v),'sample':v[0] if v else None}
+          ids={x['idea_id'] for x in json.load(open('data/curated/source_batch035_manifest.json',encoding='utf-8'))['ideas']}
+          def u(v):
+              if v==r'\N': return None
+              return v.replace(r'\t','\t').replace(r'\n','\n').replace(r'\\','\\')
+          perf={}; cur=None
+          with open('/tmp/VIC_IDEAS.sql',encoding='utf-8',errors='replace') as f:
               for line in f:
                   if line.startswith('COPY public.'):
-                      current=line.split('COPY public.',1)[1].split(' ',1)[0]; continue
-                  if current and line.rstrip('\n')==r'\.': current=None; continue
-                  if not current: continue
-                  vals=[unescape(x) for x in line.rstrip('\n').split('\t')]
-                  if current=='companies' and len(vals)>=2: companies[vals[0]]=vals[1]
-                  elif current=='users' and len(vals)>=2: users[vals[0]]=vals[1]
-                  elif current=='ideas' and len(vals)>=7:
-                      ideas.append({'idea_id':vals[0],'source_link':vals[1],'ticker':vals[2],'user_link':vals[3],'date':vals[4],'is_short':vals[5]=='t','contest_winner':vals[6]=='t'})
-                  elif current=='descriptions' and len(vals)>=2: desc[vals[0]]=vals[1] or ''
-                  elif current=='catalyst' and len(vals)>=2: cats[vals[0]]=vals[1] or ''
-          plus=[r for r in ideas if r['ticker']=='PLUS' and r['idea_id'] not in processed]
-          lvlt=[r for r in ideas if r['ticker']=='LVLT' and r['idea_id'] not in processed]
-          plus.sort(key=lambda x:(x['date'] or '',x['idea_id'])); lvlt.sort(key=lambda x:(x['date'] or '',x['idea_id']))
-          selected=plus[:8]+lvlt[:2]
-          outdir=pathlib.Path('data/source_batch035'); outdir.mkdir(parents=True,exist_ok=True)
-          manifest=[]
-          for i,r in enumerate(selected,1):
-              r=dict(r); r['company_name']=companies.get(r['ticker']); r['author']=users.get(r['user_link']); r['direction_ko']='숏' if r['is_short'] else '롱'
-              r['description_chars']=len(desc.get(r['idea_id'],'')); r['catalyst_chars']=len(cats.get(r['idea_id'],'')); manifest.append(r)
-              text=(f"# {i}. {r['ticker']} — {r['date']} — {r['direction_ko']} — {r['author']}\n\n"
-                    f"idea_id: {r['idea_id']}\nsource: {r['source_link']}\ncompany: {r['company_name']}\nraw_is_short: {r['is_short']}\ncontest_winner: {r['contest_winner']}\n\n"
-                    f"## Description\n\n{desc.get(r['idea_id'],'')}\n\n## Catalyst\n\n{cats.get(r['idea_id'],'')}\n")
-              (outdir/f"{i:02d}_{r['ticker']}_{r['idea_id']}.md").write_text(text,encoding='utf-8')
-          pathlib.Path('data/curated/source_batch035_manifest.json').write_text(json.dumps({'batch':'035','selection_rule':'all 8 unreviewed PLUS + earliest 2 unreviewed LVLT','ideas':manifest},ensure_ascii=False,indent=2),encoding='utf-8')
+                      cur=line.split('COPY public.',1)[1].split(' ',1)[0]; continue
+                  if cur and line.rstrip('\n')==r'\.': cur=None; continue
+                  if cur!='performance': continue
+                  v=[u(x) for x in line.rstrip('\n').split('\t')]
+                  if len(v)>=12 and v[0] in ids:
+                      names=['idea_id','nextDayOpen','nextDayClose','oneWeekClosePerf','twoWeekClosePerf','oneMonthPerf','threeMonthPerf','sixMonthPerf','oneYearPerf','twoYearPerf','threeYearPerf','fiveYearPerf']
+                      perf[v[0]]=dict(zip(names,v))
+          pathlib.Path('data/curated/source_batch035_schema_perf.json').write_text(json.dumps({'schema':schema,'performance':perf},ensure_ascii=False,indent=2),encoding='utf-8')
           PY
-      - name: Commit packet
-        shell: bash
+      - name: Commit
         run: |
           git config user.name 'VIC metadata bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add data/source_batch035 data/curated/source_batch035_manifest.json
-          git commit -m 'chore: extract Batch 035 VIC source packet' || exit 0
+          git add data/curated/source_batch035_schema_perf.json
+          git commit -m 'chore: inspect Batch 035 schema and performance' || exit 0
           git push
