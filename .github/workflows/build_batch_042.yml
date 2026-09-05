@@ -70,3 +70,5 @@ jobs:
           git diff --cached --check
           git commit -m 'Add Batch 042 radio and satellite audio postmortems'
           git push
+
+# automation retrigger: 2026-09-05
