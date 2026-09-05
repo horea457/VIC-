@@ -4,7 +4,7 @@
 대상: **TSQ 2022 1건 + ETM 4건 + EMMS 5건**  
 검증 구조: **10 ideas / 100 sections / 60 weighted claims / 40 metrics / 60 timeline / 60 sources**
 
-<!-- batch_parts: batch_041_local_radio_audio_part01.md|batch_041_local_radio_audio_part02.md -->
+<!-- batch_parts: batch_041_local_radio_audio_idea01.md|batch_041_local_radio_audio_idea02.md|batch_041_local_radio_audio_idea03.md|batch_041_local_radio_audio_idea04.md|batch_041_local_radio_audio_idea05.md|batch_041_local_radio_audio_idea06.md|batch_041_local_radio_audio_idea07.md|batch_041_local_radio_audio_idea08.md|batch_041_local_radio_audio_idea09.md|batch_041_local_radio_audio_idea10.md -->
 
 ## 배치 결론
 
