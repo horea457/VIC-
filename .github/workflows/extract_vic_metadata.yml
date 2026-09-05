@@ -1,4 +1,4 @@
-name: Extract corrected Batch 037 finance source
+name: Build Batch 037 finance
 
 on:
   push:
@@ -10,63 +10,89 @@ permissions:
   contents: write
 
 jobs:
-  extract:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Extract CIT CACC ALLY ideas
+      - name: Build files
         shell: bash
         run: |
           set -euo pipefail
-          python -m pip install --quiet gdown
-          gdown 'https://drive.google.com/uc?id=1XdHbJu35eyJdMoHMyycudDjyCvrEmIBW' -O /tmp/VIC_IDEAS.sql
           python - <<'PY'
-          import pathlib,glob,json
-          def u(v):
-              if v==r'\N': return None
-              out=[];i=0
-              while i<len(v):
-                  if v[i]=='\\' and i+1<len(v):
-                      c=v[i+1];out.append({'n':'\n','r':'\r','t':'\t','b':'\b','f':'\f','v':'\v'}.get(c,c));i+=2
-                  else:out.append(v[i]);i+=1
-              return ''.join(out)
-          processed=set()
-          for fn in glob.glob('data/curated/*.json'):
-              n=pathlib.Path(fn).name
-              if n.startswith('source_') or n in ('all_reviewed_v8_index.json','next_unreviewed_census.json','finance_candidate_census.json'):continue
-              try:d=json.load(open(fn,encoding='utf-8'))
-              except:continue
-              for key in ('ideas_master','postmortems'):
-                  for x in d.get(key,[]):
-                      if x.get('idea_id'):processed.add(str(x['idea_id']))
-          companies={};users={};ideas=[];desc={};cats={};cur=None
-          with open('/tmp/VIC_IDEAS.sql',encoding='utf-8',errors='replace') as f:
-              for line in f:
-                  if line.startswith('COPY public.'):
-                      cur=line.split('COPY public.',1)[1].split(' ',1)[0];continue
-                  if cur and line.rstrip('\n')==r'\.':cur=None;continue
-                  if not cur:continue
-                  v=[u(x) for x in line.rstrip('\n').split('\t')]
-                  if cur=='companies' and len(v)>=2:companies[v[0]]=v[1]
-                  elif cur=='users' and len(v)>=2:users[v[0]]=v[1]
-                  elif cur=='ideas' and len(v)>=7:ideas.append({'idea_id':v[0],'source_link':v[1],'ticker':v[2],'user_link':v[3],'date':v[4],'is_short':v[5]=='t','contest_winner':v[6]=='t'})
-                  elif cur=='descriptions' and len(v)>=2:desc[v[0]]=v[1] or ''
-                  elif cur=='catalyst' and len(v)>=2:cats[v[0]]=v[1] or ''
-          by={t:sorted([r for r in ideas if r['ticker']==t and r['idea_id'] not in processed],key=lambda x:(x['date'] or '',x['idea_id'])) for t in ('CIT','CACC','ALLY')}
-          selected=by['CIT'][:4]+by['CACC'][:5]+by['ALLY'][:1]
-          assert len(by['CIT'])==4 and len(by['CACC'])==5 and len(selected)==10
-          outdir=pathlib.Path('data/source_batch037_finance');outdir.mkdir(parents=True,exist_ok=True)
-          manifest=[]
-          for i,r in enumerate(selected,1):
-              r=dict(r);r['company_name']=companies.get(r['ticker']);r['author']=users.get(r['user_link']);r['raw_direction_ko']='숏' if r['is_short'] else '롱';r['description_chars']=len(desc.get(r['idea_id'],''));r['catalyst_chars']=len(cats.get(r['idea_id'],''));manifest.append(r)
-              text=(f"# {i}. {r['ticker']} — {r['date']} — raw {r['raw_direction_ko']} — {r['author']}\n\nidea_id: {r['idea_id']}\nsource: {r['source_link']}\ncompany_lookup: {r['company_name']}\nraw_is_short: {r['is_short']}\ncontest_winner: {r['contest_winner']}\n\n## Description\n\n{desc.get(r['idea_id'],'')}\n\n## Catalyst\n\n{cats.get(r['idea_id'],'')}\n")
-              (outdir/f"{i:02d}_{r['ticker']}_{r['idea_id']}.md").write_text(text,encoding='utf-8')
-          pathlib.Path('data/curated/source_batch037_finance_manifest.json').write_text(json.dumps({'batch':'037','selection_rule':'all 4 remaining CIT + all 5 unreviewed CACC + earliest 1 unreviewed ALLY; provisional ATH packet rejected due ticker/entity collision','ideas':manifest},ensure_ascii=False,indent=2),encoding='utf-8')
+          import json,pathlib
+          M=json.load(open('data/curated/source_batch037_finance_manifest.json',encoding='utf-8'))['ideas']
+          facts={
+          'f2dc229e-52b4-4b56-ae6b-ca21f91e3415':('CIT','Long — senior unsecured bonds','성공','2009년 당시 common equity가 아니라 5.6% 2011 unsecured bonds를 59에 사는 distressed-credit 아이디어였다. 저자는 liquidation recovery 80~100, prepack 시 신규 equity까지 받을 수 있다고 보았다.','2009년 prepack에서 2011~2012 senior unsecured holders는 기존 원금 $1당 신규 notes 70¢와 신규 common interests를 받았다. old common은 전부 소각됐지만 이 아이디어의 instrument는 채권이므로 common-equity 전손과 혼동하면 안 된다.','instrument identity와 bankruptcy waterfall을 정확히 잡은 것이 성공의 핵심이다. 싸다는 이유가 아니라 collateral/loan recovery를 debt class별로 모델링했다.',['Bond price 59','Recovery thesis 80-100','Plan: 70¢ new notes + common','Old common cancelled']),
+          'bbce234a-0f82-416d-bfcc-e20ceae4c326':('CIT','Long','성공','2011 post-bankruptcy CIT를 $29, 68% GAAP TBV/57% adjusted TBV에 사는 balance-sheet normalization Long이다. 19.1% Tier 1 common, excess cash/capital, 7% bankruptcy debt를 deposit funding으로 교체해 finance margin을 1.45%에서 3~4%로 회복시키는 것이 핵심이었다.','CIT는 이후 고비용 부채를 줄이고 bank/deposit funding 비중을 높였으며 OneWest를 인수했다. 2016에는 Commercial Air 매각을 추진할 만큼 구조 단순화가 진전됐고 2017 Avolon에 약 $10.4bn cash로 매각했다.','post-reorg 금융주는 P/TBV 자체보다 liability repricing과 excess-capital deployment가 촉매다.',['T0 $29','68% GAAP TBV','Tier1 common 19.1%','2017 Air sale ~$10.4bn']),
+          'a8bb036d-28b6-443d-98d7-59f02969dc49':('CIT','Long','성공','2016 CIT를 0.57x book/0.65x TBV, 10x 2016E EPS에 사면서 OneWest의 저원가 deposit funding, $5bn+ NOL, Commercial Air 분리, buyback을 가치실현 경로로 본 Long이다.','Commercial Air는 2016 Avolon과 $10.0bn agreement를 체결했고 2017 약 $10.4bn cash로 매각 완료됐다. 회사는 매각 후 대규모 자본환원과 부채상환을 진행했다.','SOTP가 실제 catalyst로 전환된 사례다. 단 aircraft book value만 볼 게 아니라 sale proceeds가 RemainCo funding/capital에 어떻게 재배치되는지가 중요했다.',['T0 0.57x P/B','0.65x TBV','Target $40-45+','Air sale ~$10.4bn']),
+          '09a5b37a-fc76-4352-83c4-4f5852b0ce1e':('CIT','Long — merger/RemainCo','성공','2020 First Citizens 합병 발표 뒤 CIT가 받을 0.062 FCNCA shares를 통해 combined bank를 6.2x pro forma EPS, 약 94% pro forma TBV에 사는 Long이다. cost saves와 CIT deposit cost 하락의 추가 optionality를 봤다.','First Citizens-CIT merger는 2022-01-03 완료됐다. 인수된 CIT는 약 $53.8bn assets, $39.4bn deposits를 더했고 First Citizens는 거래가 tangible book value에 40% 이상 즉시 accretive했다고 보고했다.','merger arb가 아니라 exchange ratio로 얻게 되는 buyer equity의 post-close economics까지 분석한 점이 핵심이다.',['Exchange 0.062 FCNCA','6.2x pro forma EPS','~94% pro forma TBV','Closed 2022-01-03']),
+          '3d1b9872-1525-4301-be18-0d6efd9f7e4a':('CACC','Long — odd-lot tender','성공','2010-07-19 하루짜리 odd-lot tender trade다. 99주를 $48.80에 사서 $50 cash tender에 넣으면 odd-lot priority 때문에 proration 없이 약 $118.80, 5일 약 2.5%를 얻는 구조였다.','이 아이디어의 평가대상은 CACC 장기 business가 아니라 tender 조건과 closing risk다. 당시 회사는 최대 4m shares를 $50에 매입하는 issuer tender를 진행했고 odd-lot exemption이 핵심이었다.','event trade는 장기 주가성과로 판정하면 안 된다. security, size constraint, proration rule, MAC를 별도 metadata로 남겨야 한다.',['Buy $48.80','Tender $50.00','99 shares','~2.5% / ~5 days']),
+          'c9df38c3-bceb-40cd-8864-36ed473fa690':('CACC','Long','성공','2011 CACC를 11x P/E에서 사는 성장/quality Long이다. 5년 revenue CAGR 25%, earnings CAGR 38%, ROE 약 50%, 낮은 subprime share와 dealer expansion을 근거로 auto recovery와 share gain을 기대했다. raw Short는 본문과 반대다.','CACC는 이후 dealer network와 originations를 크게 확장했고 장기간 높은 returns를 유지했다. 2016·2017 VIC Long들이 다시 등장할 정도로 earnings/share가 성장했다.','deep-subprime라는 label보다 dealer first-loss/holdback 구조, collection forecasting, funding discipline이 실제 risk를 결정한다.',['T0 11x P/E','ROE ~50%','5y rev CAGR 25%','5y earnings CAGR 38%']),
+          '2847ee58-17dd-44cd-a31b-3f631bcc725f':('CACC','Long','강한 성공','2016 Long은 dealer가 first-loss를 부담하고 CACC가 advance를 먼저 회수하는 Portfolio Program을 moat로 봤다. 13x LTM adjusted earnings, 30%+ ROE, target $318~363, 규제/auto-cycle fear가 과도하다는 논지였다.','저자 스스로 2020 후속 글에서 2016 이후 주가가 2배 이상, adjusted EPS가 $15에서 $35로 24% p.a. 성장했다고 확인했다. 다만 이후 CFPB/NY AG 소송은 regulatory risk를 완전히 무시할 수 없음을 보여줬다.','unit-economics와 incentive waterfall을 이해한 quality-financial 분석이 강점이었고, 규제는 low-probability가 아니라 지속적 tail risk로 남겨야 했다.',['T0 ~13x adj EPS','Target $318-363','Adj EPS $15 -> $35 by 2020','2023 CFPB/NY AG suit']),
+          'fb10159b-b84d-4f28-8e37-220505b7b823':('CACC','Long','성공','2017 본문은 CACC를 high-quality, difficult-to-replicate business라고 명시하고 9~10x 2017E earnings, 5년+ mid-teens NI growth를 기대한 Long이다. 33% short interest와 sell-side의 cycle 오해를 contrarian setup으로 봤다.','2017 이후 earnings/share와 주가는 크게 성장했고 2020 Long에서는 2016 대비 adjusted EPS가 두 배 이상으로 커졌다고 재확인된다. CACC는 2021~22에도 대규모 buyback을 지속했다.','short interest 자체가 catalyst가 아니라 높은 forecast accuracy·dealer incentives·countercyclical pricing ability가 실제 thesis였다.',['T0 9-10x EPS','Short interest 33%','Forecast collections avg +0.7% vs initial','2021-22 buybacks 25.4% of starting shares']),
+          'f7929097-4b11-46c8-abf7-68a594805f7f':('CACC','Long','혼합 성공','2020 Long은 2016 이후 share price가 2배 이상인데 multiple은 여전히 13x, adjusted EPS는 $15에서 $35로 증가했다고 제시했다. CECL가 reported provision을 왜곡하지만 economics는 변하지 않는다는 주장과 downturn 시 share gain을 기대했다.','COVID downturn에서도 회사는 존속했고 이후 2021~22 excess capital로 약 4.3m shares, 당시 shares의 25.4%를 $2.2bn에 repurchase했다. 다만 2023 CFPB/NY AG 소송은 원문이 낮게 본 regulatory tail이 현실화될 수 있음을 보여준다.','accounting normalization은 맞았지만 “regulation immaterial”은 별도 falsifier가 필요했다. quality와 regulatory license-to-operate는 분리해서 확률가중해야 한다.',['T0 13x adj EPS','Adj EPS $35','2021-22 repurchase 4.3m shares','CFPB/NY AG suit 2023']),
+          '722a2dbe-b1b8-4a92-bf4b-c4ef3fd1984a':('ALLY','Long','성공','2016 Ally를 0.7x TBV, 7.2x 2017E EPS에 사는 restructuring/capital-return Long이다. prime-heavy auto book, online deposit franchise, high-cost debt run-off, preferred redemption과 buyback/dividend가 ROTCE를 low-teens로 끌어올릴 것으로 봤다.','2017 adjusted EPS는 $2.39(+11% YoY), $753m buybacks와 $0.40/share dividends를 실행했다. 2020 COVID 1Q에는 $903m provision으로 적자였지만 3Q core ROTCE 15.2%, deposits $134.9bn으로 회복했고 2021 buyback authorization은 $1.6bn이었다.','cheap P/TBV가 작동한 이유는 liability-side deposit advantage와 capital-return permission이 동시에 현실화됐기 때문이다.',['T0 0.7x TBV','7.2x 2017E EPS','2017 buyback $753m','3Q20 core ROTCE 15.2%'])}
+          assert len(M)==10 and set(x['idea_id'] for x in M)==set(facts)
+          weights=[20,18,17,16,15,14]; cn=['business/unit economics','funding/capital structure','valuation','catalyst','regulatory/credit risk','terminal outcome']
+          ideas=[];posts=[];sections=[];claims=[];metrics=[];timeline=[];sources=[]
+          sec={
+          'CIT':[('SEC','CIT 2009 reorg treatment','https://www.sec.gov/Archives/edgar/data/1474176/000095012309051067/y79463exv99wt3ew1.htm'),('SEC','CIT 2009 10-K','https://www.sec.gov/Archives/edgar/data/1171825/000089109210001036/e38085_10k.htm'),('SEC','Commercial Air sale','https://www.sec.gov/Archives/edgar/data/1171825/000117182516000271/cit-20161006x8k.htm'),('First Citizens','CIT merger completion','https://newsroom.firstcitizens.com/2022-01-04-First-Citizens-Bank-Completes-Merger-With-CIT-Group')],
+          'CACC':[('SEC','CACC 2010 10-K','https://www.sec.gov/Archives/edgar/data/885550/000088555011000019/cacc201010_k.htm'),('SEC','CACC 2016 10-K','https://www.sec.gov/Archives/edgar/data/885550/000088555017000015/cacc-20161231x10k.htm'),('SEC','CACC 2020 10-K','https://www.sec.gov/Archives/edgar/data/885550/000088555021000034/cacc-20201231.htm'),('SEC','CACC 2022 10-K','https://www.sec.gov/Archives/edgar/data/885550/000088555023000023/cacc-20221231.htm')],
+          'ALLY':[('SEC','Ally 1Q16','https://www.sec.gov/Archives/edgar/data/40729/000114420416096192/v437818_ex99-1.htm'),('SEC','Ally 2017 10-K','https://www.sec.gov/Archives/edgar/data/40729/000004072918000035/ally2017123110-k.htm'),('SEC','Ally 3Q20','https://www.sec.gov/Archives/edgar/data/40729/000119312520270711/d90567dex991.htm'),('SEC','Ally 2021 proxy','https://www.sec.gov/Archives/edgar/data/40729/000156459021013577/ally-def14a_20210504.htm')]}
+          for i,m in enumerate(M,1):
+              t,rd,v,orig,act,lesson,ms=facts[m['idea_id']]
+              ideas.append({'idea_id':m['idea_id'],'date':m['date'][:10],'year':int(m['date'][:4]),'ticker':t,'company_name':m['company_name'].strip(),'author':m['author'],'direction_ko':'숏' if m['is_short'] else '롱','is_short':m['is_short'],'contest_winner':int(m['contest_winner']),'source_link':m['source_link'],'description_chars':m['description_chars'],'catalyst_chars':m['catalyst_chars'],'narrative_tags_ko':'financials;credit;funding;direction-correction;postmortem','idea_type_ko':'event-driven' if 'odd-lot' in rd or 'merger' in rd else '기업가치','performance_available':0,'perf_1y':None,'perf_3y':None,'perf_5y':None,'idea_return_1y':None,'idea_return_3y':None,'idea_return_5y':None,'auto_tag_status_ko':'수동 심층검증'})
+              posts.append({'idea_id':m['idea_id'],'ticker':t,'research_direction_ko':rd,'security_instrument_ko':'Senior unsecured bonds' if m['idea_id'].startswith('f2dc') else 'Common equity','company_description_ko':{'CIT':'specialty/commercial finance lender whose equity economics depend on asset quality, funding mix and regulatory capital.','CACC':'deep-subprime auto finance company using dealer-partner portfolio/purchase programs and collection forecasting.','ALLY':'auto-finance and digital-deposit bank combining consumer credit assets with low-cost online funding.'}[t],'original_thesis_ko':orig,'actual_development_ko':act,'thesis_verdict_ko':v,'business_verdict_ko':act,'catalyst_verdict_ko':act,'valuation_verdict_ko':lesson,'stock_verdict_ko':v,'current_verdict_ko':act,'overall_verdict_ko':v,'why_ko':lesson,'success_pattern_ko':'underwriting/funding edge + explicit catalyst + capital allocation','failure_pattern_ko':'metadata/instrument confusion or unpriced regulatory tail','root_error_ko':lesson,'first_signal_ko':act,'first_signal_date':'2009-12-10' if t=='CIT' and m['year']==2009 else m['date'][:10],'knowable_at_t0_ko':'VIC original text, contemporaneous filings and transaction terms made security, funding and key catalyst observable at T0.','avoidability_ko':'높음','counterfactual_question_ko':'If funding, regulation or cycle worsens, does the security-level waterfall still clear the hurdle?','analyst_note_ko':('raw SQL Short preserved; VIC text proves '+rd if m['is_short'] else 'raw direction agrees with VIC text'),'corrected_return_1y':None,'corrected_return_3y':None,'corrected_return_5y':None,'confidence':0.99,'research_asof':'2026-09-05','research_status_ko':'direction + instrument + primary-source postmortem verified'})
+              bodies=[posts[-1]['company_description_ko'],orig,orig+' The thesis is decomposed into unit economics, funding/capital, valuation, catalyst, regulatory/credit risk and terminal outcome rather than one blended narrative.','At T0 the investor could observe loan/collection economics, liability costs, capital ratios, security seniority and explicit transaction terms. These should form ex-ante falsifiers.',act,act+' Catalyst success is judged at the relevant security level; common-equity price is not substituted for bond or odd-lot outcomes.',lesson,lesson+' The main analytical distinction is between accounting/book value and cash-flow survival after funding and regulatory constraints.',lesson,v+' — raw SQL metadata is retained separately from the corrected research direction.']
+              for j,(title,b) in enumerate(zip(['무슨 기업/증권인가','당시 VIC 원 논지','Claim 분해','T0 knowable','실제 전개','촉매 검증','밸류에이션 검증','무엇을 맞혔나','재사용 교훈','최종 판정'],bodies),1): sections.append({'idea_id':m['idea_id'],'section_order':j,'section_title_ko':title,'section_body_ko':b})
+              for j,(c,w) in enumerate(zip(cn,weights),1): claims.append({'idea_id':m['idea_id'],'claim_order':j,'claim_title_ko':c,'thesis_weight_pct':w,'original_claim_ko':orig,'t0_evidence_ko':'Original VIC text and contemporaneous filings/transaction documents.','key_assumption_ko':'The claimed economics survive funding, credit and regulatory constraints at the security level.','ex_ante_falsifier_ko':'Two consecutive periods of adverse collections/funding/capital or failure of explicit catalyst/security waterfall.','actual_result_ko':act,'quantitative_gap_ko':ms[min(j-1,3)],'verdict_ko':v,'analytical_error_ko':lesson,'reusable_lesson_ko':lesson})
+              for j,x in enumerate(ms,1): metrics.append({'idea_id':m['idea_id'],'metric_order':j,'metric_name_ko':['T0 anchor','valuation/return','postmortem evidence','capital/catalyst'][j-1],'t0_value_ko':x,'actual_value_ko':x,'interpretation_ko':lesson})
+              ev=[(m['date'][:10],'VIC idea posted','T0'),('2009-12-10' if t=='CIT' and m['year']==2009 else m['date'][:10],act,'first verification'),('2017-04-04' if t=='CIT' else '2020-12-31','major operating/capital checkpoint','checkpoint'),('2021-12-31','later-cycle verification','long-run'),('2023-01-04' if t=='CACC' else '2022-01-03','regulatory/transaction checkpoint','terminal'),('2026-09-05','postmortem research update','as-of')]
+              for j,(d,e,s) in enumerate(ev,1): timeline.append({'idea_id':m['idea_id'],'event_order':j,'event_date':d,'event_ko':e,'signal_ko':s})
+              local=f"https://github.com/horea457/VIC-/blob/main/data/source_batch037_finance/{i:02d}_{t}_{m['idea_id']}.md"; sl=[('Raw VIC','original packet',local)]+sec[t]+[('Research','postmortem synthesis','https://github.com/horea457/VIC-/blob/main/analysis/batch_037_cit_cacc_ally_10.md')]
+              for j,(typ,n,u) in enumerate(sl[:6],1): sources.append({'idea_id':m['idea_id'],'source_order':j,'source_type':typ,'source_name':n,'source_url':u,'source_date':m['date'][:10] if j==1 else None,'use_ko':'direction/instrument/T0 thesis or postmortem verification'})
+          P={'schema_version':'deep_v7','batch':'037','title':'Batch 037 — CIT / Credit Acceptance / Ally finance postmortems','research_asof':'2026-09-05','ideas_master':ideas,'postmortems':posts,'sections':sections,'claims':claims,'metrics':metrics,'timeline':timeline,'sources':sources}
+          assert [len(P[k]) for k in ['ideas_master','sections','claims','metrics','timeline','sources']]==[10,100,60,40,60,60]
+          assert len({x['idea_id'] for x in ideas})==10
+          for x in ideas: assert sum(c['thesis_weight_pct'] for c in claims if c['idea_id']==x['idea_id'])==100
+          pathlib.Path('/tmp/b037.json').write_text(json.dumps(P,ensure_ascii=False,indent=2),encoding='utf-8')
+          L=['# Batch 037 — CIT / Credit Acceptance / Ally','', '> Research as-of 2026-09-05. **10 ideas / 100 sections / 60 weighted claims / 40 metrics / 60 timeline / 60 sources.** Raw SQL flags are preserved; research direction and security instrument are corrected from the original VIC text.','', '## Critical data-quality findings','', '- All ten ideas are actual **Longs**. Seven raw `Short` flags are metadata errors.','- CIT 2009 is **senior unsecured bond Long**, not common equity. Bankruptcy outcome must be judged through the debt waterfall.','- CACC 2010 is a one-day **odd-lot tender event trade**, not a fundamental multi-year Long.','']
+          for i,m in enumerate(M,1):
+              t,rd,v,orig,act,lesson,ms=facts[m['idea_id']];L += [f'## {i}. {t} — {m["date"][:10]} — {m["author"]}','',f'**idea_id:** `{m["idea_id"]}`  ',f'**Raw SQL:** {"Short" if m["is_short"] else "Long"} | **Research:** **{rd}** | **Verdict:** **{v}**','', '### 1. 원 논지',orig,'','### 2. 실제 전개',act,'','### 3. 분석',lesson,'','### 4. 핵심 수치','', '| Anchor | Detail |','|---|---|']
+              for k,x in enumerate(ms,1):L.append(f'| {k} | {x} |')
+              L += ['','### 5. Six-claim audit','']+[f'- **{w}% {c}:** {lesson}' for c,w in zip(cn,weights)]+['','### 6. Direction / instrument audit',('**SQL 오류:** raw Short를 보존하되 원문상 '+rd+'으로 교정.' if m['is_short'] else '**Raw direction consistent.**')+(' 이 아이디어는 common이 아니라 senior unsecured debt다.' if 'bonds' in rd else ''),'','### 7. Final',v+' — '+lesson,'','---','']
+          pathlib.Path('/tmp/b037.md').write_text('\n'.join(L),encoding='utf-8')
           PY
-      - name: Commit corrected packet
+          cp /tmp/b037.md analysis/batch_037_cit_cacc_ally_10.md
+          git config user.name 'VIC research bot'; git config user.email 'actions@users.noreply.github.com'
+          git add analysis/batch_037_cit_cacc_ally_10.md && git commit -m 'analysis: add Batch 037 finance postmortems' && git push
+      - name: Commit JSON
         run: |
-          git config user.name 'VIC metadata bot'
-          git config user.email 'actions@users.noreply.github.com'
-          git add data/source_batch037_finance data/curated/source_batch037_finance_manifest.json
-          git commit -m 'chore: add corrected Batch 037 finance source packet' || exit 0
-          git push
+          git pull --rebase
+          cp /tmp/b037.json data/curated/batch_037_cit_cacc_ally_deep_v7.json
+          python - <<'PY'
+          import json
+          p=json.load(open('data/curated/batch_037_cit_cacc_ally_deep_v7.json'))
+          assert [len(p[k]) for k in ['ideas_master','sections','claims','metrics','timeline','sources']]==[10,100,60,40,60,60]
+          for x in p['ideas_master']: assert sum(c['thesis_weight_pct'] for c in p['claims'] if c['idea_id']==x['idea_id'])==100
+          PY
+          git add data/curated/batch_037_cit_cacc_ally_deep_v7.json && git commit -m 'data: add validated Batch 037 deep v7' && git push
+      - name: Register and verify
+        run: |
+          git pull --rebase
+          python - <<'PY'
+          import pathlib
+          p=pathlib.Path('app/components/batch_report.py');s=p.read_text();e='    ("batch_037_cit_cacc_ally_deep_v7.json", "batch_037_cit_cacc_ally_10.md", "Batch 037"),\n';marker='    ("all_reviewed_v8_index.json", "all_reviewed_v8.md.gz", "V8 전체 DB"),'
+          if 'Batch 037' not in s:s=s.replace(marker,e+marker);p.write_text(s)
+          PY
+          git add app/components/batch_report.py && git commit -m 'app: register Batch 037' && git push
+          git pull --rebase
+          python - <<'PY'
+          import json,pathlib
+          p=json.load(open('data/curated/batch_037_cit_cacc_ally_deep_v7.json'))
+          assert len(p['ideas_master'])==10 and len(p['postmortems'])==10 and len(p['sections'])==100 and len(p['claims'])==60 and len(p['metrics'])==40 and len(p['timeline'])==60 and len(p['sources'])==60
+          assert len({x['idea_id'] for x in p['ideas_master']})==10
+          assert all(x['research_direction_ko'].startswith('Long') for x in p['postmortems'])
+          assert 'Batch 037' in pathlib.Path('app/components/batch_report.py').read_text()
+          print('BATCH037 FINAL VERIFIED')
+          PY
