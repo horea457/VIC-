@@ -1,4 +1,4 @@
-name: Extract Batch 037 source
+name: Scan finance candidates
 
 on:
   push:
@@ -10,64 +10,52 @@ permissions:
   contents: write
 
 jobs:
-  extract:
+  scan:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Extract remaining CIT and Athene ideas
+      - name: Scan finance tickers
         shell: bash
         run: |
           set -euo pipefail
           python -m pip install --quiet gdown
           gdown 'https://drive.google.com/uc?id=1XdHbJu35eyJdMoHMyycudDjyCvrEmIBW' -O /tmp/VIC_IDEAS.sql
           python - <<'PY'
-          import pathlib,glob,json
+          import pathlib,glob,json,collections
           def u(v):
               if v==r'\N': return None
-              out=[];i=0
-              while i<len(v):
-                  if v[i]=='\\' and i+1<len(v):
-                      c=v[i+1];out.append({'n':'\n','r':'\r','t':'\t','b':'\b','f':'\f','v':'\v'}.get(c,c));i+=2
-                  else:out.append(v[i]);i+=1
-              return ''.join(out)
+              return v.replace(r'\t','\t').replace(r'\n','\n').replace(r'\\','\\')
           processed=set()
           for fn in glob.glob('data/curated/*.json'):
               n=pathlib.Path(fn).name
-              if n.startswith('source_') or n in ('all_reviewed_v8_index.json','next_unreviewed_census.json'):continue
+              if n.startswith('source_') or n in ('all_reviewed_v8_index.json','next_unreviewed_census.json','finance_candidate_census.json'):continue
               try:d=json.load(open(fn,encoding='utf-8'))
               except:continue
               for key in ('ideas_master','postmortems'):
                   for x in d.get(key,[]):
                       if x.get('idea_id'):processed.add(str(x['idea_id']))
-          companies={};users={};ideas=[];desc={};cats={};cur=None
+          wanted=set('CIT CACC SC OMF ALLY COF DFS SYF AXP NAVI SLM ENVA PRAA ECPG FCFS EZPW TREE LC UPST SOFI AFRM GDOT PYPL COF Discover DFS SYF'.split())
+          rows=collections.defaultdict(list);cur=None
           with open('/tmp/VIC_IDEAS.sql',encoding='utf-8',errors='replace') as f:
               for line in f:
                   if line.startswith('COPY public.'):
                       cur=line.split('COPY public.',1)[1].split(' ',1)[0];continue
                   if cur and line.rstrip('\n')==r'\.':cur=None;continue
-                  if not cur:continue
+                  if cur!='ideas':continue
                   v=[u(x) for x in line.rstrip('\n').split('\t')]
-                  if cur=='companies' and len(v)>=2:companies[v[0]]=v[1]
-                  elif cur=='users' and len(v)>=2:users[v[0]]=v[1]
-                  elif cur=='ideas' and len(v)>=7:ideas.append({'idea_id':v[0],'source_link':v[1],'ticker':v[2],'user_link':v[3],'date':v[4],'is_short':v[5]=='t','contest_winner':v[6]=='t'})
-                  elif cur=='descriptions' and len(v)>=2:desc[v[0]]=v[1] or ''
-                  elif cur=='catalyst' and len(v)>=2:cats[v[0]]=v[1] or ''
-          cit=sorted([r for r in ideas if r['ticker']=='CIT' and r['idea_id'] not in processed],key=lambda x:(x['date'] or '',x['idea_id']))
-          ath=sorted([r for r in ideas if r['ticker']=='ATH' and r['idea_id'] not in processed],key=lambda x:(x['date'] or '',x['idea_id']))
-          selected=cit[:4]+ath[:6]
-          assert len(cit)==4 and len(selected)==10 and len({x['idea_id'] for x in selected})==10
-          outdir=pathlib.Path('data/source_batch037');outdir.mkdir(parents=True,exist_ok=True)
-          manifest=[]
-          for i,r in enumerate(selected,1):
-              r=dict(r);r['company_name']=companies.get(r['ticker']);r['author']=users.get(r['user_link']);r['raw_direction_ko']='숏' if r['is_short'] else '롱';r['description_chars']=len(desc.get(r['idea_id'],''));r['catalyst_chars']=len(cats.get(r['idea_id'],''));manifest.append(r)
-              text=(f"# {i}. {r['ticker']} — {r['date']} — raw {r['raw_direction_ko']} — {r['author']}\n\nidea_id: {r['idea_id']}\nsource: {r['source_link']}\ncompany_lookup: {r['company_name']}\nraw_is_short: {r['is_short']}\ncontest_winner: {r['contest_winner']}\n\n## Description\n\n{desc.get(r['idea_id'],'')}\n\n## Catalyst\n\n{cats.get(r['idea_id'],'')}\n")
-              (outdir/f"{i:02d}_{r['ticker']}_{r['idea_id']}.md").write_text(text,encoding='utf-8')
-          pathlib.Path('data/curated/source_batch037_manifest.json').write_text(json.dumps({'batch':'037','selection_rule':'all 4 remaining unreviewed CIT + earliest 6 unreviewed ATH after dedicated-batch de-duplication','ideas':manifest},ensure_ascii=False,indent=2),encoding='utf-8')
+                  if len(v)>=7 and v[0] not in processed and v[2] in wanted:
+                      rows[v[2]].append({'idea_id':v[0],'date':v[4],'is_short':v[5]=='t','source_link':v[1]})
+          out=[]
+          for t,rs in rows.items():
+              rs.sort(key=lambda x:(x['date'] or '',x['idea_id']))
+              out.append({'ticker':t,'count':len(rs),'shorts':sum(x['is_short'] for x in rs),'longs':sum(not x['is_short'] for x in rs),'ideas':rs})
+          out.sort(key=lambda x:(-x['count'],x['ticker']))
+          pathlib.Path('data/curated/finance_candidate_census.json').write_text(json.dumps({'processed_count':len(processed),'candidates':out},ensure_ascii=False,indent=2),encoding='utf-8')
           PY
-      - name: Commit packet
+      - name: Commit scan
         run: |
           git config user.name 'VIC metadata bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add data/source_batch037 data/curated/source_batch037_manifest.json
-          git commit -m 'chore: extract Batch 037 VIC source packet' || exit 0
+          git add data/curated/finance_candidate_census.json
+          git commit -m 'chore: scan finance candidates' || exit 0
           git push
