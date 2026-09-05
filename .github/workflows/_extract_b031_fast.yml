@@ -1,0 +1,26 @@
+name: Extract Batch 031 source fast
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/_extract_b031_fast.yml'
+permissions:
+  contents: write
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/_extract_b031_fast.py
+      - run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .vic_tmp/b031_source.json
+          git rm scripts/_extract_b031_fast.py .github/workflows/_extract_b031_fast.yml
+          git commit -m 'Extract Batch 031 source rows fast'
+          git push origin main
