@@ -1,4 +1,4 @@
-name: Build Batch 031 sequentially
+name: Finish Batch 031 sequentially v2
 on:
   push:
     branches: [main]
@@ -16,31 +16,20 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Build and validate Batch 031
+      - name: Rebuild and validate Batch 031
         run: python scripts/_build_batch_031.py
-      - name: Commit human-readable analysis
+      - name: Commit curated deep-v7 data
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add analysis/batch_031_rentacenter_worldacceptance_10.md
-          git commit -m 'Add Batch 031 RCII WRLD analysis'
-          git push origin main
-      - name: Rebase after analysis commit
-        run: git pull --rebase origin main
-      - name: Commit curated deep-v7 data
-        run: |
           git add data/curated/batch_031_rentacenter_worldacceptance_deep_v7.json
           git commit -m 'Add Batch 031 RCII WRLD curated data'
           git push origin main
-      - name: Rebase after curated commit
-        run: git pull --rebase origin main
       - name: Register Batch 031
         run: |
           git add app/components/batch_report.py
           git commit -m 'Register Batch 031 report'
           git push origin main
-      - name: Rebase before cleanup
-        run: git pull --rebase origin main
       - name: Cleanup one-time Batch 031 builders
         run: |
           git rm scripts/_build_batch_031.py .github/workflows/_build_batch_031.yml
