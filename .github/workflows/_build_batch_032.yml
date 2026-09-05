@@ -1,0 +1,44 @@
+name: Build Batch 032 sequentially
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/_build_batch_032.yml']
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build and validate
+        run: python scripts/_build_batch_032.py
+      - name: Commit analysis
+        run: |
+          git config user.name github-actions-bot
+          git config user.email github-actions-bot@users.noreply.github.com
+          git add analysis/batch_032_bjri_petmed_10.md
+          git commit -m 'Add Batch 032 BJRI PETS analysis'
+          git push origin main
+      - name: Commit curated data
+        run: |
+          git add data/curated/batch_032_bjri_petmed_deep_v7.json
+          git commit -m 'Add Batch 032 BJRI PETS curated data'
+          git push origin main
+      - name: Register report
+        run: |
+          git add app/components/batch_report.py
+          git commit -m 'Register Batch 032 report'
+          git push origin main
+      - name: Cleanup staging
+        run: |
+          git rm scripts/_build_batch_032.py .github/workflows/_build_batch_032.yml
+          test ! -f scripts/_extract_b032.py || git rm scripts/_extract_b032.py
+          test ! -f .github/workflows/_extract_b032.yml || git rm .github/workflows/_extract_b032.yml
+          test ! -f .vic_tmp/b032_source.json || git rm .vic_tmp/b032_source.json
+          git commit -m 'Clean Batch 032 staging helpers'
+          git push origin main
