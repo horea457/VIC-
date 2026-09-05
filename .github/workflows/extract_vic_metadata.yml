@@ -16,29 +16,70 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
-      - name: Download public full VIC SQL and inspect COPY schema
+      - name: Derive true unreviewed universe from full VIC SQL
         shell: bash
         run: |
           set -euo pipefail
           python -m pip install --quiet gdown
           gdown 'https://drive.google.com/uc?id=1XdHbJu35eyJdMoHMyycudDjyCvrEmIBW' -O /tmp/VIC_IDEAS.sql
           python - <<'PY'
-          import pathlib, re, json, os
-          p=pathlib.Path('/tmp/VIC_IDEAS.sql')
-          headers=[]
-          sample=[]
-          with p.open('r',encoding='utf-8',errors='replace') as f:
-              for i,line in enumerate(f):
-                  if line.startswith('COPY '): headers.append(line.rstrip())
-                  if i<80: sample.append(line.rstrip())
-          out={'bytes':p.stat().st_size,'copy_headers':headers,'first_80_lines':sample}
-          pathlib.Path('data/curated/source_full_sql_probe.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
+          import pathlib, glob, json, collections
+
+          def unescape(v):
+              if v == r'\N': return None
+              out=[]; i=0
+              while i < len(v):
+                  if v[i]=='\\' and i+1<len(v):
+                      c=v[i+1]; out.append({'n':'\n','r':'\r','t':'\t','b':'\b','f':'\f','v':'\v'}.get(c,c)); i+=2
+                  else: out.append(v[i]); i+=1
+              return ''.join(out)
+
+          wanted={'companies':{},'users':{},'ideas':[]}
+          current=None
+          with open('/tmp/VIC_IDEAS.sql','r',encoding='utf-8',errors='replace') as f:
+              for line in f:
+                  if line.startswith('COPY public.'):
+                      current=line.split('COPY public.',1)[1].split(' ',1)[0]
+                      continue
+                  if current and line.rstrip('\n') == r'\.':
+                      current=None; continue
+                  if not current: continue
+                  vals=[unescape(x) for x in line.rstrip('\n').split('\t')]
+                  if current=='companies' and len(vals)>=2:
+                      wanted['companies'][vals[0]]=vals[1]
+                  elif current=='users' and len(vals)>=2:
+                      wanted['users'][vals[0]]=vals[1]
+                  elif current=='ideas' and len(vals)>=7:
+                      wanted['ideas'].append({'idea_id':vals[0],'source_link':vals[1],'ticker':vals[2],'user_link':vals[3],'date':vals[4],'is_short':vals[5]=='t','contest_winner':vals[6]=='t'})
+
+          processed=set()
+          for fn in glob.glob('data/curated/*.json'):
+              name=pathlib.Path(fn).name
+              if name.startswith('source_') or name=='all_reviewed_v8_index.json': continue
+              try: d=json.load(open(fn,encoding='utf-8'))
+              except Exception: continue
+              for key in ('ideas_master','postmortems'):
+                  for x in d.get(key,[]):
+                      if x.get('idea_id'): processed.add(str(x['idea_id']))
+
+          un=[]
+          for r in wanted['ideas']:
+              if r['idea_id'] in processed: continue
+              r['company_name']=wanted['companies'].get(r['ticker'])
+              r['author']=wanted['users'].get(r['user_link'])
+              r['direction_ko']='숏' if r['is_short'] else '롱'
+              un.append(r)
+          counts=collections.Counter((r['ticker'],r['company_name']) for r in un)
+          groups=[{'ticker':k[0],'company_name':k[1],'remaining_count':n} for k,n in counts.most_common(100)]
+          un.sort(key=lambda r:(-counts[(r['ticker'],r['company_name'])],r['ticker'] or '',r['date'] or '',r['idea_id']))
+          out={'source_idea_count':len(wanted['ideas']),'processed_unique_ids':len(processed),'unreviewed_count':len(un),'top_groups':groups,'next_candidates':un[:300]}
+          pathlib.Path('data/curated/source_true_unreviewed.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
           PY
-      - name: Commit probe
+      - name: Commit extract
         shell: bash
         run: |
           git config user.name 'VIC metadata bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add data/curated/source_full_sql_probe.json
-          git commit -m 'chore: probe full VIC SQL source' || exit 0
+          git add data/curated/source_true_unreviewed.json
+          git commit -m 'chore: derive true unreviewed VIC universe' || exit 0
           git push
