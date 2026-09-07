@@ -1,0 +1,128 @@
+{
+  "batch": "043",
+  "format": "V9-per-idea",
+  "source": "data/curated/source_true_unreviewed.json",
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "idea_id": "552a0c54-5417-4cb8-ae6e-e3b5a0079976",
+      "source_link": "https://www.valueinvestorsclub.com/idea/Level_Three_Communications_In/0716564972",
+      "ticker": "LVLT",
+      "user_link": "/member/dave143/279",
+      "date": "2000-08-29 22:38:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "Level 3 Comunication ",
+      "author": "dave143",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "15f30c2f-a0a7-41f3-b97f-2c7dff55fdd6",
+      "source_link": "https://www.valueinvestorsclub.com/idea/Level_3_Communications_Inc./7923868895",
+      "ticker": "LVLT",
+      "user_link": "/member/dave143/279",
+      "date": "2001-03-01 22:43:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "Level 3 Comunication ",
+      "author": "dave143",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "6c53c36e-b9ee-4b7d-bc12-9eb3f7c84886",
+      "source_link": null,
+      "ticker": "LVLT",
+      "user_link": "/member/nish697/1388",
+      "date": "2002-04-19 11:36:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "Level 3 Comunication ",
+      "author": "nish697",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "6c4d3871-880a-45e2-8fc6-3706b125ddeb",
+      "source_link": "https://www.valueinvestorsclub.com/idea/Level_3_Bank_Debt/9040413468",
+      "ticker": "LVLT",
+      "user_link": "/member/jon64/272",
+      "date": "2003-03-17 10:53:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "Level 3 Comunication ",
+      "author": "jon64",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "107fd97a-4482-4f35-af20-b8f2ee3e325f",
+      "source_link": "https://www.valueinvestorsclub.com/idea/Level_3/2370352061",
+      "ticker": "LVLT",
+      "user_link": "/member/doggy835/1783",
+      "date": "2004-12-30 16:21:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "Level 3 Comunication ",
+      "author": "doggy835",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "44312f7c-f1b7-4f46-b92b-dc8d08c79832",
+      "source_link": "https://www.valueinvestorsclub.com/idea/Level_3_Communications/1821042905",
+      "ticker": "LVLT",
+      "user_link": "/member/biv930/3430",
+      "date": "2007-11-11 16:46:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "Level 3 Comunication ",
+      "author": "biv930",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "e32af27d-688a-4ce1-8cf4-f5df3499ae50",
+      "source_link": null,
+      "ticker": "LVLT",
+      "user_link": "/member/biv930/3430",
+      "date": "2011-10-11 18:37:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "Level 3 Comunication ",
+      "author": "biv930",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "3df8999b-4ddc-4eea-bc10-d0c9949e3170",
+      "source_link": "https://www.valueinvestorsclub.com/idea/LEVEL_3_COMMUNICATIONS_INC/3863570505",
+      "ticker": "LVLT",
+      "user_link": "/member/VQRP99/52986",
+      "date": "2017-07-29 09:41:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "Level 3 Comunication ",
+      "author": "VQRP99",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "7b8c3ad5-3249-4756-901a-9d267e0a8a4b",
+      "source_link": "https://www.valueinvestorsclub.com/idea/Nexstar_Broadcasting/5237264040",
+      "ticker": "NXST",
+      "user_link": "/member/jdr907/5713",
+      "date": "2005-12-20 17:25:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "NEXSTAR BROADCASTING GROUP ",
+      "author": "jdr907",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "52de43f8-b373-4daa-bbf9-6655b52da336",
+      "source_link": "https://www.valueinvestorsclub.com/idea/NEXSTAR_BROADCASTING_GROUP/2624763498",
+      "ticker": "NXST",
+      "user_link": "/member/mojoris/29923",
+      "date": "2011-12-14 12:58:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "NEXSTAR BROADCASTING GROUP ",
+      "author": "mojoris",
+      "direction_ko": "숏"
+    }
+  ]
+}
