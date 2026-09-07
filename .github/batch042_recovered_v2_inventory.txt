@@ -1,0 +1,9 @@
+raw=33464 fail=33459 out=199753 err=error('Error -3 while decompressing data: incorrect data check')
+HEADERS
+(0, '././@PaxHeader', 28, 'x')
+(1024, 'analysis/batch_042_radio_satellite_audio_part01.md', 7918, '0')
+(9728, '././@PaxHeader', 28, 'x')
+(10752, 'analysis/batch_042_radio_satellite_audio_part10.md', 6906, '0')
+FILES
+analysis/batch_042_radio_satellite_audio_part01.md	7918
+analysis/batch_042_radio_satellite_audio_part10.md	6906
