@@ -1,4 +1,4 @@
-name: Inspect Batch 042 candidate text
+name: Mine Batch 042 recovered tokens
 
 on:
   push:
@@ -10,43 +10,47 @@ permissions:
   contents: read
 
 jobs:
-  inspect:
+  mine:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Extract readable idea markers from candidate streams
+      - name: Mine identifiers from all plausible recovered streams
         shell: bash
         run: |
           python - <<'PY'
           from pathlib import Path
-          import base64,zlib,re
+          import base64,zlib,itertools,re
+          mids=['3a','3','4a','4b','4c']
           raw={n:bytearray(base64.b64decode(Path(f'.github/batch042_payload_{n}.txt').read_text().strip())) for n in ['1','2','3','3a','4a','4b','4c','5']}
           raw['1'][4736]=48
-          variants=[
-            ('A',['1','2','3','3a','4c','4a','5']),
-            ('B',['1','2','3','3a','4a','4c','5']),
-            ('C',['1','2','4c','3a','4a','3','5']),
-            ('D',['1','2','3a','3','4a','4c','5']),
-            ('E',['1','2','3a','4a','4c','3','5']),
-          ]
-          for tag,seq in variants:
+          uuid=set(); urls=set(); heads=set(); dates=set(); tickers=set(); idea_lines=set()
+          streams=0
+          for L in range(1,len(mids)+1):
+            for perm in itertools.permutations(mids,L):
+              seq=('1','2')+perm+('5',)
               buf=bytearray().join(raw[n] for n in seq)
               p=10
               if buf[3]&8:
-                  while buf[p]!=0:p+=1
-                  p+=1
+                while buf[p]!=0:p+=1
+                p+=1
               d=zlib.decompressobj(-zlib.MAX_WBITS)
               try: out=d.decompress(bytes(buf[p:-8]))+d.flush()
-              except Exception as e:
-                  print('===',tag,'DECOMP ERROR',e); continue
-              txt=out.decode('utf-8','ignore')
-              print('\n=== VARIANT',tag,'SEQ',seq,'OUT',len(out),'===')
-              # Show unique lines likely to identify an idea/source.
-              seen=set()
-              for line in txt.splitlines():
-                  s=line.strip()
-                  hit=(s.startswith('# ') or 'Idea ID:' in s or 'VIC Long' in s or 'VIC Short' in s or
-                       'valueinvestorsclub.com/idea/' in s or s.startswith('**Security:**') or s.startswith('**Research direction:**'))
-                  if hit and 3<=len(s)<=500 and s not in seen:
-                      seen.add(s); print(s)
+              except: continue
+              streams+=1
+              for m in re.findall(rb'[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}',out): uuid.add(m.decode())
+              for m in re.findall(rb'https://www\.valueinvestorsclub\.com/idea/[A-Za-z0-9_%.-]+/[0-9]+',out): urls.add(m.decode('ascii','ignore'))
+              for m in re.findall(rb'#[ ]+[A-Z][A-Z0-9.]{0,8}[ ]+[^\n]{0,80}VIC (?:Long|Short)',out): heads.add(m.decode('utf-8','ignore'))
+              for m in re.findall(rb'20[0-2][0-9]-[01][0-9]-[0-3][0-9][^\n]{0,40}VIC (?:Long|Short)',out): dates.add(m.decode('utf-8','ignore'))
+              for m in re.findall(rb'"ticker"\s*:\s*"([A-Z0-9.]{1,10})"',out): tickers.add(m.decode())
+              for line in out.splitlines():
+                if b'Idea ID:' in line or b'Research direction:' in line or b'Security:' in line:
+                  s=line.decode('utf-8','ignore').strip()
+                  if 0<len(s)<300: idea_lines.add(s)
+          print('STREAMS',streams)
+          print('UUIDS',len(uuid)); [print('UUID',x) for x in sorted(uuid)]
+          print('URLS',len(urls)); [print('URL',x) for x in sorted(urls)]
+          print('HEADS',len(heads)); [print('HEAD',x) for x in sorted(heads)]
+          print('DATES',len(dates)); [print('DATE',x) for x in sorted(dates)]
+          print('TICKERS',len(tickers)); [print('TICKER',x) for x in sorted(tickers)]
+          print('IDEA_LINES',len(idea_lines)); [print('LINE',x) for x in sorted(idea_lines)]
           PY
