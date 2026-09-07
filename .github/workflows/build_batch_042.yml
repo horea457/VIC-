@@ -1,4 +1,4 @@
-name: Diagnose Batch 042 payload
+name: Recover Batch 042 payload
 
 on:
   push:
@@ -7,34 +7,95 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  diagnose:
+  recover:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Compare payload fragments
+      - name: Brute-force payload recovery
         shell: bash
         run: |
+          set -euo pipefail
           python - <<'PY'
           from pathlib import Path
-          ns=['3','3a','4','4a','4b','4c']
+          import base64, itertools, zlib, json, tarfile, io, os, shutil
+
+          ns=['1','2','3','3a','4','4a','4b','4c','5']
           c={n:Path(f'.github/batch042_payload_{n}.txt').read_text().strip() for n in ns}
-          for a in ns:
-            for b in ns:
-              if a==b: continue
-              pos=c[a].find(c[b])
-              if pos>=0: print('CONTAINS',a,b,pos,len(c[b]))
-          for a,b in [('4a','4b'),('4b','4a'),('3a','4a'),('3a','4b'),('3a','4c')]:
-            best=(0,None,None)
-            A,B=c[a],c[b]
-            for k in range(32,min(len(A),len(B),3000)+1):
-              p=B.find(A[-k:])
-              if p>=0 and k>best[0]: best=(k,len(A)-k,p)
-            print('suffix-anywhere',a,b,best)
-          print('4a==4?',c['4a']==c['4'])
-          print('4b==4?',c['4b']==c['4'])
-          print('4c==3?',c['4c']==c['3'])
-          print('3==4?',c['3']==c['4'])
+          mids=['3','3a','4','4a','4b','4c']
+
+          def decode_seq(seq):
+              s=''.join(c[n] for n in seq)
+              try:
+                  raw=base64.b64decode(s, validate=False)
+              except Exception as e:
+                  return b'',False,'base64:'+repr(e)
+              d=zlib.decompressobj(16+zlib.MAX_WBITS)
+              out=b''
+              try:
+                  out=d.decompress(raw)+d.flush()
+                  return out,bool(d.eof),'ok'
+              except Exception as e:
+                  return out+d.unconsumed_tail[:0],False,'zlib:'+repr(e)
+
+          rows=[]
+          best=(0,None,b'',False,'')
+          # fixed 1,2 and 5; brute-force every ordered subset of middle fragments.
+          for L in range(1,len(mids)+1):
+              for perm in itertools.permutations(mids,L):
+                  seq=('1','2')+perm+('5',)
+                  out,eof,err=decode_seq(seq)
+                  score=len(out)+(10_000_000 if eof else 0)
+                  rows.append((score,len(out),eof,seq,err))
+                  if score>best[0]:
+                      best=(score,seq,out,eof,err)
+          rows.sort(reverse=True,key=lambda x:x[0])
+          rec=Path('.github/batch042_recovered')
+          if rec.exists(): shutil.rmtree(rec)
+          rec.mkdir(parents=True)
+          lines=[]
+          for score,n,eof,seq,err in rows[:30]:
+              lines.append(f"{n}\teof={eof}\tseq={','.join(seq)}\t{err}")
+          lines.append('')
+          lines.append('BEST='+','.join(best[1] or ()))
+          lines.append(f'BEST_BYTES={len(best[2])} EOF={best[3]} ERR={best[4]}')
+
+          # Parse every plausible tar header from the decompressed prefix.
+          data=best[2]
+          found=[]
+          for off in range(0,max(0,len(data)-512)+1,512):
+              h=data[off:off+512]
+              name=h[:100].split(b'\0',1)[0]
+              magic=h[257:263]
+              if not name or magic not in (b'ustar\x00',b'ustar '):
+                  continue
+              try:
+                  size=int(h[124:136].split(b'\0',1)[0].strip() or b'0',8)
+              except Exception:
+                  continue
+              typ=h[156:157]
+              try: nstr=name.decode('utf-8')
+              except: nstr=name.decode('latin1','replace')
+              found.append((off,nstr,size,typ.decode('latin1')))
+              if typ in (b'0',b'\0') and off+512+size <= len(data):
+                  payload=data[off+512:off+512+size]
+                  safe=Path(nstr)
+                  if '..' not in safe.parts and not safe.is_absolute():
+                      outp=rec/safe
+                      outp.parent.mkdir(parents=True,exist_ok=True)
+                      outp.write_bytes(payload)
+          lines.append('TAR_HEADERS:')
+          for x in found: lines.append(repr(x))
+          lines.append('RECOVERED_FILES:')
+          for p in sorted(rec.rglob('*')):
+              if p.is_file(): lines.append(f'{p.relative_to(rec)}\t{p.stat().st_size}')
+          Path('.github/batch042_recovery_inventory.txt').write_text('\n'.join(lines),encoding='utf-8')
+          print('\n'.join(lines[:120]))
           PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .github/batch042_recovery_inventory.txt .github/batch042_recovered
+          git diff --cached --quiet || git commit -m 'Recover Batch 042 staged payload contents'
+          git push
