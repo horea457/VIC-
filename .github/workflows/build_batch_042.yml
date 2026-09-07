@@ -41,26 +41,37 @@ jobs:
           if root.exists(): shutil.rmtree(root)
           root.mkdir(parents=True)
           headers=[]
-          for off in range(0,max(0,len(data)-512)+1,512):
+          seen=set()
+          # Scan every byte for ustar magic because the repaired deflate byte can shift tar alignment.
+          pos=0
+          while True:
+              m=data.find(b'ustar',pos)
+              if m<0: break
+              off=m-257
+              pos=m+1
+              if off<0 or off in seen or off+512>len(data): continue
+              seen.add(off)
               h=data[off:off+512]
               name=h[:100].split(b'\0',1)[0]
-              magic=h[257:263]
-              if not name or magic not in (b'ustar\x00',b'ustar '): continue
+              if not name: continue
               try: size=int(h[124:136].split(b'\0',1)[0].strip() or b'0',8)
               except: continue
               typ=h[156:157]
               nstr=name.decode('utf-8','replace')
+              # Basic plausibility guard.
+              if '/' not in nstr and not nstr.startswith('./'): continue
               headers.append((off,nstr,size,typ.decode('latin1')))
               if typ in (b'0',b'\0'):
-                  start=off+512; end=start+size
-                  if end<=len(data):
+                  payload_start=off+512; payload_end=payload_start+size
+                  if payload_end<=len(data):
                       p=root/nstr
                       if '..' not in p.parts:
                           p.parent.mkdir(parents=True,exist_ok=True)
-                          payload=data[start:end]
+                          payload=data[payload_start:payload_end]
                           p.write_bytes(payload)
                           if p.suffix in ('.md','.json','.txt'):
                               (p.parent/(p.name+'.clean.txt')).write_text(payload.decode('utf-8','ignore'),encoding='utf-8')
+          headers.sort()
           lines=[f'raw={len(buf)} fail={fail} out={len(data)} err={err}','HEADERS']
           lines += [repr(x) for x in headers]
           lines += ['FILES']
