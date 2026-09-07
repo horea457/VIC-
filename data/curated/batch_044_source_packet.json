@@ -1,0 +1,140 @@
+{
+  "batch": "044",
+  "format": "V9-per-idea",
+  "source": "data/curated/source_true_unreviewed.json",
+  "excluded_batch_043_ids": [
+    "107fd97a-4482-4f35-af20-b8f2ee3e325f",
+    "15f30c2f-a0a7-41f3-b97f-2c7dff55fdd6",
+    "3df8999b-4ddc-4eea-bc10-d0c9949e3170",
+    "44312f7c-f1b7-4f46-b92b-dc8d08c79832",
+    "52de43f8-b373-4daa-bbf9-6655b52da336",
+    "552a0c54-5417-4cb8-ae6e-e3b5a0079976",
+    "6c4d3871-880a-45e2-8fc6-3706b125ddeb",
+    "6c53c36e-b9ee-4b7d-bc12-9eb3f7c84886",
+    "7b8c3ad5-3249-4756-901a-9d267e0a8a4b",
+    "e32af27d-688a-4ce1-8cf4-f5df3499ae50"
+  ],
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "idea_id": "71436938-3f4b-4d1d-9825-afe818a2f4d7",
+      "source_link": null,
+      "ticker": "NXST",
+      "user_link": "/member/mojoris/29923",
+      "date": "2012-08-26 14:11:00",
+      "is_short": true,
+      "contest_winner": true,
+      "company_name": "NEXSTAR BROADCASTING GROUP ",
+      "author": "mojoris",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "924b250f-5703-4a82-8537-fac2a187abd1",
+      "source_link": "https://www.valueinvestorsclub.com/idea/NEXSTAR_BROADCASTING_GROUP_NXST/2939181073",
+      "ticker": "NXST",
+      "user_link": "/member/jdr907/5713",
+      "date": "2016-01-29 11:53:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "NEXSTAR BROADCASTING GROUP ",
+      "author": "jdr907",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "1b8faf06-08ca-4b27-b723-641fee88d15f",
+      "source_link": "https://www.valueinvestorsclub.com/idea/NEXSTAR_MEDIA_GROUP/4879434468",
+      "ticker": "NXST",
+      "user_link": "/member/valueinvestor03/56472",
+      "date": "2017-08-12 10:42:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "NEXSTAR BROADCASTING GROUP ",
+      "author": "valueinvestor03",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "dd7f83ea-6590-4028-9742-84d0cdffda86",
+      "source_link": "https://www.valueinvestorsclub.com/idea/NEXSTAR_MEDIA_GROUP/3733286651",
+      "ticker": "NXST",
+      "user_link": "/member/juice835/1977",
+      "date": "2018-04-23 10:55:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "NEXSTAR BROADCASTING GROUP ",
+      "author": "juice835",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "f91c8f1f-4a84-4eab-ab51-03068d3b0b2b",
+      "source_link": "https://www.valueinvestorsclub.com/idea/NEXSTAR_MEDIA_GROUP/2843489144",
+      "ticker": "NXST",
+      "user_link": "/member/jon64/272",
+      "date": "2020-03-12 19:48:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "NEXSTAR BROADCASTING GROUP ",
+      "author": "jon64",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "585159f9-193f-40f6-aafa-3454b889e2fa",
+      "source_link": null,
+      "ticker": "NXST",
+      "user_link": "/member/katana/36519",
+      "date": "2021-09-20 21:38:00",
+      "is_short": true,
+      "contest_winner": true,
+      "company_name": "NEXSTAR BROADCASTING GROUP ",
+      "author": "katana",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "16577e38-4933-4db0-892e-fa5b9fdd7d79",
+      "source_link": "https://www.valueinvestorsclub.com/idea/ePlus_Inc/1076596755",
+      "ticker": "PLUS",
+      "user_link": "/member/adanah312/684",
+      "date": "2002-06-04 13:57:00",
+      "is_short": false,
+      "contest_winner": false,
+      "company_name": "ePLUS ",
+      "author": "adanah312",
+      "direction_ko": "롱"
+    },
+    {
+      "idea_id": "09cb4b70-533d-435e-8566-be6203f98c1b",
+      "source_link": "https://www.valueinvestorsclub.com/idea/ePlus/7455315813",
+      "ticker": "PLUS",
+      "user_link": "/member/hack731/1482",
+      "date": "2004-12-23 22:17:00",
+      "is_short": false,
+      "contest_winner": false,
+      "company_name": "ePLUS ",
+      "author": "hack731",
+      "direction_ko": "롱"
+    },
+    {
+      "idea_id": "98c3017f-e2f5-4a57-8e98-ee0ebac34d63",
+      "source_link": null,
+      "ticker": "PLUS",
+      "user_link": "/member/ele2996/6120",
+      "date": "2007-05-09 16:14:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "ePLUS ",
+      "author": "ele2996",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "f04f83bb-ff87-4e97-981c-05be168e60c6",
+      "source_link": null,
+      "ticker": "PLUS",
+      "user_link": "/member/zach721/1396",
+      "date": "2007-11-14 13:10:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "ePLUS ",
+      "author": "zach721",
+      "direction_ko": "숏"
+    }
+  ]
+}
