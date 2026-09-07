@@ -1,0 +1,64 @@
+name: Build Batch 046 sources
+
+on:
+  push:
+    paths:
+      - '.github/workflows/build_batch_046_sources.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract ATH and CIT source packet
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, pathlib, glob
+          census=json.load(open('data/curated/next_unreviewed_census.json',encoding='utf-8'))
+          wanted=[]
+          for row in census.get('top_tickers',[]):
+              if row.get('ticker')=='ATH':
+                  wanted += row.get('sample_ids',[])[:7]
+              if row.get('ticker')=='CIT':
+                  wanted += row.get('sample_ids',[])[:3]
+          wanted=wanted[:10]
+          found={}
+          def walk(x):
+              if isinstance(x,dict):
+                  iid=x.get('idea_id') or x.get('id')
+                  if iid in wanted and iid not in found:
+                      found[iid]=dict(x)
+                  for v in x.values(): walk(v)
+              elif isinstance(x,list):
+                  for v in x: walk(v)
+          for p in glob.glob('data/curated/*.json'):
+              try:
+                  walk(json.load(open(p,encoding='utf-8')))
+              except Exception:
+                  pass
+          # Fallback metadata from known census fields if full record is absent.
+          out=[]
+          for iid in wanted:
+              r=found.get(iid,{'idea_id':iid})
+              out.append(r)
+          packet={'batch':'046','format':'V9-per-idea','wanted_ids':wanted,'records':out,'record_count_found':sum(1 for x in out if len(x)>1)}
+          pathlib.Path('data/curated/batch_046_source_packet.json').write_text(json.dumps(packet,ensure_ascii=False,indent=2),encoding='utf-8')
+          # Inventory any SQL files still present in repo for auditability.
+          sqls=[str(p) for p in pathlib.Path('.').rglob('*.sql')]
+          pathlib.Path('data/curated/batch_046_sql_inventory.json').write_text(json.dumps({'sql_files':sqls},ensure_ascii=False,indent=2),encoding='utf-8')
+          print('wanted',wanted)
+          print('found',packet['record_count_found'])
+          print('sql_files',sqls[:20])
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/curated/batch_046_source_packet.json data/curated/batch_046_sql_inventory.json
+          git diff --cached --quiet || git commit -m 'Extract Batch 046 ATH CIT source packet'
+          git pull --rebase origin main
+          git push origin main
