@@ -1,4 +1,4 @@
-name: Build Batch 045 probe
+name: Build Batch 045 source packet
 
 on:
   push:
@@ -10,56 +10,63 @@ permissions:
   contents: write
 
 jobs:
-  probe:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Query VIC DB for Batch 045
+      - name: Build Batch 045 source packet from SQL-derived metadata
         shell: bash
         run: |
           set -euo pipefail
-          cat data/processed/vic_dashboard.db.gz.part* > /tmp/vic_dashboard.db.gz
-          gzip -dc /tmp/vic_dashboard.db.gz > /tmp/vic_dashboard.db
           python - <<'PY'
-          import sqlite3, json, pathlib
-          db=sqlite3.connect('/tmp/vic_dashboard.db')
-          db.row_factory=sqlite3.Row
-          tables=[r[0] for r in db.execute("select name from sqlite_master where type='table' order by name")]
-          cols={t:[r[1] for r in db.execute(f'pragma table_info({t})')] for t in tables}
-          out={'tables':tables,'columns':cols}
-          # Remaining ePlus after Batch 044 plus first six Brinks records.
+          import json, pathlib, shutil
+          root=json.load(open('data/curated/source_true_unreviewed.json',encoding='utf-8'))
           used=set()
           for p in ['data/curated/batch_043_source_packet.json','data/curated/batch_044_source_packet.json']:
-              try:
-                  j=json.load(open(p,encoding='utf-8'))
-                  used.update(x['idea_id'] for x in j.get('candidates',[]))
-              except Exception:
-                  pass
-          def rows(ticker):
-              q='select * from ideas_master where ticker=? order by date'
-              return [dict(r) for r in db.execute(q,(ticker,)) if r['idea_id'] not in used]
-          plus=rows('PLUS')
-          bco=rows('BCO')
-          out['remaining_plus']=plus
-          out['bco']=bco
-          # If raw source tables survived in curated DB, include original descriptions/catalysts.
-          ids=[x['idea_id'] for x in plus[:4]+bco[:6]]
-          raw={}
-          for iid in ids:
-              rec={}
-              if 'descriptions' in tables:
-                  rr=db.execute('select description from descriptions where idea_id=?',(iid,)).fetchone()
-                  rec['description']=None if rr is None else rr[0]
-              if 'catalyst' in tables:
-                  rr=db.execute('select catalysts from catalyst where idea_id=?',(iid,)).fetchone()
-                  rec['catalyst']=None if rr is None else rr[0]
-              raw[iid]=rec
-          out['raw_text']=raw
-          pathlib.Path('data/curated/batch_045_probe.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
-          print('PLUS',len(plus),'BCO',len(bco),'TABLES',tables)
+              j=json.load(open(p,encoding='utf-8'))
+              used.update(x['idea_id'] for x in j.get('candidates',[]))
+
+          records=[]
+          def walk(x):
+              if isinstance(x,dict):
+                  if 'idea_id' in x and 'ticker' in x:
+                      records.append(dict(x))
+                  for v in x.values(): walk(v)
+              elif isinstance(x,list):
+                  for v in x: walk(v)
+          walk(root)
+
+          # de-duplicate by idea_id, preserve first occurrence
+          ded={}
+          for r in records: ded.setdefault(r['idea_id'],r)
+          records=list(ded.values())
+          plus=sorted([r for r in records if r.get('ticker')=='PLUS' and r['idea_id'] not in used], key=lambda x:x.get('date',''))
+          bco=sorted([r for r in records if r.get('ticker')=='BCO' and r['idea_id'] not in used], key=lambda x:x.get('date',''))
+
+          candidates=(plus[:4]+bco[:6])[:10]
+          packet={
+              'batch':'045','format':'V9-per-idea',
+              'source':'data/curated/source_true_unreviewed.json (SQL-derived)',
+              'excluded_prior_ids':sorted(used),
+              'record_count_found':len(records),
+              'remaining_plus_count':len(plus),'bco_count':len(bco),
+              'candidate_count':len(candidates),'candidates':candidates
+          }
+          pathlib.Path('data/curated/batch_045_source_packet.json').write_text(json.dumps(packet,ensure_ascii=False,indent=2),encoding='utf-8')
+
+          # Preserve available original PLUS source texts from Batch 035 for the four remaining ePlus ideas.
+          out=pathlib.Path('data/source_batch045'); out.mkdir(exist_ok=True)
+          ids={x['idea_id'] for x in candidates}
+          for p in pathlib.Path('data/source_batch035').glob('*.md'):
+              if any(i in p.name for i in ids):
+                  shutil.copy2(p,out/p.name)
+          print(json.dumps({'records':len(records),'plus':len(plus),'bco':len(bco),'candidates':[(x.get('ticker'),x.get('idea_id'),x.get('date')) for x in candidates]},ensure_ascii=False,indent=2))
           PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/curated/batch_045_probe.json
-          git diff --cached --quiet || git commit -m 'Probe Batch 045 VIC candidates'
-          git push
+          git add data/curated/batch_045_source_packet.json data/source_batch045 || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'Prepare Batch 045 V9 source packet'
+            git pull --rebase origin main
+            git push
+          fi
