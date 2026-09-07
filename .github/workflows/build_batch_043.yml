@@ -1,0 +1,47 @@
+name: Prepare Batch 043 V9
+
+on:
+  push:
+    paths:
+      - '.github/workflows/build_batch_043.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract next ten unreviewed VIC candidates
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('data/curated/source_true_unreviewed.json')
+          obj=json.loads(p.read_text(encoding='utf-8'))
+          rows=obj.get('next_candidates',[])[:10]
+          assert len(rows)==10, f'expected 10 candidates, got {len(rows)}'
+          out={
+            'batch':'043',
+            'format':'V9-per-idea',
+            'source':'data/curated/source_true_unreviewed.json',
+            'candidate_count':len(rows),
+            'candidates':rows,
+          }
+          Path('data/curated/batch_043_source_packet.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
+          md=['# Batch 043 — V9 Candidate Index','','> Batch 003 V9 규칙 적용: 투자시점별 독립 Idea Unit, claim-level C1/C2/... 검증, 실제 성과와 사후검증 중심.','', '| # | VIC date | ticker | company | raw flag | idea id | source |','|---:|---|---|---|---|---|---|']
+          for i,x in enumerate(rows,1):
+            md.append(f"| {i} | {x.get('date','')} | {x.get('ticker','')} | {x.get('company_name','')} | {x.get('direction',x.get('raw_flag',''))} | `{x.get('idea_id','')}` | [VIC]({x.get('source_link','')}) |")
+          md += ['', '## 작업 규칙', '', '- raw SQL flag는 보존하고 실제 VIC 방향/security는 별도 검증한다.', '- 동일 회사라도 게시일이 다르면 별도 canonical idea 파일로 분리한다.', '- 각 Idea는 회사/산업/돈의 흐름을 설명한 뒤 C1/C2/... 개별 thesis로 분해한다.', '- 각 Claim마다 당시 근거, 숨은 가정, 사전 반증조건, 실제 결과, 판정을 기록한다.', '- 목표가 IRR보다 실제 게시가격→실제 후속가격/exit 기준 수익률과 IRR을 우선한다.', '- Business / valuation / catalyst / timing / security-selection을 별도 판정한다.']
+          Path('analysis/batch_043_v9_index.md').write_text('\n'.join(md)+'\n',encoding='utf-8')
+          print(json.dumps(out,ensure_ascii=False,indent=2))
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/curated/batch_043_source_packet.json analysis/batch_043_v9_index.md
+          git commit -m 'Initialize Batch 043 V9 candidate index'
+          git push
