@@ -1,4 +1,4 @@
-name: Solve Batch 042 corruption byte
+name: Solve Batch 042 chunk order
 
 on:
   push:
@@ -7,72 +7,52 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   solve:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Solve byte using gzip CRC and ISIZE
+      - name: Brute-force chunk order against gzip ISIZE
         shell: bash
         run: |
-          set -euo pipefail
           python - <<'PY'
           from pathlib import Path
-          import base64,zlib,struct
-
-          seq=['1','2','3a','4','5']
-          buf=bytearray().join(bytearray(base64.b64decode(Path(f'.github/batch042_payload_{n}.txt').read_text().strip())) for n in seq)
-          # Parse gzip header including FNAME.
-          assert buf[:3]==bytes([0x1f,0x8b,0x08])
-          flg=buf[3]
-          p=10
-          if flg & 4:
-              xlen=buf[p] | (buf[p+1]<<8); p += 2+xlen
-          if flg & 8:
-              while buf[p]!=0: p+=1
-              p+=1
-          if flg & 16:
-              while buf[p]!=0: p+=1
-              p+=1
-          if flg & 2: p+=2
-          deflate_start=p
-          expected_crc=struct.unpack('<I',bytes(buf[-8:-4]))[0]
-          expected_size=struct.unpack('<I',bytes(buf[-4:]))[0]
-          pos=4736
-          orig=buf[pos]
-          lines=[f'deflate_start={deflate_start} orig={orig} expected_crc={expected_crc:08x} expected_size={expected_size}']
-          candidates=[]
-          for val in range(256):
-              buf[pos]=val
+          import base64,zlib,struct,itertools
+          # 3 and 4 are identical; use 3 as representative.
+          mids=['3a','3','4a','4b','4c']
+          raw={n:bytearray(base64.b64decode(Path(f'.github/batch042_payload_{n}.txt').read_text().strip())) for n in ['1','2','3','3a','4a','4b','4c','5']}
+          raw['1'][4736]=48
+          rows=[]
+          matches=[]
+          for L in range(1,len(mids)+1):
+            for perm in itertools.permutations(mids,L):
+              seq=('1','2')+perm+('5',)
+              buf=bytearray().join(raw[n] for n in seq)
+              # gzip header start; constant from chunk1
+              p=10; flg=buf[3]
+              if flg&8:
+                while buf[p]!=0: p+=1
+                p+=1
+              exp_crc=struct.unpack('<I',bytes(buf[-8:-4]))[0]
+              exp_size=struct.unpack('<I',bytes(buf[-4:]))[0]
               d=zlib.decompressobj(-zlib.MAX_WBITS)
-              out=bytearray(); err='ok'
               try:
-                  out += d.decompress(bytes(buf[deflate_start:-8]))
-                  out += d.flush()
+                out=d.decompress(bytes(buf[p:-8]))+d.flush()
+                err=''
               except Exception as e:
-                  err=repr(e)
+                out=b''; err=repr(e)
               crc=zlib.crc32(out)&0xffffffff
-              size=len(out)&0xffffffff
-              if crc==expected_crc and size==expected_size:
-                  candidates.append((val,bytes(out)))
-              if val in (0,1,16,17,32,33,48,49,orig):
-                  lines.append(f'val={val} out={len(out)} crc={crc:08x} sizeok={size==expected_size} crkok={crc==expected_crc} err={err}')
-          buf[pos]=orig
-          lines.append('MATCHES='+','.join(str(v) for v,_ in candidates))
-          if candidates:
-              val,out=candidates[0]
-              Path('.github/batch042_solved_byte.txt').write_text(str(val),encoding='ascii')
-              Path('.github/batch042_solved_tar.b64').write_text(base64.b64encode(out).decode('ascii'),encoding='ascii')
-          Path('.github/batch042_exact_byte_log.txt').write_text('\n'.join(lines),encoding='utf-8')
-          print('\n'.join(lines))
+              score=(0 if len(out)==exp_size else abs(len(out)-exp_size), 0 if crc==exp_crc else 1)
+              rows.append((score,len(out),crc,seq,err))
+              if len(out)==exp_size and crc==exp_crc:
+                matches.append((seq,out))
+          rows.sort(key=lambda x:(x[0][0],x[0][1],-x[1]))
+          print('MATCH_COUNT',len(matches))
+          for seq,out in matches[:10]:
+            print('MATCH',seq,'size',len(out))
+          print('TOP_BY_SIZE')
+          for score,n,crc,seq,err in rows[:40]:
+            print('seq',seq,'out',n,'diff',score[0],'crc',f'{crc:08x}','err',err[:80])
           PY
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A .github/batch042_exact_byte_log.txt .github/batch042_solved_byte.txt .github/batch042_solved_tar.b64 2>/dev/null || true
-          if ! git diff --cached --quiet; then
-            git commit -m 'Solve Batch 042 gzip corruption exactly'
-            git pull --rebase origin main
-            git push
-          fi
