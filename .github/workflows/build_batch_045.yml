@@ -1,0 +1,65 @@
+name: Build Batch 045 probe
+
+on:
+  push:
+    paths:
+      - '.github/workflows/build_batch_045.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Query VIC DB for Batch 045
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat data/processed/vic_dashboard.db.gz.part* > /tmp/vic_dashboard.db.gz
+          gzip -dc /tmp/vic_dashboard.db.gz > /tmp/vic_dashboard.db
+          python - <<'PY'
+          import sqlite3, json, pathlib
+          db=sqlite3.connect('/tmp/vic_dashboard.db')
+          db.row_factory=sqlite3.Row
+          tables=[r[0] for r in db.execute("select name from sqlite_master where type='table' order by name")]
+          cols={t:[r[1] for r in db.execute(f'pragma table_info({t})')] for t in tables}
+          out={'tables':tables,'columns':cols}
+          # Remaining ePlus after Batch 044 plus first six Brinks records.
+          used=set()
+          for p in ['data/curated/batch_043_source_packet.json','data/curated/batch_044_source_packet.json']:
+              try:
+                  j=json.load(open(p,encoding='utf-8'))
+                  used.update(x['idea_id'] for x in j.get('candidates',[]))
+              except Exception:
+                  pass
+          def rows(ticker):
+              q='select * from ideas_master where ticker=? order by date'
+              return [dict(r) for r in db.execute(q,(ticker,)) if r['idea_id'] not in used]
+          plus=rows('PLUS')
+          bco=rows('BCO')
+          out['remaining_plus']=plus
+          out['bco']=bco
+          # If raw source tables survived in curated DB, include original descriptions/catalysts.
+          ids=[x['idea_id'] for x in plus[:4]+bco[:6]]
+          raw={}
+          for iid in ids:
+              rec={}
+              if 'descriptions' in tables:
+                  rr=db.execute('select description from descriptions where idea_id=?',(iid,)).fetchone()
+                  rec['description']=None if rr is None else rr[0]
+              if 'catalyst' in tables:
+                  rr=db.execute('select catalysts from catalyst where idea_id=?',(iid,)).fetchone()
+                  rec['catalyst']=None if rr is None else rr[0]
+              raw[iid]=rec
+          out['raw_text']=raw
+          pathlib.Path('data/curated/batch_045_probe.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
+          print('PLUS',len(plus),'BCO',len(bco),'TABLES',tables)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/curated/batch_045_probe.json
+          git diff --cached --quiet || git commit -m 'Probe Batch 045 VIC candidates'
+          git push
