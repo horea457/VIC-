@@ -85,11 +85,15 @@ jobs:
               typ=h[156:157]
               nstr=name.decode('utf-8','replace')
               found.append((off,nstr,size,typ.decode('latin1')))
-              if typ in (b'0',b'\0') and off+512+size<=len(data):
+              if typ in (b'0',b'\0'):
                   safe=Path(nstr)
                   if '..' not in safe.parts and not safe.is_absolute():
-                      p=rec/safe; p.parent.mkdir(parents=True,exist_ok=True)
-                      p.write_bytes(data[off+512:off+512+size])
+                      start=off+512; end=min(start+size,len(data))
+                      if end>start:
+                          p=rec/safe; p.parent.mkdir(parents=True,exist_ok=True)
+                          p.write_bytes(data[start:end])
+                          if end-start<size:
+                              (p.parent/(p.name+'.PARTIAL')).write_text(f'recovered {end-start} of {size} bytes',encoding='utf-8')
           lines += ['','TAR_HEADERS']+[repr(x) for x in found]
           lines += ['','RECOVERED_FILES']
           for p in sorted(rec.rglob('*')):
