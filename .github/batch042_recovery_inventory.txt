@@ -65,3 +65,5 @@ TAR_HEADERS
 
 RECOVERED_FILES
 analysis/batch_042_radio_satellite_audio_part01.md	7918
+analysis/batch_042_radio_satellite_audio_part10.md	5718
+analysis/batch_042_radio_satellite_audio_part10.md.PARTIAL	28
