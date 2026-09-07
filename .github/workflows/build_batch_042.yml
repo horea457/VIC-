@@ -1,4 +1,4 @@
-name: Solve Batch 042 chunk order
+name: Inspect Batch 042 candidate text
 
 on:
   push:
@@ -10,49 +10,43 @@ permissions:
   contents: read
 
 jobs:
-  solve:
+  inspect:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Brute-force chunk order against gzip ISIZE
+      - name: Extract readable idea markers from candidate streams
         shell: bash
         run: |
           python - <<'PY'
           from pathlib import Path
-          import base64,zlib,struct,itertools
-          # 3 and 4 are identical; use 3 as representative.
-          mids=['3a','3','4a','4b','4c']
+          import base64,zlib,re
           raw={n:bytearray(base64.b64decode(Path(f'.github/batch042_payload_{n}.txt').read_text().strip())) for n in ['1','2','3','3a','4a','4b','4c','5']}
           raw['1'][4736]=48
-          rows=[]
-          matches=[]
-          for L in range(1,len(mids)+1):
-            for perm in itertools.permutations(mids,L):
-              seq=('1','2')+perm+('5',)
+          variants=[
+            ('A',['1','2','3','3a','4c','4a','5']),
+            ('B',['1','2','3','3a','4a','4c','5']),
+            ('C',['1','2','4c','3a','4a','3','5']),
+            ('D',['1','2','3a','3','4a','4c','5']),
+            ('E',['1','2','3a','4a','4c','3','5']),
+          ]
+          for tag,seq in variants:
               buf=bytearray().join(raw[n] for n in seq)
-              # gzip header start; constant from chunk1
-              p=10; flg=buf[3]
-              if flg&8:
-                while buf[p]!=0: p+=1
-                p+=1
-              exp_crc=struct.unpack('<I',bytes(buf[-8:-4]))[0]
-              exp_size=struct.unpack('<I',bytes(buf[-4:]))[0]
+              p=10
+              if buf[3]&8:
+                  while buf[p]!=0:p+=1
+                  p+=1
               d=zlib.decompressobj(-zlib.MAX_WBITS)
-              try:
-                out=d.decompress(bytes(buf[p:-8]))+d.flush()
-                err=''
+              try: out=d.decompress(bytes(buf[p:-8]))+d.flush()
               except Exception as e:
-                out=b''; err=repr(e)
-              crc=zlib.crc32(out)&0xffffffff
-              score=(0 if len(out)==exp_size else abs(len(out)-exp_size), 0 if crc==exp_crc else 1)
-              rows.append((score,len(out),crc,seq,err))
-              if len(out)==exp_size and crc==exp_crc:
-                matches.append((seq,out))
-          rows.sort(key=lambda x:(x[0][0],x[0][1],-x[1]))
-          print('MATCH_COUNT',len(matches))
-          for seq,out in matches[:10]:
-            print('MATCH',seq,'size',len(out))
-          print('TOP_BY_SIZE')
-          for score,n,crc,seq,err in rows[:40]:
-            print('seq',seq,'out',n,'diff',score[0],'crc',f'{crc:08x}','err',err[:80])
+                  print('===',tag,'DECOMP ERROR',e); continue
+              txt=out.decode('utf-8','ignore')
+              print('\n=== VARIANT',tag,'SEQ',seq,'OUT',len(out),'===')
+              # Show unique lines likely to identify an idea/source.
+              seen=set()
+              for line in txt.splitlines():
+                  s=line.strip()
+                  hit=(s.startswith('# ') or 'Idea ID:' in s or 'VIC Long' in s or 'VIC Short' in s or
+                       'valueinvestorsclub.com/idea/' in s or s.startswith('**Security:**') or s.startswith('**Research direction:**'))
+                  if hit and 3<=len(s)<=500 and s not in seen:
+                      seen.add(s); print(s)
           PY
