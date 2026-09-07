@@ -1,4 +1,4 @@
-name: Recover Batch 042 full payload
+name: Solve Batch 042 corruption byte
 
 on:
   push:
@@ -10,79 +10,58 @@ permissions:
   contents: write
 
 jobs:
-  recover:
+  solve:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Reconstruct and extract recovered Batch 042
+      - name: Brute-force exact gzip byte
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
           from pathlib import Path
-          import base64,zlib,shutil
+          import base64,zlib
 
           seq=['1','2','3a','4','5']
-          raws=[]
-          for n in seq:
-              b=bytearray(base64.b64decode(Path(f'.github/batch042_payload_{n}.txt').read_text().strip()))
-              if n=='1': b[4736]=48
-              raws.append(b)
-          buf=bytearray().join(raws)
-          d=zlib.decompressobj(16+zlib.MAX_WBITS)
-          out=bytearray(); err='ok'; fail=len(buf)
-          for i,b in enumerate(buf):
-              try: out += d.decompress(bytes([b]))
-              except Exception as e:
-                  fail=i; err=repr(e); break
-          data=bytes(out)
+          parts=[bytearray(base64.b64decode(Path(f'.github/batch042_payload_{n}.txt').read_text().strip())) for n in seq]
+          buf=bytearray().join(parts)
+          pos=4736
+          orig=buf[pos]
 
-          root=Path('.github/batch042_recovered_v2')
-          if root.exists(): shutil.rmtree(root)
-          root.mkdir(parents=True)
-          headers=[]
-          seen=set()
-          # Scan every byte for ustar magic because the repaired deflate byte can shift tar alignment.
-          pos=0
-          while True:
-              m=data.find(b'ustar',pos)
-              if m<0: break
-              off=m-257
-              pos=m+1
-              if off<0 or off in seen or off+512>len(data): continue
-              seen.add(off)
-              h=data[off:off+512]
-              name=h[:100].split(b'\0',1)[0]
-              if not name: continue
-              try: size=int(h[124:136].split(b'\0',1)[0].strip() or b'0',8)
-              except: continue
-              typ=h[156:157]
-              nstr=name.decode('utf-8','replace')
-              # Basic plausibility guard.
-              if '/' not in nstr and not nstr.startswith('./'): continue
-              headers.append((off,nstr,size,typ.decode('latin1')))
-              if typ in (b'0',b'\0'):
-                  payload_start=off+512; payload_end=payload_start+size
-                  if payload_end<=len(data):
-                      p=root/nstr
-                      if '..' not in p.parts:
-                          p.parent.mkdir(parents=True,exist_ok=True)
-                          payload=data[payload_start:payload_end]
-                          p.write_bytes(payload)
-                          if p.suffix in ('.md','.json','.txt'):
-                              (p.parent/(p.name+'.clean.txt')).write_text(payload.decode('utf-8','ignore'),encoding='utf-8')
-          headers.sort()
-          lines=[f'raw={len(buf)} fail={fail} out={len(data)} err={err}','HEADERS']
-          lines += [repr(x) for x in headers]
-          lines += ['FILES']
-          for p in sorted(root.rglob('*')):
-              if p.is_file() and not p.name.endswith('.clean.txt'):
-                  lines.append(f'{p.relative_to(root)}\t{p.stat().st_size}')
-          Path('.github/batch042_recovered_v2_inventory.txt').write_text('\n'.join(lines),encoding='utf-8')
-          print('\n'.join(lines[:250]))
+          def test(b):
+              d=zlib.decompressobj(16+zlib.MAX_WBITS)
+              out=bytearray()
+              fail=len(b); err='ok'
+              for i in range(0,len(b),256):
+                  try: out += d.decompress(bytes(b[i:i+256]))
+                  except Exception as e:
+                      fail=i; err=repr(e); break
+              else:
+                  try: out += d.flush()
+                  except Exception as e: err='flush '+repr(e)
+              return fail,len(out),bool(d.eof),err,bytes(out)
+
+          rows=[]; solved=[]
+          for val in range(256):
+              buf[pos]=val
+              f,o,e,err,out=test(buf)
+              rows.append((e,f,o,val,err))
+              if e: solved.append((val,o,out))
+          buf[pos]=orig
+          rows.sort(reverse=True)
+          lines=[f'orig={orig} pos={pos}',f'solved_values={[x[0] for x in solved]}']
+          for e,f,o,val,err in rows[:40]:
+              lines.append(f'val={val} eof={e} fail~={f} out={o} err={err}')
+          Path('.github/batch042_exact_byte_log.txt').write_text('\n'.join(lines),encoding='utf-8')
+          if solved:
+              val,o,out=solved[0]
+              Path('.github/batch042_solved_byte.txt').write_text(str(val),encoding='ascii')
+              # Save decoded tar as base64 so a later workflow can extract it exactly.
+              Path('.github/batch042_solved_tar.b64').write_text(base64.b64encode(out).decode('ascii'),encoding='ascii')
+          print('\n'.join(lines))
           PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add .github/batch042_recovered_v2 .github/batch042_recovered_v2_inventory.txt
-          git diff --cached --quiet || git commit -m 'Recover full Batch 042 payload contents'
+          git add .github/batch042_exact_byte_log.txt .github/batch042_solved_byte.txt .github/batch042_solved_tar.b64 || true
+          git diff --cached --quiet || git commit -m 'Solve Batch 042 gzip corruption byte'
           git push
