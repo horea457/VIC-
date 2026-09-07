@@ -1,4 +1,4 @@
-name: Recover Batch 042 payload
+name: Repair Batch 042 payload
 
 on:
   push:
@@ -10,107 +10,65 @@ permissions:
   contents: write
 
 jobs:
-  recover:
+  repair:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Incremental payload recovery
+      - name: Search single-byte corruption in first payload chunk
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
           from pathlib import Path
-          import base64, itertools, zlib, shutil
+          import base64,zlib
 
-          ns=['1','2','3','3a','4','4a','4b','4c','5']
-          c={n:Path(f'.github/batch042_payload_{n}.txt').read_text().strip() for n in ns}
-          mids=['3','3a','4','4a','4b','4c']
+          s=Path('.github/batch042_payload_1.txt').read_text().strip()
+          raw=bytearray(base64.b64decode(s))
 
-          def decode_seq(seq):
-              s=''.join(c[n] for n in seq)
-              raw=base64.b64decode(s, validate=False)
+          def test(buf,limit=None):
               d=zlib.decompressobj(16+zlib.MAX_WBITS)
               out=bytearray()
-              err='ok'
-              pos=0
-              for pos in range(0,len(raw),64):
-                  piece=raw[pos:pos+64]
+              n=len(buf) if limit is None else min(limit,len(buf))
+              for i in range(n):
                   try:
-                      out += d.decompress(piece)
+                      out += d.decompress(bytes([buf[i]]))
                   except Exception as e:
-                      err=f'@raw{pos} '+repr(e)
-                      break
-              else:
-                  try: out += d.flush()
-                  except Exception as e: err='flush '+repr(e)
-              return bytes(out),bool(d.eof),err,len(raw)
+                      return i,len(out),False,repr(e)
+              return n,len(out),bool(d.eof),'ok'
 
-          rows=[]
-          candidates=[]
-          # diagnostic prefixes first
-          for seq in [('1',),('1','2')]:
-              out,eof,err,rawlen=decode_seq(seq)
-              rows.append((len(out),eof,seq,err,rawlen))
-          # fixed 1,2; test each ordered subset, with and without trailing 5
-          for L in range(1,len(mids)+1):
-              for perm in itertools.permutations(mids,L):
-                  for tail in [(),('5',)]:
-                      seq=('1','2')+perm+tail
-                      out,eof,err,rawlen=decode_seq(seq)
-                      rows.append((len(out),eof,seq,err,rawlen))
-                      candidates.append((len(out)+(10_000_000 if eof else 0),seq,out,eof,err,rawlen))
-          candidates.sort(reverse=True,key=lambda x:x[0])
-          best=candidates[0]
-          rec=Path('.github/batch042_recovered')
-          if rec.exists(): shutil.rmtree(rec)
-          rec.mkdir(parents=True)
-          lines=['TOP CANDIDATES']
-          for score,seq,out,eof,err,rawlen in candidates[:50]:
-              lines.append(f"out={len(out)} raw={rawlen} eof={eof} seq={','.join(seq)} err={err}")
-          lines += ['','PREFIX TESTS']
-          for n,eof,seq,err,rawlen in rows[:2]:
-              lines.append(f"out={n} raw={rawlen} eof={eof} seq={','.join(seq)} err={err}")
-          lines += ['','BEST='+','.join(best[1]),f'BEST_BYTES={len(best[2])} EOF={best[3]} ERR={best[4]} RAW={best[5]}']
-
-          data=best[2]
-          # Scan all 512 offsets for tar headers.
-          found=[]
-          for off in range(0,max(0,len(data)-512)+1,512):
-              h=data[off:off+512]
-              name=h[:100].split(b'\0',1)[0]
-              magic=h[257:263]
-              if not name or magic not in (b'ustar\x00',b'ustar '): continue
-              try: size=int(h[124:136].split(b'\0',1)[0].strip() or b'0',8)
-              except: continue
-              typ=h[156:157]
-              nstr=name.decode('utf-8','replace')
-              found.append((off,nstr,size,typ.decode('latin1')))
-              if typ in (b'0',b'\0'):
-                  safe=Path(nstr)
-                  if '..' not in safe.parts and not safe.is_absolute():
-                      start=off+512; end=min(start+size,len(data))
-                      if end>start:
-                          p=rec/safe; p.parent.mkdir(parents=True,exist_ok=True)
-                          p.write_bytes(data[start:end])
-                          if end-start<size:
-                              (p.parent/(p.name+'.PARTIAL')).write_text(f'recovered {end-start} of {size} bytes',encoding='utf-8')
-          lines += ['','TAR_HEADERS']+[repr(x) for x in found]
-          lines += ['','RECOVERED_FILES']
-          for p in sorted(rec.rglob('*')):
-              if p.is_file(): lines.append(f'{p.relative_to(rec)}\t{p.stat().st_size}')
-          # Save UTF-8-clean mirrors so partially corrupted markdown can still be inspected.
-          for p in sorted(rec.rglob('*.md')):
-              try:
-                  raw=p.read_bytes()
-                  clean=raw.decode('utf-8','ignore')
-                  (p.parent/(p.name+'.clean.txt')).write_text(clean,encoding='utf-8')
-              except Exception:
-                  pass
-          Path('.github/batch042_recovery_inventory.txt').write_text('\n'.join(lines),encoding='utf-8')
-          print('\n'.join(lines[:180]))
+          log=[]
+          for step in range(12):
+              fail,out,eof,err=test(raw)
+              log.append(f'step={step} fail_raw={fail} out={out} eof={eof} err={err}')
+              if fail>=len(raw):
+                  break
+              best=(fail,out,None,None)
+              lo=max(0,fail-8); hi=min(len(raw)-1,fail+8)
+              for pos in range(lo,hi+1):
+                  orig=raw[pos]
+                  for val in range(256):
+                      if val==orig: continue
+                      raw[pos]=val
+                      f,o,e,_=test(raw)
+                      score=(f,o)
+                      if score>(best[0],best[1]):
+                          best=(f,o,pos,val)
+                  raw[pos]=orig
+              if best[2] is None or best[0] <= fail:
+                  log.append('NO_SINGLE_BYTE_IMPROVEMENT')
+                  break
+              pos,val=best[2],best[3]
+              old=raw[pos]; raw[pos]=val
+              log.append(f'REPAIR pos={pos} {old}->{val} new_fail={best[0]} new_out={best[1]}')
+          fail,out,eof,err=test(raw)
+          log.append(f'FINAL fail_raw={fail}/{len(raw)} out={out} eof={eof} err={err}')
+          if fail==len(raw):
+              Path('.github/batch042_payload_1_repaired.bin.b64').write_text(base64.b64encode(bytes(raw)).decode(),encoding='ascii')
+          Path('.github/batch042_repair_log.txt').write_text('\n'.join(log),encoding='utf-8')
+          print('\n'.join(log))
           PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add .github/batch042_recovery_inventory.txt .github/batch042_recovered
-          git diff --cached --quiet || git commit -m 'Improve Batch 042 payload recovery'
+          git add .github/batch042_repair_log.txt .github/batch042_payload_1_repaired.bin.b64 || true
+          git diff --cached --quiet || git commit -m 'Diagnose Batch 042 compressed payload corruption'
           git push
