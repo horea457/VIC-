@@ -14,54 +14,65 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Brute-force exact gzip byte
+      - name: Solve byte using gzip CRC and ISIZE
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
           from pathlib import Path
-          import base64,zlib
+          import base64,zlib,struct
 
           seq=['1','2','3a','4','5']
-          parts=[bytearray(base64.b64decode(Path(f'.github/batch042_payload_{n}.txt').read_text().strip())) for n in seq]
-          buf=bytearray().join(parts)
+          buf=bytearray().join(bytearray(base64.b64decode(Path(f'.github/batch042_payload_{n}.txt').read_text().strip())) for n in seq)
+          # Parse gzip header including FNAME.
+          assert buf[:3]==bytes([0x1f,0x8b,0x08])
+          flg=buf[3]
+          p=10
+          if flg & 4:
+              xlen=buf[p] | (buf[p+1]<<8); p += 2+xlen
+          if flg & 8:
+              while buf[p]!=0: p+=1
+              p+=1
+          if flg & 16:
+              while buf[p]!=0: p+=1
+              p+=1
+          if flg & 2: p+=2
+          deflate_start=p
+          expected_crc=struct.unpack('<I',bytes(buf[-8:-4]))[0]
+          expected_size=struct.unpack('<I',bytes(buf[-4:]))[0]
           pos=4736
           orig=buf[pos]
-
-          def test(b):
-              d=zlib.decompressobj(16+zlib.MAX_WBITS)
-              out=bytearray()
-              fail=len(b); err='ok'
-              for i in range(0,len(b),256):
-                  try: out += d.decompress(bytes(b[i:i+256]))
-                  except Exception as e:
-                      fail=i; err=repr(e); break
-              else:
-                  try: out += d.flush()
-                  except Exception as e: err='flush '+repr(e)
-              return fail,len(out),bool(d.eof),err,bytes(out)
-
-          rows=[]; solved=[]
+          lines=[f'deflate_start={deflate_start} orig={orig} expected_crc={expected_crc:08x} expected_size={expected_size}']
+          candidates=[]
           for val in range(256):
               buf[pos]=val
-              f,o,e,err,out=test(buf)
-              rows.append((e,f,o,val,err))
-              if e: solved.append((val,o,out))
+              d=zlib.decompressobj(-zlib.MAX_WBITS)
+              out=bytearray(); err='ok'
+              try:
+                  out += d.decompress(bytes(buf[deflate_start:-8]))
+                  out += d.flush()
+              except Exception as e:
+                  err=repr(e)
+              crc=zlib.crc32(out)&0xffffffff
+              size=len(out)&0xffffffff
+              if crc==expected_crc and size==expected_size:
+                  candidates.append((val,bytes(out)))
+              if val in (0,1,16,17,32,33,48,49,orig):
+                  lines.append(f'val={val} out={len(out)} crc={crc:08x} sizeok={size==expected_size} crkok={crc==expected_crc} err={err}')
           buf[pos]=orig
-          rows.sort(reverse=True)
-          lines=[f'orig={orig} pos={pos}',f'solved_values={[x[0] for x in solved]}']
-          for e,f,o,val,err in rows[:40]:
-              lines.append(f'val={val} eof={e} fail~={f} out={o} err={err}')
-          Path('.github/batch042_exact_byte_log.txt').write_text('\n'.join(lines),encoding='utf-8')
-          if solved:
-              val,o,out=solved[0]
+          lines.append('MATCHES='+','.join(str(v) for v,_ in candidates))
+          if candidates:
+              val,out=candidates[0]
               Path('.github/batch042_solved_byte.txt').write_text(str(val),encoding='ascii')
-              # Save decoded tar as base64 so a later workflow can extract it exactly.
               Path('.github/batch042_solved_tar.b64').write_text(base64.b64encode(out).decode('ascii'),encoding='ascii')
+          Path('.github/batch042_exact_byte_log.txt').write_text('\n'.join(lines),encoding='utf-8')
           print('\n'.join(lines))
           PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add .github/batch042_exact_byte_log.txt .github/batch042_solved_byte.txt .github/batch042_solved_tar.b64 || true
-          git diff --cached --quiet || git commit -m 'Solve Batch 042 gzip corruption byte'
-          git push
+          git add -A .github/batch042_exact_byte_log.txt .github/batch042_solved_byte.txt .github/batch042_solved_tar.b64 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'Solve Batch 042 gzip corruption exactly'
+            git pull --rebase origin main
+            git push
+          fi
