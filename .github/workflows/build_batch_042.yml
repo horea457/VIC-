@@ -14,61 +14,43 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Search single-byte corruption in first payload chunk
+      - name: Test full payload variants after first-byte repair
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
           from pathlib import Path
           import base64,zlib
-
-          s=Path('.github/batch042_payload_1.txt').read_text().strip()
-          raw=bytearray(base64.b64decode(s))
-
-          def test(buf,limit=None):
-              d=zlib.decompressobj(16+zlib.MAX_WBITS)
-              out=bytearray()
-              n=len(buf) if limit is None else min(limit,len(buf))
-              for i in range(n):
-                  try:
-                      out += d.decompress(bytes([buf[i]]))
-                  except Exception as e:
-                      return i,len(out),False,repr(e)
-              return n,len(out),bool(d.eof),'ok'
-
-          log=[]
-          for step in range(12):
-              fail,out,eof,err=test(raw)
-              log.append(f'step={step} fail_raw={fail} out={out} eof={eof} err={err}')
-              if fail>=len(raw):
-                  break
-              best=(fail,out,None,None)
-              lo=max(0,fail-8); hi=min(len(raw)-1,fail+8)
-              for pos in range(lo,hi+1):
-                  orig=raw[pos]
-                  for val in range(256):
-                      if val==orig: continue
-                      raw[pos]=val
-                      f,o,e,_=test(raw)
-                      score=(f,o)
-                      if score>(best[0],best[1]):
-                          best=(f,o,pos,val)
-                  raw[pos]=orig
-              if best[2] is None or best[0] <= fail:
-                  log.append('NO_SINGLE_BYTE_IMPROVEMENT')
-                  break
-              pos,val=best[2],best[3]
-              old=raw[pos]; raw[pos]=val
-              log.append(f'REPAIR pos={pos} {old}->{val} new_fail={best[0]} new_out={best[1]}')
-          fail,out,eof,err=test(raw)
-          log.append(f'FINAL fail_raw={fail}/{len(raw)} out={out} eof={eof} err={err}')
-          if fail==len(raw):
-              Path('.github/batch042_payload_1_repaired.bin.b64').write_text(base64.b64encode(bytes(raw)).decode(),encoding='ascii')
-          Path('.github/batch042_repair_log.txt').write_text('\n'.join(log),encoding='utf-8')
-          print('\n'.join(log))
+          names=['1','2','3','3a','4','4a','4b','4c','5']
+          raw={n:bytearray(base64.b64decode(Path(f'.github/batch042_payload_{n}.txt').read_text().strip())) for n in names}
+          raw['1'][4736]=48
+          variants={
+            'v1':['1','2','3a','4a','4b','4c','5'],
+            'v2':['1','2','3a','4','5'],
+            'v3':['1','2','3','4a','4b','4c','5'],
+            'v4':['1','2','3','4','5'],
+            'v5':['1','2','3a','4a','4c','5'],
+            'v6':['1','2','3a','4b','4c','5'],
+            'v7':['1','2','3a','4a','4b','5'],
+          }
+          def test(buf):
+              d=zlib.decompressobj(16+zlib.MAX_WBITS); out=bytearray()
+              for i,b in enumerate(buf):
+                  try: out += d.decompress(bytes([b]))
+                  except Exception as e: return i,len(out),False,repr(e)
+              try: out += d.flush()
+              except Exception as e: return len(buf),len(out),False,'flush '+repr(e)
+              return len(buf),len(out),bool(d.eof),'ok'
+          lines=[]
+          for k,seq in variants.items():
+              buf=bytearray().join(raw[n] for n in seq)
+              f,o,e,err=test(buf)
+              lines.append(f'{k} seq={seq} raw={len(buf)} fail={f} out={o} eof={e} err={err}')
+          Path('.github/batch042_repair_log.txt').write_text('\n'.join(lines),encoding='utf-8')
+          print('\n'.join(lines))
           PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add .github/batch042_repair_log.txt .github/batch042_payload_1_repaired.bin.b64 || true
-          git diff --cached --quiet || git commit -m 'Diagnose Batch 042 compressed payload corruption'
+          git add .github/batch042_repair_log.txt
+          git diff --cached --quiet || git commit -m 'Test Batch 042 repaired payload variants'
           git push
