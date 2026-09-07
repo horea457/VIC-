@@ -1,0 +1,4 @@
+step=0 fail_raw=4736 out=16982 eof=False err=error('Error -3 while decompressing data: invalid distance too far back')
+REPAIR pos=4736 152->48 new_fail=9000 new_out=39432
+step=1 fail_raw=9000 out=39432 eof=False err=ok
+FINAL fail_raw=9000/9000 out=39432 eof=False err=ok
