@@ -98,6 +98,14 @@ jobs:
           lines += ['','RECOVERED_FILES']
           for p in sorted(rec.rglob('*')):
               if p.is_file(): lines.append(f'{p.relative_to(rec)}\t{p.stat().st_size}')
+          # Save UTF-8-clean mirrors so partially corrupted markdown can still be inspected.
+          for p in sorted(rec.rglob('*.md')):
+              try:
+                  raw=p.read_bytes()
+                  clean=raw.decode('utf-8','ignore')
+                  (p.parent/(p.name+'.clean.txt')).write_text(clean,encoding='utf-8')
+              except Exception:
+                  pass
           Path('.github/batch042_recovery_inventory.txt').write_text('\n'.join(lines),encoding='utf-8')
           print('\n'.join(lines[:180]))
           PY
