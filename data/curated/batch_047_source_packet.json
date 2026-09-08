@@ -1,0 +1,136 @@
+{
+  "batch": "047",
+  "format": "V9-per-idea",
+  "source": "data/curated/source_true_unreviewed.json (SQL-derived)",
+  "excluded_prior_ids_count": 40,
+  "group_counts": {
+    "BCO": 1,
+    "CIT": 4,
+    "KAR": 7,
+    "TWX": 7,
+    "MUSA": 7
+  },
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "idea_id": "d1cfc369-1bf6-491c-b398-13877c9d394d",
+      "source_link": null,
+      "ticker": "BCO",
+      "user_link": "/member/bdon99/45294",
+      "date": "2020-05-28 22:50:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "BRINKS CO ",
+      "author": "bdon99",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "f2dc229e-52b4-4b56-ae6b-ca21f91e3415",
+      "source_link": null,
+      "ticker": "CIT",
+      "user_link": "/member/Rotin/26909",
+      "date": "2009-07-28 17:14:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "CIT Group ",
+      "author": "Rotin",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "bbce234a-0f82-416d-bfcc-e20ceae4c326",
+      "source_link": null,
+      "ticker": "CIT",
+      "user_link": "/member/brook1001/20648",
+      "date": "2011-10-04 09:53:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "CIT Group ",
+      "author": "brook1001",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "a8bb036d-28b6-443d-98d7-59f02969dc49",
+      "source_link": "https://www.valueinvestorsclub.com/idea/CIT_GROUP_INC/5340770392",
+      "ticker": "CIT",
+      "user_link": "/member/abra399/832",
+      "date": "2016-03-03 14:43:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "CIT Group ",
+      "author": "abra399",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "09a5b37a-fc76-4352-83c4-4f5852b0ce1e",
+      "source_link": "https://www.valueinvestorsclub.com/idea/CIT_GROUP_INC/4146606402",
+      "ticker": "CIT",
+      "user_link": "/member/abra399/832",
+      "date": "2020-10-19 15:57:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "CIT Group ",
+      "author": "abra399",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "dfbba713-4d92-41d8-8877-b842d7ca966c",
+      "source_link": null,
+      "ticker": "KAR",
+      "user_link": "/member/glg919/2197",
+      "date": "2006-09-13 17:41:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "KAR AUCTION SERVICES INC ",
+      "author": "glg919",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "2d4fcc5e-7280-498f-aa1f-b7d51b3b9b7a",
+      "source_link": "https://www.valueinvestorsclub.com/idea/KAR_AUCTION_SERVICES_INC/5012749624",
+      "ticker": "KAR",
+      "user_link": "/member/can869/2236",
+      "date": "2010-11-12 14:40:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "KAR AUCTION SERVICES INC ",
+      "author": "can869",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "93acf9c9-943b-4f47-a530-c7fe355e48bb",
+      "source_link": null,
+      "ticker": "KAR",
+      "user_link": "/member/VIC_Member2015/65088",
+      "date": "2018-08-01 11:10:00",
+      "is_short": true,
+      "contest_winner": false,
+      "company_name": "KAR AUCTION SERVICES INC ",
+      "author": "VIC_Member2015",
+      "direction_ko": "숏"
+    },
+    {
+      "idea_id": "f8f8e751-81f4-4429-bced-42c98e351b8c",
+      "source_link": "https://www.valueinvestorsclub.com/idea/KAR_AUCTION_SERVICES_INC/5257676092",
+      "ticker": "KAR",
+      "user_link": "/member/nychrg/41723",
+      "date": "2019-03-04 16:36:00",
+      "is_short": false,
+      "contest_winner": false,
+      "company_name": "KAR AUCTION SERVICES INC ",
+      "author": "nychrg",
+      "direction_ko": "롱"
+    },
+    {
+      "idea_id": "bbc0e4a7-71df-4431-a0fe-290847632214",
+      "source_link": null,
+      "ticker": "KAR",
+      "user_link": "/member/Fletch/47571",
+      "date": "2019-11-20 20:39:00",
+      "is_short": false,
+      "contest_winner": false,
+      "company_name": "KAR AUCTION SERVICES INC ",
+      "author": "Fletch",
+      "direction_ko": "롱"
+    }
+  ]
+}
