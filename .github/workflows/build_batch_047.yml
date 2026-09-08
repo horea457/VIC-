@@ -1,0 +1,83 @@
+name: Prepare Batch 047 V9
+
+on:
+  push:
+    paths:
+      - '.github/workflows/build_batch_047.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build Batch 047 source packet
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, pathlib
+          root=json.load(open('data/curated/source_true_unreviewed.json',encoding='utf-8'))
+          used=set()
+          for p in [
+              'data/curated/batch_043_source_packet.json',
+              'data/curated/batch_044_source_packet.json',
+              'data/curated/batch_045_source_packet.json',
+              'data/curated/batch_046_source_packet.json']:
+              try:
+                  j=json.load(open(p,encoding='utf-8'))
+              except FileNotFoundError:
+                  continue
+              for key in ('candidates','records'):
+                  used.update(x['idea_id'] for x in j.get(key,[]) if isinstance(x,dict) and x.get('idea_id'))
+          records=[]
+          def walk(x):
+              if isinstance(x,dict):
+                  if 'idea_id' in x and 'ticker' in x:
+                      records.append(dict(x))
+                  for v in x.values(): walk(v)
+              elif isinstance(x,list):
+                  for v in x: walk(v)
+          walk(root)
+          ded={}
+          for r in records: ded.setdefault(r['idea_id'],r)
+          records=[r for r in ded.values() if r['idea_id'] not in used]
+
+          # Continue prior queue in group order: finish BCO, finish CIT, then KAR.
+          groups=[]
+          for ticker in ['BCO','CIT','KAR','TWX','MUSA']:
+              g=sorted([r for r in records if r.get('ticker')==ticker], key=lambda x:x.get('date',''))
+              groups.append((ticker,g))
+          candidates=[]
+          for ticker,g in groups:
+              for r in g:
+                  if len(candidates)>=10: break
+                  candidates.append(r)
+              if len(candidates)>=10: break
+          packet={
+              'batch':'047','format':'V9-per-idea',
+              'source':'data/curated/source_true_unreviewed.json (SQL-derived)',
+              'excluded_prior_ids_count':len(used),
+              'group_counts':{t:len(g) for t,g in groups},
+              'candidate_count':len(candidates),
+              'candidates':candidates
+          }
+          pathlib.Path('data/curated/batch_047_source_packet.json').write_text(json.dumps(packet,ensure_ascii=False,indent=2),encoding='utf-8')
+          lines=['# Batch 047 — V9 Index','','## Scope','',f"Candidate count: **{len(candidates)}**",'']
+          for i,r in enumerate(candidates,1):
+              lines.append(f"{i}. {r.get('date','')[:10]} — {r.get('ticker')} — {r.get('company_name','').strip()} — raw {'Short' if r.get('is_short') else 'Long'} — `{r.get('idea_id')}`")
+          lines += ['','## Rules','','- Raw SQL direction/entity are metadata only; original thesis controls research direction/security.','- Each idea gets one canonical V9 file under `analysis/ideas/YYYY/`.','- Exact IRR is only inserted after entry/exit price verification.','- Business, valuation, balance sheet, catalyst/timing and security selection are scored separately.','']
+          pathlib.Path('analysis/batch_047_v9_index.md').write_text('\n'.join(lines),encoding='utf-8')
+          print(json.dumps({'group_counts':packet['group_counts'],'candidates':[(x.get('ticker'),x.get('date'),x.get('idea_id')) for x in candidates]},ensure_ascii=False,indent=2))
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/curated/batch_047_source_packet.json analysis/batch_047_v9_index.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Initialize Batch 047 V9 candidate index'
+            git pull --rebase origin main
+            git push
+          fi
