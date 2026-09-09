@@ -47,6 +47,7 @@ BATCH_SOURCES = (
 ("batch_039_nexstar_sinclair_deep_v7.json","batch_039_nexstar_sinclair_10.md","Batch 039"),
 ("batch_040_gray_townsquare_deep_v7.json","batch_040_gray_townsquare_10.md","Batch 040"),
 ("batch_041_local_radio_audio_deep_v7.json","batch_041_local_radio_audio_10.md","Batch 041"),
+("batch_042_radio_satellite_audio_deep_v7.json","batch_042_radio_satellite_audio_10.md","Batch 042"),
 ("all_reviewed_v8_index.json","all_reviewed_v8.md.gz","V8 전체 DB"),)
 
 @st.cache_data(show_spinner=False)
