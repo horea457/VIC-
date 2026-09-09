@@ -48,6 +48,7 @@ BATCH_SOURCES = (
 ("batch_040_gray_townsquare_deep_v7.json","batch_040_gray_townsquare_10.md","Batch 040"),
 ("batch_041_local_radio_audio_deep_v7.json","batch_041_local_radio_audio_10.md","Batch 041"),
 ("batch_042_radio_satellite_audio_deep_v7.json","batch_042_radio_satellite_audio_10.md","Batch 042"),
+("batch_043_level3_nexstar_deep_v7.json","batch_043_level3_nexstar_10.md","Batch 043"),
 ("all_reviewed_v8_index.json","all_reviewed_v8.md.gz","V8 전체 DB"),)
 
 @st.cache_data(show_spinner=False)
@@ -58,7 +59,9 @@ def _idea_catalog():
         if not jp.exists() or not mp.exists(): continue
         for pos,item in enumerate(json.loads(jp.read_text(encoding='utf-8')).get('postmortems',[])):
             iid=item['idea_id']
-            if iid not in catalog: catalog[iid]={'batch_name':batch_name,'markdown_path':str(mp),'position':pos,'ticker':item.get('ticker','')}
+            # Later V9 batches are canonical upgrades for any repeated source idea.
+            if batch_name == "V8 전체 DB" and iid in catalog: continue
+            catalog[iid]={'batch_name':batch_name,'markdown_path':str(mp),'position':pos,'ticker':item.get('ticker','')}
     return catalog
 
 def _heading_starts(text,pattern): return list(re.finditer(pattern,text,flags=re.MULTILINE))
