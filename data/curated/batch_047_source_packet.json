@@ -1,136 +1,109 @@
 {
   "batch": "047",
-  "format": "V9-per-idea",
-  "source": "data/curated/source_true_unreviewed.json (SQL-derived)",
-  "excluded_prior_ids_count": 40,
-  "group_counts": {
-    "BCO": 1,
-    "CIT": 4,
-    "KAR": 7,
-    "TWX": 7,
-    "MUSA": 7
-  },
-  "candidate_count": 10,
+  "record_count": 10,
+  "source": "VIC_IDEAS(4).sql",
+  "direction_audit": "complete",
+  "performance_rule": "no SQL performance rows; exact returns null",
   "candidates": [
     {
       "idea_id": "d1cfc369-1bf6-491c-b398-13877c9d394d",
-      "source_link": null,
+      "date": "2020-05-28",
       "ticker": "BCO",
-      "user_link": "/member/bdon99/45294",
-      "date": "2020-05-28 22:50:00",
-      "is_short": true,
-      "contest_winner": false,
-      "company_name": "BRINKS CO ",
+      "company_name": "The Brink's Company",
       "author": "bdon99",
-      "direction_ko": "숏"
+      "raw_direction": "Short",
+      "research_direction": "Long",
+      "canonical_report": "analysis/ideas/2020/2020-05-28_BCO_long.md"
     },
     {
       "idea_id": "f2dc229e-52b4-4b56-ae6b-ca21f91e3415",
-      "source_link": null,
+      "date": "2009-07-28",
       "ticker": "CIT",
-      "user_link": "/member/Rotin/26909",
-      "date": "2009-07-28 17:14:00",
-      "is_short": true,
-      "contest_winner": false,
-      "company_name": "CIT Group ",
+      "company_name": "CIT Group — 5.6% 2011 senior unsecured notes",
       "author": "Rotin",
-      "direction_ko": "숏"
+      "raw_direction": "Short",
+      "research_direction": "Long",
+      "canonical_report": "analysis/ideas/2009/2009-07-28_CIT_senior_unsecured_long.md"
     },
     {
       "idea_id": "bbce234a-0f82-416d-bfcc-e20ceae4c326",
-      "source_link": null,
+      "date": "2011-10-04",
       "ticker": "CIT",
-      "user_link": "/member/brook1001/20648",
-      "date": "2011-10-04 09:53:00",
-      "is_short": true,
-      "contest_winner": false,
-      "company_name": "CIT Group ",
+      "company_name": "CIT Group Inc.",
       "author": "brook1001",
-      "direction_ko": "숏"
+      "raw_direction": "Short",
+      "research_direction": "Long",
+      "canonical_report": "analysis/ideas/2011/2011-10-04_CIT_long.md"
     },
     {
       "idea_id": "a8bb036d-28b6-443d-98d7-59f02969dc49",
-      "source_link": "https://www.valueinvestorsclub.com/idea/CIT_GROUP_INC/5340770392",
+      "date": "2016-03-03",
       "ticker": "CIT",
-      "user_link": "/member/abra399/832",
-      "date": "2016-03-03 14:43:00",
-      "is_short": true,
-      "contest_winner": false,
-      "company_name": "CIT Group ",
+      "company_name": "CIT Group Inc.",
       "author": "abra399",
-      "direction_ko": "숏"
+      "raw_direction": "Short",
+      "research_direction": "Long",
+      "canonical_report": "analysis/ideas/2016/2016-03-03_CIT_long.md"
     },
     {
       "idea_id": "09a5b37a-fc76-4352-83c4-4f5852b0ce1e",
-      "source_link": "https://www.valueinvestorsclub.com/idea/CIT_GROUP_INC/4146606402",
+      "date": "2020-10-19",
       "ticker": "CIT",
-      "user_link": "/member/abra399/832",
-      "date": "2020-10-19 15:57:00",
-      "is_short": true,
-      "contest_winner": false,
-      "company_name": "CIT Group ",
+      "company_name": "CIT Group Inc. / First Citizens merger claim",
       "author": "abra399",
-      "direction_ko": "숏"
+      "raw_direction": "Short",
+      "research_direction": "Long",
+      "canonical_report": "analysis/ideas/2020/2020-10-19_CIT_merger_long.md"
     },
     {
       "idea_id": "dfbba713-4d92-41d8-8877-b842d7ca966c",
-      "source_link": null,
+      "date": "2006-09-13",
       "ticker": "KAR",
-      "user_link": "/member/glg919/2197",
-      "date": "2006-09-13 17:41:00",
-      "is_short": true,
-      "contest_winner": false,
-      "company_name": "KAR AUCTION SERVICES INC ",
+      "company_name": "KAR Auction Services / ADESA",
       "author": "glg919",
-      "direction_ko": "숏"
+      "raw_direction": "Short",
+      "research_direction": "Long",
+      "canonical_report": "analysis/ideas/2006/2006-09-13_KAR_long.md"
     },
     {
       "idea_id": "2d4fcc5e-7280-498f-aa1f-b7d51b3b9b7a",
-      "source_link": "https://www.valueinvestorsclub.com/idea/KAR_AUCTION_SERVICES_INC/5012749624",
+      "date": "2010-11-12",
       "ticker": "KAR",
-      "user_link": "/member/can869/2236",
-      "date": "2010-11-12 14:40:00",
-      "is_short": true,
-      "contest_winner": false,
-      "company_name": "KAR AUCTION SERVICES INC ",
+      "company_name": "KAR Auction Services / ADESA",
       "author": "can869",
-      "direction_ko": "숏"
+      "raw_direction": "Short",
+      "research_direction": "Long",
+      "canonical_report": "analysis/ideas/2010/2010-11-12_KAR_long.md"
     },
     {
       "idea_id": "93acf9c9-943b-4f47-a530-c7fe355e48bb",
-      "source_link": null,
+      "date": "2018-08-01",
       "ticker": "KAR",
-      "user_link": "/member/VIC_Member2015/65088",
-      "date": "2018-08-01 11:10:00",
-      "is_short": true,
-      "contest_winner": false,
-      "company_name": "KAR AUCTION SERVICES INC ",
+      "company_name": "KAR Auction Services / ADESA",
       "author": "VIC_Member2015",
-      "direction_ko": "숏"
+      "raw_direction": "Short",
+      "research_direction": "Long",
+      "canonical_report": "analysis/ideas/2018/2018-08-01_KAR_long.md"
     },
     {
       "idea_id": "f8f8e751-81f4-4429-bced-42c98e351b8c",
-      "source_link": "https://www.valueinvestorsclub.com/idea/KAR_AUCTION_SERVICES_INC/5257676092",
+      "date": "2019-03-04",
       "ticker": "KAR",
-      "user_link": "/member/nychrg/41723",
-      "date": "2019-03-04 16:36:00",
-      "is_short": false,
-      "contest_winner": false,
-      "company_name": "KAR AUCTION SERVICES INC ",
+      "company_name": "KAR Auction Services / ADESA",
       "author": "nychrg",
-      "direction_ko": "롱"
+      "raw_direction": "Long",
+      "research_direction": "Long",
+      "canonical_report": "analysis/ideas/2019/2019-03-04_KAR_long.md"
     },
     {
       "idea_id": "bbc0e4a7-71df-4431-a0fe-290847632214",
-      "source_link": null,
+      "date": "2019-11-20",
       "ticker": "KAR",
-      "user_link": "/member/Fletch/47571",
-      "date": "2019-11-20 20:39:00",
-      "is_short": false,
-      "contest_winner": false,
-      "company_name": "KAR AUCTION SERVICES INC ",
+      "company_name": "KAR Auction Services / ADESA",
       "author": "Fletch",
-      "direction_ko": "롱"
+      "raw_direction": "Long",
+      "research_direction": "Long",
+      "canonical_report": "analysis/ideas/2019/2019-11-20_KAR_long.md"
     }
   ]
 }

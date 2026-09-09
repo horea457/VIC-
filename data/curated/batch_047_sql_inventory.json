@@ -1,0 +1,9 @@
+{
+  "source_filename": "VIC_IDEAS(4).sql",
+  "attachment_bytes_checked": 122499072,
+  "records_selected": 10,
+  "raw_descriptions_verified": 10,
+  "performance_rows_found": 0,
+  "direction_corrections": 8,
+  "note": "첨부 SQL와 기존 CIT raw extract를 함께 감사했다. raw Short 8건은 원문 본문상 모두 Long으로 보정했으며, CIT 2009는 보통주가 아닌 5.6% 2011 senior unsecured debt로 식별했다. exact return은 performance row 부재로 null 유지."
+}
