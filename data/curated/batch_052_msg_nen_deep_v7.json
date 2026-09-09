@@ -1,0 +1,236 @@
+{
+  "schema_version": "vic-deep-research-v9",
+  "batch": 52,
+  "title": "Madison Square Garden / New England Realty Associates — SOTP Separation and Cap-Rate Cycle V9",
+  "research_asof": "2026-09-10",
+  "ideas_master": [
+    {
+      "idea_id": "f09b9d47-cf2a-43d2-b07b-c03cb2a30909",
+      "date": "2012-12-17",
+      "ticker": "MSG",
+      "company_name": "Madison Square Garden",
+      "author": "sandman898",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "source_link": null,
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Long 일치"
+    },
+    {
+      "idea_id": "b1aaa11a-950a-47ab-9831-10b1c91b8595",
+      "date": "2014-08-04",
+      "ticker": "MSG",
+      "company_name": "Madison Square Garden",
+      "author": "Azalea",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/MADISON_SQUARE_GARDEN_CO/6958821775",
+      "performance_available": 0,
+      "contest_winner": 1,
+      "auto_tag_status_ko": "raw Long 일치·contest winner"
+    },
+    {
+      "idea_id": "4708ee21-4e17-4f34-9874-adcb9f4f2512",
+      "date": "2016-07-20",
+      "ticker": "MSG",
+      "company_name": "Madison Square Garden",
+      "author": "RogerDorn24",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "source_link": null,
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Long 일치·post-2015 spin entity"
+    },
+    {
+      "idea_id": "c47641e6-ec3d-4ceb-b2b8-56290e6660f2",
+      "date": "2018-11-20",
+      "ticker": "MSG",
+      "company_name": "Madison Square Garden",
+      "author": "tyler939",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "source_link": null,
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Long 일치·sports spin event"
+    },
+    {
+      "idea_id": "ae00174e-1333-4bee-b573-ef147bfa24db",
+      "date": "2001-12-28",
+      "ticker": "NEN",
+      "company_name": "New England Realty Associates",
+      "author": "mal228",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/New_England_Realty/7664756422",
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Long 일치·pre-2012 1/10 receipt"
+    },
+    {
+      "idea_id": "57c53563-8f25-4dd8-a2c8-eda06b38ef77",
+      "date": "2002-12-28",
+      "ticker": "NEN",
+      "company_name": "New England Realty Associates",
+      "author": "mal228",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "source_link": null,
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Long 일치·pre-2012 1/10 receipt"
+    },
+    {
+      "idea_id": "0e8dfe6c-4fa5-4b84-b087-7c4a26b60f4e",
+      "date": "2005-12-09",
+      "ticker": "NEN",
+      "company_name": "New England Realty Associates",
+      "author": "nassau799",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/New_England_Realty_Associates/0584658068",
+      "performance_available": 1,
+      "perf_1m": 0.9742885307051661,
+      "perf_3m": 0.9511515618136664,
+      "perf_6m": 0.8985812905527718,
+      "perf_1y": 1.008672066712748,
+      "perf_2y": 0.8945192479108632,
+      "perf_3y": 0.7185699909554386,
+      "perf_5y": 0.8519008423603325,
+      "auto_tag_status_ko": "raw Long 일치·cap-rate cycle failure"
+    },
+    {
+      "idea_id": "41361162-0766-4c8f-8479-39b0ad418956",
+      "date": "2007-02-27",
+      "ticker": "NEN",
+      "company_name": "New England Realty Associates",
+      "author": "pirate681",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/New_England_Realty_Associates/8458157585",
+      "performance_available": 1,
+      "perf_1m": 0.9554836899269025,
+      "perf_3m": 0.9389045040734931,
+      "perf_6m": 0.8344289519323216,
+      "perf_1y": 0.8817191934897713,
+      "perf_2y": 0.6100395158730524,
+      "perf_3y": 0.592227471582153,
+      "perf_5y": 0.9880946356857314,
+      "auto_tag_status_ko": "raw Long 일치·peak cap-rate compression"
+    },
+    {
+      "idea_id": "2f580789-fcdc-4c31-931a-6835a6aba060",
+      "date": "2009-08-29",
+      "ticker": "NEN",
+      "company_name": "New England Realty Associates",
+      "author": "clancy836",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/NEW_ENGLAND_REALTY_ASSC__-LP/5338998526",
+      "performance_available": 1,
+      "perf_1m": 1.0463276056402826,
+      "perf_3m": 0.9398783919520929,
+      "perf_6m": 0.9871184413314011,
+      "perf_1y": 1.1341599000145686,
+      "perf_2y": 1.265367776167583,
+      "perf_3y": 1.7359127121048314,
+      "perf_5y": 3.0829633719013336,
+      "auto_tag_status_ko": "raw Long 일치·post-GFC high-cap-rate"
+    },
+    {
+      "idea_id": "ff823bb1-262b-42e6-a648-9c7755df43f0",
+      "date": "2011-06-30",
+      "ticker": "NEN",
+      "company_name": "New England Realty Associates",
+      "author": "nassau799",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "source_link": null,
+      "performance_available": 1,
+      "perf_3m": 0.9298735453076213,
+      "perf_6m": 1.0421592877293184,
+      "perf_1y": 1.2358846325399262,
+      "perf_3y": 2.3478228128204086,
+      "auto_tag_status_ko": "raw Long 일치·pre-2012 1/10 receipt"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "f09b9d47-cf2a-43d2-b07b-c03cb2a30909",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "renovation capex cliff / FCF Long",
+      "one_line_verdict_ko": "Garden transformation 종료 후 FCF inflection과 2015 separation으로 성공 방향",
+      "thesis_score": 8.8,
+      "process_score": 9
+    },
+    {
+      "idea_id": "b1aaa11a-950a-47ab-9831-10b1c91b8595",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "RSN FCF + trophy asset SOTP Long",
+      "one_line_verdict_ko": "2015 media vs sports/entertainment separation으로 thesis 직접 실현",
+      "thesis_score": 9.5,
+      "process_score": 9.5
+    },
+    {
+      "idea_id": "4708ee21-4e17-4f34-9874-adcb9f4f2512",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "post-spin accounting normalization Long",
+      "one_line_verdict_ko": "standalone economic earnings 재구성 적중, 2020 추가 separation까지 연결",
+      "thesis_score": 8.5,
+      "process_score": 9
+    },
+    {
+      "idea_id": "c47641e6-ec3d-4ceb-b2b8-56290e6660f2",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "sports spin / trophy-asset SOTP Long",
+      "one_line_verdict_ko": "2020 spin은 적중했으나 COVID·Sphere capex로 payoff path 혼합",
+      "thesis_score": 7.5,
+      "process_score": 8.5
+    },
+    {
+      "idea_id": "ae00174e-1333-4bee-b573-ef147bfa24db",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "high-cap-rate Boston apartment Long",
+      "one_line_verdict_ko": "13.4% cap / 5.8x FCF entry로 2005까지 큰 가치상승",
+      "thesis_score": 9,
+      "process_score": 8.5
+    },
+    {
+      "idea_id": "57c53563-8f25-4dd8-a2c8-eda06b38ef77",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "private-market discount apartment Long",
+      "one_line_verdict_ko": "12.5~13% cap, low leverage; 2005까지 private-value gap 축소",
+      "thesis_score": 9,
+      "process_score": 8.5
+    },
+    {
+      "idea_id": "0e8dfe6c-4fa5-4b84-b087-7c4a26b60f4e",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "NAV-discount / cap-rate compression Long",
+      "one_line_verdict_ko": "1Y +0.9%, 3Y -28.1%, 5Y -14.8%; 6% cap anchor 실패",
+      "thesis_score": 4.5,
+      "process_score": 8.5
+    },
+    {
+      "idea_id": "41361162-0766-4c8f-8479-39b0ad418956",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "peak cap-rate compression + activist Long",
+      "one_line_verdict_ko": "5% cap base에서 GFC 진입, 3Y -40.8% 강한 실패",
+      "thesis_score": 2.5,
+      "process_score": 8
+    },
+    {
+      "idea_id": "2f580789-fcdc-4c31-931a-6835a6aba060",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "post-GFC high-cap-rate + buyback Long",
+      "one_line_verdict_ko": "8.1% implied cap, 5Y +208.3%; cycle reset을 정확히 샀음",
+      "thesis_score": 9.5,
+      "process_score": 9.5
+    },
+    {
+      "idea_id": "ff823bb1-262b-42e6-a648-9c7755df43f0",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "NAV-discount owner-operator compounder Long",
+      "one_line_verdict_ko": "8.6% core cap + JV + buyback, 3Y +134.8%",
+      "thesis_score": 9.3,
+      "process_score": 9.5
+    }
+  ]
+}
