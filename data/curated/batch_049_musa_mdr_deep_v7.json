@@ -1,0 +1,232 @@
+{
+  "schema_version": "vic-deep-research-v9",
+  "batch": 49,
+  "title": "Metals USA / Murphy USA / McDermott — Unit Economics, Capital Allocation and Backlog Quality V9",
+  "research_asof": "2026-09-09",
+  "ideas_master": [
+    {
+      "idea_id": "1d089c25-d25d-45c6-a776-7952187c93ae",
+      "date": "2011-09-26",
+      "ticker": "MUSA",
+      "company_name": "Metals USA Holdings",
+      "author": "sancho",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/METALS_USA_HOLDINGS_CORP/8422099992",
+      "auto_tag_status_ko": "raw Short 보존·entity Metals USA·본문 Long 교정"
+    },
+    {
+      "idea_id": "2124065d-7f2a-4ce6-89fc-85ad29c2d239",
+      "date": "2013-09-27",
+      "ticker": "MUSA",
+      "company_name": "Murphy USA",
+      "author": "werd725",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/MURPHY_USA_INC/8177097139",
+      "performance_available": 1,
+      "perf_1m": 1.0027545096621269,
+      "perf_3m": 1.0369084207143142,
+      "perf_6m": 1.0035027720862961,
+      "perf_1y": 1.3394726005383473,
+      "perf_2y": 1.3511083323289543,
+      "perf_3y": 1.805456791611426,
+      "perf_5y": 2.137672753203969,
+      "auto_tag_status_ko": "raw Short 보존·Murphy USA Long 교정"
+    },
+    {
+      "idea_id": "c03d8a90-48ef-40a1-9806-53f7c66b55a1",
+      "date": "2017-07-14",
+      "ticker": "MUSA",
+      "company_name": "Murphy USA",
+      "author": "jbur",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "performance_available": 1,
+      "perf_1m": 0.9401459367329675,
+      "perf_3m": 0.9935782836806728,
+      "perf_6m": 1.1772646516673821,
+      "perf_1y": 1.091636211090136,
+      "perf_2y": 1.1646268028520588,
+      "perf_3y": 1.545643081479259,
+      "perf_5y": 3.6592253657100073,
+      "auto_tag_status_ko": "raw와 actual Short 일치"
+    },
+    {
+      "idea_id": "1f5e5ed8-0ff8-46eb-a46e-b11f7a3aacd4",
+      "date": "2018-06-27",
+      "ticker": "MUSA",
+      "company_name": "Murphy USA",
+      "author": "cable888",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "performance_available": 1,
+      "perf_1m": 1.0477073317955463,
+      "perf_3m": 1.1435059930584,
+      "perf_6m": 0.9353118869510854,
+      "perf_1y": 1.1159794231142346,
+      "perf_2y": 1.470751503654041,
+      "perf_3y": 1.774325241985901,
+      "auto_tag_status_ko": "raw와 actual Short 일치"
+    },
+    {
+      "idea_id": "33322efc-4c79-44a0-bae8-d523401d5294",
+      "date": "2020-01-02",
+      "ticker": "MUSA",
+      "company_name": "Murphy USA",
+      "author": "helopilot",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "source_link": "https://www.valueinvestorsclub.com/idea/MURPHY_USA_INC/0938974983",
+      "performance_available": 1,
+      "perf_1m": 0.9076193532285093,
+      "perf_3m": 0.7289888401611581,
+      "perf_6m": 0.9895978179484437,
+      "perf_1y": 1.1287927407565872,
+      "perf_2y": 1.7528790958034726,
+      "perf_3y": 2.4317217527721326,
+      "auto_tag_status_ko": "raw와 actual Short 일치"
+    },
+    {
+      "idea_id": "a6ae89f3-2962-4fb1-aa53-982c5ed9d550",
+      "date": "2021-11-15",
+      "ticker": "MUSA",
+      "company_name": "Murphy USA",
+      "author": "ATM",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "performance_available": 1,
+      "perf_1m": 1.0588372260629009,
+      "perf_3m": 0.9939793434934223,
+      "perf_6m": 1.4193725433670217,
+      "perf_1y": 1.5771237228280455,
+      "auto_tag_status_ko": "raw Short 보존·본문 Long 교정"
+    },
+    {
+      "idea_id": "06fd0ab4-1a91-4cde-af23-1b714aa26453",
+      "date": "2003-02-06",
+      "ticker": "MDR",
+      "company_name": "McDermott International",
+      "author": "will579",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/McDermott_International_Inc./4611660448",
+      "auto_tag_status_ko": "raw Long 일치"
+    },
+    {
+      "idea_id": "e16270bb-a0a0-4fa2-95ed-18d2e87f1dd5",
+      "date": "2004-06-07",
+      "ticker": "MDR",
+      "company_name": "McDermott International",
+      "author": "mark81",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/Mcdermott_International/7791069000",
+      "auto_tag_status_ko": "raw Long 일치"
+    },
+    {
+      "idea_id": "c163edb6-5996-47b7-beb2-b656f03cd796",
+      "date": "2008-12-12",
+      "ticker": "MDR",
+      "company_name": "McDermott International",
+      "author": "varna10",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/McDermott_International_Inc/3704903279",
+      "auto_tag_status_ko": "raw Short 보존·본문 Long 교정"
+    },
+    {
+      "idea_id": "f50e0425-11c8-4a2b-8d21-6c67c6772576",
+      "date": "2012-01-27",
+      "ticker": "MDR",
+      "company_name": "McDermott International",
+      "author": "rab",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/MCDERMOTT_INTL_INC/6441149528",
+      "auto_tag_status_ko": "raw Short 보존·본문 Long 교정"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "1d089c25-d25d-45c6-a776-7952187c93ae",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "metal service-center FCF / broken IPO",
+      "one_line_verdict_ko": "$9→$20.65 cash takeout, 약 2.29x gross",
+      "thesis_score": 9.3,
+      "process_score": 8.5
+    },
+    {
+      "idea_id": "2124065d-7f2a-4ce6-89fc-85ad29c2d239",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "post-spin low-cost fuel retailer",
+      "one_line_verdict_ko": "5Y +113.8%; buyback compounding이 핵심",
+      "thesis_score": 9,
+      "process_score": 8.5
+    },
+    {
+      "idea_id": "c03d8a90-48ef-40a1-9806-53f7c66b55a1",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "gasoline volume secular short",
+      "one_line_verdict_ko": "volume 약화 적중, CPG·buyback 오판으로 실패",
+      "thesis_score": 4,
+      "process_score": 7
+    },
+    {
+      "idea_id": "1f5e5ed8-0ff8-46eb-a46e-b11f7a3aacd4",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "fuel volume / leverage / buyback short",
+      "one_line_verdict_ko": "$350m EBITDA·6x 가정 실패; 3Y stock +77.4%",
+      "thesis_score": 3.5,
+      "process_score": 7
+    },
+    {
+      "idea_id": "33322efc-4c79-44a0-bae8-d523401d5294",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "valuation short / melting ice cube",
+      "one_line_verdict_ko": "3M short 성공, 1~3Y fundamental short 실패",
+      "thesis_score": 4.5,
+      "process_score": 7.5
+    },
+    {
+      "idea_id": "a6ae89f3-2962-4fb1-aa53-982c5ed9d550",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "structural CPG + reinvestment + buyback long",
+      "one_line_verdict_ko": "1Y +57.7%; 2025 CPG 30.7c, 누적 buyback $4.1bn",
+      "thesis_score": 9.5,
+      "process_score": 9
+    },
+    {
+      "idea_id": "06fd0ab4-1a91-4cde-af23-1b714aa26453",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "asbestos resolution + BWXT/J.Ray SOTP",
+      "one_line_verdict_ko": "SOTP 성공, legal catalyst 2006까지 지연",
+      "thesis_score": 8,
+      "process_score": 8
+    },
+    {
+      "idea_id": "e16270bb-a0a0-4fa2-95ed-18d2e87f1dd5",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "BWXT covers quote / free JRAY option",
+      "one_line_verdict_ko": "residual SOTP 적중, separation은 2010으로 지연",
+      "thesis_score": 8.5,
+      "process_score": 8.5
+    },
+    {
+      "idea_id": "c163edb6-5996-47b7-beb2-b656f03cd796",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "crisis SOTP / infrastructure recovery",
+      "one_line_verdict_ko": "2010 B&W spin으로 catalyst 적중, exact return 미복원",
+      "thesis_score": 7.5,
+      "process_score": 7.5
+    },
+    {
+      "idea_id": "f50e0425-11c8-4a2b-8d21-6c67c6772576",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "deepwater backlog / margin normalization long",
+      "one_line_verdict_ko": "2013 9개 loss projects와 큰 손실로 핵심 thesis 실패",
+      "thesis_score": 3,
+      "process_score": 6
+    }
+  ]
+}
