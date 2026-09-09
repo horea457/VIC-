@@ -1,64 +1,56 @@
-# Batch 045 — PLUS / Brink's — V9 Index
+# Batch 045 — ePlus / Plus500 / Brink's — V9 Index
 
-> 기준: Batch 003 V9 canonical format. 공통 기업 설명은 여기에서 한 번만 제공하고, 각 투자시점은 독립 Idea Unit으로 분리한다.
+> **Research as-of:** 2026-09-09. 첨부 `VIC_IDEAS(4).sql`의 원문·metadata·성과를 기준으로 entity와 direction을 수동 교정했다.
 
-## 0. 이번 배치의 핵심 교정
+## 0. 배치 결론
 
-이 배치는 SQL-derived `source_true_unreviewed`에서 Batch 043·044에서 이미 사용한 idea_id를 제외한 다음 10건을 선택했다. 결과는 **남은 PLUS 4건 + Brink's(BCO) 6건**이다.
+이번 10건의 핵심은 종목코드나 raw direction을 그대로 믿으면 투자판정이 뒤집힌다는 점이다. `PLUS`는 미국 ePlus와 영국 Plus500 두 회사가 충돌하고, raw Short 8건 중 실제 Short는 BCO 2014·2018 두 건뿐이다. BCO 성과 multiplier는 실제 Long/Short 방향으로 다시 부호를 계산했다.
 
-가장 중요한 데이터 이슈는 두 가지다.
+## 1. Idea Units
 
-1. `PLUS` ticker collision: 2008·2010은 **ePlus Inc.**지만 2019·2021은 실제로 **Plus500 Ltd.**다. SQL의 company lookup이 모두 `ePLUS`로 붙어 있어 entity를 반드시 분리해야 한다.
-2. SQL direction flag는 신뢰하지 않는다. ePlus 2010과 Plus500 2019는 raw `Short`지만 원문은 명백한 **Long**이다. Brink's 6건도 raw flag가 모두 Short라 원문 방향을 별도 검증 대상으로 둔다.
-
-## 1. 공통 기업 설명
-
-### ePlus Inc.
-
-ePlus는 미국 기업·공공기관에 서버, 네트워크, 보안, 데이터센터, 클라우드 인프라를 설계·조달·구축하는 **value-added reseller(VAR) + IT services + financing** 사업자다. 단순 하드웨어 유통처럼 보이지만 실제 경제성은 `제품 매출 × 낮은 gross margin + 서비스 gross profit + 금융/리스 수익 - 영업비용 - 운전자본 비용`으로 결정된다. 장비 리스에는 non-recourse financing이 많아 회계상 gross debt를 모두 기업가치 계산에 넣으면 실질 leverage를 과대평가할 수 있다.
-
-### Plus500 Ltd.
-
-Plus500은 온라인 CFD/파생상품 중개 플랫폼이다. 고객 수, ARPU, customer acquisition cost, churn, 규제별 leverage cap, market P&L이 핵심이다. 경제성은 대략 `active customers × ARPU - acquisition/marketing - platform/compliance - market P&L 변동`이다. 2018년 이후 ESMA leverage 제한이 유럽 사업의 구조를 바꿨고, 2019·2021 아이디어는 바로 이 규제 후 earnings power를 어떻게 볼 것인가가 핵심이다.
-
-### The Brink's Company
-
-Brink's는 현금·귀중품의 보안 운송, ATM replenishment, cash processing, vault outsourcing, smart safe, 국제 valuables logistics를 제공한다. 고객은 은행·리테일러·중앙은행·정부기관·보석/귀금속 업체다. 노선 밀도가 중요한 route-based logistics라서 동일 지역에서 더 많은 stop을 한 차량·인력·시설에 얹을수록 단위비용이 낮아진다.
-
-핵심 경제성은 `route density × price/mix → revenue → labor + fleet + facility + insurance/security cost → operating profit → capex + restructuring + pension/interest → FCF`다. 따라서 단순 매출 성장보다 **organic growth, operating margin, route density, cash conversion, pension/legacy liabilities, acquisition multiple과 integration**을 같이 봐야 한다.
-
-## 2. Idea Units
-
-| # | 날짜 | 실제 entity | 연구 방향 | 핵심 질문 | 파일 |
+| # | 날짜 | 실제 회사 | raw→연구 방향 | 성과 감사 | Canonical report |
 |---:|---|---|---|---|---|
-| 1 | 2008-06-09 | ePlus | Long | 재무 정상화와 NASDAQ 재상장이 value realization을 만들었나 | [2008 ePlus](ideas/2008/2008-06-09_PLUS_eplus_long.md) |
-| 2 | 2010-02-22 | ePlus | **Long — raw Short 교정** | non-recourse debt 조정 후 실질 EV가 얼마나 쌌나 | [2010 ePlus](ideas/2010/2010-02-22_PLUS_eplus_long.md) |
-| 3 | 2019-08-26 | **Plus500** | **Long — raw Short/entity 교정** | ESMA 후 earnings power가 실제로 안정됐나 | [2019 Plus500](ideas/2019/2019-08-26_PLUS500_long.md) |
-| 4 | 2021-09-03 | **Plus500** | Long — entity 교정 | 코로나 peak 이후에도 base earnings와 신규 옵션이 남았나 | [2021 Plus500](ideas/2021/2021-09-03_PLUS500_long.md) |
-| 5 | 2007-02-12 | Brink's | 원문 방향 재검증 | activism/SOTP가 common equity에 실제 귀속됐나 | [2007 Brink's](ideas/2007/2007-02-12_BCO.md) |
-| 6 | 2010-06-13 | Brink's | 원문 방향 재검증 | pure-play cash logistics 정상화가 가능한가 | [2010 Brink's](ideas/2010/2010-06-13_BCO.md) |
-| 7 | 2012-11-28 | Brink's | 원문 방향 재검증 | 저마진·legacy liability를 감안한 정상화 가치 | [2012 Brink's](ideas/2012/2012-11-28_BCO.md) |
-| 8 | 2014-02-07 | Brink's | 원문 방향 재검증 | peer margin gap이 실제 self-help opportunity였나 | [2014 Brink's](ideas/2014/2014-02-07_BCO.md) |
-| 9 | 2017-05-12 | Brink's | 원문 방향 재검증 | Pertz 체제의 margin program/roll-up이 equity FCF를 키웠나 | [2017 Brink's](ideas/2017/2017-05-12_BCO.md) |
-| 10 | 2018-05-17 | Brink's | 원문 방향 재검증 | APG/CTG/IDS와 M&A가 과도한 기대였나 | [2018 Brink's](ideas/2018/2018-05-17_BCO.md) |
+| 1 | 2008-06-09 | ePlus inc. | Long→**Long** | DB 없음 | [현금·TBV 할인과 filing/relisting의 마지막 구간을 산 Long](ideas/2008/2008-06-09_PLUS_eplus_long.md) |
+| 2 | 2010-02-22 | ePlus inc. | Short→**Long** | DB 없음 | [non-recourse debt를 EV에서 제거한 balance-sheet Long](ideas/2010/2010-02-22_PLUS_eplus_long.md) |
+| 3 | 2019-08-26 | Plus500 Ltd. | Short→**Long** | 후속 원문: 2Y 약 +150% total return | [ESMA 후 정상수익과 과도한 규제 공포를 산 contrarian Long](ideas/2019/2019-08-26_PLUS500_long.md) |
+| 4 | 2021-09-03 | Plus500 Ltd. | Long→**Long** | DB 없음 | [기존 CFD cash cow와 Invest·US futures 옵션을 함께 산 Long](ideas/2021/2021-09-03_PLUS500_long.md) |
+| 5 | 2007-02-12 | The Brink's Company | Short→**Long** | 1Y +3.8% / 3Y -27.4% / 5Y -26.2% | [보안물류+BHS SOTP와 activist value realization Long](ideas/2007/2007-02-12_BCO.md) |
+| 6 | 2010-06-13 | The Brink's Company | Short→**Long** | 1Y +33.9% / 3Y +30.9% / 5Y +61.5% | [일시비용 뒤 7~7.5% margin·12.2% FCF yield 정상화 Long](ideas/2010/2010-06-13_BCO.md) |
+| 7 | 2012-11-28 | The Brink's Company | Short→**Long** | 1Y +23.3% / 3Y +21.9% / 5Y +217.4% | [NA rationalization·LatAm hidden value·2014 FCF bridge Long](ideas/2012/2012-11-28_BCO.md) |
+| 8 | 2014-02-07 | The Brink's Company | Short→**Short** | 1Y +17.5% / 3Y -48.6% / 5Y -151.2% | [13x forward EBIT에 완전한 turnaround가 반영됐다는 Short](ideas/2014/2014-02-07_BCO.md) |
+| 9 | 2017-05-12 | The Brink's Company | Short→**Long** | 1Y +22.3% / 3Y -35.2% / 5Y -2.7% | [Doug Pertz 실행력과 peer margin gap closure Long](ideas/2017/2017-05-12_BCO.md) |
+| 10 | 2018-05-17 | The Brink's Company | Short→**Short** | 1Y -11.2% / 3Y -17.0% / 5Y null | [완전한 turnaround·LatAm 19.3% margin 기대를 판 Short](ideas/2018/2018-05-17_BCO.md) |
 
-## 3. 이 배치에서 반복해서 볼 질문
+## 2. 기업별 투자논지
 
-- **Entity가 맞는가?** ticker만으로 회사를 매칭하지 않는다.
-- **Debt가 진짜 corporate recourse인가?** ePlus처럼 lease-backed non-recourse debt가 섞이면 EV가 왜곡된다.
-- **규제 충격 후 숫자는 새 정상인가, 일시적 반등인가?** Plus500은 ESMA 전후 cohort economics를 분리해야 한다.
-- **route density가 실제 margin으로 전환되는가?** Brink's는 매출 성장보다 local density와 cost discipline이 중요하다.
-- **SOTP/asset value가 common equity에 언제 귀속되는가?** activism, spin-off, asset sale은 경로와 시간이 핵심이다.
-- **self-help와 multiple expansion을 중복 계산하지 않았는가?** margin improvement가 이미 주가에 반영됐는지 분리한다.
+### ePlus — balance sheet와 accounting edge
 
-## 4. Source packet
+2008년은 cash/TBV와 filing·NASDAQ relisting을 결합한 event Long이고, 2010년은 lease-backed non-recourse notes 때문에 database EV가 $59m 과대계상되는 구조를 교정한 Long이다. 둘 다 사업 방향은 맞았지만 SQL performance row가 없어 exact return은 만들지 않았다.
 
-- `data/curated/batch_045_source_packet.json`
-- `data/source_batch045/` — ePlus / Plus500 원문 4건 보존
-- Brink's SQL metadata idea_ids: `d65501e4...`, `d3cab447...`, `bda1795d...`, `4ac6396a...`, `88c3b3a4...`, `16123d39...`
+### Plus500 — 규제 후 cohort economics와 capital return
 
-## 5. Batch-level synthesis
+2019년은 ESMA 이후 실제 네 분기의 AUAC·churn·EEA retail run-rate로 과도한 규제공포를 반박했고, 2년 후 원문이 배당 포함 약 150% 수익을 확인했다. 2021년은 core CFD의 6x P/E와 현금환원 위에 Invest·US futures 옵션을 얹었으나, 2년 double은 SQL price row가 없어 미확정이다.
 
-이번 배치의 공통 주제는 **headline multiple보다 accounting/entity/claim 구조를 먼저 고쳐야 한다**는 것이다. ePlus에서는 non-recourse debt를 corporate leverage로 잘못 읽으면 EV가 틀리고, Plus500에서는 같은 ticker 때문에 회사 자체가 바뀌며, Brink's에서는 route-based operating leverage와 legacy liabilities를 분리하지 않으면 SOTP 또는 EBITDA multiple이 과대평가될 수 있다.
+### Brink's — 같은 기업, 서로 다른 expectations
 
-따라서 최종 판정은 항상 `Business thesis / Valuation thesis / Catalyst & timing / Security selection / Actual investment outcome`을 따로 기록한다.
+2007 SOTP Long은 분리 촉매를 맞혔지만 common 장기수익은 부진했다. 2010 normalization Long과 2012 self-help/LatAm Long은 성과가 좋았고 특히 2012는 2년 -19% drawdown 뒤 5년 +217%였다. 2014 Short는 1년만 성공하고 regime change 뒤 큰 손실, 2017 Long은 1~2년 성공 뒤 COVID 경로로 소멸, 2018 Short는 2년 pandemic 수익을 thesis 성공으로 오인하면 안 된다.
+
+## 3. 배치 공통 교훈
+
+1. **Entity resolution이 valuation보다 먼저다.** ticker collision은 exchange·company name·원문 business description으로 해소한다.
+2. **Direction은 action/payoff로 검증한다.** raw flag가 틀리면 return과 verdict 부호가 모두 뒤집힌다.
+3. **Event 성공과 주식 성공은 다르다.** BHS spin이나 NASDAQ relisting이 일어나도 target price/IRR은 별도다.
+4. **Margin gap은 사람과 기간의 함수다.** 현재 team의 실패를 영구 구조로 외삽한 2014 Short는 새 CEO 뒤 무너졌다.
+5. **Short는 cover rule이 논지 일부다.** BCO 2014·2018처럼 horizon에 따라 +17%에서 -151%, +40%에서 -17%로 바뀐다.
+6. **SQL 값이 없으면 비워 둔다.** 공시상 장기 기업성공을 특정 기간 투자수익으로 대체하지 않는다.
+
+## 4. 데이터·앱 산출물
+
+- DB payload: `data/curated/batch_045_eplus_plus500_brinks_deep_v7.json`
+- Streamlit wrapper: `analysis/batch_045_eplus_plus500_brinks_10.md`
+- 원문: `data/source_batch045/`
+- Builder: `scripts/45_build_batch_045_v9.py`
+
+## 5. 검증 기준
+
+각 보고서는 0~12절, 6개 claim/100% weight, 5개 핵심 metric, 최소 6개 event, 원문+공식자료 source를 포함한다. Payload와 문서의 direction·return·verdict를 동일하게 유지한다.
