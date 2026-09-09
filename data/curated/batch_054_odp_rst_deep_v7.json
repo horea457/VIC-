@@ -1,0 +1,248 @@
+{
+  "schema_version": "vic-deep-research-v9",
+  "batch": 54,
+  "title": "Office Depot / Boca Resorts / Rosetta Stone — From Forecasting to Unit Economics and Asset Proof V9",
+  "research_asof": "2026-09-10",
+  "metadata_audit": {
+    "direction_corrections": 8,
+    "entity_corrections": 1,
+    "notes": [
+      "ODP 2007-12, 2014-04, 2018-08, 2019-04, 2021-01 raw Short -> actual Long.",
+      "RST 2011-08, 2013-03, 2018-09 raw Short -> actual Long.",
+      "RST 2002 raw company mapping Rosetta Stone -> actual Boca Resorts, ticker RST collision.",
+      "RST 2010 raw Short is actual Short; Boca 2002 raw Long is actual Long."
+    ]
+  },
+  "ideas_master": [
+    {
+      "idea_id": "1df346ed-fb64-433c-96a0-f0c0512e6d34",
+      "date": "2007-12-27",
+      "ticker": "ODP",
+      "raw_company_name": "OFFICE DEPOT INC",
+      "company_name": "Office Depot",
+      "author": "gigi404",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/Office_Depot_Inc./1072611756",
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 보존·본문 $23~32 target으로 Long 교정"
+    },
+    {
+      "idea_id": "8ae12761-8e65-4342-91da-9585344293c9",
+      "date": "2014-04-05",
+      "ticker": "ODP",
+      "raw_company_name": "OFFICE DEPOT INC",
+      "company_name": "Office Depot",
+      "author": "frankie3",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/OFFICE_DEPOT_INC/1913808579",
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 보존·본문 $7.25 fair value로 Long 교정"
+    },
+    {
+      "idea_id": "d0e31976-8a76-43ec-a94d-c425bbae0cb8",
+      "date": "2018-08-13",
+      "ticker": "ODP",
+      "raw_company_name": "OFFICE DEPOT INC",
+      "company_name": "Office Depot",
+      "author": "TomMurner",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "source_link": null,
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 보존·본문 30%+ IRR Long 교정"
+    },
+    {
+      "idea_id": "dbfb855f-c606-4552-8108-ebbd8801df0d",
+      "date": "2019-04-22",
+      "ticker": "ODP",
+      "raw_company_name": "OFFICE DEPOT INC",
+      "company_name": "Office Depot",
+      "author": "maybeman",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/Office_Depot/4422513198",
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 보존·본문 $2.40 / B2B SOTP Long 교정"
+    },
+    {
+      "idea_id": "33258e7a-c5fc-4c9c-a10b-ba2c96016a06",
+      "date": "2021-01-19",
+      "ticker": "ODP",
+      "raw_company_name": "OFFICE DEPOT INC",
+      "company_name": "The ODP Corporation",
+      "author": "BlueFIN24",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/ODP_CORP/5150473520",
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 보존·본문 $80 SOTP Long 교정"
+    },
+    {
+      "idea_id": "a18a84e4-1831-42eb-8ae9-b45fc110bac8",
+      "date": "2002-04-07",
+      "ticker": "RST",
+      "raw_company_name": "ROSETTA STONE INC",
+      "company_name": "Boca Resorts, Inc.",
+      "author": "alli718",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/Boca_Resorts_Inc/7610357754",
+      "performance_available": 0,
+      "contest_winner": 1,
+      "auto_tag_status_ko": "raw Long 일치·ticker RST entity collision: Boca Resorts로 교정"
+    },
+    {
+      "idea_id": "22ef2bf1-6d9c-4048-bbed-13725baee559",
+      "date": "2010-01-04",
+      "ticker": "RST",
+      "raw_company_name": "ROSETTA STONE INC",
+      "company_name": "Rosetta Stone Inc.",
+      "author": "rascal997",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "source_link": null,
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 일치"
+    },
+    {
+      "idea_id": "fa33642b-2bb2-4c3c-9791-3c3869f7234c",
+      "date": "2011-08-23",
+      "ticker": "RST",
+      "raw_company_name": "ROSETTA STONE INC",
+      "company_name": "Rosetta Stone Inc.",
+      "author": "zach721",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/Rosetta_Stone/5842388987",
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 보존·본문 target $40 Long 교정"
+    },
+    {
+      "idea_id": "e29782f1-5643-46fd-b849-1c2675cc3f0c",
+      "date": "2013-03-25",
+      "ticker": "RST",
+      "raw_company_name": "ROSETTA STONE INC",
+      "company_name": "Rosetta Stone Inc.",
+      "author": "zach721",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/ROSETTA_STONE_INC/4992259309",
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 보존·본문 $23~25 Long 교정"
+    },
+    {
+      "idea_id": "6bda7bdb-498c-401d-95d0-b8321df2802b",
+      "date": "2018-09-08",
+      "ticker": "RST",
+      "raw_company_name": "ROSETTA STONE INC",
+      "company_name": "Rosetta Stone Inc.",
+      "author": "skimmer610",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "source_link": null,
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 보존·Lexia 50~100%+ upside Long 교정"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "1df346ed-fb64-433c-96a0-f0c0512e6d34",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "normalized-margin cyclical turnaround Long",
+      "one_line_verdict_ko": "주가 -70%에도 normalized margin이 틀려 2008 operating collapse; 강한 실패",
+      "thesis_score": 2.5,
+      "process_score": 7.5,
+      "key_mechanism": "cheap on prior earnings -> negative operating leverage"
+    },
+    {
+      "idea_id": "8ae12761-8e65-4342-91da-9585344293c9",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "OfficeMax merger synergy / capacity rationalization Long",
+      "one_line_verdict_ko": "$7.25 target을 2015 $11 implied Staples deal이 검증; FTC가 최종 merger는 차단",
+      "thesis_score": 9,
+      "process_score": 9.2,
+      "key_mechanism": "capacity shrink faster than secular demand decline"
+    },
+    {
+      "idea_id": "d0e31976-8a76-43ec-a94d-c425bbae0cb8",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "B2B/services transformation Long",
+      "one_line_verdict_ko": "CompuCom transformation 가정 실패; $1bn acquisition이 up to $305m sale로 귀결",
+      "thesis_score": 3.5,
+      "process_score": 8,
+      "key_mechanism": "cheap legacy FCF consumed by low-ROIC M&A"
+    },
+    {
+      "idea_id": "dbfb855f-c606-4552-8108-ebbd8801df0d",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "B2B SOTP / FCFE yield Long",
+      "one_line_verdict_ko": "CompuCom을 downside로 재분류하고 B2B/retail SOTP 사용; 2021 bid와 asset actions로 성공 방향",
+      "thesis_score": 8.8,
+      "process_score": 9.3,
+      "key_mechanism": "asset value survives failed transformation"
+    },
+    {
+      "idea_id": "33258e7a-c5fc-4c9c-a10b-ba2c96016a06",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "bid-driven asset separation SOTP Long",
+      "one_line_verdict_ko": "CompuCom $300m salvage 추정은 actual up to $305m와 거의 일치; full $80 unlock은 미완",
+      "thesis_score": 8.5,
+      "process_score": 9.5,
+      "key_mechanism": "reverse-engineer bidder intent and asset sale values"
+    },
+    {
+      "idea_id": "a18a84e4-1831-42eb-8ae9-b45fc110bac8",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "trophy resort private-market NAV Long",
+      "one_line_verdict_ko": "$12.85 entry / $20.29 appraisal 후 Blackstone $24 cash takeout; 강한 성공",
+      "thesis_score": 9.5,
+      "process_score": 9.3,
+      "key_mechanism": "scarce trophy assets + private control value"
+    },
+    {
+      "idea_id": "22ef2bf1-6d9c-4048-bbed-13725baee559",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "consumer saturation / CAC Short",
+      "one_line_verdict_ko": "unit growth 둔화와 CAC 폭증이 profit collapse를 선행; $12 target 아래로 하락",
+      "thesis_score": 9.5,
+      "process_score": 9.7,
+      "key_mechanism": "CAC inflation precedes revenue collapse"
+    },
+    {
+      "idea_id": "fa33642b-2bb2-4c3c-9791-3c3869f7234c",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "low EV/Sales + cash + SaaS transition Long",
+      "one_line_verdict_ko": "subscription growth에도 unit economics 악화 지속; target $40 대비 강한 실패",
+      "thesis_score": 2.5,
+      "process_score": 7.5,
+      "key_mechanism": "high gross margin does not overcome CAC burden"
+    },
+    {
+      "idea_id": "e29782f1-5643-46fd-b849-1c2675cc3f0c",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "SaaS / FCF inflection Long",
+      "one_line_verdict_ko": "2013 FCF $35m+ 예상 vs actual -$0.9m; operating thesis 실패, Lexia acquisition은 별도 성공",
+      "thesis_score": 3,
+      "process_score": 8.2,
+      "key_mechanism": "seasonal Q4 FCF annualization error"
+    },
+    {
+      "idea_id": "6bda7bdb-498c-401d-95d0-b8321df2802b",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "Lexia hidden-asset SOTP Long",
+      "one_line_verdict_ko": "Lexia standalone value가 EV를 덮는 구조; 2020 $30 cash takeout으로 강하게 검증",
+      "thesis_score": 9.7,
+      "process_score": 9.7,
+      "key_mechanism": "distinct quality asset > whole-company EV + sale route"
+    }
+  ],
+  "batch_lessons": [
+    "ODP는 2007 company-level earnings forecast에서 2019~21 asset-by-asset SOTP로 갈수록 thesis quality가 높아졌다.",
+    "Rosetta Stone은 2010 CAC/unit-economics Short가 2011 brand/cash/EV-sales Long보다 우월했다.",
+    "Rosetta Stone 2013 FCF forecast는 실패했지만 Lexia acquisition은 별도 capital-allocation success로 기록해야 한다.",
+    "2018 RST는 Lexia라는 distinct asset이 whole EV를 커버하고 actual takeout route가 있어 이전 Long들과 질적으로 달랐다.",
+    "Ticker reuse와 raw direction errors 때문에 source-text audit가 필수다."
+  ]
+}
