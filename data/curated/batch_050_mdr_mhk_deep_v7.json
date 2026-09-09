@@ -1,0 +1,243 @@
+{
+  "schema_version": "vic-deep-research-v9",
+  "batch": 50,
+  "title": "McDermott / Mohawk Industries — Backlog Quality, Cycle Timing and Security Selection V9",
+  "research_asof": "2026-09-09",
+  "ideas_master": [
+    {
+      "idea_id": "01aae406-cb89-4ef2-9972-a2cdf7c7d53c",
+      "date": "2013-10-14",
+      "ticker": "MDR",
+      "company_name": "McDermott International",
+      "author": "fiftycent501",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_ko": "보통주",
+      "source_link": "https://www.valueinvestorsclub.com/idea/MCDERMOTT_INTL_INC/5025002655",
+      "auto_tag_status_ko": "raw Long 일치"
+    },
+    {
+      "idea_id": "5f965311-0ef7-42b1-ba47-39d191d66ddc",
+      "date": "2018-01-04",
+      "ticker": "MDR",
+      "company_name": "McDermott International",
+      "author": "sidhardt1105",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_ko": "보통주",
+      "source_link": null,
+      "auto_tag_status_ko": "raw Long 일치"
+    },
+    {
+      "idea_id": "1f37a6ff-a0bd-4600-a3ef-be23fe9fe6ca",
+      "date": "2018-11-11",
+      "ticker": "MDR",
+      "company_name": "McDermott International",
+      "author": "sidhardt1105",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_ko": "10.625% senior unsecured notes due 2024",
+      "source_link": "https://www.valueinvestorsclub.com/idea/MCDERMOTT_INTL_INC/9249108601",
+      "auto_tag_status_ko": "raw Long 보존·security bond 교정"
+    },
+    {
+      "idea_id": "57ac591e-b624-407a-be54-18ea0ef94ae0",
+      "date": "2007-12-10",
+      "ticker": "MHK",
+      "company_name": "Mohawk Industries",
+      "author": "tdylan409",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "next_day_close": 79.06,
+      "perf_1m": 0.8775613458133062,
+      "perf_3m": 0.8431570958765494,
+      "perf_6m": 0.903870478117885,
+      "perf_1y": 0.4549709081710093,
+      "perf_2y": 0.5618517581583607,
+      "perf_3y": 0.7318492284341006,
+      "perf_5y": 1.0383253225398432,
+      "auto_tag_status_ko": "raw Short 보존·본문 Long 교정"
+    },
+    {
+      "idea_id": "02425766-dadd-41c8-84e5-1574f17fd988",
+      "date": "2009-02-18",
+      "ticker": "MHK",
+      "company_name": "Mohawk Industries",
+      "author": "todd1123",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "security_ko": "common short + CDS long",
+      "next_day_close": 29.56,
+      "perf_1m": 0.8048037889039242,
+      "perf_3m": 1.3487821380243572,
+      "perf_6m": 1.527063599458728,
+      "perf_1y": 1.5761163734776726,
+      "perf_2y": 2.006089309878214,
+      "perf_3y": 2.2374830852503385,
+      "perf_5y": 4.896143437077131,
+      "source_link": "https://www.valueinvestorsclub.com/idea/Mohawk_Industries/5308391281",
+      "auto_tag_status_ko": "raw와 actual Short 일치"
+    },
+    {
+      "idea_id": "9677bae5-283c-498f-b8e1-c0f32c865ddb",
+      "date": "2013-02-08",
+      "ticker": "MHK",
+      "company_name": "Mohawk Industries",
+      "author": "lys615",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "next_day_close": 104.84,
+      "perf_1m": 1.0756390690576114,
+      "perf_3m": 1.1222815719191148,
+      "perf_6m": 1.2058374666157954,
+      "perf_1y": 1.3833460511255247,
+      "perf_2y": 1.5821251430751622,
+      "perf_3y": 1.4477298740938573,
+      "perf_5y": 2.5530331934376194,
+      "source_link": "https://www.valueinvestorsclub.com/idea/MOHAWK_INDUSTRIES_INC/0173364108",
+      "auto_tag_status_ko": "raw와 actual Short 일치"
+    },
+    {
+      "idea_id": "23387e45-c762-4f66-9eb0-cb1fdf4e38e2",
+      "date": "2013-12-09",
+      "ticker": "MHK",
+      "company_name": "Mohawk Industries",
+      "author": "ci230",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "next_day_close": 141.02,
+      "perf_1m": 1.043114451850801,
+      "perf_3m": 1.0177279818465466,
+      "perf_6m": 0.962345766557935,
+      "perf_1y": 1.117571975606297,
+      "perf_2y": 1.3489575946674228,
+      "perf_3y": 1.4272443625017728,
+      "perf_5y": 0.8508013047794639,
+      "source_link": "https://www.valueinvestorsclub.com/idea/MOHAWK_INDUSTRIES_INC/6179320214",
+      "auto_tag_status_ko": "raw Short 보존·본문 Long 교정"
+    },
+    {
+      "idea_id": "b39c46a3-43b6-4dd1-a244-5c355b80e618",
+      "date": "2018-08-03",
+      "ticker": "MHK",
+      "company_name": "Mohawk Industries",
+      "author": "dsteiner84",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "next_day_close": 187.03,
+      "perf_1m": 1.0167352831096614,
+      "perf_3m": 0.7042185745602311,
+      "perf_6m": 0.6725658985189542,
+      "perf_1y": 0.6321980430946906,
+      "perf_2y": 0.4247981607228787,
+      "perf_3y": 1.040474790140619,
+      "source_link": "https://www.valueinvestorsclub.com/idea/MOHAWK_INDUSTRIES_INC/5932791795",
+      "auto_tag_status_ko": "raw Short 보존·본문 Long 교정"
+    },
+    {
+      "idea_id": "4bc970f8-09ad-43c8-847c-baf292216a29",
+      "date": "2020-10-14",
+      "ticker": "MHK",
+      "company_name": "Mohawk Industries",
+      "author": "Value1929",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "next_day_close": 103,
+      "perf_1m": 1.1955339805825242,
+      "perf_3m": 1.464757281553398,
+      "perf_6m": 1.9816504854368933,
+      "perf_1y": 1.8037864077669903,
+      "perf_2y": 0.9344660194174758,
+      "source_link": null,
+      "auto_tag_status_ko": "raw Short 보존·본문 Long 교정"
+    },
+    {
+      "idea_id": "20752c4b-0a92-4e7b-8379-f2d2384b6f06",
+      "date": "2021-12-23",
+      "ticker": "MHK",
+      "company_name": "Mohawk Industries",
+      "author": "Glory_Warriors",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "next_day_close": 174.61,
+      "perf_1m": 0.9096271691197526,
+      "perf_3m": 0.7795086192085219,
+      "perf_6m": 0.6897084932134471,
+      "perf_1y": 0.561021705515148,
+      "source_link": null,
+      "auto_tag_status_ko": "raw Short 보존·본문 Long 교정"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "01aae406-cb89-4ef2-9972-a2cdf7c7d53c",
+      "report_version": "V9-canonical",
+      "one_line_verdict_ko": "problem-contract burn-off와 asset-floor thesis 실패",
+      "thesis_score": 4,
+      "process_score": 7
+    },
+    {
+      "idea_id": "5f965311-0ef7-42b1-ba47-39d191d66ddc",
+      "report_version": "V9-canonical",
+      "one_line_verdict_ko": "CB&I acquired liabilities 오판, 2020 Chapter 11",
+      "thesis_score": 1.5,
+      "process_score": 6.5
+    },
+    {
+      "idea_id": "1f37a6ff-a0bd-4600-a3ef-be23fe9fe6ca",
+      "report_version": "V9-canonical",
+      "one_line_verdict_ko": "2024 unsecured notes money-good thesis 실패",
+      "thesis_score": 2.5,
+      "process_score": 7.5
+    },
+    {
+      "idea_id": "57ac591e-b624-407a-be54-18ea0ef94ae0",
+      "report_version": "V9-canonical",
+      "one_line_verdict_ko": "1Y -54.5%, 5Y +3.8%; quality는 맞고 cycle entry 실패",
+      "thesis_score": 4.5,
+      "process_score": 8
+    },
+    {
+      "idea_id": "02425766-dadd-41c8-84e5-1574f17fd988",
+      "report_version": "V9-canonical",
+      "one_line_verdict_ko": "1M favorable 후 3M부터 short 급반전",
+      "thesis_score": 5,
+      "process_score": 8
+    },
+    {
+      "idea_id": "9677bae5-283c-498f-b8e1-c0f32c865ddb",
+      "report_version": "V9-canonical",
+      "one_line_verdict_ko": "1Y stock +38.3%, 5Y +155.3%; 강한 short failure",
+      "thesis_score": 2.5,
+      "process_score": 8
+    },
+    {
+      "idea_id": "23387e45-c762-4f66-9eb0-cb1fdf4e38e2",
+      "report_version": "V9-canonical",
+      "one_line_verdict_ko": "1Y target miss, 2~3Y delayed success",
+      "thesis_score": 7.5,
+      "process_score": 8
+    },
+    {
+      "idea_id": "b39c46a3-43b6-4dd1-a244-5c355b80e618",
+      "report_version": "V9-canonical",
+      "one_line_verdict_ko": "2Y -57.5%; transitory-margin thesis 실패",
+      "thesis_score": 3.5,
+      "process_score": 8
+    },
+    {
+      "idea_id": "4bc970f8-09ad-43c8-847c-baf292216a29",
+      "report_version": "V9-canonical",
+      "one_line_verdict_ko": "6M +98.2%, 1Y +80.4%; tactical strong success",
+      "thesis_score": 9,
+      "process_score": 8.5
+    },
+    {
+      "idea_id": "20752c4b-0a92-4e7b-8379-f2d2384b6f06",
+      "report_version": "V9-canonical",
+      "one_line_verdict_ko": "2024 EPS $9.70 vs $26 thesis; YE price ~$119 vs $390 target",
+      "thesis_score": 2,
+      "process_score": 7.5
+    }
+  ]
+}
