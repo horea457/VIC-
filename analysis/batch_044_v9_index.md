@@ -184,3 +184,12 @@ Batch 044의 가장 큰 교훈은 **“기업을 맞힌 것”과 “주주가�
 Nexstar의 경우 사업·M&A·자본배분의 단계별 전환을 잘 본 Long들이 강하게 성공했다. 반면 2016 CVR에서는 underlying spectrum value는 잘 맞혔지만 legal waterfall을 과대평가했다.
 
 ePlus에서는 core business와 tangible value 판단은 대체로 맞았지만 accounting issue가 exchange access와 duration에 미치는 영향을 초기에 과소평가했다. 즉 **좋은 asset thesis도 security structure·liquidity·time이 틀리면 투자경험은 크게 달라질 수 있다.**
+
+---
+
+# 7. 앱 / DB 반영
+
+- Streamlit wrapper: `analysis/batch_044_nexstar_eplus_10.md`
+- Curated overlay: `data/curated/batch_044_nexstar_eplus_deep_v7.json`
+- NXST 6건은 기존 심화분석을 재사용하되, MEG/NXST CVR 1건은 0~12 canonical 목차로 표준화했고 Batch 044 overlay에서 raw SQL 방향을 보존했다.
+- ePlus 4건은 0~12 전체 섹션, 각 6개 weighted claim, 가치평가·사건일정·경고신호·재사용 규칙을 포함하는 canonical V9으로 확장했다.

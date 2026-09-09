@@ -21,11 +21,11 @@
 | 원문 기대 CVR | base $2~3, upside 최대 약 $4 |
 | 실제 핵심 | spectrum gross proceeds $478.6m; initial CVR payment $258.6m; 2017YE remaining liability $12.4m |
 | 최종 판정 | **Trade structure 성공 / CVR 가치 추정 과대** |
-| 데이터 검증 기준일 | 2026-09-07 |
+| 데이터 검증 기준일 | 2026-09-09 |
 
 ---
 
-# 1. 이 거래는 정확히 무엇인가
+## 1. 이 거래는 정확히 무엇인가
 
 ## 1.1 일반 주식투자와 다른 이유
 
@@ -81,7 +81,7 @@ CVR(Contingent Value Right)은 특정 사건 결과에 따라 추가 현금을 �
 
 ---
 
-# 2. 당시 상황과 시장의 가격
+## 2. 당시 상황과 시장의 가격
 
 ## 2.1 게시 당시 상황
 
@@ -111,7 +111,7 @@ CVR(Contingent Value Right)은 특정 사건 결과에 따라 추가 현금을 �
 
 ---
 
-# 3. 원문 투자논지 지도
+## 3. 원문 투자논지 지도
 
 | Claim | 원문 주장 | 작동 메커니즘 | 숨은 가정 | 사전 반증조건 |
 |---|---|---|---|---|
@@ -174,7 +174,7 @@ Nexstar는 Media General 관련 spectrum auction gross proceeds를 약 $479m으�
 
 ---
 
-# 4. Valuation과 Legal Waterfall
+## 4. Valuation과 Legal Waterfall
 
 ## 4.1 원문 방식
 
@@ -227,7 +227,7 @@ Event trade의 실제 IRR은 단순 payout spread가 아니라:
 
 ---
 
-# 5. 실제 Timeline
+## 5. 실제 Timeline
 
 | 날짜 | 이벤트 | 의미 |
 |---|---|---|
@@ -240,7 +240,7 @@ Event trade의 실제 IRR은 단순 payout spread가 아니라:
 
 ---
 
-# 6. 실제 투자결과
+## 6. 실제 투자결과
 
 **방향성:** 성공. 시장이 CVR을 0으로 보던 것은 아니었지만, 실제로 추가 지급가치가 존재했다.
 
@@ -250,7 +250,7 @@ Event trade의 실제 IRR은 단순 payout spread가 아니라:
 
 ---
 
-# 7. 사후평가
+## 7. Claim별 사후 판정
 
 ### 맞춘 것
 - CVR이 유의미한 경제적 가치를 가짐
@@ -270,7 +270,45 @@ CVR agreement의 정의상 deductible/expense/tax 항목을 세부적으로 읽�
 
 ---
 
-# 8. 최종 Scorecard
+## 8. 무엇이 실제 수익과 오차를 만들었는가
+
+수익의 핵심은 방송주 방향성이 아니라 **고정 현금·주식대가를 헤지하고 별도 CVR claim만 남긴 계약 구조**였다. 거래 종결과 spectrum proceeds 발생은 이 구조를 실제 현금가치로 전환했다. 오차는 auction asset의 headline gross value에서 세금·repacking·관리비·holdback을 뺀 **실제 distributable pool**로 내려오는 구간에서 발생했다.
+
+### Counterfactual
+
+Opening bid에 50% haircut, gross proceeds에서 CVR pool로의 conversion에 추가 40% haircut, 18개월 지급지연과 short borrow·배당 carry를 적용해도 내재가 $0.85 대비 충분한 연환산 수익률이 남았는가?
+
+---
+
+## 9. 분석 오류 유형과 최초 경고
+
+핵심 오류는 **FCC opening bid → gross auction proceeds → issuer net proceeds → CVR distributable proceeds**를 하나의 가치로 취급한 것이다. 또한 “CVR이 0이어도 downside가 거의 0”이라는 표현은 시간가치, deal break, borrow fee, 배당 mismatch와 hedge execution을 제외했다.
+
+### 최초로 관찰 가능했던 경고신호
+
+CVR agreement의 세금·비용·공제·holdback 정의가 T0의 최초 경고였다. 사후에는 2017년 gross proceeds 약 $478.6m 대비 초기 CVR 지급액 약 $258.6m이 공개되며 gross-to-net haircut이 핵심 변수였음이 확인됐다.
+
+---
+
+## 10. 재사용 가능한 교훈과 체크리스트
+
+1. CVR은 underlying asset이 아니라 계약서의 **net distributable claim**으로 가치평가한다.
+2. Exchange ratio hedge는 비율만이 아니라 borrow, 배당, rebalance, closing date를 현금흐름에 넣는다.
+3. Event outcome과 event duration을 분리해 지급지연까지 IRR에 반영한다.
+
+### 지금 같은 아이디어를 다시 본다면
+
+- exchange ratio와 hedge rebalancing
+- deal break·regulatory conditions
+- gross-to-net CVR waterfall
+- 세금·거래비용·escrow·holdback
+- CVR outstanding 수와 지급순위
+- short borrow·배당·지급지연
+- exact execution price와 hedge-adjusted IRR
+
+---
+
+## 11. 최종 Scorecard
 
 | 항목 | 판정 |
 |---|---|
@@ -288,7 +326,7 @@ CVR agreement의 정의상 deductible/expense/tax 항목을 세부적으로 읽�
 
 ---
 
-# 9. Sources / Validation Notes
+## 12. Sources / Validation Notes
 
 1. Value Investors Club — 2016-01-29 Media General/Nexstar CVR pair idea.
 2. Nexstar transaction announcement — $10.55 cash + 0.1249 NXST + CVR.
