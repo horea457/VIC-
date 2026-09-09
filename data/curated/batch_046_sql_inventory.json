@@ -1,3 +1,8 @@
 {
-  "sql_files": []
+  "source_filename": "VIC_IDEAS(4).sql",
+  "attachment_bytes_checked": 122499072,
+  "records_selected": 10,
+  "raw_descriptions_verified": 10,
+  "performance_rows_found": 0,
+  "note": "첨부 SQL와 선행 raw extract를 함께 감사했다. exact return은 performance row 부재로 null 유지."
 }

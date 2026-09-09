@@ -1,59 +1,60 @@
-# Batch 046 — V9 Index
+# Batch 046 — Anthem / Athabasca Oil / Athene / CIT — V9 Index
 
-## Scope
-Batch 046 is complete as a **10-idea canonical V9 packet**. The SQL-derived `ATH` bucket was a ticker-collision set, not one company.
+> **Research as-of:** 2026-09-09. 첨부 `VIC_IDEAS(4).sql`의 원문을 기준으로 entity와 direction을 수동 교정했다. SQL performance row가 없는 10건의 수익률은 만들지 않았다.
 
-## Critical metadata corrections
-1. **2002 ATH = Anthem, Inc.**, not Athene Holding.
-2. **2011/2013 ATH = Athabasca Oil Sands / Athabasca Oil Corp.**
-3. **2017–2020 ATH = Athene Holding Ltd.**
-4. Therefore the raw `company_name = ATHENE HOLDING LTD` mapping is wrong for the first three ATH records.
-5. Raw `is_short` is preserved as source metadata only; research direction stays provisional where the original body is not available.
-6. CIT is treated as a capital-structure problem. Security type must be verified before exact return scoring.
+## 0. 배치 결론
 
-## Canonical files
+이번 배치는 데이터 정규화가 투자분석보다 먼저라는 대표 사례다. 원 ticker `ATH`는 2002 Anthem, 2011/2013 Athabasca Oil, 2017~2020 Athene Holding의 세 법인을 뜻한다. raw Short 9건 중 실제 Short는 2017 Athene 한 건뿐이며, 나머지는 원문 payoff가 모두 Long이다.
 
-### Anthem
-- [2002-01-18 Anthem](ideas/2002/2002-01-18_ANTHEM_long.md) — `4510e63f-516d-422c-ad0f-976c01c76690`
+## 1. Idea Units
 
-### Athabasca Oil
-- [2011-08-22 Athabasca Oil Sands](ideas/2011/2011-08-22_ATHABASCA_OIL_short.md) — `a9e042a6-e212-41eb-b757-77e1c4aaf755`
-- [2013-12-26 Athabasca Oil](ideas/2013/2013-12-26_ATHABASCA_OIL_short.md) — `147a6251-3aab-4a99-bfee-0685a093135d`
+| # | 날짜 | 실제 회사 | raw→연구 방향 | 사후 판정 | Canonical report |
+|---:|---|---|---|---|---|
+| 1 | 2001-01-16 | CIT Group Inc. | Short→**Long** | 두 달 내 Tyco takeout으로 강한 성공 | [5.7x normal EPS와 takeout asymmetry Long](ideas/2001/2001-01-16_CIT_long.md) |
+| 2 | 2002-01-18 | Anthem, Inc. | Long→**Long** | 사업·전략 종착점 성공, SQL 가격성과는 미검증 | [demutualization 이후 margin·multiple 동시 정상화 Long](ideas/2002/2002-01-18_ANTHEM_long.md) |
+| 3 | 2007-08-23 | CIT Group Inc. | Short→**Long** | wholesale funding collapse와 2009 bankruptcy로 대실패 | [1x book·6.5x earnings와 liquidity buffer Long](ideas/2007/2007-08-23_CIT_long.md) |
+| 4 | 2008-05-02 | CIT Group Inc. | Short→**Long** | 단기 liquidity 판단·sale catalyst 실패, bankruptcy로 terminal 대실패 | [0.58x adjusted TBV와 $15~18 sale catalyst Long](ideas/2008/2008-05-02_CIT_long.md) |
+| 5 | 2011-08-22 | Athabasca Oil Sands Corp. | Short→**Long** | put 가치 실현, long-duration NAV·equity rerating은 혼합 | [PetroChina put과 world-scale acreage의 비대칭 Long](ideas/2011/2011-08-22_ATHABASCA_OIL_long.md) |
+| 6 | 2013-12-26 | Athabasca Oil Corp. | Short→**Long** | 핵심 put catalyst 성공, C$10~15 NAV의 지속성은 oil shock로 실패 | [C$1.32bn Dover put의 binary overhang 해소 Long](ideas/2013/2013-12-26_ATHABASCA_OIL_long.md) |
+| 7 | 2017-05-02 | Athene Holding Ltd. | Short→**Short** | $33 target은 미달; 일부 de-rating 뒤 Long counter-pitch가 반증 | [1.6x book에 성장·Apollo 구조위험을 판 Athene Short](ideas/2017/2017-05-02_ATHENE_short.md) |
+| 8 | 2018-09-09 | Athene Holding Ltd. | Short→**Long** | 1~2년 price path 실패, 합병까지 보유하면 business/terminal thesis 회복 | [1.1x book·7x earnings에서 2017 Short를 뒤집은 Long](ideas/2018/2018-09-09_ATHENE_long.md) |
+| 9 | 2019-03-31 | Athene Holding Ltd. | Short→**Long** | $64 target과 strategic value가 합병 경로에서 실현된 성공 | [5x earnings·0.8x book에서 20% IRR을 산 Long](ideas/2019/2019-03-31_ATHENE_long.md) |
+| 10 | 2020-09-09 | Athene Holding Ltd. | Short→**Long** | Apollo 합병으로 매우 성공한 event-plus-compounder Long | [0.7x book·5.2x earnings와 crisis deployment Long](ideas/2020/2020-09-09_ATHENE_long.md) |
 
-### Athene Holding
-- [2017-05-02 Athene](ideas/2017/2017-05-02_ATHENE_short.md) — `1dacae0f-2738-4d5b-a79c-0623c39908e3`
-- [2018-09-09 Athene](ideas/2018/2018-09-09_ATHENE_short.md) — `f87c02f1-769f-4e03-be72-e8e00574c7a5`
-- [2019-03-31 Athene](ideas/2019/2019-03-31_ATHENE_short.md) — `cea526a6-864b-4eb5-a1f5-3ef84f9d1700`
-- [2020-09-09 Athene](ideas/2020/2020-09-09_ATHENE_short.md) — `2cac07f8-87d1-484e-87b4-ab3523aa44da`
+## 2. 기업별 투자논지
 
-### CIT Group
-- [2001-01-16 CIT](ideas/2001/2001-01-16_CIT_short.md) — `797e8f52-79b4-42f8-87c1-94123103ce3d`
-- [2007-08-23 CIT](ideas/2007/2007-08-23_CIT_short.md) — `671b2431-63fc-4542-98c7-62bbcd9189a3`
-- [2008-05-02 CIT](ideas/2008/2008-05-02_CIT_short.md) — `8530cf07-e131-4623-b20c-4b8cbcdd661a`
+### Anthem — margin과 network scale
 
-## Cross-idea lessons
+2002 Long은 14x EPS와 4% 미만 margin에서 peer 수준 16x·5%로의 이중 정상화를 샀다. MLR·pricing·통합위험이 있었지만 2004 WellPoint 결합으로 전국 Blue 네트워크의 전략가치는 확인됐다.
 
-### 1. Ticker is not entity
-The largest data error in this batch is not valuation but identity. A single raw ticker `ATH` spans a health insurer, a Canadian oil developer and an annuity platform. Any downstream thesis, sector classification or return analysis is invalid unless entity mapping is fixed first.
+### Athabasca — 계약상 cash와 개발 NAV를 분리
 
-### 2. Athabasca: NAV is not equity value until the funding bridge is modeled
-Resource value must be converted through remaining capex, timing, oil-price assumptions, infrastructure, project sanction and dilution. Development time functions like leverage even when reported debt is modest.
+2011·2013 두 Long 모두 PetroChina put이 hard catalyst였다. put 현금화는 성공했지만 gross resource NAV는 capex·기술·승인·oil price·시간을 거쳐야 했다. 계약상 현금 성공을 C$20~22 또는 C$10~15의 지속적 equity value 성공으로 바꾸면 안 된다.
 
-### 3. Athene: P/B needs a capital-duration-credit bridge
-Annuity economics require asset yield, liability cost, duration/hedging, realized credit losses, statutory capital, Apollo economics and capital allocation. Market stress can hurt marks while improving future reinvestment spreads, so mark risk and economic loss must be separated.
+### Athene — 가격에 따라 Short에서 Long으로
 
-### 4. CIT: liquidity can kill equity before accounting solvency
-For wholesale-funded lenders, the maturity ladder, collateral, secured/unsecured funding, ratings triggers and realizable asset value dominate P/E and reported book value. Security hierarchy can make the same enterprise thesis bullish for one tranche and bearish for another.
+2017 Short는 1.6x book premium의 압축을 맞혔으나 $33·40% downside는 실패했다. 2018 Long은 1~2년 path에서 손실, 2019·2020 Long은 5x earnings·0.8/0.7x book에서 capital survival과 Apollo 합병을 포착해 성공했다. 같은 business risk도 entry multiple과 capital buffer가 direction을 바꾼다.
 
-### 5. Hindsight discipline
-CIT's 2009 bankruptcy, Athabasca's exposure to the later oil collapse, and Athene's eventual Apollo combination are useful terminal facts, but they do not by themselves prove a 2001/2007/2011/2017 trade was good. Final V9 scoring must still use the original horizon, security and entry price.
+### CIT — 자산가치보다 liability clock
 
-## Data-quality / remaining precision work
-- Source packet: `data/curated/batch_046_source_packet.json`
-- SQL inventory on current `main`: `data/curated/batch_046_sql_inventory.json`
-- The current checked-out tree contains no `.sql` file; the packet is derived from prior SQL-extracted census/metadata.
-- Exact T0 price, target, 1Y/3Y/5Y returns and IRR are intentionally not fabricated where the original VIC body/security is unavailable.
-- When original descriptions are recovered, each provisional direction/security line should be upgraded to verified and the claim map should be rewritten against the author's actual wording.
+2001 Long은 $20+에서 takeout accretion을 계산했고 두 달 뒤 Tyco 거래로 성공했다. 2007·2008 Long은 book·normalized EPS와 gross liquidity를 믿었지만 wholesale funding run을 놓쳐 2009 bankruptcy와 old common cancellation로 실패했다.
 
-## Status
-**10/10 canonical files created. Entity collisions corrected. Batch 046 is usable as a research layer, with exact price/IRR and original-body claim wording marked as the remaining precision step.**
+## 3. 배치 공통 교훈
+
+1. **Ticker는 entity가 아니다.** 법인·exchange·날짜·business description으로 먼저 resolve한다.
+2. **Direction은 raw flag가 아니라 payoff다.** target 상승·현금수취·rerating이면 Long이다.
+3. **Cash/NAV/book는 common floor가 아니다.** timing, capex, funding, senior claims와 use-of-cash를 차감한다.
+4. **Event 성공과 투자 성공을 분리한다.** put·합병·인수가 일어나도 exact return은 별도다.
+5. **Funding은 lender P/E보다 앞선다.** gross lines가 아니라 가용성·담보·만기별 sources/uses를 본다.
+6. **성과값이 없으면 null이다.** terminal event를 임의의 1/3/5년 수익률로 바꾸지 않는다.
+
+## 4. 데이터·앱 산출물
+
+- DB payload: `data/curated/batch_046_anthem_athabasca_athene_cit_deep_v7.json`
+- Streamlit wrapper: `analysis/batch_046_anthem_athabasca_athene_cit_10.md`
+- SQL source packet: `data/curated/batch_046_source_packet.json`
+- Builder: `scripts/46_build_batch_046_v9.py`
+
+## 5. 검증 기준
+
+10개 보고서 모두 0~12절, 6개 claim/100% weight, 5개 metric, 최소 6개 event와 원문+공식자료 source를 포함한다. Payload·문서·앱 popup의 entity, direction, verdict를 동일하게 유지한다.
