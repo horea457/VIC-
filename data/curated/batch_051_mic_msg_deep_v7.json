@@ -1,0 +1,200 @@
+{
+  "schema_version": "vic-deep-research-v9",
+  "batch": 51,
+  "title": "Genworth MI Canada / Macquarie Infrastructure / Madison Square Garden — Entity Audit, Yield Trap and Liquidation V9",
+  "research_asof": "2026-09-09",
+  "ideas_master": [
+    {
+      "idea_id": "3b9202d5-f12b-4285-940b-b2ed2ae59efe",
+      "date": "2009-12-29",
+      "ticker": "MIC",
+      "company_name": "Genworth MI Canada",
+      "author": "xanadu972",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "source_link": null,
+      "auto_tag_status_ko": "raw Short 보존·MIC entity를 Genworth MI Canada로 교정·본문 Long"
+    },
+    {
+      "idea_id": "78c6b9bb-714a-464d-a010-cd87877fcd6d",
+      "date": "2010-06-03",
+      "ticker": "MIC",
+      "company_name": "Macquarie Infrastructure Company",
+      "author": "jazz678",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "source_link": null,
+      "auto_tag_status_ko": "raw Short 보존·본문 Long 교정"
+    },
+    {
+      "idea_id": "6cfacc0d-d187-4c50-b1ce-e08032bcc9bf",
+      "date": "2012-03-28",
+      "ticker": "MIC",
+      "company_name": "Macquarie Infrastructure Company",
+      "author": "pokey351",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/MACQUARIE_INFRASTRUCT_CO_LLC/8791149648",
+      "auto_tag_status_ko": "raw Short 보존·본문 Long 교정"
+    },
+    {
+      "idea_id": "ce69d200-e844-4501-acc4-71bfd0f04451",
+      "date": "2014-01-13",
+      "ticker": "MIC",
+      "company_name": "Macquarie Infrastructure Company",
+      "author": "cameron57",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "source_link": null,
+      "auto_tag_status_ko": "raw Short 보존·본문 Long 교정"
+    },
+    {
+      "idea_id": "a6090a5e-b8a4-43d5-94a5-164fc05f3f89",
+      "date": "2017-10-04",
+      "ticker": "MIC",
+      "company_name": "Macquarie Infrastructure Corporation",
+      "author": "gandalf",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/MACQUARIE_INFRASTRUCTURE_CP/3453478175",
+      "auto_tag_status_ko": "raw Short 보존·본문 Long 교정"
+    },
+    {
+      "idea_id": "ddc3442c-ff16-4b1d-a92d-216ab9c3a0f7",
+      "date": "2019-11-01",
+      "ticker": "MIC",
+      "company_name": "Macquarie Infrastructure Corporation",
+      "author": "rii136",
+      "is_short": 1,
+      "direction_ko": "Strategic Alternatives 롱",
+      "source_link": null,
+      "auto_tag_status_ko": "raw Short 보존·event Long 교정"
+    },
+    {
+      "idea_id": "770d0a70-f908-4b5d-a0fd-4ad0b2eb76a6",
+      "date": "2021-04-16",
+      "ticker": "MIC",
+      "company_name": "Macquarie Infrastructure Corporation",
+      "author": "althea",
+      "is_short": 0,
+      "direction_ko": "Liquidation 롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/MACQUARIE_INFRASTRUCTURE_CP/9439712255",
+      "auto_tag_status_ko": "raw Long 일치·liquidation security path 명시"
+    },
+    {
+      "idea_id": "c2cc8c96-b700-4adb-8c4f-1fdd6ecd8473",
+      "date": "2010-03-11",
+      "ticker": "MSG",
+      "company_name": "Madison Square Garden",
+      "author": "britt12",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "source_link": null,
+      "auto_tag_status_ko": "raw Long 일치"
+    },
+    {
+      "idea_id": "8ef6f3c0-b00d-405e-bcb5-ec88ac02f83e",
+      "date": "2010-06-22",
+      "ticker": "MSG",
+      "company_name": "Madison Square Garden",
+      "author": "flyer",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "source_link": null,
+      "auto_tag_status_ko": "raw Long 일치"
+    },
+    {
+      "idea_id": "6339c03d-166b-4ac3-8557-fa9d61034dad",
+      "date": "2010-12-22",
+      "ticker": "MSG",
+      "company_name": "Madison Square Garden",
+      "author": "Rotin",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "source_link": "https://www.valueinvestorsclub.com/idea/Madison_Square_Garden/8375635833",
+      "auto_tag_status_ko": "raw Short 보존·본문 Long 교정"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "3b9202d5-f12b-4285-940b-b2ed2ae59efe",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "Canadian mortgage insurer / post-spin Long",
+      "one_line_verdict_ko": "entity·direction 모두 SQL 오류; 2019 Brookfield C$48.86/share 거래로 장기 value 확인",
+      "thesis_score": 9,
+      "process_score": 9
+    },
+    {
+      "idea_id": "78c6b9bb-714a-464d-a010-cd87877fcd6d",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "post-crisis infra recovery Long",
+      "one_line_verdict_ko": "$14.40에서 deleveraging·cash unlock, 이후 early-2015 nearly $90",
+      "thesis_score": 9,
+      "process_score": 8.5
+    },
+    {
+      "idea_id": "6cfacc0d-d187-4c50-b1ce-e08032bcc9bf",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "FCF unlock / cash distribution Long",
+      "one_line_verdict_ko": "IMTT dispute·Atlantic lock-up 해소와 dividend growth로 강한 성공",
+      "thesis_score": 9,
+      "process_score": 9
+    },
+    {
+      "idea_id": "ce69d200-e844-4501-acc4-71bfd0f04451",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "dividend-growth yield rerating Long",
+      "one_line_verdict_ko": "$51.63→$70 target 상회; payout/yield rerating 성공",
+      "thesis_score": 8.8,
+      "process_score": 8.5
+    },
+    {
+      "idea_id": "a6090a5e-b8a4-43d5-94a5-164fc05f3f89",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "high-yield infrastructure Long",
+      "one_line_verdict_ko": "2018 IMTT utilization shock와 dividend cut으로 yield floor 붕괴",
+      "thesis_score": 3,
+      "process_score": 7.5
+    },
+    {
+      "idea_id": "ddc3442c-ff16-4b1d-a92d-216ab9c3a0f7",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "strategic alternatives / asset-sale Long",
+      "one_line_verdict_ko": "IMTT·Atlantic 매각과 $11+$37.386817 분배로 strong success, timing 지연",
+      "thesis_score": 9.2,
+      "process_score": 9
+    },
+    {
+      "idea_id": "770d0a70-f908-4b5d-a0fd-4ad0b2eb76a6",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "liquidation / hard catalyst Long",
+      "one_line_verdict_ko": "Atlantic sale 예상 6개월 vs 실제 약 7주 후 발표, 매우 성공",
+      "thesis_score": 9.7,
+      "process_score": 9.5
+    },
+    {
+      "idea_id": "c2cc8c96-b700-4adb-8c4f-1fdd6ecd8473",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "post-spin trophy-asset SOTP Long",
+      "one_line_verdict_ko": "2015·2020 separations로 hidden assets가 실제 public securities로 분리",
+      "thesis_score": 9,
+      "process_score": 8.8
+    },
+    {
+      "idea_id": "8ef6f3c0-b00d-405e-bcb5-ec88ac02f83e",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "RSN cash flow + trophy option Long",
+      "one_line_verdict_ko": "RSN affiliate economics와 forced-selling thesis 성공 방향",
+      "thesis_score": 9,
+      "process_score": 9
+    },
+    {
+      "idea_id": "6339c03d-166b-4ac3-8557-fa9d61034dad",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "FCF + SOTP Long",
+      "one_line_verdict_ko": "raw Short 오류; FCF downside와 SOTP value-unlock 논지 성공 방향",
+      "thesis_score": 8.8,
+      "process_score": 9
+    }
+  ]
+}
