@@ -57,6 +57,7 @@ BATCH_SOURCES = (
 ("batch_049_musa_mdr_deep_v7.json","batch_049_musa_mdr_10.md","Batch 049"),
 ("batch_050_mdr_mhk_deep_v7.json","batch_050_mdr_mhk_10.md","Batch 050"),
 ("batch_051_mic_msg_deep_v7.json","batch_051_mic_msg_10.md","Batch 051"),
+("batch_052_msg_nen_deep_v7.json","batch_052_msg_nen_10.md","Batch 052"),
 ("all_reviewed_v8_index.json","all_reviewed_v8.md.gz","V8 전체 DB"),)
 
 @st.cache_data(show_spinner=False)

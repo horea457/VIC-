@@ -1,163 +1,64 @@
-# Batch 052 — Madison Square Garden / New England Realty Associates V9 Index
+# Batch 052 — Madison Square Garden / New England Realty Associates — V9 Index
 
-> **기준:** Batch 042 이후 V9 원칙 유지. 아이디어 1건 = canonical Markdown 1개.
-> **Research as-of:** 2026-09-10.
-> **Batch boundary:** Batch 051 마지막 MSG 2010-12-22 이후, Batch 48~51 reviewed idea_id를 제외한 다음 10건.
+> Research as-of 2026-09-10. Batch 051 다음 10건이다. **10 idea = 10 canonical reports**이며 현 첨부 SQL로 확인되지 않는 성과값은 모두 null 처리했다.
 
-## Canonical Idea Units
+## 0. 배치 결론
 
-| # | 날짜 | Ticker | 실제 방향 | Canonical | 핵심 판정 |
+MSG 4건은 같은 SOTP가 `renovation capex cliff→2015 Media 분할→2020 Sports/Entertainment 분할→2023 Sphere 분할`로 실제 securities가 되는 과정이다. NEN 6건은 같은 operator·자산이어도 13% cap의 2001/02, 5~7% late-cycle 2005/07, 8%+ post-GFC 2009/11의 결과가 왜 달라지는지를 보여준다.
+
+## 1. Idea Units
+
+| # | 날짜 | 실제 회사 | 방향 | 사후 판정 | Canonical report |
 |---:|---|---|---|---|---|
-| 1 | 2012-12-17 | MSG | Long | [MSG 2012](ideas/2012/2012-12-17_MSG_long.md) | renovation 종료·FCF inflection 성공 방향 |
-| 2 | 2014-08-04 | MSG | Long | [MSG 2014](ideas/2014/2014-08-04_MSG_long.md) | 2015 separation으로 강한 성공 |
-| 3 | 2016-07-20 | MSG | Long | [MSG 2016](ideas/2016/2016-07-20_MSG_long.md) | post-spin earnings normalization 성공 방향 |
-| 4 | 2018-11-20 | MSG | Long | [MSG 2018](ideas/2018/2018-11-20_MSG_long.md) | 2020 spin 성공 / COVID로 payoff 경로 혼합 |
-| 5 | 2001-12-28 | NEN | Long | [NEN 2001](ideas/2001/2001-12-28_NEN_long.md) | 13%+ cap-rate entry, 강한 성공 방향 |
-| 6 | 2002-12-28 | NEN | Long | [NEN 2002](ideas/2002/2002-12-28_NEN_long.md) | private-value gap 축소, 강한 성공 방향 |
-| 7 | 2005-12-09 | NEN | Long | [NEN 2005](ideas/2005/2005-12-09_NEN_long.md) | 5Y -14.8%, cycle timing 실패 |
-| 8 | 2007-02-27 | NEN | Long | [NEN 2007](ideas/2007/2007-02-27_NEN_long.md) | 3Y -40.8%, cap-rate peak 오판 |
-| 9 | 2009-08-29 | NEN | Long | [NEN 2009](ideas/2009/2009-08-29_NEN_long.md) | 5Y +208.3%, 강한 성공 |
-| 10 | 2011-06-30 | NEN | Long | [NEN 2011](ideas/2011/2011-06-30_NEN_long.md) | 3Y +134.8%, 강한 성공 |
+| 1 | 2012-12-17 | The Madison Square Garden Company (pre-2015) | Long | 사업·분할경로 성공, $60/18개월 exact return 미검증 | [Garden capex cliff·FCF inflection·recap Long](ideas/2012/2012-12-17_MSG_long.md) |
+| 2 | 2014-08-04 | The Madison Square Garden Company (pre-2015) | Long | 강한 사업·분할 성공, exact total return 미검증 | [RSN FCF+teams·air-rights SOTP Long](ideas/2014/2014-08-04_MSG_long.md) |
+| 3 | 2016-07-20 | The Madison Square Garden Company (post-2015) | Long | 사업 정상화·후속분할 성공 방향, exact return 미검증 | [post-spin accounting normalization·$209 Long](ideas/2016/2016-07-20_MSG_long.md) |
+| 4 | 2018-11-20 | The Madison Square Garden Company (post-2015) | Long | 분할 성공, entertainment payoff·timing 혼합, exact return 미검증 | [announced sports spin·$373 SOTP Long](ideas/2018/2018-11-20_MSG_long.md) |
+| 5 | 2001-12-28 | New England Realty Associates Limited Partnership | Long | 사업·가치 방향 강한 성공, exact return 미검증 | [13.4% cap·5.8x FCF owner-operator Long](ideas/2001/2001-12-28_NEN_long.md) |
+| 6 | 2002-12-28 | New England Realty Associates Limited Partnership | Long | 사업·private-value 방향 강한 성공, exact return 미검증 | [12.5~13% cap·6.6x AFFO Long](ideas/2002/2002-12-28_NEN_long.md) |
+| 7 | 2005-12-09 | New England Realty Associates Limited Partnership | Long | 운영논지 부분 성공, 6% cap·cycle framing 실패 | [7.7% implied cap·$113 NAV Long](ideas/2005/2005-12-09_NEN_long.md) |
+| 8 | 2007-02-27 | New England Realty Associates Limited Partnership | Long | 운영 단기 적중, cap-rate·activist 핵심 실패 | [5% cap·margin expansion·activist Long](ideas/2007/2007-02-27_NEN_long.md) |
+| 9 | 2009-08-29 | New England Realty Associates Limited Partnership | Long | cycle·capital-allocation 강한 성공 방향, exact return 미검증 | [post-GFC 8.1% cap·buyback Long](ideas/2009/2009-08-29_NEN_long.md) |
+| 10 | 2011-06-30 | New England Realty Associates Limited Partnership | Long | 사업·per-share compound 방향 강한 성공, exact return 미검증 | [8.6% core cap·JV·buyback compounder Long](ideas/2011/2011-06-30_NEN_long.md) |
 
-## Queue / Metadata Note
+## 2. SQL / Entity / Security Audit
 
-source_true_unreviewed.json은 Batch 48 이후 reviewed status가 갱신되지 않아 MSG 2018 이후 이미 처리한 MUSA/MDR/MHK가 다시 나타난다.
+첨부 `VIC_IDEAS(4).sql`에는 `catalyst·companies·descriptions` COPY만 있고 `ideas·performance` data COPY가 없다. 10건 모두 catalyst는 있으나 description은 7건만 존재한다. date·author·link는 기존 curated overlay와 대조했고, 기존 초안의 NEN 성과비율 4건은 provenance가 없어 폐기했다. 방향은 10건 모두 raw Long=실제 Long이다.
 
-Batch 052는:
-1. Batch 051 마지막 idea 이후로 이동
-2. Batch 048~051의 reviewed idea_id 40개를 제외
-3. 남은 다음 10건
+MSG 2012/14는 pre-2015 common으로 MSGN 잔존주식과 3:1 신 MSG를 함께 받아야 한다. MSG 2016/18은 post-2015 common으로 2020 1:1 MSGE를 더해야 한다. NEN은 2012 전 1/10 Unit receipt, 이후 1/30 Unit receipt다.
 
-이라는 규칙으로 경계를 복원했다.
+## 3. MSG — 투자논지의 진화
 
-이번 10건은 raw direction과 실제 direction이 모두 Long으로 일치한다.
+- **2012:** $1bn renovation이 끝나는 capex cliff와 $275m+ FCF를 샀다. $1bn debt buyback은 optional이었고 실제 unlock은 분할이었다.
+- **2014:** RSN $4.6bn이 price를 지지하고 teams·venue·air rights $27/share가 upside였다. 2015 분할이 bucket을 직접 증권화했다.
+- **2016:** carve-out -$114m loss에서 termination·reserve·DTA·transition cost를 조정해 ongoing $209를 만들었다. 핵심은 one-time 비용의 반복성 감사다.
+- **2018:** announced spin은 맞았지만 Sphere를 $700m cost로 더한 가정은 틀렸다. 2020 COVID와 초과 capex 때문에 catalyst success와 payoff가 갈렸다.
 
-## Madison Square Garden — 같은 SOTP가 실제 securities로 바뀌는 과정
+## 4. NEN — 같은 회사, 다른 entry cap
 
-### 2012: FCF Inflection
-핵심은 약 $1bn Garden renovation이 끝나며 capex가 급락하는 것이었다.
+| 시기 | T0 absolute yield | 핵심 risk/reward | 판정 |
+|---|---|---|---|
+| 2001/02 | 12.5~13.4% cap, 5.8~6.6x cash earnings | 낮은 leverage·운영복리 | 강한 성공 방향 |
+| 2005 | 7.7% implied vs 5~6% private | relative cheap, absolute buffer 축소 | valuation 실패 |
+| 2007 | 5% cap+margin expansion+activist | easy-credit peak 낙관 중첩 | 핵심 실패 |
+| 2009/11 | 8.1~8.6% cap+buyback | refinancing survival·per-share compounding | 강한 성공 방향 |
 
-**Renovation completion → lower capex → higher FCF → capital-return / recap optionality**
+## 5. 공통 투자 교훈
 
-### 2014: Media + Hidden Assets
-RSN이 current price 대부분을 설명하고:
-- Knicks/Rangers
-- Garden / air rights
-- Entertainment
+1. SOTP는 분배증권·교환비율·세금을 연결해야 투자수익이 된다.
+2. capex cliff는 EBITDA보다 FCF를 더 빠르게 바꾼다.
+3. carve-out add-back은 `비현금`이 아니라 `비반복`인지 3년으로 검사한다.
+4. cost는 asset value가 아니다. 미완성 growth capex에는 completion·ROIC haircut이 필요하다.
+5. 부동산 NAV discount와 absolute cap-rate safety margin을 분리한다.
+6. peer cap가 동시에 낮으면 relative cheapness는 독립 안전마진이 아니다.
+7. activist는 권한·자금·날짜가 있어야 catalyst다.
+8. hard catalyst가 없어도 할인 buyback과 NAV/share 성장은 시간을 catalyst로 만든다.
+9. business survival과 common return은 별도 판정한다.
+10. 성과 테이블이 없으면 exact return은 null이다.
 
-를 공짜 또는 큰 할인에 얻는 구조였다.
+## 6. 산출물
 
-2015 실제로 media와 sports/entertainment가 분리됐다.
-
-### 2016: Post-spin accounting normalization
-Media가 빠진 새 MSG를 분석하면서:
-- termination expense
-- standalone transition cost
-- DTA
-- depreciation
-를 economic earnings로 재구성했다.
-
-### 2018: Sports vs Entertainment
-sports spin을 예상했고 실제 2020 MSG Sports / MSG Entertainment separation이 발생했다.
-
-다만 COVID가 live entertainment를 타격했기 때문에:
-
-**Catalyst correct ≠ path/return automatically correct**
-
-라는 교훈이 남는다.
-
-## New England Realty Associates — 같은 회사로 보는 cap-rate cycle 교과서
-
-### 2001 / 2002
-- implied cap rate 12.5~13.4%
-- 낮은 leverage
-- high occupancy
-- 5.8x FCF / 6.6x AFFO
-
-싼 asset + good operator였다.
-
-### 2005
-- implied cap 약 7.7%
-- private-market cap 5~6%
-- NAV $113
-
-여전히 relative cheap했지만 absolute cap-rate margin of safety는 크게 줄었다.
-
-SQL 결과:
-- 1Y +0.9%
-- 3Y -28.1%
-- 5Y -14.8%
-
-### 2007
-- 5% cap rate base
-- margin expansion
-- activist unlock
-
-가장 위험한 조합이었다.
-
-SQL 결과:
-- 1Y -11.8%
-- 2Y -39.0%
-- 3Y -40.8%
-
-### 2009
-GFC 이후:
-- implied cap 8.1%
-- 7% cap를 써도 NAV upside
-- share count 이미 20%+ 감소
-- long-term fixed mortgages
-
-SQL 결과:
-- 1Y +13.4%
-- 3Y +73.6%
-- 5Y +208.3%
-
-### 2011
-- core implied cap 약 8.6%
-- JV hidden value
-- Boston rental recovery
-- buyback history
-
-SQL 결과:
-- 1Y +23.6%
-- 3Y +134.8%
-
-## 핵심 비교
-
-| 시점 | Entry cap / framing | 3Y price-only | 판정 |
-|---|---|---:|---|
-| 2005 | 7.7%, market comps 5~6% | -28.1% | 실패 |
-| 2007 | 5% cap + margin expansion | -40.8% | 강한 실패 |
-| 2009 | 8.1% implied cap | +73.6% | 강한 성공 |
-| 2011 | 8.6% core implied cap | +134.8% | 강한 성공 |
-
-**회사 quality는 거의 같았고 starting yield가 달랐다.**
-
-## NEN 가격 데이터 주의
-
-NEN은 2012-01-03 Depositary Receipts를 3-for-1 forward split했다.
-
-- 이전: 1 receipt = 1/10 Class A Unit
-- 이후: 1 receipt = 1/30 Class A Unit
-
-따라서 2001~2011 원문 nominal share prices를 2012 이후 price와 직접 비교하지 않는다.
-SQL performance ratio는 split-adjusted series로 사용한다.
-
-## Batch 052 상위 투자 교훈
-
-1. SOTP는 실제 separation route가 있을 때 가장 강하다.
-2. capex cliff는 earnings보다 FCF를 급격히 바꿀 수 있다.
-3. post-spin 기업은 historical segment P&L을 standalone economics로 다시 만들어야 한다.
-4. announced spin이 맞아도 macro shock이 payoff path를 망가뜨릴 수 있다.
-5. **부동산주는 회사보다 entry cap rate가 중요할 수 있다.**
-6. relative NAV discount와 absolute asset yield를 분리한다.
-7. peer cap rates가 동시에 낮으면 relative cheapness는 안전마진이 아니다.
-8. buyback은 NAV discount가 큰 real-estate microcap에서 강한 per-share compounding 도구다.
-9. hard catalyst가 없어도 intrinsic value growth + share shrinkage가 있으면 시간이 catalyst가 될 수 있다.
-10. 장기 DB는 split / distribution / spin을 corporate-action adjusted basis로 관리해야 한다.
-
-## 앱 / DB 반영
-
-- Wrapper: analysis/batch_052_msg_nen_10.md
-- Overlay: data/curated/batch_052_msg_nen_deep_v7.json
-- Canonical source of truth: 위 10개 idea Markdown.
+- Payload: `data/curated/batch_052_msg_nen_deep_v7.json`
+- Wrapper: `analysis/batch_052_msg_nen_10.md`
+- Source packet: `data/curated/batch_052_source_packet.json`
+- Builder: `scripts/52_build_batch_052_v9.py`

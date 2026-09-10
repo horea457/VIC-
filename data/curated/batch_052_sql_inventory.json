@@ -1,0 +1,18 @@
+{
+  "source_filename": "VIC_IDEAS(4).sql",
+  "attachment_bytes_checked": 122499072,
+  "records_selected": 10,
+  "copy_tables_present": [
+    "catalyst",
+    "companies",
+    "descriptions"
+  ],
+  "idea_rows_in_attachment": 0,
+  "raw_descriptions_present": 7,
+  "raw_descriptions_absent": 3,
+  "raw_catalysts_verified": 10,
+  "performance_copy_present": false,
+  "performance_rows_found": 0,
+  "legacy_overlay_rows_nullified": 4,
+  "note": "Current attachment controls. Corporate events and prior unproven ratios are not exact returns."
+}
