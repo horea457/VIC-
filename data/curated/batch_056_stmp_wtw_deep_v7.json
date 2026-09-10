@@ -1,0 +1,296 @@
+{
+  "schema_version": "vic-deep-research-v9",
+  "batch": 56,
+  "title": "Stamps.com / Weight Watchers — Digital Transition, Unit Economics and Ticker Contamination V9",
+  "research_asof": "2026-09-10",
+  "metadata_audit": {
+    "direction_corrections": 6,
+    "direction_actual": {
+      "long": 6,
+      "short": 4
+    },
+    "ticker_performance_contamination": 4,
+    "notes": [
+      "All 10 raw rows have is_short=1.",
+      "Actual Longs: STMP 2007-07, STMP 2008-03, STMP 2017-04, STMP 2019-06, WTW 2013-03, WTW 2013-09.",
+      "Actual Shorts: STMP 2016-02, STMP 2016-09, WTW 2008-05, WTW 2014-02.",
+      "WTW raw performance fields are preserved but not used for outcome verdict because ticker WTW was later reused by Willis Towers Watson and the stored price series is incompatible with contemporaneous Weight Watchers prices.",
+      "STMP performance fields are null in ideas_master; outcomes validated separately."
+    ]
+  },
+  "ideas_master": [
+    {
+      "idea_id": "827f69e9-a39a-4025-9ba2-7260fcdbc3bf",
+      "date": "2007-07-03",
+      "ticker": "STMP",
+      "company_name": "Stamps.com",
+      "author": "thomas434",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": null,
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 보존·2009 bullish scenario로 Long 교정"
+    },
+    {
+      "idea_id": "ba7b0dc3-12ed-4cf4-9b66-6cabf46aa43c",
+      "date": "2008-03-07",
+      "ticker": "STMP",
+      "company_name": "Stamps.com",
+      "author": "rskfrarb210",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/Stamps.com/8715706478",
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 보존·depressed FCF Long 교정"
+    },
+    {
+      "idea_id": "e879e0a9-9dae-4cee-bb85-56aa4599cb19",
+      "date": "2016-02-06",
+      "ticker": "STMP",
+      "company_name": "Stamps.com",
+      "author": "obvious617",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/STAMPS.COM_INC/0599109745",
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 일치"
+    },
+    {
+      "idea_id": "d3dcfac9-be86-40f2-b862-24768133c133",
+      "date": "2016-09-06",
+      "ticker": "STMP",
+      "company_name": "Stamps.com",
+      "author": "avahaz",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/STAMPS.COM_INC/1523234195",
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 일치"
+    },
+    {
+      "idea_id": "b5cf7b42-cc0f-4d85-af68-aeaa7931f6af",
+      "date": "2017-04-06",
+      "ticker": "STMP",
+      "company_name": "Stamps.com",
+      "author": "bluewater12",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/STAMPS.COM_INC/7795872038",
+      "contest_winner": 1,
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 보존·본문 biggest position / I am long으로 교정"
+    },
+    {
+      "idea_id": "ee7fdd2a-707e-4053-8d1f-da462cbe11fd",
+      "date": "2019-06-24",
+      "ticker": "STMP",
+      "company_name": "Stamps.com",
+      "author": "regency435",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/STAMPS.COM_INC/5454189345",
+      "contest_winner": 1,
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 보존·We recommend purchase로 Long 교정"
+    },
+    {
+      "idea_id": "e6e81eb8-bda8-4065-b872-ef0e083f3d56",
+      "date": "2008-05-11",
+      "ticker": "WTW",
+      "company_name": "Weight Watchers International",
+      "author": "claude535",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/Weight_Watchers_International/9697115100",
+      "contest_winner": 1,
+      "performance_available": 1,
+      "raw_performance_contaminated": true,
+      "raw_perf": {
+        "perf_1m": 0.934684,
+        "perf_3m": 0.852887,
+        "perf_6m": 0.710735,
+        "perf_1y": 0.71777,
+        "perf_2y": 0.891092,
+        "perf_3y": 1.111833,
+        "perf_5y": 1.1772
+      },
+      "auto_tag_status_ko": "raw Short 일치·WTW ticker performance contamination"
+    },
+    {
+      "idea_id": "8655169b-6c07-4b55-ba24-24f1193ca588",
+      "date": "2013-03-21",
+      "ticker": "WTW",
+      "company_name": "Weight Watchers International",
+      "author": "abra399",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/WEIGHT_WATCHERS_INTL_INC/3892239359",
+      "performance_available": 1,
+      "raw_performance_contaminated": true,
+      "raw_perf": {
+        "perf_1m": 1.011206,
+        "perf_3m": 1.08958,
+        "perf_6m": 1.158702,
+        "perf_1y": 1.15081,
+        "perf_2y": 1.340492,
+        "perf_3y": 1.289345,
+        "perf_5y": 1.746014
+      },
+      "auto_tag_status_ko": "raw Short 보존·Recommendation Buy Long 교정·WTW perf 미사용"
+    },
+    {
+      "idea_id": "310d7a03-57a0-4111-be06-288a9a8c53e7",
+      "date": "2013-09-30",
+      "ticker": "WTW",
+      "company_name": "Weight Watchers International",
+      "author": "MSLM28",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": null,
+      "performance_available": 1,
+      "raw_performance_contaminated": true,
+      "raw_perf": {
+        "perf_1m": 1.017839,
+        "perf_3m": 1.018643,
+        "perf_6m": 1.013559,
+        "perf_1y": 0.964445,
+        "perf_2y": 0.980609,
+        "perf_3y": 1.195425,
+        "perf_5y": null
+      },
+      "auto_tag_status_ko": "raw Short 보존·buy at $37 Long 교정·WTW perf 미사용"
+    },
+    {
+      "idea_id": "72d5d91e-1363-4fb9-85fb-741a2601c4c7",
+      "date": "2014-02-22",
+      "ticker": "WTW",
+      "company_name": "Weight Watchers International",
+      "author": "murman",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "security_type": "common equity",
+      "source_link": null,
+      "performance_available": 1,
+      "raw_performance_contaminated": true,
+      "raw_perf": {
+        "perf_1m": 1.005719,
+        "perf_3m": 0.990967,
+        "perf_6m": 1.00632,
+        "perf_1y": 1.164125,
+        "perf_2y": 1.069335,
+        "perf_3y": 1.228136,
+        "perf_5y": 1.689142
+      },
+      "auto_tag_status_ko": "raw Short 일치·WTW perf 미사용·borrow 50-60%"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "827f69e9-a39a-4025-9ba2-7260fcdbc3bf",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "LTV/CAC / growth-capex Long",
+      "one_line_verdict_ko": "2009 target 실패, 2010-11 business recovery; horizon과 business quality 분리",
+      "thesis_score": 6,
+      "process_score": 8.8,
+      "key_mechanism": "good unit economics but early normalization"
+    },
+    {
+      "idea_id": "ba7b0dc3-12ed-4cf4-9b66-6cabf46aa43c",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "depressed FCF / reset Long",
+      "one_line_verdict_ko": "2007 miss를 인정한 더 낮은 entry; 단기 혼합, 3-4년 성공",
+      "thesis_score": 8,
+      "process_score": 9,
+      "key_mechanism": "expectation reset + lower multiple"
+    },
+    {
+      "idea_id": "e879e0a9-9dae-4cee-bb85-56aa4599cb19",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "secular mail decline / acquisition masking Short",
+      "one_line_verdict_ko": "2016-17 customer/ARPU/revenue growth 지속으로 강한 실패",
+      "thesis_score": 2.5,
+      "process_score": 8,
+      "key_mechanism": "wrong TAM definition"
+    },
+    {
+      "idea_id": "d3dcfac9-be86-40f2-b862-24768133c133",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "USPS contract/regulatory Short",
+      "one_line_verdict_ko": "2019 mechanism 일부 선행했지만 2016-18 큰 상승으로 investable timing 실패",
+      "thesis_score": 5.5,
+      "process_score": 8.8,
+      "key_mechanism": "right structural dependency, wrong catalyst timing"
+    },
+    {
+      "idea_id": "b5cf7b42-cc0f-4d85-af68-aeaa7931f6af",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "shipping ecosystem compounder Long",
+      "one_line_verdict_ko": "$110 대비 2021 $330 takeout; business-model call 성공, $500 target 미달",
+      "thesis_score": 9,
+      "process_score": 9.5,
+      "key_mechanism": "e-commerce shipping ecosystem and software integration"
+    },
+    {
+      "idea_id": "ee7fdd2a-707e-4053-8d1f-da462cbe11fd",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "post-shock zero-USPS SOTP Long",
+      "one_line_verdict_ko": "broken monetization을 0 처리한 $37-47 floor 이후 $330 takeout, 매우 강한 성공",
+      "thesis_score": 10,
+      "process_score": 9.8,
+      "key_mechanism": "value what remains after broken earnings go to zero"
+    },
+    {
+      "idea_id": "e6e81eb8-bda8-4065-b872-ef0e083f3d56",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "leveraged consumer-cycle Short",
+      "one_line_verdict_ko": "2008 약 -33.6%로 tactical success; online growth 때문에 permanent decline thesis는 제한",
+      "thesis_score": 9,
+      "process_score": 9.5,
+      "key_mechanism": "attendance decline + debt-funded buyback + operating leverage"
+    },
+    {
+      "idea_id": "8655169b-6c07-4b55-ba24-24f1193ca588",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "cheap FCF / temporary recruiting Long",
+      "one_line_verdict_ko": "free apps를 temporary로 오판, 2014 recovery 실패",
+      "thesis_score": 2.5,
+      "process_score": 8.5,
+      "key_mechanism": "structural digital substitution mistaken for temporary issue"
+    },
+    {
+      "idea_id": "310d7a03-57a0-4111-be06-288a9a8c53e7",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "market-share / online crown-jewel Long",
+      "one_line_verdict_ko": "$48-60 value vs 2014 ~$22.70; market definition과 debt 해석 실패",
+      "thesis_score": 2,
+      "process_score": 8.5,
+      "key_mechanism": "market share in a category being redefined"
+    },
+    {
+      "idea_id": "72d5d91e-1363-4fb9-85fb-741a2601c4c7",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "digital-disruption / leveraged Short",
+      "one_line_verdict_ko": "fundamental call strongly right, but 50-60% borrow와 Oprah squeeze로 tradeability 낮음",
+      "thesis_score": 9.5,
+      "process_score": 9.2,
+      "key_mechanism": "meetings and paid-online simultaneous disruption"
+    }
+  ],
+  "batch_lessons": [
+    "STMP는 declining mail company가 아니라 e-commerce shipping workflow platform으로 재정의한 Long들이 성공했다.",
+    "2016 STMP contract Short는 2019 risk를 선행했지만 catalyst timing이 2.5년 늦어 trade로는 실패했다.",
+    "2019 STMP Long은 USPS monetization을 zero 처리한 downside SOTP가 가장 강한 valuation framework였다.",
+    "Weight Watchers 2008 문제는 recession/cycle이었지만 2013-14 문제는 free digital substitutes가 category를 재정의한 structural disruption이었다.",
+    "WTW ticker reuse가 performance DB를 오염시킬 수 있어 entity-continuity audit가 필수다.",
+    "Short thesis correctness와 borrow-adjusted trade IRR은 별도 저장해야 한다."
+  ]
+}
