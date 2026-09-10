@@ -1,115 +1,53 @@
-# Batch 048 — KAR / Time Warner / Metals USA V9 Index
+# Batch 048 — KAR / Time Warner / Metals USA — V9 Index
 
-> **기준:** Batch 042 V9 format을 계승한다. 아이디어 1건 = canonical Markdown 1개.
-> **Research as-of:** 2026-09-09.
-> **Direction audit:** source SQL의 is_short는 raw metadata로 보존하고, 실제 본문 security/direction은 별도 research layer에서 교정했다.
+> Research as-of 2026-09-10. 첨부 `VIC_IDEAS(4).sql`과 repository source metadata로 entity·direction·security를 감사했다. KAR 2건은 보존 price multiplier를 실제 Long 방향으로 교정했고, 나머지는 성과를 만들지 않았다.
 
----
+## 0. 배치 결론
 
-## Canonical Idea Units
+raw Short 9건 중 실제 Short는 TWX 2015-12 한 건뿐이다. KAR 2건은 recovery/digital Long, TWX는 LEAPS·stub·common·SOTP·Short·merger arb를 각각 독립 security로 나눴다. MUSA 2003은 Murphy USA가 아니라 Metals USA다. 이 배치의 핵심은 `좋은 기업가치 분석도 security duration이 틀리면 실패`, `산업 Short가 맞아도 M&A tail이면 손실`, `event probability와 duration은 별도`라는 점이다.
 
-| 순서 | 게시일 | Ticker | 원 SQL | 실제 방향 | 파일 | 핵심 판정 |
-|---:|---|---|---|---|---|---|
-| 1 | 2020-06-03 | KAR | Short | **Long** | [KAR 2020 Long](ideas/2020/2020-06-03_KAR_long.md) | survival 적중, +40% rerating 제한 |
-| 2 | 2021-07-23 | KAR | Short | **Long** | [KAR 2021 Long](ideas/2021/2021-07-23_KAR_long.md) | digital thesis 일부 적중, asset-sale로 모델 경로 변경 |
-| 3 | 2006-01-31 | TWX | Short | **LEAPS Long** | [TWX 2006 LEAPS](ideas/2006/2006-01-31_TWX_leaps_long.md) | corporate 방향은 맞고 option horizon 실패 |
-| 4 | 2009-02-15 | TWX | Short | **Stub Long** | [TWX 2009 Stub](ideas/2009/2009-02-15_TWX_stub_long.md) | TWC/AOL separation 강한 성공 |
-| 5 | 2013-07-24 | TWX | Short | **Long** | [TWX 2013 Long](ideas/2013/2013-07-24_TWX_long.md) | content scarcity·buyback·strategic value 성공 |
-| 6 | 2015-01-28 | TWX | Short | **SOTP Long** | [TWX 2015 SOTP](ideas/2015/2015-01-28_TWX_sotp_long.md) | hidden asset + strategic scarcity 성공 |
-| 7 | 2015-03-11 | TWX | Short | **Long** | [TWX 2015 Long](ideas/2015/2015-03-11_TWX_long.md) | $6 EPS 근접, 12M target은 지연 |
-| 8 | 2015-12-10 | TWX | Short | **Short** | [TWX 2015 Short](ideas/2015/2015-12-10_TWX_short.md) | 산업은 맞고 security는 M&A로 강한 실패 |
-| 9 | 2017-02-22 | TWX | Short | **Merger Arb Long** | [TWX 2017 Arb](ideas/2017/2017-02-22_TWX_merger_long.md) | deal close 성공, DOJ/duration 과소평가 |
-| 10 | 2003-10-13 | MUSA | Long | **Metals USA Long** | [Metals USA 2003](ideas/2003/2003-10-13_MUSA_metalsusa_long.md) | post-BK turnaround, 2005 $22 cash exit |
+## 1. Idea Units
 
----
+| # | 날짜 | 실제 security/entity | raw→연구 방향 | 판정 | Canonical report |
+|---:|---|---|---|---|---|
+| 1 | 2020-06-03 | KAR Auction Services | Short→**Long** | 부분 성공 — survival·volume 회복은 적중, +40% rerating은 미달 | [preferred 자본·거래량 정상화·비용 reset Long](ideas/2020/2020-06-03_KAR_long.md) |
+| 2 | 2021-07-23 | KAR Auction Services | Short→**Long** | 실패/경로변경 — digital 방향은 맞았지만 2024 forecast object가 소멸 | [digital wholesale marketplace·2024 SOTP Long](ideas/2021/2021-07-23_KAR_long.md) |
+| 3 | 2006-01-31 | Time Warner Jan-2008 $15 calls | Short→**LEAPS Long** | 실패 — corporate 방향은 맞았지만 option clock이 먼저 만료 | [conglomerate unlock의 Jan-2008 LEAPS Long](ideas/2006/2006-01-31_TWX_leaps_long.md) |
+| 4 | 2009-02-15 | Time Warner post-TWC content stub | Short→**Stub Long** | 강한 성공 — TWC·AOL separation이 연속 실행 | [$9.253bn cash transfer와 content stub Long](ideas/2009/2009-02-15_TWX_stub_long.md) |
+| 5 | 2013-07-24 | Time Warner, Inc. | Short→**Long** | 성공 — 산업통찰·전략가치 적중, EPS magnitude는 과대 | [OTT content scarcity·buyback compounding Long](ideas/2013/2013-07-24_TWX_long.md) |
+| 6 | 2015-01-28 | Time Warner, Inc. | Short→**SOTP Long** | 성공 — hidden asset·strategic scarcity 적중, HBO multiple은 공격적 | [HBO+Turner가 EV를 덮는 residual WB SOTP Long](ideas/2015/2015-01-28_TWX_sotp_long.md) |
+| 7 | 2015-03-11 | Time Warner, Inc. | Short→**Long** | 부분 성공 — earnings power 적중, 12개월 $110은 지연 | [$6 EPS·buyback·strategic optionality Long](ideas/2015/2015-03-11_TWX_long.md) |
+| 8 | 2015-12-10 | Time Warner, Inc. | Short→**Short** | 강한 실패 — 산업방향 일부 적중, M&A tail이 security를 파괴 | [linear cable terminal decline Short](ideas/2015/2015-12-10_TWX_short.md) |
+| 9 | 2017-02-22 | Time Warner / AT&T merger claim | Short→**Merger Arb Long** | 성공 — deal close, regulatory simplicity·duration은 실패 | [AT&T cash-stock collar merger-arbitrage Long](ideas/2017/2017-02-22_TWX_merger_long.md) |
+| 10 | 2003-10-13 | Metals USA, Inc. (not Murphy USA) | Long→**Long** | 강한 성공 — 2005 Apollo $22 cash exit, 약 3.1x gross | [post-bankruptcy 자산·운전자본·operator reset Long](ideas/2003/2003-10-13_MUSA_metalsusa_long.md) |
 
-## Direction / Entity Audit
+## 2. 기업별 lifecycle
 
-이번 batch는 raw metadata quality issue가 매우 크다.
+### KAR — survival에서 digital perimeter로
 
-- **KAR 2건:** SQL은 모두 Short지만 원문은 Long.
-- **TWX 7건:** 2015-12-10 secular thesis만 실제 Short. 나머지 6건은 Long/LEAPS/Stub/Merger Arb.
-- **MUSA 2003:** raw Long은 맞지만 회사 identity가 Murphy USA가 아니라 **Metals USA**다.
-- 따라서 raw ticker + is_short만으로 DB를 분석하면 10건 중 8건의 investment direction/entity context를 잘못 읽을 수 있다.
+2020 Long은 $550m preferred로 생존확률이 상승하는 trade였고 1년 +16.4%로 부분 성공했다. 2021 Long은 BacklotCars·commercial workflow를 맞게 봤지만 2022 ADESA U.S. 매각으로 2024 $585m EBITDA forecast object가 소멸했다.
 
----
+### Time Warner — 같은 기업, 다른 security와 clock
 
-## 핵심 판정
+2006 LEAPS는 TWC/AOL 분리 방향이 맞아도 만기 전에 오지 않아 실패했다. 2009 stub은 hard separation으로 성공했다. 2013~2015 Long은 content scarcity·buyback·strategic value를 포착했다. 2015 Short는 cord-cutting을 맞히고 AT&T bid로 크게 실패했으며 2017 arb는 close probability를 맞히고 DOJ/duration을 틀렸다.
 
-### 1. KAR 2020 — survival trade와 rerating trade를 분리
-$550m preferred financing은 liquidity tail risk를 실제로 줄였다. 거래량 회복도 맞았다. 그러나 SQL price series는 1Y +16.4%, 2Y +5.3%로 “easy +40%”에는 못 미쳤다.
+### Metals USA — post-bankruptcy convexity
 
-### 2. KAR 2021 — marketplace thesis는 맞았지만 기업 perimeter가 바뀜
-BacklotCars와 digital D2D는 전략 중심이 됐지만, 2022 ADESA U.S. physical auction business를 Carvana에 팔면서 2024 EBITDA/SOTP 모델의 비교대상이 사라졌다.
+debt-to-equity reset, working-capital release, operator change와 steel cycle이 겹쳤고 2005 Apollo $22 cash exit로 약 3.1x gross outcome을 만들었다.
 
-### 3. TWX 2006 — 좋은 기업가치 분석도 만기 짧은 option에서는 실패
-TWC/AOL separation은 2009년에 일어났다. Jan-2008 calls는 그 시간을 기다릴 수 없었다.
+## 3. 공통 투자교훈
 
-### 4. TWX 2009 — 좋은 stub trade
-이미 예정된 TWC separation + cash transfer, 이후 AOL spin이 discount 해소를 직접 만들었다.
+1. **기업 thesis와 security thesis를 분리한다.** LEAPS 만기는 corporate value를 기다려주지 않는다.
+2. **산업 terminal value와 주식 경로는 다르다.** 희소 IP의 strategic buyer가 secular Short를 파괴할 수 있다.
+3. **Merger arb는 probability×duration×hedge carry다.** 결국 닫혀도 annualized IRR은 실패할 수 있다.
+4. **Forecast perimeter를 고정하지 않는다.** 핵심 자산 매각 뒤에는 옛 EBITDA/SOTP를 폐기한다.
+5. **SOTP는 residual implied value를 본다.** debt·tax·overhead를 넣은 뒤 진짜 공짜인지 확인한다.
+6. **Post-BK는 asset floor와 recurring FCF를 중복하지 않는다.**
+7. **성과가 없으면 null이다.** corporate action을 임의 return으로 바꾸지 않는다.
 
-### 5. TWX 2013~2015 Long — OTT disruption의 반대편
-OTT가 cable bundle을 약화시키는 동시에 premium content owner의 bargaining power와 buyer scarcity를 높일 수 있다는 thesis가 적중했다. Time Inc spin, HBO NOW, Fox bid, AT&T bid가 연속 검증했다.
+## 4. 산출물
 
-### 6. TWX 2015 Short — 산업을 맞히고 주식을 틀린 사례
-cord-cutting 방향은 훌륭했지만 strategic buyer risk를 충분히 가격화하지 못했다. AT&T bid가 short를 파괴했다.
-
-### 7. TWX 2017 arb — probability는 맞고 duration은 틀림
-deal은 닫혔으나 DOJ litigation으로 year-end 2017 close 가정이 깨졌다. merger arb IRR은 probability × duration × hedge carry의 함수다.
-
-### 8. Metals USA — post-bankruptcy convexity
-balance-sheet reset + new operator + working-capital release + cycle recovery가 겹쳤고 2005 Apollo $22 cash takeout으로 value가 crystallize됐다.
-
----
-
-## Batch 048 공통 분석식
-
-### Recovery / Turnaround
-**Equity payoff ≈ survival probability improvement + normalized EBITDA recovery + capital allocation - dilution/leverage drag**
-
-### Content / Media
-**Equity value ≈ content cash earnings + bargaining-power duration + strategic scarcity - distribution disruption - debt**
-
-### Event / Arb
-**Expected IRR ≈ probability-weighted spread ÷ expected duration - hedge carry - break loss × failure probability**
-
-### Post-bankruptcy
-**Equity convexity ≈ deleveraged capital structure × working-capital release × operating-margin recovery × cycle**
-
----
-
-## 상위 교훈
-
-1. **raw direction을 믿지 않는다.** 본문 security를 직접 읽어야 한다.
-2. **기업 thesis와 security thesis를 분리한다.** TWX 2006/2015 Short가 대표적이다.
-3. **구조적 변화는 가치사슬별로 본다.** OTT는 distributor에는 위협이고 premium content owner에는 bargaining-power source일 수 있다.
-4. **event에는 duration이 있다.** 맞는 deal도 늦게 닫히면 IRR은 크게 낮아진다.
-5. **post-BK는 자산가치만 보지 않는다.** capital structure와 operator change가 equity convexity를 만든다.
-6. **SOTP는 residual implied value를 본다.** “WB를 거의 공짜로 산다” 같은 역산이 핵심이다.
-7. **M&A tail은 Short에서 핵심 변수다.** risk paragraph에 적는 것으로 끝내면 안 된다.
-8. **기업 perimeter가 바뀌면 forecast를 새로 만든다.** asset sale 뒤 옛 EBITDA target을 그대로 평가하지 않는다.
-
----
-
-## Batch 구성 / Source IDs
-
-1. KAR — ffa62e3d-8c80-4064-b37b-f81dd52825cb
-2. KAR — 7f2bf8af-02a4-4335-80de-5ab1a702a9ef
-3. TWX — 34b54ac6-6f41-4576-845b-4cfa4bb30646
-4. TWX — 87549b45-8bf7-49db-8f74-23a24e452452
-5. TWX — 07fffa81-725d-4091-9244-200083076a49
-6. TWX — 171d98eb-0b29-4b07-9074-359033065903
-7. TWX — 92817617-f252-4c1a-9efc-0ba51eadfb06
-8. TWX — 91c79f18-515f-4cbe-a4c3-cdf5d379c922
-9. TWX — a32500d7-d85f-41a7-a66b-cba1ec17747e
-10. MUSA / Metals USA — 5faa64ca-3af9-41b2-bfe0-b7377094617b
-
----
-
-## 앱/DB 반영
-
-Wrapper: [batch_048_kar_timewarner_metalsusa_10.md](batch_048_kar_timewarner_metalsusa_10.md)
-
-Curated overlay: data/curated/batch_048_kar_timewarner_metalsusa_deep_v7.json
-
-Canonical source of truth는 위 10개 idea Markdown이다.
+- Payload: `data/curated/batch_048_kar_timewarner_metalsusa_deep_v7.json`
+- Wrapper: `analysis/batch_048_kar_timewarner_metalsusa_10.md`
+- Source packet: `data/curated/batch_048_source_packet.json`
+- Builder: `scripts/48_build_batch_048_v9.py`

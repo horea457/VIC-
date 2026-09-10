@@ -1,0 +1,11 @@
+{
+  "source_filename": "VIC_IDEAS(4).sql",
+  "attachment_bytes_checked": 122499072,
+  "records_selected": 10,
+  "raw_descriptions_present_in_attachment": 5,
+  "raw_catalysts_verified": 10,
+  "repository_performance_rows_preserved": 2,
+  "direction_corrections": 8,
+  "entity_corrections": 1,
+  "note": "첨부 SQL은 10건 catalyst와 5건 description을 포함했다. 누락 description은 길이를 0으로 유지했다. KAR 2건의 repository multiplier 외 성과는 만들지 않았다."
+}

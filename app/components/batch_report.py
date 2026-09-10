@@ -53,6 +53,7 @@ BATCH_SOURCES = (
 ("batch_045_eplus_plus500_brinks_deep_v7.json","batch_045_eplus_plus500_brinks_10.md","Batch 045"),
 ("batch_046_anthem_athabasca_athene_cit_deep_v7.json","batch_046_anthem_athabasca_athene_cit_10.md","Batch 046"),
 ("batch_047_brinks_cit_kar_deep_v7.json","batch_047_brinks_cit_kar_10.md","Batch 047"),
+("batch_048_kar_timewarner_metalsusa_deep_v7.json","batch_048_kar_timewarner_metalsusa_10.md","Batch 048"),
 ("all_reviewed_v8_index.json","all_reviewed_v8.md.gz","V8 전체 DB"),)
 
 @st.cache_data(show_spinner=False)
