@@ -1,0 +1,246 @@
+{
+  "schema_version": "vic-deep-research-v9",
+  "batch": 59,
+  "title": "Adient / ADP / American Dental Partners / Adaptec / Aduro / Alliance Data — Value Capture and Claim Ownership V9",
+  "research_asof": "2026-09-10",
+  "metadata_audit": {
+    "direction_corrections": 5,
+    "security_structure_corrections": 1,
+    "corporate_action_return_warnings": 3,
+    "notes": [
+      "ADNT 2022, ADP 2020, ADPI 2008, ADPT 2010-08, ADS 2008 raw Short -> actual Long.",
+      "ADPT 2004 raw Short is not a simple short; actual idea is Long ADPT / Short Emulex (ELX) pair.",
+      "ADPT 2001 and ADPT 2010-02 raw Long are correct; ADRO 2020 raw Long is correct; ADS 2010 raw Short is correct.",
+      "ADPT 2001 Roxio spin, ADPT 2010 shell transformation/reverse split, and ADRO 2020 Chinook reverse merger/CVR require corporate-action-adjusted return reconstruction.",
+      "Simple nominal price returns are not used for these corporate-action-heavy cases."
+    ]
+  },
+  "ideas_master": [
+    {
+      "idea_id": "11a9e3c0-e964-4d7a-a445-01f494bd0ad2",
+      "date": "2022-05-19",
+      "ticker": "ADNT",
+      "company_name": "Adient plc",
+      "author": "ancap",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short 보존·sub-3x FY26E EBITDA trough-recovery Long으로 교정"
+    },
+    {
+      "idea_id": "731a35c3-8ce4-4c49-b595-7258c93e9b9f",
+      "date": "2020-06-03",
+      "ticker": "ADP",
+      "company_name": "Automatic Data Processing",
+      "author": "madmax989",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short 보존·9-15% annualized quality-compounder Long으로 교정"
+    },
+    {
+      "idea_id": "8b5ece51-89ee-4fff-98b5-3bd412ccde0d",
+      "date": "2008-03-26",
+      "ticker": "ADPI",
+      "company_name": "American Dental Partners",
+      "author": "skimmer610",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "contest_winner": 1,
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short 보존·litigation-settlement 50-100% upside Long으로 교정"
+    },
+    {
+      "idea_id": "45190726-b889-4d18-8ac5-e1cfd1a0b928",
+      "date": "2001-04-09",
+      "ticker": "ADPT",
+      "company_name": "Adaptec / Roxio spin",
+      "author": "brus383",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "pre-spin common equity",
+      "contest_winner": 1,
+      "performance_available": false,
+      "corporate_action_note": "0.1646 Roxio shares distributed per ADPT share on 2001-05-11; combined-security return required",
+      "auto_tag_status_ko": "raw Long 일치·spin distribution return adjustment required"
+    },
+    {
+      "idea_id": "4a73655e-a8cb-468e-a80c-3c849efe7c98",
+      "date": "2004-06-15",
+      "ticker": "ADPT",
+      "company_name": "Adaptec / Emulex",
+      "author": "hbomb5",
+      "is_short": 1,
+      "direction_ko": "페어",
+      "security_type": "long ADPT common / short ELX common",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short 보존·실제 Long ADPT / Short Emulex pair로 교정"
+    },
+    {
+      "idea_id": "252b11b5-6209-4c50-8ca1-56315ba3ad21",
+      "date": "2010-02-03",
+      "ticker": "ADPT",
+      "company_name": "Adaptec",
+      "author": "pokey351",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "performance_available": false,
+      "corporate_action_note": "legacy business sale, later Steel Excel transformation and reverse split",
+      "auto_tag_status_ko": "raw Long 일치·asset-sale/shell transformation"
+    },
+    {
+      "idea_id": "f018c3f9-964f-47e9-9114-4e92f698a87b",
+      "date": "2010-08-17",
+      "ticker": "ADPT",
+      "company_name": "Adaptec / Steel-controlled shell",
+      "author": "bgm722",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "performance_available": false,
+      "corporate_action_note": "later Steel Excel transformation/reverse split and acquisitions; nominal price return invalid",
+      "auto_tag_status_ko": "raw Short 보존·negative-EV shell Long으로 교정"
+    },
+    {
+      "idea_id": "c21affa1-9593-4f1a-a39e-0797d7f707a6",
+      "date": "2020-01-27",
+      "ticker": "ADRO",
+      "company_name": "Aduro Biotech",
+      "author": "mack885",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "performance_available": false,
+      "corporate_action_note": "2020 Chinook reverse merger, 1-for-5 reverse split, legacy CVR, 2023 Novartis takeout",
+      "auto_tag_status_ko": "raw Long 일치·reverse-merger/CVR adjusted return required"
+    },
+    {
+      "idea_id": "f1d7e1cc-b307-4522-acea-5efa87289706",
+      "date": "2008-12-30",
+      "ticker": "ADS",
+      "company_name": "Alliance Data Systems",
+      "author": "lindsay790",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short 보존·$67 blended SOTP Long으로 교정"
+    },
+    {
+      "idea_id": "b5410dd2-ce64-41cd-b884-06a667617bae",
+      "date": "2010-04-15",
+      "ticker": "ADS",
+      "company_name": "Alliance Data Systems",
+      "author": "fiftycent501",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "security_type": "common equity",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short 일치"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "11a9e3c0-e964-4d7a-a445-01f494bd0ad2",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "auto-supplier trough-recovery Long",
+      "one_line_verdict_ko": "FY23 EBITDA recovery는 근접했지만 sustained $500m+ FCF와 rerating은 실패",
+      "thesis_score": 5.0,
+      "process_score": 9.0,
+      "key_mechanism": "macro normalization did not fully translate into structural FCF normalization"
+    },
+    {
+      "idea_id": "731a35c3-8ce4-4c49-b595-7258c93e9b9f",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "mission-critical quality compounder Long",
+      "one_line_verdict_ko": "technology-debt bear case를 retention/distribution economics가 넘기며 장기 compounding 성공",
+      "thesis_score": 9.5,
+      "process_score": 9.7,
+      "key_mechanism": "long retention + mission-critical workflow + distribution scale"
+    },
+    {
+      "idea_id": "8b5ece51-89ee-4fff-98b5-3bd412ccde0d",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "litigation-resolution special-situation Long",
+      "one_line_verdict_ko": "~$10 entry logic 이후 JLL $19 cash takeout; value 성공, timing 지연",
+      "thesis_score": 9.3,
+      "process_score": 9.5,
+      "key_mechanism": "bounded legal tail + depressed normalized FCF multiple"
+    },
+    {
+      "idea_id": "45190726-b889-4d18-8ac5-e1cfd1a0b928",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "hidden-software spin SOTP Long",
+      "one_line_verdict_ko": "Roxio 0.1646-share distribution이 한 달 뒤 실현; corporate-action thesis 강한 성공",
+      "thesis_score": 9.7,
+      "process_score": 9.7,
+      "key_mechanism": "near-dated spin crystallizes separately valued hidden asset"
+    },
+    {
+      "idea_id": "4a73655e-a8cb-468e-a80c-3c849efe7c98",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "technology-substitution pair trade",
+      "one_line_verdict_ko": "iSCSI 방향은 맞아도 Adaptec value capture가 실패; Long leg 붕괴",
+      "thesis_score": 3.0,
+      "process_score": 9.0,
+      "key_mechanism": "right technology trend, wrong beneficiary"
+    },
+    {
+      "idea_id": "252b11b5-6209-4c50-8ca1-56315ba3ad21",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "activist cash/NOL asset-sale Long",
+      "one_line_verdict_ko": "PMC-Sierra $34.3m asset sale은 적중, 이후 cash redeployment로 pure-liquidation thesis 변형",
+      "thesis_score": 7.5,
+      "process_score": 9.4,
+      "key_mechanism": "asset sale succeeds but realization changes into capital-allocation claim"
+    },
+    {
+      "idea_id": "f018c3f9-964f-47e9-9114-4e92f698a87b",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "negative-EV cash/NOL shell Long",
+      "one_line_verdict_ko": "hard-asset discount는 맞았지만 liquidation 대신 new-business deployment로 path 혼합",
+      "thesis_score": 5.5,
+      "process_score": 9.2,
+      "key_mechanism": "net cash became acquisition capital rather than direct shareholder cash"
+    },
+    {
+      "idea_id": "c21affa1-9593-4f1a-a39e-0797d7f707a6",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "negative-EV biotech / strategic-option Long",
+      "one_line_verdict_ko": "security outcome 매우 강했지만 큰 가치는 Chinook reverse merger 이후 새 assets에서 발생",
+      "thesis_score": 8.0,
+      "process_score": 9.5,
+      "key_mechanism": "cash runway and capital allocation created value beyond legacy pipeline"
+    },
+    {
+      "idea_id": "f1d7e1cc-b307-4522-acea-5efa87289706",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "conglomerate SOTP / credit-stress Long",
+      "one_line_verdict_ko": "$67 target 달성 후 장기 대폭 상승; non-credit cash engines를 분리한 framework가 적중",
+      "thesis_score": 9.8,
+      "process_score": 9.7,
+      "key_mechanism": "credit fear obscured valuable loyalty/marketing cash engines"
+    },
+    {
+      "idea_id": "b5410dd2-ce64-41cd-b884-06a667617bae",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "forensic-accounting / credit Short",
+      "one_line_verdict_ko": "accounting concerns 일부 타당했지만 economic leverage/catalyst 연결 실패로 주가가 반대로 수배 상승",
+      "thesis_score": 1.5,
+      "process_score": 9.0,
+      "key_mechanism": "accounting consolidation mistaken for incremental economic leverage"
+    }
+  ],
+  "batch_lessons": [
+    "ADNT 2022는 EBITDA cycle recovery와 sustainable FCF normalization을 분리해야 함을 보여준다.",
+    "ADP는 특별한 catalyst 없이도 retention, mission-critical workflow, distribution moat로 높은 장기 IRR을 만들 수 있음을 보여준다.",
+    "ADPI는 settlement가 legal tail을 bounded 한 뒤에도 verdict 공포가 남는 litigation dislocation의 좋은 사례다.",
+    "ADPT 2001/2004/2010은 같은 ticker가 spin SOTP, technology pair, asset shell, capital allocator로 완전히 다른 투자로 변할 수 있음을 보여준다.",
+    "ADRO는 negative-EV biotech의 가치를 legacy pipeline뿐 아니라 reverse-merger capital allocation까지 봐야 함을 보여준다.",
+    "ADS 2008 Long vs 2010 Short는 같은 credit/accounting facts도 economic cash consequence와 segment weighting에 따라 정반대 결론이 날 수 있음을 보여준다."
+  ]
+}
