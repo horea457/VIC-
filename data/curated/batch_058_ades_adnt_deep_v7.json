@@ -1,0 +1,251 @@
+{
+  "schema_version": "vic-deep-research-v9",
+  "batch": 58,
+  "title": "Advanced Emissions Solutions / Adient — Value Realization and Operational Bridges V9",
+  "research_asof": "2026-09-10",
+  "metadata_audit": {
+    "direction_corrections": 7,
+    "source_body_limitations": 1,
+    "notes": [
+      "ADES 2013, 2016, 2021 raw Short -> actual Long.",
+      "ADNT 2016, 2017, 2018, 2020 raw Short -> actual Long.",
+      "ADES 2015 and 2017 raw Long correct; ADNT 2019 raw Short correct.",
+      "ADES 2013 original body references an external Dropbox PDF not preserved in the SQL; canonical explicitly uses a conservative reconstruction.",
+      "No SQL performance fields are available for these ten rows; outcome evidence comes from official filings and validated historical price sources."
+    ]
+  },
+  "ideas_master": [
+    {
+      "idea_id": "c580db88-b5fe-4f02-b548-b7b3435eede9",
+      "date": "2013-05-10",
+      "ticker": "ADES",
+      "company_name": "Advanced Emissions Solutions / ADA-ES",
+      "author": "lpartners",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/ADA-ES_INC/0469740411",
+      "performance_available": 0,
+      "source_body_limited": true,
+      "auto_tag_status_ko": "raw Short 보존·material investment/value proposition으로 Long 교정·PDF source body missing"
+    },
+    {
+      "idea_id": "4eae7834-8a33-47e6-8ef6-70310ec8163b",
+      "date": "2015-07-03",
+      "ticker": "ADES",
+      "company_name": "Advanced Emissions Solutions",
+      "author": "jordash111",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/ADVANCED_EMISSIONS_SOLUTIONS/8469005052",
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Long 일치"
+    },
+    {
+      "idea_id": "0ce76922-ff6b-411b-9a32-369ccd5a67fb",
+      "date": "2016-09-30",
+      "ticker": "ADES",
+      "company_name": "Advanced Emissions Solutions",
+      "author": "gophar571",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": null,
+      "contest_winner": 1,
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 보존·$12/$20+ upside Long 교정"
+    },
+    {
+      "idea_id": "971324b0-e5a4-4dad-b3bb-cbfd6a5a66c0",
+      "date": "2017-12-13",
+      "ticker": "ADES",
+      "company_name": "Advanced Emissions Solutions",
+      "author": "TrustInGravity",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/ADVANCED_EMISSIONS_SOLUTIONS/8000962238",
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Long 일치"
+    },
+    {
+      "idea_id": "d4356b80-d8f9-46b3-a7bd-869533635a86",
+      "date": "2021-05-19",
+      "ticker": "ADES",
+      "company_name": "Advanced Emissions Solutions",
+      "author": "GoAnywhereGuy",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/ADVANCED_EMISSIONS_SOLUTIONS/1123830180",
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 보존·deep-value equity bet Long 교정"
+    },
+    {
+      "idea_id": "b81de3e1-49ad-4388-a1cc-47a5260dcfe6",
+      "date": "2016-11-08",
+      "ticker": "ADNT",
+      "company_name": "Adient plc",
+      "author": "bruno677",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/ADIENT_PLC/4901344658",
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 보존·spin-off Long 교정"
+    },
+    {
+      "idea_id": "10b37b4b-5b61-4812-bd2a-5346ac2b39c9",
+      "date": "2017-05-31",
+      "ticker": "ADNT",
+      "company_name": "Adient plc",
+      "author": "hawkeye901",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": null,
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 보존·$150 target Long 교정"
+    },
+    {
+      "idea_id": "5b198e11-fd67-4420-8fec-4ccb0acd769f",
+      "date": "2018-05-22",
+      "ticker": "ADNT",
+      "company_name": "Adient plc",
+      "author": "rhubarb",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/Adient/3363613355",
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 보존·attractive entry Long 교정"
+    },
+    {
+      "idea_id": "efc52bc5-cbad-4044-a95a-f5ea4c870357",
+      "date": "2019-05-09",
+      "ticker": "ADNT",
+      "company_name": "Adient plc",
+      "author": "chatham123",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/ADIENT_PLC/2091622294",
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 일치"
+    },
+    {
+      "idea_id": "ea32b9b6-9c4e-4469-9355-c21fe2e5d4d9",
+      "date": "2020-08-17",
+      "ticker": "ADNT",
+      "company_name": "Adient plc",
+      "author": "crestone",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": null,
+      "performance_available": 0,
+      "auto_tag_status_ko": "raw Short 보존·$75/300% turnaround Long 교정"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "c580db88-b5fe-4f02-b548-b7b3435eede9",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "refined-coal tax-credit Long",
+      "one_line_verdict_ko": "핵심 cash mechanism은 후속 distributions로 검증됐지만 accounting/delisting path가 security realization 훼손",
+      "thesis_score": 7.5,
+      "process_score": 7,
+      "key_mechanism": "economic asset correct, reporting/governance path unstable"
+    },
+    {
+      "idea_id": "4eae7834-8a33-47e6-8ef6-70310ec8163b",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "post-delist refined-coal DCF Long",
+      "one_line_verdict_ko": "relisting과 cash distributions는 발생, $24.5-30 valuation target은 실패",
+      "thesis_score": 7,
+      "process_score": 9,
+      "key_mechanism": "finite-life cash correct but holdco/timing discount underestimated"
+    },
+    {
+      "idea_id": "0ce76922-ff6b-411b-9a32-369ccd5a67fb",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "runoff / capital-return Long",
+      "one_line_verdict_ko": "$49m distributions·$15.7m dividends·$9.40 tender로 cash-return thesis 적중; $20-50 upside 과도",
+      "thesis_score": 8,
+      "process_score": 9.3,
+      "key_mechanism": "cash harvesting real, optionality valuation exaggerated"
+    },
+    {
+      "idea_id": "971324b0-e5a4-4dad-b3bb-cbfd6a5a66c0",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "tax-reform scare / runoff Long",
+      "one_line_verdict_ko": "tax-credit economics 생존과 runoff는 맞았으나 high-teens/legislative double 실패",
+      "thesis_score": 7,
+      "process_score": 9.2,
+      "key_mechanism": "risk removal without large rerating"
+    },
+    {
+      "idea_id": "d4356b80-d8f9-46b3-a7bd-869533635a86",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "cash-rich activated-carbon cigar-butt Long",
+      "one_line_verdict_ko": "APT operating turnaround는 확인됐지만 strategic review가 sale 대신 Arq acquisition으로 종료",
+      "thesis_score": 6.5,
+      "process_score": 9.3,
+      "key_mechanism": "asset undervaluation right, capital-allocation realization path wrong"
+    },
+    {
+      "idea_id": "b81de3e1-49ad-4388-a1cc-47a5260dcfe6",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "spin-off / China JV / FCF Long",
+      "one_line_verdict_ko": "2017 $84 rerating으로 초기 성공 후 2018 operational collapse; durable thesis 실패",
+      "thesis_score": 5.5,
+      "process_score": 8.7,
+      "key_mechanism": "technical spin discount masked operating complexity"
+    },
+    {
+      "idea_id": "10b37b4b-5b61-4812-bd2a-5346ac2b39c9",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "margin-gap / metals turnaround Long",
+      "one_line_verdict_ko": "SG&A는 개선됐지만 SS&M launch/cost crisis로 $150 thesis 강한 실패",
+      "thesis_score": 2.5,
+      "process_score": 9,
+      "key_mechanism": "peer margin gap misread as fully fixable cost opportunity"
+    },
+    {
+      "idea_id": "5b198e11-fd67-4420-8fec-4ccb0acd769f",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "temporary SS&M headwind Long",
+      "one_line_verdict_ko": "$56 entry / $92 DCF 후 2018 $15 close; known issue duration을 크게 과소평가",
+      "thesis_score": 1.5,
+      "process_score": 9.2,
+      "key_mechanism": "temporary-problem diagnosis wrong; contract/plant complexity structural"
+    },
+    {
+      "idea_id": "efc52bc5-cbad-4044-a95a-f5ea4c870357",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "FCF-forensic / slow-turnaround Short",
+      "one_line_verdict_ko": "2019-05 to 2020-03 약 23% tactical short success; $5 target은 과도",
+      "thesis_score": 8.8,
+      "process_score": 9.7,
+      "key_mechanism": "long-duration bad contracts and adjusted-income/FCF mismatch"
+    },
+    {
+      "idea_id": "ea32b9b6-9c4e-4469-9355-c21fe2e5d4d9",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "observed-turnaround / post-COVID Long",
+      "one_line_verdict_ko": "2021 high $52.93까지 strong interim success, 2025 close $19.17로 5Y $75 target 실패",
+      "thesis_score": 6.5,
+      "process_score": 9.5,
+      "key_mechanism": "survival/operational improvement did not become peer-quality rerating"
+    }
+  ],
+  "batch_lessons": [
+    "ADES는 refined-coal cash flows를 반복적으로 맞혔지만 holdco burn과 capital allocation이 value realization을 결정했다.",
+    "ADES 2021은 net cash가 distributable cash가 아니면 valuation floor가 될 수 없음을 보여준다.",
+    "Adient 2016 spin discount는 단기 맞았지만 business-quality discount가 이후 훨씬 중요해졌다.",
+    "Adient 2017-18 Long은 peer margin gap을 structural complexity보다 cost opportunity로 과대평가했다.",
+    "Adient 2019 Short는 adjusted earnings보다 contract duration과 cumulative FCF를 봐 이전 Long보다 훨씬 좋은 failure mechanics를 제시했다.",
+    "Adient 2020 Long은 turnaround evidence를 정확히 포착했지만 survival success와 five-year quality rerating은 별개였다."
+  ]
+}
