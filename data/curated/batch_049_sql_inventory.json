@@ -1,0 +1,35 @@
+{
+  "source_filename": "VIC_IDEAS(4).sql",
+  "attachment_bytes_checked": 122499072,
+  "records_selected": 10,
+  "raw_descriptions_present_in_attachment": 5,
+  "raw_catalysts_verified": 10,
+  "repository_performance_rows_preserved": 5,
+  "direction_corrections": 5,
+  "entity_corrections": 1,
+  "description_chars_by_idea": {
+    "1d089c25-d25d-45c6-a776-7952187c93ae": 0,
+    "2124065d-7f2a-4ce6-89fc-85ad29c2d239": 0,
+    "c03d8a90-48ef-40a1-9806-53f7c66b55a1": 14729,
+    "1f5e5ed8-0ff8-46eb-a46e-b11f7a3aacd4": 11418,
+    "33322efc-4c79-44a0-bae8-d523401d5294": 6021,
+    "a6ae89f3-2962-4fb1-aa53-982c5ed9d550": 13449,
+    "06fd0ab4-1a91-4cde-af23-1b714aa26453": 0,
+    "e16270bb-a0a0-4fa2-95ed-18d2e87f1dd5": 0,
+    "c163edb6-5996-47b7-beb2-b656f03cd796": 12458,
+    "f50e0425-11c8-4a2b-8d21-6c67c6772576": 0
+  },
+  "catalyst_chars_by_idea": {
+    "1d089c25-d25d-45c6-a776-7952187c93ae": 146,
+    "2124065d-7f2a-4ce6-89fc-85ad29c2d239": 363,
+    "c03d8a90-48ef-40a1-9806-53f7c66b55a1": 93,
+    "1f5e5ed8-0ff8-46eb-a46e-b11f7a3aacd4": 511,
+    "33322efc-4c79-44a0-bae8-d523401d5294": 102,
+    "a6ae89f3-2962-4fb1-aa53-982c5ed9d550": 202,
+    "06fd0ab4-1a91-4cde-af23-1b714aa26453": 646,
+    "e16270bb-a0a0-4fa2-95ed-18d2e87f1dd5": 175,
+    "c163edb6-5996-47b7-beb2-b656f03cd796": 215,
+    "f50e0425-11c8-4a2b-8d21-6c67c6772576": 1343
+  },
+  "note": "첨부 SQL은 10건 catalyst와 5건 description을 포함했다. 누락 description은 0으로 유지했다. 보존된 Murphy USA multiplier 5건 외 성과는 만들지 않았다."
+}

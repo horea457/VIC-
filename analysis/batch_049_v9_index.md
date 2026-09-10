@@ -1,83 +1,58 @@
-# Batch 049 — Metals USA / Murphy USA / McDermott V9 Index
+# Batch 049 — Metals USA / Murphy USA / McDermott — V9 Index
 
-> **기준:** Batch 042/048 V9 규칙을 유지한다. 아이디어 1건 = canonical Markdown 1개.
-> **Research as-of:** 2026-09-09.
-> **Batch boundary:** Batch 048의 Metals USA 2003 다음 SQL-derived queue 10건 = MUSA 6건 + MDR 4건.
+> Research as-of 2026-09-10. 첨부 VIC_IDEAS(4).sql의 10개 catalyst와 5개 description을 확인하고, 원문 payoff·법인·security를 다시 감사했다. 성과값 5건만 실제 방향으로 교정했고 나머지는 null이다.
 
-## Canonical Idea Units
+## 0. 배치 결론
 
-| # | 날짜 | Raw ticker | 실제 entity | Raw | 실제 방향 | Canonical | 판정 |
-|---:|---|---|---|---|---|---|---|
-| 1 | 2011-09-26 | MUSA | Metals USA | Short | **Long** | [Metals USA 2011](ideas/2011/2011-09-26_MUSA_metalsusa_long.md) | $9→$20.65 cash, 강한 성공 |
-| 2 | 2013-09-27 | MUSA | Murphy USA | Short | **Long** | [Murphy USA 2013](ideas/2013/2013-09-27_MUSA_murphyusa_long.md) | 5Y +113.8%, 강한 성공 |
-| 3 | 2017-07-14 | MUSA | Murphy USA | Short | Short | [MUSA 2017 Short](ideas/2017/2017-07-14_MUSA_short.md) | volume은 맞고 profit/share는 틀림 |
-| 4 | 2018-06-27 | MUSA | Murphy USA | Short | Short | [MUSA 2018 Short](ideas/2018/2018-06-27_MUSA_short.md) | 6M 일부 성공 후 실패 |
-| 5 | 2020-01-02 | MUSA | Murphy USA | Short | Short | [MUSA 2020 Short](ideas/2020/2020-01-02_MUSA_short.md) | 3M 성공, 1~3Y 강한 실패 |
-| 6 | 2021-11-15 | MUSA | Murphy USA | Short | **Long** | [MUSA 2021 Long](ideas/2021/2021-11-15_MUSA_long.md) | 1Y +57.7%, 구조적 CPG 적중 |
-| 7 | 2003-02-06 | MDR | McDermott | Long | Long | [MDR 2003](ideas/2003/2003-02-06_MDR_long.md) | SOTP 성공, catalyst 지연 |
-| 8 | 2004-06-07 | MDR | McDermott | Long | Long | [MDR 2004](ideas/2004/2004-06-07_MDR_long.md) | BWXT/J.Ray SOTP 성공 |
-| 9 | 2008-12-12 | MDR | McDermott | Short | **Long** | [MDR 2008](ideas/2008/2008-12-12_MDR_long.md) | crisis SOTP + spin 성공 방향 |
-| 10 | 2012-01-27 | MDR | McDermott | Short | **Long** | [MDR 2012](ideas/2012/2012-01-27_MDR_long.md) | backlog-quality 오판, 실패 |
+동일 ticker MUSA는 2011 Metals USA와 2013 이후 Murphy USA라는 다른 법인이다. raw Short 8건 중 실제 Short는 Murphy USA 2017·2018·2020 세 건뿐이다. Metals USA 2011, Murphy USA 2013·2021, McDermott 2008·2012는 본문 payoff상 Long으로 교정했다. 이 배치의 중심 교훈은 volume decline과 profit-pool decline의 분리, buyback의 주당 복리, SOTP의 legal perimeter, backlog quantity와 margin quality의 분리다.
 
-## Direction / Entity Audit
+## 1. Idea Units
 
-- `MUSA`는 동일 entity가 아니다.
-  - 2003·2011: **Metals USA**
-  - 2013 이후: **Murphy USA**
-- 2011 Metals USA, 2013 Murphy USA, 2021 Murphy USA는 raw Short → actual Long.
-- 2008·2012 McDermott도 raw Short → actual Long.
-- Batch 49의 10건 중 5건은 SQL direction만 읽으면 결론이 반대로 뒤집힌다.
+| # | 날짜 | 실제 회사/security | raw→연구 방향 | 판정 | Canonical report |
+|---:|---|---|---|---|---|
+| 1 | 2011-09-26 | Metals USA Holdings Corp. (not Murphy USA) | Short→**Long** | 강한 성공 — 2013 Reliance $20.65 cash exit, 약 2.29x gross reference | [broken IPO·정상 EBITDA·FCF yield의 Metals USA Long](ideas/2011/2011-09-26_MUSA_metalsusa_long.md) |
+| 2 | 2013-09-27 | Murphy USA Inc. | Short→**Long** | 강한 성공 — 1년 +33.9%, 3년 +80.5%, 5년 +113.8% price-only | [spin-off·Walmart adjacency·store growth와 buyback Long](ideas/2013/2013-09-27_MUSA_murphyusa_long.md) |
+| 3 | 2017-07-14 | Murphy USA Inc. | Short→**Short** | 실패 — 1개월 +6.0% 후 1년 -9.2%, 5년 -265.9% simple short P&L | [same-store gallons·RIN·capex와 multiple compression Short](ideas/2017/2017-07-14_MUSA_short.md) |
+| 4 | 2018-06-27 | Murphy USA Inc. | Short→**Short** | 실패 — 6개월 +6.5% 후 1년 -11.6%, 3년 -77.4% simple short P&L | [guidance cut·15 cpg·$350m EBITDA·6x multiple Short](ideas/2018/2018-06-27_MUSA_short.md) |
+| 5 | 2020-01-02 | Murphy USA Inc. | Short→**Short** | 초기 trade 성공 / 중기 thesis 강한 실패 — 3개월 +27.1%, 3년 -143.2% simple Short | [dual melting ice cube·10~11x multiple·$85 Short](ideas/2020/2020-01-02_MUSA_short.md) |
+| 6 | 2021-11-15 | Murphy USA Inc. | Short→**Long** | 강한 성공 — 6개월 +41.9%, 1년 +57.7% price-only | [structural CPG·QuickChek·20%+ IRR capex·buyback Long](ideas/2021/2021-11-15_MUSA_long.md) |
+| 7 | 2003-02-06 | McDermott International, Inc. | Long→**Long** | 사업·SOTP 성공 / catalyst 심각한 지연 — exact return null | [asbestos ring-fence·J. Ray cleanup·BWXT SOTP Long](ideas/2003/2003-02-06_MDR_long.md) |
+| 8 | 2004-06-07 | McDermott International, Inc. | Long→**Long** | SOTP 성공 / 2005~06 separation timing 실패 — exact return null | [BWXT alone covers market cap·J. Ray 무료·asbestos option Long](ideas/2004/2004-06-07_MDR_long.md) |
+| 9 | 2008-12-12 | McDermott International, Inc. | Short→**Long** | 사업·catalyst 성공 방향 / exact return null | [crisis SOTP·net cash·government floor와 spin Long](ideas/2008/2008-12-12_MDR_long.md) |
+| 10 | 2012-01-27 | McDermott International, Inc. | Short→**Long** | 실패 — backlog quality·cost-to-complete를 과소평가, exact return null | [isolated project miss·deepwater backlog·margin normalization Long](ideas/2012/2012-01-27_MDR_long.md) |
 
-## Murphy USA 2013→2021 시계열에서 가장 중요한 논점
+## 2. 기업별 lifecycle
 
-### Short들이 본 것
-- gasoline gallons/store 구조적 감소
-- EV penetration
-- tobacco decline
-- capex 증가
-- RIN normalisation
-- leverage + buyback
+### MUSA 2011 — Metals USA
 
-### 실제로 더 중요했던 것
-- **fuel CPG의 구조적 상승**
-- low-cost operator의 scale advantage
-- merchandise contribution 증가
-- high-return R&R / new stores
-- QuickChek capability
-- 대규모 share-count reduction
+약 $9 broken-IPO Long은 $170m 정상 EBITDA, 낮은 maintenance capex와 working-capital downside를 샀다. 2013 Reliance의 $20.65 cash acquisition으로 약 2.29x gross reference가 됐다. 이 결과는 Murphy USA와 연결하면 안 된다.
 
-따라서 Murphy USA의 경제식은 단순히 `gallons growth`가 아니다.
+### MUSA 2013~2021 — Murphy USA
 
-**Owner earnings/share ≈ gallons × CPG + merchandise contribution - store cost - capex/interest, divided by shrinking share count**
+2013 spin Long은 unit growth·merchandise·capital allocation을 맞혔다. 2017·2018·2020 Short는 gallons·EV·tobacco headwind를 봤지만 fuel CPG, low-cost operator의 margin share, R&R/QuickChek과 buyback을 과소평가했다. 2020 Short는 COVID로 3개월 +27.1%를 벌 수 있었지만 fundamental thesis는 반대로 갔다. 2021 Long은 structural CPG와 owner earnings/share를 정확히 포착했다.
 
-2017·2018 Short는 gallons weakness를 상당히 잘 봤지만, CPG와 buyback이 이를 이길 가능성을 과소평가했다. 2021 Long은 바로 이 구조를 반대로 포착했다.
+### MDR 2003~2012 — SOTP에서 pure-play EPCI까지
 
-## McDermott 2003→2012 시계열에서 가장 중요한 논점
+2003·2004 Long은 B&W asbestos ring-fence와 BWXT quality를 맞혔지만 2006 settlement, 2010 spin까지 duration을 과소평가했다. 2008 crisis Long은 government value와 spin을 포착했다. 반면 2012 pure-play Long은 산업수요와 backlog를 earnings visibility로 오인해 2013년말 9개 loss project를 놓쳤다.
 
-초기 아이디어는 **legal/SOTP complexity**에서 알파가 났다.
-- B&W asbestos Chapter 11
-- BWXT high-quality nuclear/government asset
-- J. Ray distressed offshore contractor
-- ring-fenced liabilities
-- eventual separation
+## 3. 공통 투자교훈
 
-2003/2004에는 복잡성이 mispricing을 만들었고 B&W asbestos exit(2006), spin(2010)으로 value unlock이 실제 발생했다.
+1. **Ticker는 법인이 아니다.** 날짜·CIK·사업설명으로 MUSA entity를 먼저 resolve한다.
+2. **Volume decline은 profit decline이 아니다.** gallons×CPG와 total fuel contribution dollars를 만든다.
+3. **Buyback은 현금유출이자 분모 축소다.** 평균매입가·retired shares·leverage를 함께 본다.
+4. **Working-capital release는 recurring FCF가 아니다.** downside liquidity와 earning power를 중복하지 않는다.
+5. **Backlog는 margin exposure다.** EAC revision, change order, fixed-price 비중과 cash conversion을 먼저 본다.
+6. **SOTP는 legal perimeter다.** ring-fence·guarantee·LC·tax·overhead 뒤 common residual만 더한다.
+7. **Catalyst duration은 valuation 변수다.** event가 맞아도 6년 늦으면 원 IRR은 실패할 수 있다.
+8. **성과가 없으면 null이다.** corporate outcome을 임의 1/3/5년 return으로 바꾸지 않는다.
 
-반면 2012에는 회사가 pure-play EPCI가 된 뒤 **backlog를 visibility로 해석한 것이 오류**였다. 2013에는 $4.8bn backlog가 있어도 9개 loss-making project와 큰 operating loss가 발생했다.
+## 4. 산출물
 
-## Batch 049 상위 교훈
+- Payload: data/curated/batch_049_musa_mdr_deep_v7.json
+- Wrapper: analysis/batch_049_musa_mdr_10.md
+- Source packet: data/curated/batch_049_source_packet.json
+- Builder: scripts/49_build_batch_049_v9.py
 
-1. **Ticker identity audit은 valuation보다 먼저다.**
-2. 수요량 감소 ≠ profit pool 감소. 공급자 pricing behavior를 같이 본다.
-3. buyback은 EPS cosmetic이 아니라 낮은 가격에 반복되면 business-level ROIC와 동일하게 compounding한다.
-4. service-center FCF에서는 working capital release와 recurring FCF를 분리한다.
-5. E&C backlog는 asset이 아니라 아직 확정되지 않은 margin exposure다.
-6. fixed-price contractor는 revenue보다 cost-to-complete revision history를 본다.
-7. litigation/SOTP catalyst는 맞아도 duration이 길 수 있다.
-8. same company라도 lifecycle에 따라 핵심 분석식이 완전히 바뀐다.
+## 5. 검증 기준
 
-## 앱 / DB 반영
-
-- Wrapper: `analysis/batch_049_musa_mdr_10.md`
-- Overlay: `data/curated/batch_049_musa_mdr_deep_v7.json`
-- Canonical source of truth: 위 10개 idea Markdown.
+10개 독립 보고서 모두 0~12절, 6개 weighted claim/100%, 5개 metric, 최소 6개 timeline event, 원문과 공식자료 source를 포함한다. DB·index·popup의 entity, direction, verdict를 동일하게 유지한다.
