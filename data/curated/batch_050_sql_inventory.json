@@ -1,0 +1,11 @@
+{
+  "source_filename": "VIC_IDEAS(4).sql",
+  "attachment_bytes_checked": 122499072,
+  "records_selected": 10,
+  "raw_descriptions_present_in_attachment": 6,
+  "raw_catalysts_verified": 10,
+  "repository_performance_rows_preserved": 7,
+  "direction_corrections": 5,
+  "security_corrections": 2,
+  "note": "첨부 SQL의 10개 catalyst와 6개 description을 확인했다. MHK multiplier는 실제 Long/Short 방향으로 교정했고 CDS·MDR notes 정확성과는 null이다."
+}
