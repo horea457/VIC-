@@ -1,0 +1,262 @@
+{
+  "schema_version": "vic-deep-research-v9",
+  "batch": 60,
+  "title": "Alliance Data / Autodesk / ADT — Multiple, Business-Model Transition and CAC Economics V9",
+  "research_asof": "2026-09-10",
+  "metadata_audit": {
+    "direction_corrections": 7,
+    "corporate_action_return_warnings": 2,
+    "notes": [
+      "ADS 2016, 2017, 2018, 2019 and 2020 raw Short -> actual Long.",
+      "ADSK 2015 raw Short -> actual Long; ADSK 2018 raw Long is correct.",
+      "ADT 2012-10 and 2013-06 raw Short are correct; ADT 2012-12 raw Short -> actual Long.",
+      "ADS 2019 and 2020 long-horizon shareholder returns require Loyalty Ventures spin-off adjustment after the 2021 separation.",
+      "Raw SQLite performance fields are unavailable for these ten rows; external historical prices and official filings are used only for postmortem validation."
+    ]
+  },
+  "ideas_master": [
+    {
+      "idea_id": "68b90d87-fb88-4e3a-9d55-6672ca1b77c4",
+      "date": "2016-02-10",
+      "ticker": "ADS",
+      "company_name": "Alliance Data Systems",
+      "author": "Bluegrass",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": null,
+      "performance_available": false,
+      "external_price_history_used": true,
+      "auto_tag_status_ko": "raw Short 보존·11x earnings/9x FCF loyalty-card franchise Long으로 교정"
+    },
+    {
+      "idea_id": "3c1d4a31-30bb-44a5-a985-d63a3804bc18",
+      "date": "2017-12-27",
+      "ticker": "ADS",
+      "company_name": "Alliance Data Systems",
+      "author": "thistle933",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/ALLIANCE_DATA_SYSTEMS_CORP/5714561767",
+      "performance_available": false,
+      "external_price_history_used": true,
+      "auto_tag_status_ko": "raw Short 보존·$250/10x 2018E earnings Long으로 교정"
+    },
+    {
+      "idea_id": "f19af47f-7e91-480b-ada0-f3739a245c42",
+      "date": "2018-09-28",
+      "ticker": "ADS",
+      "company_name": "Alliance Data Systems",
+      "author": "Rearden",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/Alliance_Data_Systems/7508715309",
+      "performance_available": false,
+      "external_price_history_used": true,
+      "auto_tag_status_ko": "raw Short 보존·temporary-perfect-storm rerating Long으로 교정"
+    },
+    {
+      "idea_id": "c3eb2ae5-bef9-4973-bbf3-0526b7134705",
+      "date": "2019-08-03",
+      "ticker": "ADS",
+      "company_name": "Alliance Data Systems",
+      "author": "rickey824",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": null,
+      "performance_available": false,
+      "external_price_history_used": true,
+      "corporate_action_note": "2021 Loyalty Ventures spin-off; total return requires distributed LYLT shares",
+      "auto_tag_status_ko": "raw Short 보존·post-Epsilon pure-play Card Services Long으로 교정"
+    },
+    {
+      "idea_id": "42644e18-1c6d-471e-aae0-519d8fd7d3b2",
+      "date": "2020-10-14",
+      "ticker": "ADS",
+      "company_name": "Alliance Data Systems / later Bread Financial",
+      "author": "kevin155",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/Alliance_Data_Systems/1499733631",
+      "performance_available": false,
+      "external_price_history_used": true,
+      "corporate_action_note": "2021 Loyalty Ventures spin-off; parent-only price return incomplete",
+      "auto_tag_status_ko": "raw Short 보존·3x normalized earnings Long으로 교정"
+    },
+    {
+      "idea_id": "9f92c953-10c5-48fe-b485-8d7c2f7dc4b1",
+      "date": "2015-10-08",
+      "ticker": "ADSK",
+      "company_name": "Autodesk",
+      "author": "Enright",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/AUTODESK_INC/6009336370",
+      "performance_available": false,
+      "external_price_history_used": true,
+      "auto_tag_status_ko": "raw Short 보존·perpetual-to-subscription transition Long으로 교정"
+    },
+    {
+      "idea_id": "86305b49-ad38-4f4c-96a4-e52fd1465647",
+      "date": "2018-11-30",
+      "ticker": "ADSK",
+      "company_name": "Autodesk",
+      "author": "stanley339",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/AUTODESK_INC/3272291928",
+      "performance_available": false,
+      "external_price_history_used": true,
+      "auto_tag_status_ko": "raw Long 일치·middle-innings subscription/FCF Long"
+    },
+    {
+      "idea_id": "a2bc6056-b391-424c-84b6-292e19b2c361",
+      "date": "2012-10-05",
+      "ticker": "ADT",
+      "company_name": "ADT Corporation",
+      "author": "cablebeach",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/ADT_CORP_THE/1909576835",
+      "performance_available": false,
+      "external_price_history_used": true,
+      "auto_tag_status_ko": "raw Short 일치·capitalized-CAC/RMR valuation Short"
+    },
+    {
+      "idea_id": "4b1e29c1-88b4-4057-bf9d-f14bded4b01c",
+      "date": "2012-12-21",
+      "ticker": "ADT",
+      "company_name": "ADT Corporation",
+      "author": "sandman898",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/ADT_CORP_THE/3359865418",
+      "performance_available": false,
+      "external_price_history_used": true,
+      "auto_tag_status_ko": "raw Short 보존·RMR/buyback/leverage $55 Long으로 교정"
+    },
+    {
+      "idea_id": "34199499-1fdb-454a-a416-564f670ebf24",
+      "date": "2013-06-10",
+      "ticker": "ADT",
+      "company_name": "ADT Corporation",
+      "author": "Den1200",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "security_type": "common equity",
+      "source_link": "https://www.valueinvestorsclub.com/idea/ADT_CORP_THE/5055080049",
+      "performance_available": false,
+      "external_price_history_used": true,
+      "auto_tag_status_ko": "raw Short 일치·cable/telco CAC/attrition Short"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "68b90d87-fb88-4e3a-9d55-6672ca1b77c4",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "high-ROE loyalty/card franchise Long",
+      "one_line_verdict_ko": "2017 회복 뒤 2018 급락; Card Services required capital과 conglomerate discount를 과소평가",
+      "thesis_score": 5.5,
+      "process_score": 9.0,
+      "key_mechanism": "high-ROE card economics misclassified as capital-light loyalty"
+    },
+    {
+      "idea_id": "3c1d4a31-30bb-44a5-a985-d63a3804bc18",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "low-P/E franchise Long",
+      "one_line_verdict_ko": "2018 EPS는 증가했지만 stock 약 -41%; earnings growth를 multiple compression이 압도",
+      "thesis_score": 3.5,
+      "process_score": 9.2,
+      "key_mechanism": "earnings growth overwhelmed by multiple compression"
+    },
+    {
+      "idea_id": "f19af47f-7e91-480b-ada0-f3739a245c42",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "temporary-headwind conglomerate Long",
+      "one_line_verdict_ko": "세 segment 문제를 temporary로 봤으나 Epsilon 매각/LoyaltyOne spin으로 구조문제 확인",
+      "thesis_score": 2.5,
+      "process_score": 9.1,
+      "key_mechanism": "multiple simultaneous temporary issues reflected structural portfolio complexity"
+    },
+    {
+      "idea_id": "c3eb2ae5-bef9-4973-bbf3-0526b7134705",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "post-divestiture pure-play Card Services Long",
+      "one_line_verdict_ko": "Epsilon 매각 후 8x FCF pure-play rerating 기대 실패; 금융업 multiple이 지배",
+      "thesis_score": 3.0,
+      "process_score": 9.4,
+      "key_mechanism": "pure-play simplification exposed lower financial-company valuation framework"
+    },
+    {
+      "idea_id": "42644e18-1c6d-471e-aae0-519d8fd7d3b2",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "COVID normalized-earnings Long",
+      "one_line_verdict_ko": "3x normalized earnings는 2021 rebound에 유효했지만 2~3년 durable $96-128 thesis는 실패",
+      "thesis_score": 6.0,
+      "process_score": 9.3,
+      "key_mechanism": "cheap normalized earnings drove rebound but duration and rerating were not sustained"
+    },
+    {
+      "idea_id": "9f92c953-10c5-48fe-b485-8d7c2f7dc4b1",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "subscription-transition Long",
+      "one_line_verdict_ko": "$59 1Y target과 $74 longer-term 모두 달성; transitional accounting ugliness를 정확히 해석",
+      "thesis_score": 9.5,
+      "process_score": 9.5,
+      "key_mechanism": "subscription transition temporarily depresses reported figures while increasing recurring lifetime value"
+    },
+    {
+      "idea_id": "86305b49-ad38-4f4c-96a4-e52fd1465647",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "mission-critical recurring FCF Long",
+      "one_line_verdict_ko": "FY23 FCF $2.4b forecast는 미달했지만 $240 target은 크게 달성",
+      "thesis_score": 9.3,
+      "process_score": 9.7,
+      "key_mechanism": "observed subscription conversion plus pricing and retention drove rerating"
+    },
+    {
+      "idea_id": "a2bc6056-b391-424c-84b6-292e19b2c361",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "capitalized-CAC/RMR valuation Short",
+      "one_line_verdict_ko": "회계·unit economics 비판 일부 적중했지만 $25-30 1Y target 실패, 2016 $42 takeout",
+      "thesis_score": 5.0,
+      "process_score": 9.4,
+      "key_mechanism": "correct cash-cost critique but wrong valuation transmission and timing"
+    },
+    {
+      "idea_id": "4b1e29c1-88b4-4057-bf9d-f14bded4b01c",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "RMR / leveraged buyback Long",
+      "one_line_verdict_ko": "$2b buyback catalyst는 실행됐지만 attrition/gross-add deterioration으로 $55 thesis 실패",
+      "thesis_score": 3.0,
+      "process_score": 9.3,
+      "key_mechanism": "financial engineering amplified weakening subscriber unit economics"
+    },
+    {
+      "idea_id": "34199499-1fdb-454a-a416-564f670ebf24",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "distribution/CAC competition Short",
+      "one_line_verdict_ko": "gross adds/attrition 악화와 2014 급락을 맞힌 tactical 성공; 2016 $42 takeout으로 long-hold 실패",
+      "thesis_score": 8.5,
+      "process_score": 9.5,
+      "key_mechanism": "lower marginal CAC competitors pressured incumbent acquisition economics before large share shifts"
+    }
+  ],
+  "batch_lessons": [
+    "ADS demonstrates that EPS growth can coexist with severe multiple compression; understanding why a stock is cheap matters more than observing that it is cheap.",
+    "When several business units have simultaneous temporary problems, test for a common governance, portfolio or capital-allocation cause.",
+    "Conglomerate simplification does not guarantee rerating if the remaining business deserves a lower financial-company multiple.",
+    "Autodesk shows that deliberate subscription transitions can make reported accounting worse while improving lifetime economics; ARR, subscription counts and retention are better transitional KPIs.",
+    "Autodesk 2018 also shows that the core mechanism can be correct even when a precise FCF forecast misses: the $240 price target was achieved despite FY23 FCF of about $2.03b versus $2.4b targeted.",
+    "ADT's three ideas show the increasing quality of evidence from accounting critique to financial engineering to direct CAC/attrition business mechanics.",
+    "Leverage and buybacks amplify both improving and deteriorating recurring-revenue unit economics."
+  ]
+}
