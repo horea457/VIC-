@@ -1,212 +1,67 @@
-# Batch 053 — New England Realty / Owens Corning / Office Depot V9 Index
+# Batch 053 — New England Realty / Owens Corning / Office Depot — V9 Index
 
-> **기준:** Batch 042 이후 V9 원칙 유지. 아이디어 1건 = canonical Markdown 1개.
-> **Research as-of:** 2026-09-10.
-> **Batch boundary:** Batch 052 마지막 NEN 2011-06-30 이후 reviewed idea_id를 제외한 다음 10건.
+> Research as-of 2026-09-10. Batch 052 다음 10건이다. **10 idea = 10 canonical reports**이며 현재 첨부 SQL에 없는 성과값은 모두 null 처리했다.
 
-## Canonical Idea Units
+## 0. 배치 결론
 
-| # | 날짜 | Ticker | Raw 방향 | 실제 방향 | Canonical | 핵심 판정 |
-|---:|---|---|---|---|---|---|
-| 1 | 2019-01-15 | NEN | Long | Long | [NEN 2019](ideas/2019/2019-01-15_NEN_long.md) | 3Y +46.8%, 장기 200% thesis는 미검증 |
-| 2 | 2007-01-31 | OC | Long | Long | [OC 2007 Jan](ideas/2007/2007-01-31_OC_long.md) | 2Y -53.5%, post-reorg timing 실패 |
-| 3 | 2007-12-26 | OC | Long | Long | [OC 2007 Dec](ideas/2007/2007-12-26_OC_long.md) | 5Y +84.4%, 낮아진 가격에서 성공 |
-| 4 | 2013-03-14 | OC | Long | Long | [OC 2013](ideas/2013/2013-03-14_OC_long.md) | business thesis 적중, 5Y +118.5% |
-| 5 | 2015-01-06 | OC | **Short** | **Long** | [OC 2015 Jan](ideas/2015/2015-01-06_OC_long.md) | 3Y +164.9%, raw direction 오류 |
-| 6 | 2015-04-07 | OC | Long | Long Update | [OC 2015 Apr](ideas/2015/2015-04-07_OC_long_update.md) | 3Y +98.9%, channel-check update 성공 |
-| 7 | 2017-05-12 | OC | Long | Long | [OC 2017](ideas/2017/2017-05-12_OC_long.md) | 6M +30.8% 후 3Y -30.3% |
-| 8 | 2018-12-12 | OC | Long | Long | [OC 2018](ideas/2018/2018-12-12_OC_long.md) | 1Y +52.9%, 3Y +118.3% |
-| 9 | 2000-07-28 | ODP | **Short** | **Long** | [ODP 2000](ideas/2000/2000-07-28_ODP_long.md) | SOTP tactical success 방향 |
-| 10 | 2007-03-22 | ODP | **Short** | **Long** | [ODP 2007](ideas/2007/2007-03-22_ODP_long.md) | 2008 operating collapse, 강한 실패 |
+이 배치는 같은 기업이라도 `법적 재편`, `cycle earnings`, `entry expectation`을 분리해야 한다는 사례다. NEN 2019는 NAV 할인 자체보다 rent reset과 discount buyback의 주당가치 복리이고, OC 7건은 2007 post-reorg timing 실패에서 2018 expectation reset까지 normalized earnings의 질이 어떻게 달라지는지를 보여준다. ODP는 2000 SOTP tactical Long과 2007 turnaround extrapolation 실패를 대비한다.
 
-## Direction Audit
+## 1. Idea Units
 
-이번 batch도 raw SQL 방향 오류가 3건이다.
+| # | 날짜 | 실제 회사 | raw→연구 방향 | 사후 판정 | Canonical report |
+|---:|---|---|---|---|---|
+| 1 | 2019-01-15 | New England Realty Associates Limited Partnership | Long→**Long** | 사업·자본배분 방향 성공, 200%/정확 수익률 미검증 | [replacement-cost discount·rent reset·buyback compounder Long](ideas/2019/2019-01-15_NEN_long.md) |
+| 2 | 2007-01-31 | Owens Corning | Long→**Long** | 재편 성공, housing-cycle timing 실패·정확 수익률 미검증 | [post-asbestos 재편·fresh-start discount Long](ideas/2007/2007-01-31_OC_long.md) |
+| 3 | 2007-12-26 | Owens Corning | Long→**Long** | 심한 경로손실 뒤 정상화 방향 성공·정확 수익률 미검증 | [segment 정상마진·3.7x normalized EBITDA Long](ideas/2007/2007-12-26_OC_long.md) |
+| 4 | 2013-03-14 | Owens Corning | Long→**Long** | 사업논지 강한 성공, 단기 target·정확 수익률 미검증 | [Roofing discipline·Insulation 흑자전환·$60 base Long](ideas/2013/2013-03-14_OC_long.md) |
+| 5 | 2015-01-06 | Owens Corning | Short→**Long** | earnings 인과 일부만 적중·방향 성공, 정확 수익률 미검증 | [asphalt deflation·Roofing spread surprise Long](ideas/2015/2015-01-06_OC_long.md) |
+| 6 | 2015-04-07 | Owens Corning | Long→**Long Update** | channel 방향·earnings 성공, realized-price 가정 부분 실패·정확 수익률 미검증 | [Roofing channel-check·asphalt flux Long update](ideas/2015/2015-04-07_OC_long_update.md) |
+| 7 | 2017-05-12 | Owens Corning | Long→**Long** | 2017 사업·FCF 성공 뒤 peak-expectation 노출, 정확 수익률 미검증 | [three-segment normalization·10% FCF yield Long](ideas/2017/2017-05-12_OC_long.md) |
+| 8 | 2018-12-12 | Owens Corning | Long→**Long** | earnings-resilience·expectation-reset 성공 방향, 정확 수익률 미검증 | [48% drawdown·8.5x normalized EPS Long](ideas/2018/2018-12-12_OC_long.md) |
+| 9 | 2000-07-28 | Office Depot, Inc. | Short→**Long** | 사업회복·SOTP 방향 성공, 정확 수익률 미검증 | [BSG+International SOTP·Retail free-option Long](ideas/2000/2000-07-28_ODP_long.md) |
+| 10 | 2007-03-22 | Office Depot, Inc. | Short→**Long** | 매출·margin·투자·buyback 핵심 실패, 정확 수익률 미검증 | [Odland turnaround 2단계·margin expansion Long](ideas/2007/2007-03-22_ODP_long.md) |
 
-1. **OC 2015-01-06:** raw Short → 실제 Long
-   - 2015-04-07 후속 글이 직접 “my Long thesis posted on 1/6/2015”라고 명시.
-2. **ODP 2000-07-28:** raw Short → 실제 Long
-   - 원문이 “recommending the purchase of this stock”이라고 명시.
-3. **ODP 2007-03-22:** raw Short → 실제 Long
-   - 원문이 +25% upside와 $40s target을 제시.
+## 2. SQL / Direction / Security Audit
 
-따라서 BATCH 53의 **10건 모두 실제 Long**이다.
+첨부 `VIC_IDEAS(4).sql`에는 `catalyst·companies·descriptions` COPY만 있고 `ideas·performance` data COPY는 없다. Batch 053의 catalyst는 10건 모두 있으나 description은 OC 2007-12 한 건(13,193자)뿐이다. 기존 overlay의 성과비율 8건은 provenance가 없어 모두 폐기했다. date·author·raw flag·source link는 prior curated metadata로 남기되 현재 attachment보다 낮은 등급으로 표시했다.
 
-## NEN 2019 — 장기 compounder framing
+방향은 실제 payoff로 재감사했다. OC 2015-01은 2015-04 후속 글이 직접 Long thesis라고 명시하고, ODP 2000·2007은 purchase·상승 target을 제시하므로 raw Short→실제 Long이다. NEN 2019는 2012 split 이후 **Depositary Receipt=1/30 Class A Unit**이고 나머지는 common이다.
 
-2019 writeup은 이전 NEN 아이디어보다 더 장기적이다.
+## 3. NEN — NAV discount보다 주당가치 복리
 
-- replacement cost 대비 55%+ 할인
-- NAV 대비 67% 할인
-- 10~11% FCF yield
-- under-market rents
-- Boston Class-B supply constraint
-- Brown family buyback / capital allocation
-- 10년 15%+ compound 목표
+약 $53의 10~11% FCF yield, replacement cost/NAV 할인은 출발점이다. 장기 payoff는 `under-market rent reset→NOI 증가→NAV 아래 buyback→receipt당 ownership 증가`다. 반증은 cap-rate 하나가 아니라 occupancy·same-unit NOI·mortgage reset·repurchase 실행이다. 200%/10년 total return은 현 데이터로 미검증이다.
 
-SQL:
-- 1Y +10.7%
-- 2Y -9.7%
-- 3Y +46.8%
+## 4. Owens Corning — 같은 company, 다른 expectation
 
-2020 COVID drawdown을 거친 뒤 회복했지만 200%/10년 thesis는 아직 별도 장기 total-return 복원이 필요하다.
+| 시점 | 무엇을 샀나 | 핵심 오류/edge | 판정 |
+|---|---|---|---|
+| 2007-01 | asbestos 제거·fresh start | legal clean-up을 cycle bottom과 혼동 | timing 실패 |
+| 2007-12 | $20.60·3.7x normalized EBITDA | segment margin을 재구축·GFC path 과소평가 | 장기 방향 성공 |
+| 2013 | Roofing cash+Insulation 흑자전환 | dollar EBIT bridge | 사업 성공 |
+| 2015-01/04 | asphalt deflation | cost 적중, flat selling price 실패 | causal 부분 성공 |
+| 2017 | 세 segment 동시 정상화·10% FCF | 좋은 실적이 peak expectation일 수 있음 | 기간 사업 성공 |
+| 2018-12 | 48% drawdown·8.5x normal EPS | 악재가 보인 뒤 낮아진 기대 | 강한 방향 성공 |
 
-## Owens Corning — 같은 산업구조, 완전히 다른 entry point
+## 5. Office Depot — tactical SOTP와 turnaround 2단계
 
-### 2007-01: Post-reorg Long
-$28.50, 6.1x trailing EBITDA.
+2000 Long은 BSG $1.0bn+International $1.3bn이 $1.9bn 시총을 설명하고 Retail $1.0bn을 option으로 둔 SOTP였다. 2001 International/Viking local-currency growth가 이를 지지했다. 2007 Long은 이미 달성한 cost-cutting margin을 150 신규매장·remodel·salesforce 투자와 buyback 뒤에도 외삽했다. 2008 Retail 영업이익 $354.5m→-$29.2m, BSD $220.1m→$119.8m으로 denominator가 붕괴했다.
 
-논리:
-- asbestos 제거
-- fresh balance sheet
-- distressed investor cost basis
-- normalized housing earnings
+## 6. 공통 투자 교훈
 
-결과:
-- 1Y -24.3%
-- 2Y -53.5%
-- 5Y +17.9%
+1. post-reorg legal clean-up은 earnings-cycle bottom이 아니다.
+2. normalized multiple은 segment volume·price·utilization에서 다시 만든다.
+3. 결과가 좋아도 price·cost·volume claim을 각각 사후검증한다.
+4. channel check와 price letter는 realized invoice가 아니다.
+5. 모든 segment 동시호전은 upside이자 peak-expectation 경고다.
+6. cyclical FCF yield는 다음 downturn의 운전자본·capex로 stress한다.
+7. SOTP에는 shared cost·lease·tax·working capital을 완전 배분한다.
+8. turnaround 2단계는 과거 cost cut이 아니라 incremental investment ROIC다.
+9. buyback은 downturn liquidity 이후에만 accretive하다.
+10. performance COPY가 없으면 exact return은 null이다.
 
-**재무구조는 clean했지만 earnings cycle은 clean하지 않았다.**
+## 7. 산출물
 
-### 2007-12: 같은 회사, $20.60
-EV/normalized EBITDA 약 3.7x.
-
-결과:
-- 1Y -13.9%
-- 2Y +30.6%
-- 3Y +57.5%
-- 5Y +84.4%
-
-11개월의 가격하락과 더 보수적인 normalized-margin 분석이 risk/reward를 바꿨다.
-
-## OC 2013 — Business thesis와 stock timing 분리
-
-원문:
-- Bear $29
-- Base $60
-- Bull $96
-- current $40.61
-
-실제 2013:
-- adjusted EBIT $293m → $416m
-- Roofing margin 약 20%
-- Insulation -$38m → +$40m
-- dividend 신규 도입
-
-사업논지는 빠르게 맞았지만 주가는 1Y +6.1%에 그쳤다.
-5Y는 +118.5%.
-
-**Correct fundamentals do not guarantee immediate rerating.**
-
-## OC 2015 — 결과가 맞아도 causal claim을 다시 본다
-
-2015-01 Long:
-- crude/asphalt cost deflation
-- stable shingle pricing
-- winter pre-buy discipline
-- $2.30 consensus EPS + 약 $0.50 asphalt benefit
-- PT 약 $50
-
-실제 2015:
-- selling price **-$114m**
-- asphalt cost deflation **+$68m**
-- Roofing EBIT +$34m
-- adjusted EPS +46%
-- FCF $50m → $341m
-
-즉 Long 결과는 성공했지만:
-
-**원문:** flat price + lower asphalt  
-**실제:** lower price + lower asphalt + volume/mix
-
-였다.
-
-이 구분이 postmortem에서 중요하다.
-
-## OC 2017 vs 2018 — 가장 중요한 비교
-
-| 항목 | 2017 Long | 2018-12 Long |
-|---|---|---|
-| 핵심 | all 3 segments normalize | 2018 악재 과반영 |
-| valuation | 약 10% FCF yield | 8.5x normalized EPS |
-| 기대 | 높아지는 중 | 크게 reset |
-| 6M | +30.8% | +23.8% |
-| 1Y | +5.5% | +52.9% |
-| 2Y | -20.7% | +75.5% |
-| 3Y | -30.3% | +118.3% |
-
-2017 business thesis는 실제로 맞았다:
-- Roofing EBIT $535m
-- Insulation +40%
-- Composites 5년 연속 개선
-- FCF $679m
-
-그런데 stock은 중기 실패했다.
-
-2018 말에는 같은 회사가:
-- storm normalization
-- freight/asphalt inflation
-- housing worries
-
-로 48% 가까이 하락한 뒤였다.
-
-**좋은 기업인지보다 starting expectation이 더 중요했다.**
-
-## Office Depot 2000 vs 2007
-
-### 2000 Long
-주가 약 $6.
-
-원문 SOTP:
-- BSG 약 $1.0bn
-- International 약 $1.3bn
-- Retail 약 $1.0bn
-- whole market cap 약 $1.9bn
-
-BSG + International만으로 equity value를 설명하고 Retail을 free option으로 봤다.
-
-2001 International:
-- sales +6% reported
-- FX 제외 +11%
-- Viking local-currency comps +11%
-
-단기 SOTP/recovery thesis는 성공 방향.
-
-### 2007 Long
-Odland turnaround를 다시 샀다.
-
-원문:
-- 13x 2008E
-- mid-high teens EPS growth
-- +30bp annual margin expansion
-- 150 new stores
-- $200~250m buybacks
-- +25% / 6~12M
-
-실제 2008:
-- Retail sales -10%
-- Retail operating profit $354.5m → **-$29.2m**
-- BSD sales -8%
-- BSD profit $220.1m → $119.8m
-
-비용절감 turnaround에서 **incremental investment turnaround**로 넘어가는 순간 실패했다.
-
-## Batch 053 상위 투자 교훈
-
-1. post-reorg balance sheet clean-up과 earnings-cycle bottom을 분리한다.
-2. distressed investor cost basis는 downside floor가 아니다.
-3. 같은 cyclical도 entry multiple과 normalized-margin assumptions가 달라지면 전혀 다른 투자다.
-4. business thesis success와 stock rerating timing을 별도 판정한다.
-5. 결과가 좋았어도 earnings bridge의 각 causal claim을 재검증한다.
-6. channel checks는 realized price/cost로 사후 확인한다.
-7. 모든 segment가 동시에 좋아질 때는 peak-risk도 체크한다.
-8. normalized EPS multiple은 기대가 reset된 뒤 가장 강하게 작동할 수 있다.
-9. turnaround 2단계는 cost cutting보다 incremental ROIC가 중요하다.
-10. SOTP tactical value와 long-term structural decline thesis는 동시에 참일 수 있다.
-
-## 앱 / DB 반영
-
-- Wrapper: analysis/batch_053_nen_oc_odp_10.md
-- Overlay: data/curated/batch_053_nen_oc_odp_deep_v7.json
-- Canonical source of truth: 위 10개 idea Markdown.
+- Payload: `data/curated/batch_053_nen_oc_odp_deep_v7.json`
+- Wrapper: `analysis/batch_053_nen_oc_odp_10.md`
+- Source packet: `data/curated/batch_053_source_packet.json`
+- Builder: `scripts/53_build_batch_053_v9.py`
