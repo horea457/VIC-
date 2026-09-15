@@ -60,6 +60,7 @@ BATCH_SOURCES = (
 ("batch_052_msg_nen_deep_v7.json","batch_052_msg_nen_10.md","Batch 052"),
 ("batch_053_nen_oc_odp_deep_v7.json","batch_053_nen_oc_odp_10.md","Batch 053"),
 ("batch_054_odp_rst_deep_v7.json","batch_054_odp_rst_10.md","Batch 054"),
+("batch_055_rst_sbgi_stmp_deep_v7.json","batch_055_rst_sbgi_stmp_10.md","Batch 055"),
 ("all_reviewed_v8_index.json","all_reviewed_v8.md.gz","V8 전체 DB"),)
 
 @st.cache_data(show_spinner=False)

@@ -1,0 +1,42 @@
+{
+  "source_filename": "VIC_IDEAS(4).sql",
+  "attachment_bytes_checked": 122499072,
+  "records_selected": 10,
+  "copy_tables_present": [
+    "catalyst",
+    "companies",
+    "descriptions"
+  ],
+  "idea_rows_in_attachment": 0,
+  "raw_descriptions_present": 0,
+  "raw_descriptions_absent": 10,
+  "raw_catalysts_verified": 10,
+  "description_chars_by_idea": {
+    "16a5635a-fb3d-4b31-ac8d-cab816ec3200": 0,
+    "90e1d392-4d7f-46c0-9f5e-10f1818b49c3": 0,
+    "2035e135-0601-4545-9f0c-0f1562365ac0": 0,
+    "8bdb5e43-ba08-4a61-8e15-7733116ba20d": 0,
+    "f35ee617-acdb-4fb7-b64b-3f989b2f7066": 0,
+    "7a3adc85-2f3c-4244-a076-98fc1553101c": 0,
+    "82eaec90-3559-4161-a7d7-7f12b8506646": 0,
+    "7503adc8-4558-4dd3-bfb5-dcfe0e6735a6": 0,
+    "32a51968-bfbf-4fd9-bd22-f5dd7590f050": 0,
+    "a45e9d1d-6355-48f2-800c-d6d89c2462a2": 0
+  },
+  "catalyst_chars_by_idea": {
+    "16a5635a-fb3d-4b31-ac8d-cab816ec3200": 91,
+    "90e1d392-4d7f-46c0-9f5e-10f1818b49c3": 38,
+    "2035e135-0601-4545-9f0c-0f1562365ac0": 291,
+    "8bdb5e43-ba08-4a61-8e15-7733116ba20d": 67,
+    "f35ee617-acdb-4fb7-b64b-3f989b2f7066": 139,
+    "7a3adc85-2f3c-4244-a076-98fc1553101c": 95,
+    "82eaec90-3559-4161-a7d7-7f12b8506646": 287,
+    "7503adc8-4558-4dd3-bfb5-dcfe0e6735a6": 1721,
+    "32a51968-bfbf-4fd9-bd22-f5dd7590f050": 151,
+    "a45e9d1d-6355-48f2-800c-d6d89c2462a2": 109
+  },
+  "performance_copy_present": false,
+  "performance_rows_found": 0,
+  "legacy_overlay_rows_nullified": 0,
+  "note": "Current attachment controls. Batch 055 descriptions and performance are absent; prior metadata is lower provenance. Official filings control outcomes; events are not exact returns."
+}
