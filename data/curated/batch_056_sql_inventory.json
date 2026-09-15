@@ -1,0 +1,42 @@
+{
+  "source_filename": "VIC_IDEAS(4).sql",
+  "attachment_bytes_checked": 122499072,
+  "records_selected": 10,
+  "copy_tables_present": [
+    "catalyst",
+    "companies",
+    "descriptions"
+  ],
+  "idea_rows_in_attachment": 0,
+  "raw_descriptions_present": 1,
+  "raw_descriptions_absent": 9,
+  "raw_catalysts_verified": 10,
+  "description_chars_by_idea": {
+    "827f69e9-a39a-4025-9ba2-7260fcdbc3bf": 17911,
+    "ba7b0dc3-12ed-4cf4-9b66-6cabf46aa43c": 0,
+    "e879e0a9-9dae-4cee-bb85-56aa4599cb19": 0,
+    "d3dcfac9-be86-40f2-b862-24768133c133": 0,
+    "b5cf7b42-cc0f-4d85-af68-aeaa7931f6af": 0,
+    "ee7fdd2a-707e-4053-8d1f-da462cbe11fd": 0,
+    "e6e81eb8-bda8-4065-b872-ef0e083f3d56": 0,
+    "8655169b-6c07-4b55-ba24-24f1193ca588": 0,
+    "310d7a03-57a0-4111-be06-288a9a8c53e7": 0,
+    "72d5d91e-1363-4fb9-85fb-741a2601c4c7": 0
+  },
+  "catalyst_chars_by_idea": {
+    "827f69e9-a39a-4025-9ba2-7260fcdbc3bf": 46,
+    "ba7b0dc3-12ed-4cf4-9b66-6cabf46aa43c": 63,
+    "e879e0a9-9dae-4cee-bb85-56aa4599cb19": 107,
+    "d3dcfac9-be86-40f2-b862-24768133c133": 57,
+    "b5cf7b42-cc0f-4d85-af68-aeaa7931f6af": 3,
+    "ee7fdd2a-707e-4053-8d1f-da462cbe11fd": 31,
+    "e6e81eb8-bda8-4065-b872-ef0e083f3d56": 322,
+    "8655169b-6c07-4b55-ba24-24f1193ca588": 161,
+    "310d7a03-57a0-4111-be06-288a9a8c53e7": 174,
+    "72d5d91e-1363-4fb9-85fb-741a2601c4c7": 189
+  },
+  "performance_copy_present": false,
+  "performance_rows_found": 0,
+  "legacy_overlay_rows_nullified": 4,
+  "note": "Current attachment controls. One STMP description is present; nine descriptions and all performance are absent. Four WTW legacy performance values were discarded due to ticker-reuse contamination."
+}
