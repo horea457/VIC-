@@ -1,0 +1,45 @@
+{
+  "source_filename": "VIC_IDEAS(5).sql",
+  "attachment_bytes_checked": 203115709,
+  "records_selected": 10,
+  "copy_tables_present": [
+    "catalyst",
+    "companies",
+    "descriptions",
+    "ideas",
+    "performance",
+    "users"
+  ],
+  "idea_rows_in_attachment": 10,
+  "raw_descriptions_present": 10,
+  "raw_catalysts_verified": 10,
+  "performance_copy_present": true,
+  "performance_rows_found": 5,
+  "description_chars_by_idea": {
+    "7b90c43b-5aa7-4302-acff-0c300bc8902e": 16275,
+    "45907adb-c27f-4118-825a-d7eaf0b7bf01": 13357,
+    "00a815ea-e2e5-4d8d-8652-5f9ac8659817": 2375,
+    "1d96ecca-b650-4117-9f6d-a8f5513733d8": 44649,
+    "9c4a7762-2073-4e7f-8069-f1b80f838cef": 6381,
+    "408ba752-4bc9-4586-8ed7-b403f8d965f3": 33860,
+    "3bae2329-bbdb-40f0-8afb-40f31bce40c3": 9508,
+    "82c3d743-ceef-493c-80db-8306e06840a4": 10673,
+    "d5c78db0-9964-49ad-b59a-221f31bcc61b": 2268,
+    "c88a7a21-141a-48a3-9ee8-7a340f934019": 6321
+  },
+  "catalyst_chars_by_idea": {
+    "7b90c43b-5aa7-4302-acff-0c300bc8902e": 213,
+    "45907adb-c27f-4118-825a-d7eaf0b7bf01": 405,
+    "00a815ea-e2e5-4d8d-8652-5f9ac8659817": 40,
+    "1d96ecca-b650-4117-9f6d-a8f5513733d8": 49,
+    "9c4a7762-2073-4e7f-8069-f1b80f838cef": 52,
+    "408ba752-4bc9-4586-8ed7-b403f8d965f3": 260,
+    "3bae2329-bbdb-40f0-8afb-40f31bce40c3": 254,
+    "82c3d743-ceef-493c-80db-8306e06840a4": 355,
+    "d5c78db0-9964-49ad-b59a-221f31bcc61b": 238,
+    "c88a7a21-141a-48a3-9ee8-7a340f934019": 222
+  },
+  "direction_corrections": 6,
+  "security_type_corrections": 1,
+  "note": "VIC_IDEAS(5).sql controls metadata and available price ratios; official filings control later events. Missing performance is not synthesized."
+}
