@@ -1,0 +1,264 @@
+{
+  "schema_version": "vic-deep-research-v9",
+  "batch": 70,
+  "title": "AFSI / AFT / Carl Zeiss Meditec / Afya / AGCO / Arctic Glacier / AUTO1 / Algoma Steel — Business vs Security, Short Timing and Entry Price V9",
+  "research_asof": "2026-09-18",
+  "metadata_audit": {
+    "direction_corrections": 2,
+    "security_type_classifications": 2,
+    "performance_rows_missing": 10,
+    "insolvency_or_corporate_action_outcomes": 4,
+    "notes": [
+      "Raw Short -> actual Long corrections: AFT-U 2004 and AG1 2021.",
+      "AFT-U 2004 and AG-U 2009 are Canadian income-trust units rather than ordinary corporate common shares.",
+      "No source-DB horizon performance rows were available for these ten ideas; outcomes rely on primary operating data, takeover consideration, insolvency distributions and historical price cross-checks.",
+      "AFSI 2013 accounting concerns were partly validated by 2017 restatements, but the stock nearly doubled against the short before the catalyst and was ultimately taken private at $14.75.",
+      "Advanced Fiber Technologies was acquired by Aikawa in 2006 for C$3.00/unit versus the VIC entry around C$5.50; distributions reduce but do not eliminate the loss.",
+      "Carl Zeiss Meditec maintained important product franchises but failed the original earnings and valuation path; FY2024/25 EPS was €1.61 and 2025/26 profitability weakened further.",
+      "Afya delivered strong revenue, EBITDA and free-cash-flow growth but did not achieve the original public-market rerating; the 2026 share price remains around the 2022 entry level.",
+      "AGCO 2003 offered a medium-term favorable short move by 2005, but the business expanded rapidly and the stock later surged. AGCO 2005 was a clear short failure during the ag upcycle.",
+      "Arctic Glacier entered CCAA in 2012. Later mixed-currency distributions were far below the C$1.72 entry and are not simplistically summed without FX dates.",
+      "AUTO1 2021 and 2022 demonstrate entry-price dependence: the same business execution produced a loss from ~€31.6 but a large gain from ~€10-11.",
+      "Algoma Steel was acquired by Essar in 2007 for C$56 cash/share versus the 2003 VIC entry at C$3.30, about 17x."
+    ]
+  },
+  "ideas_master": [
+    {
+      "idea_id": "279b93f2-bf11-41f1-9211-7fc026e43a29",
+      "date": "2013-08-19",
+      "ticker": "AFSI",
+      "company_name": "AmTrust Financial Services Inc.",
+      "author": "Francisco432",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2013/2013-08-19_AFSI_short.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "accounting/reserve/capital-quality Short; fundamental concerns later validated but adverse path made trade mixed-failure"
+    },
+    {
+      "idea_id": "310ba840-8c00-4893-b2d7-cb15dc6678a9",
+      "date": "2004-11-18",
+      "ticker": "AFT-U",
+      "company_name": "Advanced Fiber Technologies Income Fund",
+      "author": "dylex849",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "income trust units",
+      "canonical_path": "analysis/ideas/2004/2004-11-18_AFT_UN_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Aikawa acquired AFT in 2006 for C$3.00/unit.",
+      "auto_tag_status_ko": "raw Short->Long 교정; high-yield replacement-industrial trust Long, failed takeout price"
+    },
+    {
+      "idea_id": "25a41a32-cb61-4857-92a2-20d3d9d32c4c",
+      "date": "2022-03-12",
+      "ticker": "AFX.GY",
+      "company_name": "Carl Zeiss Meditec AG",
+      "author": "taiidea",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2022/2022-03-12_AFX_GY_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "SMILE/VisuMax razor-and-blade moat Long; product thesis survived but earnings/multiple thesis failed"
+    },
+    {
+      "idea_id": "fb1b28c2-534a-4321-a9a4-23b2782a5f8b",
+      "date": "2022-01-13",
+      "ticker": "AFYA",
+      "company_name": "Afya Limited",
+      "author": "om730",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2022/2022-01-13_AFYA_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "Brazil medical-education scarcity Long; core operating success but stock rerating failure"
+    },
+    {
+      "idea_id": "a011f87e-a53e-43bc-9881-680d0941a8c2",
+      "date": "2003-01-13",
+      "ticker": "AG",
+      "company_name": "AGCO Corporation",
+      "author": "chris815",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2003/2003-01-13_AGCO_short.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "leveraged agricultural-equipment Short; medium-term price partial win, long-run cycle/business thesis failed"
+    },
+    {
+      "idea_id": "9683c5d2-a736-4988-9af3-5a6fafadcbd5",
+      "date": "2005-10-18",
+      "ticker": "AG",
+      "company_name": "AGCO Corporation",
+      "author": "chris815",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2005/2005-10-18_AGCO_short.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "rates/leverage/farmer-cost Short; ag supercycle caused severe adverse move"
+    },
+    {
+      "idea_id": "e8624dcd-69c5-47cd-a830-c21effa1e3d0",
+      "date": "2009-08-27",
+      "ticker": "AG-U",
+      "company_name": "Arctic Glacier Income Fund",
+      "author": "PGTenny",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "income trust units",
+      "canonical_path": "analysis/ideas/2009/2009-08-27_AG_UN_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Entered CCAA Feb. 22, 2012; operating assets sold and small distributions paid through final 2022 distribution.",
+      "auto_tag_status_ko": "high-FCF packaged-ice trust Long; refinancing/capital-structure failure"
+    },
+    {
+      "idea_id": "01ce2cae-c9a7-42af-87b0-69887be1ba7a",
+      "date": "2021-09-30",
+      "ticker": "AG1",
+      "company_name": "AUTO1 Group SE",
+      "author": "Hastan",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2021/2021-09-30_AG1_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short->Long 교정; European used-car network-effect Long, business progress but negative stock return"
+    },
+    {
+      "idea_id": "c6149029-5a3f-455c-8fb8-03ed16d9a9a2",
+      "date": "2022-03-04",
+      "ticker": "AG1-ETR",
+      "company_name": "AUTO1 Group SE",
+      "author": "crestone",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2022/2022-03-04_AG1_ETR_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "low-entry SOTP / free-Autohero-option Long; GPU and profitability success, 2027 volume target still far away"
+    },
+    {
+      "idea_id": "f407b250-5fa4-4ac4-a3b2-dd85150a9681",
+      "date": "2003-02-28",
+      "ticker": "AGA CN",
+      "company_name": "Algoma Steel Inc.",
+      "author": "nigel92",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2003/2003-02-28_AGA_CN_algoma_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Essar Global acquired Algoma in 2007 for C$56 cash/share.",
+      "auto_tag_status_ko": "post-bankruptcy steel deep-value Long; cycle recovery + strategic takeout ~17x"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "279b93f2-bf11-41f1-9211-7fc026e43a29",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "insurance accounting/capital Short",
+      "one_line_verdict_ko": "2017 restatement가 일부 논지를 검증했지만 stock이 먼저 약 2배 올라 original short path는 혼합·실패",
+      "thesis_score": 6.5,
+      "process_score": 9.8,
+      "key_mechanism": "reported earnings failed to translate into tangible book, but catalyst latency made the short hard to survive"
+    },
+    {
+      "idea_id": "310ba840-8c00-4893-b2d7-cb15dc6678a9",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "high-yield niche industrial trust Long",
+      "one_line_verdict_ko": "replacement economics와 M&A 가능성을 샀지만 C$5.50 entry가 C$3 takeout으로 crystallize돼 실패",
+      "thesis_score": 3.8,
+      "process_score": 9.6,
+      "key_mechanism": "pricing competition and margin pressure outweighed replacement demand and distribution carry"
+    },
+    {
+      "idea_id": "25a41a32-cb61-4857-92a2-20d3d9d32c4c",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "medical-device moat/growth Long",
+      "one_line_verdict_ko": "SMILE franchise는 살아 있지만 EPS와 margin 경로가 크게 미달해 약 €151 entry 대비 high-€20s",
+      "thesis_score": 3,
+      "process_score": 9.7,
+      "key_mechanism": "strong product moat could not offset weaker earnings duration, regulation, product mix and valuation compression"
+    },
+    {
+      "idea_id": "fb1b28c2-534a-4321-a9a4-23b2782a5f8b",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "regulated-scarcity medical education Long",
+      "one_line_verdict_ko": "2025 revenue/EBITDA/FCF는 강하게 성장했지만 digital optionality와 $28 rerating은 미실현",
+      "thesis_score": 6.8,
+      "process_score": 9.7,
+      "key_mechanism": "scarce medical seats compounded cash flow but persistent Brazil/regulatory risk kept the public-market multiple low"
+    },
+    {
+      "idea_id": "a011f87e-a53e-43bc-9881-680d0941a8c2",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "leveraged cyclical industrial Short",
+      "one_line_verdict_ko": "2005까지 약 24% favorable move가 있었지만 sales expansion과 2007 ag cycle로 long-run thesis 역전",
+      "thesis_score": 5.5,
+      "process_score": 9.6,
+      "key_mechanism": "balance-sheet concerns were overwhelmed by acquisitions and the subsequent agricultural-equipment upcycle"
+    },
+    {
+      "idea_id": "9683c5d2-a736-4988-9af3-5a6fafadcbd5",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "rates/leverage agricultural-equipment Short",
+      "one_line_verdict_ko": "약 $16 short 뒤 2007 ~$68로 300%+ adverse move, cycle call 실패",
+      "thesis_score": 1.8,
+      "process_score": 9.6,
+      "key_mechanism": "farm-income and equipment-cycle strength dominated rising-rate and leverage headwinds"
+    },
+    {
+      "idea_id": "e8624dcd-69c5-47cd-a830-c21effa1e3d0",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "high-FCF distressed income-trust Long",
+      "one_line_verdict_ko": "packaged-ice cash flow는 존재했지만 refinancing 실패로 2012 CCAA, unitholder recovery는 entry에 크게 미달",
+      "thesis_score": 2,
+      "process_score": 9.7,
+      "key_mechanism": "refinancing calendar and leverage dominated stable operating EBITDA"
+    },
+    {
+      "idea_id": "01ce2cae-c9a7-42af-87b0-69887be1ba7a",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "European used-car platform Long",
+      "one_line_verdict_ko": "2025 scale와 EBITDA는 크게 개선됐지만 ~€31.6 entry 대비 2026 ~€20로 valuation thesis 실패",
+      "thesis_score": 6.5,
+      "process_score": 9.7,
+      "key_mechanism": "network scale materialized but starting valuation compressed faster than earnings converted"
+    },
+    {
+      "idea_id": "c6149029-5a3f-455c-8fb8-03ed16d9a9a2",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "SOTP / free Autohero option Long",
+      "one_line_verdict_ko": "~€11 entry 대비 ~€20, GPU €2,605 및 EBITDA 개선은 성공했으나 2027 750k retail-units target은 크게 미달",
+      "thesis_score": 8,
+      "process_score": 9.8,
+      "key_mechanism": "lower entry price allowed the merchant franchise to underwrite downside while Autohero profitability became a free option"
+    },
+    {
+      "idea_id": "f407b250-5fa4-4ac4-a3b2-dd85150a9681",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "post-reorg cyclical deep-value Long",
+      "one_line_verdict_ko": "C$3.30 at 0.3x book에서 cycle 회복·deleveraging·Essar C$56 cash deal로 약 17x",
+      "thesis_score": 10,
+      "process_score": 9.8,
+      "key_mechanism": "bankruptcy balance-sheet reset preserved operating leverage while the market continued to price old distress"
+    }
+  ],
+  "batch_lessons": [
+    "Fundamental accounting concerns can be correct while a short still fails because catalyst latency and adverse excursion dominate security-level returns.",
+    "An M&A catalyst is only valuable at the actual takeout price; strategic interest is not a valuation floor.",
+    "A strong medical-device moat does not prevent large losses when earnings duration and starting multiples are overestimated.",
+    "Operating growth can compound for years without equity rerating when country and regulatory risk premiums persist.",
+    "Cyclical shorts require a cycle-inflection thesis in addition to leverage analysis.",
+    "Stable operating cash flow is not sufficient protection for equity when refinancing fails before liabilities mature.",
+    "The same company can be a bad investment at one price and a good investment at another; AUTO1 2021 vs 2022 is a clean example.",
+    "Future terminal targets should be tracked provisionally until their stated horizon has arrived.",
+    "Post-reorganization equities can produce extreme convexity when fixed claims are reset but operating leverage remains.",
+    "Corporate takeout consideration, insolvency distributions and actual capital structure take precedence over narrative valuation."
+  ]
+}
