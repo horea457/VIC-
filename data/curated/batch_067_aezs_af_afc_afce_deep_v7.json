@@ -1,0 +1,265 @@
+{
+  "schema_version": "vic-deep-research-v9",
+  "batch": 67,
+  "title": "AEZS / AF / AFC / AFCE — Ticker Reuse, Security Identity, Turnaround Timing and Value Crystallization V9",
+  "research_asof": "2026-09-18",
+  "metadata_audit": {
+    "direction_corrections": 5,
+    "security_type_corrections": 1,
+    "company_mapping_corrections": 3,
+    "ticker_reuse_groups": 2,
+    "performance_rows_missing": 10,
+    "notes": [
+      "AF is a historical ticker-reuse collision: 2004 and 2006 ideas are Astoria Financial; 2009 and 2014 ideas are AlarmForce Industries. The SQL companies table maps AF only to AlarmForce and therefore mislabels the older two ideas.",
+      "AFC is another ticker-reuse collision: the 2002 idea is Allmerica Financial common equity; the 2008 idea is Allied Capital 6.875% senior unsecured notes due 2047.",
+      "Raw Short -> actual Long corrections: AF 2004, AF 2014, AFC 2002, AFCE 2007, AFCE 2011.",
+      "AF 2006 is genuinely an Astoria Financial Short.",
+      "Allied Capital AFC 2008 is a debt-security idea, not common equity.",
+      "No source-DB horizon performance rows were found for these ten ideas. Corporate actions, SEC-reported operating results and direct consideration are therefore the primary outcome anchors.",
+      "AFCE 2004 included a $12/share special cash dividend, so raw stock-price charts would materially understate total shareholder payoff.",
+      "AEZS experienced an unusual path: Macrilen's confirmatory trial initially missed its objective, but FDA approval followed in December 2017; Zoptrex failed Phase III.",
+      "AlarmForce 2009's 200k-250k subscriber target was not met; subscriber count was 144.2k in 2015, but BCE later acquired the company for C$16/share.",
+      "AFCE 2011 entry around $14.65 ultimately crystallized at RBI's $79/share cash acquisition in 2017."
+    ]
+  },
+  "ideas_master": [
+    {
+      "idea_id": "6ef9e50a-07f4-4dc1-860d-83a0d40e14dd",
+      "date": "2016-07-25",
+      "ticker": "AEZS",
+      "company_name": "Aeterna Zentaris Inc.",
+      "author": "styx1003",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2016/2016-07-25_AEZS_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "EV≈0 biotech option-basket Long; Zoptrex 실패, Macrilen 최종 FDA 승인"
+    },
+    {
+      "idea_id": "17b17e74-47df-4240-97cc-e7f5cb8c560e",
+      "date": "2004-01-09",
+      "ticker": "AF",
+      "company_name": "Astoria Financial Corporation",
+      "author": "evan73",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2004/2004-01-09_AF_astoria_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short 및 SQL AlarmForce mapping 교정; Astoria refinancing/NIM Long"
+    },
+    {
+      "idea_id": "d8c623a0-24c6-48f4-b5a2-b6b44560b27b",
+      "date": "2006-09-18",
+      "ticker": "AF",
+      "company_name": "Astoria Financial Corporation",
+      "author": "skyhawk887",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2006/2006-09-18_AF_astoria_short.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "SQL AlarmForce mapping만 교정; raw Short는 실제 Astoria funding-spread Short와 일치"
+    },
+    {
+      "idea_id": "27a297bf-be6c-497e-b08a-3a07677ee599",
+      "date": "2009-11-08",
+      "ticker": "AF",
+      "company_name": "AlarmForce Industries Inc.",
+      "author": "hb190",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2009/2009-11-08_AF_alarmforce_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "recurring-revenue/CAC Long; subscriber growth target 과대, BCE takeout 성공"
+    },
+    {
+      "idea_id": "620d4256-cc74-425b-930d-1850677c90b8",
+      "date": "2014-03-10",
+      "ticker": "AF",
+      "company_name": "AlarmForce Industries Inc.",
+      "author": "thistle933",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2014/2014-03-10_AF_alarmforce_long.md",
+      "performance_available": false,
+      "corporate_action_note": "BCE acquired AlarmForce for C$16/share; simple comparison to C$10.70 entry is about +49.5% before dividends/taxes.",
+      "auto_tag_status_ko": "raw Short->Long 교정; founder-removal/recurring-FCF/sale optionality"
+    },
+    {
+      "idea_id": "98bd14c6-2b9b-45b7-97cd-a612f297efff",
+      "date": "2002-10-04",
+      "ticker": "AFC",
+      "company_name": "Allmerica Financial Corporation",
+      "author": "pomfret626",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2002/2002-10-04_AFC_allmerica_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short 및 SQL Allied-Capital mapping 교정; P&C + negative life-stub SOTP Long"
+    },
+    {
+      "idea_id": "bfc22ed5-176c-4033-add8-942cf13274e2",
+      "date": "2008-12-29",
+      "ticker": "AFC",
+      "company_name": "Allied Capital Corporation",
+      "author": "doggy835",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "6.875% senior unsecured notes due 2047",
+      "canonical_path": "analysis/ideas/2008/2008-12-29_AFC_allied_capital_2047_notes_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Ares Capital assumed the notes in the 2010 Allied acquisition and redeemed all remaining notes at $25 par plus accrued interest in 2021.",
+      "auto_tag_status_ko": "common이 아닌 distressed senior-note Long으로 security type 교정"
+    },
+    {
+      "idea_id": "7e85648d-bd5e-40a9-9407-88cf02528b48",
+      "date": "2004-06-24",
+      "ticker": "AFCE",
+      "company_name": "AFC Enterprises Inc.",
+      "author": "rylflush803",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2004/2004-06-24_AFCE_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Cinnabon and Church's divestitures were followed by a $12/share special cash dividend in June 2005.",
+      "auto_tag_status_ko": "asset-sale/SOTP/special-dividend Long"
+    },
+    {
+      "idea_id": "51bdfbe0-1a47-44a7-809d-b069e416043a",
+      "date": "2007-12-05",
+      "ticker": "AFCE",
+      "company_name": "AFC Enterprises Inc.",
+      "author": "glg919",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2007/2007-12-05_AFCE_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short->Long 교정; Popeyes management-turnaround Long, timing 지연"
+    },
+    {
+      "idea_id": "1d73c8b5-7c7e-4d4f-8e89-52a16d3bc538",
+      "date": "2011-03-25",
+      "ticker": "AFCE",
+      "company_name": "AFC Enterprises Inc.",
+      "author": "juice835",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2011/2011-03-25_AFCE_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Restaurant Brands International acquired Popeyes/AFC Enterprises for $79 cash per share in 2017.",
+      "auto_tag_status_ko": "raw Short->Long 교정; asset-light franchisor compounding Long"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "6ef9e50a-07f4-4dc1-860d-83a0d40e14dd",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "EV≈0 biotech option basket",
+      "one_line_verdict_ko": "Zoptrex는 실패했지만 Macrilen이 initial trial miss 뒤 FDA 승인을 받아 한 자산의 가치가 현실화",
+      "thesis_score": 6.4,
+      "process_score": 9.5,
+      "key_mechanism": "independent clinical options plus cash runway, with clinical and regulatory outcomes separating"
+    },
+    {
+      "idea_id": "17b17e74-47df-4240-97cc-e7f5cb8c560e",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "mortgage-thrift refinancing/NIM Long",
+      "one_line_verdict_ko": "2004E EPS $3.57 bridge는 실제 $2.09에 크게 미달; refinancing savings를 과도하게 선형 합산",
+      "thesis_score": 4.8,
+      "process_score": 9.5,
+      "key_mechanism": "asset repricing and prepayment convexity offset liability refinancing benefits"
+    },
+    {
+      "idea_id": "d8c623a0-24c6-48f4-b5a2-b6b44560b27b",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "mortgage-thrift NIM compression Short",
+      "one_line_verdict_ko": "2007 NIM 1.87%→1.62%, net interest income 감소로 funding-spread thesis 적중",
+      "thesis_score": 8.8,
+      "process_score": 9.5,
+      "key_mechanism": "liability costs repriced faster than asset yields under an inverted curve"
+    },
+    {
+      "idea_id": "27a297bf-be6c-497e-b08a-3a07677ee599",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "subscription unit-economics Long",
+      "one_line_verdict_ko": "recurring franchise는 맞았지만 200~250k subscriber 목표는 미달; 최종적으로 BCE strategic takeout",
+      "thesis_score": 7.5,
+      "process_score": 9.4,
+      "key_mechanism": "good recurring economics but geographic CAC extrapolation was too aggressive"
+    },
+    {
+      "idea_id": "620d4256-cc74-425b-930d-1850677c90b8",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "founder-removal special-situation Long",
+      "one_line_verdict_ko": "operating repair는 혼합이었지만 C$10.70에서 C$16 BCE takeout으로 가치 실현",
+      "thesis_score": 8.3,
+      "process_score": 9.5,
+      "key_mechanism": "contracted recurring cash flow preserved strategic value while operations were professionalized"
+    },
+    {
+      "idea_id": "98bd14c6-2b9b-45b7-97cd-a612f297efff",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "insurance negative-stub SOTP Long",
+      "one_line_verdict_ko": "life business negative-value pricing이 구조조정으로 해소되며 $10 entry가 2004 $37+까지 rerate",
+      "thesis_score": 9.8,
+      "process_score": 9.7,
+      "key_mechanism": "life run-off uncertainty was monetized away, revealing the P&C franchise"
+    },
+    {
+      "idea_id": "bfc22ed5-176c-4033-add8-942cf13274e2",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "distressed senior unsecured note Long",
+      "one_line_verdict_ko": "약 35c of par의 AFC note가 Ares assumption 뒤 2021 par + accrued interest로 상환",
+      "thesis_score": 9.8,
+      "process_score": 9.8,
+      "key_mechanism": "stressed asset coverage plus seniority and eventual change-of-control reduced duration risk"
+    },
+    {
+      "idea_id": "7e85648d-bd5e-40a9-9407-88cf02528b48",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "restaurant SOTP / asset-sale Long",
+      "one_line_verdict_ko": "Church's·Cinnabon 매각 뒤 $12/share special dividend로 value가 1년 내 직접 crystallize",
+      "thesis_score": 9.8,
+      "process_score": 9.8,
+      "key_mechanism": "noncore-brand divestitures converted holding-company discount into distributable cash"
+    },
+    {
+      "idea_id": "51bdfbe0-1a47-44a7-809d-b069e416043a",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "Popeyes management-turnaround Long",
+      "one_line_verdict_ko": "2009 EPS $1 target는 늦었지만 2011 adjusted EPS $0.99로 turnaround mechanism이 현실화",
+      "thesis_score": 7.8,
+      "process_score": 9.5,
+      "key_mechanism": "franchisee alignment, SSS and unit growth improved with a multi-year lag"
+    },
+    {
+      "idea_id": "1d73c8b5-7c7e-4d4f-8e89-52a16d3bc538",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "asset-light franchisor compounding Long",
+      "one_line_verdict_ko": "EPS·SSS·unit growth가 복리로 증가하고 $14.65 entry가 2017 $79 cash deal로 약 5.4x",
+      "thesis_score": 9.9,
+      "process_score": 9.8,
+      "key_mechanism": "asset-light royalty growth plus buybacks compounded earnings before a strategic acquisition crystallized value"
+    }
+  ],
+  "batch_lessons": [
+    "Historical ticker symbols are not stable entity identifiers; date, legal entity and security type must be part of the canonical key.",
+    "The same AF ticker represented Astoria Financial and later AlarmForce Industries, while AFC represented Allmerica common and Allied Capital debt.",
+    "Bank EPS bridges should model asset yields, funding costs, deposit beta, prepayments and curve shape jointly rather than add isolated savings linearly.",
+    "Subscription unit economics can remain attractive while geographic growth forecasts fail because CAC and churn vary by market.",
+    "A hated insurance run-off segment can create upside when the market assigns negative value but restructuring releases capital.",
+    "Distressed debt can be an excellent investment even when the issuer's common equity is risky; seniority and asset coverage determine payoff.",
+    "Special dividends require total-return reconstruction; raw stock-price charts are misleading.",
+    "Turnaround direction and turnaround timing are separate variables.",
+    "A company can migrate from asset-sale special situation to turnaround to compounder; each stage requires a different underwriting framework.",
+    "Corporate actions such as divestitures, debt redemption and cash acquisitions are strong external value-validation anchors."
+  ]
+}
