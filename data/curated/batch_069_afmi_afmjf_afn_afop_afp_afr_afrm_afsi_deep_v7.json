@@ -1,0 +1,267 @@
+{
+  "schema_version": "vic-deep-research-v9",
+  "batch": 69,
+  "title": "AFMI / Alphamin / Ag Growth / AFOP / Aluflexpack / AFR / AfriSam / Affirm / AmTrust — Structure, Splits, Per-Share Value and Short Timing V9",
+  "research_asof": "2026-09-18",
+  "metadata_audit": {
+    "direction_corrections": 3,
+    "security_type_corrections": 1,
+    "performance_rows_missing": 10,
+    "split_adjustments": 2,
+    "corporate_action_return_adjustments": 4,
+    "notes": [
+      "Raw Short -> actual Long corrections: AFN.UN 2004, AFR 2003 and AFRISJ 2010.",
+      "AFRISJ is not an equity idea; it is a Long in AfriSam senior secured floating-rate notes.",
+      "AFOP 2010 requires both the August 2010 1-for-5 reverse split and the 2013 2-for-1 stock split before comparing the 2010 entry with Corning's 2016 $18.50/share cash acquisition.",
+      "AFOP 2012 requires the 2013 2-for-1 stock split; its 2012 $1.25/share cash distribution is a separate payoff component.",
+      "Affinity Media's Hotels at Home merger failed, but the SPAC trust liquidation paid $6.00 cash plus one residual common share per seven cancelled IPO common shares.",
+      "Aluflexpack operating results approached the author's 2025 forecast, but the final Constantia takeover at CHF16/share implies a mixed security outcome rather than a pure operating-thesis success.",
+      "American Financial Realty Trust's 2007 Gramercy merger consideration was $5.50 cash plus 0.12096 GKK shares and additional dividend-related cash adjustments.",
+      "AfriSam restructuring preserved/rolled senior secured claims, but exact holder-level realized IRR is not reconstructed from public data.",
+      "Affirm's original $30 short target was exceeded on the downside in 2022, while the business later survived and the stock rebounded.",
+      "AmTrust's governance/accounting concerns were partially validated years later, but the stock more than doubled against the short before those catalysts arrived."
+    ]
+  },
+  "ideas_master": [
+    {
+      "idea_id": "f0eefbcc-1ae2-4b53-aa04-94430fbdbba6",
+      "date": "2008-06-04",
+      "ticker": "AFMI.OB",
+      "company_name": "Affinity Media Inc.",
+      "author": "scrooge833",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "SPAC common equity",
+      "canonical_path": "analysis/ideas/2008/2008-06-04_AFMI_OB_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Hotels at Home merger failed; IPO common was ultimately converted into $6 cash plus one residual common per seven shares.",
+      "auto_tag_status_ko": "SPAC trust-floor asymmetric Long; deal failed but downside protection worked"
+    },
+    {
+      "idea_id": "b3a18d0f-17bf-4636-b562-3896bb122e2a",
+      "date": "2021-01-10",
+      "ticker": "AFMJF",
+      "company_name": "Alphamin Resources Corp.",
+      "author": "Veritas500",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2021/2021-01-10_AFMJF_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "high-grade tin mine operational de-risking / Mpama South / dividend Long"
+    },
+    {
+      "idea_id": "31a1b41b-df44-440e-b8b0-ba7c55537bee",
+      "date": "2004-10-12",
+      "ticker": "AFN UN",
+      "company_name": "Ag Growth Income Fund",
+      "author": "dylex849",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "income trust units",
+      "canonical_path": "analysis/ideas/2004/2004-10-12_AFN_UN_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short->Long 교정; high-yield niche industrial/replacement-demand Long"
+    },
+    {
+      "idea_id": "ccaba7d9-3979-46a6-84ef-7cac99f42499",
+      "date": "2010-05-26",
+      "ticker": "AFOP",
+      "company_name": "Alliance Fiber Optic Products Inc.",
+      "author": "anton613",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2010/2010-05-26_AFOP_long.md",
+      "performance_available": false,
+      "corporate_action_note": "1-for-5 reverse split in 2010, 2-for-1 split in 2013, Corning acquisition at $18.50/share cash in 2016.",
+      "auto_tag_status_ko": "cash-rich deep-value optical Long; split-adjusted multi-bagger"
+    },
+    {
+      "idea_id": "ee7d3bda-2526-406c-a821-2381fc5664d7",
+      "date": "2012-08-07",
+      "ticker": "AFOP",
+      "company_name": "Alliance Fiber Optic Products Inc.",
+      "author": "cobia72",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2012/2012-08-07_AFOP_long.md",
+      "performance_available": false,
+      "corporate_action_note": "$1.25/share cash distribution in 2012, 2-for-1 split in 2013 and $18.50/share Corning cash acquisition in 2016.",
+      "auto_tag_status_ko": "net-cash profitable tech Long; capital return + strategic takeout"
+    },
+    {
+      "idea_id": "c32c272b-06de-4d82-b435-a646a7f66879",
+      "date": "2022-05-29",
+      "ticker": "AFP SW",
+      "company_name": "Aluflexpack AG",
+      "author": "MrTwister",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2022/2022-05-29_AFP_SW_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Constantia Flexibles acquired and delisted Aluflexpack in 2025 at CHF16/share.",
+      "auto_tag_status_ko": "capacity-expansion flexible-packaging Long; operating thesis stronger than security return"
+    },
+    {
+      "idea_id": "4613b14a-a509-480e-93c6-c1eca6c04c89",
+      "date": "2003-12-11",
+      "ticker": "AFR",
+      "company_name": "American Financial Realty Trust",
+      "author": "dle413",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "REIT common equity",
+      "canonical_path": "analysis/ideas/2003/2003-12-11_AFR_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Gramercy merger paid $5.50 cash plus 0.12096 GKK shares and cash adjustments; announcement implied value about $8.43/share.",
+      "auto_tag_status_ko": "raw Short->Long 교정; acquisition-led REIT growth Long, failed per-share value creation"
+    },
+    {
+      "idea_id": "293a1fae-c24d-4a12-ad7f-c1ccf110227c",
+      "date": "2010-11-01",
+      "ticker": "AFRISJ",
+      "company_name": "AfriSam Investment Holdings",
+      "author": "lvampa1070",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "senior secured floating-rate notes",
+      "canonical_path": "analysis/ideas/2010/2010-11-01_AFRISJ_secured_frn_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short->Long/security-type 교정; distressed secured-credit restructuring Long"
+    },
+    {
+      "idea_id": "b35657a5-2f7a-46d2-9ba6-fce1d64f5466",
+      "date": "2021-02-08",
+      "ticker": "AFRM",
+      "company_name": "Affirm Holdings Inc.",
+      "author": "ril1212",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2021/2021-02-08_AFRM_short.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "valuation/Peloton concentration/credit-normalization Short; target exceeded"
+    },
+    {
+      "idea_id": "6710e82a-933f-47cc-b05e-95860517a3d4",
+      "date": "2010-01-13",
+      "ticker": "AFSI",
+      "company_name": "AmTrust Financial Services Inc.",
+      "author": "lvampa1070",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2010/2010-01-13_AFSI_short.md",
+      "performance_available": false,
+      "corporate_action_note": "Accounting/governance issues later led to restatements; company was taken private in 2018 at $14.75/share.",
+      "auto_tag_status_ko": "governance/related-party insurer Short; long-run concern partly right but path/timing failed"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "f0eefbcc-1ae2-4b53-aa04-94430fbdbba6",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "SPAC trust-floor event Long",
+      "one_line_verdict_ko": "Hotels at Home deal은 무산됐지만 $5.85 entry에 $6 cash + residual share liquidation으로 downside thesis가 작동",
+      "thesis_score": 7.8,
+      "process_score": 9.7,
+      "key_mechanism": "trust cash protected the common when the proposed business combination failed"
+    },
+    {
+      "idea_id": "b3a18d0f-17bf-4636-b562-3896bb122e2a",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "high-grade tin operational turnaround Long",
+      "one_line_verdict_ko": "FTR·deleveraging·Mpama South·배당이 순차적으로 실현되고 2025 production 18,576t",
+      "thesis_score": 9.7,
+      "process_score": 9.7,
+      "key_mechanism": "operational bottleneck removal and resource expansion converted exceptional ore grade into distributable cash"
+    },
+    {
+      "idea_id": "31a1b41b-df44-440e-b8b0-ba7c55537bee",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "high-yield niche industrial Long",
+      "one_line_verdict_ko": "11.5% distribution과 high-margin replacement business가 bolt-on acquisitions와 함께 성장",
+      "thesis_score": 9.4,
+      "process_score": 9.6,
+      "key_mechanism": "replacement demand, market leadership and low maintenance capex supported distributions and acquisition compounding"
+    },
+    {
+      "idea_id": "ccaba7d9-3979-46a6-84ef-7cac99f42499",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "cash-rich deep-value optical Long",
+      "one_line_verdict_ko": "split-adjusted 약 $3.38 entry가 Corning $18.50 cash deal로 약 5.5x, dividends 별도",
+      "thesis_score": 9.9,
+      "process_score": 9.8,
+      "key_mechanism": "net cash limited downside while optical demand growth and strategic value drove upside"
+    },
+    {
+      "idea_id": "ee7d3bda-2526-406c-a821-2381fc5664d7",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "net-cash profitable tech Long",
+      "one_line_verdict_ko": "split-adjusted 약 $4.65에서 $18.50 takeout, 2012 $1.25 cash distribution까지 추가",
+      "thesis_score": 9.9,
+      "process_score": 9.8,
+      "key_mechanism": "most of the purchase price was supported by cash while profitable operations and strategic acquisition supplied convexity"
+    },
+    {
+      "idea_id": "c32c272b-06de-4d82-b435-a646a7f66879",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "flexible-packaging capacity-growth Long",
+      "one_line_verdict_ko": "2023 operating results는 2025 목표에 빠르게 접근했지만 CHF16 takeout으로 shareholder outcome은 혼합",
+      "thesis_score": 7,
+      "process_score": 9.5,
+      "key_mechanism": "capacity and secular packaging demand drove EBITDA growth, but valuation did not rerate proportionally"
+    },
+    {
+      "idea_id": "4613b14a-a509-480e-93c6-c1eca6c04c89",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "sale-leaseback REIT growth Long",
+      "one_line_verdict_ko": "asset growth는 있었지만 per-share value creation 실패, $16 entry 대비 2007 deal implied value 약 $8.43",
+      "thesis_score": 2.5,
+      "process_score": 9.5,
+      "key_mechanism": "balance-sheet expansion and acquisitions failed to translate into AFFO/NAV per-share growth"
+    },
+    {
+      "idea_id": "293a1fae-c24d-4a12-ad7f-c1ccf110227c",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "distressed secured FRN Long",
+      "one_line_verdict_ko": "PIC-backed restructuring과 deleveraging이 현실화돼 secured claim이 보존됐지만 exact IRR은 미확정",
+      "thesis_score": 8.5,
+      "process_score": 9.7,
+      "key_mechanism": "collateral and political/economic incentives favored negotiated restructuring over bankruptcy"
+    },
+    {
+      "idea_id": "b35657a5-2f7a-46d2-9ba6-fce1d64f5466",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "BNPL valuation/concentration Short",
+      "one_line_verdict_ko": "$122 short에서 $30 target를 넘어 2022 low 약 $8.91까지 하락",
+      "thesis_score": 9.8,
+      "process_score": 9.7,
+      "key_mechanism": "valuation compression, merchant concentration unwind and normalization of consumer-credit conditions"
+    },
+    {
+      "idea_id": "6710e82a-933f-47cc-b05e-95860517a3d4",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "insurance governance/related-party Short",
+      "one_line_verdict_ko": "회계·governance 우려는 2017 일부 현실화했지만 주가가 먼저 $12→$27 수준으로 상승해 original short는 실패",
+      "thesis_score": 3.5,
+      "process_score": 9.6,
+      "key_mechanism": "slow governance catalysts could not offset multi-year earnings growth and adverse short price path"
+    }
+  ],
+  "batch_lessons": [
+    "A SPAC common can be attractive even when the proposed merger fails if the trust value is above the purchase price.",
+    "Mining reratings require operational recovery and metallurgy/logistics improvement, not merely high ore grade.",
+    "Niche industrial cyclicality should be decomposed into replacement demand, market share and maintenance-capex intensity.",
+    "Historical AFOP returns are meaningless without both reverse and forward stock-split adjustments.",
+    "Operating forecasts can be right while shareholder returns remain weak because valuation multiples and transaction prices are separate variables.",
+    "REIT asset growth is not value creation unless AFFO/share and NAV/share improve.",
+    "A distressed issuer can contain a good secured-credit security when collateral and restructuring incentives protect the claim.",
+    "Short investments require a catalyst and path analysis; eventual thesis validation is insufficient if the stock first doubles against the position.",
+    "Target-hit discipline matters on shorts: Affirm later rebounded, but the original $30 target had already been vastly exceeded on the downside.",
+    "Corporate-action consideration, cash distributions and split adjustments should take precedence over raw stock charts."
+  ]
+}
