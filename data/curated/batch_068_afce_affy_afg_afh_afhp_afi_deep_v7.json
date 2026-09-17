@@ -1,0 +1,263 @@
+{
+  "schema_version": "vic-deep-research-v9",
+  "batch": 68,
+  "title": "AFCE / AFFY / AF Gruppen / Atlas Financial / AFH Financial / Armstrong Flooring — Security, Reserve, Catalyst and Runway V9",
+  "research_asof": "2026-09-18",
+  "metadata_audit": {
+    "direction_corrections": 3,
+    "security_type_corrections": 1,
+    "performance_rows_missing": 10,
+    "special_return_adjustments": 2,
+    "notes": [
+      "Raw Short -> actual Long corrections: AFCE 2012, AFFY 2016, AFHIF 2021.",
+      "AFHBL 2021 is not common equity; it is Atlas Financial Holdings 6.625% Senior Unsecured Notes due 2022, later exchanged into 6.625%/7.25% PIK Toggle Notes due 2027.",
+      "No source-DB horizon performance rows were found for these ten ideas; outcomes rely on SEC/company operating results, corporate actions, direct consideration and split-adjusted historical prices.",
+      "Atlas Financial executed a 1-for-3 reverse stock split in January 2013, so AFH 2012 entry $1.77 equals about $5.31 on a post-split basis.",
+      "AFHBL's 2022 exchange preserved face principal in new securities but this is not treated as realized par recovery. The new notes mature April 27, 2027, which is still in the future.",
+      "Atlas common and Atlas notes are judged separately. The 2024 transfer of core subsidiaries to a secured lender is a negative common and credit event.",
+      "AFH Financial Group's 480p cash acquisition consideration is used as the realized-value anchor for the 2020 Long.",
+      "Armstrong Flooring filed Chapter 11 on May 8, 2022 and later stated existing equity holders would likely receive no recovery after substantially all assets were sold."
+    ]
+  },
+  "ideas_master": [
+    {
+      "idea_id": "74afc0f3-c1cc-42f0-8759-65d207b26fb1",
+      "date": "2012-04-20",
+      "ticker": "AFCE",
+      "company_name": "AFC Enterprises Inc.",
+      "author": "oogum858",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2012/2012-04-20_AFCE_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Restaurant Brands International acquired Popeyes for $79 cash/share in 2017.",
+      "auto_tag_status_ko": "raw Short->Long 교정; asset-light franchisor compounding Long"
+    },
+    {
+      "idea_id": "b831bcd3-82aa-4fe6-97b7-582bc636de44",
+      "date": "2016-08-30",
+      "ticker": "AFFY",
+      "company_name": "Affymax Inc.",
+      "author": "clancy836",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity / public shell",
+      "canonical_path": "analysis/ideas/2016/2016-08-30_AFFY_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short->Long 교정; NOL shell/reverse-merger event Long"
+    },
+    {
+      "idea_id": "da44c9d8-3ef2-48d8-b4e9-0f004b755947",
+      "date": "2021-10-11",
+      "ticker": "AFG NO",
+      "company_name": "AF Gruppen ASA",
+      "author": "Barong",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2021/2021-10-11_AFG_NO_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "Nordic contractor quality/ROIC Long; growth-margin target miss"
+    },
+    {
+      "idea_id": "cc7be7f0-3b67-44c5-baba-eaeb3ada5a33",
+      "date": "2012-06-05",
+      "ticker": "AFH",
+      "company_name": "Atlas Financial Holdings Inc.",
+      "author": "mrsox977",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2012/2012-06-05_AFH_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "specialty commercial-auto insurer rerating Long; reverse split adjusted"
+    },
+    {
+      "idea_id": "97762eda-4350-4f09-bad7-ca22a7255d61",
+      "date": "2013-09-22",
+      "ticker": "AFH",
+      "company_name": "Atlas Financial Holdings Inc.",
+      "author": "fiverocks19",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2013/2013-09-22_AFH_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "premium/book growth Long; price doubled but EPS target overestimated"
+    },
+    {
+      "idea_id": "0497fdbb-2e37-454f-9cb0-ab260fab5507",
+      "date": "2021-12-29",
+      "ticker": "AFHBL",
+      "company_name": "Atlas Financial Holdings Inc.",
+      "author": "mrsox977",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "6.625% senior unsecured notes due 2022",
+      "canonical_path": "analysis/ideas/2021/2021-12-29_AFHBL_notes_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Old notes exchanged April 14, 2022 for 6.625% cash/7.25% PIK senior unsecured notes due April 27, 2027; final recovery not yet known.",
+      "auto_tag_status_ko": "debt Long; restructuring catalyst completed, ultimate recovery provisional"
+    },
+    {
+      "idea_id": "262f4617-ca50-4aa0-81a2-574eb9e94281",
+      "date": "2021-04-12",
+      "ticker": "AFHIF",
+      "company_name": "Atlas Financial Holdings Inc.",
+      "author": "casper719",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2021/2021-04-12_AFHIF_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short->Long 교정; insurer-to-MGA pivot/common option Long, failed on capital structure"
+    },
+    {
+      "idea_id": "85df04ed-ab7e-4059-b9f2-d4313dabcd78",
+      "date": "2020-12-13",
+      "ticker": "AFHP LN",
+      "company_name": "AFH Financial Group Plc",
+      "author": "Hvitserk",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2020/2020-12-13_AFHP_LN_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Cortina Bidco/Flexpoint Ford increased its recommended offer to 480p cash; scheme became effective June 2021.",
+      "auto_tag_status_ko": "UK IFA consolidator Long; rapid PE takeout success"
+    },
+    {
+      "idea_id": "7fe82576-de93-4f60-9527-8d401c74e246",
+      "date": "2016-09-21",
+      "ticker": "AFI",
+      "company_name": "Armstrong Flooring Inc.",
+      "author": "rjm59",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2016/2016-09-21_AFI_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Filed Chapter 11 May 8, 2022; substantially all assets sold and company said equity holders likely no recovery.",
+      "auto_tag_status_ko": "spin-off/manufacturing turnaround Long; terminal failure"
+    },
+    {
+      "idea_id": "3c3375d2-550b-42e0-98d1-25a1c4e0d716",
+      "date": "2021-08-25",
+      "ticker": "AFI",
+      "company_name": "Armstrong Flooring Inc.",
+      "author": "uncleM",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2021/2021-08-25_AFI_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Chapter 11 occurred about 8.5 months after the VIC post; equity likely no recovery.",
+      "auto_tag_status_ko": "distressed manufacturing turnaround Long; liquidity runway failure"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "74afc0f3-c1cc-42f0-8759-65d207b26fb1",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "asset-light franchisor compounding Long",
+      "one_line_verdict_ko": "2012 EPS/SSS/unit growth가 적중하고 $16.50 entry가 2017 $79 cash deal로 약 4.8x",
+      "thesis_score": 9.9,
+      "process_score": 9.8,
+      "key_mechanism": "system sales, royalty economics and franchise-funded unit growth compounded earnings before strategic acquisition"
+    },
+    {
+      "idea_id": "b831bcd3-82aa-4fe6-97b7-582bc636de44",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "NOL shell event Long",
+      "one_line_verdict_ko": "거대한 NOL face value에도 value-unlocking reverse merger가 장기간 현실화되지 않아 time-value 기준 실패",
+      "thesis_score": 3,
+      "process_score": 9.4,
+      "key_mechanism": "NOL value required profitable taxable income and a legally usable transaction, neither of which crystallized"
+    },
+    {
+      "idea_id": "da44c9d8-3ef2-48d8-b4e9-0f004b755947",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "quality contractor Long",
+      "one_line_verdict_ko": "backlog와 balance sheet quality는 유지됐지만 2024 revenue/margin 및 NOK248 target이 크게 미달",
+      "thesis_score": 5.6,
+      "process_score": 9.5,
+      "key_mechanism": "backlog did not convert into the growth and margin profile embedded in the starting valuation"
+    },
+    {
+      "idea_id": "cc7be7f0-3b67-44c5-baba-eaeb3ada5a33",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "specialty insurer rerating Long",
+      "one_line_verdict_ko": "split-adjusted 약 $5.31 entry에서 premium/book growth가 빠르게 실현되고 2015 high ~$20.97",
+      "thesis_score": 9,
+      "process_score": 9.6,
+      "key_mechanism": "hard-market specialty premium growth and normalized combined ratio expanded book value and valuation"
+    },
+    {
+      "idea_id": "97762eda-4350-4f09-bad7-ca22a7255d61",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "specialty insurer growth Long",
+      "one_line_verdict_ko": "$9.85에서 ~$20.97로 2년 double했지만 2015 EPS/BV targets는 과대",
+      "thesis_score": 8.2,
+      "process_score": 9.6,
+      "key_mechanism": "premium growth and rerating outpaced the actual reserve-adjusted earnings realization"
+    },
+    {
+      "idea_id": "0497fdbb-2e37-454f-9cb0-ab260fab5507",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "distressed senior-note Long",
+      "one_line_verdict_ko": "2022 exchange는 성공했지만 new notes 만기 2027 전이고 2024 credit deterioration으로 최종 recovery 미확정",
+      "thesis_score": 6,
+      "process_score": 9.7,
+      "key_mechanism": "maturity extension preserved nominal principal but did not deliver realized par recovery"
+    },
+    {
+      "idea_id": "262f4617-ca50-4aa0-81a2-574eb9e94281",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "insurer-to-MGA common option Long",
+      "one_line_verdict_ko": "MGA model은 매력적이었지만 secured debt가 핵심 subsidiaries를 가져가 common residual이 붕괴",
+      "thesis_score": 2,
+      "process_score": 9.6,
+      "key_mechanism": "enterprise-value potential was overwhelmed by the holding-company debt strike price"
+    },
+    {
+      "idea_id": "85df04ed-ab7e-4059-b9f2-d4313dabcd78",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "UK wealth consolidator Long",
+      "one_line_verdict_ko": "330p entry 후 Flexpoint/Cortina가 480p cash offer로 약 6개월 만에 +45.5% crystallization",
+      "thesis_score": 9.3,
+      "process_score": 9.6,
+      "key_mechanism": "recurring wealth-advice economics and consolidation platform value attracted a financial buyer"
+    },
+    {
+      "idea_id": "7fe82576-de93-4f60-9527-8d401c74e246",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "spin-off manufacturing turnaround Long",
+      "one_line_verdict_ko": "초기 bounce 후 구조적 margin/cash deterioration이 지속돼 2022 Chapter 11, common likely no recovery",
+      "thesis_score": 1.8,
+      "process_score": 9.5,
+      "key_mechanism": "fixed-cost deleverage and cash burn overwhelmed category growth and spin-off governance benefits"
+    },
+    {
+      "idea_id": "3c3375d2-550b-42e0-98d1-25a1c4e0d716",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "distressed manufacturing turnaround Long",
+      "one_line_verdict_ko": "$12+ 정상화 가치 전에 liquidity가 끝나 게시 8.5개월 뒤 Chapter 11",
+      "thesis_score": 1,
+      "process_score": 9.6,
+      "key_mechanism": "time-to-repair exceeded liquidity runway"
+    }
+  ],
+  "batch_lessons": [
+    "A turnaround that has already become a franchisor compounder should be underwritten on system sales, SSS, net openings and royalty economics rather than old asset-sale discounts.",
+    "NOL face value is not cash; monetization requires taxable income, legal usability and a timely catalyst.",
+    "A high-quality contractor can still be a poor stock if backlog converts at lower revenue and margins than assumed.",
+    "Reverse splits must be normalized before comparing historical entry and exit prices.",
+    "Specialty insurer book value is only as reliable as reserve adequacy.",
+    "Distressed exchanges should be marked to the market value of replacement securities rather than their face principal.",
+    "An asset-light MGA business can coexist with a highly levered holding-company security; enterprise quality and common-equity payoff must be separated.",
+    "Financial-buyer takeouts are useful external value anchors for recurring-revenue consolidators.",
+    "Spin-offs do not solve fixed-cost or cash-burn problems by themselves.",
+    "In distressed manufacturing turnarounds, liquidity runway must exceed time-to-normalized EBITDA."
+  ]
+}
