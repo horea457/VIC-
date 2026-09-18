@@ -1,0 +1,268 @@
+{
+  "schema_version": "vic-deep-research-v9",
+  "batch": 74,
+  "title": "Agere / Adecoagro / BrasilAgro / PlayAGS / AGTC / Agrium / Arctic Glacier / Agribrands — Cash Quality, FCF Conversion and Event Timing V9",
+  "research_asof": "2026-09-18",
+  "metadata_audit": {
+    "direction_corrections": 7,
+    "company_mapping_corrections": 1,
+    "performance_rows_available": 2,
+    "performance_rows_missing": 8,
+    "liquidation_security_classifications": 2,
+    "notes": [
+      "Raw Short -> actual Long corrections: Adecoagro 2015, BrasilAgro 2007, PlayAGS 2019, Agrium 2002, Arctic Glacier 2014, Arctic Glacier 2019 and Agribrands 2000.",
+      "AGX 2000 is Agribrands International, not Argan Inc.; the SQL company mapping reflects historical ticker reuse.",
+      "Source SQL performance rows are available only for Adecoagro 2015 and 2019.",
+      "Agere 2002 return requires the 2005 1-for-10 reverse split and the 2007 fixed 2.16-LSI-share merger exchange ratio.",
+      "Adecoagro 2015 nearly met its 2016 EBITDA forecast but badly missed the thesis FCF bridge; Adecoagro 2019 nearly met its 2021 EBITDA plan and subsequently formalized capital returns.",
+      "BrasilAgro's early farmland sales strongly validated asset-level economics, but the listed stock was hit by the 2008 market collapse.",
+      "PlayAGS was acquired in 2025 for $12.50 cash/share, below the inferred 2019 VIC entry around $18.6.",
+      "AGTC was acquired for $0.34 upfront plus a CVR of up to $0.73; the CVR maximum is not treated as realized value.",
+      "Agrium exceeded the author's ~$4 peak EPS forecast with $4.89 diluted EPS in 2005, but the $35-$40 stock target arrived later in the cycle.",
+      "Arctic Glacier 2014 and 2019 are liquidation/residual-cash trust-unit ideas. Exact USD IRRs are not forced because distributions span USD and CAD across multiple years.",
+      "The Arctic Glacier November 2019 distribution had already gone ex before the November 18, 2019 VIC post and therefore is excluded from the post-entry payoff.",
+      "Agribrands received a superior Cargill bid of $54.50 cash/share in December 2000, replacing the Ralcorp transaction."
+    ]
+  },
+  "ideas_master": [
+    {
+      "idea_id": "4500d0b5-fb7d-4ffe-9d15-f96ea6af01b9",
+      "date": "2002-11-01",
+      "ticker": "AGR/A",
+      "company_name": "Agere Systems Inc.",
+      "author": "cherb405",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2002/2002-11-01_AGR_A_agere_systems_long.md",
+      "performance_available": false,
+      "corporate_action_note": "1-for-10 reverse split in 2005; merged into LSI in 2007 at 2.16 LSI shares per Agere share.",
+      "auto_tag_status_ko": "telecom-bust segment-turnaround Long; operating repair and strategic merger"
+    },
+    {
+      "idea_id": "180ef805-3904-41c3-be21-9811a75a8112",
+      "date": "2015-06-01",
+      "ticker": "AGRO",
+      "company_name": "Adecoagro S.A.",
+      "author": "thrive25",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2015/2015-06-01_AGRO_adecoagro_long.md",
+      "performance_available": true,
+      "auto_tag_status_ko": "raw Short->Long correction; Argentina policy/FCF rerating Long, policy and EBITDA right but FCF wrong"
+    },
+    {
+      "idea_id": "6fd167c0-0647-49dd-94bb-7e42010625f3",
+      "date": "2019-06-27",
+      "ticker": "AGRO",
+      "company_name": "Adecoagro S.A.",
+      "author": "aquicap",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2019/2019-06-27_AGRO_adecoagro_long.md",
+      "performance_available": true,
+      "auto_tag_status_ko": "five-year capex-plan/EBITDA/capital-return Long; operating plan substantially delivered"
+    },
+    {
+      "idea_id": "6148c1e7-e470-4445-8aee-206d3ff5f433",
+      "date": "2007-12-31",
+      "ticker": "AGRO3 BZ",
+      "company_name": "BrasilAgro",
+      "author": "xanadu972",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2007/2007-12-31_AGRO3_BZ_brasilagro_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short->Long correction; farmland acquire-develop-sell NAV Long; asset sales worked but 1Y equity timing failed"
+    },
+    {
+      "idea_id": "8122dd89-ff9b-450f-9fb5-e0e4598131d2",
+      "date": "2019-05-29",
+      "ticker": "AGS",
+      "company_name": "PlayAGS Inc.",
+      "author": "Cupmachine314",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2019/2019-05-29_AGS_playags_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Brightstar acquired PlayAGS in 2025 for $12.50 cash/share.",
+      "auto_tag_status_ko": "raw Short->Long correction; recurring gaming-equipment growth/M&A Long, failed takeout value"
+    },
+    {
+      "idea_id": "13b5e188-bda9-43d6-bc0d-5f8c0f44291b",
+      "date": "2021-07-20",
+      "ticker": "AGTC",
+      "company_name": "Applied Genetic Technologies Corporation",
+      "author": "styx1003",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2021/2021-07-20_AGTC_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Syncona acquired AGTC in 2022 for $0.34 cash plus up to $0.73 per-share CVR.",
+      "auto_tag_status_ko": "cash-adjusted retinal gene-therapy pipeline Long; financing runway and pipeline value collapsed"
+    },
+    {
+      "idea_id": "22075230-3898-4ed1-a96e-43139b7619b9",
+      "date": "2002-03-09",
+      "ticker": "AGU",
+      "company_name": "Agrium Inc.",
+      "author": "fw51",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2002/2002-03-09_AGU_agrium_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Agrium combined with PotashCorp into Nutrien in 2018; AGU holders received 2.23 NTR shares per AGU share.",
+      "auto_tag_status_ko": "raw Short->Long correction; nitrogen-supply-cycle Long, EPS forecast exceeded and price target delayed"
+    },
+    {
+      "idea_id": "0aae4ab4-5c0a-4ed8-99c1-cbd9397c52b2",
+      "date": "2014-02-06",
+      "ticker": "AGUNF",
+      "company_name": "Arctic Glacier Income Fund",
+      "author": "JetsFan",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "liquidating trust units",
+      "canonical_path": "analysis/ideas/2014/2014-02-06_AGUNF_liquidation_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short->Long correction; liquidation recovery Long, nominal recovery direction right but timing/IRR failed"
+    },
+    {
+      "idea_id": "295c3c81-2544-4a92-9046-581e0c67ba36",
+      "date": "2019-11-18",
+      "ticker": "AGUNF",
+      "company_name": "Arctic Glacier Income Fund",
+      "author": "value_31",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "residual liquidating trust units",
+      "canonical_path": "analysis/ideas/2019/2019-11-18_AGUNF_final_distribution_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short->Long correction; residual-cash liquidation Long, ex-date/timing/expenses erased expected spread"
+    },
+    {
+      "idea_id": "f07987e9-376e-4592-9c57-7ff957643e7f",
+      "date": "2000-09-21",
+      "ticker": "AGX",
+      "company_name": "Agribrands International",
+      "author": "gary9",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2000/2000-09-21_AGX_agribrands_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Cargill agreed to acquire Agribrands for $54.50 cash/share in December 2000, replacing the Ralcorp transaction.",
+      "auto_tag_status_ko": "raw Short->Long and company-mapping correction; superior-bid event Long"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "4500d0b5-fb7d-4ffe-9d15-f96ea6af01b9",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "telecom-bust segment turnaround Long",
+      "one_line_verdict_ko": "$0.96 pre-split entry가 operating repair 후 LSI merger announcement value 약 $22.81 post-split로 crystallize",
+      "thesis_score": 9.2,
+      "process_score": 9.8,
+      "key_mechanism": "profitable client segment and shrinking infrastructure losses improved enterprise value before strategic merger"
+    },
+    {
+      "idea_id": "180ef805-3904-41c3-be21-9811a75a8112",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "Argentina policy/FCF Long",
+      "one_line_verdict_ko": "Macri reform과 2016 EBITDA $298m은 맞았지만 2017 adjusted FCF $7.2m으로 $163m thesis 붕괴",
+      "thesis_score": 6.5,
+      "process_score": 9.9,
+      "key_mechanism": "policy reform improved EBITDA but capex and cash conversion prevented the modeled FCF"
+    },
+    {
+      "idea_id": "6fd167c0-0647-49dd-94bb-7e42010625f3",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "capex-plan execution Long",
+      "one_line_verdict_ko": "2021 EBITDA $437.1m vs $454m plan으로 거의 적중, capital-return policy까지 현실화",
+      "thesis_score": 8.8,
+      "process_score": 9.9,
+      "key_mechanism": "already-deployed expansion capex converted into EBITDA and distributable cash more predictably than macro reform"
+    },
+    {
+      "idea_id": "6148c1e7-e470-4445-8aee-206d3ff5f433",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "farmland development/NAV Long",
+      "one_line_verdict_ko": "Engenho·São Pedro actual sale economics는 강했지만 2008 market crash로 1Y equity outcome은 실패·혼합",
+      "thesis_score": 7.8,
+      "process_score": 9.8,
+      "key_mechanism": "realized farmland sales validated asset IRRs while market beta prevented near-term NAV recognition"
+    },
+    {
+      "idea_id": "8122dd89-ff9b-450f-9fb5-e0e4598131d2",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "leased-gaming-equipment growth/M&A Long",
+      "one_line_verdict_ko": "implied ~$18.6 entry 대비 2025 Brightstar $12.50 cash takeout으로 실패",
+      "thesis_score": 3.5,
+      "process_score": 9.7,
+      "key_mechanism": "recurring franchise survived but leverage and growth shortfalls left strategic value below the starting price"
+    },
+    {
+      "idea_id": "13b5e188-bda9-43d6-bc0d-5f8c0f44291b",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "cash-adjusted clinical-biotech Long",
+      "one_line_verdict_ko": "~$3.60 entry가 Syncona $0.34 upfront + contingent CVR로 종료; cash was runway, not floor",
+      "thesis_score": 0.8,
+      "process_score": 9.9,
+      "key_mechanism": "clinical burn and financing constraints consumed the apparent cash downside before pipeline value could crystallize"
+    },
+    {
+      "idea_id": "22075230-3898-4ed1-a96e-43139b7619b9",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "nitrogen supply-cycle Long",
+      "one_line_verdict_ko": "2005 diluted EPS $4.89로 ~$4 forecast 초과; $35-40 stock target은 약 2년 늦게 도달",
+      "thesis_score": 9.3,
+      "process_score": 9.8,
+      "key_mechanism": "nitrogen supply tightening and favorable feedstock economics drove earnings before market multiple peaked"
+    },
+    {
+      "idea_id": "0aae4ab4-5c0a-4ed8-99c1-cbd9397c52b2",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "liquidation recovery Long",
+      "one_line_verdict_ko": "initial $0.15557 recovery는 실현됐지만 잔여 distributions가 2022까지 지연돼 35%+ IRR thesis 실패",
+      "thesis_score": 5,
+      "process_score": 9.8,
+      "key_mechanism": "cash existed but claims and wind-down timing dominated the discount-to-liquidation-value spread"
+    },
+    {
+      "idea_id": "295c3c81-2544-4a92-9046-581e0c67ba36",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "residual-cash liquidation Long",
+      "one_line_verdict_ko": "2019 ex-date 이후 매수라 큰 distribution은 제외되고 2020/2022 잔여지급만 받아 short-duration 20% thesis 실패",
+      "thesis_score": 3,
+      "process_score": 9.9,
+      "key_mechanism": "ex-date entitlement and multi-year administrative delay erased the apparent residual cash discount"
+    },
+    {
+      "idea_id": "f07987e9-376e-4592-9c57-7ff957643e7f",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "superior-bid event Long",
+      "one_line_verdict_ko": "Agribrands mapping을 바로잡고 implied ~$41 entry 뒤 Cargill $54.50 cash bid로 약 +33%",
+      "thesis_score": 9.8,
+      "process_score": 9.9,
+      "key_mechanism": "net cash and low enterprise multiple supported a superior strategic bid that broke the lower Ralcorp deal"
+    }
+  ],
+  "batch_lessons": [
+    "A visible balance-sheet asset is not automatically shareholder value: cash quality depends on future burn, commitments and timing.",
+    "EBITDA forecasts and free-cash-flow forecasts must be treated as separate hypotheses.",
+    "Already-deployed growth capex is generally easier to validate than policy-driven macro optionality.",
+    "Realized farm-sale IRRs can be excellent while listed equity performs poorly because market beta and timing are separate variables.",
+    "M&A optionality must be evaluated using the actual takeout price, not the mere occurrence of an acquisition.",
+    "Clinical-biotech cash is runway rather than excess cash and should be reduced by future trial burn and financing friction.",
+    "Commodity earnings peaks and equity multiple peaks often arrive at different times.",
+    "Liquidation investments require dated cash-flow modeling; nominal recovery can coexist with a poor IRR.",
+    "Ex-distribution dates determine entitlement and can completely change an apparent residual-cash arbitrage.",
+    "Historical ticker reuse can silently map a successful old idea to the wrong modern company; legal-entity verification is mandatory."
+  ]
+}
