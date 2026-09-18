@@ -1,0 +1,262 @@
+{
+  "schema_version": "vic-deep-research-v9",
+  "batch": 73,
+  "title": "AGNC / AGNT / AGO / AGP — Regime, Liquidation, Book Value and Pair-Trade V9",
+  "research_asof": "2026-09-18",
+  "metadata_audit": {
+    "direction_corrections": 3,
+    "strategy_type_corrections": 1,
+    "performance_rows_available": 6,
+    "performance_rows_missing": 4,
+    "notes": [
+      "Raw Short -> actual Long corrections: AGNC 2020, AGO 2011 and AGO 2021.",
+      "AGO 2014 is a Long AGO / Short MBI pair trade. The source SQL performance row measures only the AGO long leg and must not be used as the pair return.",
+      "Source SQL performance rows are available for AGO 2005, 2008, 2009, 2011, 2014-long-leg and 2021.",
+      "AGNC 2020 is evaluated from its April 17 post-panic entry, not AGNC's full calendar-year 2020 return.",
+      "AGNC 2022 is an agency-MBS spread/duration/leverage short, not a mortgage-credit-default thesis.",
+      "Argonaut Technologies liquidation has a verified $0.70 first distribution, but final aggregate distributions after deregistration are not fully reconstructed.",
+      "AGO 2008 correctly identified Assured as the relative monoline survivor, but the absolute entry was too early and the 1Y source return was -54.5%.",
+      "AGO 2009's FSA strategic thesis was valid, but the author's ~$7.22 normalized operating EPS estimate was much higher than 2009-2011 actual operating EPS.",
+      "AGO 2021 nearly matched its 2023 GAAP BVPS and ABVPS forecasts, but the assumed 0.9x valuation multiple did not materialize.",
+      "Amerigroup was acquired by WellPoint for $92 cash/share in 2012 versus a late-2008 reference price around $29.5."
+    ]
+  },
+  "ideas_master": [
+    {
+      "idea_id": "a3028729-ce09-4f00-9236-2f10cbdcf58c",
+      "date": "2020-04-17",
+      "ticker": "AGNC",
+      "company_name": "AGNC Investment Corp.",
+      "author": "rapper",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2020/2020-04-17_AGNC_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short->Long correction; post-COVID agency-mREIT TBV recovery / Fed-backstop Long"
+    },
+    {
+      "idea_id": "93ff255e-3a96-48c7-99cf-9e029b592c4f",
+      "date": "2022-06-15",
+      "ticker": "AGNC US",
+      "company_name": "AGNC Investment Corp.",
+      "author": "Vero",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2022/2022-06-15_AGNC_US_short.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "agency-MBS spread/duration/leverage Short; 2022 TBV destruction thesis succeeded"
+    },
+    {
+      "idea_id": "9c4b9b11-e8e6-4200-897d-1cad58025953",
+      "date": "2005-05-09",
+      "ticker": "AGNT",
+      "company_name": "Argonaut Technologies Inc.",
+      "author": "valuearb856",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "liquidating common equity",
+      "canonical_path": "analysis/ideas/2005/2005-05-09_AGNT_argonaut_technologies_liquidation_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Biotage asset sale approved; $0.70/share first liquidation distribution paid in 2005.",
+      "auto_tag_status_ko": "liquidation-value Long; first distribution verified, final total recovery incomplete"
+    },
+    {
+      "idea_id": "c5e4f814-d959-43c1-8927-1529addbdd06",
+      "date": "2005-04-20",
+      "ticker": "AGO",
+      "company_name": "Assured Guaranty Ltd.",
+      "author": "david101",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2005/2005-04-20_AGO_long.md",
+      "performance_available": true,
+      "auto_tag_status_ko": "post-IPO financial-guaranty book-growth/rerating Long; medium-term success"
+    },
+    {
+      "idea_id": "00efc056-201e-47e2-8502-57e786322b1e",
+      "date": "2008-01-18",
+      "ticker": "AGO",
+      "company_name": "Assured Guaranty Ltd.",
+      "author": "aviclara181",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2008/2008-01-18_AGO_long.md",
+      "performance_available": true,
+      "auto_tag_status_ko": "monoline-crisis relative-survivor Long; company selection right but absolute entry too early"
+    },
+    {
+      "idea_id": "0db67587-f040-44d4-8e43-868e6fa0cd63",
+      "date": "2009-11-16",
+      "ticker": "AGO",
+      "company_name": "Assured Guaranty Ltd.",
+      "author": "max318",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2009/2009-11-16_AGO_long.md",
+      "performance_available": true,
+      "auto_tag_status_ko": "FSA-accretion/normalized-earnings Long; strategic deal right, normalized EPS badly overestimated"
+    },
+    {
+      "idea_id": "bc786e30-93e4-4817-8045-da32d02ffcc1",
+      "date": "2011-04-15",
+      "ticker": "AGO",
+      "company_name": "Assured Guaranty Ltd.",
+      "author": "hbomb5",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2011/2011-04-15_AGO_long.md",
+      "performance_available": true,
+      "auto_tag_status_ko": "raw Short->Long correction; mortgage R&W recovery / deep adjusted-book discount Long"
+    },
+    {
+      "idea_id": "80955eb8-b75a-487a-b4f2-3defe4afe82a",
+      "date": "2014-12-10",
+      "ticker": "AGO",
+      "company_name": "Assured Guaranty Ltd. / MBIA Inc.",
+      "author": "socratesplus",
+      "is_short": 0,
+      "direction_ko": "롱 AGO / 숏 MBI",
+      "security_type": "equity pair trade",
+      "canonical_path": "analysis/ideas/2014/2014-12-10_AGO_MBI_pair_long_short.md",
+      "performance_available": true,
+      "auto_tag_status_ko": "strategy-type correction; long higher-quality AGO / short weaker MBI relative-value pair"
+    },
+    {
+      "idea_id": "354cb6f1-5e35-42d8-838e-2eeda5eadf21",
+      "date": "2021-12-27",
+      "ticker": "AGO",
+      "company_name": "Assured Guaranty Ltd.",
+      "author": "hbomb5",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2021/2021-12-27_AGO_long.md",
+      "performance_available": true,
+      "auto_tag_status_ko": "raw Short->Long correction; Puerto Rico exit + buyback + book-value-compounding Long, multiple rerating failed"
+    },
+    {
+      "idea_id": "7dfb9fcd-5548-44c0-b846-8d4e868bebf5",
+      "date": "2008-12-29",
+      "ticker": "AGP",
+      "company_name": "Amerigroup Corporation",
+      "author": "elke528",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2008/2008-12-29_AGP_amerigroup_long.md",
+      "performance_available": false,
+      "corporate_action_note": "WellPoint acquired Amerigroup in 2012 for $92 cash/share.",
+      "auto_tag_status_ko": "countercyclical Medicaid-managed-care growth Long; strategic takeout success"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "a3028729-ce09-4f00-9236-2f10cbdcf58c",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "post-panic agency-mREIT Long",
+      "one_line_verdict_ko": "~$12.15 entry 후 TBV $13.62→$16.71, 1년 price+simple dividends 약 +55%",
+      "thesis_score": 9.4,
+      "process_score": 9.8,
+      "key_mechanism": "Fed agency-MBS support ended forced deleveraging and allowed book value plus discount recovery"
+    },
+    {
+      "idea_id": "93ff255e-3a96-48c7-99cf-9e029b592c4f",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "agency-MBS spread/duration Short",
+      "one_line_verdict_ko": "2022 TBV -37.5%, total stock return -21.7%; June short thesis가 October $7-8대까지 실현",
+      "thesis_score": 9.3,
+      "process_score": 9.8,
+      "key_mechanism": "leveraged MBS spread widening and Fed tightening compressed common book value"
+    },
+    {
+      "idea_id": "9c4b9b11-e8e6-4200-897d-1cad58025953",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "liquidation Long",
+      "one_line_verdict_ko": "Biotage sale 승인과 $0.70 first distribution은 정확히 실현됐으나 final aggregate distribution은 미완전 검증",
+      "thesis_score": 8,
+      "process_score": 9.8,
+      "key_mechanism": "short-duration asset sale converted most expected liquidation value into cash quickly"
+    },
+    {
+      "idea_id": "c5e4f814-d959-43c1-8927-1529addbdd06",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "financial-guaranty book-growth Long",
+      "one_line_verdict_ko": "BV/ABV 성장과 rerating으로 2Y +49.6%, 이후 crisis tail로 5Y +24.2%",
+      "thesis_score": 8.2,
+      "process_score": 9.7,
+      "key_mechanism": "primary-insurance growth and excess capital compounded book before monoline tail risk emerged"
+    },
+    {
+      "idea_id": "00efc056-201e-47e2-8502-57e786322b1e",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "monoline-crisis survivor Long",
+      "one_line_verdict_ko": "AGO survival/FSA thesis는 맞았지만 1Y -54.5%, 5Y -12.2%로 entry timing 실패",
+      "thesis_score": 6,
+      "process_score": 9.8,
+      "key_mechanism": "relative underwriting quality could not protect the stock from industry-wide rating and capital contagion"
+    },
+    {
+      "idea_id": "0db67587-f040-44d4-8e43-868e6fa0cd63",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "FSA-accretion/normalized-earnings Long",
+      "one_line_verdict_ko": "FSA는 strategic win이었으나 ~$7.22 normalized EPS는 actual 2010-11 $3대와 크게 차이; 1-3Y stock도 큰 손실",
+      "thesis_score": 4,
+      "process_score": 9.8,
+      "key_mechanism": "annualizing an unusually low-loss quarter overstated sustainable earnings despite a good acquisition"
+    },
+    {
+      "idea_id": "bc786e30-93e4-4817-8045-da32d02ffcc1",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "R&W recovery/deep-book Long",
+      "one_line_verdict_ko": "BofA $1.1bn + ~$470m reinsurance catalyst가 맞고 5Y +59.7%, 다만 1Y -13.6%",
+      "thesis_score": 8.8,
+      "process_score": 9.8,
+      "key_mechanism": "mortgage repurchase recoveries converted gross legacy losses into cash and book-value recovery"
+    },
+    {
+      "idea_id": "80955eb8-b75a-487a-b4f2-3defe4afe82a",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "financial-guaranty relative-value pair",
+      "one_line_verdict_ko": "AGO는 거의 보합, MBI는 약 -32%로 equal-dollar gross pair 약 +33-34%; SQL standalone row는 부적합",
+      "thesis_score": 9,
+      "process_score": 9.9,
+      "key_mechanism": "relative capital quality and Puerto Rico exposure dispersion drove spread rather than sector beta"
+    },
+    {
+      "idea_id": "354cb6f1-5e35-42d8-838e-2eeda5eadf21",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "book-value compounding / rerating Long",
+      "one_line_verdict_ko": "2023 BV $101.63 vs $108 forecast, ABV $155.92 vs $150 forecast로 분자는 적중했지만 0.9x P/B target은 실패",
+      "thesis_score": 8.5,
+      "process_score": 9.9,
+      "key_mechanism": "Puerto Rico exit and deep-discount buybacks compounded per-share book while the market refused the assumed rerating"
+    },
+    {
+      "idea_id": "7dfb9fcd-5548-44c0-b846-8d4e868bebf5",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "countercyclical Medicaid MCO Long",
+      "one_line_verdict_ko": "recession이 enrollment/outsource tailwind가 되어 2009 membership +13.2%, 2012 $92 cash takeout로 약 3.1x",
+      "thesis_score": 9.8,
+      "process_score": 9.8,
+      "key_mechanism": "economic weakness raised Medicaid eligibility while state fiscal pressure increased managed-care outsourcing incentives"
+    }
+  ],
+  "batch_lessons": [
+    "The same agency-mREIT can be an excellent Long under Fed backstop and an excellent Short under tightening and MBS-spread widening.",
+    "Agency guarantees protect mortgage credit, not leveraged mREIT common book value.",
+    "Liquidation estimates must be reconciled to actual dated cash distributions; unverified residual distributions should not be treated as realized.",
+    "Financial-guaranty vintages should separate book-value growth, legacy claim resolution, capital return and market multiple.",
+    "Being the relative survivor in a crisis does not guarantee good absolute equity returns if the entry is too early.",
+    "Normalized insurer earnings should not be built by annualizing one unusually benign loss quarter.",
+    "Mortgage R&W recoveries can materially change insurer economics but may take years to rerate the stock.",
+    "Pair trades must be evaluated on the spread between both legs rather than the stored long-ticker performance row.",
+    "A forecast can nail book value and still miss the target price because the assumed P/B multiple is a separate hypothesis.",
+    "Policy-driven managed care can be countercyclical when recessions simultaneously increase eligible lives and state outsourcing incentives."
+  ]
+}
