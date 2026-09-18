@@ -21,7 +21,8 @@
 | 066 | production deep | Batch 043 표준의 10개 장문 보고서·60 weighted claims·50 metrics·80 events·40 sources |
 | 067 | production deep | Batch 043 표준의 10개 장문 보고서·60 weighted claims·50 metrics·80 events·56 sources |
 | 068 | production deep | Batch 043 표준의 10개 장문 보고서·60 weighted claims·50 metrics·80 events·41 sources |
-| 069–076 | staging catalog | Markdown 정본은 보존, 구조화 deep payload는 미완성 |
+| 069 | production deep | Batch 043 표준의 10개 장문 보고서·60 weighted claims·50 metrics·80 events·32 sources |
+| 070–076 | staging catalog | Markdown 정본은 보존, 구조화 deep payload는 미완성 |
 | V8 fallback | production deep | 전용 Batch와 겹치지 않는 27건만 보존 |
 
 ## 파일 선택 규칙

@@ -1,9 +1,9 @@
 VIC Falsification DB — V12 Canonical Batches
 
-Production overlay 아이디어: 644개 고유 idea_id
+Production overlay 아이디어: 654개 고유 idea_id
 중복 idea_id: 0
-검증된 deep payload: 62개
-Staging catalog: 13개 배치(Batch 058–062·069–076)
+검증된 deep payload: 63개
+Staging catalog: 12개 배치(Batch 058–062·070–076)
 정리일: 2026-09-18
 
 V12 정리
@@ -21,6 +21,8 @@ V12 정리
 - Batch 067의 historical AF/AFC 법인 mapping 4건, raw Short→Long 5건과 Allied note security type을 교정
 - Batch 068을 Batch 043 표준의 10개 장문 보고서·60 claims·50 metrics·80 events·41 sources로 승격
 - Batch 068의 raw Short→Long 3건, AFHBL note security type과 Atlas reverse-split basis를 교정
+- Batch 069를 Batch 043 표준의 10개 장문 보고서·60 claims·50 metrics·80 events·32 sources로 승격
+- Batch 069의 raw Short→Long 3건, AfriSam secured FRN security type과 AFOP split basis를 교정
 - 구조화 배열이 없는 Batch 074 catalog를 `data/staging/`으로 격리
 - 구조화 배열이 없는 Batch 075 catalog를 `data/staging/`으로 격리
 - 구조화 배열이 없는 Batch 076 catalog를 `data/staging/`으로 격리
