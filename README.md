@@ -12,8 +12,8 @@
 해당 기업의 모든 투자논지·실제 전개·핵심 수치·근거자료를 직접 추출해 표시합니다.
 재무 수치의 `$` 기호는 Streamlit 수식 문법으로 오인되지 않도록 별도 처리합니다.
 
-현재 production overlay는 **614개 고유 idea_id**입니다. 배치·V8 fallback 사이의
-중복 idea_id는 0개이며, DB 스키마가 아직 완성되지 않은 Batch 058–062·066–073의
+현재 production overlay는 **624개 고유 idea_id**입니다. 배치·V8 fallback 사이의
+중복 idea_id는 0개이며, DB 스키마가 아직 완성되지 않은 Batch 058–062·067–076의
 catalog JSON은 `data/staging/`에 격리되어 앱이 심층분석으로 오인하지 않습니다.
 
 ## 정본 파일 구조
@@ -54,7 +54,7 @@ DB는 `data/processed/vic_dashboard.db.gz.part00`에 압축되어 있으며 앱 
 6. 최초 반대 신호, 회피 가능성, 재사용 가능한 학습 태그
 7. 원문·SEC 공시·기업 발표 등 근거자료와 판단 연결
 
-V12 production DB에는 외부자료로 검증한 심층 사후분석 614건이 있습니다.
+V12 production DB에는 외부자료로 검증한 심층 사후분석 624건이 있습니다.
 Batch 001에서는 Farfetch의 2019년 숏과 2021년 롱 2건을 추가했습니다. 원 SQL에서
 2021년 아이디어가 숏으로 잘못 저장된 문제는 원본값을 보존하고 분석 레이어에서
 실제 방향을 롱으로 교정합니다.
@@ -121,6 +121,13 @@ stress value, cycle 정상화 이익과 현금유동성, 보통주·EETC 채권�
 아닌 캐나다 Groupe Aeroplan인데도 미국 AER 가격과 결합된 entity 오류를 찾아
 성과값을 무효 처리했습니다. 구 GM과 New GM, 파산 전후 Hertz도 별도 증권으로
 판정했습니다.
+
+Batch 066에서는 Aetna 3건, Applied Extrusion Technologies, Aether Systems 전환사채,
+Ampex, ADDvantage Technologies 3건, AudioEye를 Batch 043의 0–12장 형식으로
+재구성했습니다. Aetna의 EPS와 multiple, AETC의 refinancing과 common recovery,
+Aether의 101.2% note redemption, Ampex·ADDvantage의 자산가치와 terminal waterfall,
+AudioEye의 초기 성장과 3~4년 duration forecast를 각각 분리했습니다. raw Short 3건의
+실제 Long 방향과 Aether의 증권유형도 원문 기준으로 교정했습니다.
 
 ## 연구 배치 적용
 
