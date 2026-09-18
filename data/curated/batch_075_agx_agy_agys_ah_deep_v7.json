@@ -1,0 +1,262 @@
+{
+  "schema_version": "vic-deep-research-v9",
+  "batch": 75,
+  "title": "Argan / Argosy Gaming / Allergy Therapeutics / Agilysys / Accretive Health — Backlog Quality, Catalyst Path and Governance V9",
+  "research_asof": "2026-09-18",
+  "metadata_audit": {
+    "direction_corrections": 3,
+    "company_mapping_corrections": 0,
+    "ticker_reuse_notes": 1,
+    "performance_rows_available": 0,
+    "performance_rows_missing": 10,
+    "notes": [
+      "Raw Short -> actual Long corrections: Argan 2019, Argosy Gaming 2002 and Agilysys 2013.",
+      "AGX changes historical identity at the Batch 74/75 boundary: AGX 2000 was Agribrands International, while AGX 2013 onward in this batch is Argan Inc.",
+      "No usable source-DB performance rows were found for any of the ten Batch 75 ideas.",
+      "Argan 2013 and 2016 succeeded because project financing and full notices to proceed converted headline backlog into revenue and cash quickly.",
+      "Argan 2019 failed on the stated FY2021-2023 revenue/EPS horizon because multiple projects remained subject to financing and start-date delays.",
+      "Argosy Gaming was acquired by Penn National for $47 cash/share in 2004.",
+      "Allergy Therapeutics' 2007 U.S. clinical program was placed on FDA hold; the hold was not lifted until 2012, invalidating the near-term U.S. commercialization path.",
+      "Agilysys 2007 is a capital-allocation failure after a large asset sale; 2013 and 2016 correctly identified hospitality-software quality but overestimated near-term sale probability.",
+      "Accretive Health's Minnesota legal issue was not existential, but later accounting restatements and delayed filings caused NYSE delisting and invalidated the original public-equity path.",
+      "Later strategic or business validation is not backfilled as original-horizon success when the security path was materially impaired."
+    ]
+  },
+  "ideas_master": [
+    {
+      "idea_id": "5021075e-22d0-492e-98f4-efb012f9e079",
+      "date": "2013-05-20",
+      "ticker": "AGX",
+      "company_name": "Argan Inc.",
+      "author": "archer610",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2013/2013-05-20_AGX_argan_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "cash-rich EPC backlog/NTP Long; Moxie financing catalysts and rerating succeeded"
+    },
+    {
+      "idea_id": "e215ecd2-5c09-4249-80dd-c7053cfe23ed",
+      "date": "2015-05-10",
+      "ticker": "AGX",
+      "company_name": "Argan Inc.",
+      "author": "Woolly18",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2015/2015-05-10_AGX_argan_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "backlog/EPS Long; operating thesis exceeded but six-month catalyst clock was too short"
+    },
+    {
+      "idea_id": "c46ffbd3-99a9-4453-a7ef-fca3aabec167",
+      "date": "2016-04-12",
+      "ticker": "AGX",
+      "company_name": "Argan Inc.",
+      "author": "jet551",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2016/2016-04-12_AGX_argan_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "high-quality backlog/FCF Long; target exceeded within a year"
+    },
+    {
+      "idea_id": "126064ef-2b8c-4362-ba90-fa1b57129f77",
+      "date": "2019-08-07",
+      "ticker": "AGX",
+      "company_name": "Argan Inc.",
+      "author": "Dr1004",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2019/2019-08-07_AGX_argan_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short->Long correction; headline backlog/revenue-ramp Long, failed due financing/NTP delays"
+    },
+    {
+      "idea_id": "cf8f7354-d83e-4c9a-8569-0d1e0afe161e",
+      "date": "2002-12-23",
+      "ticker": "AGY",
+      "company_name": "Argosy Gaming Company",
+      "author": "elmo303",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2002/2002-12-23_AGY_argosy_gaming_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Penn National agreed to acquire Argosy for $47 cash/share in 2004.",
+      "auto_tag_status_ko": "raw Short->Long correction; depressed regional-gaming FCF/M&A Long"
+    },
+    {
+      "idea_id": "122ffb62-3344-4f8a-a038-361219f52c36",
+      "date": "2007-04-03",
+      "ticker": "AGY.L",
+      "company_name": "Allergy Therapeutics plc",
+      "author": "vanbr707",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2007/2007-04-03_AGY_L_allergy_therapeutics_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "core-business-plus-pipeline Long; FDA clinical hold destroyed near-term U.S. optionality"
+    },
+    {
+      "idea_id": "b5c9bcc1-ff5e-4ff7-bce5-93b368ccaf44",
+      "date": "2007-10-04",
+      "ticker": "AGYS",
+      "company_name": "Agilysys Inc.",
+      "author": "arc913",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2007/2007-10-04_AGYS_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "post-asset-sale cash-rich roll-up Long; capital allocation and recession exposure caused strong failure"
+    },
+    {
+      "idea_id": "651a96a1-292c-4df6-9e31-314bf7817e3c",
+      "date": "2013-06-03",
+      "ticker": "AGYS",
+      "company_name": "Agilysys Inc.",
+      "author": "banjo1055",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2013/2013-06-03_AGYS_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short->Long correction; post-RSG SOTP Long, valuation partially realized but sale catalyst failed"
+    },
+    {
+      "idea_id": "4258e59c-edfc-4025-ab64-3c25b770c992",
+      "date": "2016-02-03",
+      "ticker": "AGYS",
+      "company_name": "Agilysys Inc.",
+      "author": "gocanucks97",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2016/2016-02-03_AGYS_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "hospitality-SaaS plus 12-18m sale Long; event failed while long-run business quality succeeded"
+    },
+    {
+      "idea_id": "5dbf03c8-b615-4864-924d-9ae88f645f4c",
+      "date": "2012-06-06",
+      "ticker": "AH",
+      "company_name": "Accretive Health Inc.",
+      "author": "raf698",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2012/2012-06-06_AH_accretive_health_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "Minnesota-controversy/RCM-growth Long; legal issue manageable but accounting credibility and delisting broke the public-equity path"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "5021075e-22d0-492e-98f4-efb012f9e079",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "EPC financing/NTP Long",
+      "one_line_verdict_ko": "$16.19 entry 뒤 Moxie Liberty/Patriot financing과 full NTP가 실제 발생하고 2013 YE ~$27.56",
+      "thesis_score": 9.8,
+      "process_score": 9.8,
+      "key_mechanism": "project financing and NTP converted probability-adjusted backlog into cash quickly"
+    },
+    {
+      "idea_id": "e215ecd2-5c09-4249-80dd-c7053cfe23ed",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "EPC backlog/EPS Long",
+      "one_line_verdict_ko": "6개월 $50은 실패했지만 FY2017 EPS $4.50으로 thesis를 초과하고 2016 YE ~$70.55",
+      "thesis_score": 9,
+      "process_score": 9.8,
+      "key_mechanism": "operating conversion was correct while market rerating lagged the author's short event clock"
+    },
+    {
+      "idea_id": "c46ffbd3-99a9-4453-a7ef-fca3aabec167",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "EPC backlog/FCF Long",
+      "one_line_verdict_ko": "low-$30s entry, $59 target가 2016 YE $70.55로 1년 안에 초과",
+      "thesis_score": 9.8,
+      "process_score": 9.8,
+      "key_mechanism": "high-quality funded backlog produced rapid earnings and free-cash-flow conversion"
+    },
+    {
+      "idea_id": "126064ef-2b8c-4362-ba90-fa1b57129f77",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "headline-backlog growth Long",
+      "one_line_verdict_ko": "FY21-22 EPS $5.60/$7.50 forecast 대비 실제 $1.51/$2.40, FY2022 revenue $509m으로 실패",
+      "thesis_score": 3,
+      "process_score": 9.8,
+      "key_mechanism": "contract awards were translated into revenue without sufficient financing/NTP and schedule haircuts"
+    },
+    {
+      "idea_id": "cf8f7354-d83e-4c9a-8569-0d1e0afe161e",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "regional-gaming FCF/M&A Long",
+      "one_line_verdict_ko": "depressed 2002 valuation이 Penn National의 2004 $47 cash acquisition으로 crystallize",
+      "thesis_score": 9.5,
+      "process_score": 9.8,
+      "key_mechanism": "cash-generative regional assets retained strategic value despite tax and competitive fears"
+    },
+    {
+      "idea_id": "122ffb62-3344-4f8a-a038-361219f52c36",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "allergy-vaccine pipeline Long",
+      "one_line_verdict_ko": "post 직후 FDA clinical hold가 걸리고 2012까지 지속돼 near-term U.S. commercialization thesis 실패",
+      "thesis_score": 3,
+      "process_score": 9.8,
+      "key_mechanism": "regulatory delay and R&D funding burden overwhelmed the apparent core-business valuation floor"
+    },
+    {
+      "idea_id": "b5c9bcc1-ff5e-4ff7-bce5-93b368ccaf44",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "cash-rich roll-up Long",
+      "one_line_verdict_ko": "KSG $485m sale 후 cash를 활용한 roll-up이 기대대로 작동하지 않고 2008 stock $4대, 2011 TSG 재매각",
+      "thesis_score": 2,
+      "process_score": 9.8,
+      "key_mechanism": "capital-allocation quality and cyclical distribution exposure destroyed the headline cash/SOTP protection"
+    },
+    {
+      "idea_id": "651a96a1-292c-4df6-9e31-314bf7817e3c",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "post-divestiture SOTP/sale Long",
+      "one_line_verdict_ko": "RSG sale과 $13.6-17.95 SOTP는 일부 실현됐지만 anticipated company sale은 발생하지 않음",
+      "thesis_score": 7.8,
+      "process_score": 9.8,
+      "key_mechanism": "divestiture clarified hospitality-software value, but activist ownership did not force a sale"
+    },
+    {
+      "idea_id": "4258e59c-edfc-4025-ab64-3c25b770c992",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "hospitality SaaS / strategic-sale Long",
+      "one_line_verdict_ko": "12-18개월 $15 sale thesis는 실패했지만 recurring/SaaS business는 장기적으로 크게 성장",
+      "thesis_score": 6.5,
+      "process_score": 9.8,
+      "key_mechanism": "business quality compounded independently after the predicted transaction path failed"
+    },
+    {
+      "idea_id": "5dbf03c8-b615-4864-924d-9ae88f645f4c",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "controversy / RCM growth Long",
+      "one_line_verdict_ko": "Minnesota issue는 manageable했지만 restatement·filing delay·2014 delisting으로 original security path 실패",
+      "thesis_score": 4,
+      "process_score": 9.8,
+      "key_mechanism": "the modeled legal headline was smaller than an unmodeled accounting-controls and disclosure-credibility tail risk"
+    }
+  ],
+  "batch_lessons": [
+    "EPC backlog should be probability-weighted for financing, full notice to proceed and project schedule rather than treated as booked revenue.",
+    "A correct operating forecast can still miss its investment horizon if the catalyst clock is too aggressive.",
+    "Historical ticker reuse requires date-specific legal-entity verification; AGX 2000 and AGX 2013+ are different companies.",
+    "Core-business value is not a biotech equity floor when that core business must finance the pipeline burn.",
+    "Cash-rich rollups must be underwritten through management capital-allocation skill, not cash balance alone.",
+    "Activist ownership increases strategic optionality but does not guarantee a company sale.",
+    "SOTP value and the path by which that value is realized are separate hypotheses.",
+    "A near-term event thesis can fail even if the long-run business-quality thesis ultimately proves excellent.",
+    "Controversy investing should search for second-order accounting, governance and control risks beyond the visible headline.",
+    "Later strategic validation does not retroactively rescue an original-horizon security thesis that suffered delisting, dilution or other path impairment."
+  ]
+}
