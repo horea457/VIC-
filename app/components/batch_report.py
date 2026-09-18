@@ -65,6 +65,7 @@ BATCH_SOURCES = (
 ("batch_064_aep_atlas_aepi_aer_deep_v7.json","batch_064_aep_atlas_aepi_aer_10.md","Batch 064"),
 ("batch_065_aer_aeri_aeromex_aes_deep_v7.json","batch_065_aer_aeri_aeromex_aes_10.md","Batch 065"),
 ("batch_066_aetna_aetc_aether_ampex_aey_aeye_deep_v7.json","batch_066_aetna_aetc_aether_ampex_aey_aeye_10.md","Batch 066"),
+("batch_067_aezs_af_afc_afce_deep_v7.json","batch_067_aezs_af_afc_afce_10.md","Batch 067"),
 ("all_reviewed_v8_index.json","all_reviewed_v8.md.gz","V8 전체 DB"),)
 
 @st.cache_data(show_spinner=False)
