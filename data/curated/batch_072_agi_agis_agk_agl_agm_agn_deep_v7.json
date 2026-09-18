@@ -1,0 +1,268 @@
+{
+  "schema_version": "vic-deep-research-v9",
+  "batch": 72,
+  "title": "AGI / Aegis / Aggreko / Angelica / Autogrill / Farmer Mac / Allergan — Claim Identity, Timing and Merger Arbitrage V9",
+  "research_asof": "2026-09-18",
+  "metadata_audit": {
+    "direction_corrections": 3,
+    "strategy_type_corrections": 1,
+    "performance_rows_available": 1,
+    "performance_rows_missing": 9,
+    "notes": [
+      "Raw Short -> actual Long/Long-spread corrections: Aggreko 2014, Farmer Mac 2009 and Pfizer/Allergan 2016.",
+      "AGN.PA 2016 is not a simple Allergan short; it is the Pfizer/Allergan leg of a broader merger-arbitrage basket/pair strategy.",
+      "Farmer Mac 2009 is the only Batch 72 idea with a usable source-DB horizon performance row: 1Y +64.0%, 2Y +116.1%, 3Y +211.7%, 5Y +295.4%.",
+      "Alamos Gold 2022 delivered a very strong stock outcome, but the original 2025 AISC ~$800 and Lynn Lake 2027 production schedules did not occur as forecast.",
+      "Aegis Logistics materially expanded LPG terminal throughput and earnings; exact VIC-day stock return is not reconstructed.",
+      "Aggreko was taken private at 880p in 2021 versus the 1,527p VIC entry, before dividends.",
+      "Angelica sold Life Uniform below the author's expected proceeds and was later acquired for $22 cash/share; exact 2003 entry return is not reconstructed.",
+      "Autogrill's 2023 Dufry combination provided a €6.33 cash alternative versus the 2013 €6.02 entry; the original 24-30 month catalyst timing failed.",
+      "Allergan 2015 Actavis and 2019 AbbVie merger arbitrages closed at stated terms; exact hedged IRRs are not asserted without actual hedge fills.",
+      "Pfizer/Allergan terminated after the April 2016 U.S. Treasury anti-inversion rules; the break is treated as a failure of the AGN/PFE arb leg rather than the entire author's basket.",
+      "Allergan 2018 fundamental Long ended via AbbVie takeout at a value below the original $240-$270 standalone target."
+    ]
+  },
+  "ideas_master": [
+    {
+      "idea_id": "6b6d1ed7-8aba-4c2c-81ff-283e43a43d81",
+      "date": "2022-06-24",
+      "ticker": "AGI.",
+      "company_name": "Alamos Gold Inc.",
+      "author": "beethoven",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2022/2022-06-24_AGI_alamos_gold_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "production/AISC/project-pipeline Long; stock multi-bagger but original schedule/cost forecasts missed"
+    },
+    {
+      "idea_id": "6fb620d8-23c9-4b5a-8a38-c1920b68f2f2",
+      "date": "2019-12-30",
+      "ticker": "AGIS IN",
+      "company_name": "Aegis Logistics Ltd.",
+      "author": "vfm343",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2019/2019-12-30_AGIS_IN_aegis_logistics_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "India LPG infrastructure / throughput / incremental-ROIC compounder Long"
+    },
+    {
+      "idea_id": "a1212043-bea2-4cd8-9651-c9f667cfab90",
+      "date": "2014-02-07",
+      "ticker": "AGK",
+      "company_name": "Aggreko plc",
+      "author": "rhg",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2014/2014-02-07_AGK_aggreko_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Taken private in 2021 for 880p/share cash versus the 1,527p VIC entry.",
+      "auto_tag_status_ko": "raw Short->Long correction; capital-intensive compounder Long that failed on ROCE durability"
+    },
+    {
+      "idea_id": "163e0aae-7ec9-4947-848a-e1a9226f55f8",
+      "date": "2003-12-31",
+      "ticker": "AGL",
+      "company_name": "Angelica Corporation",
+      "author": "alli718",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2003/2003-12-31_AGL_angelica_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Life Uniform sold in 2004; company acquired in 2008 for $22 cash/share.",
+      "auto_tag_status_ko": "portfolio simplification / healthcare textile-services value Long"
+    },
+    {
+      "idea_id": "3e453959-99db-48df-ae9a-06c3af75f0b6",
+      "date": "2013-10-02",
+      "ticker": "AGL IM",
+      "company_name": "Autogrill S.p.A.",
+      "author": "cgnlm995",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2013/2013-10-02_AGL_IM_autogrill_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Dufry combination in 2023; mandatory offer offered 0.1583 Dufry share or €6.33 cash.",
+      "auto_tag_status_ko": "post-WDF demerger / bad-concession-exit Long; operating partial success, timing failure"
+    },
+    {
+      "idea_id": "0a5058db-e8dc-40b9-ade7-c7ee498737b1",
+      "date": "2009-08-10",
+      "ticker": "AGM",
+      "company_name": "Federal Agricultural Mortgage Corporation",
+      "author": "carbone959",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2009/2009-08-10_AGM_farmer_mac_long.md",
+      "performance_available": true,
+      "auto_tag_status_ko": "raw Short->Long correction; crisis toxic-assets reset / core ag-finance earnings normalization Long"
+    },
+    {
+      "idea_id": "03063007-33a3-4c1f-ae1d-91e3dc679f7c",
+      "date": "2015-01-16",
+      "ticker": "AGN",
+      "company_name": "Allergan Inc.",
+      "author": "rhianik",
+      "is_short": 0,
+      "direction_ko": "롱 스프레드",
+      "security_type": "merger-arbitrage spread",
+      "canonical_path": "analysis/ideas/2015/2015-01-16_AGN_actavis_merger_arb_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Actavis completed the acquisition March 17, 2015 for $129.22 cash + 0.3683 Actavis share per Allergan share.",
+      "auto_tag_status_ko": "Actavis/Allergan mixed-consideration merger arb; successful close"
+    },
+    {
+      "idea_id": "72b58f08-8234-4480-81e0-99dc8d8c3283",
+      "date": "2018-01-17",
+      "ticker": "AGN",
+      "company_name": "Allergan plc",
+      "author": "valuefinder0525",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2018/2018-01-17_AGN_allergan_long.md",
+      "performance_available": false,
+      "corporate_action_note": "AbbVie announced acquisition in 2019 and completed May 8, 2020 for $120.30 cash + 0.8660 ABBV share.",
+      "auto_tag_status_ko": "Botox/growth-pharma fundamental Long; strategic takeout below original $240-$270 target"
+    },
+    {
+      "idea_id": "762045fb-26a7-4d74-b2e9-4d0eef9e1af0",
+      "date": "2019-10-16",
+      "ticker": "AGN",
+      "company_name": "Allergan plc",
+      "author": "honeycreek",
+      "is_short": 0,
+      "direction_ko": "롱 스프레드",
+      "security_type": "merger-arbitrage spread",
+      "canonical_path": "analysis/ideas/2019/2019-10-16_AGN_abbvie_merger_arb_long.md",
+      "performance_available": false,
+      "corporate_action_note": "AbbVie completed acquisition May 8, 2020 at $120.30 cash + 0.8660 ABBV share.",
+      "auto_tag_status_ko": "AbbVie/Allergan merger arb; deal closed with modest timing delay"
+    },
+    {
+      "idea_id": "70e33498-4a1b-41ec-a18e-b5cbee60ea00",
+      "date": "2016-02-19",
+      "ticker": "AGN.PA",
+      "company_name": "Allergan plc / Pfizer Inc.",
+      "author": "mojoris",
+      "is_short": 1,
+      "direction_ko": "롱 스프레드/페어",
+      "security_type": "merger-arbitrage basket leg",
+      "canonical_path": "analysis/ideas/2016/2016-02-19_AGN_PA_pfizer_allergan_merger_arb.md",
+      "performance_available": false,
+      "corporate_action_note": "Pfizer/Allergan merger terminated April 6, 2016 after U.S. Treasury anti-inversion rules; Pfizer reimbursed Allergan $150m of expenses.",
+      "auto_tag_status_ko": "raw Short strategy correction; Pfizer/Allergan tax-inversion merger-arb leg failed"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "6b6d1ed7-8aba-4c2c-81ff-283e43a43d81",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "gold producer project-pipeline Long",
+      "one_line_verdict_ko": "stock은 high-$6s에서 mid-$30s multi-bagger였지만 AISC $800/2025와 Lynn Lake 2027 일정은 실패",
+      "thesis_score": 8,
+      "process_score": 9.8,
+      "key_mechanism": "asset quality and larger district-scale development plus gold beta outweighed schedule and cost misses"
+    },
+    {
+      "idea_id": "6fb620d8-23c9-4b5a-8a38-c1920b68f2f2",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "LPG terminal infrastructure compounder Long",
+      "one_line_verdict_ko": "capacity·throughput·earnings가 장기간 확대되고 주가도 early-2020 reference 대비 대략 10x",
+      "thesis_score": 9.7,
+      "process_score": 9.7,
+      "key_mechanism": "structural LPG demand fed high-incremental-margin terminal capacity and JV-enabled expansion"
+    },
+    {
+      "idea_id": "a1212043-bea2-4cd8-9651-c9f667cfab90",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "capital-intensive compounder Long",
+      "one_line_verdict_ko": "1,527p entry가 2021 880p cash takeout으로 종료; historical ROCE durability assumption failed",
+      "thesis_score": 3,
+      "process_score": 9.7,
+      "key_mechanism": "market leadership persisted but utilization/capital intensity weakened sustainable ROCE"
+    },
+    {
+      "idea_id": "163e0aae-7ec9-4947-848a-e1a9226f55f8",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "portfolio simplification / service-business Long",
+      "one_line_verdict_ko": "Life Uniform proceeds는 기대 미달했지만 textile core가 존속하고 2008 $22 cash strategic exit",
+      "thesis_score": 8,
+      "process_score": 9.6,
+      "key_mechanism": "non-core divestiture clarified the healthcare textile-services franchise and enabled eventual sale"
+    },
+    {
+      "idea_id": "3e453959-99db-48df-ae9a-06c3af75f0b6",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "post-demerger concession normalization Long",
+      "one_line_verdict_ko": "bad concession diagnosis는 맞았지만 24-30m rerating은 실패; 10년 뒤 €6.33 cash alternative는 낮은 IRR",
+      "thesis_score": 5,
+      "process_score": 9.7,
+      "key_mechanism": "operating contract cleanup improved economics but did not create timely market-value realization"
+    },
+    {
+      "idea_id": "0a5058db-e8dc-40b9-ade7-c7ee498737b1",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "crisis financial earnings-normalization Long",
+      "one_line_verdict_ko": "core earnings $16.1m→$42.9m, source DB 5Y +295.4%",
+      "thesis_score": 9.8,
+      "process_score": 9.8,
+      "key_mechanism": "toxic assets were removed while the core agricultural-finance earnings engine survived and normalized"
+    },
+    {
+      "idea_id": "03063007-33a3-4c1f-ae1d-91e3dc679f7c",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "mixed-consideration merger arb",
+      "one_line_verdict_ko": "4.8% spread의 Actavis/Allergan deal이 약 2개월 뒤 정확한 terms로 종결",
+      "thesis_score": 9.8,
+      "process_score": 9.8,
+      "key_mechanism": "short time-to-close and definitive cash/stock consideration allowed spread convergence"
+    },
+    {
+      "idea_id": "72b58f08-8234-4480-81e0-99dc8d8c3283",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "specialty-pharma fundamental Long",
+      "one_line_verdict_ko": "Botox strategic value는 인정됐지만 AbbVie takeout value는 original $240-$270 target에 미달",
+      "thesis_score": 6.2,
+      "process_score": 9.7,
+      "key_mechanism": "franchise value produced a strategic exit before standalone pipeline/EPS assumptions could be validated"
+    },
+    {
+      "idea_id": "762045fb-26a7-4d74-b2e9-4d0eef9e1af0",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "AbbVie/Allergan merger arb",
+      "one_line_verdict_ko": "7.9% spread deal이 2020-05-08 stated terms로 close; exact hedged IRR은 유보",
+      "thesis_score": 9.5,
+      "process_score": 9.8,
+      "key_mechanism": "definitive agreement and manageable regulatory process delivered the signed consideration"
+    },
+    {
+      "idea_id": "70e33498-4a1b-41ec-a18e-b5cbee60ea00",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "tax-inversion merger-arb basket leg",
+      "one_line_verdict_ko": "Treasury anti-inversion rule change로 Pfizer/Allergan deal이 break된 명확한 실패",
+      "thesis_score": 2,
+      "process_score": 9.8,
+      "key_mechanism": "policy-regime change activated tax-law termination mechanics and invalidated the spread"
+    }
+  ],
+  "batch_lessons": [
+    "Mining security returns can be excellent even when original cost and schedule forecasts miss; operating accuracy and stock outcome should be scored separately.",
+    "Infrastructure compounders should be evaluated on throughput, utilization and incremental ROIC rather than announced capacity alone.",
+    "Historical high ROCE is not automatically a durable moat in capital-intensive rental businesses.",
+    "A corporate action can validate an asset but still produce a poor IRR if it occurs too late or below the original target.",
+    "Crisis financial analysis should isolate core recurring earnings from already-recognized toxic-asset losses.",
+    "Merger-arbitrage positions must be stored as spreads or pair trades rather than reduced to a raw Long/Short flag.",
+    "Mixed cash/stock mergers require explicit hedge ratios and cannot be evaluated from target price charts.",
+    "Tax-driven cross-border mergers require explicit policy-regime and tax-law-change analysis.",
+    "A strategic takeout is only a partial fundamental-thesis success if the consideration is materially below the original intrinsic-value target.",
+    "The same ticker can represent fundamentally different claims across vintages; Allergan 2015, 2016, 2018 and 2019 are four distinct investments."
+  ]
+}
