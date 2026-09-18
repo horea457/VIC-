@@ -1,6 +1,6 @@
 # Batch 007 — Chesapeake Energy Full History V9 Index
 
-> 기존 `analysis/batch_007_chesapeake_full_history.md`와 `analysis/batch_007_chesapeake_v2_deep.md`는 archive/reference로 유지한다.  
+> `analysis/batch_007_chesapeake_full_history.md`가 현재 wrapper이며, 중복 V2 문서는 Git 이력에만 보존한다.
 > V9에서는 **VIC 투자 아이디어 1건 = Markdown 1개**를 canonical report로 사용한다.
 
 ## Canonical idea files
@@ -298,4 +298,3 @@ Chapter 11 이후:
 - VPP 누적 proceeds와 sold-production value bridge
 - annual CFO / capex / asset-sale / debt issuance waterfall
 - commodity-normalized FCF/share 시계열
-

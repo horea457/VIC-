@@ -1,6 +1,6 @@
 # Batch 011 — Apple / Google V9 Index
 
-> 기존 `analysis/batch_011_apple_google_10.md`와 `analysis/batch_011_apple_google_v2_deep.md`는 archive/reference로 유지한다.  
+> `analysis/batch_011_apple_google_10.md`가 현재 wrapper이며, 중복 V2 문서는 Git 이력에만 보존한다.
 > V9에서는 **10개 VIC 아이디어를 각각 독립 canonical report**로 관리한다.
 
 ---

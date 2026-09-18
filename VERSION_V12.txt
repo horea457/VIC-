@@ -1,0 +1,26 @@
+VIC Falsification DB — V12 Canonical Batches
+
+Production overlay 아이디어: 610개 고유 idea_id
+중복 idea_id: 0
+검증된 deep payload: 58개
+Staging catalog: 14개 배치(Batch 058–062·065–073)
+정리일: 2026-09-18
+
+V12 정리
+- V8 fallback 179건 중 전용 Batch V9와 겹치는 152건 제거, 고유 27건만 보존
+- 후속 V9가 전부 대체한 Batch 035·039 운영 payload 제거
+- Batch 036·037의 중복 CIT 아이디어 7건을 후속 Batch 046·047 정본으로 단일화
+- 구조가 불완전한 JSON 14개를 `data/staging/*_catalog_v9.json`으로 분리
+- Batch 064를 Batch 043 표준의 10개 장문 보고서·60 claims·50 metrics·80 events·86 sources로 승격
+- Batch 010에 겹치던 Aeroplan/AerCap 2건을 entity-audited Batch 064 정본으로 단일화
+- Batch 031–034·036–037의 누락 meta를 기존 판정값에서 재현 가능한 규칙으로 보완
+- 누락된 Batch 038·042·044 wrapper 복구
+- `v2_deep`, 구형 `part/idea` 복제본, Batch 042 복구용 임시파일과 완료된 일회성 workflow 제거
+- production overlay 검증 스크립트 추가
+
+정본 원칙
+- 사람용 장문 정본은 `analysis/ideas/YYYY/*.md`
+- 배치 wrapper는 정본 경로만 결합
+- 구조화 production 데이터는 `data/curated/*_deep_v7.json`
+- 미완성 catalog는 production glob 밖인 `data/staging/`에 둠
+- 같은 idea_id가 겹치면 더 최신의 전용 V9 배치를 정본으로 사용

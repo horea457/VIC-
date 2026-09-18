@@ -323,5 +323,6 @@ takeout은 depressed price보다 높았지만 원문 target보다 낮았다.
 ## 13. 앱 / DB 반영
 
 - Wrapper: analysis/batch_072_agi_agis_agk_agl_agm_agn_10.md
-- Overlay: data/curated/batch_072_agi_agis_agk_agl_agm_agn_deep_v7.json
+- Staging catalog: `data/staging/batch_072_agi_agis_agk_agl_agm_agn_catalog_v9.json`
+- 상태: 장문 Markdown은 보존됐지만 production 필수 배열이 미완성이므로 앱에는 아직 적용하지 않는다.
 - Canonical source of truth: 위 10개 Markdown.

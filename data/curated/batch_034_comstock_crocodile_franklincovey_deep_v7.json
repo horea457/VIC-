@@ -2387,964 +2387,1106 @@
     {
       "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
       "event_order": 1,
-      "event_date": "2004-12-08",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0"
+      "event_date_ko": "2004-12-08",
+      "thesis_implication_ko": "T0"
     },
     {
       "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
       "event_order": 2,
-      "event_date": "2008-12-31",
       "event_ko": "부채보다 생산자산·자본조달 경로가 확대",
-      "signal_ko": "첫 핵심 반증/확인 신호"
+      "event_date_ko": "2008-12-31",
+      "thesis_implication_ko": "첫 핵심 반증/확인 신호"
     },
     {
       "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
       "event_order": 3,
-      "event_date": "2018-08-14",
       "event_ko": "Jones contribution/refinancing",
-      "signal_ko": "자본구조 regime shift"
+      "event_date_ko": "2018-08-14",
+      "thesis_implication_ko": "자본구조 regime shift"
     },
     {
       "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
       "event_order": 4,
-      "event_date": "2019-07-16",
       "event_ko": "Covey Park acquisition close",
-      "signal_ko": "Haynesville scale 확대"
+      "event_date_ko": "2019-07-16",
+      "thesis_implication_ko": "Haynesville scale 확대"
     },
     {
       "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
       "event_order": 5,
-      "event_date": "2022-12-31",
       "event_ko": "record FCF/deleveraging year",
-      "signal_ko": "commodity upside 확인"
+      "event_date_ko": "2022-12-31",
+      "thesis_implication_ko": "commodity upside 확인"
     },
     {
       "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
       "event_order": 6,
-      "event_date": "2026-06-30",
       "event_ko": "Q2 2026 Haynesville update",
-      "signal_ko": "현재 사업 지속"
+      "event_date_ko": "2026-06-30",
+      "thesis_implication_ko": "현재 사업 지속"
     },
     {
       "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
       "event_order": 1,
-      "event_date": "2010-07-15",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0"
+      "event_date_ko": "2010-07-15",
+      "thesis_implication_ko": "T0"
     },
     {
       "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
       "event_order": 2,
-      "event_date": "2011-12-05",
       "event_ko": "2011 인수로 projected leverage·CapEx 상승",
-      "signal_ko": "첫 핵심 반증/확인 신호"
+      "event_date_ko": "2011-12-05",
+      "thesis_implication_ko": "첫 핵심 반증/확인 신호"
     },
     {
       "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
       "event_order": 3,
-      "event_date": "2018-08-14",
       "event_ko": "Jones contribution/refinancing",
-      "signal_ko": "자본구조 regime shift"
+      "event_date_ko": "2018-08-14",
+      "thesis_implication_ko": "자본구조 regime shift"
     },
     {
       "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
       "event_order": 4,
-      "event_date": "2019-07-16",
       "event_ko": "Covey Park acquisition close",
-      "signal_ko": "Haynesville scale 확대"
+      "event_date_ko": "2019-07-16",
+      "thesis_implication_ko": "Haynesville scale 확대"
     },
     {
       "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
       "event_order": 5,
-      "event_date": "2022-12-31",
       "event_ko": "record FCF/deleveraging year",
-      "signal_ko": "commodity upside 확인"
+      "event_date_ko": "2022-12-31",
+      "thesis_implication_ko": "commodity upside 확인"
     },
     {
       "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
       "event_order": 6,
-      "event_date": "2026-06-30",
       "event_ko": "Q2 2026 Haynesville update",
-      "signal_ko": "현재 사업 지속"
+      "event_date_ko": "2026-06-30",
+      "thesis_implication_ko": "현재 사업 지속"
     },
     {
       "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
       "event_order": 1,
-      "event_date": "2011-01-12",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0"
+      "event_date_ko": "2011-01-12",
+      "thesis_implication_ko": "T0"
     },
     {
       "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
       "event_order": 2,
-      "event_date": "2011-12-13",
       "event_ko": "Luxor C$0.56 공개매수 제안",
-      "signal_ko": "첫 핵심 반증/확인 신호"
+      "event_date_ko": "2011-12-13",
+      "thesis_implication_ko": "첫 핵심 반증/확인 신호"
     },
     {
       "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
       "event_order": 3,
-      "event_date": "2011-12-23",
       "event_ko": "Luxor formal partial offer",
-      "signal_ko": "지배구조 이벤트"
+      "event_date_ko": "2011-12-23",
+      "thesis_implication_ko": "지배구조 이벤트"
     },
     {
       "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
       "event_order": 4,
-      "event_date": "2012-05-04",
       "event_ko": "Fosterville/Stawell acquisition",
-      "signal_ko": "자산구조 변화"
+      "event_date_ko": "2012-05-04",
+      "thesis_implication_ko": "자산구조 변화"
     },
     {
       "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
       "event_order": 5,
-      "event_date": "2015-01-14",
       "event_ko": "AuRico FCF sharing termination close",
-      "signal_ko": "waterfall 단순화"
+      "event_date_ko": "2015-01-14",
+      "thesis_implication_ko": "waterfall 단순화"
     },
     {
       "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
       "event_order": 6,
-      "event_date": "2015-07-10",
       "event_ko": "Newmarket combination complete",
-      "signal_ko": "독립 상장 종료"
+      "event_date_ko": "2015-07-10",
+      "thesis_implication_ko": "독립 상장 종료"
     },
     {
       "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
       "event_order": 1,
-      "event_date": "2011-12-15",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0"
+      "event_date_ko": "2011-12-15",
+      "thesis_implication_ko": "T0"
     },
     {
       "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
       "event_order": 2,
-      "event_date": "2011-12-23",
       "event_ko": "formal partial tender 개시",
-      "signal_ko": "첫 핵심 반증/확인 신호"
+      "event_date_ko": "2011-12-23",
+      "thesis_implication_ko": "첫 핵심 반증/확인 신호"
     },
     {
       "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
       "event_order": 3,
-      "event_date": "2011-12-23",
       "event_ko": "Luxor formal partial offer",
-      "signal_ko": "지배구조 이벤트"
+      "event_date_ko": "2011-12-23",
+      "thesis_implication_ko": "지배구조 이벤트"
     },
     {
       "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
       "event_order": 4,
-      "event_date": "2012-05-04",
       "event_ko": "Fosterville/Stawell acquisition",
-      "signal_ko": "자산구조 변화"
+      "event_date_ko": "2012-05-04",
+      "thesis_implication_ko": "자산구조 변화"
     },
     {
       "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
       "event_order": 5,
-      "event_date": "2015-01-14",
       "event_ko": "AuRico FCF sharing termination close",
-      "signal_ko": "waterfall 단순화"
+      "event_date_ko": "2015-01-14",
+      "thesis_implication_ko": "waterfall 단순화"
     },
     {
       "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
       "event_order": 6,
-      "event_date": "2015-07-10",
       "event_ko": "Newmarket combination complete",
-      "signal_ko": "독립 상장 종료"
+      "event_date_ko": "2015-07-10",
+      "thesis_implication_ko": "독립 상장 종료"
     },
     {
       "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
       "event_order": 1,
-      "event_date": "2014-12-26",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0"
+      "event_date_ko": "2014-12-26",
+      "thesis_implication_ko": "T0"
     },
     {
       "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
       "event_order": 2,
-      "event_date": "2014-12-22",
       "event_ko": "AuRico FCF-sharing 종료로 구조 단순화",
-      "signal_ko": "첫 핵심 반증/확인 신호"
+      "event_date_ko": "2014-12-22",
+      "thesis_implication_ko": "첫 핵심 반증/확인 신호"
     },
     {
       "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
       "event_order": 3,
-      "event_date": "2011-12-23",
       "event_ko": "Luxor formal partial offer",
-      "signal_ko": "지배구조 이벤트"
+      "event_date_ko": "2011-12-23",
+      "thesis_implication_ko": "지배구조 이벤트"
     },
     {
       "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
       "event_order": 4,
-      "event_date": "2012-05-04",
       "event_ko": "Fosterville/Stawell acquisition",
-      "signal_ko": "자산구조 변화"
+      "event_date_ko": "2012-05-04",
+      "thesis_implication_ko": "자산구조 변화"
     },
     {
       "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
       "event_order": 5,
-      "event_date": "2015-01-14",
       "event_ko": "AuRico FCF sharing termination close",
-      "signal_ko": "waterfall 단순화"
+      "event_date_ko": "2015-01-14",
+      "thesis_implication_ko": "waterfall 단순화"
     },
     {
       "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
       "event_order": 6,
-      "event_date": "2015-07-10",
       "event_ko": "Newmarket combination complete",
-      "signal_ko": "독립 상장 종료"
+      "event_date_ko": "2015-07-10",
+      "thesis_implication_ko": "독립 상장 종료"
     },
     {
       "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
       "event_order": 1,
-      "event_date": "2018-02-02",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0"
+      "event_date_ko": "2018-02-02",
+      "thesis_implication_ko": "T0"
     },
     {
       "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
       "event_order": 2,
-      "event_date": "2018-05-09",
       "event_ko": "Jones contribution agreement",
-      "signal_ko": "첫 핵심 반증/확인 신호"
+      "event_date_ko": "2018-05-09",
+      "thesis_implication_ko": "첫 핵심 반증/확인 신호"
     },
     {
       "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
       "event_order": 3,
-      "event_date": "2018-08-14",
       "event_ko": "Jones contribution/refinancing",
-      "signal_ko": "자본구조 regime shift"
+      "event_date_ko": "2018-08-14",
+      "thesis_implication_ko": "자본구조 regime shift"
     },
     {
       "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
       "event_order": 4,
-      "event_date": "2019-07-16",
       "event_ko": "Covey Park acquisition close",
-      "signal_ko": "Haynesville scale 확대"
+      "event_date_ko": "2019-07-16",
+      "thesis_implication_ko": "Haynesville scale 확대"
     },
     {
       "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
       "event_order": 5,
-      "event_date": "2022-12-31",
       "event_ko": "record FCF/deleveraging year",
-      "signal_ko": "commodity upside 확인"
+      "event_date_ko": "2022-12-31",
+      "thesis_implication_ko": "commodity upside 확인"
     },
     {
       "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
       "event_order": 6,
-      "event_date": "2026-06-30",
       "event_ko": "Q2 2026 Haynesville update",
-      "signal_ko": "현재 사업 지속"
+      "event_date_ko": "2026-06-30",
+      "thesis_implication_ko": "현재 사업 지속"
     },
     {
       "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
       "event_order": 1,
-      "event_date": "2019-09-18",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0"
+      "event_date_ko": "2019-09-18",
+      "thesis_implication_ko": "T0"
     },
     {
       "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
       "event_order": 2,
-      "event_date": "2021-06-30",
       "event_ko": "2021 gas rally와 FCF inflection",
-      "signal_ko": "첫 핵심 반증/확인 신호"
+      "event_date_ko": "2021-06-30",
+      "thesis_implication_ko": "첫 핵심 반증/확인 신호"
     },
     {
       "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
       "event_order": 3,
-      "event_date": "2018-08-14",
       "event_ko": "Jones contribution/refinancing",
-      "signal_ko": "자본구조 regime shift"
+      "event_date_ko": "2018-08-14",
+      "thesis_implication_ko": "자본구조 regime shift"
     },
     {
       "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
       "event_order": 4,
-      "event_date": "2019-07-16",
       "event_ko": "Covey Park acquisition close",
-      "signal_ko": "Haynesville scale 확대"
+      "event_date_ko": "2019-07-16",
+      "thesis_implication_ko": "Haynesville scale 확대"
     },
     {
       "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
       "event_order": 5,
-      "event_date": "2022-12-31",
       "event_ko": "record FCF/deleveraging year",
-      "signal_ko": "commodity upside 확인"
+      "event_date_ko": "2022-12-31",
+      "thesis_implication_ko": "commodity upside 확인"
     },
     {
       "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
       "event_order": 6,
-      "event_date": "2026-06-30",
       "event_ko": "Q2 2026 Haynesville update",
-      "signal_ko": "현재 사업 지속"
+      "event_date_ko": "2026-06-30",
+      "thesis_implication_ko": "현재 사업 지속"
     },
     {
       "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
       "event_order": 1,
-      "event_date": "2021-09-09",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0"
+      "event_date_ko": "2021-09-09",
+      "thesis_implication_ko": "T0"
     },
     {
       "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
       "event_order": 2,
-      "event_date": "2022-12-31",
       "event_ko": "2022 record FCF/deleveraging",
-      "signal_ko": "첫 핵심 반증/확인 신호"
+      "event_date_ko": "2022-12-31",
+      "thesis_implication_ko": "첫 핵심 반증/확인 신호"
     },
     {
       "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
       "event_order": 3,
-      "event_date": "2018-08-14",
       "event_ko": "Jones contribution/refinancing",
-      "signal_ko": "자본구조 regime shift"
+      "event_date_ko": "2018-08-14",
+      "thesis_implication_ko": "자본구조 regime shift"
     },
     {
       "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
       "event_order": 4,
-      "event_date": "2019-07-16",
       "event_ko": "Covey Park acquisition close",
-      "signal_ko": "Haynesville scale 확대"
+      "event_date_ko": "2019-07-16",
+      "thesis_implication_ko": "Haynesville scale 확대"
     },
     {
       "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
       "event_order": 5,
-      "event_date": "2022-12-31",
       "event_ko": "record FCF/deleveraging year",
-      "signal_ko": "commodity upside 확인"
+      "event_date_ko": "2022-12-31",
+      "thesis_implication_ko": "commodity upside 확인"
     },
     {
       "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
       "event_order": 6,
-      "event_date": "2026-06-30",
       "event_ko": "Q2 2026 Haynesville update",
-      "signal_ko": "현재 사업 지속"
+      "event_date_ko": "2026-06-30",
+      "thesis_implication_ko": "현재 사업 지속"
     },
     {
       "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
       "event_order": 1,
-      "event_date": "2002-10-02",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0"
+      "event_date_ko": "2002-10-02",
+      "thesis_implication_ko": "T0"
     },
     {
       "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
       "event_order": 2,
-      "event_date": "2007-08-31",
       "event_ko": "FY2006~07 영업이익 회복",
-      "signal_ko": "첫 핵심 반증/확인 신호"
+      "event_date_ko": "2007-08-31",
+      "thesis_implication_ko": "첫 핵심 반증/확인 신호"
     },
     {
       "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
       "event_order": 3,
-      "event_date": "2007-08-31",
       "event_ko": "FY2007 operating improvement",
-      "signal_ko": "turnaround 진행"
+      "event_date_ko": "2007-08-31",
+      "thesis_implication_ko": "turnaround 진행"
     },
     {
       "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
       "event_order": 4,
-      "event_date": "2008-05-22",
       "event_ko": "Consumer Solutions sale announced",
-      "signal_ko": "portfolio simplification"
+      "event_date_ko": "2008-05-22",
+      "thesis_implication_ko": "portfolio simplification"
     },
     {
       "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
       "event_order": 5,
-      "event_date": "2008-07-07",
       "event_ko": "CSBU sale completion documents",
-      "signal_ko": "core training focus"
+      "event_date_ko": "2008-07-07",
+      "thesis_implication_ko": "core training focus"
     },
     {
       "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
       "event_order": 6,
-      "event_date": "2026-05-31",
       "event_ko": "Q3 FY2026 subscription/deferred revenue update",
-      "signal_ko": "현재 모델 확인"
+      "event_date_ko": "2026-05-31",
+      "thesis_implication_ko": "현재 모델 확인"
     },
     {
       "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
       "event_order": 1,
-      "event_date": "2006-07-11",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0"
+      "event_date_ko": "2006-07-11",
+      "thesis_implication_ko": "T0"
     },
     {
       "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
       "event_order": 2,
-      "event_date": "2007-08-31",
       "event_ko": "FY2007 operating improvement",
-      "signal_ko": "첫 핵심 반증/확인 신호"
+      "event_date_ko": "2007-08-31",
+      "thesis_implication_ko": "첫 핵심 반증/확인 신호"
     },
     {
       "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
       "event_order": 3,
-      "event_date": "2007-08-31",
       "event_ko": "FY2007 operating improvement",
-      "signal_ko": "turnaround 진행"
+      "event_date_ko": "2007-08-31",
+      "thesis_implication_ko": "turnaround 진행"
     },
     {
       "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
       "event_order": 4,
-      "event_date": "2008-05-22",
       "event_ko": "Consumer Solutions sale announced",
-      "signal_ko": "portfolio simplification"
+      "event_date_ko": "2008-05-22",
+      "thesis_implication_ko": "portfolio simplification"
     },
     {
       "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
       "event_order": 5,
-      "event_date": "2008-07-07",
       "event_ko": "CSBU sale completion documents",
-      "signal_ko": "core training focus"
+      "event_date_ko": "2008-07-07",
+      "thesis_implication_ko": "core training focus"
     },
     {
       "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
       "event_order": 6,
-      "event_date": "2026-05-31",
       "event_ko": "Q3 FY2026 subscription/deferred revenue update",
-      "signal_ko": "현재 모델 확인"
+      "event_date_ko": "2026-05-31",
+      "thesis_implication_ko": "현재 모델 확인"
     }
   ],
   "sources": [
     {
       "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
       "source_order": 1,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "VIC 2019 CRK page",
-      "source_url": "https://www.valueinvestorsclub.com/idea/COMSTOCK_RESOURCES_INC/6640275800",
       "source_date": null,
-      "use_ko": "VIC 메타데이터·당시 가격/시총/순부채/Short 표시 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "VIC 2019 CRK page",
+      "url": "https://www.valueinvestorsclub.com/idea/COMSTOCK_RESOURCES_INC/6640275800",
+      "evidence_ko": "VIC 메타데이터·당시 가격/시총/순부채/Short 표시 확인"
     },
     {
       "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
       "source_order": 2,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC 2004 10-Q",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000095013404011584/d16950e10vq.htm",
       "source_date": null,
-      "use_ko": "2004 debt 및 자본구조 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC 2004 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/23194/000095013404011584/d16950e10vq.htm",
+      "evidence_ko": "2004 debt 및 자본구조 확인"
     },
     {
       "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
       "source_order": 3,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC 2018 Jones contribution",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000119312518217312/d490208dex99a1i.htm",
       "source_date": null,
-      "use_ko": "Bakken 자산 $620m, 최대 88.57m주·지배권 구조 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC 2018 Jones contribution",
+      "url": "https://www.sec.gov/Archives/edgar/data/23194/000119312518217312/d490208dex99a1i.htm",
+      "evidence_ko": "Bakken 자산 $620m, 최대 88.57m주·지배권 구조 확인"
     },
     {
       "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
       "source_order": 4,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "Comstock Covey Park announcement",
-      "source_url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-become-haynesville-basin-leader-acquisition",
       "source_date": null,
-      "use_ko": "2019 $2.2bn Covey Park, Jones $475m 추가 투자, 2,000 locations 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "Comstock Covey Park announcement",
+      "url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-become-haynesville-basin-leader-acquisition",
+      "evidence_ko": "2019 $2.2bn Covey Park, Jones $475m 추가 투자, 2,000 locations 확인"
     },
     {
       "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
       "source_order": 5,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "Comstock FY2022 results",
-      "source_url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-inc-reports-fourth-quarter-2022-financial-and",
       "source_date": null,
-      "use_ko": "2022 $673m FCF, $506m debt retirement, gas-cycle upside 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "Comstock FY2022 results",
+      "url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-inc-reports-fourth-quarter-2022-financial-and",
+      "evidence_ko": "2022 $673m FCF, $506m debt retirement, gas-cycle upside 확인"
     },
     {
       "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
       "source_order": 6,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC Q2 2026 results",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000119312526323767/crk-ex99_1.htm",
       "source_date": null,
-      "use_ko": "2026 Haynesville 집중·생산/현금흐름 최신 상태 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC Q2 2026 results",
+      "url": "https://www.sec.gov/Archives/edgar/data/23194/000119312526323767/crk-ex99_1.htm",
+      "evidence_ko": "2026 Haynesville 집중·생산/현금흐름 최신 상태 확인"
     },
     {
       "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
       "source_order": 1,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "VIC 2019 CRK page",
-      "source_url": "https://www.valueinvestorsclub.com/idea/COMSTOCK_RESOURCES_INC/6640275800",
       "source_date": null,
-      "use_ko": "VIC 메타데이터·당시 가격/시총/순부채/Short 표시 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "VIC 2019 CRK page",
+      "url": "https://www.valueinvestorsclub.com/idea/COMSTOCK_RESOURCES_INC/6640275800",
+      "evidence_ko": "VIC 메타데이터·당시 가격/시총/순부채/Short 표시 확인"
     },
     {
       "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
       "source_order": 2,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC 2004 10-Q",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000095013404011584/d16950e10vq.htm",
       "source_date": null,
-      "use_ko": "2004 debt 및 자본구조 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC 2004 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/23194/000095013404011584/d16950e10vq.htm",
+      "evidence_ko": "2004 debt 및 자본구조 확인"
     },
     {
       "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
       "source_order": 3,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC 2018 Jones contribution",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000119312518217312/d490208dex99a1i.htm",
       "source_date": null,
-      "use_ko": "Bakken 자산 $620m, 최대 88.57m주·지배권 구조 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC 2018 Jones contribution",
+      "url": "https://www.sec.gov/Archives/edgar/data/23194/000119312518217312/d490208dex99a1i.htm",
+      "evidence_ko": "Bakken 자산 $620m, 최대 88.57m주·지배권 구조 확인"
     },
     {
       "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
       "source_order": 4,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "Comstock Covey Park announcement",
-      "source_url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-become-haynesville-basin-leader-acquisition",
       "source_date": null,
-      "use_ko": "2019 $2.2bn Covey Park, Jones $475m 추가 투자, 2,000 locations 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "Comstock Covey Park announcement",
+      "url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-become-haynesville-basin-leader-acquisition",
+      "evidence_ko": "2019 $2.2bn Covey Park, Jones $475m 추가 투자, 2,000 locations 확인"
     },
     {
       "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
       "source_order": 5,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "Comstock FY2022 results",
-      "source_url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-inc-reports-fourth-quarter-2022-financial-and",
       "source_date": null,
-      "use_ko": "2022 $673m FCF, $506m debt retirement, gas-cycle upside 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "Comstock FY2022 results",
+      "url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-inc-reports-fourth-quarter-2022-financial-and",
+      "evidence_ko": "2022 $673m FCF, $506m debt retirement, gas-cycle upside 확인"
     },
     {
       "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
       "source_order": 6,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC Q2 2026 results",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000119312526323767/crk-ex99_1.htm",
       "source_date": null,
-      "use_ko": "2026 Haynesville 집중·생산/현금흐름 최신 상태 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC Q2 2026 results",
+      "url": "https://www.sec.gov/Archives/edgar/data/23194/000119312526323767/crk-ex99_1.htm",
+      "evidence_ko": "2026 Haynesville 집중·생산/현금흐름 최신 상태 확인"
     },
     {
       "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
       "source_order": 1,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "VIC Crocodile Gold 2011",
-      "source_url": "https://www.valueinvestorsclub.com/idea/CROCODILE_GOLD_CORP/0373325138",
       "source_date": null,
-      "use_ko": "2011 Long의 entity·날짜 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "VIC Crocodile Gold 2011",
+      "url": "https://www.valueinvestorsclub.com/idea/CROCODILE_GOLD_CORP/0373325138",
+      "evidence_ko": "2011 Long의 entity·날짜 확인"
     },
     {
       "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
       "source_order": 2,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "Luxor bid announcement",
-      "source_url": "https://www.prnewswire.com/news-releases/luxor-capital-announces-premium-offer-to-purchase-common-shares-of-crocodile-gold-135545133.html",
       "source_date": null,
-      "use_ko": "2011 C$0.56 bid·약 60% premium·85% 목표 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "Luxor bid announcement",
+      "url": "https://www.prnewswire.com/news-releases/luxor-capital-announces-premium-offer-to-purchase-common-shares-of-crocodile-gold-135545133.html",
+      "evidence_ko": "2011 C$0.56 bid·약 60% premium·85% 목표 확인"
     },
     {
       "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
       "source_order": 3,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "Luxor formal offer",
-      "source_url": "https://www.prnewswire.com/news-releases/luxor-commences-offer-to-acquire-common-shares-of-crocodile-gold-for-056-per-share-in-cash-136135378.html",
       "source_date": null,
-      "use_ko": "2011-12-23 formal offer 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "Luxor formal offer",
+      "url": "https://www.prnewswire.com/news-releases/luxor-commences-offer-to-acquire-common-shares-of-crocodile-gold-for-056-per-share-in-cash-136135378.html",
+      "evidence_ko": "2011-12-23 formal offer 확인"
     },
     {
       "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
       "source_order": 4,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC AuRico/Crocodile acquisition",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1078217/000120445912000644/exhibit99-1.htm",
       "source_date": null,
-      "use_ko": "2012 Fosterville·Stawell 최대 C$105m 인수조건 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC AuRico/Crocodile acquisition",
+      "url": "https://www.sec.gov/Archives/edgar/data/1078217/000120445912000644/exhibit99-1.htm",
+      "evidence_ko": "2012 Fosterville·Stawell 최대 C$105m 인수조건 확인"
     },
     {
       "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
       "source_order": 5,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC AuRico 2014 royalty amendment",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1078217/000106299315000967/exhibit99-3.htm",
       "source_date": null,
-      "use_ko": "2014 C$20m + 2%/1% NSR로 FCF sharing 종료 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC AuRico 2014 royalty amendment",
+      "url": "https://www.sec.gov/Archives/edgar/data/1078217/000106299315000967/exhibit99-3.htm",
+      "evidence_ko": "2014 C$20m + 2%/1% NSR로 FCF sharing 종료 확인"
     },
     {
       "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
       "source_order": 6,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC Newmarket/Crocodile arrangement",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1713443/000106299317003535/exhibit99-87.htm",
       "source_date": null,
-      "use_ko": "2015 합병·C$0.37 cash/주식 선택·최종 corporate outcome 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC Newmarket/Crocodile arrangement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713443/000106299317003535/exhibit99-87.htm",
+      "evidence_ko": "2015 합병·C$0.37 cash/주식 선택·최종 corporate outcome 확인"
     },
     {
       "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
       "source_order": 1,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "VIC Crocodile Gold 2011",
-      "source_url": "https://www.valueinvestorsclub.com/idea/CROCODILE_GOLD_CORP/0373325138",
       "source_date": null,
-      "use_ko": "2011 Long의 entity·날짜 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "VIC Crocodile Gold 2011",
+      "url": "https://www.valueinvestorsclub.com/idea/CROCODILE_GOLD_CORP/0373325138",
+      "evidence_ko": "2011 Long의 entity·날짜 확인"
     },
     {
       "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
       "source_order": 2,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "Luxor bid announcement",
-      "source_url": "https://www.prnewswire.com/news-releases/luxor-capital-announces-premium-offer-to-purchase-common-shares-of-crocodile-gold-135545133.html",
       "source_date": null,
-      "use_ko": "2011 C$0.56 bid·약 60% premium·85% 목표 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "Luxor bid announcement",
+      "url": "https://www.prnewswire.com/news-releases/luxor-capital-announces-premium-offer-to-purchase-common-shares-of-crocodile-gold-135545133.html",
+      "evidence_ko": "2011 C$0.56 bid·약 60% premium·85% 목표 확인"
     },
     {
       "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
       "source_order": 3,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "Luxor formal offer",
-      "source_url": "https://www.prnewswire.com/news-releases/luxor-commences-offer-to-acquire-common-shares-of-crocodile-gold-for-056-per-share-in-cash-136135378.html",
       "source_date": null,
-      "use_ko": "2011-12-23 formal offer 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "Luxor formal offer",
+      "url": "https://www.prnewswire.com/news-releases/luxor-commences-offer-to-acquire-common-shares-of-crocodile-gold-for-056-per-share-in-cash-136135378.html",
+      "evidence_ko": "2011-12-23 formal offer 확인"
     },
     {
       "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
       "source_order": 4,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC AuRico/Crocodile acquisition",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1078217/000120445912000644/exhibit99-1.htm",
       "source_date": null,
-      "use_ko": "2012 Fosterville·Stawell 최대 C$105m 인수조건 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC AuRico/Crocodile acquisition",
+      "url": "https://www.sec.gov/Archives/edgar/data/1078217/000120445912000644/exhibit99-1.htm",
+      "evidence_ko": "2012 Fosterville·Stawell 최대 C$105m 인수조건 확인"
     },
     {
       "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
       "source_order": 5,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC AuRico 2014 royalty amendment",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1078217/000106299315000967/exhibit99-3.htm",
       "source_date": null,
-      "use_ko": "2014 C$20m + 2%/1% NSR로 FCF sharing 종료 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC AuRico 2014 royalty amendment",
+      "url": "https://www.sec.gov/Archives/edgar/data/1078217/000106299315000967/exhibit99-3.htm",
+      "evidence_ko": "2014 C$20m + 2%/1% NSR로 FCF sharing 종료 확인"
     },
     {
       "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
       "source_order": 6,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC Newmarket/Crocodile arrangement",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1713443/000106299317003535/exhibit99-87.htm",
       "source_date": null,
-      "use_ko": "2015 합병·C$0.37 cash/주식 선택·최종 corporate outcome 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC Newmarket/Crocodile arrangement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713443/000106299317003535/exhibit99-87.htm",
+      "evidence_ko": "2015 합병·C$0.37 cash/주식 선택·최종 corporate outcome 확인"
     },
     {
       "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
       "source_order": 1,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "VIC Crocodile Gold 2011",
-      "source_url": "https://www.valueinvestorsclub.com/idea/CROCODILE_GOLD_CORP/0373325138",
       "source_date": null,
-      "use_ko": "2011 Long의 entity·날짜 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "VIC Crocodile Gold 2011",
+      "url": "https://www.valueinvestorsclub.com/idea/CROCODILE_GOLD_CORP/0373325138",
+      "evidence_ko": "2011 Long의 entity·날짜 확인"
     },
     {
       "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
       "source_order": 2,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "Luxor bid announcement",
-      "source_url": "https://www.prnewswire.com/news-releases/luxor-capital-announces-premium-offer-to-purchase-common-shares-of-crocodile-gold-135545133.html",
       "source_date": null,
-      "use_ko": "2011 C$0.56 bid·약 60% premium·85% 목표 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "Luxor bid announcement",
+      "url": "https://www.prnewswire.com/news-releases/luxor-capital-announces-premium-offer-to-purchase-common-shares-of-crocodile-gold-135545133.html",
+      "evidence_ko": "2011 C$0.56 bid·약 60% premium·85% 목표 확인"
     },
     {
       "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
       "source_order": 3,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "Luxor formal offer",
-      "source_url": "https://www.prnewswire.com/news-releases/luxor-commences-offer-to-acquire-common-shares-of-crocodile-gold-for-056-per-share-in-cash-136135378.html",
       "source_date": null,
-      "use_ko": "2011-12-23 formal offer 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "Luxor formal offer",
+      "url": "https://www.prnewswire.com/news-releases/luxor-commences-offer-to-acquire-common-shares-of-crocodile-gold-for-056-per-share-in-cash-136135378.html",
+      "evidence_ko": "2011-12-23 formal offer 확인"
     },
     {
       "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
       "source_order": 4,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC AuRico/Crocodile acquisition",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1078217/000120445912000644/exhibit99-1.htm",
       "source_date": null,
-      "use_ko": "2012 Fosterville·Stawell 최대 C$105m 인수조건 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC AuRico/Crocodile acquisition",
+      "url": "https://www.sec.gov/Archives/edgar/data/1078217/000120445912000644/exhibit99-1.htm",
+      "evidence_ko": "2012 Fosterville·Stawell 최대 C$105m 인수조건 확인"
     },
     {
       "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
       "source_order": 5,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC AuRico 2014 royalty amendment",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1078217/000106299315000967/exhibit99-3.htm",
       "source_date": null,
-      "use_ko": "2014 C$20m + 2%/1% NSR로 FCF sharing 종료 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC AuRico 2014 royalty amendment",
+      "url": "https://www.sec.gov/Archives/edgar/data/1078217/000106299315000967/exhibit99-3.htm",
+      "evidence_ko": "2014 C$20m + 2%/1% NSR로 FCF sharing 종료 확인"
     },
     {
       "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
       "source_order": 6,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC Newmarket/Crocodile arrangement",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1713443/000106299317003535/exhibit99-87.htm",
       "source_date": null,
-      "use_ko": "2015 합병·C$0.37 cash/주식 선택·최종 corporate outcome 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC Newmarket/Crocodile arrangement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1713443/000106299317003535/exhibit99-87.htm",
+      "evidence_ko": "2015 합병·C$0.37 cash/주식 선택·최종 corporate outcome 확인"
     },
     {
       "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
       "source_order": 1,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "VIC 2019 CRK page",
-      "source_url": "https://www.valueinvestorsclub.com/idea/COMSTOCK_RESOURCES_INC/6640275800",
       "source_date": null,
-      "use_ko": "VIC 메타데이터·당시 가격/시총/순부채/Short 표시 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "VIC 2019 CRK page",
+      "url": "https://www.valueinvestorsclub.com/idea/COMSTOCK_RESOURCES_INC/6640275800",
+      "evidence_ko": "VIC 메타데이터·당시 가격/시총/순부채/Short 표시 확인"
     },
     {
       "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
       "source_order": 2,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC 2004 10-Q",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000095013404011584/d16950e10vq.htm",
       "source_date": null,
-      "use_ko": "2004 debt 및 자본구조 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC 2004 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/23194/000095013404011584/d16950e10vq.htm",
+      "evidence_ko": "2004 debt 및 자본구조 확인"
     },
     {
       "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
       "source_order": 3,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC 2018 Jones contribution",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000119312518217312/d490208dex99a1i.htm",
       "source_date": null,
-      "use_ko": "Bakken 자산 $620m, 최대 88.57m주·지배권 구조 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC 2018 Jones contribution",
+      "url": "https://www.sec.gov/Archives/edgar/data/23194/000119312518217312/d490208dex99a1i.htm",
+      "evidence_ko": "Bakken 자산 $620m, 최대 88.57m주·지배권 구조 확인"
     },
     {
       "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
       "source_order": 4,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "Comstock Covey Park announcement",
-      "source_url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-become-haynesville-basin-leader-acquisition",
       "source_date": null,
-      "use_ko": "2019 $2.2bn Covey Park, Jones $475m 추가 투자, 2,000 locations 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "Comstock Covey Park announcement",
+      "url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-become-haynesville-basin-leader-acquisition",
+      "evidence_ko": "2019 $2.2bn Covey Park, Jones $475m 추가 투자, 2,000 locations 확인"
     },
     {
       "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
       "source_order": 5,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "Comstock FY2022 results",
-      "source_url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-inc-reports-fourth-quarter-2022-financial-and",
       "source_date": null,
-      "use_ko": "2022 $673m FCF, $506m debt retirement, gas-cycle upside 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "Comstock FY2022 results",
+      "url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-inc-reports-fourth-quarter-2022-financial-and",
+      "evidence_ko": "2022 $673m FCF, $506m debt retirement, gas-cycle upside 확인"
     },
     {
       "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
       "source_order": 6,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC Q2 2026 results",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000119312526323767/crk-ex99_1.htm",
       "source_date": null,
-      "use_ko": "2026 Haynesville 집중·생산/현금흐름 최신 상태 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC Q2 2026 results",
+      "url": "https://www.sec.gov/Archives/edgar/data/23194/000119312526323767/crk-ex99_1.htm",
+      "evidence_ko": "2026 Haynesville 집중·생산/현금흐름 최신 상태 확인"
     },
     {
       "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
       "source_order": 1,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "VIC 2019 CRK page",
-      "source_url": "https://www.valueinvestorsclub.com/idea/COMSTOCK_RESOURCES_INC/6640275800",
       "source_date": null,
-      "use_ko": "VIC 메타데이터·당시 가격/시총/순부채/Short 표시 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "VIC 2019 CRK page",
+      "url": "https://www.valueinvestorsclub.com/idea/COMSTOCK_RESOURCES_INC/6640275800",
+      "evidence_ko": "VIC 메타데이터·당시 가격/시총/순부채/Short 표시 확인"
     },
     {
       "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
       "source_order": 2,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC 2004 10-Q",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000095013404011584/d16950e10vq.htm",
       "source_date": null,
-      "use_ko": "2004 debt 및 자본구조 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC 2004 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/23194/000095013404011584/d16950e10vq.htm",
+      "evidence_ko": "2004 debt 및 자본구조 확인"
     },
     {
       "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
       "source_order": 3,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC 2018 Jones contribution",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000119312518217312/d490208dex99a1i.htm",
       "source_date": null,
-      "use_ko": "Bakken 자산 $620m, 최대 88.57m주·지배권 구조 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC 2018 Jones contribution",
+      "url": "https://www.sec.gov/Archives/edgar/data/23194/000119312518217312/d490208dex99a1i.htm",
+      "evidence_ko": "Bakken 자산 $620m, 최대 88.57m주·지배권 구조 확인"
     },
     {
       "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
       "source_order": 4,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "Comstock Covey Park announcement",
-      "source_url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-become-haynesville-basin-leader-acquisition",
       "source_date": null,
-      "use_ko": "2019 $2.2bn Covey Park, Jones $475m 추가 투자, 2,000 locations 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "Comstock Covey Park announcement",
+      "url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-become-haynesville-basin-leader-acquisition",
+      "evidence_ko": "2019 $2.2bn Covey Park, Jones $475m 추가 투자, 2,000 locations 확인"
     },
     {
       "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
       "source_order": 5,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "Comstock FY2022 results",
-      "source_url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-inc-reports-fourth-quarter-2022-financial-and",
       "source_date": null,
-      "use_ko": "2022 $673m FCF, $506m debt retirement, gas-cycle upside 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "Comstock FY2022 results",
+      "url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-inc-reports-fourth-quarter-2022-financial-and",
+      "evidence_ko": "2022 $673m FCF, $506m debt retirement, gas-cycle upside 확인"
     },
     {
       "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
       "source_order": 6,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC Q2 2026 results",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000119312526323767/crk-ex99_1.htm",
       "source_date": null,
-      "use_ko": "2026 Haynesville 집중·생산/현금흐름 최신 상태 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC Q2 2026 results",
+      "url": "https://www.sec.gov/Archives/edgar/data/23194/000119312526323767/crk-ex99_1.htm",
+      "evidence_ko": "2026 Haynesville 집중·생산/현금흐름 최신 상태 확인"
     },
     {
       "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
       "source_order": 1,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "VIC 2019 CRK page",
-      "source_url": "https://www.valueinvestorsclub.com/idea/COMSTOCK_RESOURCES_INC/6640275800",
       "source_date": null,
-      "use_ko": "VIC 메타데이터·당시 가격/시총/순부채/Short 표시 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "VIC 2019 CRK page",
+      "url": "https://www.valueinvestorsclub.com/idea/COMSTOCK_RESOURCES_INC/6640275800",
+      "evidence_ko": "VIC 메타데이터·당시 가격/시총/순부채/Short 표시 확인"
     },
     {
       "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
       "source_order": 2,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC 2004 10-Q",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000095013404011584/d16950e10vq.htm",
       "source_date": null,
-      "use_ko": "2004 debt 및 자본구조 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC 2004 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/23194/000095013404011584/d16950e10vq.htm",
+      "evidence_ko": "2004 debt 및 자본구조 확인"
     },
     {
       "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
       "source_order": 3,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC 2018 Jones contribution",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000119312518217312/d490208dex99a1i.htm",
       "source_date": null,
-      "use_ko": "Bakken 자산 $620m, 최대 88.57m주·지배권 구조 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC 2018 Jones contribution",
+      "url": "https://www.sec.gov/Archives/edgar/data/23194/000119312518217312/d490208dex99a1i.htm",
+      "evidence_ko": "Bakken 자산 $620m, 최대 88.57m주·지배권 구조 확인"
     },
     {
       "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
       "source_order": 4,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "Comstock Covey Park announcement",
-      "source_url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-become-haynesville-basin-leader-acquisition",
       "source_date": null,
-      "use_ko": "2019 $2.2bn Covey Park, Jones $475m 추가 투자, 2,000 locations 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "Comstock Covey Park announcement",
+      "url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-become-haynesville-basin-leader-acquisition",
+      "evidence_ko": "2019 $2.2bn Covey Park, Jones $475m 추가 투자, 2,000 locations 확인"
     },
     {
       "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
       "source_order": 5,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "Comstock FY2022 results",
-      "source_url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-inc-reports-fourth-quarter-2022-financial-and",
       "source_date": null,
-      "use_ko": "2022 $673m FCF, $506m debt retirement, gas-cycle upside 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "Comstock FY2022 results",
+      "url": "https://investors.comstockresources.com/news-releases/news-release-details/comstock-resources-inc-reports-fourth-quarter-2022-financial-and",
+      "evidence_ko": "2022 $673m FCF, $506m debt retirement, gas-cycle upside 확인"
     },
     {
       "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
       "source_order": 6,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC Q2 2026 results",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/23194/000119312526323767/crk-ex99_1.htm",
       "source_date": null,
-      "use_ko": "2026 Haynesville 집중·생산/현금흐름 최신 상태 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC Q2 2026 results",
+      "url": "https://www.sec.gov/Archives/edgar/data/23194/000119312526323767/crk-ex99_1.htm",
+      "evidence_ko": "2026 Haynesville 집중·생산/현금흐름 최신 상태 확인"
     },
     {
       "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
       "source_order": 1,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC Franklin Covey FY2002 10-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000088620602000048/fy02_10k.htm",
       "source_date": null,
-      "use_ko": "2002 사업구조·교육/소비자 segment·채널 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC Franklin Covey FY2002 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/886206/000088620602000048/fy02_10k.htm",
+      "evidence_ko": "2002 사업구조·교육/소비자 segment·채널 확인"
     },
     {
       "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
       "source_order": 2,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC Franklin Covey FY2007 10-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000088620607000030/form10k_111407.htm",
       "source_date": null,
-      "use_ko": "FY2006~07 매출·영업이익 개선 및 retail footprint 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC Franklin Covey FY2007 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/886206/000088620607000030/form10k_111407.htm",
+      "evidence_ko": "FY2006~07 매출·영업이익 개선 및 retail footprint 확인"
     },
     {
       "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
       "source_order": 3,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC Consumer Solutions sale release",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000088620608000027/ex991_052208.htm",
       "source_date": null,
-      "use_ko": "2008 CSBU $32m 매각·proceeds buyback 계획 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC Consumer Solutions sale release",
+      "url": "https://www.sec.gov/Archives/edgar/data/886206/000088620608000027/ex991_052208.htm",
+      "evidence_ko": "2008 CSBU $32m 매각·proceeds buyback 계획 확인"
     },
     {
       "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
       "source_order": 4,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC 2009 Q3 filing",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000088620609000026/form10q_070907.htm",
       "source_date": null,
-      "use_ko": "소비자 사업 매각 후 training/consulting 중심 구조 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC 2009 Q3 filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/886206/000088620609000026/form10q_070907.htm",
+      "evidence_ko": "소비자 사업 매각 후 training/consulting 중심 구조 확인"
     },
     {
       "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
       "source_order": 5,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC FY2025 10-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000088620625000085/fc-20250831x10k.htm",
       "source_date": null,
-      "use_ko": "AAP/Leader in Me 구독모델·2025 deferred revenue 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC FY2025 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/886206/000088620625000085/fc-20250831x10k.htm",
+      "evidence_ko": "AAP/Leader in Me 구독모델·2025 deferred revenue 확인"
     },
     {
       "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
       "source_order": 6,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC Q3 FY2026 results",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000119312526292604/fc-ex99_1.htm",
       "source_date": null,
-      "use_ko": "2026 매출·deferred revenue·EBITDA·유동성 최신 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC Q3 FY2026 results",
+      "url": "https://www.sec.gov/Archives/edgar/data/886206/000119312526292604/fc-ex99_1.htm",
+      "evidence_ko": "2026 매출·deferred revenue·EBITDA·유동성 최신 확인"
     },
     {
       "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
       "source_order": 1,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC Franklin Covey FY2002 10-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000088620602000048/fy02_10k.htm",
       "source_date": null,
-      "use_ko": "2002 사업구조·교육/소비자 segment·채널 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC Franklin Covey FY2002 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/886206/000088620602000048/fy02_10k.htm",
+      "evidence_ko": "2002 사업구조·교육/소비자 segment·채널 확인"
     },
     {
       "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
       "source_order": 2,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC Franklin Covey FY2007 10-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000088620607000030/form10k_111407.htm",
       "source_date": null,
-      "use_ko": "FY2006~07 매출·영업이익 개선 및 retail footprint 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC Franklin Covey FY2007 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/886206/000088620607000030/form10k_111407.htm",
+      "evidence_ko": "FY2006~07 매출·영업이익 개선 및 retail footprint 확인"
     },
     {
       "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
       "source_order": 3,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC Consumer Solutions sale release",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000088620608000027/ex991_052208.htm",
       "source_date": null,
-      "use_ko": "2008 CSBU $32m 매각·proceeds buyback 계획 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC Consumer Solutions sale release",
+      "url": "https://www.sec.gov/Archives/edgar/data/886206/000088620608000027/ex991_052208.htm",
+      "evidence_ko": "2008 CSBU $32m 매각·proceeds buyback 계획 확인"
     },
     {
       "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
       "source_order": 4,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC 2009 Q3 filing",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000088620609000026/form10q_070907.htm",
       "source_date": null,
-      "use_ko": "소비자 사업 매각 후 training/consulting 중심 구조 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC 2009 Q3 filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/886206/000088620609000026/form10q_070907.htm",
+      "evidence_ko": "소비자 사업 매각 후 training/consulting 중심 구조 확인"
     },
     {
       "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
       "source_order": 5,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC FY2025 10-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000088620625000085/fc-20250831x10k.htm",
       "source_date": null,
-      "use_ko": "AAP/Leader in Me 구독모델·2025 deferred revenue 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC FY2025 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/886206/000088620625000085/fc-20250831x10k.htm",
+      "evidence_ko": "AAP/Leader in Me 구독모델·2025 deferred revenue 확인"
     },
     {
       "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
       "source_order": 6,
-      "source_type": "Primary/company/VIC source",
-      "source_name": "SEC Q3 FY2026 results",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/886206/000119312526292604/fc-ex99_1.htm",
       "source_date": null,
-      "use_ko": "2026 매출·deferred revenue·EBITDA·유동성 최신 확인"
+      "source_type_ko": "Primary/company/VIC source",
+      "title_ko": "SEC Q3 FY2026 results",
+      "url": "https://www.sec.gov/Archives/edgar/data/886206/000119312526292604/fc-ex99_1.htm",
+      "evidence_ko": "2026 매출·deferred revenue·EBITDA·유동성 최신 확인"
     }
-  ]
+  ],
+  "meta": [
+    {
+      "idea_id": "25bcc787-c584-4abe-8e41-23fd8ee83478",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "부분적중·장기 구조변화",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "부분적중·장기 구조변화",
+      "core_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "core_insight_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "a87067b2-9f8f-4173-9a61-d8f39fc254c6",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "부분적중·타이밍 의존",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "부분적중·타이밍 의존",
+      "core_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "core_insight_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "3ba1503d-ef82-4cee-ab2e-58ae5520533a",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "부분적중·M&A로 실현",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "부분적중·M&A로 실현",
+      "core_error_ko": "운영자산 가치와 financing·royalty·M&A waterfall의 상호작용을 충분히 분리하지 못한 오류.",
+      "core_insight_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "ced6ca2f-6dfd-4468-8884-22b4847ff276",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "판정 제한·원문 미확보",
+      "thesis_score": 5.0,
+      "process_score": 6.0,
+      "return_summary_ko": "판정 제한·원문 미확보",
+      "core_error_ko": "원문 미확보 때문에 payoff 정의까지 복원할 수 없어 success/failure 단정이 불가능하다.",
+      "core_insight_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "70110b71-5ac1-4d66-8ad3-e51d19ce327a",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "실패·M&A optionality 과소평가",
+      "thesis_score": 5.8,
+      "process_score": 4.5,
+      "return_summary_ko": "실패·M&A optionality 과소평가",
+      "core_error_ko": "운영자산 가치와 financing·royalty·M&A waterfall의 상호작용을 충분히 분리하지 못한 오류.",
+      "core_insight_ko": "광산주는 resource ounce보다 grade×recovery×mine life×AISC×sustaining capital의 현금흐름을 먼저 보고, 대주주 financing·royalty·partial tender·merger consideration을 equity waterfall에 얹는다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "201c288b-ea74-4e34-ba1e-da027699c778",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "부분적중·recap으로 뒤집힘",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "부분적중·recap으로 뒤집힘",
+      "core_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "core_insight_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "42d64c6e-9e1c-4af5-880e-3b0df6054946",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "실패·commodity convexity 과소평가",
+      "thesis_score": 5.8,
+      "process_score": 4.5,
+      "return_summary_ko": "실패·commodity convexity 과소평가",
+      "core_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "core_insight_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "4c79f62c-fa91-488e-8da0-4b4fd51b8456",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "부분적중·초기 실패 후 정상화",
+      "thesis_score": 5.8,
+      "process_score": 4.5,
+      "return_summary_ko": "부분적중·초기 실패 후 정상화",
+      "core_error_ko": "commodity price path와 sponsor/refinancing optionality를 static leverage/NAV보다 작게 본 오류.",
+      "core_insight_ko": "E&P는 reserve/NAV를 그대로 equity value로 두지 않고, strip price별 well-level FCF에서 maintenance/growth CapEx와 순부채를 연결한다. sponsor capital·M&A·hedge는 별도 path 변수로 둔다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "a1e08992-29d4-4dd1-8806-22e15fee1823",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "부분적중·사업부 매각으로 전환",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "부분적중·사업부 매각으로 전환",
+      "core_error_ko": "legacy retail과 durable IP/training core를 하나의 성장률로 합쳐 보는 오류.",
+      "core_insight_ko": "turnaround에서 전체 매출 추세보다 좋은 core와 나쁜 legacy segment를 분리한다. 매각·비용절감 후 남는 core의 반복매출·retention·incremental margin이 장기 가치의 핵심이다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "0a597f9f-d3a8-4a72-9834-c76fb457e159",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "성공·경로 변동성 큼",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "성공·경로 변동성 큼",
+      "core_error_ko": "legacy retail과 durable IP/training core를 하나의 성장률로 합쳐 보는 오류.",
+      "core_insight_ko": "turnaround에서 전체 매출 추세보다 좋은 core와 나쁜 legacy segment를 분리한다. 매각·비용절감 후 남는 core의 반복매출·retention·incremental margin이 장기 가치의 핵심이다.",
+      "research_asof": "2026-09-05"
+    }
+  ],
+  "meta_backfill_method": {
+    "reason": "Original payload omitted deep_analysis_meta.",
+    "thesis_score": "Weighted claim verdict score: strong=9, success/hit=8, partial=6, mixed/limited=5, failure=3.",
+    "process_score": "Derived from reviewed avoidability: high=4.5, medium/unknown=6.0, low=8.0."
+  },
+  "schema_normalization": {
+    "timeline": "event_date -> event_date_ko; signal_ko -> thesis_implication_ko",
+    "sources": "source_type/name/url/use -> source_type_ko/title_ko/url/evidence_ko",
+    "postmortems": "security_instrument_ko preserved in analyst_note_ko"
+  }
 }

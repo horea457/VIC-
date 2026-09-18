@@ -2327,964 +2327,1106 @@
     {
       "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
       "event_order": 1,
-      "event_date": "2002-03-31",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "원 논지와 방향의 기준점"
+      "event_date_ko": "2002-03-31",
+      "thesis_implication_ko": "원 논지와 방향의 기준점"
     },
     {
       "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
       "event_order": 2,
-      "event_date": "2002-03-31",
       "event_ko": "당시 SEC filing / 사업구조 확인",
-      "signal_ko": "T0 base-rate와 balance sheet"
+      "event_date_ko": "2002-03-31",
+      "thesis_implication_ko": "T0 base-rate와 balance sheet"
     },
     {
       "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
       "event_order": 3,
-      "event_date": "2014-03-12",
       "event_ko": "2014-03-12 CFPB CID",
-      "signal_ko": "첫 핵심 신호"
+      "event_date_ko": "2014-03-12",
+      "thesis_implication_ko": "첫 핵심 신호"
     },
     {
       "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
       "event_order": 4,
-      "event_date": "2018-12-31",
       "event_ko": "규제·전략·산업구조의 후속 변화 점검",
-      "signal_ko": "중간 posterior update"
+      "event_date_ko": "2018-12-31",
+      "thesis_implication_ko": "중간 posterior update"
     },
     {
       "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "pandemic/Acima 등 후속 regime 점검",
-      "signal_ko": "경로의 비선형성 확인"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "경로의 비선형성 확인"
     },
     {
       "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
       "event_order": 6,
-      "event_date": "2022-12-31",
       "event_ko": "회사는 이후 오랜 기간 생존·확장했고 2014년에도 14개 주와 멕시코에서 영업할 정도로 branch franchise를 유지했다. 즉 2002년에 즉시 구조 붕괴를 기대했다면 timing은 실패했다. 다만 2014년 CFPB CID로 renewals·마케팅·신용공여 관행이 조사 대상이 되면서 원래의 규제·상품구조 위험 ",
-      "signal_ko": "사후 판정"
+      "event_date_ko": "2022-12-31",
+      "thesis_implication_ko": "사후 판정"
     },
     {
       "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
       "event_order": 1,
-      "event_date": "2003-08-08",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "원 논지와 방향의 기준점"
+      "event_date_ko": "2003-08-08",
+      "thesis_implication_ko": "원 논지와 방향의 기준점"
     },
     {
       "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
       "event_order": 2,
-      "event_date": "2003-08-08",
       "event_ko": "당시 SEC filing / 사업구조 확인",
-      "signal_ko": "T0 base-rate와 balance sheet"
+      "event_date_ko": "2003-08-08",
+      "thesis_implication_ko": "T0 base-rate와 balance sheet"
     },
     {
       "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
       "event_order": 3,
-      "event_date": "2008-12-31",
       "event_ko": "2006~08 통합·경기하강 압력 확대",
-      "signal_ko": "첫 핵심 신호"
+      "event_date_ko": "2008-12-31",
+      "thesis_implication_ko": "첫 핵심 신호"
     },
     {
       "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
       "event_order": 4,
-      "event_date": "2018-12-31",
       "event_ko": "규제·전략·산업구조의 후속 변화 점검",
-      "signal_ko": "중간 posterior update"
+      "event_date_ko": "2018-12-31",
+      "thesis_implication_ko": "중간 posterior update"
     },
     {
       "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "pandemic/Acima 등 후속 regime 점검",
-      "signal_ko": "경로의 비선형성 확인"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "경로의 비선형성 확인"
     },
     {
       "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
       "event_order": 6,
-      "event_date": "2022-12-31",
       "event_ko": "Rent-A-Center는 단기적으로 무너지지 않았고 이후 Rent-Way 등 인수를 통해 규모를 확대했다. 그러나 사업은 반복적으로 매장 구조조정과 비용절감이 필요했고 경기 하강기에 영업레버리지가 크게 드러났다. 따라서 포화 논리는 방향성은 있었지만 2003년의 즉시 catalyst로는 약했다.",
-      "signal_ko": "사후 판정"
+      "event_date_ko": "2022-12-31",
+      "thesis_implication_ko": "사후 판정"
     },
     {
       "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
       "event_order": 1,
-      "event_date": "2004-12-08",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "원 논지와 방향의 기준점"
+      "event_date_ko": "2004-12-08",
+      "thesis_implication_ko": "원 논지와 방향의 기준점"
     },
     {
       "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
       "event_order": 2,
-      "event_date": "2004-12-08",
       "event_ko": "당시 SEC filing / 사업구조 확인",
-      "signal_ko": "T0 base-rate와 balance sheet"
+      "event_date_ko": "2004-12-08",
+      "thesis_implication_ko": "T0 base-rate와 balance sheet"
     },
     {
       "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
       "event_order": 3,
-      "event_date": "2016-12-31",
       "event_ko": "후속 구조조정·전략대안 반복",
-      "signal_ko": "첫 핵심 신호"
+      "event_date_ko": "2016-12-31",
+      "thesis_implication_ko": "첫 핵심 신호"
     },
     {
       "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
       "event_order": 4,
-      "event_date": "2018-12-31",
       "event_ko": "규제·전략·산업구조의 후속 변화 점검",
-      "signal_ko": "중간 posterior update"
+      "event_date_ko": "2018-12-31",
+      "thesis_implication_ko": "중간 posterior update"
     },
     {
       "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "pandemic/Acima 등 후속 regime 점검",
-      "signal_ko": "경로의 비선형성 확인"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "경로의 비선형성 확인"
     },
     {
       "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
       "event_order": 6,
-      "event_date": "2022-12-31",
       "event_ko": "회사는 이후 여러 해 영업을 지속하고 규모도 커져 즉시 multiple collapse는 없었다. 그러나 장기적으로 매장 생산성·통합·자본배분 문제는 되풀이됐고, 2018년에는 전략적 매각 과정까지 갔다. 당시 Short는 구조 문제를 봤지만 catalyst와 horizon이 길었다.",
-      "signal_ko": "사후 판정"
+      "event_date_ko": "2022-12-31",
+      "thesis_implication_ko": "사후 판정"
     },
     {
       "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
       "event_order": 1,
-      "event_date": "2005-11-06",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "원 논지와 방향의 기준점"
+      "event_date_ko": "2005-11-06",
+      "thesis_implication_ko": "원 논지와 방향의 기준점"
     },
     {
       "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
       "event_order": 2,
-      "event_date": "2005-11-06",
       "event_ko": "당시 SEC filing / 사업구조 확인",
-      "signal_ko": "T0 base-rate와 balance sheet"
+      "event_date_ko": "2005-11-06",
+      "thesis_implication_ko": "T0 base-rate와 balance sheet"
     },
     {
       "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
       "event_order": 3,
-      "event_date": "2008-12-31",
       "event_ko": "Rent-Way 통합 후 경기하강",
-      "signal_ko": "첫 핵심 신호"
+      "event_date_ko": "2008-12-31",
+      "thesis_implication_ko": "첫 핵심 신호"
     },
     {
       "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
       "event_order": 4,
-      "event_date": "2018-12-31",
       "event_ko": "규제·전략·산업구조의 후속 변화 점검",
-      "signal_ko": "중간 posterior update"
+      "event_date_ko": "2018-12-31",
+      "thesis_implication_ko": "중간 posterior update"
     },
     {
       "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "pandemic/Acima 등 후속 regime 점검",
-      "signal_ko": "경로의 비선형성 확인"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "경로의 비선형성 확인"
     },
     {
       "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
       "event_order": 6,
-      "event_date": "2022-12-31",
       "event_ko": "곧이어 Rent-Way 인수로 외형은 커졌지만 통합과 경기 하강이 겹치며 운영 난도가 상승했다. 2008년 10-K에서 경기·고객 신용여건과 손실관리 중요성이 더 커졌다. Short의 핵심인 operating leverage는 맞았지만 정확한 손익 경로는 M&A와 거시 충격에 좌우됐다.",
-      "signal_ko": "사후 판정"
+      "event_date_ko": "2022-12-31",
+      "thesis_implication_ko": "사후 판정"
     },
     {
       "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
       "event_order": 1,
-      "event_date": "2007-10-04",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "원 논지와 방향의 기준점"
+      "event_date_ko": "2007-10-04",
+      "thesis_implication_ko": "원 논지와 방향의 기준점"
     },
     {
       "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
       "event_order": 2,
-      "event_date": "2007-10-04",
       "event_ko": "당시 SEC filing / 사업구조 확인",
-      "signal_ko": "T0 base-rate와 balance sheet"
+      "event_date_ko": "2007-10-04",
+      "thesis_implication_ko": "T0 base-rate와 balance sheet"
     },
     {
       "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
       "event_order": 3,
-      "event_date": "2008-12-31",
       "event_ko": "2008 recession stress",
-      "signal_ko": "첫 핵심 신호"
+      "event_date_ko": "2008-12-31",
+      "thesis_implication_ko": "첫 핵심 신호"
     },
     {
       "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
       "event_order": 4,
-      "event_date": "2018-12-31",
       "event_ko": "규제·전략·산업구조의 후속 변화 점검",
-      "signal_ko": "중간 posterior update"
+      "event_date_ko": "2018-12-31",
+      "thesis_implication_ko": "중간 posterior update"
     },
     {
       "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "pandemic/Acima 등 후속 regime 점검",
-      "signal_ko": "경로의 비선형성 확인"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "경로의 비선형성 확인"
     },
     {
       "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
       "event_order": 6,
-      "event_date": "2022-12-31",
       "event_ko": "2008년 금융위기는 저소득층 현금흐름과 retail demand를 압박했고 회사는 비용·매장구조 관리가 중요해졌다. 이 아이디어는 다른 RCII shorts보다 catalyst가 가까웠고 downside 변수들이 같은 방향으로 움직이는 시점에 제시됐다.",
-      "signal_ko": "사후 판정"
+      "event_date_ko": "2022-12-31",
+      "thesis_implication_ko": "사후 판정"
     },
     {
       "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
       "event_order": 1,
-      "event_date": "2010-12-18",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "원 논지와 방향의 기준점"
+      "event_date_ko": "2010-12-18",
+      "thesis_implication_ko": "원 논지와 방향의 기준점"
     },
     {
       "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
       "event_order": 2,
-      "event_date": "2010-12-18",
       "event_ko": "당시 SEC filing / 사업구조 확인",
-      "signal_ko": "T0 base-rate와 balance sheet"
+      "event_date_ko": "2010-12-18",
+      "thesis_implication_ko": "T0 base-rate와 balance sheet"
     },
     {
       "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
       "event_order": 3,
-      "event_date": "2014-03-12",
       "event_ko": "CFPB CID",
-      "signal_ko": "첫 핵심 신호"
+      "event_date_ko": "2014-03-12",
+      "thesis_implication_ko": "첫 핵심 신호"
     },
     {
       "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
       "event_order": 4,
-      "event_date": "2018-12-31",
       "event_ko": "규제·전략·산업구조의 후속 변화 점검",
-      "signal_ko": "중간 posterior update"
+      "event_date_ko": "2018-12-31",
+      "thesis_implication_ko": "중간 posterior update"
     },
     {
       "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "pandemic/Acima 등 후속 regime 점검",
-      "signal_ko": "경로의 비선형성 확인"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "경로의 비선형성 확인"
     },
     {
       "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
       "event_order": 6,
-      "event_date": "2022-12-31",
       "event_ko": "규제 위험은 실제로 커졌다. 회사는 2014년 3월 CFPB로부터 CID를 받았고 2015년 10-K에 광범위한 마케팅·신용공여 관행 조사가 공시됐다. 그러나 2018년 CFPB 조사는 enforcement action 없이 종료됐다. 따라서 규제 tail risk는 정확했지만 파국적 outcome을 전제했다면 과도했다.",
-      "signal_ko": "사후 판정"
+      "event_date_ko": "2022-12-31",
+      "thesis_implication_ko": "사후 판정"
     },
     {
       "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
       "event_order": 1,
-      "event_date": "2012-08-24",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "원 논지와 방향의 기준점"
+      "event_date_ko": "2012-08-24",
+      "thesis_implication_ko": "원 논지와 방향의 기준점"
     },
     {
       "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
       "event_order": 2,
-      "event_date": "2012-08-24",
       "event_ko": "당시 SEC filing / 사업구조 확인",
-      "signal_ko": "T0 base-rate와 balance sheet"
+      "event_date_ko": "2012-08-24",
+      "thesis_implication_ko": "T0 base-rate와 balance sheet"
     },
     {
       "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
       "event_order": 3,
-      "event_date": "2016-12-31",
       "event_ko": "2016 core deterioration",
-      "signal_ko": "첫 핵심 신호"
+      "event_date_ko": "2016-12-31",
+      "thesis_implication_ko": "첫 핵심 신호"
     },
     {
       "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
       "event_order": 4,
-      "event_date": "2018-12-31",
       "event_ko": "규제·전략·산업구조의 후속 변화 점검",
-      "signal_ko": "중간 posterior update"
+      "event_date_ko": "2018-12-31",
+      "thesis_implication_ko": "중간 posterior update"
     },
     {
       "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "pandemic/Acima 등 후속 regime 점검",
-      "signal_ko": "경로의 비선형성 확인"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "경로의 비선형성 확인"
     },
     {
       "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
       "event_order": 6,
-      "event_date": "2022-12-31",
       "event_ko": "신규 채널은 회사 성장축이 되었지만 이후 core business 약화와 운영문제가 누적되어 2016~17 실적 압박과 전략 재검토로 이어졌다. 단순 매장수보다 channel별 loss-adjusted contribution을 봐야 한다는 문제제기는 유효했다.",
-      "signal_ko": "사후 판정"
+      "event_date_ko": "2022-12-31",
+      "thesis_implication_ko": "사후 판정"
     },
     {
       "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
       "event_order": 1,
-      "event_date": "2015-12-23",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "원 논지와 방향의 기준점"
+      "event_date_ko": "2015-12-23",
+      "thesis_implication_ko": "원 논지와 방향의 기준점"
     },
     {
       "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
       "event_order": 2,
-      "event_date": "2015-12-23",
       "event_ko": "당시 SEC filing / 사업구조 확인",
-      "signal_ko": "T0 base-rate와 balance sheet"
+      "event_date_ko": "2015-12-23",
+      "thesis_implication_ko": "T0 base-rate와 balance sheet"
     },
     {
       "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
       "event_order": 3,
-      "event_date": "2016-12-31",
       "event_ko": "2016~17 운영악화·전략대안",
-      "signal_ko": "첫 핵심 신호"
+      "event_date_ko": "2016-12-31",
+      "thesis_implication_ko": "첫 핵심 신호"
     },
     {
       "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
       "event_order": 4,
-      "event_date": "2018-12-31",
       "event_ko": "규제·전략·산업구조의 후속 변화 점검",
-      "signal_ko": "중간 posterior update"
+      "event_date_ko": "2018-12-31",
+      "thesis_implication_ko": "중간 posterior update"
     },
     {
       "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "pandemic/Acima 등 후속 regime 점검",
-      "signal_ko": "경로의 비선형성 확인"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "경로의 비선형성 확인"
     },
     {
       "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
       "event_order": 6,
-      "event_date": "2022-12-31",
       "event_ko": "2016~17에 운영악화와 경영진 변화가 나타났고 회사는 결국 전략적 대안을 검토했다. 2018년 Vintage와 $15/share 매각계약까지 갔지만 거래는 깨졌고 회사는 $126.5m reverse fee를 요구한 뒤 2019년 $92.5m 현금 합의금을 받았다. Short가 본 사업 스트레스는 현실화했지만 event",
-      "signal_ko": "사후 판정"
+      "event_date_ko": "2022-12-31",
+      "thesis_implication_ko": "사후 판정"
     },
     {
       "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
       "event_order": 1,
-      "event_date": "2021-08-18",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "원 논지와 방향의 기준점"
+      "event_date_ko": "2021-08-18",
+      "thesis_implication_ko": "원 논지와 방향의 기준점"
     },
     {
       "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
       "event_order": 2,
-      "event_date": "2021-08-18",
       "event_ko": "당시 SEC filing / 사업구조 확인",
-      "signal_ko": "T0 base-rate와 balance sheet"
+      "event_date_ko": "2021-08-18",
+      "thesis_implication_ko": "T0 base-rate와 balance sheet"
     },
     {
       "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
       "event_order": 3,
-      "event_date": "2022-12-31",
       "event_ko": "2022 Acima GMV·EBITDA 급감",
-      "signal_ko": "첫 핵심 신호"
+      "event_date_ko": "2022-12-31",
+      "thesis_implication_ko": "첫 핵심 신호"
     },
     {
       "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
       "event_order": 4,
-      "event_date": "2018-12-31",
       "event_ko": "규제·전략·산업구조의 후속 변화 점검",
-      "signal_ko": "중간 posterior update"
+      "event_date_ko": "2018-12-31",
+      "thesis_implication_ko": "중간 posterior update"
     },
     {
       "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "pandemic/Acima 등 후속 regime 점검",
-      "signal_ko": "경로의 비선형성 확인"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "경로의 비선형성 확인"
     },
     {
       "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
       "event_order": 6,
-      "event_date": "2022-12-31",
       "event_ko": "2020말 RCII는 net debt/adjusted EBITDA 약 0.1x였지만 Acima 거래는 약 $1.3bn cash와 주식대가를 수반했고 $875m term loan과 $450m 6.375% notes 등으로 자금조달됐다. 2021 매출은 $4.6bn으로 커졌지만 2022 Acima revenue -9.4%, ",
-      "signal_ko": "사후 판정"
+      "event_date_ko": "2022-12-31",
+      "thesis_implication_ko": "사후 판정"
     },
     {
       "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
       "event_order": 1,
-      "event_date": "2022-05-24",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "원 논지와 방향의 기준점"
+      "event_date_ko": "2022-05-24",
+      "thesis_implication_ko": "원 논지와 방향의 기준점"
     },
     {
       "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
       "event_order": 2,
-      "event_date": "2022-05-24",
       "event_ko": "당시 SEC filing / 사업구조 확인",
-      "signal_ko": "T0 base-rate와 balance sheet"
+      "event_date_ko": "2022-05-24",
+      "thesis_implication_ko": "T0 base-rate와 balance sheet"
     },
     {
       "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
       "event_order": 3,
-      "event_date": "2022-12-31",
       "event_ko": "2022 GMV·loss·EBITDA 동시 악화",
-      "signal_ko": "첫 핵심 신호"
+      "event_date_ko": "2022-12-31",
+      "thesis_implication_ko": "첫 핵심 신호"
     },
     {
       "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
       "event_order": 4,
-      "event_date": "2018-12-31",
       "event_ko": "규제·전략·산업구조의 후속 변화 점검",
-      "signal_ko": "중간 posterior update"
+      "event_date_ko": "2018-12-31",
+      "thesis_implication_ko": "중간 posterior update"
     },
     {
       "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "pandemic/Acima 등 후속 regime 점검",
-      "signal_ko": "경로의 비선형성 확인"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "경로의 비선형성 확인"
     },
     {
       "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
       "event_order": 6,
-      "event_date": "2022-12-31",
       "event_ko": "2022년 결과는 논지를 강하게 지지했다. Acima revenue는 $2.328bn에서 $2.110bn으로 9.4% 감소했고 GMV는 17.2% 감소했다. Acima gross profit -13.3%, operating profit -14.3%; RAC segment skip/stolen losses는 revenue의",
-      "signal_ko": "사후 판정"
+      "event_date_ko": "2022-12-31",
+      "thesis_implication_ko": "사후 판정"
     }
   ],
   "sources": [
     {
       "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "wrld03",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/108385/000010838503000006/form10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "wrld03",
+      "url": "https://www.sec.gov/Archives/edgar/data/108385/000010838503000006/form10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "wrld14",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/108385/000010838514000021/wrld-3312014x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "wrld14",
+      "url": "https://www.sec.gov/Archives/edgar/data/108385/000010838514000021/wrld-3312014x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "wrld15",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/108385/000010838515000018/wrld-3312015x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "wrld15",
+      "url": "https://www.sec.gov/Archives/edgar/data/108385/000010838515000018/wrld-3312015x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "wrld17",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/108385/000010838517000020/wrld-3312017x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "wrld17",
+      "url": "https://www.sec.gov/Archives/edgar/data/108385/000010838517000020/wrld-3312017x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "wrld18close",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/108385/000010838518000002/ex991pressrelease.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "wrld18close",
+      "url": "https://www.sec.gov/Archives/edgar/data/108385/000010838518000002/ex991pressrelease.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
       "source_order": 6,
-      "source_type": "VIC",
-      "source_name": "vic2021",
-      "source_url": "https://www.valueinvestorsclub.com/ideas/a-z/2021",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "VIC",
+      "title_ko": "vic2021",
+      "url": "https://www.valueinvestorsclub.com/ideas/a-z/2021",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii03",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312504038444/d10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii03",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000119312504038444/d10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii06",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000095013407004710/d44558e10vk.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii06",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000095013407004710/d44558e10vk.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii08",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312509040807/d10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii08",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000119312509040807/d10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii10",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312511050980/d10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii10",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000119312511050980/d10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii12",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312513075350/d10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii12",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000119312513075350/d10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
       "source_order": 6,
-      "source_type": "VIC",
-      "source_name": "vic2021",
-      "source_url": "https://www.valueinvestorsclub.com/ideas/a-z/2021",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "VIC",
+      "title_ko": "vic2021",
+      "url": "https://www.valueinvestorsclub.com/ideas/a-z/2021",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii03",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312504038444/d10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii03",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000119312504038444/d10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii06",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000095013407004710/d44558e10vk.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii06",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000095013407004710/d44558e10vk.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii10",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312511050980/d10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii10",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000119312511050980/d10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii16",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303617000010/rcii-20161231x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii16",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303617000010/rcii-20161231x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii18",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000010/rcii-20181231x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii18",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000010/rcii-20181231x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii_vintage",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303618000041/ex991pressrelease.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii_vintage",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303618000041/ex991pressrelease.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii06",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000095013407004710/d44558e10vk.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii06",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000095013407004710/d44558e10vk.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii08",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312509040807/d10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii08",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000119312509040807/d10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii10",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312511050980/d10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii10",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000119312511050980/d10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii12",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312513075350/d10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii12",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000119312513075350/d10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii16",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303617000010/rcii-20161231x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii16",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303617000010/rcii-20161231x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii18",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000010/rcii-20181231x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii18",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000010/rcii-20181231x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii06",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000095013407004710/d44558e10vk.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii06",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000095013407004710/d44558e10vk.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii08",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312509040807/d10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii08",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000119312509040807/d10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii10",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312511050980/d10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii10",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000119312511050980/d10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii12",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312513075350/d10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii12",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000119312513075350/d10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii16",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303617000010/rcii-20161231x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii16",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303617000010/rcii-20161231x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii18",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000010/rcii-20181231x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii18",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000010/rcii-20181231x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "wrld03",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/108385/000010838503000006/form10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "wrld03",
+      "url": "https://www.sec.gov/Archives/edgar/data/108385/000010838503000006/form10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "wrld14",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/108385/000010838514000021/wrld-3312014x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "wrld14",
+      "url": "https://www.sec.gov/Archives/edgar/data/108385/000010838514000021/wrld-3312014x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "wrld15",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/108385/000010838515000018/wrld-3312015x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "wrld15",
+      "url": "https://www.sec.gov/Archives/edgar/data/108385/000010838515000018/wrld-3312015x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "wrld17",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/108385/000010838517000020/wrld-3312017x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "wrld17",
+      "url": "https://www.sec.gov/Archives/edgar/data/108385/000010838517000020/wrld-3312017x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "wrld18close",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/108385/000010838518000002/ex991pressrelease.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "wrld18close",
+      "url": "https://www.sec.gov/Archives/edgar/data/108385/000010838518000002/ex991pressrelease.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
       "source_order": 6,
-      "source_type": "VIC",
-      "source_name": "vic2021",
-      "source_url": "https://www.valueinvestorsclub.com/ideas/a-z/2021",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "VIC",
+      "title_ko": "vic2021",
+      "url": "https://www.valueinvestorsclub.com/ideas/a-z/2021",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii12",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000119312513075350/d10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii12",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000119312513075350/d10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii16",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303617000010/rcii-20161231x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii16",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303617000010/rcii-20161231x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii18",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000010/rcii-20181231x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii18",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000010/rcii-20181231x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii19",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303620000006/rcii-20191231x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii19",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303620000006/rcii-20191231x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii_vintage",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303618000041/ex991pressrelease.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii_vintage",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303618000041/ex991pressrelease.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii_settle",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000019/ex991pressrelease.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii_settle",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000019/ex991pressrelease.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii16",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303617000010/rcii-20161231x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii16",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303617000010/rcii-20161231x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii18",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000010/rcii-20181231x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii18",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000010/rcii-20181231x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii_vintage",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303618000041/ex991pressrelease.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii_vintage",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303618000041/ex991pressrelease.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii_settle",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000019/ex991pressrelease.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii_settle",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000019/ex991pressrelease.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii19",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303620000006/rcii-20191231x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii19",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303620000006/rcii-20191231x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
       "source_order": 6,
-      "source_type": "VIC",
-      "source_name": "vic2021",
-      "source_url": "https://www.valueinvestorsclub.com/ideas/a-z/2021",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "VIC",
+      "title_ko": "vic2021",
+      "url": "https://www.valueinvestorsclub.com/ideas/a-z/2021",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii21",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303622000008/rcii-20211231x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii21",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303622000008/rcii-20211231x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii22",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303623000007/rcii-20221231x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii22",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303623000007/rcii-20221231x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii18",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000010/rcii-20181231x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii18",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000010/rcii-20181231x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii19",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303620000006/rcii-20191231x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii19",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303620000006/rcii-20191231x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii_vintage",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303618000041/ex991pressrelease.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii_vintage",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303618000041/ex991pressrelease.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
       "source_order": 6,
-      "source_type": "VIC",
-      "source_name": "vic2021",
-      "source_url": "https://www.valueinvestorsclub.com/ideas/a-z/2021",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "VIC",
+      "title_ko": "vic2021",
+      "url": "https://www.valueinvestorsclub.com/ideas/a-z/2021",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii21",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303622000008/rcii-20211231x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii21",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303622000008/rcii-20211231x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii22",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303623000007/rcii-20221231x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii22",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303623000007/rcii-20221231x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii19",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303620000006/rcii-20191231x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii19",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303620000006/rcii-20191231x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii18",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000010/rcii-20181231x10k.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii18",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303619000010/rcii-20181231x10k.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "rcii_vintage",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/933036/000093303618000041/ex991pressrelease.htm",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "rcii_vintage",
+      "url": "https://www.sec.gov/Archives/edgar/data/933036/000093303618000041/ex991pressrelease.htm",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     },
     {
       "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
       "source_order": 6,
-      "source_type": "VIC",
-      "source_name": "vic2021",
-      "source_url": "https://www.valueinvestorsclub.com/ideas/a-z/2021",
       "source_date": null,
-      "use_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
+      "source_type_ko": "VIC",
+      "title_ko": "vic2021",
+      "url": "https://www.valueinvestorsclub.com/ideas/a-z/2021",
+      "evidence_ko": "원 방향/당시 사업·재무·규제/후속 outcome 검증"
     }
-  ]
+  ],
+  "meta": [
+    {
+      "idea_id": "eb8030df-17dc-423c-ac5a-c6b47e69f31a",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "부분적중·타이밍 실패",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "부분적중·타이밍 실패",
+      "core_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "core_insight_ko": "소액대출은 reported loan growth보다 신규대출/renewal을 분리하고 vintage charge-off, provision, branch maturity, funding과 규제비용을 같이 추적해야 한다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "368bbec9-962f-43eb-a47e-5734a08898de",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "부분적중·조기",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "부분적중·조기",
+      "core_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "core_insight_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "1cd731dd-375e-4dae-9f30-b8934ac06261",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "혼합",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "혼합",
+      "core_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "core_insight_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "e8ffe52b-f720-4924-938c-6154f055ad91",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "대체로 적중",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "대체로 적중",
+      "core_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "core_insight_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "9464318a-3c53-45f6-9655-d5d2f2990803",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "적중",
+      "thesis_score": 8.0,
+      "process_score": 4.5,
+      "return_summary_ko": "적중",
+      "core_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "core_insight_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "3632205a-1551-4492-9ab8-3574c0704f13",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "부분적중",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "부분적중",
+      "core_error_ko": "구조적 위험의 존재와 그 위험이 투자기간 안에 손익·주가로 전이되는 시점을 충분히 분리하지 못했다.",
+      "core_insight_ko": "소액대출은 reported loan growth보다 신규대출/renewal을 분리하고 vintage charge-off, provision, branch maturity, funding과 규제비용을 같이 추적해야 한다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "64e5577d-acd9-40ba-bfac-ffba3bb54e5f",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "대체로 적중",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "대체로 적중",
+      "core_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "core_insight_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "7728fc55-7c8b-44c4-a954-d4c436531b3d",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "적중",
+      "thesis_score": 8.0,
+      "process_score": 4.5,
+      "return_summary_ko": "적중",
+      "core_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "core_insight_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "20d47108-8d87-4151-b49f-72268d9197a1",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "실패",
+      "thesis_score": 3.0,
+      "process_score": 4.5,
+      "return_summary_ko": "실패",
+      "core_error_ko": "TAM·성장률을 외삽하고 acquisition leverage와 credit normalization의 비선형 downside를 과소평가했다.",
+      "core_insight_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "9a17cc94-f629-41ab-8731-0b1f3bef253d",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "적중",
+      "thesis_score": 8.0,
+      "process_score": 4.5,
+      "return_summary_ko": "적중",
+      "core_error_ko": "핵심 causal chain은 맞았으나 각 변수의 독립적 기여와 timing을 더 정량화할 여지는 남는다.",
+      "core_insight_ko": "RTO는 revenue 성장보다 loss-adjusted contribution과 cohort/store/merchant maturity를 추적해야 한다. 성장채널 인수 뒤에는 pro forma EBITDA가 아니라 debt service 전 FCF, loss rate와 leverage를 같이 본다.",
+      "research_asof": "2026-09-05"
+    }
+  ],
+  "meta_backfill_method": {
+    "reason": "Original payload omitted deep_analysis_meta.",
+    "thesis_score": "Weighted claim verdict score: strong=9, success/hit=8, partial=6, mixed/limited=5, failure=3.",
+    "process_score": "Derived from reviewed avoidability: high=4.5, medium/unknown=6.0, low=8.0."
+  },
+  "schema_normalization": {
+    "timeline": "event_date -> event_date_ko; signal_ko -> thesis_implication_ko",
+    "sources": "source_type/name/url/use -> source_type_ko/title_ko/url/evidence_ko",
+    "postmortems": "security_instrument_ko preserved in analyst_note_ko"
+  }
 }

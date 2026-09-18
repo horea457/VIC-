@@ -1,68 +1,6 @@
 {
   "postmortems": [
     {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "ticker": "AIMIA",
-      "research_direction_ko": "Long",
-      "company_description_ko": "Groupe Aeroplan은 Air Canada의 상용고객 프로그램에서 분리돼 캐나다 Aeroplan과 영국 Nectar 같은 coalition loyalty program을 운영했고 뒤에 Aimia로 사명을 바꿨다. 은행·항공사·소매업체에 포인트를 선판매해 현금을 먼저 받고 고객이 항공권·상품으로 교환할 때 비용이 발생한다. 수익은 포인트 판매가격과 redemption 원가의 spread, 미사용 포인트 breakage, 데이터·마케팅 서비스에서 나온다. 따라서 당기 EBITDA보다 gross billings, redemption reserve, breakage 추정, 핵심 accumulation partner 계약의 갱신과 고객이 실제로 쓸 수 있는 보상좌석이 중요하다. 포인트 float는 저비용자금처럼 보이지만 발행 파트너나 anchor airline이 떠나면 미래 billings와 프로그램 매력이 동시에 훼손된다. 이 회사는 미국 ticker AER인 AerCap과 전혀 다른 캐나다 기업이므로 ticker 기반 성과매칭은 entity 오류를 만든다.",
-      "original_thesis_ko": "정상화 FCF C$205m·주당 C$1.25, 약 10% yield와 2013년까지 연 10% 성장을 제시했다. 캐나다 coalition의 포인트 spread·21% breakage·C$300m redemption reserve를 안정적 cash cow로 보고 Carlson 통합비·회계변경에 가린 Nectar·analytics·신규 coalition을 공짜 option으로 봤다.",
-      "actual_development_ko": "초기 현금창출은 지속됐지만 핵심위험은 redemption 변동이 아니라 Air Canada·카드사 계약 집중이었다. Air Canada의 2020 계약종료와 새 loyalty 계획 뒤 Aeroplan은 2018년 C$450m+liability assumption에 매각됐다. 더구나 SQL의 미국 AER 가격은 AerCap으로 entity가 틀렸다.",
-      "thesis_verdict_ko": "단기 성공·장기 논지 훼손. 핵심 오류·교훈: ticker/entity collision과 anchor-partner tail 누락",
-      "business_verdict_ko": "초기 현금창출은 지속됐지만 핵심위험은 redemption 변동이 아니라 Air Canada·카드사 계약 집중이었다. Air Canada의 2020 계약종료와 새 loyalty 계획 뒤 Aeroplan은 2018년 C$450m+liability assumption에 매각됐다. 더구나 SQL의 미국 AER 가격은 AerCap으로 entity가 틀렸다.",
-      "catalyst_verdict_ko": "Air Canada가 2020년 이후 독자 loyalty program 계획 발표",
-      "valuation_verdict_ko": "FCF yield 10%·10% 성장",
-      "stock_verdict_ko": "DB의 1~5년 성과는 다른 기업 AerCap 가격이라 전부 사용 불가",
-      "current_verdict_ko": "Air Canada는 기존 계약의 2020년 종료를 앞두고 새 프로그램을 추진했고 2018년 컨소시엄이 Aeroplan 사업을 C$450m 현금과 약 C$1.9bn 포인트부채 인수조건으로 사기로 했다. 원래 Aimia 주주는 cash-generative loyalty compounder가 아니라 핵심자산 매각 뒤 investment holding company를 보유하게 됐다.",
-      "overall_verdict_ko": "단기 성공·장기 논지 훼손",
-      "why_ko": "초기 현금창출은 지속됐지만 핵심위험은 redemption 변동이 아니라 Air Canada·카드사 계약 집중이었다. Air Canada의 2020 계약종료와 새 loyalty 계획 뒤 Aeroplan은 2018년 C$450m+liability assumption에 매각됐다. 더구나 SQL의 미국 AER 가격은 AerCap으로 entity가 틀렸다. 핵심 오류·교훈: ticker/entity collision과 anchor-partner tail 누락",
-      "success_pattern_ko": "security_selection; valuation_discipline; catalyst_detection",
-      "failure_pattern_ko": "cycle_normalization; balance_sheet; timing_path; claim_mismatch",
-      "root_error_ko": "ticker/entity collision과 anchor-partner tail 누락",
-      "first_signal_ko": "Air Canada가 2020년 이후 독자 loyalty program 계획 발표",
-      "first_signal_date": "2017-05-11",
-      "knowable_at_t0_ko": "원문 수치와 당시 공시의 단위경제·리스/부채·청구권·만기·하방을 함께 보면 사전 검증 가능했다.",
-      "avoidability_ko": "중간~높음. 정상화 이익과 stress liquidity, 증권별 waterfall, 촉매기한을 분리하면 오류를 줄일 수 있었다.",
-      "counterfactual_question_ko": "Air Canada와 핵심카드사가 동시에 이탈해도 reserve 차감 후 equity가 보존되는가?",
-      "analyst_note_ko": "원 SQL 방향값은 보존하고 본문·가격목표·추천 증권으로 실제 방향 Long을 별도 기록했다. 추천 증권은 보통주이며 다른 청구권의 주가수익률을 대입하지 않았다.",
-      "corrected_return_1y": null,
-      "corrected_return_3y": null,
-      "corrected_return_5y": null,
-      "confidence": 0.98,
-      "research_asof": "2024-01-31",
-      "research_status_ko": "외부검증 완료"
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "ticker": "AER",
-      "research_direction_ko": "Long",
-      "company_description_ko": "AerCap은 Boeing·Airbus에서 항공기를 대량 할인 구매하거나 sale-leaseback으로 취득해 전 세계 항공사에 장기 임대하는 항공금융회사다. 임대료와 정비보상금에서 이자·감가상각·관리비·신용손실을 뺀 spread가 이익이며, lease 종료 뒤 재임대·매각한 residual value가 장기 ROE를 결정한다. 항공기는 이동 가능한 담보지만 기종·연식·엔진·정비상태와 전 세계 공급에 따라 유동성이 다르다. book value는 원가와 감가상각정책의 산물이라 실제 매각가·gain on sale·appraiser value로 검증해야 한다. 반대로 2.5~3배 debt/equity에서 작은 asset haircut도 equity에 크게 확대된다. 핵심 경쟁력은 싼 OEM order book, 저비용·분산조달, airline credit underwriting, repossession·remarketing, 자산매매와 할인된 자사주 사이의 자본배분이다. ILFC와 GECAS 인수는 규모·조달우위를 키웠지만 COVID와 러시아 압류처럼 상관된 tail risk도 커졌다.",
-      "original_thesis_ko": "AIG의 forced sale로 ILFC를 싸게 인수해 fleet가 327대에서 약 1,300대로 커지고 3년 lease revenue 80%가 계약된다고 봤다. pro forma book 약 1.2x, ROE 15~17%, 2016 EPS $5.50과 cost·tax·funding synergy가 24개월 rerating을 만든다는 논지였다.",
-      "actual_development_ko": "ILFC 거래는 종결·통합됐고 scale·funding·EPS가 개선됐다. 그러나 2년 가격은 -18.38%였고 5년 +26.31%로 time-arbitrage가 예상보다 길었다. 좋은 M&A도 업종 multiple과 macro를 즉시 바꾸지는 못했다.",
-      "thesis_verdict_ko": "사업 성공·기간 미달. 핵심 오류·교훈: 통합가치를 24개월 multiple expansion으로 직결",
-      "business_verdict_ko": "ILFC 거래는 종결·통합됐고 scale·funding·EPS가 개선됐다. 그러나 2년 가격은 -18.38%였고 5년 +26.31%로 time-arbitrage가 예상보다 길었다. 좋은 M&A도 업종 multiple과 macro를 즉시 바꾸지는 못했다.",
-      "catalyst_verdict_ko": "2년 -18.38%로 명시기간 수익 실패",
-      "valuation_verdict_ko": "1.2x PF book·2016 EPS $5.50",
-      "stock_verdict_ko": "1년 +8.79%, 2년 -18.38%, 5년 +26.31%",
-      "current_verdict_ko": "AerCap은 2021년 GECAS를 인수해 세계 최대 lessor가 됐다. 2022년 러시아 잔류 항공기·엔진에 약 $3.5bn 보험청구를 제출했으며 큰 손실에도 생존했고 2023년 일부 러시아 보험합의와 여행회복으로 주가·book가 회복됐다.",
-      "overall_verdict_ko": "사업 성공·기간 미달",
-      "why_ko": "ILFC 거래는 종결·통합됐고 scale·funding·EPS가 개선됐다. 그러나 2년 가격은 -18.38%였고 5년 +26.31%로 time-arbitrage가 예상보다 길었다. 좋은 M&A도 업종 multiple과 macro를 즉시 바꾸지는 못했다. 핵심 오류·교훈: 통합가치를 24개월 multiple expansion으로 직결",
-      "success_pattern_ko": "security_selection; valuation_discipline; catalyst_detection",
-      "failure_pattern_ko": "cycle_normalization; balance_sheet; timing_path; claim_mismatch",
-      "root_error_ko": "통합가치를 24개월 multiple expansion으로 직결",
-      "first_signal_ko": "2년 -18.38%로 명시기간 수익 실패",
-      "first_signal_date": "2016-01-27",
-      "knowable_at_t0_ko": "원문 수치와 당시 공시의 단위경제·리스/부채·청구권·만기·하방을 함께 보면 사전 검증 가능했다.",
-      "avoidability_ko": "중간~높음. 정상화 이익과 stress liquidity, 증권별 waterfall, 촉매기한을 분리하면 오류를 줄일 수 있었다.",
-      "counterfactual_question_ko": "EPS가 맞아도 P/B가 0.8x로 내려가면 목표 IRR은?",
-      "analyst_note_ko": "원 SQL 방향값은 보존하고 본문·가격목표·추천 증권으로 실제 방향 Long을 별도 기록했다. 추천 증권은 보통주이며 다른 청구권의 주가수익률을 대입하지 않았다.",
-      "corrected_return_1y": 8.79,
-      "corrected_return_3y": null,
-      "corrected_return_5y": 26.31,
-      "confidence": 0.99,
-      "research_asof": "2024-01-31",
-      "research_status_ko": "외부검증 완료"
-    },
-    {
       "idea_id": "a080516f-7836-4664-a4cd-7de23c6b7f22",
       "ticker": "AER",
       "research_direction_ko": "Long",
@@ -933,32 +871,6 @@
   ],
   "meta": [
     {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "analysis_depth_ko": "기업·증권·논지·실적·가격·인과 외부검증",
-      "report_version": "V7-detailed",
-      "thesis_type_ko": "loyalty float 저평가",
-      "one_line_verdict_ko": "DB의 1~5년 성과는 다른 기업 AerCap 가격이라 전부 사용 불가. 핵심 오류·교훈: ticker/entity collision과 anchor-partner tail 누락",
-      "thesis_score": 5.5,
-      "process_score": 4.5,
-      "return_summary_ko": "DB의 1~5년 성과는 다른 기업 AerCap 가격이라 전부 사용 불가",
-      "core_error_ko": "ticker/entity collision과 anchor-partner tail 누락",
-      "core_insight_ko": "정상화 FCF C$205m·주당 C$1.25, 약 10% yield와 2013년까지 연 10% 성장을 제시했다. 캐나다 coalition의 포인트 spread·21% breakage·C$300m redemption reserve를 안정적 cash cow로 보고 Carlson 통합비·회계변경에 가린 Nectar·analytics·신규 coalition을 공짜 option으로 봤다.",
-      "research_asof": "2024-01-31"
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "analysis_depth_ko": "기업·증권·논지·실적·가격·인과 외부검증",
-      "report_version": "V7-detailed",
-      "thesis_type_ko": "ILFC time-arbitrage",
-      "one_line_verdict_ko": "1년 +8.79%, 2년 -18.38%, 5년 +26.31%. 핵심 오류·교훈: 통합가치를 24개월 multiple expansion으로 직결",
-      "thesis_score": 7,
-      "process_score": 7.5,
-      "return_summary_ko": "1년 +8.79%, 2년 -18.38%, 5년 +26.31%",
-      "core_error_ko": "통합가치를 24개월 multiple expansion으로 직결",
-      "core_insight_ko": "AIG의 forced sale로 ILFC를 싸게 인수해 fleet가 327대에서 약 1,300대로 커지고 3년 lease revenue 80%가 계약된다고 봤다. pro forma book 약 1.2x, ROE 15~17%, 2016 EPS $5.50과 cost·tax·funding synergy가 24개월 rerating을 만든다는 논지였다.",
-      "research_asof": "2024-01-31"
-    },
-    {
       "idea_id": "a080516f-7836-4664-a4cd-7de23c6b7f22",
       "analysis_depth_ko": "기업·증권·논지·실적·가격·인과 외부검증",
       "report_version": "V7-detailed",
@@ -1324,54 +1236,6 @@
     }
   ],
   "sections": [
-    {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "section_order": 1,
-      "section_title_ko": "1. 기업·증권 구조",
-      "section_body_ko": "Groupe Aeroplan은 Air Canada의 상용고객 프로그램에서 분리돼 캐나다 Aeroplan과 영국 Nectar 같은 coalition loyalty program을 운영했고 뒤에 Aimia로 사명을 바꿨다. 은행·항공사·소매업체에 포인트를 선판매해 현금을 먼저 받고 고객이 항공권·상품으로 교환할 때 비용이 발생한다. 수익은 포인트 판매가격과 redemption 원가의 spread, 미사용 포인트 breakage, 데이터·마케팅 서비스에서 나온다. 따라서 당기 EBITDA보다 gross billings, redemption reserve, breakage 추정, 핵심 accumulation partner 계약의 갱신과 고객이 실제로 쓸 수 있는 보상좌석이 중요하다. 포인트 float는 저비용자금처럼 보이지만 발행 파트너나 anchor airline이 떠나면 미래 billings와 프로그램 매력이 동시에 훼손된다. 이 회사는 미국 ticker AER인 AerCap과 전혀 다른 캐나다 기업이므로 ticker 기반 성과매칭은 entity 오류를 만든다. 이 글의 증권은 보통주, 실제 방향은 Long이다."
-    },
-    {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "section_order": 2,
-      "section_title_ko": "2. 원 투자논지",
-      "section_body_ko": "정상화 FCF C$205m·주당 C$1.25, 약 10% yield와 2013년까지 연 10% 성장을 제시했다. 캐나다 coalition의 포인트 spread·21% breakage·C$300m redemption reserve를 안정적 cash cow로 보고 Carlson 통합비·회계변경에 가린 Nectar·analytics·신규 coalition을 공짜 option으로 봤다. 밸류에이션은 FCF yield 10%·10% 성장, 촉매는 I&C·Aeromexico·India JV였다."
-    },
-    {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "section_order": 3,
-      "section_title_ko": "3. 실제 전개",
-      "section_body_ko": "초기 현금창출은 지속됐지만 핵심위험은 redemption 변동이 아니라 Air Canada·카드사 계약 집중이었다. Air Canada의 2020 계약종료와 새 loyalty 계획 뒤 Aeroplan은 2018년 C$450m+liability assumption에 매각됐다. 더구나 SQL의 미국 AER 가격은 AerCap으로 entity가 틀렸다. 첫 핵심 신호는 Air Canada가 2020년 이후 독자 loyalty program 계획 발표였다."
-    },
-    {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "section_order": 4,
-      "section_title_ko": "4. 판정·교훈",
-      "section_body_ko": "단기 성공·장기 논지 훼손: 핵심 오류·교훈은 ticker/entity collision과 anchor-partner tail 누락이다. 반증질문은 ‘Air Canada와 핵심카드사가 동시에 이탈해도 reserve 차감 후 equity가 보존되는가?’이다."
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "section_order": 1,
-      "section_title_ko": "1. 기업·증권 구조",
-      "section_body_ko": "AerCap은 Boeing·Airbus에서 항공기를 대량 할인 구매하거나 sale-leaseback으로 취득해 전 세계 항공사에 장기 임대하는 항공금융회사다. 임대료와 정비보상금에서 이자·감가상각·관리비·신용손실을 뺀 spread가 이익이며, lease 종료 뒤 재임대·매각한 residual value가 장기 ROE를 결정한다. 항공기는 이동 가능한 담보지만 기종·연식·엔진·정비상태와 전 세계 공급에 따라 유동성이 다르다. book value는 원가와 감가상각정책의 산물이라 실제 매각가·gain on sale·appraiser value로 검증해야 한다. 반대로 2.5~3배 debt/equity에서 작은 asset haircut도 equity에 크게 확대된다. 핵심 경쟁력은 싼 OEM order book, 저비용·분산조달, airline credit underwriting, repossession·remarketing, 자산매매와 할인된 자사주 사이의 자본배분이다. ILFC와 GECAS 인수는 규모·조달우위를 키웠지만 COVID와 러시아 압류처럼 상관된 tail risk도 커졌다. 이 글의 증권은 보통주, 실제 방향은 Long이다."
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "section_order": 2,
-      "section_title_ko": "2. 원 투자논지",
-      "section_body_ko": "AIG의 forced sale로 ILFC를 싸게 인수해 fleet가 327대에서 약 1,300대로 커지고 3년 lease revenue 80%가 계약된다고 봤다. pro forma book 약 1.2x, ROE 15~17%, 2016 EPS $5.50과 cost·tax·funding synergy가 24개월 rerating을 만든다는 논지였다. 밸류에이션은 1.2x PF book·2016 EPS $5.50, 촉매는 deal close·synergy·debt repricing였다."
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "section_order": 3,
-      "section_title_ko": "3. 실제 전개",
-      "section_body_ko": "ILFC 거래는 종결·통합됐고 scale·funding·EPS가 개선됐다. 그러나 2년 가격은 -18.38%였고 5년 +26.31%로 time-arbitrage가 예상보다 길었다. 좋은 M&A도 업종 multiple과 macro를 즉시 바꾸지는 못했다. 첫 핵심 신호는 2년 -18.38%로 명시기간 수익 실패였다."
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "section_order": 4,
-      "section_title_ko": "4. 판정·교훈",
-      "section_body_ko": "사업 성공·기간 미달: 핵심 오류·교훈은 통합가치를 24개월 multiple expansion으로 직결이다. 반증질문은 ‘EPS가 맞아도 P/B가 0.8x로 내려가면 목표 IRR은?’이다."
-    },
     {
       "idea_id": "a080516f-7836-4664-a4cd-7de23c6b7f22",
       "section_order": 1,
@@ -2046,126 +1910,6 @@
     }
   ],
   "claims": [
-    {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "claim_order": 1,
-      "claim_title_ko": "사업·단위경제성",
-      "thesis_weight_pct": 30,
-      "original_claim_ko": "정상화 FCF C$205m·주당 C$1.25, 약 10% yield와 2013년까지 연 10% 성장을 제시했다. 캐나다 coalition의 포인트 spread·21% breakage·C$300m redemption reserve를 안정적 cash cow로 보고 Carlson 통합비·회계변경에 가린 Nectar·analytics·신규 coalition을 공짜 option으로 봤다.",
-      "t0_evidence_ko": "정상화 FCF C$205m·주당 C$1.25, 약 10% yield와 2013년까지 연 10% 성장을 제시했다. 캐나다 coalition의 포인트 spread·21% breakage·C$300m redemption reserve를 안정적 cash cow로 보고 Carlson 통합비·회계변경에 가린 Nectar·analytics·신규 coalition을 공짜 option으로 봤다.",
-      "key_assumption_ko": "핵심 economics 유지",
-      "ex_ante_falsifier_ko": "Air Canada와 핵심카드사가 동시에 이탈해도 reserve 차감 후 equity가 보존되는가?",
-      "actual_result_ko": "초기 현금창출은 지속됐지만 핵심위험은 redemption 변동이 아니라 Air Canada·카드사 계약 집중이었다. Air Canada의 2020 계약종료와 새 loyalty 계획 뒤 Aeroplan은 2018년 C$450m+liability assumption에 매각됐다. 더구나 SQL의 미국 AER 가격은 AerCap으로 entity가 틀렸다.",
-      "quantitative_gap_ko": "DB의 1~5년 성과는 다른 기업 AerCap 가격이라 전부 사용 불가",
-      "verdict_ko": "단기 성공·장기 논지 훼손",
-      "analytical_error_ko": "ticker/entity collision과 anchor-partner tail 누락",
-      "reusable_lesson_ko": "Air Canada와 핵심카드사가 동시에 이탈해도 reserve 차감 후 equity가 보존되는가?"
-    },
-    {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "claim_order": 2,
-      "claim_title_ko": "밸류에이션·하방",
-      "thesis_weight_pct": 25,
-      "original_claim_ko": "FCF yield 10%·10% 성장",
-      "t0_evidence_ko": "정상화 FCF C$205m·주당 C$1.25, 약 10% yield와 2013년까지 연 10% 성장을 제시했다. 캐나다 coalition의 포인트 spread·21% breakage·C$300m redemption reserve를 안정적 cash cow로 보고 Carlson 통합비·회계변경에 가린 Nectar·analytics·신규 coalition을 공짜 option으로 봤다.",
-      "key_assumption_ko": "정상화·청구권 가정",
-      "ex_ante_falsifier_ko": "Air Canada와 핵심카드사가 동시에 이탈해도 reserve 차감 후 equity가 보존되는가?",
-      "actual_result_ko": "DB의 1~5년 성과는 다른 기업 AerCap 가격이라 전부 사용 불가",
-      "quantitative_gap_ko": "DB의 1~5년 성과는 다른 기업 AerCap 가격이라 전부 사용 불가",
-      "verdict_ko": "단기 성공·장기 논지 훼손",
-      "analytical_error_ko": "ticker/entity collision과 anchor-partner tail 누락",
-      "reusable_lesson_ko": "Air Canada와 핵심카드사가 동시에 이탈해도 reserve 차감 후 equity가 보존되는가?"
-    },
-    {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "claim_order": 3,
-      "claim_title_ko": "촉매·시간",
-      "thesis_weight_pct": 25,
-      "original_claim_ko": "I&C·Aeromexico·India JV",
-      "t0_evidence_ko": "정상화 FCF C$205m·주당 C$1.25, 약 10% yield와 2013년까지 연 10% 성장을 제시했다. 캐나다 coalition의 포인트 spread·21% breakage·C$300m redemption reserve를 안정적 cash cow로 보고 Carlson 통합비·회계변경에 가린 Nectar·analytics·신규 coalition을 공짜 option으로 봤다.",
-      "key_assumption_ko": "기한 내 실현",
-      "ex_ante_falsifier_ko": "Air Canada와 핵심카드사가 동시에 이탈해도 reserve 차감 후 equity가 보존되는가?",
-      "actual_result_ko": "Air Canada가 2020년 이후 독자 loyalty program 계획 발표",
-      "quantitative_gap_ko": "DB의 1~5년 성과는 다른 기업 AerCap 가격이라 전부 사용 불가",
-      "verdict_ko": "단기 성공·장기 논지 훼손",
-      "analytical_error_ko": "ticker/entity collision과 anchor-partner tail 누락",
-      "reusable_lesson_ko": "Air Canada와 핵심카드사가 동시에 이탈해도 reserve 차감 후 equity가 보존되는가?"
-    },
-    {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "claim_order": 4,
-      "claim_title_ko": "위험·반증",
-      "thesis_weight_pct": 20,
-      "original_claim_ko": "Air Canada와 핵심카드사가 동시에 이탈해도 reserve 차감 후 equity가 보존되는가?",
-      "t0_evidence_ko": "정상화 FCF C$205m·주당 C$1.25, 약 10% yield와 2013년까지 연 10% 성장을 제시했다. 캐나다 coalition의 포인트 spread·21% breakage·C$300m redemption reserve를 안정적 cash cow로 보고 Carlson 통합비·회계변경에 가린 Nectar·analytics·신규 coalition을 공짜 option으로 봤다.",
-      "key_assumption_ko": "stress 통과",
-      "ex_ante_falsifier_ko": "Air Canada와 핵심카드사가 동시에 이탈해도 reserve 차감 후 equity가 보존되는가?",
-      "actual_result_ko": "ticker/entity collision과 anchor-partner tail 누락",
-      "quantitative_gap_ko": "DB의 1~5년 성과는 다른 기업 AerCap 가격이라 전부 사용 불가",
-      "verdict_ko": "단기 성공·장기 논지 훼손",
-      "analytical_error_ko": "ticker/entity collision과 anchor-partner tail 누락",
-      "reusable_lesson_ko": "Air Canada와 핵심카드사가 동시에 이탈해도 reserve 차감 후 equity가 보존되는가?"
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "claim_order": 1,
-      "claim_title_ko": "사업·단위경제성",
-      "thesis_weight_pct": 30,
-      "original_claim_ko": "AIG의 forced sale로 ILFC를 싸게 인수해 fleet가 327대에서 약 1,300대로 커지고 3년 lease revenue 80%가 계약된다고 봤다. pro forma book 약 1.2x, ROE 15~17%, 2016 EPS $5.50과 cost·tax·funding synergy가 24개월 rerating을 만든다는 논지였다.",
-      "t0_evidence_ko": "AIG의 forced sale로 ILFC를 싸게 인수해 fleet가 327대에서 약 1,300대로 커지고 3년 lease revenue 80%가 계약된다고 봤다. pro forma book 약 1.2x, ROE 15~17%, 2016 EPS $5.50과 cost·tax·funding synergy가 24개월 rerating을 만든다는 논지였다.",
-      "key_assumption_ko": "핵심 economics 유지",
-      "ex_ante_falsifier_ko": "EPS가 맞아도 P/B가 0.8x로 내려가면 목표 IRR은?",
-      "actual_result_ko": "ILFC 거래는 종결·통합됐고 scale·funding·EPS가 개선됐다. 그러나 2년 가격은 -18.38%였고 5년 +26.31%로 time-arbitrage가 예상보다 길었다. 좋은 M&A도 업종 multiple과 macro를 즉시 바꾸지는 못했다.",
-      "quantitative_gap_ko": "1년 +8.79%, 2년 -18.38%, 5년 +26.31%",
-      "verdict_ko": "사업 성공·기간 미달",
-      "analytical_error_ko": "통합가치를 24개월 multiple expansion으로 직결",
-      "reusable_lesson_ko": "EPS가 맞아도 P/B가 0.8x로 내려가면 목표 IRR은?"
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "claim_order": 2,
-      "claim_title_ko": "밸류에이션·하방",
-      "thesis_weight_pct": 25,
-      "original_claim_ko": "1.2x PF book·2016 EPS $5.50",
-      "t0_evidence_ko": "AIG의 forced sale로 ILFC를 싸게 인수해 fleet가 327대에서 약 1,300대로 커지고 3년 lease revenue 80%가 계약된다고 봤다. pro forma book 약 1.2x, ROE 15~17%, 2016 EPS $5.50과 cost·tax·funding synergy가 24개월 rerating을 만든다는 논지였다.",
-      "key_assumption_ko": "정상화·청구권 가정",
-      "ex_ante_falsifier_ko": "EPS가 맞아도 P/B가 0.8x로 내려가면 목표 IRR은?",
-      "actual_result_ko": "1년 +8.79%, 2년 -18.38%, 5년 +26.31%",
-      "quantitative_gap_ko": "1년 +8.79%, 2년 -18.38%, 5년 +26.31%",
-      "verdict_ko": "사업 성공·기간 미달",
-      "analytical_error_ko": "통합가치를 24개월 multiple expansion으로 직결",
-      "reusable_lesson_ko": "EPS가 맞아도 P/B가 0.8x로 내려가면 목표 IRR은?"
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "claim_order": 3,
-      "claim_title_ko": "촉매·시간",
-      "thesis_weight_pct": 25,
-      "original_claim_ko": "deal close·synergy·debt repricing",
-      "t0_evidence_ko": "AIG의 forced sale로 ILFC를 싸게 인수해 fleet가 327대에서 약 1,300대로 커지고 3년 lease revenue 80%가 계약된다고 봤다. pro forma book 약 1.2x, ROE 15~17%, 2016 EPS $5.50과 cost·tax·funding synergy가 24개월 rerating을 만든다는 논지였다.",
-      "key_assumption_ko": "기한 내 실현",
-      "ex_ante_falsifier_ko": "EPS가 맞아도 P/B가 0.8x로 내려가면 목표 IRR은?",
-      "actual_result_ko": "2년 -18.38%로 명시기간 수익 실패",
-      "quantitative_gap_ko": "1년 +8.79%, 2년 -18.38%, 5년 +26.31%",
-      "verdict_ko": "사업 성공·기간 미달",
-      "analytical_error_ko": "통합가치를 24개월 multiple expansion으로 직결",
-      "reusable_lesson_ko": "EPS가 맞아도 P/B가 0.8x로 내려가면 목표 IRR은?"
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "claim_order": 4,
-      "claim_title_ko": "위험·반증",
-      "thesis_weight_pct": 20,
-      "original_claim_ko": "EPS가 맞아도 P/B가 0.8x로 내려가면 목표 IRR은?",
-      "t0_evidence_ko": "AIG의 forced sale로 ILFC를 싸게 인수해 fleet가 327대에서 약 1,300대로 커지고 3년 lease revenue 80%가 계약된다고 봤다. pro forma book 약 1.2x, ROE 15~17%, 2016 EPS $5.50과 cost·tax·funding synergy가 24개월 rerating을 만든다는 논지였다.",
-      "key_assumption_ko": "stress 통과",
-      "ex_ante_falsifier_ko": "EPS가 맞아도 P/B가 0.8x로 내려가면 목표 IRR은?",
-      "actual_result_ko": "통합가치를 24개월 multiple expansion으로 직결",
-      "quantitative_gap_ko": "1년 +8.79%, 2년 -18.38%, 5년 +26.31%",
-      "verdict_ko": "사업 성공·기간 미달",
-      "analytical_error_ko": "통합가치를 24개월 multiple expansion으로 직결",
-      "reusable_lesson_ko": "EPS가 맞아도 P/B가 0.8x로 내려가면 목표 IRR은?"
-    },
     {
       "idea_id": "a080516f-7836-4664-a4cd-7de23c6b7f22",
       "claim_order": 1,
@@ -3849,86 +3593,6 @@
   ],
   "metrics": [
     {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "metric_order": 1,
-      "metric_name_ko": "정상 FCF",
-      "t0_value_ko": "C$205m/C$1.25",
-      "thesis_expectation_ko": "연 10% 성장",
-      "actual_value_ko": "초기 cash 유지",
-      "verdict_ko": "부분",
-      "interpretation_ko": "단기 성공·장기 논지 훼손. 핵심 오류·교훈: ticker/entity collision과 anchor-partner tail 누락"
-    },
-    {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "metric_order": 2,
-      "metric_name_ko": "breakage",
-      "t0_value_ko": "21%",
-      "thesis_expectation_ko": "안정 spread",
-      "actual_value_ko": "계약위험이 더 큼",
-      "verdict_ko": "프레임 부족",
-      "interpretation_ko": "단기 성공·장기 논지 훼손. 핵심 오류·교훈: ticker/entity collision과 anchor-partner tail 누락"
-    },
-    {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "metric_order": 3,
-      "metric_name_ko": "Aeroplan 매각",
-      "t0_value_ko": "미가정",
-      "thesis_expectation_ko": "compound",
-      "actual_value_ko": "2018 C$450m+부채인수",
-      "verdict_ko": "논지변경",
-      "interpretation_ko": "단기 성공·장기 논지 훼손. 핵심 오류·교훈: ticker/entity collision과 anchor-partner tail 누락"
-    },
-    {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "metric_order": 4,
-      "metric_name_ko": "가격데이터",
-      "t0_value_ko": "AER ticker",
-      "thesis_expectation_ko": "성과측정",
-      "actual_value_ko": "AerCap 잘못 매칭",
-      "verdict_ko": "무효",
-      "interpretation_ko": "단기 성공·장기 논지 훼손. 핵심 오류·교훈: ticker/entity collision과 anchor-partner tail 누락"
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "metric_order": 1,
-      "metric_name_ko": "fleet",
-      "t0_value_ko": "327+ILFC 1,002",
-      "thesis_expectation_ko": "세계 2위",
-      "actual_value_ko": "통합 완료",
-      "verdict_ko": "적중",
-      "interpretation_ko": "사업 성공·기간 미달. 핵심 오류·교훈: 통합가치를 24개월 multiple expansion으로 직결"
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "metric_order": 2,
-      "metric_name_ko": "ROE",
-      "t0_value_ko": "15~17%",
-      "thesis_expectation_ko": "유지",
-      "actual_value_ko": "double digit",
-      "verdict_ko": "적중",
-      "interpretation_ko": "사업 성공·기간 미달. 핵심 오류·교훈: 통합가치를 24개월 multiple expansion으로 직결"
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "metric_order": 3,
-      "metric_name_ko": "2년수익",
-      "t0_value_ko": "상승",
-      "thesis_expectation_ko": "time-arb",
-      "actual_value_ko": "-18.38%",
-      "verdict_ko": "실패",
-      "interpretation_ko": "사업 성공·기간 미달. 핵심 오류·교훈: 통합가치를 24개월 multiple expansion으로 직결"
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "metric_order": 4,
-      "metric_name_ko": "5년수익",
-      "t0_value_ko": "상승",
-      "thesis_expectation_ko": "장기회수",
-      "actual_value_ko": "+26.31%",
-      "verdict_ko": "부분",
-      "interpretation_ko": "사업 성공·기간 미달. 핵심 오류·교훈: 통합가치를 24개월 multiple expansion으로 직결"
-    },
-    {
       "idea_id": "a080516f-7836-4664-a4cd-7de23c6b7f22",
       "metric_order": 1,
       "metric_name_ko": "book",
@@ -5051,62 +4715,6 @@
   ],
   "timeline": [
     {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "event_order": 1,
-      "event_date_ko": "2011-09-15",
-      "event_ko": "VIC Long 게시",
-      "thesis_implication_ko": "loyalty float 저평가"
-    },
-    {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "event_order": 2,
-      "event_date_ko": "2017-05-11",
-      "event_ko": "Air Canada가 2020년 이후 독자 loyalty program 계획 발표",
-      "thesis_implication_ko": "첫 확인·반증"
-    },
-    {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "event_order": 3,
-      "event_date_ko": "2024-01-31",
-      "event_ko": "DB의 1~5년 성과는 다른 기업 AerCap 가격이라 전부 사용 불가",
-      "thesis_implication_ko": "단기 성공·장기 논지 훼손"
-    },
-    {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "event_order": 4,
-      "event_date_ko": "2024-01-31",
-      "event_ko": "Air Canada는 기존 계약의 2020년 종료를 앞두고 새 프로그램을 추진했고 2018년 컨소시엄이 Aeroplan 사업을 C$450m 현금과 약 C$1.9bn 포인트부채 인수조건으로 사기로 했다. 원래 Aimia 주주는 cash-generative loyalty compounder가 아니라 핵심자산 매각 뒤 investment holding company를 보유하게 됐다.",
-      "thesis_implication_ko": "기업·증권 결론"
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "event_order": 1,
-      "event_date_ko": "2014-01-27",
-      "event_ko": "VIC Long 게시",
-      "thesis_implication_ko": "ILFC time-arbitrage"
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "event_order": 2,
-      "event_date_ko": "2016-01-27",
-      "event_ko": "2년 -18.38%로 명시기간 수익 실패",
-      "thesis_implication_ko": "첫 확인·반증"
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "event_order": 3,
-      "event_date_ko": "2024-01-31",
-      "event_ko": "1년 +8.79%, 2년 -18.38%, 5년 +26.31%",
-      "thesis_implication_ko": "사업 성공·기간 미달"
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "event_order": 4,
-      "event_date_ko": "2024-01-31",
-      "event_ko": "AerCap은 2021년 GECAS를 인수해 세계 최대 lessor가 됐다. 2022년 러시아 잔류 항공기·엔진에 약 $3.5bn 보험청구를 제출했으며 큰 손실에도 생존했고 2023년 일부 러시아 보험합의와 여행회복으로 주가·book가 회복됐다.",
-      "thesis_implication_ko": "기업·증권 결론"
-    },
-    {
       "idea_id": "a080516f-7836-4664-a4cd-7de23c6b7f22",
       "event_order": 1,
       "event_date_ko": "2015-12-28",
@@ -5892,106 +5500,6 @@
     }
   ],
   "sources": [
-    {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "source_order": 1,
-      "source_type_ko": "VIC 원문",
-      "title_ko": "Groupe Aeroplan/Aimia VIC 아이디어 2011-09-15",
-      "publisher": "Value Investors Club",
-      "source_date": "2011-09-15",
-      "url": "https://www.valueinvestorsclub.com/idea/GROUPE_AEROPLAN_INC/2133679371",
-      "evidence_ko": "원 논지·증권·방향·가격·촉매"
-    },
-    {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "source_order": 2,
-      "source_type_ko": "Air Canada 자료",
-      "title_ko": "2016 Air Canada investor presentation",
-      "publisher": "Air Canada",
-      "source_date": "2016-03-01",
-      "url": "https://www.aircanada.com/content/dam/aircanada/portal/documents/PDF/speeches-presentations/en/Desjardins-Industrials-Telecom-Consumer-Conference-Montreal-en.pdf",
-      "evidence_ko": "Aeroplan 계약이 2020년 종료 예정임을 명시."
-    },
-    {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "source_order": 3,
-      "source_type_ko": "Air Canada 공시",
-      "title_ko": "Agreement to acquire Aeroplan loyalty business",
-      "publisher": "Air Canada",
-      "source_date": "2018-10-31",
-      "url": "https://www.aircanada.com/content/dam/aircanada/portal/documents/PDF/en/quarterly-result/2018/2018_FSN_q3.pdf",
-      "evidence_ko": "C$450m 현금과 약 C$1.9bn 포인트부채 인수조건."
-    },
-    {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "source_order": 4,
-      "source_type_ko": "Air Canada 공시",
-      "title_ko": "Air Canada 2013 financial statements",
-      "publisher": "Air Canada",
-      "source_date": "2014-02-12",
-      "url": "https://www.aircanada.com/content/dam/aircanada/portal/documents/PDF/en/quarterly-result/2013/2013_FSN_q4.pdf",
-      "evidence_ko": "Aeroplan과의 포인트 매입·항공권 redemption 구조."
-    },
-    {
-      "idea_id": "38e54501-cdf7-4222-9b0d-548d1c21a844",
-      "source_order": 5,
-      "source_type_ko": "데이터 검증",
-      "title_ko": "NYSE AER ticker entity check",
-      "publisher": "VIC/SEC",
-      "source_date": "2024-01-31",
-      "url": "https://www.sec.gov/edgar/browse/?CIK=1378789&owner=exclude",
-      "evidence_ko": "미국 AER은 AerCap이므로 Aimia 가격성과와 혼용 금지."
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "source_order": 1,
-      "source_type_ko": "VIC 원문",
-      "title_ko": "AerCap Holdings VIC 아이디어 2014-01-27",
-      "publisher": "Value Investors Club",
-      "source_date": "2014-01-27",
-      "url": "https://www.valueinvestorsclub.com/idea/AERCAP_HOLDINGS_NV/4527154442",
-      "evidence_ko": "원 논지·증권·방향·가격·촉매"
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "source_order": 2,
-      "source_type_ko": "회사 공시",
-      "title_ko": "AerCap 2023 Form 20-F",
-      "publisher": "AerCap",
-      "source_date": "2024-02-23",
-      "url": "https://www.aercap.com/investors/shareholder-services/sec-filings/content/0001378789-24-000010/aer-20231231.htm",
-      "evidence_ko": "fleet·부채·book·러시아 손실과 보험청구."
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "source_order": 3,
-      "source_type_ko": "회사 공시",
-      "title_ko": "GECAS transaction completion",
-      "publisher": "AerCap",
-      "source_date": "2022-09-30",
-      "url": "https://www.aercap.com/investors/shareholder-services/sec-filings/content/0001378789-22-000022/aer-09302022x6k.htm",
-      "evidence_ko": "GE에 111.5m주·약 $23bn 현금·$1bn notes 지급."
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "source_order": 4,
-      "source_type_ko": "회사 발표",
-      "title_ko": "AerCap Q1 2022 results",
-      "publisher": "AerCap",
-      "source_date": "2022-05-17",
-      "url": "https://www.aercap.com/news-media/press-releases/detail/415/aercap-holdings-n-v-reports-financial-results-for-the",
-      "evidence_ko": "러시아 자산 약 $3.5bn 보험청구."
-    },
-    {
-      "idea_id": "c054b867-f345-429d-a2b4-fdf092a7c43b",
-      "source_order": 5,
-      "source_type_ko": "회사 공시",
-      "title_ko": "AerCap 2022 Form 20-F",
-      "publisher": "AerCap",
-      "source_date": "2023-03-02",
-      "url": "https://www.aercap.com/investors/shareholder-services/sec-filings/content/0001378789-23-000006/aer-20221231.htm",
-      "evidence_ko": "COVID·GECAS·러시아 뒤 연결재무 검증."
-    },
     {
       "idea_id": "a080516f-7836-4664-a4cd-7de23c6b7f22",
       "source_order": 1,
@@ -7392,5 +6900,22 @@
       "url": "https://investor.gm.com/static-files/8f1001fb-1fba-4e71-bb42-4a48066820a0",
       "evidence_ko": "EV·Cruise 투자와 제조·금융 구조."
     }
-  ]
+  ],
+  "deduplication": {
+    "canonical_batch": 64,
+    "moved_idea_ids": [
+      "38e54501-cdf7-4222-9b0d-548d1c21a844",
+      "c054b867-f345-429d-a2b4-fdf092a7c43b"
+    ],
+    "reason_ko": "Groupe Aeroplan/Aimia와 AerCap의 entity·security·성과 감사를 Batch 064 장문 V9로 승격",
+    "removed_rows_by_table": {
+      "postmortems": 2,
+      "meta": 2,
+      "sections": 8,
+      "claims": 8,
+      "metrics": 8,
+      "timeline": 8,
+      "sources": 10
+    }
+  }
 }

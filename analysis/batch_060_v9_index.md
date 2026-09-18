@@ -388,5 +388,5 @@ ADT direct acquisition cost:
 ## 19. 앱 / DB 반영
 
 - Wrapper: `analysis/batch_060_ads_adsk_adt_10.md`
-- Overlay: `data/curated/batch_060_ads_adsk_adt_deep_v7.json`
+- Staging catalog (DB 미반영): `data/staging/batch_060_ads_adsk_adt_catalog_v9.json`
 - Canonical source of truth: 위 10개 Markdown.

@@ -1,6 +1,6 @@
 # Batch 015 — Charter Communications / Comcast V9 Index
 
-> 기존 `analysis/batch_015_charter_comcast_10.md`와 `analysis/batch_015_charter_comcast_v2_deep.md`는 archive/reference로 유지한다.  
+> `analysis/batch_015_charter_comcast_10.md`가 현재 wrapper이며, 중복 V2 문서는 Git 이력에만 보존한다.
 > V9에서는 **10개 VIC 아이디어를 각각 독립 canonical report**로 관리한다.  
 > 이번 버전은 기존 V7보다 더 구체적으로 **시장기대 → KPI bridge → FCF/share → leverage/capital allocation → 첫 thesis break → counterfactual** 순으로 보강했다.
 

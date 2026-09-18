@@ -1,6 +1,6 @@
 # Batch 014 — T-Mobile US / Altice USA V9 Index
 
-> 기존 `analysis/batch_014_tmus_atus_10.md`와 `analysis/batch_014_tmus_atus_v2_deep.md`는 archive/reference로 유지한다.  
+> `analysis/batch_014_tmus_atus_10.md`가 현재 wrapper이며, 중복 V2 문서는 Git 이력에만 보존한다.
 > V9에서는 **10개 VIC 아이디어를 각각 독립 canonical report**로 관리한다.  
 > 이번 배치부터는 기존 curated가 얕은 부분을 보강해 **진입가·실제 결과·연환산 가격수익·6개 claim·KPI bridge·첫 반증/확인 신호·knowability·counterfactual**까지 넣었다.
 

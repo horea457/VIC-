@@ -305,5 +305,5 @@ AEC는 **~10% implied cap + improving NOI + covered dividend + multiple independ
 ## 13. 앱 / DB 반영
 
 - Wrapper: `analysis/batch_062_advm_advanta_advs_adyen_ae_aec_10.md`
-- Overlay: `data/curated/batch_062_advm_advanta_advs_adyen_ae_aec_deep_v7.json`
+- Staging catalog (DB 미반영): `data/staging/batch_062_advm_advanta_advs_adyen_ae_aec_catalog_v9.json`
 - Canonical source of truth: 위 10개 Markdown.

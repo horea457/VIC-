@@ -321,5 +321,5 @@ asset growth alone ≠ shareholder growth.
 ## 13. 앱 / DB 반영
 
 - Wrapper: `analysis/batch_069_afmi_afmjf_afn_afop_afp_afr_afrm_afsi_10.md`
-- Overlay: `data/curated/batch_069_afmi_afmjf_afn_afop_afp_afr_afrm_afsi_deep_v7.json`
+- Staging catalog (DB 미반영): `data/staging/batch_069_afmi_afmjf_afn_afop_afp_afr_afrm_afsi_catalog_v9.json`
 - Canonical source of truth: 위 10개 Markdown.

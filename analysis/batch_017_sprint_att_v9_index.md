@@ -1,6 +1,6 @@
 # Batch 017 — Sprint / AT&T Telecom V9 Index
 
-> 기존 `analysis/batch_017_sprint_att_10.md`와 `analysis/batch_017_sprint_att_v2_deep.md`는 archive/reference로 유지한다.  
+> `analysis/batch_017_sprint_att_10.md`가 현재 wrapper이며, 중복 V2 문서는 Git 이력에만 보존한다.
 > V9에서는 **10개 VIC 아이디어를 각각 독립 canonical report**로 관리한다.  
 > 이번 버전은 특히 **자산가치 → 운영 monetization → FCF → 자본구조 → 주주 청구권 → 촉매/시간**의 연결을 더 구체화했다.
 

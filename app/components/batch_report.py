@@ -40,11 +40,9 @@ BATCH_SOURCES = (
 ("batch_032_bjri_petmed_deep_v7.json","batch_032_bjri_petmed_10.md","Batch 032"),
 ("batch_033_pico_grace_deep_v7.json","batch_033_pico_grace_10.md","Batch 033"),
 ("batch_034_comstock_crocodile_franklincovey_deep_v7.json","batch_034_comstock_crocodile_franklincovey_10.md","Batch 034"),
-("batch_035_plus_collision_level3_deep_v7.json","batch_035_plus_collision_level3_10.md","Batch 035"),
 ("batch_036_ads_cit_deep_v7.json","batch_036_ads_cit_10.md","Batch 036"),
 ("batch_037_cit_cacc_ally_deep_v7.json","batch_037_cit_cacc_ally_10.md","Batch 037"),
 ("batch_038_ally_syf_dfs_deep_v7.json","batch_038_ally_syf_dfs_10.md","Batch 038"),
-("batch_039_nexstar_sinclair_deep_v7.json","batch_039_nexstar_sinclair_10.md","Batch 039"),
 ("batch_040_gray_townsquare_deep_v7.json","batch_040_gray_townsquare_10.md","Batch 040"),
 ("batch_041_local_radio_audio_deep_v7.json","batch_041_local_radio_audio_10.md","Batch 041"),
 ("batch_042_radio_satellite_audio_deep_v7.json","batch_042_radio_satellite_audio_10.md","Batch 042"),
@@ -63,12 +61,8 @@ BATCH_SOURCES = (
 ("batch_055_rst_sbgi_stmp_deep_v7.json","batch_055_rst_sbgi_stmp_10.md","Batch 055"),
 ("batch_056_stmp_wtw_deep_v7.json","batch_056_stmp_wtw_10.md","Batch 056"),
 ("batch_057_wtw_abg_ades_deep_v7.json","batch_057_wtw_abg_ades_10.md","Batch 057"),
-("batch_058_ades_adnt_deep_v7.json","batch_058_ades_adnt_10.md","Batch 058"),
-("batch_059_adnt_adp_adpi_adpt_adro_ads_deep_v7.json","batch_059_adnt_adp_adpi_adpt_adro_ads_10.md","Batch 059"),
-("batch_060_ads_adsk_adt_deep_v7.json","batch_060_ads_adsk_adt_10.md","Batch 060"),
-("batch_061_adt_adriatic_adtn_adus_adv_advc_deep_v7.json","batch_061_adt_adriatic_adtn_adus_adv_advc_10.md","Batch 061"),
-("batch_062_advm_advanta_advs_adyen_ae_aec_deep_v7.json","batch_062_advm_advanta_advs_adyen_ae_aec_10.md","Batch 062"),
 ("batch_063_aegr_ael_amc_aena_aeo_deep_v7.json","batch_063_aegr_ael_amc_aena_aeo_10.md","Batch 063"),
+("batch_064_aep_atlas_aepi_aer_deep_v7.json","batch_064_aep_atlas_aepi_aer_10.md","Batch 064"),
 ("all_reviewed_v8_index.json","all_reviewed_v8.md.gz","V8 전체 DB"),)
 
 @st.cache_data(show_spinner=False)

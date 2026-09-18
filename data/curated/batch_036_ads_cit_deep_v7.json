@@ -171,78 +171,6 @@
       "idea_return_3y": null,
       "idea_return_5y": null,
       "auto_tag_status_ko": "수동 심층검증"
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "date": "2001-01-16",
-      "year": 2001,
-      "ticker": "CIT",
-      "company_name": "CIT Group",
-      "author": "rich44",
-      "direction_ko": "숏",
-      "is_short": true,
-      "contest_winner": 0,
-      "source_link": null,
-      "description_chars": 7809,
-      "catalyst_chars": 0,
-      "narrative_tags_ko": "direction-correction; financials; capital-structure; catalyst; valuation; 심층검증",
-      "idea_type_ko": "기업가치",
-      "performance_available": 0,
-      "perf_1y": null,
-      "perf_3y": null,
-      "perf_5y": null,
-      "idea_return_1y": null,
-      "idea_return_3y": null,
-      "idea_return_5y": null,
-      "auto_tag_status_ko": "수동 심층검증"
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "date": "2007-08-23",
-      "year": 2007,
-      "ticker": "CIT",
-      "company_name": "CIT Group",
-      "author": "sag301",
-      "direction_ko": "숏",
-      "is_short": true,
-      "contest_winner": 0,
-      "source_link": "https://www.valueinvestorsclub.com/idea/CIT_Group/7407339140",
-      "description_chars": 10950,
-      "catalyst_chars": 48,
-      "narrative_tags_ko": "direction-correction; financials; capital-structure; catalyst; valuation; 심층검증",
-      "idea_type_ko": "기업가치",
-      "performance_available": 0,
-      "perf_1y": null,
-      "perf_3y": null,
-      "perf_5y": null,
-      "idea_return_1y": null,
-      "idea_return_3y": null,
-      "idea_return_5y": null,
-      "auto_tag_status_ko": "수동 심층검증"
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "date": "2008-05-02",
-      "year": 2008,
-      "ticker": "CIT",
-      "company_name": "CIT Group",
-      "author": "jna341",
-      "direction_ko": "숏",
-      "is_short": true,
-      "contest_winner": 0,
-      "source_link": null,
-      "description_chars": 21502,
-      "catalyst_chars": 255,
-      "narrative_tags_ko": "direction-correction; financials; capital-structure; catalyst; valuation; 심층검증",
-      "idea_type_ko": "기업가치",
-      "performance_available": 0,
-      "perf_1y": null,
-      "perf_3y": null,
-      "perf_5y": null,
-      "idea_return_1y": null,
-      "idea_return_3y": null,
-      "idea_return_5y": null,
-      "auto_tag_status_ko": "수동 심층검증"
     }
   ],
   "postmortems": [
@@ -460,99 +388,6 @@
       "corrected_return_3y": null,
       "corrected_return_5y": null,
       "confidence": 0.995,
-      "research_asof": "2026-09-05",
-      "research_status_ko": "원문 방향 전수검증 + 1차자료 외부검증 완료"
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "ticker": "CIT",
-      "research_direction_ko": "Long",
-      "company_description_ko": "CIT Group은 equipment·aircraft/rail leasing, vendor finance, factoring, asset-based lending와 consumer finance를 가진 대형 비은행 commercial finance 회사였다. 은행보다 낮은 leverage 대신 specialization과 wholesale funding을 이용해 spread를 벌었다.",
-      "original_thesis_ko": "2001 원문은 $20 조금 넘는 주가에서 tangible book $14.80, normal EPS $3.55, 약 5.7배 normal earnings라는 Long이다. telecom exposure는 $56bn managed assets 중 약 $350m에 불과하고 recession loss도 spread 확대가 일부 상쇄하며, 은행 대비 할인 때문에 takeout 가능성이 높다고 봤다. upside $40+, downside $15~16을 제시했다.",
-      "actual_development_ko": "촉매는 매우 빠르게 실현됐다. 2001년 3월 Tyco는 CIT를 약 $9.2bn, 주당 $35.02 가치로 인수한다고 발표했다. 직전 CIT 종가 $22.75 대비 약 54% 프리미엄이었다. 6월 인수가 완료됐다.",
-      "thesis_verdict_ko": "낮은 multiple만 산 것이 아니라 strategic buyer가 즉시 accretive하게 지불할 수 있는 가격을 역산한 것이 강점이었다. 산업 내 precedent와 buyer economics가 실제 catalyst probability를 높였다.",
-      "business_verdict_ko": "촉매는 매우 빠르게 실현됐다. 2001년 3월 Tyco는 CIT를 약 $9.2bn, 주당 $35.02 가치로 인수한다고 발표했다. 직전 CIT 종가 $22.75 대비 약 54% 프리미엄이었다. 6월 인수가 완료됐다.",
-      "catalyst_verdict_ko": "Tyco가 약 54% 프리미엄 인수 발표",
-      "valuation_verdict_ko": "단일 multiple이 아니라 probability-weighted cash flow, capital/funding path와 시간가치를 함께 사용한다.",
-      "stock_verdict_ko": "강한 성공·raw 방향오류",
-      "current_verdict_ko": "촉매는 매우 빠르게 실현됐다. 2001년 3월 Tyco는 CIT를 약 $9.2bn, 주당 $35.02 가치로 인수한다고 발표했다. 직전 CIT 종가 $22.75 대비 약 54% 프리미엄이었다. 6월 인수가 완료됐다.",
-      "overall_verdict_ko": "강한 성공·raw 방향오류",
-      "why_ko": "낮은 multiple만 산 것이 아니라 strategic buyer가 즉시 accretive하게 지불할 수 있는 가격을 역산한 것이 강점이었다. 산업 내 precedent와 buyer economics가 실제 catalyst probability를 높였다.",
-      "success_pattern_ko": "catalyst + balance-sheet path + operating KPI",
-      "failure_pattern_ko": "multiple 또는 book value를 survival/funding과 분리",
-      "root_error_ko": "cheap 금융주에서 takeout thesis는 단순 “누가 살 수 있다”가 아니라 buyer EPS accretion·funding advantage·precedent transaction으로 검증해야 한다. raw Short 표시는 원문과 정반대다.",
-      "first_signal_ko": "Tyco가 약 54% 프리미엄 인수 발표",
-      "first_signal_date": "2001-03-13",
-      "knowable_at_t0_ko": "원문 및 동시기 공시에서 segment economics, funding/capital, loss/operating KPIs와 catalyst 조건을 추적할 수 있었다.",
-      "avoidability_ko": "중간",
-      "counterfactual_question_ko": "가장 불리한 credit/funding/operating path에서도 equity survival과 3년 IRR이 hurdle을 넘는가?",
-      "analyst_note_ko": "raw SQL은 Short이나 VIC 본문은 명백한 Long이다. raw flag는 보존하고 research layer만 교정.",
-      "corrected_return_1y": null,
-      "corrected_return_3y": null,
-      "corrected_return_5y": null,
-      "confidence": 0.995,
-      "research_asof": "2026-09-05",
-      "research_status_ko": "원문 방향 전수검증 + 1차자료 외부검증 완료"
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "ticker": "CIT",
-      "research_direction_ko": "Long",
-      "company_description_ko": "2007 CIT는 commercial corporate, transportation, trade/factoring, vendor finance, student/subprime and small-business lending을 wholesale debt·CP·ABS·bank lines로 조달하는 비은행 lender였다. asset quality만큼 liability structure가 사업 생존을 결정했다.",
-      "original_thesis_ko": "원문은 $35에서 약 1x book, 6.5x annualized earnings인 Long이다. subprime portfolio는 93.8% mark와 $850m capital로 충분하고 non-home NPA는 1% 미만, $7.5bn bank lines·$5.5bn ABS facilities·$5.2bn cash로 CP market이 닫혀도 버틸 수 있다고 봤다. subprime sale/runoff를 catalyst로 제시했다.",
-      "actual_development_ko": "핵심 가정은 무너졌다. wholesale funding 비용과 liquidity 압력이 악화되며 2008~09 자산 축소와 자본조달에도 위기가 해소되지 않았다. 2009년 11월 1일 CIT는 prepackaged Chapter 11을 신청했고 12월 10일 emergence 과정에서 기존 common equity가 전부 cancelled됐다.",
-      "thesis_verdict_ko": "asset quality와 matched funding을 보는 데 집중했지만 contingent liquidity의 실질 가용성·haircut·renewal risk와 “새 영업이 멈추면 franchise earning power도 사라진다”는 liability-side reflexivity를 과소평가했다.",
-      "business_verdict_ko": "핵심 가정은 무너졌다. wholesale funding 비용과 liquidity 압력이 악화되며 2008~09 자산 축소와 자본조달에도 위기가 해소되지 않았다. 2009년 11월 1일 CIT는 prepackaged Chapter 11을 신청했고 12월 10일 emergence 과정에서 기존 common equity가 전부 cancelled됐다.",
-      "catalyst_verdict_ko": "2008 wholesale funding crisis 심화",
-      "valuation_verdict_ko": "단일 multiple이 아니라 probability-weighted cash flow, capital/funding path와 시간가치를 함께 사용한다.",
-      "stock_verdict_ko": "치명적 실패·raw 방향오류",
-      "current_verdict_ko": "핵심 가정은 무너졌다. wholesale funding 비용과 liquidity 압력이 악화되며 2008~09 자산 축소와 자본조달에도 위기가 해소되지 않았다. 2009년 11월 1일 CIT는 prepackaged Chapter 11을 신청했고 12월 10일 emergence 과정에서 기존 common equity가 전부 cancelled됐다.",
-      "overall_verdict_ko": "치명적 실패·raw 방향오류",
-      "why_ko": "asset quality와 matched funding을 보는 데 집중했지만 contingent liquidity의 실질 가용성·haircut·renewal risk와 “새 영업이 멈추면 franchise earning power도 사라진다”는 liability-side reflexivity를 과소평가했다.",
-      "success_pattern_ko": "catalyst + balance-sheet path + operating KPI",
-      "failure_pattern_ko": "multiple 또는 book value를 survival/funding과 분리",
-      "root_error_ko": "비은행 금융사는 P/TBV보다 liability ladder가 선행 변수다. committed line의 조건, 담보 haircuts, CP/ABS rollover, rating trigger와 12~24개월 cash burn을 먼저 stress해야 한다.",
-      "first_signal_ko": "2008 wholesale funding crisis 심화",
-      "first_signal_date": "2008-03-31",
-      "knowable_at_t0_ko": "원문 및 동시기 공시에서 segment economics, funding/capital, loss/operating KPIs와 catalyst 조건을 추적할 수 있었다.",
-      "avoidability_ko": "높음",
-      "counterfactual_question_ko": "가장 불리한 credit/funding/operating path에서도 equity survival과 3년 IRR이 hurdle을 넘는가?",
-      "analyst_note_ko": "raw SQL은 Short이나 VIC 본문은 명백한 Long이다. raw flag는 보존하고 research layer만 교정.",
-      "corrected_return_1y": null,
-      "corrected_return_3y": null,
-      "corrected_return_5y": null,
-      "confidence": 0.995,
-      "research_asof": "2026-09-05",
-      "research_status_ko": "원문 방향 전수검증 + 1차자료 외부검증 완료"
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "ticker": "CIT",
-      "research_direction_ko": "Long",
-      "company_description_ko": "2008 CIT는 capital-market funding 의존도가 높은 specialty finance 회사였다. borrower asset quality가 양호해도 CDS·bond spread가 폭등하면 신규자산의 NIM이 사라지고 만기부채 refinancing이 어려워지는 reflexive 구조였다.",
-      "original_thesis_ko": "원문은 $11.79, 0.45x Q1 tangible book에서 “시장 예상과 달리 CIT는 다음 Bear Stearns가 아니다”라는 Long이다. $1.5bn equity raise 후 TBV $20.20, liquidity가 2009년까지 충분하고 rail asset sale·CDS 정상화·회사 매각으로 $15~18을 기대했다. 동시에 400bp funding-cost 상승이 300~400bp NIM을 지운다는 doom loop를 정확히 설명했다.",
-      "actual_development_ko": "분석이 묘사한 doom loop가 결국 bull case보다 강했다. 추가 자본·자산매각만으로 신뢰를 회복하지 못했고 2009년 11월 prepackaged bankruptcy에 들어갔다. 12월 emergence 때 old common equity는 전부 cancelled됐다. 이후 새 CIT는 은행 중심으로 재편돼 2022년 First Citizens에 합병됐지만 이는 기존 주주의 회복이 아니었다.",
-      "thesis_verdict_ko": "위험 메커니즘을 정확히 이해했음에도 “asset quality + time + potential buyer”에 더 높은 확률을 줬다. 이는 분석 지식의 문제가 아니라 확률가중과 payoff asymmetry 문제다. equity가 0이 될 경로가 있으면 TBV 할인은 하방을 보장하지 않는다.",
-      "business_verdict_ko": "분석이 묘사한 doom loop가 결국 bull case보다 강했다. 추가 자본·자산매각만으로 신뢰를 회복하지 못했고 2009년 11월 prepackaged bankruptcy에 들어갔다. 12월 emergence 때 old common equity는 전부 cancelled됐다. 이후 새 CIT는 은행 중심으로 재편돼 2022년 First Citizens에 합병됐지만 이는 기존 주주의 회복이 아니었다.",
-      "catalyst_verdict_ko": "2008~2009 funding spread·refinancing 악화 지속",
-      "valuation_verdict_ko": "단일 multiple이 아니라 probability-weighted cash flow, capital/funding path와 시간가치를 함께 사용한다.",
-      "stock_verdict_ko": "치명적 실패·doom-loop 이해 후에도 확률오류·raw 방향오류",
-      "current_verdict_ko": "분석이 묘사한 doom loop가 결국 bull case보다 강했다. 추가 자본·자산매각만으로 신뢰를 회복하지 못했고 2009년 11월 prepackaged bankruptcy에 들어갔다. 12월 emergence 때 old common equity는 전부 cancelled됐다. 이후 새 CIT는 은행 중심으로 재편돼 2022년 First Citizens에 합병됐지만 이는 기존 주주의 회복이 아니었다.",
-      "overall_verdict_ko": "치명적 실패·doom-loop 이해 후에도 확률오류·raw 방향오류",
-      "why_ko": "위험 메커니즘을 정확히 이해했음에도 “asset quality + time + potential buyer”에 더 높은 확률을 줬다. 이는 분석 지식의 문제가 아니라 확률가중과 payoff asymmetry 문제다. equity가 0이 될 경로가 있으면 TBV 할인은 하방을 보장하지 않는다.",
-      "success_pattern_ko": "catalyst + balance-sheet path + operating KPI",
-      "failure_pattern_ko": "multiple 또는 book value를 survival/funding과 분리",
-      "root_error_ko": "reflexive finance에서 book value는 funding access가 살아 있을 때만 anchor다. survival probability를 먼저 계산하고, 그 다음에 conditional recovery value를 곱해야 한다.",
-      "first_signal_ko": "2008~2009 funding spread·refinancing 악화 지속",
-      "first_signal_date": "2008-09-30",
-      "knowable_at_t0_ko": "원문 및 동시기 공시에서 segment economics, funding/capital, loss/operating KPIs와 catalyst 조건을 추적할 수 있었다.",
-      "avoidability_ko": "높음",
-      "counterfactual_question_ko": "가장 불리한 credit/funding/operating path에서도 equity survival과 3년 IRR이 hurdle을 넘는가?",
-      "analyst_note_ko": "raw SQL은 Short이나 VIC 본문은 명백한 Long이다. raw flag는 보존하고 research layer만 교정.",
-      "corrected_return_1y": null,
-      "corrected_return_3y": null,
-      "corrected_return_5y": null,
-      "confidence": 0.999,
       "research_asof": "2026-09-05",
       "research_status_ko": "원문 방향 전수검증 + 1차자료 외부검증 완료"
     }
@@ -977,186 +812,6 @@
       "section_order": 10,
       "section_title_ko": "최종 판정",
       "section_body_ko": "성공·촉매 적중·raw 방향오류 — 이 사례의 재사용 가능한 결론은 가격이 싸다는 사실과 equity가 안전하다는 사실을 분리하고, 방향 metadata보다 원문 서술을 우선 검증하는 것이다."
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "section_order": 1,
-      "section_title_ko": "무슨 기업인가",
-      "section_body_ko": "CIT Group은 equipment·aircraft/rail leasing, vendor finance, factoring, asset-based lending와 consumer finance를 가진 대형 비은행 commercial finance 회사였다. 은행보다 낮은 leverage 대신 specialization과 wholesale funding을 이용해 spread를 벌었다."
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "section_order": 2,
-      "section_title_ko": "당시 VIC 원 논지",
-      "section_body_ko": "2001 원문은 $20 조금 넘는 주가에서 tangible book $14.80, normal EPS $3.55, 약 5.7배 normal earnings라는 Long이다. telecom exposure는 $56bn managed assets 중 약 $350m에 불과하고 recession loss도 spread 확대가 일부 상쇄하며, 은행 대비 할인 때문에 takeout 가능성이 높다고 봤다. upside $40+, downside $15~16을 제시했다."
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "section_order": 3,
-      "section_title_ko": "핵심 claim 분해",
-      "section_body_ko": "2001 원문은 $20 조금 넘는 주가에서 tangible book $14.80, normal EPS $3.55, 약 5.7배 normal earnings라는 Long이다. telecom exposure는 $56bn managed assets 중 약 $350m에 불과하고 recession loss도 spread 확대가 일부 상쇄하며, 은행 대비 할인 때문에 takeout 가능성이 높다고 봤다. upside $40+, downside $15~16을 제시했다. 핵심은 사업의 회계상 분류가 아니라 실제 cash-flow와 capital/funding 경로를 claim별로 분리하는 데 있다."
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "section_order": 4,
-      "section_title_ko": "T0에서 알 수 있었던 것",
-      "section_body_ko": "cheap 금융주에서 takeout thesis는 단순 “누가 살 수 있다”가 아니라 buyer EPS accretion·funding advantage·precedent transaction으로 검증해야 한다. raw Short 표시는 원문과 정반대다. 이 변수들은 T0 공시와 원문에서 상당 부분 확인 가능했고, 반증조건을 사전에 숫자로 정했어야 한다."
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "section_order": 5,
-      "section_title_ko": "실제 전개",
-      "section_body_ko": "촉매는 매우 빠르게 실현됐다. 2001년 3월 Tyco는 CIT를 약 $9.2bn, 주당 $35.02 가치로 인수한다고 발표했다. 직전 CIT 종가 $22.75 대비 약 54% 프리미엄이었다. 6월 인수가 완료됐다."
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "section_order": 6,
-      "section_title_ko": "촉매 검증",
-      "section_body_ko": "Tyco가 약 54% 프리미엄 인수 발표가 첫 번째 중요한 신호였다. 촉매가 발생했는지뿐 아니라 촉매 이후 RemainCo/자본구조가 어떻게 변했는지를 함께 본다."
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "section_order": 7,
-      "section_title_ko": "밸류에이션 검증",
-      "section_body_ko": "낮은 multiple만 산 것이 아니라 strategic buyer가 즉시 accretive하게 지불할 수 있는 가격을 역산한 것이 강점이었다. 산업 내 precedent와 buyer economics가 실제 catalyst probability를 높였다. 따라서 당시 multiple 자체보다 survival·normalized cash flow·asset separation을 probability-weighted로 재평가해야 한다."
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "section_order": 8,
-      "section_title_ko": "무엇을 맞혔고 틀렸나",
-      "section_body_ko": "낮은 multiple만 산 것이 아니라 strategic buyer가 즉시 accretive하게 지불할 수 있는 가격을 역산한 것이 강점이었다. 산업 내 precedent와 buyer economics가 실제 catalyst probability를 높였다."
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "section_order": 9,
-      "section_title_ko": "근본 오류·재사용 교훈",
-      "section_body_ko": "cheap 금융주에서 takeout thesis는 단순 “누가 살 수 있다”가 아니라 buyer EPS accretion·funding advantage·precedent transaction으로 검증해야 한다. raw Short 표시는 원문과 정반대다."
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "section_order": 10,
-      "section_title_ko": "최종 판정",
-      "section_body_ko": "강한 성공·raw 방향오류 — 이 사례의 재사용 가능한 결론은 가격이 싸다는 사실과 equity가 안전하다는 사실을 분리하고, 방향 metadata보다 원문 서술을 우선 검증하는 것이다."
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "section_order": 1,
-      "section_title_ko": "무슨 기업인가",
-      "section_body_ko": "2007 CIT는 commercial corporate, transportation, trade/factoring, vendor finance, student/subprime and small-business lending을 wholesale debt·CP·ABS·bank lines로 조달하는 비은행 lender였다. asset quality만큼 liability structure가 사업 생존을 결정했다."
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "section_order": 2,
-      "section_title_ko": "당시 VIC 원 논지",
-      "section_body_ko": "원문은 $35에서 약 1x book, 6.5x annualized earnings인 Long이다. subprime portfolio는 93.8% mark와 $850m capital로 충분하고 non-home NPA는 1% 미만, $7.5bn bank lines·$5.5bn ABS facilities·$5.2bn cash로 CP market이 닫혀도 버틸 수 있다고 봤다. subprime sale/runoff를 catalyst로 제시했다."
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "section_order": 3,
-      "section_title_ko": "핵심 claim 분해",
-      "section_body_ko": "원문은 $35에서 약 1x book, 6.5x annualized earnings인 Long이다. subprime portfolio는 93.8% mark와 $850m capital로 충분하고 non-home NPA는 1% 미만, $7.5bn bank lines·$5.5bn ABS facilities·$5.2bn cash로 CP market이 닫혀도 버틸 수 있다고 봤다. subprime sale/runoff를 catalyst로 제시했다. 핵심은 사업의 회계상 분류가 아니라 실제 cash-flow와 capital/funding 경로를 claim별로 분리하는 데 있다."
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "section_order": 4,
-      "section_title_ko": "T0에서 알 수 있었던 것",
-      "section_body_ko": "비은행 금융사는 P/TBV보다 liability ladder가 선행 변수다. committed line의 조건, 담보 haircuts, CP/ABS rollover, rating trigger와 12~24개월 cash burn을 먼저 stress해야 한다. 이 변수들은 T0 공시와 원문에서 상당 부분 확인 가능했고, 반증조건을 사전에 숫자로 정했어야 한다."
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "section_order": 5,
-      "section_title_ko": "실제 전개",
-      "section_body_ko": "핵심 가정은 무너졌다. wholesale funding 비용과 liquidity 압력이 악화되며 2008~09 자산 축소와 자본조달에도 위기가 해소되지 않았다. 2009년 11월 1일 CIT는 prepackaged Chapter 11을 신청했고 12월 10일 emergence 과정에서 기존 common equity가 전부 cancelled됐다."
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "section_order": 6,
-      "section_title_ko": "촉매 검증",
-      "section_body_ko": "2008 wholesale funding crisis 심화가 첫 번째 중요한 신호였다. 촉매가 발생했는지뿐 아니라 촉매 이후 RemainCo/자본구조가 어떻게 변했는지를 함께 본다."
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "section_order": 7,
-      "section_title_ko": "밸류에이션 검증",
-      "section_body_ko": "asset quality와 matched funding을 보는 데 집중했지만 contingent liquidity의 실질 가용성·haircut·renewal risk와 “새 영업이 멈추면 franchise earning power도 사라진다”는 liability-side reflexivity를 과소평가했다. 따라서 당시 multiple 자체보다 survival·normalized cash flow·asset separation을 probability-weighted로 재평가해야 한다."
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "section_order": 8,
-      "section_title_ko": "무엇을 맞혔고 틀렸나",
-      "section_body_ko": "asset quality와 matched funding을 보는 데 집중했지만 contingent liquidity의 실질 가용성·haircut·renewal risk와 “새 영업이 멈추면 franchise earning power도 사라진다”는 liability-side reflexivity를 과소평가했다."
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "section_order": 9,
-      "section_title_ko": "근본 오류·재사용 교훈",
-      "section_body_ko": "비은행 금융사는 P/TBV보다 liability ladder가 선행 변수다. committed line의 조건, 담보 haircuts, CP/ABS rollover, rating trigger와 12~24개월 cash burn을 먼저 stress해야 한다."
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "section_order": 10,
-      "section_title_ko": "최종 판정",
-      "section_body_ko": "치명적 실패·raw 방향오류 — 이 사례의 재사용 가능한 결론은 가격이 싸다는 사실과 equity가 안전하다는 사실을 분리하고, 방향 metadata보다 원문 서술을 우선 검증하는 것이다."
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "section_order": 1,
-      "section_title_ko": "무슨 기업인가",
-      "section_body_ko": "2008 CIT는 capital-market funding 의존도가 높은 specialty finance 회사였다. borrower asset quality가 양호해도 CDS·bond spread가 폭등하면 신규자산의 NIM이 사라지고 만기부채 refinancing이 어려워지는 reflexive 구조였다."
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "section_order": 2,
-      "section_title_ko": "당시 VIC 원 논지",
-      "section_body_ko": "원문은 $11.79, 0.45x Q1 tangible book에서 “시장 예상과 달리 CIT는 다음 Bear Stearns가 아니다”라는 Long이다. $1.5bn equity raise 후 TBV $20.20, liquidity가 2009년까지 충분하고 rail asset sale·CDS 정상화·회사 매각으로 $15~18을 기대했다. 동시에 400bp funding-cost 상승이 300~400bp NIM을 지운다는 doom loop를 정확히 설명했다."
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "section_order": 3,
-      "section_title_ko": "핵심 claim 분해",
-      "section_body_ko": "원문은 $11.79, 0.45x Q1 tangible book에서 “시장 예상과 달리 CIT는 다음 Bear Stearns가 아니다”라는 Long이다. $1.5bn equity raise 후 TBV $20.20, liquidity가 2009년까지 충분하고 rail asset sale·CDS 정상화·회사 매각으로 $15~18을 기대했다. 동시에 400bp funding-cost 상승이 300~400bp NIM을 지운다는 doom loop를 정확히 설명했다. 핵심은 사업의 회계상 분류가 아니라 실제 cash-flow와 capital/funding 경로를 claim별로 분리하는 데 있다."
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "section_order": 4,
-      "section_title_ko": "T0에서 알 수 있었던 것",
-      "section_body_ko": "reflexive finance에서 book value는 funding access가 살아 있을 때만 anchor다. survival probability를 먼저 계산하고, 그 다음에 conditional recovery value를 곱해야 한다. 이 변수들은 T0 공시와 원문에서 상당 부분 확인 가능했고, 반증조건을 사전에 숫자로 정했어야 한다."
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "section_order": 5,
-      "section_title_ko": "실제 전개",
-      "section_body_ko": "분석이 묘사한 doom loop가 결국 bull case보다 강했다. 추가 자본·자산매각만으로 신뢰를 회복하지 못했고 2009년 11월 prepackaged bankruptcy에 들어갔다. 12월 emergence 때 old common equity는 전부 cancelled됐다. 이후 새 CIT는 은행 중심으로 재편돼 2022년 First Citizens에 합병됐지만 이는 기존 주주의 회복이 아니었다."
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "section_order": 6,
-      "section_title_ko": "촉매 검증",
-      "section_body_ko": "2008~2009 funding spread·refinancing 악화 지속가 첫 번째 중요한 신호였다. 촉매가 발생했는지뿐 아니라 촉매 이후 RemainCo/자본구조가 어떻게 변했는지를 함께 본다."
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "section_order": 7,
-      "section_title_ko": "밸류에이션 검증",
-      "section_body_ko": "위험 메커니즘을 정확히 이해했음에도 “asset quality + time + potential buyer”에 더 높은 확률을 줬다. 이는 분석 지식의 문제가 아니라 확률가중과 payoff asymmetry 문제다. equity가 0이 될 경로가 있으면 TBV 할인은 하방을 보장하지 않는다. 따라서 당시 multiple 자체보다 survival·normalized cash flow·asset separation을 probability-weighted로 재평가해야 한다."
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "section_order": 8,
-      "section_title_ko": "무엇을 맞혔고 틀렸나",
-      "section_body_ko": "위험 메커니즘을 정확히 이해했음에도 “asset quality + time + potential buyer”에 더 높은 확률을 줬다. 이는 분석 지식의 문제가 아니라 확률가중과 payoff asymmetry 문제다. equity가 0이 될 경로가 있으면 TBV 할인은 하방을 보장하지 않는다."
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "section_order": 9,
-      "section_title_ko": "근본 오류·재사용 교훈",
-      "section_body_ko": "reflexive finance에서 book value는 funding access가 살아 있을 때만 anchor다. survival probability를 먼저 계산하고, 그 다음에 conditional recovery value를 곱해야 한다."
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "section_order": 10,
-      "section_title_ko": "최종 판정",
-      "section_body_ko": "치명적 실패·doom-loop 이해 후에도 확률오류·raw 방향오류 — 이 사례의 재사용 가능한 결론은 가격이 싸다는 사실과 equity가 안전하다는 사실을 분리하고, 방향 metadata보다 원문 서술을 우선 검증하는 것이다."
     }
   ],
   "claims": [
@@ -1789,276 +1444,6 @@
       "verdict_ko": "성공·촉매 적중·raw 방향오류",
       "analytical_error_ko": "금융 turnaround Long은 normalized EPS보다 먼저 reserve coverage·capital upstreaming·liquidity runway·loss vintage를 확인해야 한다. 이 네 변수가 개선될 때 low multiple이 실제 catalyst와 연결된다.",
       "reusable_lesson_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다."
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "claim_order": 1,
-      "claim_title_ko": "business/segment economics",
-      "thesis_weight_pct": 20,
-      "original_claim_ko": "2001 원문은 $20 조금 넘는 주가에서 tangible book $14.80, normal EPS $3.55, 약 5.7배 normal earnings라는 Long이다. telecom exposure는 $56bn managed assets 중 약 $350m에 불과하고 recession loss도 spread 확대가 일부 상쇄하며, 은행 대비 할인 때문에 takeout 가능성이 높다고 봤다. upside $40+, downside $15~16을 제시했다.",
-      "t0_evidence_ko": "VIC 원문과 동시기 회사/SEC 공시의 재무·사업·funding 정보를 교차검증.",
-      "key_assumption_ko": "이 claim이 accounting metric을 넘어 equity cash flow와 survival probability에 실제로 전달된다.",
-      "ex_ante_falsifier_ko": "핵심 operating/funding/capital 지표가 원 논지 반대방향으로 2개 분기 이상 지속되거나 촉매 후 RemainCo 가치가 감소.",
-      "actual_result_ko": "촉매는 매우 빠르게 실현됐다. 2001년 3월 Tyco는 CIT를 약 $9.2bn, 주당 $35.02 가치로 인수한다고 발표했다. 직전 CIT 종가 $22.75 대비 약 54% 프리미엄이었다. 6월 인수가 완료됐다.",
-      "quantitative_gap_ko": "약 $20~22.75",
-      "verdict_ko": "강한 성공·raw 방향오류",
-      "analytical_error_ko": "cheap 금융주에서 takeout thesis는 단순 “누가 살 수 있다”가 아니라 buyer EPS accretion·funding advantage·precedent transaction으로 검증해야 한다. raw Short 표시는 원문과 정반대다.",
-      "reusable_lesson_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다."
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "claim_order": 2,
-      "claim_title_ko": "valuation and capital structure",
-      "thesis_weight_pct": 18,
-      "original_claim_ko": "2001 원문은 $20 조금 넘는 주가에서 tangible book $14.80, normal EPS $3.55, 약 5.7배 normal earnings라는 Long이다. telecom exposure는 $56bn managed assets 중 약 $350m에 불과하고 recession loss도 spread 확대가 일부 상쇄하며, 은행 대비 할인 때문에 takeout 가능성이 높다고 봤다. upside $40+, downside $15~16을 제시했다.",
-      "t0_evidence_ko": "VIC 원문과 동시기 회사/SEC 공시의 재무·사업·funding 정보를 교차검증.",
-      "key_assumption_ko": "이 claim이 accounting metric을 넘어 equity cash flow와 survival probability에 실제로 전달된다.",
-      "ex_ante_falsifier_ko": "핵심 operating/funding/capital 지표가 원 논지 반대방향으로 2개 분기 이상 지속되거나 촉매 후 RemainCo 가치가 감소.",
-      "actual_result_ko": "촉매는 매우 빠르게 실현됐다. 2001년 3월 Tyco는 CIT를 약 $9.2bn, 주당 $35.02 가치로 인수한다고 발표했다. 직전 CIT 종가 $22.75 대비 약 54% 프리미엄이었다. 6월 인수가 완료됐다.",
-      "quantitative_gap_ko": "$3.55",
-      "verdict_ko": "강한 성공·raw 방향오류",
-      "analytical_error_ko": "cheap 금융주에서 takeout thesis는 단순 “누가 살 수 있다”가 아니라 buyer EPS accretion·funding advantage·precedent transaction으로 검증해야 한다. raw Short 표시는 원문과 정반대다.",
-      "reusable_lesson_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다."
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "claim_order": 3,
-      "claim_title_ko": "credit/funding or operating risk",
-      "thesis_weight_pct": 17,
-      "original_claim_ko": "2001 원문은 $20 조금 넘는 주가에서 tangible book $14.80, normal EPS $3.55, 약 5.7배 normal earnings라는 Long이다. telecom exposure는 $56bn managed assets 중 약 $350m에 불과하고 recession loss도 spread 확대가 일부 상쇄하며, 은행 대비 할인 때문에 takeout 가능성이 높다고 봤다. upside $40+, downside $15~16을 제시했다.",
-      "t0_evidence_ko": "VIC 원문과 동시기 회사/SEC 공시의 재무·사업·funding 정보를 교차검증.",
-      "key_assumption_ko": "이 claim이 accounting metric을 넘어 equity cash flow와 survival probability에 실제로 전달된다.",
-      "ex_ante_falsifier_ko": "핵심 operating/funding/capital 지표가 원 논지 반대방향으로 2개 분기 이상 지속되거나 촉매 후 RemainCo 가치가 감소.",
-      "actual_result_ko": "촉매는 매우 빠르게 실현됐다. 2001년 3월 Tyco는 CIT를 약 $9.2bn, 주당 $35.02 가치로 인수한다고 발표했다. 직전 CIT 종가 $22.75 대비 약 54% 프리미엄이었다. 6월 인수가 완료됐다.",
-      "quantitative_gap_ko": "$35.02/share",
-      "verdict_ko": "강한 성공·raw 방향오류",
-      "analytical_error_ko": "cheap 금융주에서 takeout thesis는 단순 “누가 살 수 있다”가 아니라 buyer EPS accretion·funding advantage·precedent transaction으로 검증해야 한다. raw Short 표시는 원문과 정반대다.",
-      "reusable_lesson_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다."
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "claim_order": 4,
-      "claim_title_ko": "catalyst path",
-      "thesis_weight_pct": 16,
-      "original_claim_ko": "2001 원문은 $20 조금 넘는 주가에서 tangible book $14.80, normal EPS $3.55, 약 5.7배 normal earnings라는 Long이다. telecom exposure는 $56bn managed assets 중 약 $350m에 불과하고 recession loss도 spread 확대가 일부 상쇄하며, 은행 대비 할인 때문에 takeout 가능성이 높다고 봤다. upside $40+, downside $15~16을 제시했다.",
-      "t0_evidence_ko": "VIC 원문과 동시기 회사/SEC 공시의 재무·사업·funding 정보를 교차검증.",
-      "key_assumption_ko": "이 claim이 accounting metric을 넘어 equity cash flow와 survival probability에 실제로 전달된다.",
-      "ex_ante_falsifier_ko": "핵심 operating/funding/capital 지표가 원 논지 반대방향으로 2개 분기 이상 지속되거나 촉매 후 RemainCo 가치가 감소.",
-      "actual_result_ko": "촉매는 매우 빠르게 실현됐다. 2001년 3월 Tyco는 CIT를 약 $9.2bn, 주당 $35.02 가치로 인수한다고 발표했다. 직전 CIT 종가 $22.75 대비 약 54% 프리미엄이었다. 6월 인수가 완료됐다.",
-      "quantitative_gap_ko": "약 54%",
-      "verdict_ko": "강한 성공·raw 방향오류",
-      "analytical_error_ko": "cheap 금융주에서 takeout thesis는 단순 “누가 살 수 있다”가 아니라 buyer EPS accretion·funding advantage·precedent transaction으로 검증해야 한다. raw Short 표시는 원문과 정반대다.",
-      "reusable_lesson_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다."
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "claim_order": 5,
-      "claim_title_ko": "management/capital allocation",
-      "thesis_weight_pct": 15,
-      "original_claim_ko": "2001 원문은 $20 조금 넘는 주가에서 tangible book $14.80, normal EPS $3.55, 약 5.7배 normal earnings라는 Long이다. telecom exposure는 $56bn managed assets 중 약 $350m에 불과하고 recession loss도 spread 확대가 일부 상쇄하며, 은행 대비 할인 때문에 takeout 가능성이 높다고 봤다. upside $40+, downside $15~16을 제시했다.",
-      "t0_evidence_ko": "VIC 원문과 동시기 회사/SEC 공시의 재무·사업·funding 정보를 교차검증.",
-      "key_assumption_ko": "이 claim이 accounting metric을 넘어 equity cash flow와 survival probability에 실제로 전달된다.",
-      "ex_ante_falsifier_ko": "핵심 operating/funding/capital 지표가 원 논지 반대방향으로 2개 분기 이상 지속되거나 촉매 후 RemainCo 가치가 감소.",
-      "actual_result_ko": "촉매는 매우 빠르게 실현됐다. 2001년 3월 Tyco는 CIT를 약 $9.2bn, 주당 $35.02 가치로 인수한다고 발표했다. 직전 CIT 종가 $22.75 대비 약 54% 프리미엄이었다. 6월 인수가 완료됐다.",
-      "quantitative_gap_ko": "약 54%",
-      "verdict_ko": "강한 성공·raw 방향오류",
-      "analytical_error_ko": "cheap 금융주에서 takeout thesis는 단순 “누가 살 수 있다”가 아니라 buyer EPS accretion·funding advantage·precedent transaction으로 검증해야 한다. raw Short 표시는 원문과 정반대다.",
-      "reusable_lesson_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다."
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "claim_order": 6,
-      "claim_title_ko": "terminal outcome and falsifier",
-      "thesis_weight_pct": 14,
-      "original_claim_ko": "2001 원문은 $20 조금 넘는 주가에서 tangible book $14.80, normal EPS $3.55, 약 5.7배 normal earnings라는 Long이다. telecom exposure는 $56bn managed assets 중 약 $350m에 불과하고 recession loss도 spread 확대가 일부 상쇄하며, 은행 대비 할인 때문에 takeout 가능성이 높다고 봤다. upside $40+, downside $15~16을 제시했다.",
-      "t0_evidence_ko": "VIC 원문과 동시기 회사/SEC 공시의 재무·사업·funding 정보를 교차검증.",
-      "key_assumption_ko": "이 claim이 accounting metric을 넘어 equity cash flow와 survival probability에 실제로 전달된다.",
-      "ex_ante_falsifier_ko": "핵심 operating/funding/capital 지표가 원 논지 반대방향으로 2개 분기 이상 지속되거나 촉매 후 RemainCo 가치가 감소.",
-      "actual_result_ko": "촉매는 매우 빠르게 실현됐다. 2001년 3월 Tyco는 CIT를 약 $9.2bn, 주당 $35.02 가치로 인수한다고 발표했다. 직전 CIT 종가 $22.75 대비 약 54% 프리미엄이었다. 6월 인수가 완료됐다.",
-      "quantitative_gap_ko": "약 54%",
-      "verdict_ko": "강한 성공·raw 방향오류",
-      "analytical_error_ko": "cheap 금융주에서 takeout thesis는 단순 “누가 살 수 있다”가 아니라 buyer EPS accretion·funding advantage·precedent transaction으로 검증해야 한다. raw Short 표시는 원문과 정반대다.",
-      "reusable_lesson_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다."
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "claim_order": 1,
-      "claim_title_ko": "business/segment economics",
-      "thesis_weight_pct": 20,
-      "original_claim_ko": "원문은 $35에서 약 1x book, 6.5x annualized earnings인 Long이다. subprime portfolio는 93.8% mark와 $850m capital로 충분하고 non-home NPA는 1% 미만, $7.5bn bank lines·$5.5bn ABS facilities·$5.2bn cash로 CP market이 닫혀도 버틸 수 있다고 봤다. subprime sale/runoff를 catalyst로 제시했다.",
-      "t0_evidence_ko": "VIC 원문과 동시기 회사/SEC 공시의 재무·사업·funding 정보를 교차검증.",
-      "key_assumption_ko": "이 claim이 accounting metric을 넘어 equity cash flow와 survival probability에 실제로 전달된다.",
-      "ex_ante_falsifier_ko": "핵심 operating/funding/capital 지표가 원 논지 반대방향으로 2개 분기 이상 지속되거나 촉매 후 RemainCo 가치가 감소.",
-      "actual_result_ko": "핵심 가정은 무너졌다. wholesale funding 비용과 liquidity 압력이 악화되며 2008~09 자산 축소와 자본조달에도 위기가 해소되지 않았다. 2009년 11월 1일 CIT는 prepackaged Chapter 11을 신청했고 12월 10일 emergence 과정에서 기존 common equity가 전부 cancelled됐다.",
-      "quantitative_gap_ko": "$35",
-      "verdict_ko": "치명적 실패·raw 방향오류",
-      "analytical_error_ko": "비은행 금융사는 P/TBV보다 liability ladder가 선행 변수다. committed line의 조건, 담보 haircuts, CP/ABS rollover, rating trigger와 12~24개월 cash burn을 먼저 stress해야 한다.",
-      "reusable_lesson_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다."
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "claim_order": 2,
-      "claim_title_ko": "valuation and capital structure",
-      "thesis_weight_pct": 18,
-      "original_claim_ko": "원문은 $35에서 약 1x book, 6.5x annualized earnings인 Long이다. subprime portfolio는 93.8% mark와 $850m capital로 충분하고 non-home NPA는 1% 미만, $7.5bn bank lines·$5.5bn ABS facilities·$5.2bn cash로 CP market이 닫혀도 버틸 수 있다고 봤다. subprime sale/runoff를 catalyst로 제시했다.",
-      "t0_evidence_ko": "VIC 원문과 동시기 회사/SEC 공시의 재무·사업·funding 정보를 교차검증.",
-      "key_assumption_ko": "이 claim이 accounting metric을 넘어 equity cash flow와 survival probability에 실제로 전달된다.",
-      "ex_ante_falsifier_ko": "핵심 operating/funding/capital 지표가 원 논지 반대방향으로 2개 분기 이상 지속되거나 촉매 후 RemainCo 가치가 감소.",
-      "actual_result_ko": "핵심 가정은 무너졌다. wholesale funding 비용과 liquidity 압력이 악화되며 2008~09 자산 축소와 자본조달에도 위기가 해소되지 않았다. 2009년 11월 1일 CIT는 prepackaged Chapter 11을 신청했고 12월 10일 emergence 과정에서 기존 common equity가 전부 cancelled됐다.",
-      "quantitative_gap_ko": "약 1x book / 6.5x earnings",
-      "verdict_ko": "치명적 실패·raw 방향오류",
-      "analytical_error_ko": "비은행 금융사는 P/TBV보다 liability ladder가 선행 변수다. committed line의 조건, 담보 haircuts, CP/ABS rollover, rating trigger와 12~24개월 cash burn을 먼저 stress해야 한다.",
-      "reusable_lesson_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다."
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "claim_order": 3,
-      "claim_title_ko": "credit/funding or operating risk",
-      "thesis_weight_pct": 17,
-      "original_claim_ko": "원문은 $35에서 약 1x book, 6.5x annualized earnings인 Long이다. subprime portfolio는 93.8% mark와 $850m capital로 충분하고 non-home NPA는 1% 미만, $7.5bn bank lines·$5.5bn ABS facilities·$5.2bn cash로 CP market이 닫혀도 버틸 수 있다고 봤다. subprime sale/runoff를 catalyst로 제시했다.",
-      "t0_evidence_ko": "VIC 원문과 동시기 회사/SEC 공시의 재무·사업·funding 정보를 교차검증.",
-      "key_assumption_ko": "이 claim이 accounting metric을 넘어 equity cash flow와 survival probability에 실제로 전달된다.",
-      "ex_ante_falsifier_ko": "핵심 operating/funding/capital 지표가 원 논지 반대방향으로 2개 분기 이상 지속되거나 촉매 후 RemainCo 가치가 감소.",
-      "actual_result_ko": "핵심 가정은 무너졌다. wholesale funding 비용과 liquidity 압력이 악화되며 2008~09 자산 축소와 자본조달에도 위기가 해소되지 않았다. 2009년 11월 1일 CIT는 prepackaged Chapter 11을 신청했고 12월 10일 emergence 과정에서 기존 common equity가 전부 cancelled됐다.",
-      "quantitative_gap_ko": "$7.5bn lines + $5.5bn ABS + $5.2bn cash",
-      "verdict_ko": "치명적 실패·raw 방향오류",
-      "analytical_error_ko": "비은행 금융사는 P/TBV보다 liability ladder가 선행 변수다. committed line의 조건, 담보 haircuts, CP/ABS rollover, rating trigger와 12~24개월 cash burn을 먼저 stress해야 한다.",
-      "reusable_lesson_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다."
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "claim_order": 4,
-      "claim_title_ko": "catalyst path",
-      "thesis_weight_pct": 16,
-      "original_claim_ko": "원문은 $35에서 약 1x book, 6.5x annualized earnings인 Long이다. subprime portfolio는 93.8% mark와 $850m capital로 충분하고 non-home NPA는 1% 미만, $7.5bn bank lines·$5.5bn ABS facilities·$5.2bn cash로 CP market이 닫혀도 버틸 수 있다고 봤다. subprime sale/runoff를 catalyst로 제시했다.",
-      "t0_evidence_ko": "VIC 원문과 동시기 회사/SEC 공시의 재무·사업·funding 정보를 교차검증.",
-      "key_assumption_ko": "이 claim이 accounting metric을 넘어 equity cash flow와 survival probability에 실제로 전달된다.",
-      "ex_ante_falsifier_ko": "핵심 operating/funding/capital 지표가 원 논지 반대방향으로 2개 분기 이상 지속되거나 촉매 후 RemainCo 가치가 감소.",
-      "actual_result_ko": "핵심 가정은 무너졌다. wholesale funding 비용과 liquidity 압력이 악화되며 2008~09 자산 축소와 자본조달에도 위기가 해소되지 않았다. 2009년 11월 1일 CIT는 prepackaged Chapter 11을 신청했고 12월 10일 emergence 과정에서 기존 common equity가 전부 cancelled됐다.",
-      "quantitative_gap_ko": "old common 100% cancelled",
-      "verdict_ko": "치명적 실패·raw 방향오류",
-      "analytical_error_ko": "비은행 금융사는 P/TBV보다 liability ladder가 선행 변수다. committed line의 조건, 담보 haircuts, CP/ABS rollover, rating trigger와 12~24개월 cash burn을 먼저 stress해야 한다.",
-      "reusable_lesson_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다."
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "claim_order": 5,
-      "claim_title_ko": "management/capital allocation",
-      "thesis_weight_pct": 15,
-      "original_claim_ko": "원문은 $35에서 약 1x book, 6.5x annualized earnings인 Long이다. subprime portfolio는 93.8% mark와 $850m capital로 충분하고 non-home NPA는 1% 미만, $7.5bn bank lines·$5.5bn ABS facilities·$5.2bn cash로 CP market이 닫혀도 버틸 수 있다고 봤다. subprime sale/runoff를 catalyst로 제시했다.",
-      "t0_evidence_ko": "VIC 원문과 동시기 회사/SEC 공시의 재무·사업·funding 정보를 교차검증.",
-      "key_assumption_ko": "이 claim이 accounting metric을 넘어 equity cash flow와 survival probability에 실제로 전달된다.",
-      "ex_ante_falsifier_ko": "핵심 operating/funding/capital 지표가 원 논지 반대방향으로 2개 분기 이상 지속되거나 촉매 후 RemainCo 가치가 감소.",
-      "actual_result_ko": "핵심 가정은 무너졌다. wholesale funding 비용과 liquidity 압력이 악화되며 2008~09 자산 축소와 자본조달에도 위기가 해소되지 않았다. 2009년 11월 1일 CIT는 prepackaged Chapter 11을 신청했고 12월 10일 emergence 과정에서 기존 common equity가 전부 cancelled됐다.",
-      "quantitative_gap_ko": "old common 100% cancelled",
-      "verdict_ko": "치명적 실패·raw 방향오류",
-      "analytical_error_ko": "비은행 금융사는 P/TBV보다 liability ladder가 선행 변수다. committed line의 조건, 담보 haircuts, CP/ABS rollover, rating trigger와 12~24개월 cash burn을 먼저 stress해야 한다.",
-      "reusable_lesson_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다."
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "claim_order": 6,
-      "claim_title_ko": "terminal outcome and falsifier",
-      "thesis_weight_pct": 14,
-      "original_claim_ko": "원문은 $35에서 약 1x book, 6.5x annualized earnings인 Long이다. subprime portfolio는 93.8% mark와 $850m capital로 충분하고 non-home NPA는 1% 미만, $7.5bn bank lines·$5.5bn ABS facilities·$5.2bn cash로 CP market이 닫혀도 버틸 수 있다고 봤다. subprime sale/runoff를 catalyst로 제시했다.",
-      "t0_evidence_ko": "VIC 원문과 동시기 회사/SEC 공시의 재무·사업·funding 정보를 교차검증.",
-      "key_assumption_ko": "이 claim이 accounting metric을 넘어 equity cash flow와 survival probability에 실제로 전달된다.",
-      "ex_ante_falsifier_ko": "핵심 operating/funding/capital 지표가 원 논지 반대방향으로 2개 분기 이상 지속되거나 촉매 후 RemainCo 가치가 감소.",
-      "actual_result_ko": "핵심 가정은 무너졌다. wholesale funding 비용과 liquidity 압력이 악화되며 2008~09 자산 축소와 자본조달에도 위기가 해소되지 않았다. 2009년 11월 1일 CIT는 prepackaged Chapter 11을 신청했고 12월 10일 emergence 과정에서 기존 common equity가 전부 cancelled됐다.",
-      "quantitative_gap_ko": "old common 100% cancelled",
-      "verdict_ko": "치명적 실패·raw 방향오류",
-      "analytical_error_ko": "비은행 금융사는 P/TBV보다 liability ladder가 선행 변수다. committed line의 조건, 담보 haircuts, CP/ABS rollover, rating trigger와 12~24개월 cash burn을 먼저 stress해야 한다.",
-      "reusable_lesson_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다."
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "claim_order": 1,
-      "claim_title_ko": "business/segment economics",
-      "thesis_weight_pct": 20,
-      "original_claim_ko": "원문은 $11.79, 0.45x Q1 tangible book에서 “시장 예상과 달리 CIT는 다음 Bear Stearns가 아니다”라는 Long이다. $1.5bn equity raise 후 TBV $20.20, liquidity가 2009년까지 충분하고 rail asset sale·CDS 정상화·회사 매각으로 $15~18을 기대했다. 동시에 400bp funding-cost 상승이 300~400bp NIM을 지운다는 doom loop를 정확히 설명했다.",
-      "t0_evidence_ko": "VIC 원문과 동시기 회사/SEC 공시의 재무·사업·funding 정보를 교차검증.",
-      "key_assumption_ko": "이 claim이 accounting metric을 넘어 equity cash flow와 survival probability에 실제로 전달된다.",
-      "ex_ante_falsifier_ko": "핵심 operating/funding/capital 지표가 원 논지 반대방향으로 2개 분기 이상 지속되거나 촉매 후 RemainCo 가치가 감소.",
-      "actual_result_ko": "분석이 묘사한 doom loop가 결국 bull case보다 강했다. 추가 자본·자산매각만으로 신뢰를 회복하지 못했고 2009년 11월 prepackaged bankruptcy에 들어갔다. 12월 emergence 때 old common equity는 전부 cancelled됐다. 이후 새 CIT는 은행 중심으로 재편돼 2022년 First Citizens에 합병됐지만 이는 기존 주주의 회복이 아니었다.",
-      "quantitative_gap_ko": "$11.79",
-      "verdict_ko": "치명적 실패·doom-loop 이해 후에도 확률오류·raw 방향오류",
-      "analytical_error_ko": "reflexive finance에서 book value는 funding access가 살아 있을 때만 anchor다. survival probability를 먼저 계산하고, 그 다음에 conditional recovery value를 곱해야 한다.",
-      "reusable_lesson_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다."
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "claim_order": 2,
-      "claim_title_ko": "valuation and capital structure",
-      "thesis_weight_pct": 18,
-      "original_claim_ko": "원문은 $11.79, 0.45x Q1 tangible book에서 “시장 예상과 달리 CIT는 다음 Bear Stearns가 아니다”라는 Long이다. $1.5bn equity raise 후 TBV $20.20, liquidity가 2009년까지 충분하고 rail asset sale·CDS 정상화·회사 매각으로 $15~18을 기대했다. 동시에 400bp funding-cost 상승이 300~400bp NIM을 지운다는 doom loop를 정확히 설명했다.",
-      "t0_evidence_ko": "VIC 원문과 동시기 회사/SEC 공시의 재무·사업·funding 정보를 교차검증.",
-      "key_assumption_ko": "이 claim이 accounting metric을 넘어 equity cash flow와 survival probability에 실제로 전달된다.",
-      "ex_ante_falsifier_ko": "핵심 operating/funding/capital 지표가 원 논지 반대방향으로 2개 분기 이상 지속되거나 촉매 후 RemainCo 가치가 감소.",
-      "actual_result_ko": "분석이 묘사한 doom loop가 결국 bull case보다 강했다. 추가 자본·자산매각만으로 신뢰를 회복하지 못했고 2009년 11월 prepackaged bankruptcy에 들어갔다. 12월 emergence 때 old common equity는 전부 cancelled됐다. 이후 새 CIT는 은행 중심으로 재편돼 2022년 First Citizens에 합병됐지만 이는 기존 주주의 회복이 아니었다.",
-      "quantitative_gap_ko": "$20.20",
-      "verdict_ko": "치명적 실패·doom-loop 이해 후에도 확률오류·raw 방향오류",
-      "analytical_error_ko": "reflexive finance에서 book value는 funding access가 살아 있을 때만 anchor다. survival probability를 먼저 계산하고, 그 다음에 conditional recovery value를 곱해야 한다.",
-      "reusable_lesson_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다."
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "claim_order": 3,
-      "claim_title_ko": "credit/funding or operating risk",
-      "thesis_weight_pct": 17,
-      "original_claim_ko": "원문은 $11.79, 0.45x Q1 tangible book에서 “시장 예상과 달리 CIT는 다음 Bear Stearns가 아니다”라는 Long이다. $1.5bn equity raise 후 TBV $20.20, liquidity가 2009년까지 충분하고 rail asset sale·CDS 정상화·회사 매각으로 $15~18을 기대했다. 동시에 400bp funding-cost 상승이 300~400bp NIM을 지운다는 doom loop를 정확히 설명했다.",
-      "t0_evidence_ko": "VIC 원문과 동시기 회사/SEC 공시의 재무·사업·funding 정보를 교차검증.",
-      "key_assumption_ko": "이 claim이 accounting metric을 넘어 equity cash flow와 survival probability에 실제로 전달된다.",
-      "ex_ante_falsifier_ko": "핵심 operating/funding/capital 지표가 원 논지 반대방향으로 2개 분기 이상 지속되거나 촉매 후 RemainCo 가치가 감소.",
-      "actual_result_ko": "분석이 묘사한 doom loop가 결국 bull case보다 강했다. 추가 자본·자산매각만으로 신뢰를 회복하지 못했고 2009년 11월 prepackaged bankruptcy에 들어갔다. 12월 emergence 때 old common equity는 전부 cancelled됐다. 이후 새 CIT는 은행 중심으로 재편돼 2022년 First Citizens에 합병됐지만 이는 기존 주주의 회복이 아니었다.",
-      "quantitative_gap_ko": "CDS +400bp",
-      "verdict_ko": "치명적 실패·doom-loop 이해 후에도 확률오류·raw 방향오류",
-      "analytical_error_ko": "reflexive finance에서 book value는 funding access가 살아 있을 때만 anchor다. survival probability를 먼저 계산하고, 그 다음에 conditional recovery value를 곱해야 한다.",
-      "reusable_lesson_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다."
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "claim_order": 4,
-      "claim_title_ko": "catalyst path",
-      "thesis_weight_pct": 16,
-      "original_claim_ko": "원문은 $11.79, 0.45x Q1 tangible book에서 “시장 예상과 달리 CIT는 다음 Bear Stearns가 아니다”라는 Long이다. $1.5bn equity raise 후 TBV $20.20, liquidity가 2009년까지 충분하고 rail asset sale·CDS 정상화·회사 매각으로 $15~18을 기대했다. 동시에 400bp funding-cost 상승이 300~400bp NIM을 지운다는 doom loop를 정확히 설명했다.",
-      "t0_evidence_ko": "VIC 원문과 동시기 회사/SEC 공시의 재무·사업·funding 정보를 교차검증.",
-      "key_assumption_ko": "이 claim이 accounting metric을 넘어 equity cash flow와 survival probability에 실제로 전달된다.",
-      "ex_ante_falsifier_ko": "핵심 operating/funding/capital 지표가 원 논지 반대방향으로 2개 분기 이상 지속되거나 촉매 후 RemainCo 가치가 감소.",
-      "actual_result_ko": "분석이 묘사한 doom loop가 결국 bull case보다 강했다. 추가 자본·자산매각만으로 신뢰를 회복하지 못했고 2009년 11월 prepackaged bankruptcy에 들어갔다. 12월 emergence 때 old common equity는 전부 cancelled됐다. 이후 새 CIT는 은행 중심으로 재편돼 2022년 First Citizens에 합병됐지만 이는 기존 주주의 회복이 아니었다.",
-      "quantitative_gap_ko": "old common cancelled",
-      "verdict_ko": "치명적 실패·doom-loop 이해 후에도 확률오류·raw 방향오류",
-      "analytical_error_ko": "reflexive finance에서 book value는 funding access가 살아 있을 때만 anchor다. survival probability를 먼저 계산하고, 그 다음에 conditional recovery value를 곱해야 한다.",
-      "reusable_lesson_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다."
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "claim_order": 5,
-      "claim_title_ko": "management/capital allocation",
-      "thesis_weight_pct": 15,
-      "original_claim_ko": "원문은 $11.79, 0.45x Q1 tangible book에서 “시장 예상과 달리 CIT는 다음 Bear Stearns가 아니다”라는 Long이다. $1.5bn equity raise 후 TBV $20.20, liquidity가 2009년까지 충분하고 rail asset sale·CDS 정상화·회사 매각으로 $15~18을 기대했다. 동시에 400bp funding-cost 상승이 300~400bp NIM을 지운다는 doom loop를 정확히 설명했다.",
-      "t0_evidence_ko": "VIC 원문과 동시기 회사/SEC 공시의 재무·사업·funding 정보를 교차검증.",
-      "key_assumption_ko": "이 claim이 accounting metric을 넘어 equity cash flow와 survival probability에 실제로 전달된다.",
-      "ex_ante_falsifier_ko": "핵심 operating/funding/capital 지표가 원 논지 반대방향으로 2개 분기 이상 지속되거나 촉매 후 RemainCo 가치가 감소.",
-      "actual_result_ko": "분석이 묘사한 doom loop가 결국 bull case보다 강했다. 추가 자본·자산매각만으로 신뢰를 회복하지 못했고 2009년 11월 prepackaged bankruptcy에 들어갔다. 12월 emergence 때 old common equity는 전부 cancelled됐다. 이후 새 CIT는 은행 중심으로 재편돼 2022년 First Citizens에 합병됐지만 이는 기존 주주의 회복이 아니었다.",
-      "quantitative_gap_ko": "old common cancelled",
-      "verdict_ko": "치명적 실패·doom-loop 이해 후에도 확률오류·raw 방향오류",
-      "analytical_error_ko": "reflexive finance에서 book value는 funding access가 살아 있을 때만 anchor다. survival probability를 먼저 계산하고, 그 다음에 conditional recovery value를 곱해야 한다.",
-      "reusable_lesson_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다."
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "claim_order": 6,
-      "claim_title_ko": "terminal outcome and falsifier",
-      "thesis_weight_pct": 14,
-      "original_claim_ko": "원문은 $11.79, 0.45x Q1 tangible book에서 “시장 예상과 달리 CIT는 다음 Bear Stearns가 아니다”라는 Long이다. $1.5bn equity raise 후 TBV $20.20, liquidity가 2009년까지 충분하고 rail asset sale·CDS 정상화·회사 매각으로 $15~18을 기대했다. 동시에 400bp funding-cost 상승이 300~400bp NIM을 지운다는 doom loop를 정확히 설명했다.",
-      "t0_evidence_ko": "VIC 원문과 동시기 회사/SEC 공시의 재무·사업·funding 정보를 교차검증.",
-      "key_assumption_ko": "이 claim이 accounting metric을 넘어 equity cash flow와 survival probability에 실제로 전달된다.",
-      "ex_ante_falsifier_ko": "핵심 operating/funding/capital 지표가 원 논지 반대방향으로 2개 분기 이상 지속되거나 촉매 후 RemainCo 가치가 감소.",
-      "actual_result_ko": "분석이 묘사한 doom loop가 결국 bull case보다 강했다. 추가 자본·자산매각만으로 신뢰를 회복하지 못했고 2009년 11월 prepackaged bankruptcy에 들어갔다. 12월 emergence 때 old common equity는 전부 cancelled됐다. 이후 새 CIT는 은행 중심으로 재편돼 2022년 First Citizens에 합병됐지만 이는 기존 주주의 회복이 아니었다.",
-      "quantitative_gap_ko": "old common cancelled",
-      "verdict_ko": "치명적 실패·doom-loop 이해 후에도 확률오류·raw 방향오류",
-      "analytical_error_ko": "reflexive finance에서 book value는 funding access가 살아 있을 때만 anchor다. survival probability를 먼저 계산하고, 그 다음에 conditional recovery value를 곱해야 한다.",
-      "reusable_lesson_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다."
     }
   ],
   "metrics": [
@@ -2285,1066 +1670,794 @@
       "t0_value_ko": "당시 원문/공시 기준",
       "actual_value_ko": "2021-11-05",
       "interpretation_ko": "핵심 촉매 실현"
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "metric_order": 1,
-      "metric_name_ko": "T0 price",
-      "t0_value_ko": "약 $20~22.75",
-      "actual_value_ko": "저평가 구간",
-      "interpretation_ko": "저평가 구간"
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "metric_order": 2,
-      "metric_name_ko": "normal EPS",
-      "t0_value_ko": "$3.55",
-      "actual_value_ko": "약 5.7x 논리",
-      "interpretation_ko": "약 5.7x 논리"
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "metric_order": 3,
-      "metric_name_ko": "Tyco offer",
-      "t0_value_ko": "당시 원문/공시 기준",
-      "actual_value_ko": "$35.02/share",
-      "interpretation_ko": "촉매 가격"
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "metric_order": 4,
-      "metric_name_ko": "offer premium",
-      "t0_value_ko": "당시 원문/공시 기준",
-      "actual_value_ko": "약 54%",
-      "interpretation_ko": "직전 종가 대비"
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "metric_order": 1,
-      "metric_name_ko": "T0 price",
-      "t0_value_ko": "$35",
-      "actual_value_ko": "원문 기준",
-      "interpretation_ko": "원문 기준"
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "metric_order": 2,
-      "metric_name_ko": "T0 valuation",
-      "t0_value_ko": "약 1x book / 6.5x earnings",
-      "actual_value_ko": "싸다는 근거",
-      "interpretation_ko": "싸다는 근거"
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "metric_order": 3,
-      "metric_name_ko": "liquidity claim",
-      "t0_value_ko": "당시 원문/공시 기준",
-      "actual_value_ko": "$7.5bn lines + $5.5bn ABS + $5.2bn cash",
-      "interpretation_ko": "실제론 충분치 않음"
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "metric_order": 4,
-      "metric_name_ko": "2009 outcome",
-      "t0_value_ko": "당시 원문/공시 기준",
-      "actual_value_ko": "old common 100% cancelled",
-      "interpretation_ko": "equity thesis 전손"
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "metric_order": 1,
-      "metric_name_ko": "T0 price",
-      "t0_value_ko": "$11.79",
-      "actual_value_ko": "원문 기준",
-      "interpretation_ko": "원문 기준"
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "metric_order": 2,
-      "metric_name_ko": "pro-forma TBV",
-      "t0_value_ko": "$20.20",
-      "actual_value_ko": "0.58x 조정 TBV",
-      "interpretation_ko": "0.58x 조정 TBV"
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "metric_order": 3,
-      "metric_name_ko": "funding shock",
-      "t0_value_ko": "당시 원문/공시 기준",
-      "actual_value_ko": "CDS +400bp",
-      "interpretation_ko": "NIM 300~400bp를 소거"
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "metric_order": 4,
-      "metric_name_ko": "2009 outcome",
-      "t0_value_ko": "당시 원문/공시 기준",
-      "actual_value_ko": "old common cancelled",
-      "interpretation_ko": "TBV 하방 논리 붕괴"
     }
   ],
   "timeline": [
     {
       "idea_id": "f1d7e1cc-b307-4522-acea-5efa87289706",
       "event_order": 1,
-      "event_date": "2008-12-30",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0"
+      "event_date_ko": "2008-12-30",
+      "thesis_implication_ko": "T0"
     },
     {
       "idea_id": "f1d7e1cc-b307-4522-acea-5efa87289706",
       "event_order": 2,
-      "event_date": "2009-04-30",
       "event_ko": "2009 TALF ABS로 자금시장 접근 유지",
-      "signal_ko": "첫 반증/확인 신호"
+      "event_date_ko": "2009-04-30",
+      "thesis_implication_ko": "첫 반증/확인 신호"
     },
     {
       "idea_id": "f1d7e1cc-b307-4522-acea-5efa87289706",
       "event_order": 3,
-      "event_date": "2019-07-01",
       "event_ko": "Epsilon $4.4bn 매각 완료",
-      "signal_ko": "구조변화"
+      "event_date_ko": "2019-07-01",
+      "thesis_implication_ko": "구조변화"
     },
     {
       "idea_id": "f1d7e1cc-b307-4522-acea-5efa87289706",
       "event_order": 4,
-      "event_date": "2021-11-05",
       "event_ko": "LoyaltyOne 분사 완료",
-      "signal_ko": "장기검증"
+      "event_date_ko": "2021-11-05",
+      "thesis_implication_ko": "장기검증"
     },
     {
       "idea_id": "f1d7e1cc-b307-4522-acea-5efa87289706",
       "event_order": 5,
-      "event_date": "2022-01-03",
       "event_ko": "Bread로의 단순화 경로",
-      "signal_ko": "terminal 구조"
+      "event_date_ko": "2022-01-03",
+      "thesis_implication_ko": "terminal 구조"
     },
     {
       "idea_id": "f1d7e1cc-b307-4522-acea-5efa87289706",
       "event_order": 6,
-      "event_date": "2026-09-05",
       "event_ko": "사후검증 업데이트",
-      "signal_ko": "research as-of"
+      "event_date_ko": "2026-09-05",
+      "thesis_implication_ko": "research as-of"
     },
     {
       "idea_id": "b5410dd2-ce64-41cd-b884-06a667617bae",
       "event_order": 1,
-      "event_date": "2010-04-15",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0"
+      "event_date_ko": "2010-04-15",
+      "thesis_implication_ko": "T0"
     },
     {
       "idea_id": "b5410dd2-ce64-41cd-b884-06a667617bae",
       "event_order": 2,
-      "event_date": "2011-12-31",
       "event_ko": "2010 이후 자본·funding 안정과 이익 회복",
-      "signal_ko": "첫 반증/확인 신호"
+      "event_date_ko": "2011-12-31",
+      "thesis_implication_ko": "첫 반증/확인 신호"
     },
     {
       "idea_id": "b5410dd2-ce64-41cd-b884-06a667617bae",
       "event_order": 3,
-      "event_date": "2019-07-01",
       "event_ko": "Epsilon $4.4bn 매각 완료",
-      "signal_ko": "구조변화"
+      "event_date_ko": "2019-07-01",
+      "thesis_implication_ko": "구조변화"
     },
     {
       "idea_id": "b5410dd2-ce64-41cd-b884-06a667617bae",
       "event_order": 4,
-      "event_date": "2021-11-05",
       "event_ko": "LoyaltyOne 분사 완료",
-      "signal_ko": "장기검증"
+      "event_date_ko": "2021-11-05",
+      "thesis_implication_ko": "장기검증"
     },
     {
       "idea_id": "b5410dd2-ce64-41cd-b884-06a667617bae",
       "event_order": 5,
-      "event_date": "2022-01-03",
       "event_ko": "Bread로의 단순화 경로",
-      "signal_ko": "terminal 구조"
+      "event_date_ko": "2022-01-03",
+      "thesis_implication_ko": "terminal 구조"
     },
     {
       "idea_id": "b5410dd2-ce64-41cd-b884-06a667617bae",
       "event_order": 6,
-      "event_date": "2026-09-05",
       "event_ko": "사후검증 업데이트",
-      "signal_ko": "research as-of"
+      "event_date_ko": "2026-09-05",
+      "thesis_implication_ko": "research as-of"
     },
     {
       "idea_id": "68b90d87-fb88-4e3a-9d55-6672ca1b77c4",
       "event_order": 1,
-      "event_date": "2016-02-10",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0"
+      "event_date_ko": "2016-02-10",
+      "thesis_implication_ko": "T0"
     },
     {
       "idea_id": "68b90d87-fb88-4e3a-9d55-6672ca1b77c4",
       "event_order": 2,
-      "event_date": "2018-01-01",
       "event_ko": "2017 주가·이익 재평가 후 2018부터 균열",
-      "signal_ko": "첫 반증/확인 신호"
+      "event_date_ko": "2018-01-01",
+      "thesis_implication_ko": "첫 반증/확인 신호"
     },
     {
       "idea_id": "68b90d87-fb88-4e3a-9d55-6672ca1b77c4",
       "event_order": 3,
-      "event_date": "2019-07-01",
       "event_ko": "Epsilon $4.4bn 매각 완료",
-      "signal_ko": "구조변화"
+      "event_date_ko": "2019-07-01",
+      "thesis_implication_ko": "구조변화"
     },
     {
       "idea_id": "68b90d87-fb88-4e3a-9d55-6672ca1b77c4",
       "event_order": 4,
-      "event_date": "2021-11-05",
       "event_ko": "LoyaltyOne 분사 완료",
-      "signal_ko": "장기검증"
+      "event_date_ko": "2021-11-05",
+      "thesis_implication_ko": "장기검증"
     },
     {
       "idea_id": "68b90d87-fb88-4e3a-9d55-6672ca1b77c4",
       "event_order": 5,
-      "event_date": "2022-01-03",
       "event_ko": "Bread로의 단순화 경로",
-      "signal_ko": "terminal 구조"
+      "event_date_ko": "2022-01-03",
+      "thesis_implication_ko": "terminal 구조"
     },
     {
       "idea_id": "68b90d87-fb88-4e3a-9d55-6672ca1b77c4",
       "event_order": 6,
-      "event_date": "2026-09-05",
       "event_ko": "사후검증 업데이트",
-      "signal_ko": "research as-of"
+      "event_date_ko": "2026-09-05",
+      "thesis_implication_ko": "research as-of"
     },
     {
       "idea_id": "3c1d4a31-30bb-44a5-a985-d63a3804bc18",
       "event_order": 1,
-      "event_date": "2017-12-27",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0"
+      "event_date_ko": "2017-12-27",
+      "thesis_implication_ko": "T0"
     },
     {
       "idea_id": "3c1d4a31-30bb-44a5-a985-d63a3804bc18",
       "event_order": 2,
-      "event_date": "2019-04-12",
       "event_ko": "2018~2019 client/segment 문제와 급격한 multiple 하락",
-      "signal_ko": "첫 반증/확인 신호"
+      "event_date_ko": "2019-04-12",
+      "thesis_implication_ko": "첫 반증/확인 신호"
     },
     {
       "idea_id": "3c1d4a31-30bb-44a5-a985-d63a3804bc18",
       "event_order": 3,
-      "event_date": "2019-07-01",
       "event_ko": "Epsilon $4.4bn 매각 완료",
-      "signal_ko": "구조변화"
+      "event_date_ko": "2019-07-01",
+      "thesis_implication_ko": "구조변화"
     },
     {
       "idea_id": "3c1d4a31-30bb-44a5-a985-d63a3804bc18",
       "event_order": 4,
-      "event_date": "2021-11-05",
       "event_ko": "LoyaltyOne 분사 완료",
-      "signal_ko": "장기검증"
+      "event_date_ko": "2021-11-05",
+      "thesis_implication_ko": "장기검증"
     },
     {
       "idea_id": "3c1d4a31-30bb-44a5-a985-d63a3804bc18",
       "event_order": 5,
-      "event_date": "2022-01-03",
       "event_ko": "Bread로의 단순화 경로",
-      "signal_ko": "terminal 구조"
+      "event_date_ko": "2022-01-03",
+      "thesis_implication_ko": "terminal 구조"
     },
     {
       "idea_id": "3c1d4a31-30bb-44a5-a985-d63a3804bc18",
       "event_order": 6,
-      "event_date": "2026-09-05",
       "event_ko": "사후검증 업데이트",
-      "signal_ko": "research as-of"
+      "event_date_ko": "2026-09-05",
+      "thesis_implication_ko": "research as-of"
     },
     {
       "idea_id": "f19af47f-7e91-480b-ada0-f3739a245c42",
       "event_order": 1,
-      "event_date": "2018-09-28",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0"
+      "event_date_ko": "2018-09-28",
+      "thesis_implication_ko": "T0"
     },
     {
       "idea_id": "f19af47f-7e91-480b-ada0-f3739a245c42",
       "event_order": 2,
-      "event_date": "2019-07-01",
       "event_ko": "2019 Epsilon 매각 뒤에도 core multiple 하락",
-      "signal_ko": "첫 반증/확인 신호"
+      "event_date_ko": "2019-07-01",
+      "thesis_implication_ko": "첫 반증/확인 신호"
     },
     {
       "idea_id": "f19af47f-7e91-480b-ada0-f3739a245c42",
       "event_order": 3,
-      "event_date": "2019-07-01",
       "event_ko": "Epsilon $4.4bn 매각 완료",
-      "signal_ko": "구조변화"
+      "event_date_ko": "2019-07-01",
+      "thesis_implication_ko": "구조변화"
     },
     {
       "idea_id": "f19af47f-7e91-480b-ada0-f3739a245c42",
       "event_order": 4,
-      "event_date": "2021-11-05",
       "event_ko": "LoyaltyOne 분사 완료",
-      "signal_ko": "장기검증"
+      "event_date_ko": "2021-11-05",
+      "thesis_implication_ko": "장기검증"
     },
     {
       "idea_id": "f19af47f-7e91-480b-ada0-f3739a245c42",
       "event_order": 5,
-      "event_date": "2022-01-03",
       "event_ko": "Bread로의 단순화 경로",
-      "signal_ko": "terminal 구조"
+      "event_date_ko": "2022-01-03",
+      "thesis_implication_ko": "terminal 구조"
     },
     {
       "idea_id": "f19af47f-7e91-480b-ada0-f3739a245c42",
       "event_order": 6,
-      "event_date": "2026-09-05",
       "event_ko": "사후검증 업데이트",
-      "signal_ko": "research as-of"
+      "event_date_ko": "2026-09-05",
+      "thesis_implication_ko": "research as-of"
     },
     {
       "idea_id": "c3eb2ae5-bef9-4973-bbf3-0526b7134705",
       "event_order": 1,
-      "event_date": "2019-08-03",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0"
+      "event_date_ko": "2019-08-03",
+      "thesis_implication_ko": "T0"
     },
     {
       "idea_id": "c3eb2ae5-bef9-4973-bbf3-0526b7134705",
       "event_order": 2,
-      "event_date": "2020-03-31",
       "event_ko": "2020 pandemic로 retailer·receivable stress 급증",
-      "signal_ko": "첫 반증/확인 신호"
+      "event_date_ko": "2020-03-31",
+      "thesis_implication_ko": "첫 반증/확인 신호"
     },
     {
       "idea_id": "c3eb2ae5-bef9-4973-bbf3-0526b7134705",
       "event_order": 3,
-      "event_date": "2019-07-01",
       "event_ko": "Epsilon $4.4bn 매각 완료",
-      "signal_ko": "구조변화"
+      "event_date_ko": "2019-07-01",
+      "thesis_implication_ko": "구조변화"
     },
     {
       "idea_id": "c3eb2ae5-bef9-4973-bbf3-0526b7134705",
       "event_order": 4,
-      "event_date": "2021-11-05",
       "event_ko": "LoyaltyOne 분사 완료",
-      "signal_ko": "장기검증"
+      "event_date_ko": "2021-11-05",
+      "thesis_implication_ko": "장기검증"
     },
     {
       "idea_id": "c3eb2ae5-bef9-4973-bbf3-0526b7134705",
       "event_order": 5,
-      "event_date": "2022-01-03",
       "event_ko": "Bread로의 단순화 경로",
-      "signal_ko": "terminal 구조"
+      "event_date_ko": "2022-01-03",
+      "thesis_implication_ko": "terminal 구조"
     },
     {
       "idea_id": "c3eb2ae5-bef9-4973-bbf3-0526b7134705",
       "event_order": 6,
-      "event_date": "2026-09-05",
       "event_ko": "사후검증 업데이트",
-      "signal_ko": "research as-of"
+      "event_date_ko": "2026-09-05",
+      "thesis_implication_ko": "research as-of"
     },
     {
       "idea_id": "42644e18-1c6d-471e-aae0-519d8fd7d3b2",
       "event_order": 1,
-      "event_date": "2020-10-14",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0"
+      "event_date_ko": "2020-10-14",
+      "thesis_implication_ko": "T0"
     },
     {
       "idea_id": "42644e18-1c6d-471e-aae0-519d8fd7d3b2",
       "event_order": 2,
-      "event_date": "2021-03-31",
       "event_ko": "2021 earnings·credit 정상화와 주가 급반등",
-      "signal_ko": "첫 반증/확인 신호"
+      "event_date_ko": "2021-03-31",
+      "thesis_implication_ko": "첫 반증/확인 신호"
     },
     {
       "idea_id": "42644e18-1c6d-471e-aae0-519d8fd7d3b2",
       "event_order": 3,
-      "event_date": "2019-07-01",
       "event_ko": "Epsilon $4.4bn 매각 완료",
-      "signal_ko": "구조변화"
+      "event_date_ko": "2019-07-01",
+      "thesis_implication_ko": "구조변화"
     },
     {
       "idea_id": "42644e18-1c6d-471e-aae0-519d8fd7d3b2",
       "event_order": 4,
-      "event_date": "2021-11-05",
       "event_ko": "LoyaltyOne 분사 완료",
-      "signal_ko": "장기검증"
+      "event_date_ko": "2021-11-05",
+      "thesis_implication_ko": "장기검증"
     },
     {
       "idea_id": "42644e18-1c6d-471e-aae0-519d8fd7d3b2",
       "event_order": 5,
-      "event_date": "2022-01-03",
       "event_ko": "Bread로의 단순화 경로",
-      "signal_ko": "terminal 구조"
+      "event_date_ko": "2022-01-03",
+      "thesis_implication_ko": "terminal 구조"
     },
     {
       "idea_id": "42644e18-1c6d-471e-aae0-519d8fd7d3b2",
       "event_order": 6,
-      "event_date": "2026-09-05",
       "event_ko": "사후검증 업데이트",
-      "signal_ko": "research as-of"
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "event_order": 1,
-      "event_date": "2001-01-16",
-      "event_ko": "VIC idea 게시",
-      "signal_ko": "T0"
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "event_order": 2,
-      "event_date": "2001-03-13",
-      "event_ko": "Tyco가 약 54% 프리미엄 인수 발표",
-      "signal_ko": "첫 반증/확인 신호"
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "event_order": 3,
-      "event_date": "2009-11-01",
-      "event_ko": "CIT prepackaged Chapter 11 신청",
-      "signal_ko": "survival event"
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "event_order": 4,
-      "event_date": "2009-12-10",
-      "event_ko": "emergence; 기존 common equity 전부 cancelled",
-      "signal_ko": "equity outcome"
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "event_order": 5,
-      "event_date": "2022-01-03",
-      "event_ko": "First Citizens-CIT 합병 완료",
-      "signal_ko": "terminal 구조"
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "event_order": 6,
-      "event_date": "2026-09-05",
-      "event_ko": "사후검증 업데이트",
-      "signal_ko": "research as-of"
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "event_order": 1,
-      "event_date": "2007-08-23",
-      "event_ko": "VIC idea 게시",
-      "signal_ko": "T0"
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "event_order": 2,
-      "event_date": "2008-03-31",
-      "event_ko": "2008 wholesale funding crisis 심화",
-      "signal_ko": "첫 반증/확인 신호"
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "event_order": 3,
-      "event_date": "2009-11-01",
-      "event_ko": "CIT prepackaged Chapter 11 신청",
-      "signal_ko": "survival event"
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "event_order": 4,
-      "event_date": "2009-12-10",
-      "event_ko": "emergence; 기존 common equity 전부 cancelled",
-      "signal_ko": "equity outcome"
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "event_order": 5,
-      "event_date": "2022-01-03",
-      "event_ko": "First Citizens-CIT 합병 완료",
-      "signal_ko": "terminal 구조"
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "event_order": 6,
-      "event_date": "2026-09-05",
-      "event_ko": "사후검증 업데이트",
-      "signal_ko": "research as-of"
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "event_order": 1,
-      "event_date": "2008-05-02",
-      "event_ko": "VIC idea 게시",
-      "signal_ko": "T0"
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "event_order": 2,
-      "event_date": "2008-09-30",
-      "event_ko": "2008~2009 funding spread·refinancing 악화 지속",
-      "signal_ko": "첫 반증/확인 신호"
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "event_order": 3,
-      "event_date": "2009-11-01",
-      "event_ko": "CIT prepackaged Chapter 11 신청",
-      "signal_ko": "survival event"
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "event_order": 4,
-      "event_date": "2009-12-10",
-      "event_ko": "emergence; 기존 common equity 전부 cancelled",
-      "signal_ko": "equity outcome"
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "event_order": 5,
-      "event_date": "2022-01-03",
-      "event_ko": "First Citizens-CIT 합병 완료",
-      "signal_ko": "terminal 구조"
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "event_order": 6,
-      "event_date": "2026-09-05",
-      "event_ko": "사후검증 업데이트",
-      "signal_ko": "research as-of"
+      "event_date_ko": "2026-09-05",
+      "thesis_implication_ko": "research as-of"
     }
   ],
   "sources": [
     {
       "idea_id": "f1d7e1cc-b307-4522-acea-5efa87289706",
       "source_order": 1,
-      "source_type": "Raw SQL/VIC",
-      "source_name": "원문 source packet",
-      "source_url": "https://github.com/horea457/VIC-/blob/main/data/source_batch036/01_ADS_f1d7e1cc-b307-4522-acea-5efa87289706.md",
       "source_date": "2008-12-30",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "Raw SQL/VIC",
+      "title_ko": "원문 source packet",
+      "url": "https://github.com/horea457/VIC-/blob/main/data/source_batch036/01_ADS_f1d7e1cc-b307-4522-acea-5efa87289706.md",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "f1d7e1cc-b307-4522-acea-5efa87289706",
       "source_order": 2,
-      "source_type": "SEC",
-      "source_name": "Epsilon sale 8-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121519000141/form_8k.htm",
       "source_date": "2019-07-01",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "Epsilon sale 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121519000141/form_8k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "f1d7e1cc-b307-4522-acea-5efa87289706",
       "source_order": 3,
-      "source_type": "SEC",
-      "source_name": "2019 10-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121520000049/ads-20191231x10k.htm",
       "source_date": "2020-02-27",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "2019 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121520000049/ads-20191231x10k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "f1d7e1cc-b307-4522-acea-5efa87289706",
       "source_order": 4,
-      "source_type": "SEC",
-      "source_name": "2020 10-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121521000036/ads-20201231x10k.htm",
       "source_date": "2021-02-25",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "2020 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121521000036/ads-20201231x10k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "f1d7e1cc-b307-4522-acea-5efa87289706",
       "source_order": 5,
-      "source_type": "SEC",
-      "source_name": "2021 10-K / LoyaltyOne spin",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121522000038/ads-20211231x10k.htm",
       "source_date": "2022-02-24",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "2021 10-K / LoyaltyOne spin",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121522000038/ads-20211231x10k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "f1d7e1cc-b307-4522-acea-5efa87289706",
       "source_order": 6,
-      "source_type": "SEC",
-      "source_name": "Bread annual report / name change",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000119312523091580/d418938dars.pdf",
       "source_date": "2023-04-05",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "Bread annual report / name change",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000119312523091580/d418938dars.pdf",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "b5410dd2-ce64-41cd-b884-06a667617bae",
       "source_order": 1,
-      "source_type": "Raw SQL/VIC",
-      "source_name": "원문 source packet",
-      "source_url": "https://github.com/horea457/VIC-/blob/main/data/source_batch036/02_ADS_b5410dd2-ce64-41cd-b884-06a667617bae.md",
       "source_date": "2010-04-15",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "Raw SQL/VIC",
+      "title_ko": "원문 source packet",
+      "url": "https://github.com/horea457/VIC-/blob/main/data/source_batch036/02_ADS_b5410dd2-ce64-41cd-b884-06a667617bae.md",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "b5410dd2-ce64-41cd-b884-06a667617bae",
       "source_order": 2,
-      "source_type": "SEC",
-      "source_name": "Epsilon sale 8-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121519000141/form_8k.htm",
       "source_date": "2019-07-01",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "Epsilon sale 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121519000141/form_8k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "b5410dd2-ce64-41cd-b884-06a667617bae",
       "source_order": 3,
-      "source_type": "SEC",
-      "source_name": "2019 10-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121520000049/ads-20191231x10k.htm",
       "source_date": "2020-02-27",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "2019 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121520000049/ads-20191231x10k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "b5410dd2-ce64-41cd-b884-06a667617bae",
       "source_order": 4,
-      "source_type": "SEC",
-      "source_name": "2020 10-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121521000036/ads-20201231x10k.htm",
       "source_date": "2021-02-25",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "2020 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121521000036/ads-20201231x10k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "b5410dd2-ce64-41cd-b884-06a667617bae",
       "source_order": 5,
-      "source_type": "SEC",
-      "source_name": "2021 10-K / LoyaltyOne spin",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121522000038/ads-20211231x10k.htm",
       "source_date": "2022-02-24",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "2021 10-K / LoyaltyOne spin",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121522000038/ads-20211231x10k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "b5410dd2-ce64-41cd-b884-06a667617bae",
       "source_order": 6,
-      "source_type": "SEC",
-      "source_name": "Bread annual report / name change",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000119312523091580/d418938dars.pdf",
       "source_date": "2023-04-05",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "Bread annual report / name change",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000119312523091580/d418938dars.pdf",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "68b90d87-fb88-4e3a-9d55-6672ca1b77c4",
       "source_order": 1,
-      "source_type": "Raw SQL/VIC",
-      "source_name": "원문 source packet",
-      "source_url": "https://github.com/horea457/VIC-/blob/main/data/source_batch036/03_ADS_68b90d87-fb88-4e3a-9d55-6672ca1b77c4.md",
       "source_date": "2016-02-10",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "Raw SQL/VIC",
+      "title_ko": "원문 source packet",
+      "url": "https://github.com/horea457/VIC-/blob/main/data/source_batch036/03_ADS_68b90d87-fb88-4e3a-9d55-6672ca1b77c4.md",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "68b90d87-fb88-4e3a-9d55-6672ca1b77c4",
       "source_order": 2,
-      "source_type": "SEC",
-      "source_name": "Epsilon sale 8-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121519000141/form_8k.htm",
       "source_date": "2019-07-01",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "Epsilon sale 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121519000141/form_8k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "68b90d87-fb88-4e3a-9d55-6672ca1b77c4",
       "source_order": 3,
-      "source_type": "SEC",
-      "source_name": "2019 10-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121520000049/ads-20191231x10k.htm",
       "source_date": "2020-02-27",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "2019 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121520000049/ads-20191231x10k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "68b90d87-fb88-4e3a-9d55-6672ca1b77c4",
       "source_order": 4,
-      "source_type": "SEC",
-      "source_name": "2020 10-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121521000036/ads-20201231x10k.htm",
       "source_date": "2021-02-25",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "2020 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121521000036/ads-20201231x10k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "68b90d87-fb88-4e3a-9d55-6672ca1b77c4",
       "source_order": 5,
-      "source_type": "SEC",
-      "source_name": "2021 10-K / LoyaltyOne spin",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121522000038/ads-20211231x10k.htm",
       "source_date": "2022-02-24",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "2021 10-K / LoyaltyOne spin",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121522000038/ads-20211231x10k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "68b90d87-fb88-4e3a-9d55-6672ca1b77c4",
       "source_order": 6,
-      "source_type": "SEC",
-      "source_name": "Bread annual report / name change",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000119312523091580/d418938dars.pdf",
       "source_date": "2023-04-05",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "Bread annual report / name change",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000119312523091580/d418938dars.pdf",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "3c1d4a31-30bb-44a5-a985-d63a3804bc18",
       "source_order": 1,
-      "source_type": "Raw SQL/VIC",
-      "source_name": "원문 source packet",
-      "source_url": "https://github.com/horea457/VIC-/blob/main/data/source_batch036/04_ADS_3c1d4a31-30bb-44a5-a985-d63a3804bc18.md",
       "source_date": "2017-12-27",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "Raw SQL/VIC",
+      "title_ko": "원문 source packet",
+      "url": "https://github.com/horea457/VIC-/blob/main/data/source_batch036/04_ADS_3c1d4a31-30bb-44a5-a985-d63a3804bc18.md",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "3c1d4a31-30bb-44a5-a985-d63a3804bc18",
       "source_order": 2,
-      "source_type": "SEC",
-      "source_name": "Epsilon sale 8-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121519000141/form_8k.htm",
       "source_date": "2019-07-01",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "Epsilon sale 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121519000141/form_8k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "3c1d4a31-30bb-44a5-a985-d63a3804bc18",
       "source_order": 3,
-      "source_type": "SEC",
-      "source_name": "2019 10-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121520000049/ads-20191231x10k.htm",
       "source_date": "2020-02-27",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "2019 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121520000049/ads-20191231x10k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "3c1d4a31-30bb-44a5-a985-d63a3804bc18",
       "source_order": 4,
-      "source_type": "SEC",
-      "source_name": "2020 10-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121521000036/ads-20201231x10k.htm",
       "source_date": "2021-02-25",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "2020 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121521000036/ads-20201231x10k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "3c1d4a31-30bb-44a5-a985-d63a3804bc18",
       "source_order": 5,
-      "source_type": "SEC",
-      "source_name": "2021 10-K / LoyaltyOne spin",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121522000038/ads-20211231x10k.htm",
       "source_date": "2022-02-24",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "2021 10-K / LoyaltyOne spin",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121522000038/ads-20211231x10k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "3c1d4a31-30bb-44a5-a985-d63a3804bc18",
       "source_order": 6,
-      "source_type": "SEC",
-      "source_name": "Bread annual report / name change",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000119312523091580/d418938dars.pdf",
       "source_date": "2023-04-05",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "Bread annual report / name change",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000119312523091580/d418938dars.pdf",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "f19af47f-7e91-480b-ada0-f3739a245c42",
       "source_order": 1,
-      "source_type": "Raw SQL/VIC",
-      "source_name": "원문 source packet",
-      "source_url": "https://github.com/horea457/VIC-/blob/main/data/source_batch036/05_ADS_f19af47f-7e91-480b-ada0-f3739a245c42.md",
       "source_date": "2018-09-28",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "Raw SQL/VIC",
+      "title_ko": "원문 source packet",
+      "url": "https://github.com/horea457/VIC-/blob/main/data/source_batch036/05_ADS_f19af47f-7e91-480b-ada0-f3739a245c42.md",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "f19af47f-7e91-480b-ada0-f3739a245c42",
       "source_order": 2,
-      "source_type": "SEC",
-      "source_name": "Epsilon sale 8-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121519000141/form_8k.htm",
       "source_date": "2019-07-01",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "Epsilon sale 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121519000141/form_8k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "f19af47f-7e91-480b-ada0-f3739a245c42",
       "source_order": 3,
-      "source_type": "SEC",
-      "source_name": "2019 10-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121520000049/ads-20191231x10k.htm",
       "source_date": "2020-02-27",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "2019 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121520000049/ads-20191231x10k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "f19af47f-7e91-480b-ada0-f3739a245c42",
       "source_order": 4,
-      "source_type": "SEC",
-      "source_name": "2020 10-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121521000036/ads-20201231x10k.htm",
       "source_date": "2021-02-25",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "2020 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121521000036/ads-20201231x10k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "f19af47f-7e91-480b-ada0-f3739a245c42",
       "source_order": 5,
-      "source_type": "SEC",
-      "source_name": "2021 10-K / LoyaltyOne spin",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121522000038/ads-20211231x10k.htm",
       "source_date": "2022-02-24",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "2021 10-K / LoyaltyOne spin",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121522000038/ads-20211231x10k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "f19af47f-7e91-480b-ada0-f3739a245c42",
       "source_order": 6,
-      "source_type": "SEC",
-      "source_name": "Bread annual report / name change",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000119312523091580/d418938dars.pdf",
       "source_date": "2023-04-05",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "Bread annual report / name change",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000119312523091580/d418938dars.pdf",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "c3eb2ae5-bef9-4973-bbf3-0526b7134705",
       "source_order": 1,
-      "source_type": "Raw SQL/VIC",
-      "source_name": "원문 source packet",
-      "source_url": "https://github.com/horea457/VIC-/blob/main/data/source_batch036/06_ADS_c3eb2ae5-bef9-4973-bbf3-0526b7134705.md",
       "source_date": "2019-08-03",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "Raw SQL/VIC",
+      "title_ko": "원문 source packet",
+      "url": "https://github.com/horea457/VIC-/blob/main/data/source_batch036/06_ADS_c3eb2ae5-bef9-4973-bbf3-0526b7134705.md",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "c3eb2ae5-bef9-4973-bbf3-0526b7134705",
       "source_order": 2,
-      "source_type": "SEC",
-      "source_name": "Epsilon sale 8-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121519000141/form_8k.htm",
       "source_date": "2019-07-01",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "Epsilon sale 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121519000141/form_8k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "c3eb2ae5-bef9-4973-bbf3-0526b7134705",
       "source_order": 3,
-      "source_type": "SEC",
-      "source_name": "2019 10-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121520000049/ads-20191231x10k.htm",
       "source_date": "2020-02-27",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "2019 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121520000049/ads-20191231x10k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "c3eb2ae5-bef9-4973-bbf3-0526b7134705",
       "source_order": 4,
-      "source_type": "SEC",
-      "source_name": "2020 10-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121521000036/ads-20201231x10k.htm",
       "source_date": "2021-02-25",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "2020 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121521000036/ads-20201231x10k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "c3eb2ae5-bef9-4973-bbf3-0526b7134705",
       "source_order": 5,
-      "source_type": "SEC",
-      "source_name": "2021 10-K / LoyaltyOne spin",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121522000038/ads-20211231x10k.htm",
       "source_date": "2022-02-24",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "2021 10-K / LoyaltyOne spin",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121522000038/ads-20211231x10k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "c3eb2ae5-bef9-4973-bbf3-0526b7134705",
       "source_order": 6,
-      "source_type": "SEC",
-      "source_name": "Bread annual report / name change",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000119312523091580/d418938dars.pdf",
       "source_date": "2023-04-05",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "Bread annual report / name change",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000119312523091580/d418938dars.pdf",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "42644e18-1c6d-471e-aae0-519d8fd7d3b2",
       "source_order": 1,
-      "source_type": "Raw SQL/VIC",
-      "source_name": "원문 source packet",
-      "source_url": "https://github.com/horea457/VIC-/blob/main/data/source_batch036/07_ADS_42644e18-1c6d-471e-aae0-519d8fd7d3b2.md",
       "source_date": "2020-10-14",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "Raw SQL/VIC",
+      "title_ko": "원문 source packet",
+      "url": "https://github.com/horea457/VIC-/blob/main/data/source_batch036/07_ADS_42644e18-1c6d-471e-aae0-519d8fd7d3b2.md",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "42644e18-1c6d-471e-aae0-519d8fd7d3b2",
       "source_order": 2,
-      "source_type": "SEC",
-      "source_name": "Epsilon sale 8-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121519000141/form_8k.htm",
       "source_date": "2019-07-01",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "Epsilon sale 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121519000141/form_8k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "42644e18-1c6d-471e-aae0-519d8fd7d3b2",
       "source_order": 3,
-      "source_type": "SEC",
-      "source_name": "2019 10-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121520000049/ads-20191231x10k.htm",
       "source_date": "2020-02-27",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "2019 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121520000049/ads-20191231x10k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "42644e18-1c6d-471e-aae0-519d8fd7d3b2",
       "source_order": 4,
-      "source_type": "SEC",
-      "source_name": "2020 10-K",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121521000036/ads-20201231x10k.htm",
       "source_date": "2021-02-25",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "2020 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121521000036/ads-20201231x10k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "42644e18-1c6d-471e-aae0-519d8fd7d3b2",
       "source_order": 5,
-      "source_type": "SEC",
-      "source_name": "2021 10-K / LoyaltyOne spin",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121522000038/ads-20211231x10k.htm",
       "source_date": "2022-02-24",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "2021 10-K / LoyaltyOne spin",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000110121522000038/ads-20211231x10k.htm",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     },
     {
       "idea_id": "42644e18-1c6d-471e-aae0-519d8fd7d3b2",
       "source_order": 6,
-      "source_type": "SEC",
-      "source_name": "Bread annual report / name change",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1101215/000119312523091580/d418938dars.pdf",
       "source_date": "2023-04-05",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "source_order": 1,
-      "source_type": "Raw SQL/VIC",
-      "source_name": "원문 source packet",
-      "source_url": "https://github.com/horea457/VIC-/blob/main/data/source_batch036/08_CIT_797e8f52-79b4-42f8-87c1-94123103ce3d.md",
-      "source_date": "2001-01-16",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "source_order": 2,
-      "source_type": "SEC",
-      "source_name": "Tyco-CIT acquisition enforcement record",
-      "source_url": "https://www.sec.gov/news/press/2002-177.htm",
-      "source_date": "2002-12-17",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "source_order": 3,
-      "source_type": "SEC",
-      "source_name": "CIT 2009 bankruptcy / proxy record",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1171825/000089109210001264/e38098def14a.htm",
-      "source_date": "2010-03-01",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "source_order": 4,
-      "source_type": "SEC",
-      "source_name": "CIT 2009 reorganization record",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1171825/000089109210001264/e38098def14a.htm",
-      "source_date": "2010-03-01",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "source_order": 5,
-      "source_type": "First Citizens",
-      "source_name": "CIT merger completion",
-      "source_url": "https://newsroom.firstcitizens.com/2022-01-26-First-Citizens-BancShares-Reports-Earnings-for-Fourth-Quarter-and-Full-Year-2021",
-      "source_date": "2022-01-26",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
-    },
-    {
-      "idea_id": "797e8f52-79b4-42f8-87c1-94123103ce3d",
-      "source_order": 6,
-      "source_type": "First Citizens",
-      "source_name": "CIT integration",
-      "source_url": "https://newsroom.firstcitizens.com/2023-10-02-First-Citizens-Bank-Extends-Its-Brand-to-Legacy-CIT-Business-Verticals",
-      "source_date": "2023-10-02",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "source_order": 1,
-      "source_type": "Raw SQL/VIC",
-      "source_name": "원문 source packet",
-      "source_url": "https://github.com/horea457/VIC-/blob/main/data/source_batch036/09_CIT_671b2431-63fc-4542-98c7-62bbcd9189a3.md",
-      "source_date": "2007-08-23",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "source_order": 2,
-      "source_type": "SEC",
-      "source_name": "Tyco-CIT acquisition enforcement record",
-      "source_url": "https://www.sec.gov/news/press/2002-177.htm",
-      "source_date": "2002-12-17",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "source_order": 3,
-      "source_type": "SEC",
-      "source_name": "CIT 2009 bankruptcy / proxy record",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1171825/000089109210001264/e38098def14a.htm",
-      "source_date": "2010-03-01",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "source_order": 4,
-      "source_type": "SEC",
-      "source_name": "CIT 2009 reorganization record",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1171825/000089109210001264/e38098def14a.htm",
-      "source_date": "2010-03-01",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "source_order": 5,
-      "source_type": "First Citizens",
-      "source_name": "CIT merger completion",
-      "source_url": "https://newsroom.firstcitizens.com/2022-01-26-First-Citizens-BancShares-Reports-Earnings-for-Fourth-Quarter-and-Full-Year-2021",
-      "source_date": "2022-01-26",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
-    },
-    {
-      "idea_id": "671b2431-63fc-4542-98c7-62bbcd9189a3",
-      "source_order": 6,
-      "source_type": "First Citizens",
-      "source_name": "CIT integration",
-      "source_url": "https://newsroom.firstcitizens.com/2023-10-02-First-Citizens-Bank-Extends-Its-Brand-to-Legacy-CIT-Business-Verticals",
-      "source_date": "2023-10-02",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "source_order": 1,
-      "source_type": "Raw SQL/VIC",
-      "source_name": "원문 source packet",
-      "source_url": "https://github.com/horea457/VIC-/blob/main/data/source_batch036/10_CIT_8530cf07-e131-4623-b20c-4b8cbcdd661a.md",
-      "source_date": "2008-05-02",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "source_order": 2,
-      "source_type": "SEC",
-      "source_name": "Tyco-CIT acquisition enforcement record",
-      "source_url": "https://www.sec.gov/news/press/2002-177.htm",
-      "source_date": "2002-12-17",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "source_order": 3,
-      "source_type": "SEC",
-      "source_name": "CIT 2009 bankruptcy / proxy record",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1171825/000089109210001264/e38098def14a.htm",
-      "source_date": "2010-03-01",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "source_order": 4,
-      "source_type": "SEC",
-      "source_name": "CIT 2009 reorganization record",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1171825/000089109210001264/e38098def14a.htm",
-      "source_date": "2010-03-01",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "source_order": 5,
-      "source_type": "First Citizens",
-      "source_name": "CIT merger completion",
-      "source_url": "https://newsroom.firstcitizens.com/2022-01-26-First-Citizens-BancShares-Reports-Earnings-for-Fourth-Quarter-and-Full-Year-2021",
-      "source_date": "2022-01-26",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
-    },
-    {
-      "idea_id": "8530cf07-e131-4623-b20c-4b8cbcdd661a",
-      "source_order": 6,
-      "source_type": "First Citizens",
-      "source_name": "CIT integration",
-      "source_url": "https://newsroom.firstcitizens.com/2023-10-02-First-Citizens-Bank-Extends-Its-Brand-to-Legacy-CIT-Business-Verticals",
-      "source_date": "2023-10-02",
-      "use_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
+      "source_type_ko": "SEC",
+      "title_ko": "Bread annual report / name change",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101215/000119312523091580/d418938dars.pdf",
+      "evidence_ko": "원 방향·당시 thesis 또는 사후 사업/자본구조·촉매 검증"
     }
-  ]
+  ],
+  "deduplication": {
+    "removed_idea_ids": [
+      "671b2431-63fc-4542-98c7-62bbcd9189a3",
+      "797e8f52-79b4-42f8-87c1-94123103ce3d",
+      "8530cf07-e131-4623-b20c-4b8cbcdd661a"
+    ],
+    "canonical_payload": "batch_046_anthem_athabasca_athene_cit_deep_v7.json",
+    "canonical_batch": "Batch 046"
+  },
+  "meta": [
+    {
+      "idea_id": "f1d7e1cc-b307-4522-acea-5efa87289706",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "성공·raw 방향오류",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "성공·raw 방향오류",
+      "core_error_ko": "복합 금융회사는 segment SOTP만으로 충분하지 않고 card funding·loss tail을 별도 stress해야 한다. 다만 raw Short 표시는 원문과 정반대라 반드시 research layer에서 Long으로 교정해야 한다.",
+      "core_insight_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "b5410dd2-ce64-41cd-b884-06a667617bae",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "실패·리스크 진단은 유효",
+      "thesis_score": 3.0,
+      "process_score": 4.5,
+      "return_summary_ko": "실패·리스크 진단은 유효",
+      "core_error_ko": "금융 Short에서는 회계 공격성의 존재보다 그것이 언제 covenant·capital·liquidity를 깨는지 연결해야 한다. 손실 증가가 있어도 자본과 funding이 버티면 valuation compression만으로 thesis가 끝날 수 있다.",
+      "core_insight_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "68b90d87-fb88-4e3a-9d55-6672ca1b77c4",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "초기 성공·후기 구조변화·raw 방향오류",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "초기 성공·후기 구조변화·raw 방향오류",
+      "core_error_ko": "복합체의 historical ROIC를 그대로 terminal multiple로 외삽하지 말고 segment별 moat 지속성과 분리 가능성을 따로 봐야 한다. raw Short는 명백한 데이터 오류다.",
+      "core_insight_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "3c1d4a31-30bb-44a5-a985-d63a3804bc18",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "실패·부분 자산가치 실현·raw 방향오류",
+      "thesis_score": 6.0,
+      "process_score": 4.5,
+      "return_summary_ko": "실패·부분 자산가치 실현·raw 방향오류",
+      "core_error_ko": "event-driven SOTP는 매각가뿐 아니라 매각 후 남는 RemainCo의 normalized EPS, debt allocation, tax와 multiple을 동시에 계산해야 한다.",
+      "core_insight_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "f19af47f-7e91-480b-ada0-f3739a245c42",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "실패·촉매 일부 적중·raw 방향오류",
+      "thesis_score": 8.0,
+      "process_score": 4.5,
+      "return_summary_ko": "실패·촉매 일부 적중·raw 방향오류",
+      "core_error_ko": "“temporary” 판정에는 회복 KPI와 기한을 명시해야 한다. loyalty liability economics·client concentration·retailer health를 단순 회복 변수로 두면 terminal value를 과대평가한다.",
+      "core_insight_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "c3eb2ae5-bef9-4973-bbf3-0526b7134705",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "실패·core moat 과대평가·raw 방향오류",
+      "thesis_score": 3.0,
+      "process_score": 4.5,
+      "return_summary_ko": "실패·core moat 과대평가·raw 방향오류",
+      "core_error_ko": "금융업의 “moat”는 ROE가 아니라 cycle-average loss·funding beta·required equity를 차감한 ROE로 검증한다. 8x FCF가 싸도 FCF가 credit provision 이전인지 이후인지 구분해야 한다.",
+      "core_insight_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "42644e18-1c6d-471e-aae0-519d8fd7d3b2",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "성공·촉매 적중·raw 방향오류",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "성공·촉매 적중·raw 방향오류",
+      "core_error_ko": "금융 turnaround Long은 normalized EPS보다 먼저 reserve coverage·capital upstreaming·liquidity runway·loss vintage를 확인해야 한다. 이 네 변수가 개선될 때 low multiple이 실제 catalyst와 연결된다.",
+      "core_insight_ko": "금융·복합사업은 segment 가치, credit/funding, capital allocation과 catalyst를 별도 path로 모델링하고 최종 equity waterfall에서 결합한다.",
+      "research_asof": "2026-09-05"
+    }
+  ],
+  "meta_backfill_method": {
+    "reason": "Original payload omitted deep_analysis_meta.",
+    "thesis_score": "Weighted claim verdict score: strong=9, success/hit=8, partial=6, mixed/limited=5, failure=3.",
+    "process_score": "Derived from reviewed avoidability: high=4.5, medium/unknown=6.0, low=8.0."
+  },
+  "schema_normalization": {
+    "timeline": "event_date -> event_date_ko; signal_ko -> thesis_implication_ko",
+    "sources": "source_type/name/url/use -> source_type_ko/title_ko/url/evidence_ko",
+    "postmortems": "security_instrument_ko preserved in analyst_note_ko"
+  }
 }

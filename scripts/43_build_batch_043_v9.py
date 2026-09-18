@@ -463,7 +463,12 @@ def make_payload(ideas):
             out["sources"].append({"idea_id": i["id"], "source_order": n, "source_type_ko": source["type"], "publisher": source["publisher"],
                                    "title_ko": source["title"], "source_date": source["date"], "url": source["url"], "evidence_ko": source["evidence"]})
 
-    nxst_payload = json.loads((ROOT / "data/curated/batch_039_nexstar_sinclair_deep_v7.json").read_text(encoding="utf-8"))
+    # These two upgraded NXST rows are already part of the committed Batch 043
+    # canonical.  Reuse them in-place instead of depending on superseded Batch
+    # 039, which is intentionally absent from the production overlay.
+    nxst_payload = json.loads(
+        (ROOT / "data/curated/batch_043_level3_nexstar_deep_v7.json").read_text(encoding="utf-8")
+    )
     for key in ("ideas_master", "postmortems", "meta", "sections", "claims", "metrics", "timeline", "sources"):
         by_id = {iid: [row for row in nxst_payload[key] if row["idea_id"] == iid] for iid in NXST_IDS}
         for iid in NXST_IDS:
@@ -503,7 +508,7 @@ def render_index(ideas):
         "5. **LVLT 2007 common:** 2011 EBITDA $958m은 $2.2bn forecast보다 약 56% 낮았고 2~3년 $9 target은 실패했다.",
         "6. **LVLT 2011 common:** 2013 FCF $900m 기대 대비 실제 약 -$47m으로 timing은 실패했다. 2014~16 FCF와 2017 매각은 delayed thesis success다.",
         "7. **LVLT 2017 merger:** 계약대가 수령은 성공했으나 post-close $75~90·dividend safety는 2019 cut과 2022 elimination으로 실패했다.",
-        "8. **NXST 2005·2011:** Batch 039 V9 정본을 그대로 재사용했다. 2005는 사업논지 성공·가격성과 미검증, 2011은 retransmission·M&A·deleveraging이 강하게 적중했다.",
+        "8. **NXST 2005·2011:** Batch 039 구판에서 승격한 Batch 043 정본이다. 2005는 사업논지 성공·가격성과 미검증, 2011은 retransmission·M&A·deleveraging이 강하게 적중했다.",
         "", "## 공통 분석식", "",
         "`CNS revenue - access/network cost - SG&A - cash interest - capex - tax = common equity FCF`", "",
         "Debt는 `enterprise recovery × seniority + coupon + tender/exchange consideration - purchase price`로 계산한다. Pair는 bond·short·option·borrow의 날짜별 cash flow를 합산한다.",
@@ -515,7 +520,7 @@ def render_index(ideas):
         "5. 정확한 CUSIP·borrow·cash-flow dates가 없으면 exact IRR을 만들지 않는다.",
         "", "## 중복·정본 처리", "",
         "- LVLT 2000·2001은 Batch 035의 짧은 구판을 이번 개별 V9 정본으로 승격했다.",
-        "- NXST 2005·2011은 Batch 039에 이미 완성된 V9 canonical 파일과 overlay row를 재사용해 내용 충돌을 막았다.",
+        "- NXST 2005·2011은 Batch 039 구판을 Batch 043 canonical 파일과 overlay row로 승격해 내용 충돌을 막았다.",
         "", "## 앱/DB 반영", "",
         "- `analysis/batch_043_level3_nexstar_10.md`는 10개 canonical 파일을 불러오는 wrapper다.",
         "- `data/curated/batch_043_level3_nexstar_deep_v7.json`은 V9 상세 overlay다.", "",

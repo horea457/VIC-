@@ -294,5 +294,5 @@ vs
 ## 13. 앱 / DB 반영
 
 - Wrapper: `analysis/batch_068_afce_affy_afg_afh_afhp_afi_10.md`
-- Overlay: `data/curated/batch_068_afce_affy_afg_afh_afhp_afi_deep_v7.json`
+- Staging catalog (DB 미반영): `data/staging/batch_068_afce_affy_afg_afh_afhp_afi_catalog_v9.json`
 - Canonical source of truth: 위 10개 Markdown.

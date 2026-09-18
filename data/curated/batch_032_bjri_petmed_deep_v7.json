@@ -2327,964 +2327,1106 @@
     {
       "idea_id": "62aa0d47-94db-4d57-80c7-8fdaedede6ec",
       "event_order": 1,
-      "event_date": "2010-04-19",
       "event_ko": "VIC Short 게시",
-      "signal_ko": "T0 방향"
+      "event_date_ko": "2010-04-19",
+      "thesis_implication_ko": "T0 방향"
     },
     {
       "idea_id": "62aa0d47-94db-4d57-80c7-8fdaedede6ec",
       "event_order": 2,
-      "event_date": "2010-04-19",
       "event_ko": "당시 SEC filing 기준 사업·재무구조",
-      "signal_ko": "base case"
+      "event_date_ko": "2010-04-19",
+      "thesis_implication_ko": "base case"
     },
     {
       "idea_id": "62aa0d47-94db-4d57-80c7-8fdaedede6ec",
       "event_order": 3,
-      "event_date": "2017-12-31",
       "event_ko": "2017 mature-store economics 압력",
-      "signal_ko": "첫 posterior update"
+      "event_date_ko": "2017-12-31",
+      "thesis_implication_ko": "첫 posterior update"
     },
     {
       "idea_id": "62aa0d47-94db-4d57-80c7-8fdaedede6ec",
       "event_order": 4,
-      "event_date": "2019-12-31",
       "event_ko": "정상환경의 pre-COVID 실적 점검",
-      "signal_ko": "외생 shock 전 구조 확인"
+      "event_date_ko": "2019-12-31",
+      "thesis_implication_ko": "외생 shock 전 구조 확인"
     },
     {
       "idea_id": "62aa0d47-94db-4d57-80c7-8fdaedede6ec",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "reopening/repeat economics 점검",
-      "signal_ko": "회복 옵션 확인"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "회복 옵션 확인"
     },
     {
       "idea_id": "62aa0d47-94db-4d57-80c7-8fdaedede6ec",
       "event_order": 6,
-      "event_date": "2023-12-31",
       "event_ko": "회사는 2010년 이후에도 전국 확장을 이어가며 장기간 매출과 점포 수를 키웠다. 즉 saturation이 즉시 나타난 것은 아니었다. 다만 후기로 갈수록 labor/occupancy inflation과 신규점 속도 조절이 중요한 변수가 됐다.",
-      "signal_ko": "사후 판정"
+      "event_date_ko": "2023-12-31",
+      "thesis_implication_ko": "사후 판정"
     },
     {
       "idea_id": "8ecfa925-dc6c-4417-8330-d42056d41601",
       "event_order": 1,
-      "event_date": "2011-07-14",
       "event_ko": "VIC Short 게시",
-      "signal_ko": "T0 방향"
+      "event_date_ko": "2011-07-14",
+      "thesis_implication_ko": "T0 방향"
     },
     {
       "idea_id": "8ecfa925-dc6c-4417-8330-d42056d41601",
       "event_order": 2,
-      "event_date": "2011-07-14",
       "event_ko": "당시 SEC filing 기준 사업·재무구조",
-      "signal_ko": "base case"
+      "event_date_ko": "2011-07-14",
+      "thesis_implication_ko": "base case"
     },
     {
       "idea_id": "8ecfa925-dc6c-4417-8330-d42056d41601",
       "event_order": 3,
-      "event_date": "2019-12-31",
       "event_ko": "2017~19 cost inflation과 성장속도 조정",
-      "signal_ko": "첫 posterior update"
+      "event_date_ko": "2019-12-31",
+      "thesis_implication_ko": "첫 posterior update"
     },
     {
       "idea_id": "8ecfa925-dc6c-4417-8330-d42056d41601",
       "event_order": 4,
-      "event_date": "2019-12-31",
       "event_ko": "정상환경의 pre-COVID 실적 점검",
-      "signal_ko": "외생 shock 전 구조 확인"
+      "event_date_ko": "2019-12-31",
+      "thesis_implication_ko": "외생 shock 전 구조 확인"
     },
     {
       "idea_id": "8ecfa925-dc6c-4417-8330-d42056d41601",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "reopening/repeat economics 점검",
-      "signal_ko": "회복 옵션 확인"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "회복 옵션 확인"
     },
     {
       "idea_id": "8ecfa925-dc6c-4417-8330-d42056d41601",
       "event_order": 6,
-      "event_date": "2023-12-31",
       "event_ko": "2012년에도 회사는 확장세를 유지했고 이후 2017년 197개, 2019년 208개까지 늘었다. 성장 runway는 예상보다 길었다. 반면 mature casual dining의 cost inflation과 comp 의존은 후속 수년 반복적으로 드러났다.",
-      "signal_ko": "사후 판정"
+      "event_date_ko": "2023-12-31",
+      "thesis_implication_ko": "사후 판정"
     },
     {
       "idea_id": "9896b6fc-70e1-49d7-a605-7be1e35e63b5",
       "event_order": 1,
-      "event_date": "2012-03-23",
       "event_ko": "VIC Short 게시",
-      "signal_ko": "T0 방향"
+      "event_date_ko": "2012-03-23",
+      "thesis_implication_ko": "T0 방향"
     },
     {
       "idea_id": "9896b6fc-70e1-49d7-a605-7be1e35e63b5",
       "event_order": 2,
-      "event_date": "2012-03-23",
       "event_ko": "당시 SEC filing 기준 사업·재무구조",
-      "signal_ko": "base case"
+      "event_date_ko": "2012-03-23",
+      "thesis_implication_ko": "base case"
     },
     {
       "idea_id": "9896b6fc-70e1-49d7-a605-7be1e35e63b5",
       "event_order": 3,
-      "event_date": "2019-12-31",
       "event_ko": "2017~19 expansion productivity 논쟁",
-      "signal_ko": "첫 posterior update"
+      "event_date_ko": "2019-12-31",
+      "thesis_implication_ko": "첫 posterior update"
     },
     {
       "idea_id": "9896b6fc-70e1-49d7-a605-7be1e35e63b5",
       "event_order": 4,
-      "event_date": "2019-12-31",
       "event_ko": "정상환경의 pre-COVID 실적 점검",
-      "signal_ko": "외생 shock 전 구조 확인"
+      "event_date_ko": "2019-12-31",
+      "thesis_implication_ko": "외생 shock 전 구조 확인"
     },
     {
       "idea_id": "9896b6fc-70e1-49d7-a605-7be1e35e63b5",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "reopening/repeat economics 점검",
-      "signal_ko": "회복 옵션 확인"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "회복 옵션 확인"
     },
     {
       "idea_id": "9896b6fc-70e1-49d7-a605-7be1e35e63b5",
       "event_order": 6,
-      "event_date": "2023-12-31",
       "event_ko": "회사는 2012 이후에도 상당 기간 성공적으로 출점해 단순 점포포화 Short는 일찍 제시됐다. 2017 197개, 2019 208개로 확장됐고 2019 revenue는 $1.161bn이었다.",
-      "signal_ko": "사후 판정"
+      "event_date_ko": "2023-12-31",
+      "thesis_implication_ko": "사후 판정"
     },
     {
       "idea_id": "c691d295-386b-492c-bcee-bfb464456392",
       "event_order": 1,
-      "event_date": "2017-02-21",
       "event_ko": "VIC Short 게시",
-      "signal_ko": "T0 방향"
+      "event_date_ko": "2017-02-21",
+      "thesis_implication_ko": "T0 방향"
     },
     {
       "idea_id": "c691d295-386b-492c-bcee-bfb464456392",
       "event_order": 2,
-      "event_date": "2017-02-21",
       "event_ko": "당시 SEC filing 기준 사업·재무구조",
-      "signal_ko": "base case"
+      "event_date_ko": "2017-02-21",
+      "thesis_implication_ko": "base case"
     },
     {
       "idea_id": "c691d295-386b-492c-bcee-bfb464456392",
       "event_order": 3,
-      "event_date": "2019-12-31",
       "event_ko": "2018~19 margin·cost initiatives",
-      "signal_ko": "첫 posterior update"
+      "event_date_ko": "2019-12-31",
+      "thesis_implication_ko": "첫 posterior update"
     },
     {
       "idea_id": "c691d295-386b-492c-bcee-bfb464456392",
       "event_order": 4,
-      "event_date": "2019-12-31",
       "event_ko": "정상환경의 pre-COVID 실적 점검",
-      "signal_ko": "외생 shock 전 구조 확인"
+      "event_date_ko": "2019-12-31",
+      "thesis_implication_ko": "외생 shock 전 구조 확인"
     },
     {
       "idea_id": "c691d295-386b-492c-bcee-bfb464456392",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "reopening/repeat economics 점검",
-      "signal_ko": "회복 옵션 확인"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "회복 옵션 확인"
     },
     {
       "idea_id": "c691d295-386b-492c-bcee-bfb464456392",
       "event_order": 6,
-      "event_date": "2023-12-31",
       "event_ko": "2017~19 revenue는 증가했지만 labor and benefits도 2019 $424.4m까지 커졌고 회사는 cost/productivity initiatives를 지속했다. 하지만 brand와 comp 개선이 버티며 즉시 structural decline은 없었다.",
-      "signal_ko": "사후 판정"
+      "event_date_ko": "2023-12-31",
+      "thesis_implication_ko": "사후 판정"
     },
     {
       "idea_id": "9cfdf7f6-7510-4b09-9fc5-c5578b5bf3d1",
       "event_order": 1,
-      "event_date": "2017-05-02",
       "event_ko": "VIC Short 게시",
-      "signal_ko": "T0 방향"
+      "event_date_ko": "2017-05-02",
+      "thesis_implication_ko": "T0 방향"
     },
     {
       "idea_id": "9cfdf7f6-7510-4b09-9fc5-c5578b5bf3d1",
       "event_order": 2,
-      "event_date": "2017-05-02",
       "event_ko": "당시 SEC filing 기준 사업·재무구조",
-      "signal_ko": "base case"
+      "event_date_ko": "2017-05-02",
+      "thesis_implication_ko": "base case"
     },
     {
       "idea_id": "9cfdf7f6-7510-4b09-9fc5-c5578b5bf3d1",
       "event_order": 3,
-      "event_date": "2019-12-31",
       "event_ko": "2019 pre-COVID unit economics 확인",
-      "signal_ko": "첫 posterior update"
+      "event_date_ko": "2019-12-31",
+      "thesis_implication_ko": "첫 posterior update"
     },
     {
       "idea_id": "9cfdf7f6-7510-4b09-9fc5-c5578b5bf3d1",
       "event_order": 4,
-      "event_date": "2019-12-31",
       "event_ko": "정상환경의 pre-COVID 실적 점검",
-      "signal_ko": "외생 shock 전 구조 확인"
+      "event_date_ko": "2019-12-31",
+      "thesis_implication_ko": "외생 shock 전 구조 확인"
     },
     {
       "idea_id": "9cfdf7f6-7510-4b09-9fc5-c5578b5bf3d1",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "reopening/repeat economics 점검",
-      "signal_ko": "회복 옵션 확인"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "회복 옵션 확인"
     },
     {
       "idea_id": "9cfdf7f6-7510-4b09-9fc5-c5578b5bf3d1",
       "event_order": 6,
-      "event_date": "2023-12-31",
       "event_ko": "2018~19에도 매출은 늘고 footprint가 확대됐지만 2020 COVID가 전혀 다른 shock로 business economics를 압도했다. 이후 recovery가 강해 secular short를 깔끔하게 입증하지 못했다.",
-      "signal_ko": "사후 판정"
+      "event_date_ko": "2023-12-31",
+      "thesis_implication_ko": "사후 판정"
     },
     {
       "idea_id": "e2b890c4-8124-4b0e-ac8c-0d074a1dfbc8",
       "event_order": 1,
-      "event_date": "2018-09-06",
       "event_ko": "VIC Short 게시",
-      "signal_ko": "T0 방향"
+      "event_date_ko": "2018-09-06",
+      "thesis_implication_ko": "T0 방향"
     },
     {
       "idea_id": "e2b890c4-8124-4b0e-ac8c-0d074a1dfbc8",
       "event_order": 2,
-      "event_date": "2018-09-06",
       "event_ko": "당시 SEC filing 기준 사업·재무구조",
-      "signal_ko": "base case"
+      "event_date_ko": "2018-09-06",
+      "thesis_implication_ko": "base case"
     },
     {
       "idea_id": "e2b890c4-8124-4b0e-ac8c-0d074a1dfbc8",
       "event_order": 3,
-      "event_date": "2019-12-31",
       "event_ko": "2019 정상환경 margin 확인",
-      "signal_ko": "첫 posterior update"
+      "event_date_ko": "2019-12-31",
+      "thesis_implication_ko": "첫 posterior update"
     },
     {
       "idea_id": "e2b890c4-8124-4b0e-ac8c-0d074a1dfbc8",
       "event_order": 4,
-      "event_date": "2019-12-31",
       "event_ko": "정상환경의 pre-COVID 실적 점검",
-      "signal_ko": "외생 shock 전 구조 확인"
+      "event_date_ko": "2019-12-31",
+      "thesis_implication_ko": "외생 shock 전 구조 확인"
     },
     {
       "idea_id": "e2b890c4-8124-4b0e-ac8c-0d074a1dfbc8",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "reopening/repeat economics 점검",
-      "signal_ko": "회복 옵션 확인"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "회복 옵션 확인"
     },
     {
       "idea_id": "e2b890c4-8124-4b0e-ac8c-0d074a1dfbc8",
       "event_order": 6,
-      "event_date": "2023-12-31",
       "event_ko": "2019 revenue는 $1.161bn으로 2018 $1.117bn보다 늘었고 chain은 208개로 확대됐다. 그 다음 2020 COVID로 revenue가 $778.5m까지 급락했지만 이는 original thesis가 예측한 정상 경쟁구조가 아니라 외생 shock였다.",
-      "signal_ko": "사후 판정"
+      "event_date_ko": "2023-12-31",
+      "thesis_implication_ko": "사후 판정"
     },
     {
       "idea_id": "d44132a9-91b7-4db2-a34c-45ad6d7d6cd0",
       "event_order": 1,
-      "event_date": "2020-09-17",
       "event_ko": "VIC Short 게시",
-      "signal_ko": "T0 방향"
+      "event_date_ko": "2020-09-17",
+      "thesis_implication_ko": "T0 방향"
     },
     {
       "idea_id": "d44132a9-91b7-4db2-a34c-45ad6d7d6cd0",
       "event_order": 2,
-      "event_date": "2020-09-17",
       "event_ko": "당시 SEC filing 기준 사업·재무구조",
-      "signal_ko": "base case"
+      "event_date_ko": "2020-09-17",
+      "thesis_implication_ko": "base case"
     },
     {
       "idea_id": "d44132a9-91b7-4db2-a34c-45ad6d7d6cd0",
       "event_order": 3,
-      "event_date": "2021-12-31",
       "event_ko": "2021 reopening과 liquidity 회복",
-      "signal_ko": "첫 posterior update"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "첫 posterior update"
     },
     {
       "idea_id": "d44132a9-91b7-4db2-a34c-45ad6d7d6cd0",
       "event_order": 4,
-      "event_date": "2019-12-31",
       "event_ko": "정상환경의 pre-COVID 실적 점검",
-      "signal_ko": "외생 shock 전 구조 확인"
+      "event_date_ko": "2019-12-31",
+      "thesis_implication_ko": "외생 shock 전 구조 확인"
     },
     {
       "idea_id": "d44132a9-91b7-4db2-a34c-45ad6d7d6cd0",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "reopening/repeat economics 점검",
-      "signal_ko": "회복 옵션 확인"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "회복 옵션 확인"
     },
     {
       "idea_id": "d44132a9-91b7-4db2-a34c-45ad6d7d6cd0",
       "event_order": 6,
-      "event_date": "2023-12-31",
       "event_ko": "2020 revenue는 $778.5m로 급감했으나 회사는 equity·credit liquidity를 확보했고 2021~22 dining reopening과 demand recovery로 2022 revenue가 $1.284bn까지 회복했다. 생존/회복 능력이 Short의 structural downside를 약화시켰다",
-      "signal_ko": "사후 판정"
+      "event_date_ko": "2023-12-31",
+      "thesis_implication_ko": "사후 판정"
     },
     {
       "idea_id": "1ce52d18-eac8-42bc-bcfd-8042e8be90e2",
       "event_order": 1,
-      "event_date": "2022-07-09",
       "event_ko": "VIC Short 게시",
-      "signal_ko": "T0 방향"
+      "event_date_ko": "2022-07-09",
+      "thesis_implication_ko": "T0 방향"
     },
     {
       "idea_id": "1ce52d18-eac8-42bc-bcfd-8042e8be90e2",
       "event_order": 2,
-      "event_date": "2022-07-09",
       "event_ko": "당시 SEC filing 기준 사업·재무구조",
-      "signal_ko": "base case"
+      "event_date_ko": "2022-07-09",
+      "thesis_implication_ko": "base case"
     },
     {
       "idea_id": "1ce52d18-eac8-42bc-bcfd-8042e8be90e2",
       "event_order": 3,
-      "event_date": "2023-12-31",
       "event_ko": "2023 cost normalization",
-      "signal_ko": "첫 posterior update"
+      "event_date_ko": "2023-12-31",
+      "thesis_implication_ko": "첫 posterior update"
     },
     {
       "idea_id": "1ce52d18-eac8-42bc-bcfd-8042e8be90e2",
       "event_order": 4,
-      "event_date": "2019-12-31",
       "event_ko": "정상환경의 pre-COVID 실적 점검",
-      "signal_ko": "외생 shock 전 구조 확인"
+      "event_date_ko": "2019-12-31",
+      "thesis_implication_ko": "외생 shock 전 구조 확인"
     },
     {
       "idea_id": "1ce52d18-eac8-42bc-bcfd-8042e8be90e2",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "reopening/repeat economics 점검",
-      "signal_ko": "회복 옵션 확인"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "회복 옵션 확인"
     },
     {
       "idea_id": "1ce52d18-eac8-42bc-bcfd-8042e8be90e2",
       "event_order": 6,
-      "event_date": "2023-12-31",
       "event_ko": "2022 revenue는 $1.284bn으로 회복했지만 labor and benefits $483.4m, cost of sales $349.6m 등 비용 압력이 컸다. 이후 2023 revenue는 $1.333bn으로 증가했고 food cost는 낮아져 margin recovery가 진행됐다. Short의 near-ter",
-      "signal_ko": "사후 판정"
+      "event_date_ko": "2023-12-31",
+      "thesis_implication_ko": "사후 판정"
     },
     {
       "idea_id": "6ceb2b17-9e49-42aa-92cd-431e03abc512",
       "event_order": 1,
-      "event_date": "2002-08-14",
       "event_ko": "VIC Short 게시",
-      "signal_ko": "T0 방향"
+      "event_date_ko": "2002-08-14",
+      "thesis_implication_ko": "T0 방향"
     },
     {
       "idea_id": "6ceb2b17-9e49-42aa-92cd-431e03abc512",
       "event_order": 2,
-      "event_date": "2002-08-14",
       "event_ko": "당시 SEC filing 기준 사업·재무구조",
-      "signal_ko": "base case"
+      "event_date_ko": "2002-08-14",
+      "thesis_implication_ko": "base case"
     },
     {
       "idea_id": "6ceb2b17-9e49-42aa-92cd-431e03abc512",
       "event_order": 3,
-      "event_date": "2011-03-31",
       "event_ko": "2008~11 repeat-driven model 지속",
-      "signal_ko": "첫 posterior update"
+      "event_date_ko": "2011-03-31",
+      "thesis_implication_ko": "첫 posterior update"
     },
     {
       "idea_id": "6ceb2b17-9e49-42aa-92cd-431e03abc512",
       "event_order": 4,
-      "event_date": "2019-12-31",
       "event_ko": "e-commerce 경쟁·repeat model 점검",
-      "signal_ko": "외생 shock 전 구조 확인"
+      "event_date_ko": "2019-12-31",
+      "thesis_implication_ko": "외생 shock 전 구조 확인"
     },
     {
       "idea_id": "6ceb2b17-9e49-42aa-92cd-431e03abc512",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "reopening/repeat economics 점검",
-      "signal_ko": "회복 옵션 확인"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "회복 옵션 확인"
     },
     {
       "idea_id": "6ceb2b17-9e49-42aa-92cd-431e03abc512",
       "event_order": 6,
-      "event_date": "2023-12-31",
       "event_ko": "PetMed는 사라지지 않고 장기간 nationwide direct pet pharmacy로 성장했다. 2008·2011 10-K에서도 national advertising으로 brand recognition·traffic·new customers·repeat purchases를 키우는 모델이 유지됐다. 즉 초기 dire",
-      "signal_ko": "사후 판정"
+      "event_date_ko": "2023-12-31",
+      "thesis_implication_ko": "사후 판정"
     },
     {
       "idea_id": "dcbd8171-e23d-4caa-afc2-722170923be8",
       "event_order": 1,
-      "event_date": "2008-04-25",
       "event_ko": "VIC Short 게시",
-      "signal_ko": "T0 방향"
+      "event_date_ko": "2008-04-25",
+      "thesis_implication_ko": "T0 방향"
     },
     {
       "idea_id": "dcbd8171-e23d-4caa-afc2-722170923be8",
       "event_order": 2,
-      "event_date": "2008-04-25",
       "event_ko": "당시 SEC filing 기준 사업·재무구조",
-      "signal_ko": "base case"
+      "event_date_ko": "2008-04-25",
+      "thesis_implication_ko": "base case"
     },
     {
       "idea_id": "dcbd8171-e23d-4caa-afc2-722170923be8",
       "event_order": 3,
-      "event_date": "2020-03-31",
       "event_ko": "후속 e-commerce 경쟁 심화",
-      "signal_ko": "첫 posterior update"
+      "event_date_ko": "2020-03-31",
+      "thesis_implication_ko": "첫 posterior update"
     },
     {
       "idea_id": "dcbd8171-e23d-4caa-afc2-722170923be8",
       "event_order": 4,
-      "event_date": "2019-12-31",
       "event_ko": "e-commerce 경쟁·repeat model 점검",
-      "signal_ko": "외생 shock 전 구조 확인"
+      "event_date_ko": "2019-12-31",
+      "thesis_implication_ko": "외생 shock 전 구조 확인"
     },
     {
       "idea_id": "dcbd8171-e23d-4caa-afc2-722170923be8",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "reopening/repeat economics 점검",
-      "signal_ko": "회복 옵션 확인"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "회복 옵션 확인"
     },
     {
       "idea_id": "dcbd8171-e23d-4caa-afc2-722170923be8",
       "event_order": 6,
-      "event_date": "2023-12-31",
       "event_ko": "2011에도 회사는 약 1,200개 주요 제품을 판매하며 national TV/online/direct mail을 통해 신규 고객과 repeat purchase를 늘렸다. 이후 e-commerce 경쟁은 실제로 심화했지만 회사는 2021까지 leading nationwide pet pharmacy로 존속했다. 장기 sec",
-      "signal_ko": "사후 판정"
+      "event_date_ko": "2023-12-31",
+      "thesis_implication_ko": "사후 판정"
     }
   ],
   "sources": [
     {
       "idea_id": "62aa0d47-94db-4d57-80c7-8fdaedede6ec",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "bj10",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312511061027/d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312511061027/d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "62aa0d47-94db-4d57-80c7-8fdaedede6ec",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "bj12",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312512082223/d255503d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312512082223/d255503d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "62aa0d47-94db-4d57-80c7-8fdaedede6ec",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "bj17",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312517059914/d280042d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312517059914/d280042d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "62aa0d47-94db-4d57-80c7-8fdaedede6ec",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "bj19",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459019004224/bjri-10k_20190101.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj19",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459019004224/bjri-10k_20190101.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "62aa0d47-94db-4d57-80c7-8fdaedede6ec",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "bjcovid",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459021009951/bjri-10k_20201229.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bjcovid",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459021009951/bjri-10k_20201229.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "62aa0d47-94db-4d57-80c7-8fdaedede6ec",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "bj22",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000095017023004813/bjri-20230103.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000095017023004813/bjri-20230103.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "8ecfa925-dc6c-4417-8330-d42056d41601",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "bj10",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312511061027/d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312511061027/d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "8ecfa925-dc6c-4417-8330-d42056d41601",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "bj12",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312512082223/d255503d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312512082223/d255503d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "8ecfa925-dc6c-4417-8330-d42056d41601",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "bj17",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312517059914/d280042d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312517059914/d280042d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "8ecfa925-dc6c-4417-8330-d42056d41601",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "bj19",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459019004224/bjri-10k_20190101.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj19",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459019004224/bjri-10k_20190101.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "8ecfa925-dc6c-4417-8330-d42056d41601",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "bjcovid",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459021009951/bjri-10k_20201229.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bjcovid",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459021009951/bjri-10k_20201229.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "8ecfa925-dc6c-4417-8330-d42056d41601",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "bj22",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000095017023004813/bjri-20230103.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000095017023004813/bjri-20230103.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "9896b6fc-70e1-49d7-a605-7be1e35e63b5",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "bj10",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312511061027/d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312511061027/d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "9896b6fc-70e1-49d7-a605-7be1e35e63b5",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "bj12",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312512082223/d255503d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312512082223/d255503d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "9896b6fc-70e1-49d7-a605-7be1e35e63b5",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "bj17",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312517059914/d280042d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312517059914/d280042d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "9896b6fc-70e1-49d7-a605-7be1e35e63b5",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "bj19",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459019004224/bjri-10k_20190101.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj19",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459019004224/bjri-10k_20190101.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "9896b6fc-70e1-49d7-a605-7be1e35e63b5",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "bjcovid",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459021009951/bjri-10k_20201229.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bjcovid",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459021009951/bjri-10k_20201229.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "9896b6fc-70e1-49d7-a605-7be1e35e63b5",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "bj22",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000095017023004813/bjri-20230103.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000095017023004813/bjri-20230103.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "c691d295-386b-492c-bcee-bfb464456392",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "bj10",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312511061027/d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312511061027/d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "c691d295-386b-492c-bcee-bfb464456392",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "bj12",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312512082223/d255503d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312512082223/d255503d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "c691d295-386b-492c-bcee-bfb464456392",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "bj17",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312517059914/d280042d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312517059914/d280042d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "c691d295-386b-492c-bcee-bfb464456392",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "bj19",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459019004224/bjri-10k_20190101.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj19",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459019004224/bjri-10k_20190101.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "c691d295-386b-492c-bcee-bfb464456392",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "bjcovid",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459021009951/bjri-10k_20201229.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bjcovid",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459021009951/bjri-10k_20201229.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "c691d295-386b-492c-bcee-bfb464456392",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "bj22",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000095017023004813/bjri-20230103.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000095017023004813/bjri-20230103.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "9cfdf7f6-7510-4b09-9fc5-c5578b5bf3d1",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "bj10",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312511061027/d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312511061027/d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "9cfdf7f6-7510-4b09-9fc5-c5578b5bf3d1",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "bj12",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312512082223/d255503d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312512082223/d255503d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "9cfdf7f6-7510-4b09-9fc5-c5578b5bf3d1",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "bj17",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312517059914/d280042d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312517059914/d280042d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "9cfdf7f6-7510-4b09-9fc5-c5578b5bf3d1",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "bj19",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459019004224/bjri-10k_20190101.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj19",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459019004224/bjri-10k_20190101.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "9cfdf7f6-7510-4b09-9fc5-c5578b5bf3d1",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "bjcovid",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459021009951/bjri-10k_20201229.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bjcovid",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459021009951/bjri-10k_20201229.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "9cfdf7f6-7510-4b09-9fc5-c5578b5bf3d1",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "bj22",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000095017023004813/bjri-20230103.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000095017023004813/bjri-20230103.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "e2b890c4-8124-4b0e-ac8c-0d074a1dfbc8",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "bj10",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312511061027/d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312511061027/d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "e2b890c4-8124-4b0e-ac8c-0d074a1dfbc8",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "bj12",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312512082223/d255503d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312512082223/d255503d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "e2b890c4-8124-4b0e-ac8c-0d074a1dfbc8",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "bj17",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312517059914/d280042d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312517059914/d280042d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "e2b890c4-8124-4b0e-ac8c-0d074a1dfbc8",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "bj19",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459019004224/bjri-10k_20190101.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj19",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459019004224/bjri-10k_20190101.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "e2b890c4-8124-4b0e-ac8c-0d074a1dfbc8",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "bjcovid",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459021009951/bjri-10k_20201229.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bjcovid",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459021009951/bjri-10k_20201229.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "e2b890c4-8124-4b0e-ac8c-0d074a1dfbc8",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "bj22",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000095017023004813/bjri-20230103.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000095017023004813/bjri-20230103.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "d44132a9-91b7-4db2-a34c-45ad6d7d6cd0",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "bj10",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312511061027/d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312511061027/d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "d44132a9-91b7-4db2-a34c-45ad6d7d6cd0",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "bj12",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312512082223/d255503d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312512082223/d255503d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "d44132a9-91b7-4db2-a34c-45ad6d7d6cd0",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "bj17",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312517059914/d280042d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312517059914/d280042d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "d44132a9-91b7-4db2-a34c-45ad6d7d6cd0",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "bj19",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459019004224/bjri-10k_20190101.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj19",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459019004224/bjri-10k_20190101.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "d44132a9-91b7-4db2-a34c-45ad6d7d6cd0",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "bjcovid",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459021009951/bjri-10k_20201229.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bjcovid",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459021009951/bjri-10k_20201229.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "d44132a9-91b7-4db2-a34c-45ad6d7d6cd0",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "bj22",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000095017023004813/bjri-20230103.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000095017023004813/bjri-20230103.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "1ce52d18-eac8-42bc-bcfd-8042e8be90e2",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "bj10",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312511061027/d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312511061027/d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "1ce52d18-eac8-42bc-bcfd-8042e8be90e2",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "bj12",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312512082223/d255503d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312512082223/d255503d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "1ce52d18-eac8-42bc-bcfd-8042e8be90e2",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "bj17",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312517059914/d280042d10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000119312517059914/d280042d10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "1ce52d18-eac8-42bc-bcfd-8042e8be90e2",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "bj19",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459019004224/bjri-10k_20190101.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj19",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459019004224/bjri-10k_20190101.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "1ce52d18-eac8-42bc-bcfd-8042e8be90e2",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "bjcovid",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459021009951/bjri-10k_20201229.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bjcovid",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000156459021009951/bjri-10k_20201229.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "1ce52d18-eac8-42bc-bcfd-8042e8be90e2",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "bj22",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1013488/000095017023004813/bjri-20230103.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "bj22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013488/000095017023004813/bjri-20230103.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "6ceb2b17-9e49-42aa-92cd-431e03abc512",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "pet08",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1040130/000094344008000245/petmarch200710k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "pet08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1040130/000094344008000245/petmarch200710k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "6ceb2b17-9e49-42aa-92cd-431e03abc512",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "pet11",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1040130/000094344011000276/pets2011_10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "pet11",
+      "url": "https://www.sec.gov/Archives/edgar/data/1040130/000094344011000276/pets2011_10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "6ceb2b17-9e49-42aa-92cd-431e03abc512",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "pet14",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1040130/000157104914002091/t79402_10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "pet14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1040130/000157104914002091/t79402_10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "6ceb2b17-9e49-42aa-92cd-431e03abc512",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "pet20",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1040130/000143774920011720/pets20200331_10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "pet20",
+      "url": "https://www.sec.gov/Archives/edgar/data/1040130/000143774920011720/pets20200331_10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "6ceb2b17-9e49-42aa-92cd-431e03abc512",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "pet21",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1040130/000143774921013213/pets20210331_10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "pet21",
+      "url": "https://www.sec.gov/Archives/edgar/data/1040130/000143774921013213/pets20210331_10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "6ceb2b17-9e49-42aa-92cd-431e03abc512",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "pet23",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1040130/000104013023000033/pets-20230331.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "pet23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1040130/000104013023000033/pets-20230331.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "dcbd8171-e23d-4caa-afc2-722170923be8",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "pet08",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1040130/000094344008000245/petmarch200710k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "pet08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1040130/000094344008000245/petmarch200710k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "dcbd8171-e23d-4caa-afc2-722170923be8",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "pet11",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1040130/000094344011000276/pets2011_10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "pet11",
+      "url": "https://www.sec.gov/Archives/edgar/data/1040130/000094344011000276/pets2011_10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "dcbd8171-e23d-4caa-afc2-722170923be8",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "pet14",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1040130/000157104914002091/t79402_10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "pet14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1040130/000157104914002091/t79402_10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "dcbd8171-e23d-4caa-afc2-722170923be8",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "pet20",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1040130/000143774920011720/pets20200331_10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "pet20",
+      "url": "https://www.sec.gov/Archives/edgar/data/1040130/000143774920011720/pets20200331_10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "dcbd8171-e23d-4caa-afc2-722170923be8",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "pet21",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1040130/000143774921013213/pets20210331_10k.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "pet21",
+      "url": "https://www.sec.gov/Archives/edgar/data/1040130/000143774921013213/pets20210331_10k.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     },
     {
       "idea_id": "dcbd8171-e23d-4caa-afc2-722170923be8",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "pet23",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1040130/000104013023000033/pets-20230331.htm",
       "source_date": null,
-      "use_ko": "당시 사업·unit economics·후속 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "pet23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1040130/000104013023000033/pets-20230331.htm",
+      "evidence_ko": "당시 사업·unit economics·후속 outcome 검증"
     }
-  ]
+  ],
+  "meta": [
+    {
+      "idea_id": "62aa0d47-94db-4d57-80c7-8fdaedede6ec",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "부분적중·조기",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "부분적중·조기",
+      "core_error_ko": "낮은 장기 moat 또는 비용압력을 투자기간 내 즉시 earnings collapse로 번역한 시간축 오류.",
+      "core_insight_ko": "Restaurant growth는 점포수보다 mature comp, 3~5년차 cohort sales, restaurant-level margin과 new-unit cash return으로 판단하고 food/labor inflation을 price/productivity와 함께 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "8ecfa925-dc6c-4417-8330-d42056d41601",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "부분적중·타이밍 실패",
+      "thesis_score": 3.0,
+      "process_score": 4.5,
+      "return_summary_ko": "부분적중·타이밍 실패",
+      "core_error_ko": "낮은 장기 moat 또는 비용압력을 투자기간 내 즉시 earnings collapse로 번역한 시간축 오류.",
+      "core_insight_ko": "Restaurant growth는 점포수보다 mature comp, 3~5년차 cohort sales, restaurant-level margin과 new-unit cash return으로 판단하고 food/labor inflation을 price/productivity와 함께 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "9896b6fc-70e1-49d7-a605-7be1e35e63b5",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "실패에 가까운 조기 Short",
+      "thesis_score": 3.0,
+      "process_score": 4.5,
+      "return_summary_ko": "실패에 가까운 조기 Short",
+      "core_error_ko": "낮은 장기 moat 또는 비용압력을 투자기간 내 즉시 earnings collapse로 번역한 시간축 오류.",
+      "core_insight_ko": "Restaurant growth는 점포수보다 mature comp, 3~5년차 cohort sales, restaurant-level margin과 new-unit cash return으로 판단하고 food/labor inflation을 price/productivity와 함께 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "c691d295-386b-492c-bcee-bfb464456392",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "혼합",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "혼합",
+      "core_error_ko": "핵심 downside는 포착했지만 정상화/경영진 대응과 외생 shock를 충분히 분리하지 못했다.",
+      "core_insight_ko": "Restaurant growth는 점포수보다 mature comp, 3~5년차 cohort sales, restaurant-level margin과 new-unit cash return으로 판단하고 food/labor inflation을 price/productivity와 함께 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "9cfdf7f6-7510-4b09-9fc5-c5578b5bf3d1",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "혼합",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "혼합",
+      "core_error_ko": "핵심 downside는 포착했지만 정상화/경영진 대응과 외생 shock를 충분히 분리하지 못했다.",
+      "core_insight_ko": "Restaurant growth는 점포수보다 mature comp, 3~5년차 cohort sales, restaurant-level margin과 new-unit cash return으로 판단하고 food/labor inflation을 price/productivity와 함께 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "e2b890c4-8124-4b0e-ac8c-0d074a1dfbc8",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "부분적중",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "부분적중",
+      "core_error_ko": "핵심 downside는 포착했지만 정상화/경영진 대응과 외생 shock를 충분히 분리하지 못했다.",
+      "core_insight_ko": "Restaurant growth는 점포수보다 mature comp, 3~5년차 cohort sales, restaurant-level margin과 new-unit cash return으로 판단하고 food/labor inflation을 price/productivity와 함께 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "d44132a9-91b7-4db2-a34c-45ad6d7d6cd0",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "실패",
+      "thesis_score": 3.0,
+      "process_score": 4.5,
+      "return_summary_ko": "실패",
+      "core_error_ko": "낮은 장기 moat 또는 비용압력을 투자기간 내 즉시 earnings collapse로 번역한 시간축 오류.",
+      "core_insight_ko": "Restaurant growth는 점포수보다 mature comp, 3~5년차 cohort sales, restaurant-level margin과 new-unit cash return으로 판단하고 food/labor inflation을 price/productivity와 함께 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "1ce52d18-eac8-42bc-bcfd-8042e8be90e2",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "부분적중",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "부분적중",
+      "core_error_ko": "핵심 downside는 포착했지만 정상화/경영진 대응과 외생 shock를 충분히 분리하지 못했다.",
+      "core_insight_ko": "Restaurant growth는 점포수보다 mature comp, 3~5년차 cohort sales, restaurant-level margin과 new-unit cash return으로 판단하고 food/labor inflation을 price/productivity와 함께 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "6ceb2b17-9e49-42aa-92cd-431e03abc512",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "실패",
+      "thesis_score": 3.0,
+      "process_score": 4.5,
+      "return_summary_ko": "실패",
+      "core_error_ko": "낮은 장기 moat 또는 비용압력을 투자기간 내 즉시 earnings collapse로 번역한 시간축 오류.",
+      "core_insight_ko": "DTC pharmacy는 traffic 성장보다 CAC, first-order gross profit, repeat/reorder, prescription friction과 LTV/CAC를 cohort로 추적한다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "dcbd8171-e23d-4caa-afc2-722170923be8",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "부분적중·너무 이른 Short",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "부분적중·너무 이른 Short",
+      "core_error_ko": "핵심 downside는 포착했지만 정상화/경영진 대응과 외생 shock를 충분히 분리하지 못했다.",
+      "core_insight_ko": "DTC pharmacy는 traffic 성장보다 CAC, first-order gross profit, repeat/reorder, prescription friction과 LTV/CAC를 cohort로 추적한다.",
+      "research_asof": "2026-09-05"
+    }
+  ],
+  "meta_backfill_method": {
+    "reason": "Original payload omitted deep_analysis_meta.",
+    "thesis_score": "Weighted claim verdict score: strong=9, success/hit=8, partial=6, mixed/limited=5, failure=3.",
+    "process_score": "Derived from reviewed avoidability: high=4.5, medium/unknown=6.0, low=8.0."
+  },
+  "schema_normalization": {
+    "timeline": "event_date -> event_date_ko; signal_ko -> thesis_implication_ko",
+    "sources": "source_type/name/url/use -> source_type_ko/title_ko/url/evidence_ko",
+    "postmortems": "security_instrument_ko preserved in analyst_note_ko"
+  }
 }

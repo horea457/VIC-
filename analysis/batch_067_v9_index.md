@@ -329,5 +329,5 @@ clinical, regulatory, financing probability를 분리한다.
 ## 14. 앱 / DB 반영
 
 - Wrapper: `analysis/batch_067_aezs_af_afc_afce_10.md`
-- Overlay: `data/curated/batch_067_aezs_af_afc_afce_deep_v7.json`
+- Staging catalog (DB 미반영): `data/staging/batch_067_aezs_af_afc_afce_catalog_v9.json`
 - Canonical source of truth: 위 10개 Markdown.

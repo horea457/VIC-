@@ -441,5 +441,5 @@ quality + cheapness에도 **catalyst/liquidity가 없으면 discount가 안 닫�
 ## 16. 앱 / DB 반영
 
 - Wrapper: `analysis/batch_061_adt_adriatic_adtn_adus_adv_advc_10.md`
-- Overlay: `data/curated/batch_061_adt_adriatic_adtn_adus_adv_advc_deep_v7.json`
+- Staging catalog (DB 미반영): `data/staging/batch_061_adt_adriatic_adtn_adus_adv_advc_catalog_v9.json`
 - Canonical source of truth: 위 10개 Markdown.

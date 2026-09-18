@@ -31,7 +31,7 @@
 5. **LVLT 2007 common:** 2011 EBITDA $958m은 $2.2bn forecast보다 약 56% 낮았고 2~3년 $9 target은 실패했다.
 6. **LVLT 2011 common:** 2013 FCF $900m 기대 대비 실제 약 -$47m으로 timing은 실패했다. 2014~16 FCF와 2017 매각은 delayed thesis success다.
 7. **LVLT 2017 merger:** 계약대가 수령은 성공했으나 post-close $75~90·dividend safety는 2019 cut과 2022 elimination으로 실패했다.
-8. **NXST 2005·2011:** Batch 039 V9 정본을 그대로 재사용했다. 2005는 사업논지 성공·가격성과 미검증, 2011은 retransmission·M&A·deleveraging이 강하게 적중했다.
+8. **NXST 2005·2011:** Batch 039 구판에서 승격한 Batch 043 정본이다. 2005는 사업논지 성공·가격성과 미검증, 2011은 retransmission·M&A·deleveraging이 강하게 적중했다.
 
 ## 공통 분석식
 
@@ -50,7 +50,7 @@ Debt는 `enterprise recovery × seniority + coupon + tender/exchange considerati
 ## 중복·정본 처리
 
 - LVLT 2000·2001은 Batch 035의 짧은 구판을 이번 개별 V9 정본으로 승격했다.
-- NXST 2005·2011은 Batch 039에 이미 완성된 V9 canonical 파일과 overlay row를 재사용해 내용 충돌을 막았다.
+- NXST 2005·2011은 Batch 039 구판을 Batch 043 canonical 파일과 overlay row로 승격해 내용 충돌을 막았다.
 
 ## 앱/DB 반영
 

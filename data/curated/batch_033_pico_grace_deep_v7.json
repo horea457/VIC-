@@ -2327,964 +2327,1106 @@
     {
       "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
       "event_order": 1,
-      "event_date": "2009-11-29",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0 direction"
+      "event_date_ko": "2009-11-29",
+      "thesis_implication_ko": "T0 direction"
     },
     {
       "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
       "event_order": 2,
-      "event_date": "2009-11-29",
       "event_ko": "당시 asset/liability 구조 확인",
-      "signal_ko": "base case"
+      "event_date_ko": "2009-11-29",
+      "thesis_implication_ko": "base case"
     },
     {
       "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
       "event_order": 3,
-      "event_date": "2017-08-04",
       "event_ko": "2017 UCP monetization",
-      "signal_ko": "첫 핵심 catalyst"
+      "event_date_ko": "2017-08-04",
+      "thesis_implication_ko": "첫 핵심 catalyst"
     },
     {
       "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
       "event_order": 4,
-      "event_date": "2017-08-04",
       "event_ko": "UCP merger / asset simplification",
-      "signal_ko": "intermediate update"
+      "event_date_ko": "2017-08-04",
+      "thesis_implication_ko": "intermediate update"
     },
     {
       "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "Vidler-only / strategic option",
-      "signal_ko": "late-stage update"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "late-stage update"
     },
     {
       "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
       "event_order": 6,
-      "event_date": "2022-05-25",
       "event_ko": "D.R. Horton Vidler acquisition close",
-      "signal_ko": "최종 판정"
+      "event_date_ko": "2022-05-25",
+      "thesis_implication_ko": "최종 판정"
     },
     {
       "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
       "event_order": 1,
-      "event_date": "2011-01-13",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0 direction"
+      "event_date_ko": "2011-01-13",
+      "thesis_implication_ko": "T0 direction"
     },
     {
       "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
       "event_order": 2,
-      "event_date": "2011-01-13",
       "event_ko": "당시 asset/liability 구조 확인",
-      "signal_ko": "base case"
+      "event_date_ko": "2011-01-13",
+      "thesis_implication_ko": "base case"
     },
     {
       "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
       "event_order": 3,
-      "event_date": "2017-08-04",
       "event_ko": "2017 UCP monetization",
-      "signal_ko": "첫 핵심 catalyst"
+      "event_date_ko": "2017-08-04",
+      "thesis_implication_ko": "첫 핵심 catalyst"
     },
     {
       "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
       "event_order": 4,
-      "event_date": "2017-08-04",
       "event_ko": "UCP merger / asset simplification",
-      "signal_ko": "intermediate update"
+      "event_date_ko": "2017-08-04",
+      "thesis_implication_ko": "intermediate update"
     },
     {
       "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "Vidler-only / strategic option",
-      "signal_ko": "late-stage update"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "late-stage update"
     },
     {
       "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
       "event_order": 6,
-      "event_date": "2022-05-25",
       "event_ko": "D.R. Horton Vidler acquisition close",
-      "signal_ko": "최종 판정"
+      "event_date_ko": "2022-05-25",
+      "thesis_implication_ko": "최종 판정"
     },
     {
       "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
       "event_order": 1,
-      "event_date": "2013-05-11",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0 direction"
+      "event_date_ko": "2013-05-11",
+      "thesis_implication_ko": "T0 direction"
     },
     {
       "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
       "event_order": 2,
-      "event_date": "2013-05-11",
       "event_ko": "당시 asset/liability 구조 확인",
-      "signal_ko": "base case"
+      "event_date_ko": "2013-05-11",
+      "thesis_implication_ko": "base case"
     },
     {
       "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
       "event_order": 3,
-      "event_date": "2017-08-04",
       "event_ko": "2017 UCP merger close",
-      "signal_ko": "첫 핵심 catalyst"
+      "event_date_ko": "2017-08-04",
+      "thesis_implication_ko": "첫 핵심 catalyst"
     },
     {
       "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
       "event_order": 4,
-      "event_date": "2017-08-04",
       "event_ko": "UCP merger / asset simplification",
-      "signal_ko": "intermediate update"
+      "event_date_ko": "2017-08-04",
+      "thesis_implication_ko": "intermediate update"
     },
     {
       "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "Vidler-only / strategic option",
-      "signal_ko": "late-stage update"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "late-stage update"
     },
     {
       "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
       "event_order": 6,
-      "event_date": "2022-05-25",
       "event_ko": "D.R. Horton Vidler acquisition close",
-      "signal_ko": "최종 판정"
+      "event_date_ko": "2022-05-25",
+      "thesis_implication_ko": "최종 판정"
     },
     {
       "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
       "event_order": 1,
-      "event_date": "2014-02-04",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0 direction"
+      "event_date_ko": "2014-02-04",
+      "thesis_implication_ko": "T0 direction"
     },
     {
       "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
       "event_order": 2,
-      "event_date": "2014-02-04",
       "event_ko": "당시 asset/liability 구조 확인",
-      "signal_ko": "base case"
+      "event_date_ko": "2014-02-04",
+      "thesis_implication_ko": "base case"
     },
     {
       "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
       "event_order": 3,
-      "event_date": "2017-02-01",
       "event_ko": "2016~17 return-of-capital 정책 명시",
-      "signal_ko": "첫 핵심 catalyst"
+      "event_date_ko": "2017-02-01",
+      "thesis_implication_ko": "첫 핵심 catalyst"
     },
     {
       "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
       "event_order": 4,
-      "event_date": "2017-08-04",
       "event_ko": "UCP merger / asset simplification",
-      "signal_ko": "intermediate update"
+      "event_date_ko": "2017-08-04",
+      "thesis_implication_ko": "intermediate update"
     },
     {
       "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "Vidler-only / strategic option",
-      "signal_ko": "late-stage update"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "late-stage update"
     },
     {
       "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
       "event_order": 6,
-      "event_date": "2022-05-25",
       "event_ko": "D.R. Horton Vidler acquisition close",
-      "signal_ko": "최종 판정"
+      "event_date_ko": "2022-05-25",
+      "thesis_implication_ko": "최종 판정"
     },
     {
       "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
       "event_order": 1,
-      "event_date": "2015-05-05",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0 direction"
+      "event_date_ko": "2015-05-05",
+      "thesis_implication_ko": "T0 direction"
     },
     {
       "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
       "event_order": 2,
-      "event_date": "2015-05-05",
       "event_ko": "당시 asset/liability 구조 확인",
-      "signal_ko": "base case"
+      "event_date_ko": "2015-05-05",
+      "thesis_implication_ko": "base case"
     },
     {
       "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
       "event_order": 3,
-      "event_date": "2015-12-31",
       "event_ko": "2015 return-of-capital policy",
-      "signal_ko": "첫 핵심 catalyst"
+      "event_date_ko": "2015-12-31",
+      "thesis_implication_ko": "첫 핵심 catalyst"
     },
     {
       "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
       "event_order": 4,
-      "event_date": "2017-08-04",
       "event_ko": "UCP merger / asset simplification",
-      "signal_ko": "intermediate update"
+      "event_date_ko": "2017-08-04",
+      "thesis_implication_ko": "intermediate update"
     },
     {
       "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "Vidler-only / strategic option",
-      "signal_ko": "late-stage update"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "late-stage update"
     },
     {
       "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
       "event_order": 6,
-      "event_date": "2022-05-25",
       "event_ko": "D.R. Horton Vidler acquisition close",
-      "signal_ko": "최종 판정"
+      "event_date_ko": "2022-05-25",
+      "thesis_implication_ko": "최종 판정"
     },
     {
       "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
       "event_order": 1,
-      "event_date": "2015-11-23",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0 direction"
+      "event_date_ko": "2015-11-23",
+      "thesis_implication_ko": "T0 direction"
     },
     {
       "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
       "event_order": 2,
-      "event_date": "2015-11-23",
       "event_ko": "당시 asset/liability 구조 확인",
-      "signal_ko": "base case"
+      "event_date_ko": "2015-11-23",
+      "thesis_implication_ko": "base case"
     },
     {
       "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
       "event_order": 3,
-      "event_date": "2015-12-31",
       "event_ko": "2015 return-of-capital policy",
-      "signal_ko": "첫 핵심 catalyst"
+      "event_date_ko": "2015-12-31",
+      "thesis_implication_ko": "첫 핵심 catalyst"
     },
     {
       "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
       "event_order": 4,
-      "event_date": "2017-08-04",
       "event_ko": "UCP merger / asset simplification",
-      "signal_ko": "intermediate update"
+      "event_date_ko": "2017-08-04",
+      "thesis_implication_ko": "intermediate update"
     },
     {
       "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "Vidler-only / strategic option",
-      "signal_ko": "late-stage update"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "late-stage update"
     },
     {
       "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
       "event_order": 6,
-      "event_date": "2022-05-25",
       "event_ko": "D.R. Horton Vidler acquisition close",
-      "signal_ko": "최종 판정"
+      "event_date_ko": "2022-05-25",
+      "thesis_implication_ko": "최종 판정"
     },
     {
       "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
       "event_order": 1,
-      "event_date": "2016-08-15",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0 direction"
+      "event_date_ko": "2016-08-15",
+      "thesis_implication_ko": "T0 direction"
     },
     {
       "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
       "event_order": 2,
-      "event_date": "2016-08-15",
       "event_ko": "당시 asset/liability 구조 확인",
-      "signal_ko": "base case"
+      "event_date_ko": "2016-08-15",
+      "thesis_implication_ko": "base case"
     },
     {
       "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
       "event_order": 3,
-      "event_date": "2017-08-04",
       "event_ko": "2017 UCP sale + cost cuts",
-      "signal_ko": "첫 핵심 catalyst"
+      "event_date_ko": "2017-08-04",
+      "thesis_implication_ko": "첫 핵심 catalyst"
     },
     {
       "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
       "event_order": 4,
-      "event_date": "2017-08-04",
       "event_ko": "UCP merger / asset simplification",
-      "signal_ko": "intermediate update"
+      "event_date_ko": "2017-08-04",
+      "thesis_implication_ko": "intermediate update"
     },
     {
       "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "Vidler-only / strategic option",
-      "signal_ko": "late-stage update"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "late-stage update"
     },
     {
       "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
       "event_order": 6,
-      "event_date": "2022-05-25",
       "event_ko": "D.R. Horton Vidler acquisition close",
-      "signal_ko": "최종 판정"
+      "event_date_ko": "2022-05-25",
+      "thesis_implication_ko": "최종 판정"
     },
     {
       "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
       "event_order": 1,
-      "event_date": "2018-11-30",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0 direction"
+      "event_date_ko": "2018-11-30",
+      "thesis_implication_ko": "T0 direction"
     },
     {
       "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
       "event_order": 2,
-      "event_date": "2018-11-30",
       "event_ko": "당시 asset/liability 구조 확인",
-      "signal_ko": "base case"
+      "event_date_ko": "2018-11-30",
+      "thesis_implication_ko": "base case"
     },
     {
       "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
       "event_order": 3,
-      "event_date": "2022-04-14",
       "event_ko": "2022 D.R. Horton agreement",
-      "signal_ko": "첫 핵심 catalyst"
+      "event_date_ko": "2022-04-14",
+      "thesis_implication_ko": "첫 핵심 catalyst"
     },
     {
       "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
       "event_order": 4,
-      "event_date": "2017-08-04",
       "event_ko": "UCP merger / asset simplification",
-      "signal_ko": "intermediate update"
+      "event_date_ko": "2017-08-04",
+      "thesis_implication_ko": "intermediate update"
     },
     {
       "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "Vidler-only / strategic option",
-      "signal_ko": "late-stage update"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "late-stage update"
     },
     {
       "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
       "event_order": 6,
-      "event_date": "2022-05-25",
       "event_ko": "D.R. Horton Vidler acquisition close",
-      "signal_ko": "최종 판정"
+      "event_date_ko": "2022-05-25",
+      "thesis_implication_ko": "최종 판정"
     },
     {
       "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
       "event_order": 1,
-      "event_date": "2006-03-06",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0 direction"
+      "event_date_ko": "2006-03-06",
+      "thesis_implication_ko": "T0 direction"
     },
     {
       "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
       "event_order": 2,
-      "event_date": "2006-03-06",
       "event_ko": "당시 asset/liability 구조 확인",
-      "signal_ko": "base case"
+      "event_date_ko": "2006-03-06",
+      "thesis_implication_ko": "base case"
     },
     {
       "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
       "event_order": 3,
-      "event_date": "2012-12-31",
       "event_ko": "2011~12 plan confirmation / appeals resolution",
-      "signal_ko": "첫 핵심 catalyst"
+      "event_date_ko": "2012-12-31",
+      "thesis_implication_ko": "첫 핵심 catalyst"
     },
     {
       "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
       "event_order": 4,
-      "event_date": "2017-08-04",
       "event_ko": "post-emergence operating path",
-      "signal_ko": "intermediate update"
+      "event_date_ko": "2017-08-04",
+      "thesis_implication_ko": "intermediate update"
     },
     {
       "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "Standard Industries $70/share transaction",
-      "signal_ko": "late-stage update"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "late-stage update"
     },
     {
       "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
       "event_order": 6,
-      "event_date": "2022-05-25",
       "event_ko": "사후 outcome 확인",
-      "signal_ko": "최종 판정"
+      "event_date_ko": "2022-05-25",
+      "thesis_implication_ko": "최종 판정"
     },
     {
       "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
       "event_order": 1,
-      "event_date": "2012-01-17",
       "event_ko": "VIC idea 게시",
-      "signal_ko": "T0 direction"
+      "event_date_ko": "2012-01-17",
+      "thesis_implication_ko": "T0 direction"
     },
     {
       "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
       "event_order": 2,
-      "event_date": "2012-01-17",
       "event_ko": "당시 asset/liability 구조 확인",
-      "signal_ko": "base case"
+      "event_date_ko": "2012-01-17",
+      "thesis_implication_ko": "base case"
     },
     {
       "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
       "event_order": 3,
-      "event_date": "2014-02-03",
       "event_ko": "2014 Chapter 11 emergence",
-      "signal_ko": "첫 핵심 catalyst"
+      "event_date_ko": "2014-02-03",
+      "thesis_implication_ko": "첫 핵심 catalyst"
     },
     {
       "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
       "event_order": 4,
-      "event_date": "2017-08-04",
       "event_ko": "post-emergence operating path",
-      "signal_ko": "intermediate update"
+      "event_date_ko": "2017-08-04",
+      "thesis_implication_ko": "intermediate update"
     },
     {
       "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
       "event_order": 5,
-      "event_date": "2021-12-31",
       "event_ko": "Standard Industries $70/share transaction",
-      "signal_ko": "late-stage update"
+      "event_date_ko": "2021-12-31",
+      "thesis_implication_ko": "late-stage update"
     },
     {
       "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
       "event_order": 6,
-      "event_date": "2022-05-25",
       "event_ko": "사후 outcome 확인",
-      "signal_ko": "최종 판정"
+      "event_date_ko": "2022-05-25",
+      "thesis_implication_ko": "최종 판정"
     }
   ],
   "sources": [
     {
       "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "p15",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p15",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "p17",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p17",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "p17pr",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p17pr",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "p19",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p19",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "p21",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p21",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "p22",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p22",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "p15",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p15",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "p17",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p17",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "p17pr",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p17pr",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "p19",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p19",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "p21",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p21",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "p22",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p22",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "p15",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p15",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "p17",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p17",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "p17pr",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p17pr",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "p19",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p19",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "p21",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p21",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "p22",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p22",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "p15",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p15",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "p17",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p17",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "p17pr",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p17pr",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "p19",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p19",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "p21",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p21",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "p22",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p22",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "p15",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p15",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "p17",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p17",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "p17pr",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p17pr",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "p19",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p19",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "p21",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p21",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "p22",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p22",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "p15",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p15",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "p17",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p17",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "p17pr",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p17pr",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "p19",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p19",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "p21",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p21",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "p22",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p22",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "p15",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p15",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "p17",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p17",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "p17pr",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p17pr",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "p19",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p19",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "p21",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p21",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "p22",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p22",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "p15",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p15",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012216000132/pico1231201510k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "p17",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p17",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012218000010/pico1231201710k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "p17pr",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p17pr",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012217000099/ex991picopressreleaseq2201.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "p19",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p19",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012220000010/pico1231201910k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "p21",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p21",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000083012222000009/vwtr-20211231.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "p22",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "p22",
+      "url": "https://www.sec.gov/Archives/edgar/data/830122/000119312522105017/d200860dex991.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "g08",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000104746908009003/a2187162z10-q.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "g08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045309/000104746908009003/a2187162z10-q.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "g12",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530913000015/gra-20121231x10k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "g12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530913000015/gra-20121231x10k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "g14",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530914000057/gra-20141q10xq.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "g14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530914000057/gra-20141q10xq.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "g18",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530919000025/a201810-k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "g18",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530919000025/a201810-k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "g21",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000114036121014196/nc10023607x1_ex99-1.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "g21",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045309/000114036121014196/nc10023607x1_ex99-1.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "g21q",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530921000086/gra-20210630.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "g21q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530921000086/gra-20210630.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
       "source_order": 1,
-      "source_type": "SEC primary filing",
-      "source_name": "g08",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000104746908009003/a2187162z10-q.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "g08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045309/000104746908009003/a2187162z10-q.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
       "source_order": 2,
-      "source_type": "SEC primary filing",
-      "source_name": "g12",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530913000015/gra-20121231x10k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "g12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530913000015/gra-20121231x10k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
       "source_order": 3,
-      "source_type": "SEC primary filing",
-      "source_name": "g14",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530914000057/gra-20141q10xq.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "g14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530914000057/gra-20141q10xq.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
       "source_order": 4,
-      "source_type": "SEC primary filing",
-      "source_name": "g18",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530919000025/a201810-k.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "g18",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530919000025/a201810-k.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
       "source_order": 5,
-      "source_type": "SEC primary filing",
-      "source_name": "g21",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000114036121014196/nc10023607x1_ex99-1.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "g21",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045309/000114036121014196/nc10023607x1_ex99-1.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     },
     {
       "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
       "source_order": 6,
-      "source_type": "SEC primary filing",
-      "source_name": "g21q",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530921000086/gra-20210630.htm",
       "source_date": null,
-      "use_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
+      "source_type_ko": "SEC primary filing",
+      "title_ko": "g21q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045309/000104530921000086/gra-20210630.htm",
+      "evidence_ko": "당시 asset/liability, catalyst와 최종 outcome 검증"
     }
-  ]
+  ],
+  "meta": [
+    {
+      "idea_id": "b0eef45b-dd68-4a53-b0b4-ff341cacfd3d",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "부분적중·긴 시간",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "부분적중·긴 시간",
+      "core_error_ko": "시간가치·corporate burn과 catalyst probability를 NAV에서 분리해야 했다.",
+      "core_insight_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "e434a54e-c727-4108-b542-f638dc32a374",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "부분적중·타이밍 지연",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "부분적중·타이밍 지연",
+      "core_error_ko": "시간가치·corporate burn과 catalyst probability를 NAV에서 분리해야 했다.",
+      "core_insight_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "6124d1de-47ec-4471-a9e5-c05908e7f20c",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "적중·느린 실현",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "적중·느린 실현",
+      "core_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "core_insight_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "7409b41c-8139-4a67-854c-c1e72c9528a4",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "적중",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "적중",
+      "core_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "core_insight_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "3cc091ad-fd8f-4ce0-b133-43f5e20406fc",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "적중",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "적중",
+      "core_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "core_insight_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "d80c3e42-9de6-4a0d-b44d-5b7e818b3ed6",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "적중",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "적중",
+      "core_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "core_insight_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "01021a69-9067-48f1-b24d-5107486b8903",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "적중",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "적중",
+      "core_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "core_insight_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "527b25be-7a00-4303-8720-2593189c93b4",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "적중",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "적중",
+      "core_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "core_insight_ko": "SOTP는 자산가치 합계가 아니라 각 자산의 sale probability×net proceeds×time discount에서 corporate burn·tax를 차감한 realizable NAV로 본다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "3ec8f243-7c36-4af5-bd2d-3976b5a8761f",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Short",
+      "one_line_verdict_ko": "실패",
+      "thesis_score": 3.0,
+      "process_score": 4.5,
+      "return_summary_ko": "실패",
+      "core_error_ko": "법적 claim의 gross 규모와 plan waterfall상 실제 equity burden을 구분하지 못했다.",
+      "core_insight_ko": "bankruptcy equity는 headline liabilities보다 plan waterfall, trust funding, insurance, cash, post-emergence debt와 normalized EV를 동시 모델링한다.",
+      "research_asof": "2026-09-05"
+    },
+    {
+      "idea_id": "b29604b6-bd7a-480e-abe7-7b0119a99194",
+      "analysis_depth_ko": "심층(누락 메타 보완)",
+      "report_version": "deep_v9_meta_backfill",
+      "thesis_type_ko": "Long",
+      "one_line_verdict_ko": "적중",
+      "thesis_score": 8.0,
+      "process_score": 6.0,
+      "return_summary_ko": "적중",
+      "core_error_ko": "핵심 catalyst는 맞았지만 각 waterfall 변수와 IRR sensitivity를 더 명시할 수 있었다.",
+      "core_insight_ko": "bankruptcy equity는 headline liabilities보다 plan waterfall, trust funding, insurance, cash, post-emergence debt와 normalized EV를 동시 모델링한다.",
+      "research_asof": "2026-09-05"
+    }
+  ],
+  "meta_backfill_method": {
+    "reason": "Original payload omitted deep_analysis_meta.",
+    "thesis_score": "Weighted claim verdict score: strong=9, success/hit=8, partial=6, mixed/limited=5, failure=3.",
+    "process_score": "Derived from reviewed avoidability: high=4.5, medium/unknown=6.0, low=8.0."
+  },
+  "schema_normalization": {
+    "timeline": "event_date -> event_date_ko; signal_ko -> thesis_implication_ko",
+    "sources": "source_type/name/url/use -> source_type_ko/title_ko/url/evidence_ko",
+    "postmortems": "security_instrument_ko preserved in analyst_note_ko"
+  }
 }

@@ -267,7 +267,12 @@ def make_payload(ideas):
            "title": "Nexstar / ePlus — Value Engines, Event Duration and Security V9", "research_asof": ASOF,
            **{k: [] for k in ("ideas_master", "postmortems", "meta", "sections", "claims", "metrics", "timeline", "sources")}}
 
-    nxst = json.loads((ROOT / "data/curated/batch_039_nexstar_sinclair_deep_v7.json").read_text(encoding="utf-8"))
+    # These six upgraded NXST rows are already part of the committed Batch 044
+    # canonical.  Reuse them in-place instead of depending on superseded Batch
+    # 039, which is intentionally absent from the production overlay.
+    nxst = json.loads(
+        (ROOT / "data/curated/batch_044_nexstar_eplus_deep_v7.json").read_text(encoding="utf-8")
+    )
     for key in ("ideas_master", "postmortems", "meta", "sections", "claims", "metrics", "timeline", "sources"):
         for iid in NXST_IDS:
             out[key].extend(row.copy() for row in nxst[key] if row["idea_id"] == iid)

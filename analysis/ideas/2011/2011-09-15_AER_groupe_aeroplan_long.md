@@ -1,103 +1,310 @@
-# Groupe Aeroplan / Aimia (AER CN) — 2011-09-15 VIC Long
+# Groupe Aeroplan Inc. / Aimia Inc. (AER CN) — 2011-09-15 VIC Long
 
-> **Idea unit:** 2011-09-15 Canadian loyalty-program company Groupe Aeroplan common equity Long. This is **not AerCap Holdings** despite the SQL company mapping; Groupe Aeroplan later became Aimia.
-> **Research as-of:** 2026-09-16. Raw SQL Long matches the original. The SQL performance row is rejected because it is contaminated with AerCap (NYSE:AER) prices.
+> **Idea unit:** 이 게시일·법인·증권 한 건만 분석한다. 같은 ticker의 다른 회사와 같은 회사의 다른 게시물은 별도 canonical 파일이다.
+> **Research as-of:** 2026-09-18. raw metadata와 실제 원문 방향, 회사 identity, security payoff를 분리했다.
+
+---
 
 ## 0. Idea Snapshot
 
 | 항목 | 내용 |
 |---|---|
-| 회사 / 당시 Ticker | Groupe Aeroplan / TSX:AER, later Aimia |
+| 회사 / Ticker | Groupe Aeroplan Inc. / Aimia Inc. / AER CN |
 | VIC 게시일 / 작성자 | 2011-09-15 / castor13 |
-| 실제 방향 | Common equity Long |
-| 당시 가격 cross-check | 약 **C$10.5~10.8** |
-| normalized FCF/share | 약 **C$1.20~1.25** |
-| headline FCF yield | 약 **10%** |
-| 2013 management EBITDA target | **C$425m** |
-| 원문 2013 FCF/share | 약 **C$1.60** after buybacks |
-| 원문 target | **C$24 @ 15x FCF** |
-| 2013 year-end historical price | 약 **C$17.6** |
-| major latent risk | Air Canada anchor-partner dependence |
-| 2017 event | Air Canada gives notice not to renew Aeroplan beyond June 2020 |
-| 2019 Aeroplan sale | final cash purchase price about **C$516m** after adjustments |
-| 최종 판정 | **혼합 — medium-term FCF/value improvement, C$24 target 실패, anchor-partner durability 과대평가** |
+| 분석 증권 / 실제 방향 | Canadian AER/AIM common equity / Long |
+| 원 SQL 방향 | Long — raw 값 보존, research layer에서 원문 방향을 별도 검증 |
+| 기준 진입가격 | 원문 약 C$12대 |
+| 기대기간 | 2013 |
+| raw horizon audit | C$1.60 FCF/share·C$24 target by 2013 |
+| 최종 판정 | **혼합 — 현금엔진은 유효, C$24 실패·anchor-partner tail 현실화** |
 
-> **결론:** 원문은 Aeroplan/Nectar 같은 coalition-loyalty programs를 높은 FCF·negative-working-capital economics와 data/network effects를 가진 capital-light platform으로 봤다. 2011~13 medium-term business와 주가는 실제로 개선됐지만, 2013 C$24 target에는 못 미쳤다. 더 중요한 것은 장기 moat였다. Aeroplan은 coalition network였지만 Air Canada가 earn/redemption economics의 핵심 anchor였고, 2017 Air Canada가 2020 이후 계약을 갱신하지 않겠다고 통보하면서 숨은 concentration risk가 드러났다. 이후 Aeroplan business는 Air Canada-led consortium에 매각됐다. **네트워크가 커도 한 anchor partner가 ecosystem의 필수노드면 platform durability는 생각보다 낮을 수 있다.**
+> **결론:** 포인트 선판매·breakage·redemption spread의 capital-light economics와 단기 FCF 회복은 유효했다. 그러나 C$24 target는 실패했고 coalition diversification이 Air Canada anchor risk를 제거하지 못했다. 2017 non-renewal이 topology risk를 드러냈고 Aeroplan은 약 C$450m headline, 최종 조정 후 약 C$516m cash로 매각됐다. SQL 미국 AER 성과는 AerCap이라 폐기한다.
 
 ---
 
 ## 1. 회사는 정확히 무엇을 하는가
 
-Groupe Aeroplan은 loyalty currency를 발행하고 partners에게 miles/points를 판매한 뒤, 회원이 airline seats·merchandise 등에 points를 사용하면 redemption cost를 지급하는 business였다. 캐나다 Aeroplan 외에 영국 Nectar, Carlson Marketing, Club Premier stake, Air Miles Middle East 등을 보유했다.
+Groupe Aeroplan은 뒤에 Aimia로 사명을 바꾸고 coalition loyalty program을 운영했다. 은행·항공사·소매업체에 포인트를 선판매해 현금을 먼저 받고 redemption 때 비용을 인식한다. spread·breakage·float는 매력적이지만 anchor airline과 카드 파트너가 이탈하면 미래 billings와 보상의 효용이 동시에 약해진다.
 
-cash engine은 단순 accounting revenue보다 다음과 같다.
+`gross billings + ancillary revenue - redemption cost - opex - tax ± reserve/working-capital change = equity FCF`; float와 경제적 부채를 함께 본다.
 
-`gross billings from partners - redemption cash cost - operating cost - tax/capex ± working-capital timing = FCF`
+### 가치사슬과 security payoff
 
-points가 발행되고 redeem되기까지 cash가 먼저 들어오므로 float-like economics가 생기지만, future redemption liability와 anchor-partner contract terms가 핵심이다.
+매출·생산·자산가치와 common equity 수익을 같은 것으로 취급하지 않는다. 영업 현금에서 운전자본·세금·유지 및 성장 capex·cash interest를 차감하고, debt·minority·희석과 corporate-action 조건을 적용한 뒤 common의 payoff를 계산한다.
 
 ### 매 분기 볼 핵심 KPI
 
-gross billings, active members, points issued/redeemed, breakage assumption, redemption cost per mile, Air Canada share of earn/redemption, FCF, buybacks, partner renewals, card-partner contracts
+gross billings, active members, miles issued/redeemed, cost per mile, breakage, redemption reserve, FCF, partner concentration, contract expiry
 
 ---
 
 ## 2. 당시 상황과 시장이 가격에 넣은 것
 
-원문은 last-twelve-month normalized FCF/share를 약 C$1.25, 2011 FCF를 약 C$205m / ~172m shares = C$1.20/share로 봤다. 당시 stock price가 C$12 안팎 또는 September market history 기준 C$10대 후반이어서 약 10% FCF yield였다.
-
-management의 2013 adjusted EBITDA target C$425m을 바탕으로 FCF 약 C$260m, buybacks 후 shares ~163m, FCF/share 약 C$1.60을 예상했다. 15x를 적용해 C$24 target을 제시했다.
+원문은 normalized FCF C$205m·C$1.25/share, 약 10% FCF yield와 2013 C$1.60/share를 제시했다. 21% breakage와 C$300m redemption reserve, Nectar·Carlson·analytics·신규 coalition을 근거로 Aeroplan Canada 의존도가 낮아지고 C$24가 가능하다고 봤다.
 
 ### Reverse expectations
 
-valuation discount의 이유는 redemption liability, Air Canada dependency, UK/Nectar execution, card-partner renegotiation risk였다. 원문은 diversification과 coalition network가 이런 risks를 상쇄한다고 봤다.
+시장은 accounting breakage·reserve의 추정오차보다 Air Canada와 카드사의 계약갱신·member utility가 단일 실패점임을 할인했다. coalition은 member 수가 많아도 핵심 airline reward와 accumulation partner가 빠지면 network value가 비선형으로 떨어진다.
 
 ---
 
 ## 3. 원문 투자논지 지도
 
-### C1. loyalty model은 capital-light/high-FCF business다 — 성공
+### C1. loyalty model은 capital-light/high-FCF — 성공
 
-Aeroplan/Aimia는 실제로 meaningful free cash flow를 창출했고 dividends/buybacks를 수행했다. upfront billings와 delayed redemption 구조의 cash economics는 유효했다.
+**원문 주장**
 
-### C2. 2013 EBITDA/FCF growth가 C$1.60 FCF/share를 만든다 — 부분 성공
+포인트 선판매와 breakage가 낮은 capex로 FCF를 만든다.
 
-business performance와 주가는 2011~13 개선됐지만 원문의 full valuation target를 정당화할 정도의 durable growth/quality rerating은 나오지 않았다.
+**경제적 메커니즘**
+
+cash-in이 redemption cash-out보다 앞서 float와 spread가 생긴다.
+
+**T0 근거**
+
+C$205m normalized FCF·C$300m reserve.
+
+**숨은 가정**
+
+partner contracts와 redemption economics가 안정적이다.
+
+**사전 반증조건**
+
+billings·FCF가 구조적으로 감소하면 반증.
+
+**실제 결과**
+
+초기 수년 현금창출과 Aeroplan의 매각가치가 franchise를 확인했다.
+
+**정량 gap**
+
+경제적 부채 조정 후 FCF는 headline보다 낮을 수 있음.
+
+**분석 오류 또는 제한**
+
+working-capital float를 영구 earnings로 볼 위험.
+
+**재사용 교훈**
+
+issuance·redemption cohort와 liability를 함께 본다.
+
+### C2. 2013 FCF C$1.60/share — 부분 성공
+
+**원문 주장**
+
+integration·growth로 per-share FCF가 C$1.60이 된다.
+
+**경제적 메커니즘**
+
+core Canada와 Nectar·analytics가 비용을 흡수하고 성장한다.
+
+**T0 근거**
+
+T0 C$1.25 normalized base.
+
+**숨은 가정**
+
+Carlson integration·partner economics가 개선된다.
+
+**사전 반증조건**
+
+2013 owner FCF가 target에 크게 미달하면 반증.
+
+**실제 결과**
+
+현금흐름은 개선됐으나 exact owner-FCF comparability가 회계변경으로 제한됐다.
+
+**정량 gap**
+
+point estimate 완전 검증 제한.
+
+**분석 오류 또는 제한**
+
+reported FCF와 economic FCF bridge가 부족했다.
+
+**재사용 교훈**
+
+reserve·billings growth·one-offs를 조정한다.
 
 ### C3. C$24 by 2013 — 실패
 
-independent historical series에서 2013년 말 약 **C$17.6**, 2014년에도 월간 고점이 대체로 C$17대였다. C$24 target는 지정 horizon에 도달하지 못했다.
+**원문 주장**
 
-### C4. coalition network와 diversification이 Air Canada dependency를 낮춘다 — 실패
+C$1.60 FCF에 15x를 받아 두 배가 된다.
 
-Air Canada는 원문 당시 gross billings 약 13%, redemption costs 약 44%와 연결된 핵심 partner였다. 2017 Air Canada가 2020년 이후 Aeroplan 계약을 갱신하지 않겠다고 통보하면서 ecosystem dependency가 현실화됐다.
+**경제적 메커니즘**
 
-### C5. card/partner contract risk is manageable — 부분 성공
+earnings growth와 quality rerating이 결합한다.
 
-2013 TD가 CIBC Aeroplan card portfolio의 상당 부분을 인수하면서 program economics가 재편됐고 Aeroplan은 유지됐다. 그러나 이는 partner negotiation이 business value의 핵심이라는 점을 오히려 보여준다.
+**T0 근거**
 
-### C6. residual Aeroplan franchise has strategic value — 성공
+원문 explicit target.
 
-2018 Air Canada, TD, CIBC, Visa consortium이 Aeroplan business를 인수했고, post-closing adjustment 후 final cash purchase price는 약 **C$516m**이었다.
+**숨은 가정**
+
+multiple이 partner concentration을 낮게 평가한다.
+
+**사전 반증조건**
+
+2013까지 target 미달이면 실패.
+
+**실제 결과**
+
+공개 역사 cross-check에서 C$24 미달.
+
+**정량 gap**
+
+target 실패; SQL price는 사용 불가.
+
+**분석 오류 또는 제한**
+
+earnings·multiple 두 가정을 하나로 묶었다.
+
+**재사용 교훈**
+
+target 기여도를 FCF와 multiple로 나눈다.
+
+### C4. diversification이 Air Canada 의존도를 낮춤 — 실패
+
+**원문 주장**
+
+Nectar·Carlson·new coalitions가 Canada concentration을 상쇄한다.
+
+**경제적 메커니즘**
+
+지역·partner를 늘려 single-node risk를 줄인다.
+
+**T0 근거**
+
+국제 assets와 JV pipeline.
+
+**숨은 가정**
+
+새 프로그램이 독립적으로 cash·member utility를 만든다.
+
+**사전 반증조건**
+
+Air Canada 이탈이 group value를 크게 훼손하면 반증.
+
+**실제 결과**
+
+2017 non-renewal이 equity와 전략을 재편했다.
+
+**정량 gap**
+
+anchor loss가 diversification을 압도.
+
+**분석 오류 또는 제한**
+
+revenue share와 network criticality를 혼동했다.
+
+**재사용 교훈**
+
+partner concentration은 매출뿐 아니라 network removal test로 잰다.
+
+### C5. partner contract risk manageable — 부분 실패
+
+**원문 주장**
+
+contract terms·reserve가 renewal risk를 감당한다.
+
+**경제적 메커니즘**
+
+장기 계약과 switching cost가 bargaining을 제한한다.
+
+**T0 근거**
+
+Air Canada 관계·카드 partners.
+
+**숨은 가정**
+
+anchor airline이 자체 program을 만들 유인이 낮다.
+
+**사전 반증조건**
+
+non-renewal 또는 economics 급격 재협상이면 반증.
+
+**실제 결과**
+
+Air Canada가 2020 이후 non-renewal·독자 program을 발표했다.
+
+**정량 gap**
+
+가장 중요한 tail이 현실화.
+
+**분석 오류 또는 제한**
+
+expiry date를 tail event로만 처리했다.
+
+**재사용 교훈**
+
+모든 critical contract에 expiry·renewal owner·outside option을 기록한다.
+
+### C6. residual Aeroplan franchise value — 성공
+
+**원문 주장**
+
+worst case에도 member base·data·brand가 strategic value를 가진다.
+
+**경제적 메커니즘**
+
+airline·bank가 continuity를 위해 franchise를 산다.
+
+**T0 근거**
+
+large active member network.
+
+**숨은 가정**
+
+redemption liability보다 buyer value가 높다.
+
+**사전 반증조건**
+
+fire-sale 또는 negative equity면 반증.
+
+**실제 결과**
+
+consortium이 C$450m headline cash와 liabilities를 인수; 최종 cash 약 C$516m.
+
+**정량 gap**
+
+asset value는 존재하지만 original C$24 equity와 다름.
+
+**분석 오류 또는 제한**
+
+asset value와 whole-company value를 섞었다.
+
+**재사용 교훈**
+
+asset sale proceeds에서 liabilities·tax·holdco costs를 차감한다.
 
 ---
 
 ## 4. 당시 Valuation과 Payoff Structure
 
-원문 valuation:
-
-`2013 FCF ~C$260m / ~163m shares ≈ C$1.60/share × 15x = C$24`
-
-이 valuation에서 가장 민감한 변수는 headline FCF multiple보다 **future partner economics와 redemption cost**였다. loyalty liability가 accounting reserve보다 실제 cash cost와 partner contract terms에 좌우되기 때문이다.
+원문 C$1.60 FCF/share에 15배를 적용하면 C$24다. 하지만 FCF는 points issued와 redeemed의 timing, reserve release와 growth billings를 구분해야 한다. 경제적 부채를 차감한 owner earnings와 partner-renewal stress case에 서로 다른 multiple을 적용해야 했다.
 
 ### 시나리오 분석
 
-| 시나리오 | 핵심 가정 | 실제 대조 |
-|---|---|---|
-| Bear | anchor partner economics 악화 | 장기적으로 2017 현실화 |
-| Base | FCF growth + buybacks | 2011~13 일부 현실화 |
-| Bull | 15x quality rerating | C$24 target 실패 |
-| Strategic exit | Aeroplan franchise monetized | 2019 final ~C$516m sale |
+| 시나리오 | 핵심 가정 | 기대 payoff | 실제 대조 |
+|---|---|---|---|
+| Bear | Air Canada·card partner 이탈 | network break·asset sale | 2017~19 현실화 |
+| Base | C$1.60 FCF·15x | C$24 by 2013 | 실패 |
+| Bull | Nectar·analytics·new coalitions | diversified compounder | 부분·anchor 미상쇄 |
+
+### 핵심 수치
+
+| 지표 | T0 | 기대 | 실제 | 판정 |
+|---|---|---|---|---|
+| Normalized FCF | C$205m/C$1.25 | 2013 C$1.60 | 초기 cash 유지·exact 제한 | 부분 |
+| Breakage | 21% | stable spread | anchor contract가 더 중요 | 프레임 부족 |
+| Target | C$24 by 2013 | ~2x | 미달 | 실패 |
+| Air Canada contract | 2020 expiry | renew/manage | 2017 non-renewal | 실패 |
+| Aeroplan sale | 미가정 | residual value | C$450m headline/~C$516m final cash | asset value 성공 |
+
+### 촉매와 시간
+
+판정 horizon은 **2013**다. 이후 corporate action은 terminal value 검증에는 쓰되 원 horizon의 실현수익률을 대체하지 않는다.
 
 ---
 
@@ -105,66 +312,86 @@ Air Canada는 원문 당시 gross billings 약 13%, redemption costs 약 44%와 
 
 | 날짜 | 사건 | 논지에 미친 의미 |
 |---|---|---|
-| 2011-09-15 | VIC Long | ~10% FCF-yield thesis |
-| 2013 | TD/CIBC card portfolio restructuring | partner economics 재편 |
-| 2013-12 | stock ~C$17.6 | 상승했지만 C$24 미달 |
-| 2017-05-11 | Air Canada non-renewal notice | 핵심 anchor risk 현실화 |
-| 2018 | Air Canada-led consortium agrees to buy Aeroplan | residual strategic value 확인 |
-| 2019 | sale finalized / price adjustment | final cash purchase price ~C$516m |
+| 2011-09-15 | VIC Long 게시 | C$1.60 FCF·C$24 |
+| 2011-10 | Aimia brand 전환 | international diversification |
+| 2013-12-31 | target horizon 종료 | C$24 미달 |
+| 2016-03 | Air Canada 자료가 2020 expiry 명시 | renewal clock |
+| 2017-05-11 | Air Canada non-renewal | decisive thesis break |
+| 2018-07-25 | consortium proposal | strategic residual value |
+| 2018-11-26 | definitive agreement | C$450m headline |
+| 2019-01-10 | sale completion | asset monetized·holdco 전환 |
+
+### 실제 사업·자본구조 추이
+
+초기 cash generation과 diversification은 일부 진전됐으나 2017-05-11 Air Canada가 2020 뒤 독자 loyalty plan을 발표했다. anchor risk가 현실화되자 Air Canada·TD·CIBC·Visa consortium이 Aeroplan을 다시 인수했고 2019 거래가 끝났다. Aimia는 핵심 loyalty asset을 판 뒤 investment holding company로 변했다.
 
 ---
 
-## 6. 실제 투자결과 — 가격 경로와 데이터 품질
+## 6. 실제 투자결과 — 가격 경로와 실현 가능성
 
-SQL performance row는 사용하지 않는다. SQL company mapping이 AerCap Holdings로 잘못되어 있고 next-day prices C$10대 이후 3Y/5Y performance가 AerCap stock series와 일치한다.
+uploaded SQL의 AER 1~5년 price rows는 NYSE AerCap과 ticker collision이므로 전부 rejected다. Canadian AER/AIM의 corporate action·dividend series를 독립 복원하지 않아 exact return을 주장하지 않는다. 공개 역사 cross-check상 C$24 target는 달성하지 못한 것으로 판정한다.
 
-Groupe Aeroplan/Aimia의 독립 historical series는 대략:
-
-- 2011-09: **C$10.7 전후**
-- 2012-12: **C$13.4**
-- 2013-12: **C$17.6**
-- 2014 peak monthly levels: **C$17대**
-
-따라서 dividend를 더하면 medium-term return은 양호했지만 **C$24 thesis target는 실패**했다.
+가격 series가 wrong entity이거나 corporate action·배당·통화가 완전히 복원되지 않으면 exact IRR·MFE·MAE를 만들지 않는다.
 
 ---
 
 ## 7. Claim별 사후 판정
 
-| Claim | Weight | 판정 | 핵심 gap |
-|---|---:|---|---|
-| capital-light FCF model | 20% | 성공 | cash generation 유지 |
-| 2013 FCF/share growth | 20% | 부분 성공 | full target valuation 미달 |
-| C$24 target | 20% | 실패 | 2013 ~C$17.6 |
-| diversified coalition moat | 20% | 실패 | Air Canada anchor dependency |
-| partner-contract manageability | 10% | 부분 성공 | TD/CIBC transition survived |
-| residual strategic value | 10% | 성공 | Aeroplan sold for ~C$516m final price |
+| Claim | 내용 | Weight | 판정 | 핵심 gap |
+|---|---|---:|---|---|
+| C1 | loyalty model은 capital-light/high-FCF | 20% | 성공 | 경제적 부채 조정 후 FCF는 headline보다 낮을 수 있음. |
+| C2 | 2013 FCF C$1.60/share | 18% | 부분 성공 | point estimate 완전 검증 제한. |
+| C3 | C$24 by 2013 | 18% | 실패 | target 실패; SQL price는 사용 불가. |
+| C4 | diversification이 Air Canada 의존도를 낮춤 | 16% | 실패 | anchor loss가 diversification을 압도. |
+| C5 | partner contract risk manageable | 16% | 부분 실패 | 가장 중요한 tail이 현실화. |
+| C6 | residual Aeroplan franchise value | 12% | 성공 | asset value는 존재하지만 original C$24 equity와 다름. |
 
 ---
 
 ## 8. 무엇이 실제 수익 또는 손실을 만들었는가
 
-medium-term 수익은 low FCF multiple과 buyback/dividend economics에서 나왔다. 장기 risk는 **network size가 아니라 network topology**였다. Air Canada는 단순 partner 하나가 아니라 redemption utility와 customer perception을 연결하는 central node였다.
+초기 가치는 float와 redemption economics가 만들었지만 장기 손실·discount는 Air Canada라는 anchor node의 계약권력, card-partner bargaining과 asset sale 이후 holdco discount가 만들었다.
 
 ### Counterfactual
 
-Air Canada 없이도 Aeroplan의 member base와 card partners가 동일한 economics를 유지할 수 있었다면 15x quality multiple은 더 정당했을 것이다. 실제 2017 시장반응은 anchor removal이 franchise value를 크게 바꾼다는 점을 보여줬다.
+Air Canada와 top card issuer가 동시에 이탈해 gross billings가 40% 감소해도 redemption liability·reserve 차감 후 common에 얼마가 남는가?
 
 ---
 
 ## 9. 분석 오류 유형과 최초 경고
 
-원문은 Air Canada concentration을 알고 있었지만 gross billings 비중만 보면 13%로 낮아 보여 dependency를 과소평가할 수 있었다. 그러나 redemption cost 44%와 brand utility까지 보면 economic centrality가 훨씬 컸다.
+gross billings diversification과 network resiliency를 혼동하고, 계약 expiry·anchor topology를 breakage·reserve보다 낮은 우선순위로 뒀다.
+
+### 최초로 관찰 가능했던 경고신호
+
+2017-05-11 Air Canada non-renewal 발표가 가장 명확한 thesis break였지만 계약 종료시점은 2020으로 T0에도 갱신 risk를 stress할 수 있었다.
 
 ---
 
 ## 10. 재사용 가능한 교훈과 다음 분석 체크리스트
 
-1. loyalty/platform business는 partner revenue share보다 **critical-node dependency**를 본다.
-2. FCF yield가 높아도 redemption liability와 partner renewals를 따로 underwriting한다.
-3. network effects는 anchor supplier/customer가 빠졌을 때 유지되는지 stress-test한다.
-4. SQL ticker collision이 있으면 company mapping과 performance row를 함께 폐기한다.
-5. target-price hit와 residual strategic value를 별도로 판정한다.
+### Lesson 1
+
+network business는 member 수보다 제거했을 때 network가 무너지는 anchor node를 찾는다.
+
+### Lesson 2
+
+loyalty FCF는 points liability·reserve·billings growth를 조정해 owner earnings로 본다.
+
+### Lesson 3
+
+ticker가 같아도 exchange·법인·통화를 확인하기 전 성과를 붙이지 않는다.
+
+### 지금 같은 아이디어를 다시 본다면
+
+- gross billings by partner
+- contract expiry·renewal right
+- active members
+- issuance/redemption ratio
+- cost per mile
+- breakage sensitivity
+- reserve adequacy
+- entity·exchange audit
 
 ---
 
@@ -172,30 +399,34 @@ Air Canada 없이도 Aeroplan의 member base와 card partners가 동일한 econo
 
 | 평가축 | 판정 |
 |---|---|
-| Business cash economics | 성공 |
-| Valuation thesis | 부분 성공 |
-| Target price | 실패 |
-| Moat/durability thesis | 실패 |
-| Residual asset value | 성공 |
+| Business economics | 단기 성공 |
+| Valuation thesis | 실패 |
+| Diversification | 실패 |
+| Timing / path | C$24 미달 |
+| Data quality | SQL return 무효 |
 | Thesis score | 6.7/10 |
 | Process score | 9.7/10 |
-| 종합 | **혼합 — FCF는 실재했지만 anchor-partner risk 때문에 quality multiple thesis가 깨짐** |
+| 종합 | **혼합 — 현금엔진은 유효, C$24 실패·anchor-partner tail 현실화** |
 
 ### 한 문장 교훈
 
-> coalition network의 moat는 회원 수가 아니라 **가장 중요한 anchor가 빠져도 network utility가 남는지**로 판단해야 한다.
+> network business는 member 수보다 제거했을 때 network가 무너지는 anchor node를 찾는다.
+
+---
 
 ## 12. Sources / Validation Notes
 
-1. VIC original / uploaded SQL, 2011-09-15 — T0 FCF, 2013 target, Air Canada dependency.
-2. Aimia / Groupe Aeroplan annual reports, 2011-2014 — gross billings, FCF, partner mix.
-3. Aimia announcement, 2017-05-11 — Air Canada notice not to renew Aeroplan agreement after June 2020.
-4. Aimia transaction disclosures, 2018-2019 — Aeroplan sale to Air Canada-led consortium; final cash purchase price about C$516m after adjustments.
-5. Independent historical AIM/AER Canadian price series — target-horizon cross-check.
+1. [VIC original idea](https://www.valueinvestorsclub.com/idea/GROUPE_AEROPLAN_INC/2133679371) — Value Investors Club / source SQL, 2011-09-15. T0 원문·작성자·증권·방향·valuation·catalyst 수치의 기준.
+2. [Air Canada 2013 financial statements](https://www.aircanada.com/content/dam/aircanada/portal/documents/PDF/en/quarterly-result/2013/2013_FSN_q4.pdf) — Air Canada, 2014-02. Aeroplan points purchase·redemption 관계 검증.
+3. [Air Canada investor presentation](https://www.aircanada.com/content/dam/aircanada/portal/documents/PDF/speeches-presentations/en/Desjardins-Industrials-Telecom-Consumer-Conference-Montreal-en.pdf) — Air Canada, 2016-03. Aeroplan 계약의 2020 종료시점이 T0부터 계약문서에 존재했음을 검증.
+4. [Aimia definitive Aeroplan sale agreement](https://www.aimia.com/aimia-and-air-canada-enter-into-definitive-agreement-for-purchase-of-aeroplan-loyalty-business/) — Aimia, 2018-11-26. C$450m headline cash와 거래구조 검증.
+5. [Air Canada Q3 2018 financial statements](https://www.aircanada.com/content/dam/aircanada/portal/documents/PDF/en/quarterly-result/2018/2018_FSN_q3.pdf) — Air Canada, 2018-10-31. C$450m 현금·약 C$1.9bn points liability 인수조건 검증.
+6. [Air Canada acquisition proposal](https://www.td.com/ca/en/about-td/for-investors/investor-relations/news-and-events/news/2018/proposal-by-air-canada-td-cibc-and-visa-to-acquire-aeroplan) — TD / Air Canada consortium, 2018-07-25. anchor partners가 Aeroplan을 공동 인수하려 한 구조 검증.
+7. [SEC entity check: NYSE AER](https://www.sec.gov/edgar/browse/?CIK=1378789&owner=exclude) — SEC, 2026. 미국 AER은 AerCap이며 Canadian AER/AIM과 가격 혼용 금지.
 
 ### 데이터 품질
 
-- T0 thesis: **A** — uploaded SQL.
-- corporate/partner events: **A** — company disclosures.
-- SQL performance: **REJECTED** — wrong-company AerCap contamination.
-- historical price cross-check: **B** — independent Canadian-market series; dividend-adjusted exact IRR not asserted.
+- T0 원문·metadata: **A/B — source SQL 원문과 공개 VIC URL. 공개 URL이 없는 글은 source DB 본문 기준.**
+- 사업·거래·자본구조: **A** — SEC·회사 1차자료 우선.
+- 가격·수익률: **REJECTED** — ticker collision으로 wrong-company 가격행을 폐기했다.
+- raw SQL direction은 **Long**, 실제 원문 방향은 **Long**다. raw 값은 덮어쓰지 않았다.

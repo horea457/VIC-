@@ -551,5 +551,5 @@ ADNT는 첫 번째 valuation보다 세 번째 operational bridge가 문제였다
 ## 22. 앱 / DB 반영
 
 - Wrapper: `analysis/batch_058_ades_adnt_10.md`
-- Overlay: `data/curated/batch_058_ades_adnt_deep_v7.json`
+- Staging catalog (DB 미반영): `data/staging/batch_058_ades_adnt_catalog_v9.json`
 - Canonical source of truth: 위 10개 Markdown.

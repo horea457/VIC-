@@ -348,5 +348,5 @@ entry **~US$3.60**, target **US$5.15**.
 ## 13. 앱 / DB 반영
 
 - Wrapper: `analysis/batch_071_agc_agc1_agco_agfx_agfy_agi_10.md`
-- Overlay: `data/curated/batch_071_agc_agc1_agco_agfx_agfy_agi_deep_v7.json`
+- Staging catalog (DB 미반영): `data/staging/batch_071_agc_agc1_agco_agfx_agfy_agi_catalog_v9.json`
 - Canonical source of truth: 위 10개 Markdown.

@@ -363,5 +363,5 @@ moat는 multiple compression을 막아주지 않는다.
 ## 13. 앱 / DB 반영
 
 - Wrapper: `analysis/batch_070_afsi_aft_afx_afya_ag_ag1_aga_10.md`
-- Overlay: `data/curated/batch_070_afsi_aft_afx_afya_ag_ag1_aga_deep_v7.json`
+- Staging catalog (DB 미반영): `data/staging/batch_070_afsi_aft_afx_afya_ag_ag1_aga_catalog_v9.json`
 - Canonical source of truth: 위 10개 Markdown.

@@ -331,7 +331,7 @@ CVR agreement의 세금·비용·공제·holdback 정의가 T0의 최초 경고�
 1. Value Investors Club — 2016-01-29 Media General/Nexstar CVR pair idea.
 2. Nexstar transaction announcement — $10.55 cash + 0.1249 NXST + CVR.
 3. Nexstar 2017 annual report — $478.6m gross spectrum proceeds, $258.6m initial CVR payment, $12.4m remaining liability.
-4. Existing curated postmortem: `analysis/batch_039_nexstar_sinclair_part04.md`.
+4. Canonical structured postmortem: `data/curated/batch_044_nexstar_eplus_deep_v7.json`.
 
 ## 추가 정밀화 필요
 - 2016-01-29 MEG와 NXST exact execution price

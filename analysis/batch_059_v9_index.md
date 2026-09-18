@@ -450,5 +450,5 @@ B59에서도 **실제 현금·계약·corporate action에 가까운 증거**일�
 ## 18. 앱 / DB 반영
 
 - Wrapper: `analysis/batch_059_adnt_adp_adpi_adpt_adro_ads_10.md`
-- Overlay: `data/curated/batch_059_adnt_adp_adpi_adpt_adro_ads_deep_v7.json`
+- Staging catalog (DB 미반영): `data/staging/batch_059_adnt_adp_adpi_adpt_adro_ads_catalog_v9.json`
 - Canonical source of truth: 위 10개 Markdown.

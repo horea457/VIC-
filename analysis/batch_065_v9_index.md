@@ -190,5 +190,5 @@ non-recourse debt와 contracted projects는 solvency risk를 낮췄지만 parent
 ## 10. 앱 / DB 반영
 
 - Wrapper: `analysis/batch_065_aer_aeri_aeromex_aes_10.md`
-- Overlay: `data/curated/batch_065_aer_aeri_aeromex_aes_deep_v7.json`
+- Staging catalog (DB 미반영): `data/staging/batch_065_aer_aeri_aeromex_aes_catalog_v9.json`
 - Canonical source of truth: 위 10개 Markdown.

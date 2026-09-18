@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[2]
 PROCESSED = ROOT / 'data' / 'processed'
 GZ_DB = PROCESSED / 'vic_dashboard.db.gz'
 PARTS = sorted(PROCESSED.glob('vic_dashboard.db.gz.part*'))
-TMP_ROOT = Path('/tmp/vic_falsification_curated_v11')
+TMP_ROOT = Path('/tmp/vic_falsification_curated_v12')
 TMP_GZ = TMP_ROOT / 'vic_dashboard.db.gz'
 TMP_DB = TMP_ROOT / 'vic_dashboard.db'
 
@@ -70,7 +70,13 @@ def _unpack() -> Path:
         )
     # Human-reviewable research batches are overlaid after the large base DB is
     # unpacked. This keeps each research commit small, auditable and reversible.
-    for payload in sorted((ROOT / 'data' / 'curated').glob('*_deep_v7.json')):
+    # Legacy V8 fallback rows are loaded first. Dedicated Batch payloads are
+    # canonical and therefore win if a future migration accidentally overlaps.
+    payloads = sorted(
+        (ROOT / 'data' / 'curated').glob('*_deep_v7.json'),
+        key=lambda p: (not p.name.startswith('zz_v8_'), p.name),
+    )
+    for payload in payloads:
         apply_deep_payload(TMP_DB, payload)
     return TMP_DB
 

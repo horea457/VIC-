@@ -347,5 +347,6 @@ price multiple:
 ## 13. 앱 / DB 반영
 
 - Wrapper: `analysis/batch_073_agnc_agnt_ago_agp_10.md`
-- Overlay: `data/curated/batch_073_agnc_agnt_ago_agp_deep_v7.json`
+- Staging catalog: `data/staging/batch_073_agnc_agnt_ago_agp_catalog_v9.json`
+- 상태: 장문 Markdown은 보존됐지만 production 필수 배열이 미완성이므로 앱에는 아직 적용하지 않는다.
 - Canonical source of truth: 위 10개 Markdown.

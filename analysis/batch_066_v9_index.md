@@ -278,5 +278,5 @@ company quality보다 exact claim payoff가 먼저다.
 ## 12. 앱 / DB 반영
 
 - Wrapper: `analysis/batch_066_aetna_aetc_aether_ampex_aey_aeye_10.md`
-- Overlay: `data/curated/batch_066_aetna_aetc_aether_ampex_aey_aeye_deep_v7.json`
+- Staging catalog (DB 미반영): `data/staging/batch_066_aetna_aetc_aether_ampex_aey_aeye_catalog_v9.json`
 - Canonical source of truth: 위 10개 Markdown.

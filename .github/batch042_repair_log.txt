@@ -1,7 +1,0 @@
-v1 seq=['1', '2', '3a', '4a', '4b', '4c', '5'] raw=38789 fail=31749 out=181563 eof=False err=error('Error -3 while decompressing data: incorrect data check')
-v2 seq=['1', '2', '3a', '4', '5'] raw=33464 fail=33459 out=199753 eof=False err=error('Error -3 while decompressing data: incorrect data check')
-v3 seq=['1', '2', '3', '4a', '4b', '4c', '5'] raw=33515 fail=23986 out=116670 eof=False err=error('Error -3 while decompressing data: invalid distance code')
-v4 seq=['1', '2', '3', '4', '5'] raw=28190 fail=28190 out=142120 eof=False err=ok
-v5 seq=['1', '2', '3a', '4a', '4c', '5'] raw=35738 fail=35733 out=215098 eof=False err=error('Error -3 while decompressing data: incorrect data check')
-v6 seq=['1', '2', '3a', '4b', '4c', '5'] raw=35789 fail=28749 out=159716 eof=False err=error('Error -3 while decompressing data: incorrect data check')
-v7 seq=['1', '2', '3a', '4a', '4b', '5'] raw=35789 fail=31749 out=181563 eof=False err=error('Error -3 while decompressing data: incorrect data check')

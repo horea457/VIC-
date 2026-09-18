@@ -1,4 +1,4 @@
-# VIC Falsification DB — V11 Curated Only
+# VIC Falsification DB — V12 Canonical Batches
 
 외부자료로 검증한 VIC 심층 사후분석만 저장·표시하는 Streamlit 대시보드입니다.
 자동 생성 분석, 짧은 초안, 미검증 후보는 production DB에 넣지 않습니다.
@@ -8,9 +8,24 @@
 3. `사후분석 DB` — 기업별 전체 심층 리포트
 
 사후분석 DB는 상단의 아이디어 목록에서 행을 선택하면 같은 페이지 아래에
-검토 완료된 `analysis/batch_*.md` 원문에서 기업 설명·돈 버는 구조·전체 판정표와
+검토 완료된 `analysis/batch_*.md` wrapper와 `analysis/ideas/YYYY/*.md` 정본에서 기업 설명·돈 버는 구조·전체 판정표와
 해당 기업의 모든 투자논지·실제 전개·핵심 수치·근거자료를 직접 추출해 표시합니다.
 재무 수치의 `$` 기호는 Streamlit 수식 문법으로 오인되지 않도록 별도 처리합니다.
+
+현재 production overlay는 **610개 고유 idea_id**입니다. 배치·V8 fallback 사이의
+중복 idea_id는 0개이며, DB 스키마가 아직 완성되지 않은 Batch 058–062·065–073의
+catalog JSON은 `data/staging/`에 격리되어 앱이 심층분석으로 오인하지 않습니다.
+
+## 정본 파일 구조
+
+- `analysis/ideas/YYYY/*.md`: 아이디어별 V9 장문 정본
+- `analysis/batch_*_10.md`: Streamlit이 정본을 결합하는 얇은 wrapper
+- `analysis/batch_*_v9_index.md`: 배치별 방향·증권·판정 감사표
+- `data/curated/*_deep_v7.json`: 검증을 통과해 앱에 적용되는 구조화 overlay
+- `data/staging/*_catalog_v9.json`: 아이디어 목록·메타만 있고 아직 DB 미반영인 배치
+- `analysis/BATCH_INDEX.md`: 중복 제거·대체 관계와 현재 배치 상태
+
+새 배치를 production에 넣기 전 `python scripts/validate_batch_repository.py`를 실행합니다.
 
 ## 배포
 압축을 풀고 **안의 파일/폴더 전체를 GitHub 저장소 루트에 업로드**합니다.
@@ -39,7 +54,7 @@ DB는 `data/processed/vic_dashboard.db.gz.part00`에 압축되어 있으며 앱 
 6. 최초 반대 신호, 회피 가능성, 재사용 가능한 학습 태그
 7. 원문·SEC 공시·기업 발표 등 근거자료와 판단 연결
 
-현재 production DB에는 외부자료로 검증한 심층 사후분석 149건만 있습니다.
+V12 production DB에는 외부자료로 검증한 심층 사후분석 610건이 있습니다.
 Batch 001에서는 Farfetch의 2019년 숏과 2021년 롱 2건을 추가했습니다. 원 SQL에서
 2021년 아이디어가 숏으로 잘못 저장된 문제는 원본값을 보존하고 분석 레이어에서
 실제 방향을 롱으로 교정합니다.
