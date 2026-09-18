@@ -1,0 +1,263 @@
+{
+  "schema_version": "vic-deep-research-v9",
+  "batch": 71,
+  "title": "AGC / AGC1 / AGCO / Argentex / Agrify / AGI — Discount, Credit Maturity, Liquidity Risk and Mining Execution V9",
+  "research_asof": "2026-09-18",
+  "metadata_audit": {
+    "direction_corrections": 3,
+    "security_type_corrections": 2,
+    "company_mapping_corrections": 1,
+    "performance_rows_available": 2,
+    "performance_rows_missing": 8,
+    "notes": [
+      "Raw Short -> actual Long corrections: AGC 2016, AGC1 2009, AGI 2000.",
+      "AGC1 2009 and AGC1 2012 are senior unsecured debt ideas, not common equity ideas.",
+      "AGI 2000 is Alliance Gaming Corporation, later Bally Technologies, not Alamos Gold. The SQL company mapping reflects ticker reuse.",
+      "AGCO 2015 and Alamos Gold 2014 have usable source-DB horizon performance rows; the other eight ideas do not.",
+      "AGC is a leveraged closed-end fund; its return must separate NAV performance, discount change, distributions and leverage.",
+      "Argentex's 2025 collapse arose from collateral/margin-call liquidity pressure despite a low-capex brokerage model; IFX's recommended cash consideration was 2.49p/share.",
+      "Agrify's 2022, 2023 and 2024 reverse splits compound to a 1-for-3,000 nominal share consolidation, so raw historical and current share prices are not directly comparable.",
+      "Alliance Gaming changed its name to Bally Technologies in 2006 and was acquired by Scientific Games in 2014 for $83.30 cash/share; exact 2000-entry IRR is not asserted without complete split history.",
+      "Alamos Gold 2014 is judged on its original Turkey/production horizon and failed despite later company evolution through the AuRico merger.",
+      "Alamos Gold 2018 is a different mechanism: Young-Davidson lower-mine execution and Island Gold reserve growth; long-run return also includes substantial gold-price beta."
+    ]
+  },
+  "ideas_master": [
+    {
+      "idea_id": "debdba95-f3d2-4ac6-a115-22fd561777e4",
+      "date": "2016-01-17",
+      "ticker": "AGC",
+      "company_name": "Advent Claymore Convertible Securities and Income Fund II",
+      "author": "jcoviedo",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "closed-end fund common shares",
+      "canonical_path": "analysis/ideas/2016/2016-01-17_AGC_closed_end_fund_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short->Long 교정; leveraged CEF discount-to-NAV Long"
+    },
+    {
+      "idea_id": "604072e8-d449-41cb-8a21-76eb2513f1a5",
+      "date": "2009-01-22",
+      "ticker": "AGC1",
+      "company_name": "American General Finance Corporation",
+      "author": "madmax989",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "senior unsecured bonds",
+      "canonical_path": "analysis/ideas/2009/2009-01-22_AGC1_american_general_finance_bonds_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short->Long/security-type 교정; 50-60c panic senior-credit Long"
+    },
+    {
+      "idea_id": "3fbf61ca-ad89-448a-9f3f-22a821e543c8",
+      "date": "2012-11-22",
+      "ticker": "AGC1",
+      "company_name": "Springleaf Finance Corporation",
+      "author": "creditguy",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "6.90% Medium-Term Notes Series J due 2017",
+      "canonical_path": "analysis/ideas/2012/2012-11-22_AGC1_springleaf_6_90_2017_notes_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "security-type 교정; normalizing non-prime credit / pull-to-par Long"
+    },
+    {
+      "idea_id": "24cf0eb8-cf98-4327-9b5f-f9440b5fee39",
+      "date": "2015-10-16",
+      "ticker": "AGCO",
+      "company_name": "AGCO Corporation",
+      "author": "fiftycent501",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2015/2015-10-16_AGCO_long.md",
+      "performance_available": true,
+      "auto_tag_status_ko": "ag-equipment trough-cycle Long; price success, peak margin overestimated"
+    },
+    {
+      "idea_id": "3af1399f-2fde-41f0-90b1-910f4bbfbb7f",
+      "date": "2021-11-06",
+      "ticker": "AGFX",
+      "company_name": "Argentex Group Plc",
+      "author": "MickyS",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2021/2021-11-06_AGFX_argentex_long.md",
+      "performance_available": false,
+      "corporate_action_note": "2025 IFX recommended cash offer at 2.49p/share after a liquidity crisis.",
+      "auto_tag_status_ko": "capital-light FX broker Long; margin-call liquidity tail caused near-total loss"
+    },
+    {
+      "idea_id": "a7f28838-2f64-4887-ad13-6390fce24e75",
+      "date": "2021-05-28",
+      "ticker": "AGFY",
+      "company_name": "Agrify Corporation",
+      "author": "bdon99",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2021/2021-05-28_AGFY_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "VFU/TTK recurring-fee cannabis platform Long; gross economics and cash protection failed"
+    },
+    {
+      "idea_id": "5e6bf60d-f811-406d-bfda-ba23e0a3b785",
+      "date": "2022-02-21",
+      "ticker": "AGFY",
+      "company_name": "Agrify Corporation",
+      "author": "moneyball",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2022/2022-02-21_AGFY_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "net-cash/TTK EBITDA Long; cheaper entry did not repair broken unit economics"
+    },
+    {
+      "idea_id": "f1132f28-06d4-41ac-b7b9-a01ca4dd15e9",
+      "date": "2000-08-29",
+      "ticker": "AGI",
+      "company_name": "Alliance Gaming Corporation",
+      "author": "david88",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2000/2000-08-29_AGI_alliance_gaming_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Alliance Gaming became Bally Technologies in 2006 and Scientific Games acquired Bally for $83.30 cash/share in 2014.",
+      "auto_tag_status_ko": "raw Short->Long + company-mapping correction; leveraged gaming-equipment recovery Long"
+    },
+    {
+      "idea_id": "4c932189-e6bd-4e47-8b2a-92e6eba0e467",
+      "date": "2014-03-31",
+      "ticker": "AGI",
+      "company_name": "Alamos Gold Inc.",
+      "author": "andrew152",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2014/2014-03-31_AGI_alamos_gold_long.md",
+      "performance_available": true,
+      "auto_tag_status_ko": "Turkey development/NAV rerating Long; catalyst/timing failed"
+    },
+    {
+      "idea_id": "e730e79a-5248-410c-a2a9-7214e57ce1f6",
+      "date": "2018-11-18",
+      "ticker": "AGI.",
+      "company_name": "Alamos Gold Inc.",
+      "author": "EITR210",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2018/2018-11-18_AGI_alamos_gold_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "Young-Davidson bottleneck/Island Gold asset-quality Long; very strong long-run success"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "debdba95-f3d2-4ac6-a115-22fd561777e4",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "closed-end fund discount Long",
+      "one_line_verdict_ko": "~19% discount가 ~8%로 축소되고 15% tender와 NAV-equivalent merger까지 발생",
+      "thesis_score": 9.2,
+      "process_score": 9.8,
+      "key_mechanism": "liquid NAV plus discount compression and corporate actions"
+    },
+    {
+      "idea_id": "604072e8-d449-41cb-8a21-76eb2513f1a5",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "panic senior unsecured credit Long",
+      "one_line_verdict_ko": "50-60c near-term bonds가 Fortress transaction과 refinancing을 거치며 principal-survival thesis 적중",
+      "thesis_score": 9.2,
+      "process_score": 9.8,
+      "key_mechanism": "short maturity, senior unsecured claim and continuation value reduced recovery risk"
+    },
+    {
+      "idea_id": "3fbf61ca-ad89-448a-9f3f-22a821e543c8",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "normalizing senior credit Long",
+      "one_line_verdict_ko": "87-priced 6.90% 2017 notes가 exchange/repurchase/maturity path로 정상화",
+      "thesis_score": 9.7,
+      "process_score": 9.8,
+      "key_mechanism": "coupon carry, pull-to-par and improving refinancing access"
+    },
+    {
+      "idea_id": "24cf0eb8-cf98-4327-9b5f-f9440b5fee39",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "ag-equipment trough-cycle Long",
+      "one_line_verdict_ko": "2Y +66.7%, 5Y +92.3%였지만 10% margin bull case는 과대",
+      "thesis_score": 8.8,
+      "process_score": 9.8,
+      "key_mechanism": "trough valuation and cycle inflection mattered more than exact peak earnings"
+    },
+    {
+      "idea_id": "3af1399f-2fde-41f0-90b1-910f4bbfbb7f",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "capital-light FX broker Long",
+      "one_line_verdict_ko": "88p에서 2025 liquidity shock 후 2.49p rescue offer로 약 -97%",
+      "thesis_score": 1,
+      "process_score": 9.9,
+      "key_mechanism": "stress collateral calls turned a low-capex model into a liquidity-capital failure"
+    },
+    {
+      "idea_id": "a7f28838-2f64-4887-ad13-6390fce24e75",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "vendor-financed cannabis platform Long",
+      "one_line_verdict_ko": "2022 negative gross profit와 -$193m operating loss로 TTK/VFU economics 붕괴",
+      "thesis_score": 1,
+      "process_score": 9.8,
+      "key_mechanism": "customer financing and cash burn invalidated the apparent net-cash downside"
+    },
+    {
+      "idea_id": "5e6bf60d-f811-406d-bfda-ba23e0a3b785",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "net-cash turnaround / TTK EBITDA Long",
+      "one_line_verdict_ko": "$6 entry와 $4 net cash에도 $83m EBITDA bridge가 붕괴하고 연속 reverse split·희석",
+      "thesis_score": 0.8,
+      "process_score": 9.8,
+      "key_mechanism": "negative unit economics overwhelmed the lower entry valuation"
+    },
+    {
+      "idea_id": "f1132f28-06d4-41ac-b7b9-a01ca4dd15e9",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "leveraged gaming-equipment recovery Long",
+      "one_line_verdict_ko": "Alliance Gaming이 Bally로 성장해 2014 Scientific Games $83.30 cash acquisition으로 종료",
+      "thesis_score": 9.6,
+      "process_score": 9.9,
+      "key_mechanism": "survival plus gaming replacement/recurring systems growth magnified equity residual above debt"
+    },
+    {
+      "idea_id": "4c932189-e6bd-4e47-8b2a-92e6eba0e467",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "gold development/NAV Long",
+      "one_line_verdict_ko": "1Y -34.8%, 2Y -41.4%; Turkey production timing과 1.5x NAV rerating 실패",
+      "thesis_score": 3.5,
+      "process_score": 9.8,
+      "key_mechanism": "development NAV was dominated by permit and timing risk"
+    },
+    {
+      "idea_id": "e730e79a-5248-410c-a2a9-7214e57ce1f6",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "operating-mine bottleneck/asset-quality Long",
+      "one_line_verdict_ko": "Young-Davidson lower-mine와 Island Gold reserve growth가 현실화되고 장기 주가가 $3.60에서 mid-$30s",
+      "thesis_score": 9.8,
+      "process_score": 9.8,
+      "key_mechanism": "physical operating improvements plus reserve growth and gold-price beta compounded value"
+    }
+  ],
+  "batch_lessons": [
+    "Closed-end-fund return should be decomposed into NAV return, discount change, distributions and leverage rather than judged by yield alone.",
+    "The same consumer-finance issuer can offer different trades at panic and normalization stages; maturity and security identity matter.",
+    "Cyclical equity longs can succeed even when peak-margin forecasts are wrong if the trough and inflection are correctly identified.",
+    "Low capex does not mean low capital risk: derivatives brokers can require enormous stress liquidity for collateral calls.",
+    "Cash on a balance sheet is not excess cash when the business model commits that cash to customer financing and future burn.",
+    "Repeated reverse splits are a warning to reconstruct dilution and business-model failure before comparing nominal share prices.",
+    "Historical ticker reuse can silently map one company's old ideas to another company; AGI 2000 is Alliance Gaming, not Alamos Gold.",
+    "Mining development NAV requires permit and timing probability; a strong balance sheet does not make delayed permits disappear.",
+    "Operating-mine bottleneck removal is often easier to verify than greenfield/development optionality.",
+    "Long-run commodity-stock returns must separate company execution from macro commodity-price beta."
+  ]
+}
