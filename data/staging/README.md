@@ -7,6 +7,6 @@
 파일명은 `*_catalog_v9.json`을 사용한다. 필수 배열과 가중치 검증을 통과한 뒤에만
 `data/curated/*_deep_v7.json`으로 승격한다.
 
-현재 staging 범위는 Batch 058–062와 071–076이다. Batch 064–070은 장문 보고서와
+현재 staging 범위는 Batch 058–062와 072–076이다. Batch 064–071은 장문 보고서와
 production deep schema 검증을 완료해 `data/curated/`로 승격했다. Batch 074–076은
 아이디어 catalog만 있고 필수 production 배열이 없어 staging에 둔다.

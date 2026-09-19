@@ -73,6 +73,16 @@
       "security_type": "common equity",
       "canonical_path": "analysis/ideas/2015/2015-10-16_AGCO_long.md",
       "performance_available": true,
+      "raw_perf": {
+        "perf_1w": 1.0564,
+        "perf_1m": 1.0764,
+        "perf_3m": 1.0314,
+        "perf_6m": 1.1611,
+        "perf_1y": 1.1839992756,
+        "perf_2y": 1.6671228447,
+        "perf_3y": 1.3072,
+        "perf_5y": 1.9229585171
+      },
       "auto_tag_status_ko": "ag-equipment trough-cycle Long; price success, peak margin overestimated"
     },
     {
@@ -140,6 +150,16 @@
       "security_type": "common equity",
       "canonical_path": "analysis/ideas/2014/2014-03-31_AGI_alamos_gold_long.md",
       "performance_available": true,
+      "raw_perf": {
+        "perf_1w": 1.0598,
+        "perf_1m": 1.0249,
+        "perf_3m": 1.1151,
+        "perf_6m": 0.8764,
+        "perf_1y": 0.651929,
+        "perf_2y": 0.585638,
+        "perf_3y": 0.901842,
+        "perf_5y": null
+      },
       "auto_tag_status_ko": "Turkey development/NAV rerating Long; catalyst/timing failed"
     },
     {
