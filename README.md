@@ -12,8 +12,8 @@
 해당 기업의 모든 투자논지·실제 전개·핵심 수치·근거자료를 직접 추출해 표시합니다.
 재무 수치의 `$` 기호는 Streamlit 수식 문법으로 오인되지 않도록 별도 처리합니다.
 
-현재 production overlay는 **654개 고유 idea_id**입니다. 배치·V8 fallback 사이의
-중복 idea_id는 0개이며, DB 스키마가 아직 완성되지 않은 Batch 058–062·070–076의
+현재 production overlay는 **664개 고유 idea_id**입니다. 배치·V8 fallback 사이의
+중복 idea_id는 0개이며, DB 스키마가 아직 완성되지 않은 Batch 058–062·071–076의
 catalog JSON은 `data/staging/`에 격리되어 앱이 심층분석으로 오인하지 않습니다.
 
 ## 정본 파일 구조
@@ -54,7 +54,7 @@ DB는 `data/processed/vic_dashboard.db.gz.part00`에 압축되어 있으며 앱 
 6. 최초 반대 신호, 회피 가능성, 재사용 가능한 학습 태그
 7. 원문·SEC 공시·기업 발표 등 근거자료와 판단 연결
 
-V12 production DB에는 외부자료로 검증한 심층 사후분석 654건이 있습니다.
+V12 production DB에는 외부자료로 검증한 심층 사후분석 664건이 있습니다.
 Batch 001에서는 Farfetch의 2019년 숏과 2021년 롱 2건을 추가했습니다. 원 SQL에서
 2021년 아이디어가 숏으로 잘못 저장된 문제는 원본값을 보존하고 분석 레이어에서
 실제 방향을 롱으로 교정합니다.
@@ -146,6 +146,11 @@ Batch 069에서는 Affinity Media, Alphamin, Ag Growth, AFOP 2건, Aluflexpack, 
 Financial Realty, AfriSam secured FRN, Affirm, AmTrust를 같은 0–12장 형식으로 재구성했습니다.
 raw Short→Long 3건과 AfriSam security type을 교정하고 AFOP의 reverse/forward split,
 AFMI trust liquidation, resource expansion, REIT per-share dilution과 short timing을 분리했습니다.
+
+Batch 070에서는 AmTrust, Advanced Fiber Technologies, Carl Zeiss Meditec, Afya, AGCO 2건,
+Arctic Glacier, AUTO1 2건, legacy Algoma Steel을 같은 0–12장 형식으로 재구성했습니다.
+raw Short→Long 2건과 income-trust security type 2건을 교정하고, insurance-short catalyst,
+mixed-currency insolvency recovery, operating success와 entry-price payoff, 2027 미도래 목표를 분리했습니다.
 
 ## 연구 배치 적용
 
