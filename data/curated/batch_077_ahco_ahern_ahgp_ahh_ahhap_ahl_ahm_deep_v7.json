@@ -1,0 +1,270 @@
+{
+  "schema_version": "vic-deep-research-v9",
+  "batch": 77,
+  "title": "AdaptHealth / Ahern Rentals / Alliance Holdings GP / Armada Hoffler / Accredited Mortgage REIT Preferred / Aspen Insurance / American Home Mortgage — Security Path, Recovery and Funding V9",
+  "research_asof": "2026-09-20",
+  "metadata_audit": {
+    "direction_corrections": 7,
+    "company_mapping_corrections": 0,
+    "ticker_identity_distinctions": 0,
+    "performance_rows_available": 1,
+    "performance_rows_missing": 9,
+    "notes": [
+      "Raw Short -> actual Long corrections: Ahern Rentals 2012; Alliance Holdings GP 2009, 2012 and 2016; AHHAP 2012; Aspen Insurance 2011; American Home Mortgage 2007.",
+      "AHM 2005 is a genuine Short even though many neighboring raw is_short=true records are actually Longs; direction was determined from explicit action language in each source description.",
+      "Only Armada Hoffler 2015 has a source performance row. Its price factors imply approximately +14.75% at 1Y, +71.63% at 2Y, +91.45% at 3Y and +146.04% at 5Y.",
+      "Ahern Rentals second-lien notes were bought at 65; the confirmed plan paid par plus pre-petition interest, making the credit successful even though holders did not receive reorganized equity.",
+      "AHGP 2012 outcome is supported by the same author's 2016 follow-up saying the Alliance position was sold in late 2013 in the $60s.",
+      "AHGP 2016 explicitly underwrote distribution-cut risk; the cut happened, then units recovered to roughly $28 by the 2018 ARLP simplification.",
+      "AHHAP original remaining liquidation estimate was $6.64-$8.37 at a $6 price; final aggregate distributions were $19.27/share, implying roughly $9.77/share of distributions after subtracting the ~$9.50/share already paid before the VIC date.",
+      "Aspen Insurance rerated toward book by 2013-14 and was later acquired by Apollo for $42.75/share cash in 2019.",
+      "American Home Mortgage provides a paired falsification case: the 2005 Short focused on cash/funding structure and succeeded, while the 2007 Long focused on borrower credit quality/book value and failed catastrophically within five months.",
+      "AdaptHealth 2022 correctly diagnosed a 2020 integration problem but overestimated the durability of M&A economics; large goodwill impairments and weak 2026 equity value invalidate the per-share compounding case."
+    ]
+  },
+  "ideas_master": [
+    {
+      "idea_id": "efd67206-9315-4cf8-a78c-8db87abc8701",
+      "date": "2022-05-16",
+      "ticker": "AHCO",
+      "company_name": "AdaptHealth Corp.",
+      "author": "ima",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2022/2022-05-16_AHCO_adapthealth_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "M&A integration-turnaround Long; operational repair partly worked but goodwill impairment and weak per-share value made long-run thesis a strong failure"
+    },
+    {
+      "idea_id": "e4fd4bdb-77c0-444c-84e7-22dcb6e9a86b",
+      "date": "2012-12-17",
+      "ticker": "AHERN",
+      "company_name": "Ahern Rentals, Inc.",
+      "author": "eal820",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "senior secured second lien notes",
+      "canonical_path": "analysis/ideas/2012/2012-12-17_AHERN_ahern_rentals_second_lien_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Second-lien holders received par plus pre-petition interest under the confirmed 2013 reorganization plan.",
+      "auto_tag_status_ko": "raw Short->Long correction; distressed second-lien Long at 65, recovered par plus prepetition interest"
+    },
+    {
+      "idea_id": "f26dc9ab-2429-400d-b2ae-83cdbbb40ae6",
+      "date": "2009-12-31",
+      "ticker": "AHGP",
+      "company_name": "Alliance Holdings GP, L.P.",
+      "author": "thistle933",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "MLP common units",
+      "canonical_path": "analysis/ideas/2009/2009-12-31_AHGP_alliance_holdings_gp_long.md",
+      "performance_available": false,
+      "corporate_action_note": "AHGP was simplified into ARLP in May 2018.",
+      "auto_tag_status_ko": "raw Short->Long correction; Illinois Basin low-cost/high-ROIC commodity Long, strong multi-year outcome with later cycle drawdown"
+    },
+    {
+      "idea_id": "e570ea9a-68c1-4054-b1dc-a4907b488c52",
+      "date": "2012-12-12",
+      "ticker": "AHGP",
+      "company_name": "Alliance Holdings GP, L.P.",
+      "author": "thistle933",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "MLP common units",
+      "canonical_path": "analysis/ideas/2012/2012-12-12_AHGP_alliance_holdings_gp_long.md",
+      "performance_available": false,
+      "auto_tag_status_ko": "raw Short->Long correction; ILB structural-share/yield Long, same author reports late-2013 sale in the $60s"
+    },
+    {
+      "idea_id": "927f78ab-3689-4acb-8eb0-9a22213785f0",
+      "date": "2016-04-06",
+      "ticker": "AHGP",
+      "company_name": "Alliance Holdings GP, L.P.",
+      "author": "thistle933",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "MLP common units",
+      "canonical_path": "analysis/ideas/2016/2016-04-06_AHGP_alliance_holdings_gp_long.md",
+      "performance_available": false,
+      "corporate_action_note": "AHGP units converted into approximately 1.4782 ARLP units in the 2018 simplification.",
+      "auto_tag_status_ko": "raw Short->Long correction; distressed high-yield/gas-mean-reversion Long, distribution cut occurred but low-teens entry roughly doubled by 2018"
+    },
+    {
+      "idea_id": "ac82ff51-c8fb-4c3e-b57e-e38d5bd9feaa",
+      "date": "2015-01-03",
+      "ticker": "AHH",
+      "company_name": "Armada Hoffler Properties, Inc.",
+      "author": "jhu2000",
+      "is_short": 0,
+      "direction_ko": "롱",
+      "security_type": "REIT common equity",
+      "canonical_path": "analysis/ideas/2015/2015-01-03_AHH_armada_hoffler_long.md",
+      "performance_available": true,
+      "auto_tag_status_ko": "discounted NAV/high-yield/internal-development-platform Long; source DB 5Y price factor +146.0%"
+    },
+    {
+      "idea_id": "bf20fe34-e0de-4c2f-8707-0871318d7778",
+      "date": "2012-02-29",
+      "ticker": "AHHAP",
+      "company_name": "Accredited Mortgage Loan REIT Trust",
+      "author": "GideonMagnus",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "9.75% Series A cumulative preferred / liquidation claim",
+      "canonical_path": "analysis/ideas/2012/2012-02-29_AHHAP_accredited_mortgage_reit_preferred_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Liquidation completed in 2016; aggregate distributions since plan confirmation totaled $19.27/share.",
+      "auto_tag_status_ko": "raw Short->Long correction; liquidation preferred Long at $6, post-entry distributions approximately $9.77/share"
+    },
+    {
+      "idea_id": "de81743f-e7db-4c81-926c-cae774c4e7cb",
+      "date": "2011-05-11",
+      "ticker": "AHL",
+      "company_name": "Aspen Insurance Holdings Limited",
+      "author": "jgalt",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2011/2011-05-11_AHL_aspen_insurance_long.md",
+      "performance_available": false,
+      "corporate_action_note": "Apollo acquired Aspen for $42.75/share cash in February 2019.",
+      "auto_tag_status_ko": "raw Short->Long correction; 0.77x book-quality-insurer Long, rerated toward book and later taken out at $42.75 cash"
+    },
+    {
+      "idea_id": "f2cb0d9c-34f2-495d-bfb6-24a7a646d665",
+      "date": "2005-07-20",
+      "ticker": "AHM",
+      "company_name": "American Home Mortgage Investment Corp.",
+      "author": "dkepesh935",
+      "is_short": 1,
+      "direction_ko": "숏",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2005/2005-07-20_AHM_american_home_mortgage_short.md",
+      "performance_available": false,
+      "corporate_action_note": "American Home Mortgage filed Chapter 11 on August 6, 2007.",
+      "auto_tag_status_ko": "cash-flow/accounting/funding-fragility Short; causal thesis validated by 2007 liquidity collapse and bankruptcy"
+    },
+    {
+      "idea_id": "81000fb9-23c6-4256-b46f-24ac0c00c7f6",
+      "date": "2007-03-15",
+      "ticker": "AHM",
+      "company_name": "American Home Mortgage Investment Corp.",
+      "author": "david101",
+      "is_short": 1,
+      "direction_ko": "롱",
+      "security_type": "common equity",
+      "canonical_path": "analysis/ideas/2007/2007-03-15_AHM_american_home_mortgage_long.md",
+      "performance_available": false,
+      "corporate_action_note": "American Home Mortgage filed Chapter 11 on August 6, 2007, less than five months after the VIC post.",
+      "auto_tag_status_ko": "raw Short->Long correction; prime/Alt-A/book-value/dividend Long, catastrophic funding-liquidity failure within five months"
+    }
+  ],
+  "meta": [
+    {
+      "idea_id": "efd67206-9315-4cf8-a78c-8db87abc8701",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "M&A integration-turnaround Long",
+      "one_line_verdict_ko": "2020 execution diagnosis partly right, but 2023/2025 impairments and $5.71 stock invalidated repeatable M&A-ROIC/per-share compounding",
+      "thesis_score": 3.5,
+      "process_score": 9.9,
+      "key_mechanism": "operating repair did not imply acquisition value creation"
+    },
+    {
+      "idea_id": "e4fd4bdb-77c0-444c-84e7-22dcb6e9a86b",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "distressed second-lien recovery Long",
+      "one_line_verdict_ko": "65 purchase recovered par plus pre-petition interest in the 2013 plan, despite no equity conversion",
+      "thesis_score": 9.5,
+      "process_score": 9.9,
+      "key_mechanism": "recovery coverage was sufficient even though the restructuring path differed"
+    },
+    {
+      "idea_id": "f26dc9ab-2429-400d-b2ae-83cdbbb40ae6",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "low-cost/high-ROIC commodity Long",
+      "one_line_verdict_ko": "Illinois Basin cost position and high-return expansion worked strongly through 2013 before later coal/gas stress",
+      "thesis_score": 8.5,
+      "process_score": 9.9,
+      "key_mechanism": "cost advantage delivered superior economics but not immunity from commodity drawdowns"
+    },
+    {
+      "idea_id": "e570ea9a-68c1-4054-b1dc-a4907b488c52",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "ILB structural-share / distribution-yield Long",
+      "one_line_verdict_ko": "same author later reports selling Alliance in late 2013 in the $60s after the 2012 contrarian entry",
+      "thesis_score": 9.2,
+      "process_score": 9.9,
+      "key_mechanism": "CAPP exit and ILB relative economics drove rerating"
+    },
+    {
+      "idea_id": "927f78ab-3689-4acb-8eb0-9a22213785f0",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "distressed high-yield / gas optionality Long",
+      "one_line_verdict_ko": "distribution cut occurred, but low-teens AHGP recovered to about $28 by 2018 before simplification",
+      "thesis_score": 9,
+      "process_score": 9.9,
+      "key_mechanism": "stress-tested cut risk plus gas mean reversion created asymmetric upside"
+    },
+    {
+      "idea_id": "ac82ff51-c8fb-4c3e-b57e-e38d5bd9feaa",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "discounted-NAV / development-platform REIT Long",
+      "one_line_verdict_ko": "source DB price return +14.8% 1Y, +71.6% 2Y, +146.0% 5Y before dividends",
+      "thesis_score": 9.5,
+      "process_score": 9.9,
+      "key_mechanism": "high starting NOI yield plus internal development value creation drove rerating"
+    },
+    {
+      "idea_id": "bf20fe34-e0de-4c2f-8707-0871318d7778",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "liquidation preferred Long",
+      "one_line_verdict_ko": "$6 entry received roughly $9.77 of post-entry liquidation distributions, exceeding original $6.64-8.37 remaining-value range",
+      "thesis_score": 9.6,
+      "process_score": 9.9,
+      "key_mechanism": "claim-level waterfall and conservative asset marks converted into cash"
+    },
+    {
+      "idea_id": "de81743f-e7db-4c81-926c-cae774c4e7cb",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "quality-insurer P/B rerating Long",
+      "one_line_verdict_ko": "0.77x book rerated toward book by 2013-14; later Apollo takeout at $42.75 cash",
+      "thesis_score": 9,
+      "process_score": 9.9,
+      "key_mechanism": "book-value compounding plus multiple normalization generated return"
+    },
+    {
+      "idea_id": "f2cb0d9c-34f2-495d-bfb6-24a7a646d665",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "cash-flow/accounting/funding Short",
+      "one_line_verdict_ko": "reported earnings/dividend cash mismatch and wholesale funding fragility culminated in 2007 bankruptcy",
+      "thesis_score": 10,
+      "process_score": 10,
+      "key_mechanism": "liability-side liquidity and noncash earnings mattered more than headline valuation"
+    },
+    {
+      "idea_id": "81000fb9-23c6-4256-b46f-24ac0c00c7f6",
+      "report_version": "V9-canonical",
+      "thesis_type_ko": "prime-mortgage/book-value Long",
+      "one_line_verdict_ko": "good FICO/LTV and low subprime exposure did not prevent Chapter 11 less than five months later",
+      "thesis_score": 0.5,
+      "process_score": 9.9,
+      "key_mechanism": "asset quality could not offset correlated wholesale-funding withdrawal"
+    }
+  ],
+  "batch_lessons": [
+    "Direction metadata must be validated against explicit buy/short language in the thesis, especially when one raw flag maps to both longs and shorts.",
+    "An operating turnaround does not automatically validate acquisition ROIC or per-share compounding.",
+    "In distressed credit, recovery coverage is more robust than predicting exactly which reorganization plan will win.",
+    "Low-cost commodity producers have survival and share-gain advantages but remain highly cyclical securities.",
+    "Headline distribution yield should be stress-tested against cycle-low free cash flow and debt service.",
+    "An internal REIT development platform can create value above static NAV through development-to-stabilized-value spreads.",
+    "Liquidation analysis must subtract distributions already received before the investor purchase date.",
+    "Insurance P/B works best when book value itself compounds; cheap book without book growth is not enough.",
+    "For leveraged financial companies, liability funding and collateral liquidity can dominate borrower credit quality.",
+    "Multiple funding facilities are not true diversification if they depend on the same collateral market and confidence regime.",
+    "The same company can support entirely different valid thesis types at different prices and cycle states.",
+    "Paired long/short write-ups on the same company are especially valuable for identifying which evidence was genuinely causal."
+  ]
+}
