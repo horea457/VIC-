@@ -1,7 +1,7 @@
 # A.H. Belo (AHC) — 2013-11-20 VIC Long
 
 > **Idea unit:** 2013-11-20 A.H. Belo common equity Long.
-> **Research as-of:** 2026-09-18. 원 SQL은 Short지만 원문은 명백한 **Long**이다.
+> **Research as-of:** 2026-09-21. 원 SQL은 Short지만 원문은 명백한 **Long**이다.
 
 ---
 
