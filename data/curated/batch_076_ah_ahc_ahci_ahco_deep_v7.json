@@ -16,9 +16,9 @@
       "No usable source-DB performance rows exist for any Batch 76 idea, so outcomes are evaluated from original thesis terms, filings, cash distributions, corporate actions and operating results.",
       "Accretive Health 2013 failed on its near-term filing/rerating catalyst as accounting restatements led to NYSE suspension and delisting; later R1 RCM strategic value does not retroactively make the original horizon successful.",
       "A.H. Belo 2010-2013 correctly identified monetizable newspaper, real-estate and Classified Ventures assets; 2014 special dividends totaled $3.75/share.",
-      "A.H. Belo 2016-2017 still identified real hard assets, but the slower realization schedule, print decline, pension/corporate leakage and failed HQ sale reduced the static SOTP payoff.",
+      "A.H. Belo 2016-2017 still identified real hard assets, but after the earlier major monetizations were gone, print/digital operating decay and long realization duration overwhelmed the remaining SOTP upside.",
       "A.H. Belo executed a 1-for-4 reverse split in 2021 before becoming DallasNews; the 2025 Hearst $16.50/share takeout equals $4.125 on the old pre-split share basis.",
-      "Apollo Healthcare's operational turnaround and strategic value were real, but the C$4.50 cash takeout was only modestly above the implied ~C$3.94 entry and far below the author's C$14-30 valuation range.",
+      "Apollo Healthcare's operational turnaround was real, but the actual 2020-12-17 TSX close was C$5.39 and Anjac paid C$4.50 cash/share, a roughly -16.5% price outcome. The original C$14.2 = 260% upside math implicitly used a lower ~C$3.94 reference that did not match the post-date market close.",
       "Allied Healthcare 2009 and 2010 were both successful cash-rich UK homecare longs and ended in Saga's $3.90/share cash acquisition in 2011.",
       "AdaptHealth's 2021 revenue/EBITDA scale-up was real, but the key Luke McGee capital-allocation thesis broke almost immediately; subsequent impairment and weak per-share returns made the security thesis a strong failure.",
       "The obsolete duplicate Apollo canonical without the '_dot_' ticker marker was removed; the wrapper now points to a single Apollo canonical."
@@ -174,8 +174,8 @@
       "idea_id": "484c3b9f-b67a-4d6f-9d7f-0acc7ca20b32",
       "report_version": "V9-canonical",
       "thesis_type_ko": "cash/real-estate/newspaper asset Long",
-      "one_line_verdict_ko": "Press-Enterprise·Providence·Classified Ventures가 실제 현금화되고 2014 special dividends $3.75/share; secular decline limited rerating",
-      "thesis_score": 8,
+      "one_line_verdict_ko": "$6.75 entry 이후 non-core assets가 실제 현금화되고 2014 special dividends $3.75/share; 2014 YE price까지 합치면 보수적으로 약 +109%",
+      "thesis_score": 9.5,
       "process_score": 9.8,
       "key_mechanism": "hard-asset monetization and distributions created value despite a shrinking print franchise"
     },
@@ -201,8 +201,8 @@
       "idea_id": "f9389e7b-b318-4fb8-a3ff-2da26837156b",
       "report_version": "V9-canonical",
       "thesis_type_ko": "declining-company SOTP Long",
-      "one_line_verdict_ko": "parking lots $21.3m and HQ $28m eventually monetized, but print/digital/pension leakage and long duration undermined static SOTP",
-      "thesis_score": 5.5,
+      "one_line_verdict_ko": "HQ/real-estate value는 실현됐지만 print/digital operating value가 계속 감소해 2016 SOTP thesis와 terminal per-share value가 실패",
+      "thesis_score": 3.5,
       "process_score": 9.9,
       "key_mechanism": "real hard assets were offset by continuing value leakage while realization took years"
     },
@@ -219,10 +219,10 @@
       "idea_id": "ed219443-23f0-4788-a831-f0a9fb7df986",
       "report_version": "V9-canonical",
       "thesis_type_ko": "COVID-era operational-turnaround / strategic-sale Long",
-      "one_line_verdict_ko": "implied ~C$3.94 entry to C$4.50 cash takeout was only ~14%, far below C$14-30 target despite real turnaround",
-      "thesis_score": 5,
+      "one_line_verdict_ko": "실제 게시일 C$5.39에서 Anjac C$4.50 cash takeout으로 약 -16.5%; turnaround는 맞았지만 normalized EBITDA와 multiple이 과대",
+      "thesis_score": 3.5,
       "process_score": 9.8,
-      "key_mechanism": "operating repair attracted a strategic buyer, but pandemic EBITDA durability and peer multiple were overestimated"
+      "key_mechanism": "operating repair was real, but pandemic earnings durability and peer-multiple transferability were overstated; actual strategic value fell below the post-date market price"
     },
     {
       "idea_id": "efe938aa-4866-4174-be5e-fcb1752fd66e",
