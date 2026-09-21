@@ -1,7 +1,7 @@
 # AdaptHealth (AHCO) — 2021-03-11 VIC Long
 
 > **Idea unit:** 2021-03-11 AdaptHealth common equity Long.
-> **Research as-of:** 2026-09-18. 원 SQL Long과 실제 방향이 일치한다.
+> **Research as-of:** 2026-09-21. 원 SQL Long과 실제 방향이 일치한다.
 
 ---
 
