@@ -12,12 +12,12 @@
 | # | 날짜 | Ticker | Raw 방향 | 실제 Security / 방향 | Canonical | 최종 판정 |
 |---:|---|---|---|---|---|---|
 | 1 | 2013-11-13 | AH | Long | **Accretive Health Common Long** | [Accretive 2013](ideas/2013/2013-11-13_AH_accretive_health_long.md) | **강한 실패 — accounting/delisting risk** |
-| 2 | 2010-06-25 | AHC | **Short** | **A.H. Belo Common Long** | [AHC 2010](ideas/2010/2010-06-25_AHC_ah_belo_long.md) | **delayed partial success — asset thesis right, rerating slow** |
+| 2 | 2010-06-25 | AHC | **Short** | **A.H. Belo Common Long** | [AHC 2010](ideas/2010/2010-06-25_AHC_ah_belo_long.md) | **강한 장기 성공 — asset sales + $3.75 special dividends** |
 | 3 | 2012-02-08 | AHC | **Short** | **A.H. Belo Common Long** | [AHC 2012](ideas/2012/2012-02-08_AHC_ah_belo_long.md) | **강한 2~3Y 성공 — asset sales + special dividends** |
 | 4 | 2013-11-20 | AHC | **Short** | **A.H. Belo Common Long** | [AHC 2013](ideas/2013/2013-11-20_AHC_ah_belo_long.md) | **매우 강한 성공 — 빠른 asset monetization** |
-| 5 | 2016-01-06 | AHC | **Short** | **A.H. Belo Common Long** | [AHC 2016](ideas/2016/2016-01-06_AHC_ah_belo_long.md) | **부분 성공 — hard assets real, core decay underestimated** |
+| 5 | 2016-01-06 | AHC | **Short** | **A.H. Belo Common Long** | [AHC 2016](ideas/2016/2016-01-06_AHC_ah_belo_long.md) | **실패 — real estate value는 맞았지만 core print/digital value 과대** |
 | 6 | 2017-01-06 | AHC | **Short** | **A.H. Belo Common Long** | [AHC 2017](ideas/2017/2017-01-06_AHC_ah_belo_long.md) | **실패·혼합 — hard assets right, $10~12 target wrong** |
-| 7 | 2020-12-17 | AHC. | **Short** | **Apollo Healthcare Common Long** | [Apollo](ideas/2020/2020-12-17_AHC_dot_apollo_healthcare_long.md) | **운영 성공 / valuation 실패 — C$4.50 takeout** |
+| 7 | 2020-12-17 | AHC. | **Short** | **Apollo Healthcare Common Long** | [Apollo](ideas/2020/2020-12-17_AHC_dot_apollo_healthcare_long.md) | **실패 — C$5.39→C$4.50 cash, 약 -16.5%** |
 | 8 | 2009-02-20 | AHCI | Long | **Allied Healthcare Common Long** | [Allied 2009](ideas/2009/2009-02-20_AHCI_allied_healthcare_long.md) | **매우 강한 성공 — $1.20→$3.90 cash** |
 | 9 | 2010-05-12 | AHCI | Long | **Allied Healthcare Common Long** | [Allied 2010](ideas/2010/2010-05-12_AHCI_allied_healthcare_long.md) | **강한 성공 — ~$2.49→$3.90 cash** |
 | 10 | 2021-03-11 | AHCO | Long | **AdaptHealth Common Long** | [AdaptHealth](ideas/2021/2021-03-11_AHCO_adapthealth_long.md) | **매우 강한 실패 — revenue grows, per-share value collapses** |
@@ -165,7 +165,7 @@ A.H. Belo에서 가장 좋은 투자시점은 자산가치가 가장 커 보일 
 
 ## 9. 2020 Long
 
-implied entry **C$3.9~4.0**.
+실제 게시일 TSX 종가 **C$5.39**. 원문의 C$14.2 = 260% upside 산식은 약 C$3.94의 내재 기준가격을 사용해 실제 시장가격과 불일치한다.
 
 원문:
 - founders regain control
@@ -180,11 +180,11 @@ implied entry **C$3.9~4.0**.
 - operations improved
 - strategic buyer emerged
 - Anjac acquired company for **C$4.50 cash**
-- implied entry C$3.94 기준 약 **+14%**
+- 실제 게시일 종가 C$5.39 기준 약 **-16.5%**
 
 ### 핵심
 
-> **턴어라운드를 맞혀도 normalized EBITDA와 multiple을 동시에 과대평가하면 target은 크게 틀릴 수 있다.**
+> **턴어라운드를 맞혀도 normalized EBITDA와 multiple을 동시에 과대평가하면 실제 strategic takeout에서도 손실이 날 수 있다.**
 
 ---
 
