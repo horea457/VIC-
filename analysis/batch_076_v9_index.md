@@ -1,7 +1,7 @@
 # Batch 076 — Accretive Health / A.H. Belo / Apollo Healthcare / Allied Healthcare / AdaptHealth V9 Index
 
 > **기준:** Batch 043 이후 V9 원칙 유지. VIC 아이디어 1건 = canonical Markdown 1개.
-> **Research as-of:** 2026-09-18.
+> **Research as-of:** 2026-09-21.
 > **Batch boundary:** Batch 075 마지막 **AH 2012-06-06 Accretive Health** 이후 SQL의 ticker/date/id 정렬을 직접 파싱한 다음 10건.
 > **핵심 데이터 품질:** raw Short→actual Long **6건**(A.H. Belo 2010/2012/2013/2016/2017, Apollo Healthcare 2020). Source SQL performance row는 10건 모두 없다. AHC와 AHC.는 서로 다른 회사다.
 
