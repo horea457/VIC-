@@ -1,7 +1,7 @@
 # Allied Healthcare International (AHCI) — 2010-05-12 VIC Long
 
 > **Idea unit:** 2010-05-12 Allied Healthcare International common equity Long.
-> **Research as-of:** 2026-09-18. 원 SQL Long과 실제 방향이 일치한다.
+> **Research as-of:** 2026-09-21. 원 SQL Long과 실제 방향이 일치한다.
 
 ---
 
