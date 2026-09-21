@@ -1,7 +1,7 @@
 # Apollo Healthcare (AHC.) — 2020-12-17 VIC Long
 
 > **Idea unit:** 2020-12-17 Apollo Healthcare common equity Long.
-> **Research as-of:** 2026-09-18. 원 SQL은 Short지만 원문은 명백한 **Long**이다. AHC.는 A.H. Belo의 AHC와 다른 회사다.
+> **Research as-of:** 2026-09-21. 원 SQL은 Short지만 원문은 명백한 **Long**이다. AHC.는 A.H. Belo의 AHC와 다른 회사다.
 
 ---
 
