@@ -1,7 +1,7 @@
 # Accretive Health (AH) — 2013-11-13 VIC Long
 
 > **Idea unit:** 2013-11-13 Accretive Health common equity Long.
-> **Research as-of:** 2026-09-18. 원 SQL Long과 실제 방향이 일치한다.
+> **Research as-of:** 2026-09-21. 원 SQL Long과 실제 방향이 일치한다.
 
 ---
 
