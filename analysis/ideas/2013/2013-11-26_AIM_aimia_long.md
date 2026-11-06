@@ -427,5 +427,5 @@ Air Canada가 재계약했더라도 FCF가 C$200m 근처라면 15배 재평가�
 
 - T0 원문·metadata: **A/B — source SQL 원문과 공개 VIC URL. 공개 URL이 없는 글은 source DB 본문 기준.**
 - 사업·거래·자본구조: **A/B** — SEC·회사 1차자료 우선. 일부는 2차자료와 검색 발췌로 확인했고 각 출처에 표시했다.
-- 가격·수익률: **REJECTED** — ticker collision으로 wrong-company 가격행을 폐기했다.
+- 가격·수익률: **C/D** — source SQL 성과행 없음. Yahoo 종가와 원문 기록가만 사용. 워런트 일별 시가 미확보.
 - raw SQL direction은 **Long**, 실제 원문 방향은 **Long**다. raw 값은 덮어쓰지 않았다.

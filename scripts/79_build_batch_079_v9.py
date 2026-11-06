@@ -854,6 +854,8 @@ def main():
             "**C/D** — source SQL 성과행 없음. Yahoo 종가와 원문 기록가만 사용. 워런트 일별 시가 미확보."
         )
         report = base.render_report(i).replace("**B** — source SQL price-only ratios; dividends·tax 제외.", quality).replace(
+            "**REJECTED** — ticker collision으로 wrong-company 가격행을 폐기했다.", quality,
+        ).replace(
             "- 사업·거래·자본구조: **A** — SEC·회사 1차자료 우선.",
             "- 사업·거래·자본구조: **A/B** — SEC·회사 1차자료 우선. 일부는 2차자료와 검색 발췌로 확인했고 각 출처에 표시했다.",
         )
