@@ -806,7 +806,7 @@ def render_prose(i):
         f"[{x['title']}]({x['url']})" if x["url"] else x["title"] for x in idea_sources(i)
     )
     return "\n".join([
-        f"# {i['company']} ({i['ticker']}) — {i['date']} VIC {i['direction']}", "",
+        f"# {i['company']} ({i['ticker']}) — {i['date']} {'공매도' if i['direction'] == 'Short' else '매수'} 아이디어", "",
         f"**판정: {p_['verdict']}.** 작성자 {i['author']}.", "",
         p_["body"].strip(), "",
         "## 근거 자료", "", links + ".", "",

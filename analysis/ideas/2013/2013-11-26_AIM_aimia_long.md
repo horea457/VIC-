@@ -1,33 +1,45 @@
-# Aimia Inc. (AIM) — 2013-11-26 VIC Long
+# Aimia Inc. (AIM) — 2013-11-26 매수 아이디어
 
-**판정: 치명적 실패.** 작성자 Ragnar0307.
+**판정: 크게 실패한 매수 아이디어.** 작성자 Ragnar0307.
 
-2013년 11월, Ragnar0307은 Aeroplan을 운영하는 Aimia를 사자고 제안했다. 원문에 주가는 없지만 3.6% 배당 수준과 맞는 C$18.75가 당일 종가다. 작성자는 12~18개월 안에 40~50%, 강세에서는 70~80%의 상승을 기대했다. 실제 고점은 2014년 1월의 C$19.73(+5%)이었고, 2017년 5월 11일 Air Canada가 계약을 갱신하지 않겠다고 밝히자 하루 만에 63% 내렸으며, 2026년 10월 주가는 C$2.57로 -86.3%다. 작성자는 Air Canada를 경쟁우위의 원천으로 적으면서 위험 항목에서는 "2020년까지 만료되지 않는다"로 넘어갔다.
+## 어떤 회사인가
 
-## 투자 논지
+Aimia는 캐나다의 포인트·마일리지 회사다. 가장 큰 사업은 Aeroplan으로, 원래 Air Canada의 마일리지 프로그램이었다가 2005년 분리되었다. 회원은 460만 명이고 2013년 회사 영업이익(EBITDA)의 약 80%를 Aeroplan이 포함된 캐나다 사업이 벌었다.
 
-Aimia의 사업은 카드사와 제휴사에 마일을 팔고, 회원이 마일을 쓰면 Air Canada 좌석 등을 사 주는 구조다. 2013년 EBITDA의 약 80%가 캐나다 Aeroplan에서 나왔다. 그해 CIBC와의 재계약 협상이 틀어지며 TD로 넘어가는 소동이 있었고, 결국 TD와 CIBC가 함께 더 높은 단가를 내는 3자 합의가 나왔다. TD는 C$100m을 지원했고 Aimia는 CIBC에 C$150m을 지급했다. 비슷한 시기 Amex와도 재계약했다. 작성자는 더 높은 단가로 마일 차감을 20~50% 낮춰 회원에게 돌려주면 물량이 다시 늘고 FCF는 2015년부터 두 자릿수로 성장한다고 보았다. CIBC 계약, Amex 계약, 경쟁심판소 사건, 마일 만료 문제 같은 부담이 사라지면 9~10배 선행 FCF가 Alliance Data, American Express, Smiles처럼 15배로 재평가된다는 것이 수익의 원천이었다. 배당 3.6%와 10% 자사주가 하방을 받친다고 했다.
+돈 버는 방식은 이렇다. CIBC, American Express 같은 카드사가 고객에게 줄 마일을 Aimia에서 미리 사고, 회원은 카드를 쓰며 모은 마일로 항공권 등을 받는다. 마일의 약 75%가 항공권에 쓰였다. Aimia는 이때 Air Canada 좌석을 사서 내주는데, 계약상 전체 좌석의 8%를 크게 할인된 값에 살 수 있었다. 즉 카드사에 마일을 판 값과 좌석을 산 값의 차이가 수익이고, 이 구조는 Air Canada 계약에 달려 있었다. 그 계약은 2020년까지였다.
 
-## 실제로 일어난 일
+다른 사업으로는 영국과 이탈리아의 Nectar(Sainsbury's, BP 등이 참여한 포인트 프로그램), 중동의 Air Miles, 기업의 자체 포인트 프로그램을 운영해 주는 Carlson Marketing(2009년 $266m에 인수), 그리고 Aeromexico 마일리지 프로그램 Club Premier 지분 49%가 있었다.
 
-2014년 숫자는 겉으로 괜찮았다. Gross Billings는 고정환율로 9.3% 늘었고 FCF는 C$287.0m이었다. 그러나 그 안에 TD의 C$100m이 들어 있어 일회성을 빼면 약 C$187m이었다. 2015년 FCF는 C$202.3m인데 이 해의 정상화 수치에는 세금 환급 C$41.1m이 포함되어 있었고, 2016년 가이던스는 C$190~220m이었다. 경영진의 C$250m 이상과 두 자릿수 성장은 오지 않았다. 주가는 1년 뒤 -22.2%, 2년 뒤 -48.4%였고 Air Canada 발표 전날 이미 C$8.93으로 -52%였다.
+## 투자 아이디어
 
-2017년 5월 11일 주가는 C$3.33이 되었고, 6월 14일에는 자본 손상 테스트를 이유로 보통주와 우선주 배당이 모두 중단되었다. 저점은 7월 31일의 C$1.45, -92%였다. Air Canada는 자체 프로그램이 C$2~2.5bn의 가치를 만든다고 보았고, Globe and Mail에 따르면 Aeroplan이 쓰던 좌석 원가는 시장가보다 20~30% 쌌다. 2018년 2월 Nectar는 약 C$105m(순액 C$34m)에 팔렸고, 2019년 1월 10일 Aeroplan은 Air Canada 컨소시엄에 현금 C$450m과 약 C$1.9bn의 마일 부채 인수 조건으로 넘어갔다.
+2013년 11월, Ragnar0307은 Aimia를 사자고 했다. 원문에 주가는 없지만 당일 종가는 C$18.75다. 그해 Aimia는 큰 고비를 넘겼다. 주요 카드사 CIBC와의 재계약이 틀어져 TD로 바꾸려 하다가, 결국 TD와 CIBC가 함께 더 높은 값을 내는 3자 계약이 맺어졌다. American Express와도 재계약했다.
 
-## 왜 틀렸나
+작성자는 더 받은 돈으로 항공권에 필요한 마일을 20~50% 줄여주면 회원이 늘고, 2015년부터 잉여현금흐름(FCF, 회사가 실제로 남기는 현금)이 매년 두 자릿수로 늘 것으로 봤다. 불안 요인이 사라졌으니 주가도 FCF의 9~10배에서 15배로 오른다. 그러면 12~18개월 안에 40~50%, 잘되면 70~80% 벌 수 있고, 배당 3.6%도 받는다는 계산이었다.
 
-손실은 두 단계로 왔다. 먼저 FCF가 정체하면서 재평가 기대가 사라져 절반이 없어졌다. 단가 상승분을 회원에게 넘겨주기로 한 이상 스프레드가 커질 수 없었는데도 물량이 이를 메울 것으로 낙관한 결과다. 그다음이 Air Canada다. 분석의 치명적 맹점은 계약 만기를 시간의 문제로만 본 것이다. 물어야 할 질문은 "언제 끝나는가"가 아니라 "그날이 왔을 때 Air Canada에 이 계약을 갱신할 이유가 있는가"였다. 시장가보다 싸게 좌석을 넘겨주는 쪽이 로열티 프로그램의 이익까지 원하면 직접 운영하는 편이 낫다. 더구나 부담 목록에서 현금 기여가 가장 큰 파트너가 빠져 있었으니 나머지 네 가지가 해소된 것은 큰 의미가 없었다. Alliance Data나 American Express와의 멀티플 비교도 이 집중도를 반영하지 못했다.
+## 투자 성과
 
-## 앞으로 비슷한 아이디어를 볼 때
+C$18.75에 샀다면 **1개월 뒤 +3.8%, 3개월 뒤 +1.0%, 6개월 뒤 +3.5%, 1년 뒤 -22.2%, 2년 뒤 -48.4%, 3년 뒤 -57.7%, 5년 뒤 -79.6%, 7년 뒤 -78.9%, 10년 뒤 -84.7%**다. 5년 수익률은 배당을 포함해도 -71.6%다. 2026년 10월 23일까지는 **-86.3%**, 배당 포함 **-80.9%**다. 가장 많이 올랐을 때가 **2개월 뒤 +5%**, 가장 많이 잃었을 때가 **3년 8개월 뒤 -92%**(2017년 7월)였다.
 
-핵심 파트너와의 계약에 의존하는 회사를 볼 때는 파트너의 눈으로 내재화의 경제성을 계산한다. 계약 만기가 투자 기간 밖에 있어도 그 위험은 만기 수년 전부터 주가에 반영될 수 있다. 재계약 뒤의 FCF 인플렉션은 파트너가 준 일회성 현금을 빼고 확인한다. 위험 목록은 항목 수가 아니라 현금 기여도 순으로 정렬한다.
+## 실제로 벌어진 일
 
-## 유사 사례
+2014년 숫자는 겉으로 괜찮았다. 매출에 해당하는 Gross Billings가 환율을 빼고 9.3% 늘었고 FCF는 C$287.0m이었다. 그러나 여기에는 TD가 한 번 준 C$100m이 들어 있어 이를 빼면 약 C$187m이었다. 2015년 FCF는 C$202.3m, 2016년 회사 전망은 C$190~220m으로, 기대한 C$250m 이상과 두 자릿수 성장은 오지 않았다. 주가는 이미 2017년 5월 10일 C$8.93으로 절반 넘게 빠져 있었다.
 
-같은 회사의 앞선 글이 [Groupe Aeroplan 2011년 9월 Long](../2011/2011-09-15_AER_groupe_aeroplan_long.md)이다. 현금 엔진은 유효했지만 앵커 파트너 위험은 그때도 같았다. 큰 파트너를 잃은 다른 결말을 보려면 Costco 이탈을 다룬 [American Express 2015년 5월 Long](../2015/2015-05-11_AXP_long.md)과 [2016년 7월 Long](../2016/2016-07-05_AXP_long.md)을 읽으면 된다. American Express는 회사 전체를 지탱하는 파트너를 잃은 것이 아니었고, 이 차이가 결과를 가른 가장 큰 요인으로 보인다. 로열티 업종의 또 다른 일시적 역풍 논지는 [Alliance Data 2018년 9월 Long](../2018/2018-09-28_ADS_long.md)이다.
+2017년 5월 11일 Air Canada가 2020년 이후 계약을 연장하지 않고 자체 프로그램을 만든다고 밝혔다. 주가는 하루 만에 C$3.33으로 63% 떨어졌다. 6월에는 배당이 중단되었고 7월 C$1.45까지 내렸다. 회사는 2018년 2월 Nectar를 약 C$105m에 팔았고, 2019년 1월 Aeroplan을 Air Canada 그룹에 현금 C$450m과 약 C$1.9bn의 마일 부채를 넘기는 조건으로 팔았다.
+
+## 왜 실패했나
+
+손실은 두 번에 걸쳐 왔다. 첫 번째는 현금이 기대만큼 늘지 않아 절반을 잃은 것이다. 더 받은 돈을 회원 혜택으로 돌려주기로 했으니 남는 돈이 크게 늘기 어려웠다. 두 번째가 Air Canada였다. 작성자는 계약이 2020년까지라며 위험을 넘겼다. 물어야 할 질문은 "언제 끝나는가"가 아니라 "그때 Air Canada가 연장할 이유가 있는가"였다. Globe and Mail에 따르면 Aimia가 사는 좌석은 시장가보다 20~30% 쌌고, Air Canada는 자체 프로그램으로 C$2~2.5bn의 가치를 얻는다고 추산했다. Air Canada 입장에서는 직접 하는 편이 나았다. 해결된 불안 요인 네 가지보다 해결되지 않은 이 하나가 훨씬 컸다.
+
+## 다음에 비슷한 아이디어를 본다면
+
+한 거래처에 사업이 달린 회사를 볼 때는 거래처 입장에서 계산해 본다. 직접 하는 것이 더 이익이면 계약 만기 몇 년 전부터 위험한 것으로 본다. 현금흐름이 늘었다는 발표에서는 한 번만 들어온 돈을 먼저 뺀다. 위험은 개수보다 회사 돈벌이에서 차지하는 크기 순으로 적는다.
+
+## 비슷한 사례
+
+같은 회사의 앞선 글이 [Groupe Aeroplan 2011년 9월 매수](../2011/2011-09-15_AER_groupe_aeroplan_long.md)다. Costco라는 큰 파트너를 잃은 회사로는 [American Express 2015년 5월 매수](../2015/2015-05-11_AXP_long.md)와 [2016년 7월 매수](../2016/2016-07-05_AXP_long.md)가 있는데, American Express는 회사 전체가 그 파트너에 달린 것이 아니었고 이 차이가 결과를 가른 큰 요인으로 보인다. 포인트 업종에서 일시적 어려움이 풀린다고 봤다가 실패한 글은 [Alliance Data 2018년 9월 매수](../2018/2018-09-28_ADS_long.md)다.
 
 ## 근거 자료
 
 VIC source-DB preserved original, [Aimia reports 4Q and FY2014 results](https://newswire.ca/news-releases/aimia-reports-fourth-quarter-and-full-year-2014-results-516976411.html), [Aimia reports 4Q and FY2015 results](https://www.aimia.com/aimia-reports-fourth-quarter-and-full-year-2015-results/), [Aimia reports 1Q 2016 results](https://aimia.com/aimia-reports-first-quarter-2016-results), [Why Air Canada is abandoning Aeroplan](https://theglobeandmail.com/business/rob-magazine/article-why-air-canada-is-abandoning-aeroplanand-what-that-means-for-your), [Aimia provides update on dividends](https://www.aimia.com/aimia-provides-update-on-dividends/), [Aimia sells Nectar business to Sainsbury's](https://aimia.com/aimia-sells-nectar-business-to-sainsburys), [Air Canada completes acquisition of Aeroplan](https://stockhouse.com/news/press-releases/2019/01/10/air-canada-completes-acquisition-of-aeroplan-loyalty-business), [Aimia daily close / adjusted close (AIM.TO)](https://finance.yahoo.com/quote/AIM.TO/history/).
 
-**검색 태그:** 로열티 · 앵커 파트너 이탈 · 계약 만기 · 일회성 현금 · FCF 인플렉션 · 배당 함정 · 내재화 위험 · 동종 멀티플
+**검색 태그:** 로열티 · 항공 마일리지 · 핵심 파트너 이탈 · 계약 만기 · 일회성 현금 · 현금흐름 반등 기대 · 배당 함정 · 동종 비교
