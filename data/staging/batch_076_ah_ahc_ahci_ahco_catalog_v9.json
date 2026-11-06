@@ -1,25 +1,27 @@
 {
   "schema_version": "vic-deep-research-v9",
   "batch": 76,
-  "title": "Accretive Health / A.H. Belo / Apollo Healthcare / Allied Healthcare / AdaptHealth — Time Decay, Strategic Value and Per-Share Compounding V9",
-  "research_asof": "2026-09-18",
+  "title": "Accretive Health / A.H. Belo / Apollo Healthcare / Allied Healthcare / AdaptHealth — Accounting Credibility, Asset Monetization and Per-Share Value V9",
+  "research_asof": "2026-09-21",
   "metadata_audit": {
     "direction_corrections": 6,
     "company_mapping_corrections": 0,
-    "ticker_identity_notes": 1,
+    "ticker_identity_distinctions": 1,
     "performance_rows_available": 0,
     "performance_rows_missing": 10,
+    "duplicate_canonical_removed": 1,
     "notes": [
       "Raw Short -> actual Long corrections: A.H. Belo 2010, 2012, 2013, 2016, 2017 and Apollo Healthcare 2020.",
-      "AHC and AHC. are different companies: AHC is A.H. Belo while AHC. in 2020 is Apollo Healthcare.",
-      "No usable source-DB performance rows were found for any of the ten Batch 76 ideas.",
-      "A.H. Belo became DallasNews and completed a 1-for-4 reverse split in 2021, so the 2025 Hearst $16.50 cash takeout equals $4.125 on the pre-split share basis.",
-      "A.H. Belo 2012 and 2013 are the strongest vintages because non-core assets were monetized quickly and $3.75/share of special dividends was returned.",
-      "A.H. Belo 2016 and 2017 correctly identified hard real-estate value but underestimated print-franchise erosion and time decay.",
-      "Apollo Healthcare was acquired for C$4.50 cash/share, only modestly above the roughly C$3.9-C$4.0 implied VIC entry and far below the C$14.20 base target.",
-      "Allied Healthcare was acquired by Saga for $3.90 cash/share; the 2009 $1.20 entry generated about +225%, while the 2010 implied ~$2.49 entry generated about +57%.",
-      "AdaptHealth expanded revenue and adjusted EBITDA materially but suffered large goodwill impairments and severe per-share value destruction.",
-      "Accretive Health 2013 demonstrates that executive recruitment is weaker evidence than audited reporting, auditor sign-off and filing compliance."
+      "AHC and AHC. are different historical securities: AHC is A.H. Belo, while AHC. in the source archive is Apollo Healthcare.",
+      "No usable source-DB performance rows exist for any Batch 76 idea, so outcomes are evaluated from original thesis terms, filings, cash distributions, corporate actions and operating results.",
+      "Accretive Health 2013 failed on its near-term filing/rerating catalyst as accounting restatements led to NYSE suspension and delisting; later R1 RCM strategic value does not retroactively make the original horizon successful.",
+      "A.H. Belo 2010-2013 correctly identified monetizable newspaper, real-estate and Classified Ventures assets; 2014 special dividends totaled $3.75/share.",
+      "A.H. Belo 2016-2017 still identified real hard assets, but after the earlier major monetizations were gone, print/digital operating decay and long realization duration overwhelmed the remaining SOTP upside.",
+      "A.H. Belo executed a 1-for-4 reverse split in 2021 before becoming DallasNews; the 2025 Hearst $16.50/share takeout equals $4.125 on the old pre-split share basis.",
+      "Apollo Healthcare's operational turnaround was real, but the actual 2020-12-17 TSX close was C$5.39 and Anjac paid C$4.50 cash/share, a roughly -16.5% price outcome. The original C$14.2 = 260% upside math implicitly used a lower ~C$3.94 reference that did not match the post-date market close.",
+      "Allied Healthcare 2009 and 2010 were both successful cash-rich UK homecare longs and ended in Saga's $3.90/share cash acquisition in 2011.",
+      "AdaptHealth's 2021 revenue/EBITDA scale-up was real, but the key Luke McGee capital-allocation thesis broke almost immediately; subsequent impairment and weak per-share returns made the security thesis a strong failure.",
+      "The obsolete duplicate Apollo canonical without the '_dot_' ticker marker was removed; the wrapper now points to a single Apollo canonical."
     ]
   },
   "ideas_master": [
@@ -34,7 +36,8 @@
       "security_type": "common equity",
       "canonical_path": "analysis/ideas/2013/2013-11-13_AH_accretive_health_long.md",
       "performance_available": false,
-      "auto_tag_status_ko": "management-signal / delayed-filing Long; accounting credibility and delisting caused strong failure"
+      "corporate_action_note": "Later renamed R1 RCM; taken private in 2024 for $14.30/share after a long restructuring path.",
+      "auto_tag_status_ko": "delayed-financials/RCM-growth Long; near-term filing catalyst failed and delisting occurred, franchise later survived"
     },
     {
       "idea_id": "484c3b9f-b67a-4d6f-9d7f-0acc7ca20b32",
@@ -47,7 +50,7 @@
       "security_type": "common equity",
       "canonical_path": "analysis/ideas/2010/2010-06-25_AHC_ah_belo_long.md",
       "performance_available": false,
-      "auto_tag_status_ko": "raw Short->Long correction; newspaper hard-asset/cash Long, delayed partial success"
+      "auto_tag_status_ko": "raw Short->Long correction; cash/real-estate/newspaper asset Long, monetization worked but rerating was slower and limited"
     },
     {
       "idea_id": "d2478265-71cd-40c9-b4a5-84b330e2beeb",
@@ -60,7 +63,7 @@
       "security_type": "common equity",
       "canonical_path": "analysis/ideas/2012/2012-02-08_AHC_ah_belo_long.md",
       "performance_available": false,
-      "auto_tag_status_ko": "raw Short->Long correction; deep asset/cash/pension-adjusted Long with strong later capital return"
+      "auto_tag_status_ko": "raw Short->Long correction; deep asset/capital-return Long, asset sales and $3.75/share special dividends strongly validated thesis"
     },
     {
       "idea_id": "2466bd6c-e762-4c05-9156-85aa425c1b5c",
@@ -73,7 +76,7 @@
       "security_type": "common equity",
       "canonical_path": "analysis/ideas/2013/2013-11-20_AHC_ah_belo_long.md",
       "performance_available": false,
-      "auto_tag_status_ko": "raw Short->Long correction; asset-sale/capital-return Long with very fast catalyst realization"
+      "auto_tag_status_ko": "raw Short->Long correction; liquidation-lite asset-monetization Long, 2014 catalyst stack realized rapidly"
     },
     {
       "idea_id": "f9389e7b-b318-4fb8-a3ff-2da26837156b",
@@ -86,8 +89,7 @@
       "security_type": "common equity",
       "canonical_path": "analysis/ideas/2016/2016-01-06_AHC_ah_belo_long.md",
       "performance_available": false,
-      "corporate_action_note": "1-for-4 reverse split in 2021; Hearst acquired DallasNews in 2025 for $16.50 post-split cash, equal to $4.125 pre-split.",
-      "auto_tag_status_ko": "raw Short->Long correction; near-zero-EV hard-asset Long, partial success but core decay underestimated"
+      "auto_tag_status_ko": "raw Short->Long correction; cash/DMN/real-estate SOTP Long, hard assets existed but time and operating leakage weakened IRR"
     },
     {
       "idea_id": "e2af4a06-8c23-414f-87ec-d4f2aded33fa",
@@ -100,8 +102,7 @@
       "security_type": "common equity",
       "canonical_path": "analysis/ideas/2017/2017-01-06_AHC_ah_belo_long.md",
       "performance_available": false,
-      "corporate_action_note": "1-for-4 reverse split in 2021; Hearst acquired DallasNews in 2025 for $16.50 post-split cash.",
-      "auto_tag_status_ko": "raw Short->Long correction; hard-asset SOTP Long, real-estate value confirmed but $10-$12 target failed"
+      "auto_tag_status_ko": "raw Short->Long correction; updated cash/real-estate SOTP Long, asset realization occurred but $10-12 target and timing failed"
     },
     {
       "idea_id": "ed219443-23f0-4788-a831-f0a9fb7df986",
@@ -114,8 +115,8 @@
       "security_type": "common equity",
       "canonical_path": "analysis/ideas/2020/2020-12-17_AHC_dot_apollo_healthcare_long.md",
       "performance_available": false,
-      "corporate_action_note": "Anjac acquired Apollo Healthcare in 2022 for C$4.50 cash/share.",
-      "auto_tag_status_ko": "raw Short->Long correction; founder-led turnaround Long, operating success but valuation target failed"
+      "corporate_action_note": "Anjac acquired Apollo Healthcare in January 2022 for C$4.50 cash/share.",
+      "auto_tag_status_ko": "raw Short->Long correction; COVID-era operational-turnaround Long, strategic sale occurred but normalized EBITDA/multiple target was far too high"
     },
     {
       "idea_id": "efe938aa-4866-4174-be5e-fcb1752fd66e",
@@ -129,7 +130,7 @@
       "canonical_path": "analysis/ideas/2009/2009-02-20_AHCI_allied_healthcare_long.md",
       "performance_available": false,
       "corporate_action_note": "Saga acquired Allied Healthcare in 2011 for $3.90 cash/share.",
-      "auto_tag_status_ko": "crisis-mispriced recurring UK homecare Long; very strong strategic takeout success"
+      "auto_tag_status_ko": "cash-rich UK homecare/recurring-contract Long; $1.20 entry to $3.90 cash takeout"
     },
     {
       "idea_id": "df126509-2534-4afa-901a-a85216265393",
@@ -143,7 +144,7 @@
       "canonical_path": "analysis/ideas/2010/2010-05-12_AHCI_allied_healthcare_long.md",
       "performance_available": false,
       "corporate_action_note": "Saga acquired Allied Healthcare in 2011 for $3.90 cash/share.",
-      "auto_tag_status_ko": "cash-rich recurring-homecare follow-up Long; strong success at higher entry price"
+      "auto_tag_status_ko": "cash/FCF/recurring-homecare Long; strategic buyer crystallized value at $3.90/share"
     },
     {
       "idea_id": "30981c52-ffa8-4bc2-928a-a6cd13fad7d0",
@@ -156,111 +157,111 @@
       "security_type": "common equity",
       "canonical_path": "analysis/ideas/2021/2021-03-11_AHCO_adapthealth_long.md",
       "performance_available": false,
-      "auto_tag_status_ko": "HME roll-up / capital-allocation compounder Long; consolidated growth but severe per-share value destruction"
+      "auto_tag_status_ko": "HME roll-up/capital-allocator compounder Long; revenue grew but management break, goodwill impairment and weak per-share value made thesis a strong failure"
     }
   ],
   "meta": [
     {
       "idea_id": "833bae08-feb1-4a8c-8ca6-8c65da6aab90",
       "report_version": "V9-canonical",
-      "thesis_type_ko": "management-signal / filing-catalyst Long",
-      "one_line_verdict_ko": "새 경영진 합류 신호보다 회계·공시 리스크가 컸고 2014 NYSE suspension/delisting으로 강한 실패",
-      "thesis_score": 2.5,
+      "thesis_type_ko": "delayed-filing / RCM growth Long",
+      "one_line_verdict_ko": "$9.34 entry 뒤 financials 제출이 더 지연되고 2014 NYSE suspension/delisting; later R1 takeout is franchise validation, not original-horizon success",
+      "thesis_score": 4,
       "process_score": 9.9,
-      "key_mechanism": "audited-reporting failure overwhelmed a still-valuable underlying RCM franchise"
+      "key_mechanism": "accounting credibility and filing access overpowered the modeled operating catalyst"
     },
     {
       "idea_id": "484c3b9f-b67a-4d6f-9d7f-0acc7ca20b32",
       "report_version": "V9-canonical",
-      "thesis_type_ko": "newspaper hard-asset SOTP Long",
-      "one_line_verdict_ko": "$6.75 entry의 자산가치와 later cash returns는 현실화됐지만 $14 quick rerating은 실패",
-      "thesis_score": 7,
-      "process_score": 9.9,
-      "key_mechanism": "asset monetization eventually offset part of print erosion, but realization lag reduced IRR"
+      "thesis_type_ko": "cash/real-estate/newspaper asset Long",
+      "one_line_verdict_ko": "$6.75 entry 이후 non-core assets가 실제 현금화되고 2014 special dividends $3.75/share; 2014 YE price까지 합치면 보수적으로 약 +109%",
+      "thesis_score": 9.5,
+      "process_score": 9.8,
+      "key_mechanism": "hard-asset monetization and distributions created value despite a shrinking print franchise"
     },
     {
       "idea_id": "d2478265-71cd-40c9-b4a5-84b330e2beeb",
       "report_version": "V9-canonical",
-      "thesis_type_ko": "deep asset/cash Long",
-      "one_line_verdict_ko": "$5.82 저가진입 후 2013-14 asset sales와 $3.75 special dividends로 2-3Y 강한 성공",
-      "thesis_score": 9,
-      "process_score": 9.9,
-      "key_mechanism": "lower entry and clearer asset-sale pipeline created a wide margin of safety despite print decline"
+      "thesis_type_ko": "deep asset / capital-return Long",
+      "one_line_verdict_ko": "$5.82 entry 대비 2014 special dividends alone $3.75/share, with newspaper and Classified Ventures asset sales validating 50-100% upside thesis",
+      "thesis_score": 9.3,
+      "process_score": 9.8,
+      "key_mechanism": "visible asset sales converted appraisal value into cash distributions before the core newspaper decayed too far"
     },
     {
       "idea_id": "2466bd6c-e762-4c05-9156-85aa425c1b5c",
       "report_version": "V9-canonical",
-      "thesis_type_ko": "asset-sale/capital-return Long",
-      "one_line_verdict_ko": "글 다음 날 Press-Enterprise sale, 이후 Providence/Classified Ventures와 $3.75 special dividends로 빠른 가치실현",
-      "thesis_score": 9.8,
+      "thesis_type_ko": "liquidation-lite asset-monetization Long",
+      "one_line_verdict_ko": "~$150m market cap 대비 Providence/CV cash proceeds와 $3.75 special dividends가 2014에 집중 실현",
+      "thesis_score": 9.6,
       "process_score": 9.9,
-      "key_mechanism": "short catalyst duration allowed hard-asset value to crystallize before secular erosion dominated"
+      "key_mechanism": "near-term monetization catalysts were large relative to equity value and converted quickly into shareholder cash"
     },
     {
       "idea_id": "f9389e7b-b318-4fb8-a3ff-2da26837156b",
       "report_version": "V9-canonical",
-      "thesis_type_ko": "near-zero-EV hard-asset Long",
-      "one_line_verdict_ko": "2017 real estate $21.3m monetization과 2016 rerating은 성공했지만 long-run DMN value와 per-share target은 과대",
-      "thesis_score": 6,
+      "thesis_type_ko": "declining-company SOTP Long",
+      "one_line_verdict_ko": "HQ/real-estate value는 실현됐지만 print/digital operating value가 계속 감소해 2016 SOTP thesis와 terminal per-share value가 실패",
+      "thesis_score": 3.5,
       "process_score": 9.9,
-      "key_mechanism": "real hard assets were offset over time by print erosion and reinvestment leakage"
+      "key_mechanism": "real hard assets were offset by continuing value leakage while realization took years"
     },
     {
       "idea_id": "e2af4a06-8c23-414f-87ec-d4f2aded33fa",
       "report_version": "V9-canonical",
-      "thesis_type_ko": "hard-asset SOTP/dividend Long",
-      "one_line_verdict_ko": "자산매각은 맞았지만 2017-18 주가 하락과 split-adjusted 2025 takeout $4.125로 $10-$12 target 실패",
-      "thesis_score": 4.5,
+      "thesis_type_ko": "cash/real-estate/DMN SOTP Long",
+      "one_line_verdict_ko": "hard assets were monetized but HQ timing slipped, print economics weakened and the $10-12/share target was not realized on the stated path",
+      "thesis_score": 5,
       "process_score": 9.9,
-      "key_mechanism": "time decay of the newspaper franchise overwhelmed otherwise correct balance-sheet asset values"
+      "key_mechanism": "asset value was real, but duration and operating leakage eroded the expected equity payoff"
     },
     {
       "idea_id": "ed219443-23f0-4788-a831-f0a9fb7df986",
       "report_version": "V9-canonical",
-      "thesis_type_ko": "founder-led healthcare turnaround Long",
-      "one_line_verdict_ko": "운영 정상화는 맞았지만 implied ~C$3.94 entry가 C$4.50 takeout으로 종료돼 C$14.20 base target은 크게 실패",
-      "thesis_score": 5.5,
-      "process_score": 9.9,
-      "key_mechanism": "temporary pandemic earnings and peer multiples overstated sustainable private-market value"
+      "thesis_type_ko": "COVID-era operational-turnaround / strategic-sale Long",
+      "one_line_verdict_ko": "실제 게시일 C$5.39에서 Anjac C$4.50 cash takeout으로 약 -16.5%; turnaround는 맞았지만 normalized EBITDA와 multiple이 과대",
+      "thesis_score": 3.5,
+      "process_score": 9.8,
+      "key_mechanism": "operating repair was real, but pandemic earnings durability and peer-multiple transferability were overstated; actual strategic value fell below the post-date market price"
     },
     {
       "idea_id": "efe938aa-4866-4174-be5e-fcb1752fd66e",
       "report_version": "V9-canonical",
-      "thesis_type_ko": "crisis-mispriced recurring-care Long",
-      "one_line_verdict_ko": "$1.20 entry가 Saga $3.90 cash acquisition으로 +225%",
+      "thesis_type_ko": "UK homecare recurring-contract Long",
+      "one_line_verdict_ko": "$1.20 entry ended in Saga's $3.90 cash takeout, roughly +225% price return",
       "thesis_score": 9.8,
       "process_score": 9.8,
-      "key_mechanism": "structural homecare demand, recurring public contracts and net cash survived the macro crisis and attracted a strategic buyer"
+      "key_mechanism": "stable public-funded homecare contracts, net cash and structural homecare growth attracted a strategic buyer"
     },
     {
       "idea_id": "df126509-2534-4afa-901a-a85216265393",
       "report_version": "V9-canonical",
-      "thesis_type_ko": "cash-rich homecare follow-up Long",
-      "one_line_verdict_ko": "implied ~$2.49 entry가 같은 $3.90 cash exit로 약 +56.6%; higher entry lowered but preserved strong return",
+      "thesis_type_ko": "cash-rich homecare FCF Long",
+      "one_line_verdict_ko": "implied ~$2.49 entry to $3.90 cash acquisition, roughly +56-57%",
       "thesis_score": 9.3,
       "process_score": 9.8,
-      "key_mechanism": "recurring homecare cash flow and net cash supported strategic takeout despite a higher starting valuation"
+      "key_mechanism": "cash plus recurring contracted care revenue provided a low-risk value base that a strategic buyer crystallized"
     },
     {
       "idea_id": "30981c52-ffa8-4bc2-928a-a6cd13fad7d0",
       "report_version": "V9-canonical",
-      "thesis_type_ko": "HME acquisition compounder Long",
-      "one_line_verdict_ko": "매출·adjusted EBITDA는 성장했지만 goodwill impairments와 weak per-share economics로 ~$37→~$5.76, 약 -84%",
-      "thesis_score": 1.5,
+      "thesis_type_ko": "HME roll-up / capital-allocator compounder Long",
+      "one_line_verdict_ko": "near-term EBITDA scale-up partly matched, but Luke McGee departure, acquisition-heavy growth, impairment and stock collapse invalidated >$100/share thesis",
+      "thesis_score": 2,
       "process_score": 9.9,
-      "key_mechanism": "acquisition scale increased consolidated earnings while purchase premiums, goodwill quality, leverage and management disruption destroyed per-share value"
+      "key_mechanism": "enterprise growth was purchased through M&A without the forecast per-share value compounding"
     }
   ],
   "batch_lessons": [
-    "Executive recruitment is weaker evidence than audited financial statements, auditor sign-off and timely filings.",
-    "Melting-ice-cube SOTP requires explicit time decay: hard assets can be real while the operating franchise erodes faster.",
-    "A.H. Belo's best vintages were those in which asset sales and special dividends arrived quickly, not those with the largest static SOTP.",
-    "Reverse splits must be adjusted before comparing historical entry prices with terminal takeout prices.",
-    "Ticker punctuation can distinguish completely different issuers; AHC and AHC. must not be merged.",
-    "A successful operating turnaround does not validate an aggressive normalized-earnings multiple; Apollo's C$4.50 takeout is the strongest private-market falsifier.",
-    "The same strategic exit produces radically different returns at different entry prices, as Allied Healthcare's 2009 and 2010 vintages show.",
-    "M&A compounders should be evaluated on per-share free cash flow and acquisition ROIC, not consolidated revenue or adjusted EBITDA growth.",
-    "Large goodwill impairments are useful ex-post evidence that acquisition prices or expected synergies were too aggressive.",
-    "A structural industry tailwind cannot rescue bad capital allocation or an overvalued entry."
+    "A delayed-filing catalyst should be treated first as an accounting-credibility problem, not merely a temporary disclosure delay.",
+    "In declining businesses, hard assets can create strong returns when monetization is near-term and proceeds are actually distributed.",
+    "Static cash and real-estate SOTP values need an annual leakage charge for operating losses, pensions, corporate overhead and failed reinvestment.",
+    "A.H. Belo's 2012-2013 vintages were superior to its 2016-2017 vintages because realization was closer and liability/time leakage was smaller.",
+    "Reverse splits must be reversed when comparing old entry prices with later terminal takeout prices.",
+    "A punctuation change in a ticker can represent an entirely different company; AHC and AHC. must not be merged.",
+    "A strategic acquisition can validate a turnaround while still disproving an aggressive target multiple.",
+    "Cash-rich recurring-service businesses can be excellent strategic-sale candidates when contracts and customer demand are durable.",
+    "Roll-up revenue growth is not the same as per-share value growth; acquisition goodwill, leverage and management quality must be evaluated explicitly.",
+    "A key-person capital-allocation thesis should be reset immediately when that individual exits, even if near-term company EBITDA still meets plan."
   ]
 }

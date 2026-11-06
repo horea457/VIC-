@@ -1,0 +1,138 @@
+{
+  "schema_version": "vic-deep-research-v9",
+  "batch": 79,
+  "research_asof": "2026-11-06",
+  "boundary": "SQL ticker/date/id 정렬에서 AIFS 2021-10-28 다음 10건",
+  "ideas_master": [
+    {
+      "idea_id": "ece8d778-2eac-4b93-b47e-98b394191623",
+      "ticker": "AIG",
+      "date": "2007-04-09",
+      "author": "armand440",
+      "is_short": 1,
+      "performance_available": 1,
+      "raw_perf": {
+        "perf_1m": 1.0762304534341989,
+        "perf_3m": 1.0497901194704553,
+        "perf_6m": 1.0369297476820887,
+        "perf_1y": 0.698809908206098,
+        "perf_2y": 0.016145947691314173,
+        "perf_3y": 0.02809400802620047,
+        "perf_5y": 0.023909774436090225
+      }
+    },
+    {
+      "idea_id": "67c932a2-ae29-4069-b785-0d72b6f6baaf",
+      "ticker": "AIG",
+      "date": "2008-12-30",
+      "author": "85bears",
+      "is_short": 1,
+      "performance_available": 1,
+      "raw_perf": {
+        "perf_1m": 0.821619369218855,
+        "perf_3m": 0.6050286379199867,
+        "perf_6m": 0.847053458761002,
+        "perf_1y": 0.9744558402094479,
+        "perf_2y": 1.8320956982188275,
+        "perf_3y": 0.7389290951046257,
+        "perf_5y": 1.6342758753533058
+      }
+    },
+    {
+      "idea_id": "7d6ae6cc-07d2-4e30-a111-b7a0d57ca2eb",
+      "ticker": "AIG",
+      "date": "2011-06-19",
+      "author": "sag301",
+      "is_short": 1,
+      "performance_available": 1,
+      "raw_perf": {
+        "perf_1m": 0.9945468560731198,
+        "perf_3m": 0.8800176192049334,
+        "perf_6m": 0.8335998238079507,
+        "perf_1y": 1.1244840876555446,
+        "perf_2y": 1.6107873582204602,
+        "perf_3y": 2.001127629115736,
+        "perf_5y": 1.9814734060125536
+      }
+    },
+    {
+      "idea_id": "88862e4f-40e8-4c50-b649-df736c9c1ba7",
+      "ticker": "AIG",
+      "date": "2012-05-15",
+      "author": "cablebeach",
+      "is_short": 1,
+      "performance_available": 1,
+      "raw_perf": {
+        "perf_1m": 1.01900874020983,
+        "perf_3m": 1.0873899365969937,
+        "perf_6m": 1.0502886377272211,
+        "perf_1y": 1.497008221310545,
+        "perf_2y": 1.7473487489662551,
+        "perf_3y": 1.9467560686892929,
+        "perf_5y": 2.1434959217759326
+      }
+    },
+    {
+      "idea_id": "feda70d5-1d5a-4cdd-a440-76f5b6a0642d",
+      "ticker": "AIG",
+      "date": "2013-11-06",
+      "author": "stanley339",
+      "is_short": 1,
+      "performance_available": 1,
+      "raw_perf": {
+        "perf_1m": 1.0497171668767513,
+        "perf_3m": 1.0087818903461712,
+        "perf_6m": 1.1195581969518613,
+        "perf_1y": 1.1500734428552082,
+        "perf_2y": 1.3363213984353026,
+        "perf_3y": 1.3072125050784953,
+        "perf_5y": 1.0163840071671892
+      }
+    },
+    {
+      "idea_id": "7deb2699-f923-4372-bc62-8c823be5f058",
+      "ticker": "AIG.WS",
+      "date": "2011-09-26",
+      "author": "cuyler1903",
+      "is_short": 1,
+      "performance_available": 0,
+      "raw_perf": null
+    },
+    {
+      "idea_id": "a28a08a0-7cbc-44cb-841e-c054a96aa95a",
+      "ticker": "AIG.WS",
+      "date": "2015-02-13",
+      "author": "stanley339",
+      "is_short": 1,
+      "performance_available": 0,
+      "raw_perf": null
+    },
+    {
+      "idea_id": "94dad4ed-89af-48ae-802c-52c95de685d7",
+      "ticker": "AIG.WS",
+      "date": "2018-11-18",
+      "author": "venetian",
+      "is_short": 0,
+      "performance_available": 0,
+      "raw_perf": null
+    },
+    {
+      "idea_id": "aeb8ab25-3cf9-497e-bd0a-8147dc3a65c5",
+      "ticker": "AIG/WS",
+      "date": "2013-05-08",
+      "author": "jon64",
+      "is_short": 1,
+      "performance_available": 0,
+      "raw_perf": null
+    },
+    {
+      "idea_id": "a32cb3c8-0273-440f-8f6d-0ca9253061fb",
+      "ticker": "AIM",
+      "date": "2013-11-26",
+      "author": "Ragnar0307",
+      "is_short": 0,
+      "performance_available": 0,
+      "raw_perf": null
+    }
+  ]
+}

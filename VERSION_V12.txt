@@ -1,9 +1,9 @@
 VIC Falsification DB — V12 Canonical Batches
 
-Production overlay 아이디어: 674개 고유 idea_id
+Production overlay 아이디어: 684개 고유 idea_id
 중복 idea_id: 0
 검증된 deep payload: 65개
-Staging catalog: 10개 배치(Batch 058–062·072–076)
+Staging catalog: 12개 배치(Batch 058–062·072–078)
 정리일: 2026-09-19
 
 V12 정리
@@ -35,6 +35,11 @@ V12 정리
 - 누락된 Batch 038·042·044 wrapper 복구
 - `v2_deep`, 구형 `part/idea` 복제본, Batch 042 복구용 임시파일과 완료된 일회성 workflow 제거
 - production overlay 검증 스크립트 추가
+
+Batch 079 추가
+- AIG·AIG 워런트·Aimia 10건을 production overlay에 추가
+- raw Short→Long 7건과 AIG.WS 태그 보통주 1건 교정
+- 구조화 배열이 없는 Batch 076~078 JSON을 `data/staging/`으로 격리
 
 정본 원칙
 - 사람용 장문 정본은 `analysis/ideas/YYYY/*.md`
