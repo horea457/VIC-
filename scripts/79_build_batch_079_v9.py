@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ASOF = "2026-11-06"
 PRICE_ASOF = "2026-10-23"
 STEM = "batch_079_aig_aigws_aim"
+PROSE_PATH = ROOT / "scripts/batch_079_prose.py"
 CATALOG = ROOT / "data/curated/batch_079_source_catalog.json"
 OUTPUT = ROOT / f"data/curated/{STEM}_deep_v7.json"
 
@@ -20,6 +21,11 @@ base = importlib.util.module_from_spec(spec)
 assert spec.loader
 spec.loader.exec_module(base)
 C, S = base.C, base.S
+
+prose_spec = importlib.util.spec_from_file_location("batch79_prose", PROSE_PATH)
+prose = importlib.util.module_from_spec(prose_spec)
+assert prose_spec.loader
+prose_spec.loader.exec_module(prose)
 
 IDEAS = []
 
@@ -794,36 +800,17 @@ def idea_sources(i):
     return [S(title, i["source"], "Value Investors Club / source SQL", i["date"], note, "원문"), *i["extra_sources"]]
 
 
-def render_index():
-    rows = []
-    for n, i in enumerate(IDEAS, 1):
-        rel = i["filename"].removeprefix("analysis/")
-        rows.append(f"| {n} | {i['date']} | {i['ticker']} | {i['raw_direction']} | {i['security']} | [{i['company']}]({rel}) | {i['verdict']} |")
+def render_prose(i):
+    p_ = prose.PROSE[i["id"]]
+    links = ", ".join(
+        f"[{x['title']}]({x['url']})" if x["url"] else x["title"] for x in idea_sources(i)
+    )
     return "\n".join([
-        "# Batch 079 — AIG / AIG Warrants / Aimia V9 Index", "",
-        "> **VIC 아이디어 1건 = canonical Markdown 1개.** Research as-of 2026-11-06, 가격 기준 2026-10-23.",
-        "> **Batch boundary:** Batch 078 마지막 AIFS 2021-10-28 다음의 SQL ticker/date/id 정렬 10건.", "",
-        "## Canonical idea files", "", "| # | 게시일 | Ticker | 원 SQL | 실제 증권 / 방향 | Canonical | 판정 |", "|---:|---|---|---|---|---|---|", *rows, "",
-        "## Metadata / security / return audit", "",
-        "- raw Short→실제 Long 7건: AIG 2007·2011·2012·2013, 워런트 2011·2013·2015. AIG 2008은 raw와 실제 모두 Short다.",
-        "- 증권 교정 1건: 2018-11-18은 티커가 AIG.WS지만 원문이 $42.94 보통주를 분석한다.",
-        "- 공개 VIC URL 2건 복구: 워런트 2011·2013. 게시 시각이 SQL과 일치한다.",
-        "- SQL 성과행 보유 5건은 Yahoo 분할 조정 종가와 대조해 방향·규모가 일치했다. 나머지 5건은 Yahoo 가격으로 계산했다.",
-        "- **워런트 일별 시가 미확보.** 시가 기록은 원문 $6.43, $19뿐이다. 그 외는 내재가치 하한이며 2015 진입가 약 $23은 원문 수익률 역산값(등급 D)이다.",
-        "- 만기 계산가 약 $0.02는 `1.067 × ($42.25 − $42.2282)`다. NYSE 거래는 2021-01-13에 정지되어 실제 정산 결과는 미확인이다.",
-        "- 2011 워런트 배당은 Yahoo adjusted close에 포함되지 않는다. AIG 2008 Short의 차입비용은 미확인이다.", "",
-        "## 핵심 판정", "",
-        "1. **2007 Long은 AIGFP를 분석 범위에 넣지 않았다.** 사업부 설명에 없었고 AA 등급을 강점으로만 봤다. 2년 -98.3%.",
-        "2. **2008 Short는 7주 만에 목표를 맞혔고 2년 보유면 -88.9%였다.** 손실은 맞혔지만 정부 재조정의 기저율을 낮게 봤다.",
-        "3. **2011·2012 Long의 수익원은 정부 물량 해소와 할인 자사주였다.** 합산비율 개선은 기여하지 않았다.",
-        "4. **2013 Long은 경영진의 목표 후퇴를 노이즈로 해석했다.** $80 도달까지 10.5년이 걸렸다.",
-        "5. **워런트 3건은 2021-01-19 종가 $42.25 대 행사가 $42.2282로 끝났다.** 2013·2015 글은 2021 말 BV로 2021-01 만기 가치를 계산했다. 9.5개월 뒤 보통주는 $61.08이었다.",
-        "6. **2018 보통주는 합산비율 111.4→90.1을 맞혔다.** 다만 '잃어도 조금'과 달리 2020-03 -57%였다.",
-        "7. **Aimia는 2020 계약을 기한 밖 위험으로 처리했다.** 발표 전 이미 -52%, 발표일 -63%, 현재 -86.3%다. 같은 회사의 2011 논지는 [별도 정본](ideas/2011/2011-09-15_AIMIA_long.md)에 있다.", "",
-        "## 구조화 데이터", "",
-        f"- `data/curated/{STEM}_deep_v7.json`: 10 postmortems, 40 sections, 60 weighted claims, 50 metrics, 80 timeline events, sources.",
-        "- `data/curated/batch_079_source_catalog.json`: raw metadata·SQL 성과행. 앱에 직접 로드하지 않는다.",
-        f"- `analysis/{STEM}_10.md`: Streamlit wrapper.", "",
+        f"# {i['company']} ({i['ticker']}) — {i['date']} VIC {i['direction']}", "",
+        f"**판정: {p_['verdict']}.** 작성자 {i['author']}.", "",
+        p_["body"].strip(), "",
+        "## 근거 자료", "", links + ".", "",
+        f"**검색 태그:** {p_['tags']}", "",
     ])
 
 
@@ -847,21 +834,10 @@ def main():
     for i in IDEAS:
         path = ROOT / i["filename"]
         path.parent.mkdir(parents=True, exist_ok=True)
-        has_perf = i["id"] in PERF
-        quality = (
-            "**B** — source SQL 수익률과 Yahoo 분할 조정 종가 대조. 배당·세금은 별도 표시."
-            if has_perf else
-            "**C/D** — source SQL 성과행 없음. Yahoo 종가와 원문 기록가만 사용. 워런트 일별 시가 미확보."
-        )
-        report = base.render_report(i).replace("**B** — source SQL price-only ratios; dividends·tax 제외.", quality).replace(
-            "**REJECTED** — ticker collision으로 wrong-company 가격행을 폐기했다.", quality,
-        ).replace(
-            "- 사업·거래·자본구조: **A** — SEC·회사 1차자료 우선.",
-            "- 사업·거래·자본구조: **A/B** — SEC·회사 1차자료 우선. 일부는 2차자료와 검색 발췌로 확인했고 각 출처에 표시했다.",
-        )
-        path.write_text(report, encoding="utf-8")
+        path.write_text(render_prose(i), encoding="utf-8")
 
-    (ROOT / "analysis/batch_079_v9_index.md").write_text(render_index(), encoding="utf-8")
+    (ROOT / "analysis/batch_079_v9_index.md").write_text(prose.BATCH_INTRO, encoding="utf-8")
+    (ROOT / "analysis/SIMILAR_CASES.md").write_text(prose.SIMILAR_CASES, encoding="utf-8")
     parts = [i["filename"].removeprefix("analysis/") for i in IDEAS]
     wrapper = (
         "# Batch 079 — AIG / AIG.WS / AIM V9\n\n"
