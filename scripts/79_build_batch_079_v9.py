@@ -27,6 +27,11 @@ prose = importlib.util.module_from_spec(prose_spec)
 assert prose_spec.loader
 prose_spec.loader.exec_module(prose)
 
+cat_spec = importlib.util.spec_from_file_location("batch79_cat", ROOT / "scripts/batch_079_categories.py")
+cats = importlib.util.module_from_spec(cat_spec)
+assert cat_spec.loader
+cat_spec.loader.exec_module(cats)
+
 IDEAS = []
 
 
@@ -800,18 +805,80 @@ def idea_sources(i):
     return [S(title, i["source"], "Value Investors Club / source SQL", i["date"], note, "원문"), *i["extra_sources"]]
 
 
+def deep_body(i):
+    body = prose.PROSE[i["id"]]["body"].strip()
+    a = body.index("## 투자 아이디어")
+    b = body.index("## 투자 성과")
+    return body[:a] + "## 투자 아이디어\n\n" + cats.DEEP[i["id"]].strip() + "\n\n" + body[b:]
+
+
+def factor_section(i):
+    c = cats.CAT[i["id"]]
+    lines = ["## 성공·실패 요인 분류", ""]
+    lines.append("**성공 요인**")
+    lines.append("")
+    if c["success"]:
+        lines += [f"- {cats.SUCCESS[k][0]}: {why}" for k, why in c["success"]]
+    else:
+        lines.append("- 수익으로 이어진 뚜렷한 요인이 없다.")
+    lines += ["", "**실패 요인**", ""]
+    lines += [f"- {cats.FAILURE[k][0]}: {why}" for k, why in c["failure"]]
+    return "\n".join(lines)
+
+
+def type_line(i):
+    types = [cats.IDEA_TYPES[t][0] for t in cats.CAT[i["id"]]["types"]]
+    return f"**아이디어 유형:** {types[0]}" + (f" (보조 유형: {', '.join(types[1:])})" if types[1:] else "")
+
+
 def render_prose(i):
     p_ = prose.PROSE[i["id"]]
     links = ", ".join(
         f"[{x['title']}]({x['url']})" if x["url"] else x["title"] for x in idea_sources(i)
     )
+    body = deep_body(i)
+    marker = "## 다음에 비슷한 아이디어를 본다면"
+    assert body.count(marker) == 1, i["id"]
+    body = body.replace(marker, factor_section(i) + "\n\n" + marker)
     return "\n".join([
         f"# {i['company']} ({i['ticker']}) — {i['date']} {'공매도' if i['direction'] == 'Short' else '매수'} 아이디어", "",
         f"**판정: {p_['verdict']}.** 작성자 {i['author']}.", "",
-        p_["body"].strip(), "",
+        type_line(i), "",
+        body, "",
         "## 근거 자료", "", links + ".", "",
         f"**검색 태그:** {p_['tags']}", "",
     ])
+
+
+def short_title(i):
+    return f"{i['ticker']} {i['date'][:7]} {'공매도' if i['direction'] == 'Short' else '매수'}"
+
+
+def render_categories():
+    def link(i):
+        return f"[{short_title(i)}]({i['filename'].removeprefix('analysis/')})"
+
+    out = [
+        "# 투자 아이디어 분류", "",
+        "투자 아이디어를 유형과 성공·실패 요인으로 나눈 문서다. 현재 Batch 079의 10건에 적용했으며 기존 배치는 아직 이 기준으로 다시 분류하지 않았다. 한 아이디어가 여러 분류에 들어갈 수 있다.", "",
+        "## 아이디어 유형", "",
+    ]
+    for code, (name, desc) in cats.IDEA_TYPES.items():
+        main = [link(i) + " — " + prose.PROSE[i["id"]]["verdict"] for i in IDEAS if cats.CAT[i["id"]]["types"][0] == code]
+        sub = [link(i) for i in IDEAS if code in cats.CAT[i["id"]]["types"][1:]]
+        out += [f"### {name}", "", desc + ".", ""]
+        out += [f"- {x}" for x in main]
+        if sub:
+            out += [f"- 보조 유형: {', '.join(sub)}"]
+        out.append("")
+    for title, table, key in (("성공 요인", cats.SUCCESS, "success"), ("실패 요인", cats.FAILURE, "failure")):
+        out += [f"## {title}", ""]
+        for code, (name, desc) in table.items():
+            rows = [(i, why) for i in IDEAS for k, why in cats.CAT[i["id"]][key] if k == code]
+            out += [f"### {name} ({len(rows)}건)", "", desc, ""]
+            out += [f"- {link(i)}: {why}" for i, why in rows]
+            out.append("")
+    return "\n".join(out)
 
 
 def main():
@@ -838,6 +905,7 @@ def main():
 
     (ROOT / "analysis/batch_079_v9_index.md").write_text(prose.BATCH_INTRO, encoding="utf-8")
     (ROOT / "analysis/SIMILAR_CASES.md").write_text(prose.SIMILAR_CASES, encoding="utf-8")
+    (ROOT / "analysis/CATEGORIES.md").write_text(render_categories(), encoding="utf-8")
     parts = [i["filename"].removeprefix("analysis/") for i in IDEAS]
     wrapper = (
         "# Batch 079 — AIG / AIG.WS / AIM V9\n\n"
@@ -870,18 +938,12 @@ def main():
         "전액 시간가치 워런트를 가치투자로 부르지 않는다.",
         "앵커 파트너의 계약 만기는 파트너의 대안 경제성으로 계산한다.",
     ]
-    patterns = {
-        "aig_pre": ("franchise_quality; buyback", "scope_omission; rating_trigger; collateral_call; dilution"),
-        "aig_bailout": ("mark_estimation; catalyst_date; target_exit", "bailout_base_rate; squeeze; hold_past_catalyst"),
-        "aig_exit": ("overhang_removal; discounted_buyback; dta_recognition", "reserve_strengthening; management_target; forecast_compounding"),
-        "aig_warrant": ("underlying_rerating; option_leverage", "expiry_mismatch; time_value; bv_compounding_error"),
-        "aig_turn": ("underwriting_turnaround; buyback; adjusted_bv", "bv_safety_margin; path_risk; security_tag_error"),
-        "aimia": ("contract_renewal", "anchor_partner; one_off_fcf; contract_expiry; yield_trap"),
-    }
     by_id = {i["id"]: i for i in IDEAS}
     for row in payload["postmortems"]:
         idea = by_id[row["idea_id"]]
-        row["success_pattern_ko"], row["failure_pattern_ko"] = patterns[idea["group"]]
+        c = cats.CAT[idea["id"]]
+        row["success_pattern_ko"] = "; ".join(cats.SUCCESS[k][0] for k, _ in c["success"]) or "해당 없음"
+        row["failure_pattern_ko"] = "; ".join(cats.FAILURE[k][0] for k, _ in c["failure"]) or "해당 없음"
         row["confidence"] = 0.75 if idea["group"] == "aig_warrant" else 0.85
         row["research_status_ko"] = "1차·2차자료 검증 완료. 일부 검색 발췌(등급 B). 워런트 일별 시가 미확보." if idea["group"] == "aig_warrant" else "1차·2차자료 검증 완료. 일부 검색 발췌(등급 B)."
         if idea["direction"] == "Short":
@@ -891,6 +953,7 @@ def main():
             row["corrected_return_5y"] = 1 - perf[6]
     for row in payload["meta"]:
         row["return_summary_ko"] = by_id[row["idea_id"]]["price"]
+        row["thesis_type_ko"] = " · ".join(cats.IDEA_TYPES[t][0] for t in cats.CAT[row["idea_id"]]["types"])
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"reports={len(IDEAS)} claims={len(payload['claims'])} metrics={len(payload['metrics'])} timeline={len(payload['timeline'])} sources={len(payload['sources'])}")
 
