@@ -1,0 +1,593 @@
+﻿path,date,ticker,side,verdict,idea_type,us_state,us_dd,us_yrs_since_bear,dev_state,dev_dd,dev_yrs_since_bear
+analysis/ideas/2000/2000-05-13_AIF_T_aici_capital_trust_preferred_long.md,2000-05-13,AIF,long,,,조정 진행,-0.1177,1.59,상승 구간,-0.0823,1.59
+analysis/ideas/2000/2000-06-02_AET_long.md,2000-06-02,AET,long,,,상승 구간,-0.0767,1.65,상승 구간,-0.054,1.65
+analysis/ideas/2000/2000-06-14_AEOS_long.md,2000-06-14,AEOS,long,,,상승 구간,-0.0806,1.68,상승 구간,-0.054,1.68
+analysis/ideas/2000/2000-07-28_ODP_long.md,2000-07-28,ODP,long,,,조정 진행,-0.1093,1.8,상승 구간,-0.0948,1.8
+analysis/ideas/2000/2000-08-29_AGI_alliance_gaming_long.md,2000-08-29,AGI,long,,,상승 구간,-0.0424,1.89,상승 구간,-0.0477,1.89
+analysis/ideas/2000/2000-08-29_LVLT_long.md,2000-08-29,LVLT,long,,,상승 구간,-0.0424,1.89,상승 구간,-0.0477,1.89
+analysis/ideas/2000/2000-09-21_AGX_agribrands_long.md,2000-09-21,AGX,long,,,상승 구간,-0.078,1.95,상승 구간,-0.0925,1.95
+analysis/ideas/2000/2000-09-21_CI_long.md,2000-09-21,CI,long,,,상승 구간,-0.078,1.95,상승 구간,-0.0925,1.95
+analysis/ideas/2001/2001-01-16_CIT_long.md,2001-01-16,CIT,long,,,베어마켓 진행,-0.1701,,조정 진행,-0.1699,2.28
+analysis/ideas/2001/2001-01-16_CIT_short.md,2001-01-16,CIT,short,,,베어마켓 진행,-0.1701,,조정 진행,-0.1699,2.28
+analysis/ideas/2001/2001-03-01_LVLT_long.md,2001-03-01,LVLT,long,,,베어마켓 진행,-0.2269,,베어마켓 진행,-0.2183,
+analysis/ideas/2001/2001-04-05_CHK_long.md,2001-04-05,CHK,long,적중,,베어마켓 진행,-0.288,,베어마켓 진행,-0.2709,
+analysis/ideas/2001/2001-04-09_ADPT_roxio_spin_long.md,2001-04-09,ADPT,long,,,베어마켓 진행,-0.2965,,베어마켓 진행,-0.2763,
+analysis/ideas/2001/2001-04-29_AETH_convert_long.md,2001-04-29,AETH,long,,,베어마켓 진행,-0.2203,,베어마켓 진행,-0.2173,
+analysis/ideas/2001/2001-06-12_AETC_long.md,2001-06-12,AETC,long,,,상승 구간,-0.0429,0.19,베어마켓 진행,-0.2286,
+analysis/ideas/2001/2001-10-23_AAPL_long.md,2001-10-23,AAPL,long,적중,,베어마켓 진행,-0.1754,,베어마켓 진행,-0.3307,
+analysis/ideas/2001/2001-12-23_ADVNB_long.md,2001-12-23,ADVNB,long,,,상승 구간,-0.017,0.25,상승 구간,-0.0294,0.25
+analysis/ideas/2001/2001-12-28_NEN_long.md,2001-12-28,NEN,long,,,상승 구간,-0.0007,0.27,상승 구간,-0.0129,0.27
+analysis/ideas/2002/2002-01-18_ANTHEM_long.md,2002-01-18,ANTHEM,long,,,상승 구간,-0.0383,0.33,상승 구간,-0.0402,0.33
+analysis/ideas/2002/2002-03-09_AGU_agrium_long.md,2002-03-09,AGU,long,,,상승 구간,-0.0016,0.46,상승 구간,0.0,0.46
+analysis/ideas/2002/2002-04-07_RST_boca_resorts_long.md,2002-04-07,RST,long,,,상승 구간,-0.0363,0.54,상승 구간,-0.0258,0.54
+analysis/ideas/2002/2002-04-19_LVLT_bonds_long.md,2002-04-19,LVLT,long,,,상승 구간,-0.0282,0.57,상승 구간,-0.013,0.57
+analysis/ideas/2002/2002-06-04_PLUS_long.md,2002-06-04,PLUS,long,,,상승 구간,-0.0987,0.7,상승 구간,-0.0506,0.7
+analysis/ideas/2002/2002-07-15_EZPW_long.md,2002-07-15,EZPW,long,핵심 논지 판정,,베어마켓 진행,-0.2048,,조정 진행,-0.1449,0.81
+analysis/ideas/2002/2002-08-30_XMSR_bond_long.md,2002-08-30,XMSR,long,,,베어마켓 진행,-0.2033,,베어마켓 진행,-0.1574,
+analysis/ideas/2002/2002-10-04_AFC_allmerica_long.md,2002-10-04,AFC,long,,,베어마켓 진행,-0.2997,,베어마켓 진행,-0.2566,
+analysis/ideas/2002/2002-11-01_AGR_A_agere_systems_long.md,2002-11-01,AGR,long,,,베어마켓 진행,-0.2128,,베어마켓 진행,-0.1883,
+analysis/ideas/2002/2002-12-18_ATVI_long.md,2002-12-18,ATVI,long,사업논지 판정,,상승 구간,-0.0492,0.19,베어마켓 진행,-0.1908,
+analysis/ideas/2002/2002-12-23_AGY_argosy_gaming_long.md,2002-12-23,AGY,long,,,상승 구간,-0.0417,0.21,베어마켓 진행,-0.1849,
+analysis/ideas/2002/2002-12-23_AHS_amn_healthcare_long.md,2002-12-23,AHS,long,,,상승 구간,-0.0417,0.21,베어마켓 진행,-0.1849,
+analysis/ideas/2002/2002-12-28_NEN_long.md,2002-12-28,NEN,long,,,상승 구간,-0.0628,0.22,베어마켓 진행,-0.1936,
+analysis/ideas/2002/2002-12-31_ADVS_long.md,2002-12-31,ADVS,long,,,상승 구간,-0.0583,0.23,베어마켓 진행,-0.1867,
+analysis/ideas/2003/2003-01-13_AGCO_short.md,2003-01-13,AGCO,short,,,상승 구간,-0.0111,0.26,베어마켓 진행,-0.157,
+analysis/ideas/2003/2003-02-06_MDR_long.md,2003-02-06,MDR,long,,,조정 진행,-0.102,0.33,베어마켓 진행,-0.2187,
+analysis/ideas/2003/2003-02-28_AGA_CN_algoma_long.md,2003-02-28,AGA,long,,,상승 구간,-0.0999,0.39,베어마켓 진행,-0.2235,
+analysis/ideas/2003/2003-03-17_LVLT_bank_debt_long.md,2003-03-17,LVLT,long,,,상승 구간,-0.0771,0.44,베어마켓 진행,-0.2218,
+analysis/ideas/2003/2003-04-28_AAPL_long.md,2003-04-28,AAPL,long,적중,,상승 구간,-0.0191,0.55,베어마켓 진행,-0.1688,
+analysis/ideas/2003/2003-04-28_NFLX_short.md,2003-04-28,NFLX,short,사업논지 판정,,상승 구간,-0.0191,0.55,베어마켓 진행,-0.1688,
+analysis/ideas/2003/2003-07-31_EZPW_long.md,2003-07-31,EZPW,long,핵심 논지 판정,,상승 구간,-0.0137,0.81,상승 구간,-0.0114,0.81
+analysis/ideas/2003/2003-08-27_AEP_american_electric_power_long.md,2003-08-27,AEP,long,,,상승 구간,-0.0065,0.88,상승 구간,-0.0067,0.88
+analysis/ideas/2003/2003-10-13_MUSA_metalsusa_long.md,2003-10-13,MUSA,long,,,상승 구간,0.0,1.01,상승 구간,0.0,1.01
+analysis/ideas/2003/2003-12-06_STMP_long.md,2003-12-06,STMP,long,,,상승 구간,-0.0114,1.16,상승 구간,-0.0032,1.16
+analysis/ideas/2003/2003-12-11_AFR_long.md,2003-12-11,AFR,long,,,상승 구간,-0.0041,1.17,상승 구간,-0.0024,1.17
+analysis/ideas/2003/2003-12-30_CI_long.md,2003-12-30,CI,long,,,상승 구간,0.0,1.22,상승 구간,0.0,1.22
+analysis/ideas/2003/2003-12-31_AGL_angelica_long.md,2003-12-31,AGL,long,,,상승 구간,0.0,1.23,상승 구간,0.0,1.23
+analysis/ideas/2004/2004-01-09_AF_astoria_long.md,2004-01-09,AF,long,,,상승 구간,-0.0072,1.25,상승 구간,-0.0027,1.25
+analysis/ideas/2004/2004-03-16_AEN_long.md,2004-03-16,AEN,long,,,상승 구간,-0.0417,1.43,상승 구간,-0.0406,1.43
+analysis/ideas/2004/2004-05-17_NICK_long.md,2004-05-17,NICK,long,핵심 논지 판정,,상승 구간,-0.0678,1.6,상승 구간,-0.0821,1.6
+analysis/ideas/2004/2004-06-07_MDR_long.md,2004-06-07,MDR,long,,,상승 구간,-0.0157,1.66,상승 구간,-0.0155,1.66
+analysis/ideas/2004/2004-06-15_ADPT_ELX_pair.md,2004-06-15,ADPT,,,,상승 구간,-0.025,1.68,상승 구간,-0.0255,1.68
+analysis/ideas/2004/2004-06-24_AFCE_long.md,2004-06-24,AFCE,long,,,상승 구간,-0.017,1.71,상승 구간,-0.0125,1.71
+analysis/ideas/2004/2004-07-19_AE_ACNJF_long.md,2004-07-19,AE,long,,,상승 구간,-0.0528,1.78,상승 구간,-0.034,1.78
+analysis/ideas/2004/2004-08-03_AEC_long.md,2004-08-03,AEC,long,,,상승 구간,-0.0578,1.82,상승 구간,-0.0474,1.82
+analysis/ideas/2004/2004-10-12_AFN_UN_long.md,2004-10-12,AFN,long,,,상승 구간,-0.0282,2.01,상승 구간,-0.0119,2.01
+analysis/ideas/2004/2004-11-18_AFT_UN_long.md,2004-11-18,AFT,long,,,상승 구간,0.0,2.11,상승 구간,-0.0023,2.11
+analysis/ideas/2004/2004-12-23_PLUS_long.md,2004-12-23,PLUS,long,,,상승 구간,0.0,2.21,상승 구간,0.0,2.21
+analysis/ideas/2004/2004-12-30_LVLT_convert_pair.md,2004-12-30,LVLT,,,,상승 구간,0.0,2.23,상승 구간,0.0,2.23
+analysis/ideas/2005/2005-02-01_AEXCA_long.md,2005-02-01,AEXCA,long,,,상승 구간,-0.0202,2.32,상승 구간,-0.0131,2.32
+analysis/ideas/2005/2005-04-20_AGO_long.md,2005-04-20,AGO,long,,,상승 구간,-0.0697,2.53,상승 구간,-0.0572,2.53
+analysis/ideas/2005/2005-05-09_AGNT_argonaut_technologies_liquidation_long.md,2005-05-09,AGNT,long,,,상승 구간,-0.0369,2.58,상승 구간,-0.0387,2.58
+analysis/ideas/2005/2005-07-20_AHM_american_home_mortgage_short.md,2005-07-20,AHM,short,,,상승 구간,0.0,2.78,상승 구간,0.0,2.78
+analysis/ideas/2005/2005-10-18_AGCO_short.md,2005-10-18,AGCO,short,,,상승 구간,-0.0541,3.03,상승 구간,-0.0412,3.03
+analysis/ideas/2005/2005-11-17_S_long.md,2005-11-17,S,long,,,상승 구간,0.0,3.11,상승 구간,-0.0047,3.11
+analysis/ideas/2005/2005-11-28_ETM_long.md,2005-11-28,ETM,long,,,상승 구간,-0.01,3.14,상승 구간,-0.0025,3.14
+analysis/ideas/2005/2005-12-09_NEN_long.md,2005-12-09,NEN,long,,,상승 구간,-0.0039,3.17,상승 구간,0.0,3.17
+analysis/ideas/2005/2005-12-11_AEOS_long.md,2005-12-11,AEOS,long,,,상승 구간,-0.0039,3.17,상승 구간,0.0,3.17
+analysis/ideas/2005/2005-12-20_NXST_long.md,2005-12-20,NXST,long,사업논지 성공·가격성과 미검증,,상승 구간,-0.0119,3.2,상승 구간,-0.0067,3.2
+analysis/ideas/2005/2005-12-30_EMMS_long.md,2005-12-30,EMMS,long,,,상승 구간,-0.0176,3.23,상승 구간,-0.0072,3.23
+analysis/ideas/2006/2006-01-31_TWX_leaps_long.md,2006-01-31,TWX,long,,,상승 구간,-0.0043,3.31,상승 구간,0.0,3.31
+analysis/ideas/2006/2006-06-24_CHK_long.md,2006-06-24,CHK,long,부분 적중,,상승 구간,-0.0652,3.7,상승 구간,-0.0936,3.7
+analysis/ideas/2006/2006-09-06_COST_long.md,2006-09-06,COST,long,핵심 논지 판정,,상승 구간,-0.0265,3.91,상승 구간,-0.0366,3.91
+analysis/ideas/2006/2006-09-13_KAR_long.md,2006-09-13,KAR,long,,,상승 구간,-0.0117,3.93,상승 구간,-0.0399,3.93
+analysis/ideas/2006/2006-09-18_AF_astoria_short.md,2006-09-18,AF,short,,,상승 구간,-0.0103,3.94,상승 구간,-0.037,3.94
+analysis/ideas/2006/2006-12-09_NICK_long.md,2006-12-09,NICK,long,핵심 논지 판정,,상승 구간,-0.0031,4.16,상승 구간,-0.003,4.16
+analysis/ideas/2006/2006-12-11_ADV_CN_long.md,2006-12-11,ADV,long,,,상승 구간,-0.0011,4.17,상승 구간,0.0,4.17
+analysis/ideas/2006/2006-12-22_AET_long.md,2006-12-22,AET,long,,,상승 구간,-0.0118,4.2,상승 구간,-0.0068,4.2
+analysis/ideas/2006/2006-12-30_UNH_long.md,2006-12-30,UNH,long,,,상승 구간,-0.0065,4.22,상승 구간,-0.0013,4.22
+analysis/ideas/2006/2006-12-31_SIRI_short.md,2006-12-31,SIRI,short,,,상승 구간,-0.0065,4.22,상승 구간,-0.0013,4.22
+analysis/ideas/2007/2007-01-31_OC_long.md,2007-01-31,OC,long,,,상승 구간,0.0,4.31,상승 구간,-0.0012,4.31
+analysis/ideas/2007/2007-02-12_BCO.md,2007-02-12,BCO,,,,상승 구간,-0.0114,4.34,상승 구간,-0.0097,4.34
+analysis/ideas/2007/2007-02-27_NEN_long.md,2007-02-27,NEN,long,,,상승 구간,-0.0395,4.39,상승 구간,-0.0242,4.39
+analysis/ideas/2007/2007-03-15_AHM_american_home_mortgage_long.md,2007-03-15,AHM,long,,,상승 구간,-0.0444,4.43,상승 구간,-0.044,4.43
+analysis/ideas/2007/2007-03-22_ODP_long.md,2007-03-22,ODP,long,,,상승 구간,-0.0151,4.45,상승 구간,-0.0099,4.45
+analysis/ideas/2007/2007-04-01_AXP_long.md,2007-04-01,AXP,long,대체로 성공,,상승 구간,-0.0237,4.47,상승 구간,-0.0108,4.47
+analysis/ideas/2007/2007-04-03_AGY_L_allergy_therapeutics_long.md,2007-04-03,AGY,long,,,상승 구간,-0.012,4.48,상승 구간,-0.0022,4.48
+analysis/ideas/2007/2007-04-09_AIG_long.md,2007-04-09,AIG,long,크게 실패한 매수 아이디어.,저평가 우량주 (보조 유형: 자산가치·장부가 할인),상승 구간,-0.0069,4.5,상승 구간,-0.001,4.5
+analysis/ideas/2007/2007-04-19_NFLX_long.md,2007-04-19,NFLX,long,사업논지 판정,,상승 구간,-0.0021,4.53,상승 구간,-0.0049,4.53
+analysis/ideas/2007/2007-05-09_PLUS_long.md,2007-05-09,PLUS,long,,,상승 구간,0.0,4.58,상승 구간,-0.0019,4.58
+analysis/ideas/2007/2007-07-03_STMP_long.md,2007-07-03,STMP,long,,,상승 구간,-0.0074,4.73,상승 구간,0.0,4.73
+analysis/ideas/2007/2007-07-12_WU_long.md,2007-07-12,WU,long,부분 적중,,상승 구간,0.0,4.76,상승 구간,0.0,4.76
+analysis/ideas/2007/2007-08-06_AHRPRD_anthracite_series_d_preferred_long.md,2007-08-06,AHRPRD,long,,,상승 구간,-0.0598,4.82,상승 구간,-0.063,4.82
+analysis/ideas/2007/2007-08-20_EZPW_long.md,2007-08-20,EZPW,long,핵심 논지 판정,,상승 구간,-0.0706,4.86,상승 구간,-0.0923,4.86
+analysis/ideas/2007/2007-08-23_CIT_long.md,2007-08-23,CIT,long,,,상승 구간,-0.0597,4.87,상승 구간,-0.0724,4.87
+analysis/ideas/2007/2007-08-23_CIT_short.md,2007-08-23,CIT,short,,,상승 구간,-0.0597,4.87,상승 구간,-0.0724,4.87
+analysis/ideas/2007/2007-10-04_AGYS_long.md,2007-10-04,AGYS,long,,,상승 구간,-0.0049,4.99,상승 구간,-0.0045,4.99
+analysis/ideas/2007/2007-11-02_AEO_long.md,2007-11-02,AEO,long,,,상승 구간,-0.0333,5.07,상승 구간,-0.0187,5.07
+analysis/ideas/2007/2007-11-11_LVLT_long.md,2007-11-11,LVLT,long,,,상승 구간,-0.0679,5.08,상승 구간,-0.0454,5.08
+analysis/ideas/2007/2007-11-14_PLUS_long.md,2007-11-14,PLUS,long,,,상승 구간,-0.0574,5.1,상승 구간,-0.0429,5.1
+analysis/ideas/2007/2007-11-23_LOV_long.md,2007-11-23,LOV,long,핵심 논지 판정,,상승 구간,-0.0782,5.12,상승 구간,-0.066,5.12
+analysis/ideas/2007/2007-12-05_AFCE_long.md,2007-12-05,AFCE,long,,,상승 구간,-0.0488,5.16,상승 구간,-0.0422,5.16
+analysis/ideas/2007/2007-12-10_MHK_long.md,2007-12-10,MHK,long,,,상승 구간,-0.0276,5.17,상승 구간,-0.0242,5.17
+analysis/ideas/2007/2007-12-20_UNH_long.md,2007-12-20,UNH,long,,,상승 구간,-0.0629,5.2,상승 구간,-0.0747,5.2
+analysis/ideas/2007/2007-12-26_OC_long.md,2007-12-26,OC,long,,,상승 구간,-0.0387,5.21,상승 구간,-0.0508,5.21
+analysis/ideas/2007/2007-12-27_ODP_long.md,2007-12-27,ODP,long,,,상승 구간,-0.0529,5.22,상승 구간,-0.0524,5.22
+analysis/ideas/2007/2007-12-28_NICK_long.md,2007-12-28,NICK,long,핵심 논지 판정,,상승 구간,-0.0517,5.22,상승 구간,-0.0494,5.22
+analysis/ideas/2007/2007-12-31_AGRO3_BZ_brasilagro_long.md,2007-12-31,AGRO3,long,,,상승 구간,-0.0578,5.23,상승 구간,-0.0547,5.23
+analysis/ideas/2007/2007-12-31_AHS_amn_healthcare_long.md,2007-12-31,AHS,long,,,상승 구간,-0.0578,5.23,상승 구간,-0.0547,5.23
+analysis/ideas/2008/2008-01-18_AGO_long.md,2008-01-18,AGO,long,,,조정 진행,-0.1517,5.28,조정 진행,-0.1433,5.28
+analysis/ideas/2008/2008-03-07_STMP_long.md,2008-03-07,STMP,long,,,조정 진행,-0.1663,5.41,조정 진행,-0.1499,5.41
+analysis/ideas/2008/2008-03-20_AEPI_long.md,2008-03-20,AEPI,long,,,조정 진행,-0.1469,5.45,조정 진행,-0.1574,5.45
+analysis/ideas/2008/2008-03-26_ADPI_long.md,2008-03-26,ADPI,long,,,조정 진행,-0.136,5.46,조정 진행,-0.1276,5.46
+analysis/ideas/2008/2008-04-03_S_long.md,2008-04-03,S,long,,,조정 진행,-0.1181,5.48,조정 진행,-0.1062,5.48
+analysis/ideas/2008/2008-04-24_ABG_long.md,2008-04-24,ABG,long,,,조정 진행,-0.1066,5.54,상승 구간,-0.0981,5.54
+analysis/ideas/2008/2008-05-02_CIT_long.md,2008-05-02,CIT,long,,,상승 구간,-0.0895,5.56,상승 구간,-0.08,5.56
+analysis/ideas/2008/2008-05-11_WTW_short.md,2008-05-11,WTW,short,,,조정 진행,-0.1027,5.58,상승 구간,-0.0844,5.58
+analysis/ideas/2008/2008-06-04_AFMI_OB_long.md,2008-06-04,AFMI,long,,,조정 진행,-0.1003,5.65,상승 구간,-0.0831,5.65
+analysis/ideas/2008/2008-06-09_PLUS_eplus_long.md,2008-06-09,PLUS,long,,,조정 진행,-0.1094,5.67,상승 구간,-0.0925,5.67
+analysis/ideas/2008/2008-06-12_AXP_long.md,2008-06-12,AXP,long,성공,,조정 진행,-0.1238,5.68,조정 진행,-0.1164,5.68
+analysis/ideas/2008/2008-07-07_AEO_long.md,2008-07-07,AEO,long,,,조정 진행,-0.1846,5.74,조정 진행,-0.1673,5.74
+analysis/ideas/2008/2008-09-29_AHRPRD_anthracite_series_d_preferred_long.md,2008-09-29,AHRPRD,long,,,베어마켓 진행,-0.2659,,베어마켓 진행,-0.2881,
+analysis/ideas/2008/2008-10-12_CHK_long.md,2008-10-12,CHK,long,적중,,베어마켓 진행,-0.4069,,베어마켓 진행,-0.4459,
+analysis/ideas/2008/2008-10-28_AE_long.md,2008-10-28,AE,long,,,베어마켓 진행,-0.3894,,베어마켓 진행,-0.4595,
+analysis/ideas/2008/2008-12-03_HE_short.md,2008-12-03,HE,short,,,베어마켓 진행,-0.4285,,베어마켓 진행,-0.1402,
+analysis/ideas/2008/2008-12-12_MDR_long.md,2008-12-12,MDR,long,,,상승 구간,-0.0303,0.06,베어마켓 진행,-0.112,
+analysis/ideas/2008/2008-12-29_AFC_allied_capital_2047_notes_long.md,2008-12-29,AFC,long,,,상승 구간,-0.0424,0.11,상승 구간,-0.0364,0.11
+analysis/ideas/2008/2008-12-29_AGP_amerigroup_long.md,2008-12-29,AGP,long,,,상승 구간,-0.0424,0.11,상승 구간,-0.0364,0.11
+analysis/ideas/2008/2008-12-30_ADS_long.md,2008-12-30,ADS,long,,,상승 구간,-0.0188,0.11,상승 구간,-0.0156,0.11
+analysis/ideas/2008/2008-12-30_AIG_short.md,2008-12-30,AIG,short,"단기에는 크게 성공, 오래 들고 있었다면 실패한 공매도.",재무 훼손 공매도,상승 구간,-0.0188,0.11,상승 구간,-0.0156,0.11
+analysis/ideas/2008/2008-12-31_AXP_long.md,2008-12-31,AXP,long,성공,,상승 구간,-0.0021,0.11,상승 구간,-0.0085,0.11
+analysis/ideas/2009/2009-01-16_AET_long.md,2009-01-16,AET,long,,,상승 구간,-0.0862,0.16,상승 구간,-0.0868,0.16
+analysis/ideas/2009/2009-01-22_AGC1_american_general_finance_bonds_long.md,2009-01-22,AGC1,long,,,조정 진행,-0.113,0.17,조정 진행,-0.1209,0.17
+analysis/ideas/2009/2009-02-15_TWX_stub_long.md,2009-02-15,TWX,long,,,조정 진행,-0.108,0.23,조정 진행,-0.1163,0.23
+analysis/ideas/2009/2009-02-18_MHK_short.md,2009-02-18,MHK,short,,,조정 진행,-0.1497,0.25,조정 진행,-0.1615,0.25
+analysis/ideas/2009/2009-02-20_AHCI_allied_healthcare_long.md,2009-02-20,AHCI,long,,,조정 진행,-0.1693,0.25,조정 진행,-0.1749,0.25
+analysis/ideas/2009/2009-04-18_LOV_long.md,2009-04-18,LOV,long,핵심 논지 판정,,상승 구간,0.0,0.11,상승 구간,0.0,0.11
+analysis/ideas/2009/2009-04-27_GM_short.md,2009-04-27,GM,short,매우 성공,,상승 구간,-0.0138,0.13,상승 구간,-0.0091,0.13
+analysis/ideas/2009/2009-05-10_NICK_long.md,2009-05-10,NICK,long,핵심 논지 판정,,상승 구간,0.0,0.16,상승 구간,0.0,0.16
+analysis/ideas/2009/2009-07-13_CI_long.md,2009-07-13,CI,long,,,상승 구간,-0.0476,0.34,상승 구간,-0.0624,0.34
+analysis/ideas/2009/2009-07-28_CIT_senior_unsecured_long.md,2009-07-28,CIT,long,,,상승 구간,-0.002,0.39,상승 구간,-0.0043,0.39
+analysis/ideas/2009/2009-08-10_AGM_farmer_mac_long.md,2009-08-10,AGM,long,,,상승 구간,-0.0032,0.42,상승 구간,-0.0077,0.42
+analysis/ideas/2009/2009-08-27_AG_UN_long.md,2009-08-27,AG,long,,,상승 구간,0.0,0.47,상승 구간,0.0,0.47
+analysis/ideas/2009/2009-08-29_NEN_long.md,2009-08-29,NEN,long,,,상승 구간,-0.0019,0.47,상승 구간,0.0,0.47
+analysis/ideas/2009/2009-10-12_AEPI_long.md,2009-10-12,AEPI,long,,,상승 구간,0.0,0.59,상승 구간,0.0,0.59
+analysis/ideas/2009/2009-10-15_AES_long.md,2009-10-15,AES,long,,,상승 구간,0.0,0.6,상승 구간,0.0,0.6
+analysis/ideas/2009/2009-10-22_AI_arlington_asset_long.md,2009-10-22,AI,long,,,상승 구간,-0.0056,0.62,상승 구간,-0.0062,0.62
+analysis/ideas/2009/2009-11-08_AF_alarmforce_long.md,2009-11-08,AF,long,,,상승 구간,-0.0295,0.66,상승 구간,-0.0362,0.66
+analysis/ideas/2009/2009-11-15_CHK_short.md,2009-11-15,CHK,short,적중,,상승 구간,-0.0084,0.68,상승 구간,-0.0145,0.68
+analysis/ideas/2009/2009-11-16_AGO_long.md,2009-11-16,AGO,long,,,상승 구간,0.0,0.69,상승 구간,0.0,0.69
+analysis/ideas/2009/2009-12-24_LOV_long.md,2009-12-24,LOV,long,핵심 논지 판정,,상승 구간,0.0,0.79,상승 구간,-0.0026,0.79
+analysis/ideas/2009/2009-12-29_MIC_genworth_canada_long.md,2009-12-29,MIC,long,,,상승 구간,-0.0009,0.81,상승 구간,0.0,0.81
+analysis/ideas/2009/2009-12-31_AHGP_alliance_holdings_gp_long.md,2009-12-31,AHGP,long,,,상승 구간,-0.0111,0.81,상승 구간,-0.0062,0.81
+analysis/ideas/2009/2009-12-31_GOOG_long.md,2009-12-31,GOOG,long,적중,,상승 구간,-0.0111,0.81,상승 구간,-0.0062,0.81
+analysis/ideas/2010/2010-01-04_RST_short.md,2010-01-04,RST,short,,,상승 구간,0.0,0.82,상승 구간,0.0,0.82
+analysis/ideas/2010/2010-01-13_AFSI_short.md,2010-01-13,AFSI,short,,,상승 구간,-0.0016,0.85,상승 구간,-0.0031,0.85
+analysis/ideas/2010/2010-02-03_ADPT_long.md,2010-02-03,ADPT,long,,,상승 구간,-0.0442,0.91,상승 구간,-0.0568,0.91
+analysis/ideas/2010/2010-02-09_ATVI_long.md,2010-02-09,ATVI,long,사업논지 판정,,상승 구간,-0.0666,0.92,상승 구간,-0.0857,0.92
+analysis/ideas/2010/2010-02-22_PLUS_eplus_long.md,2010-02-22,PLUS,long,,,상승 구간,-0.0289,0.96,상승 구간,-0.0558,0.96
+analysis/ideas/2010/2010-03-10_S_short.md,2010-03-10,S,short,,,상승 구간,0.0,1.0,상승 구간,-0.0198,1.0
+analysis/ideas/2010/2010-03-11_MSG_long.md,2010-03-11,MSG,long,,,상승 구간,0.0,1.0,상승 구간,-0.0172,1.0
+analysis/ideas/2010/2010-03-12_ABG_long.md,2010-03-12,ABG,long,,,상승 구간,-0.0002,1.01,상승 구간,-0.0127,1.01
+analysis/ideas/2010/2010-04-15_ADS_short.md,2010-04-15,ADS,short,,,상승 구간,0.0,1.1,상승 구간,0.0,1.1
+analysis/ideas/2010/2010-05-09_HE_short.md,2010-05-09,HE,short,실패,,상승 구간,-0.0922,1.16,조정 진행,-0.1096,1.16
+analysis/ideas/2010/2010-05-12_AHCI_allied_healthcare_long.md,2010-05-12,AHCI,long,,,상승 구간,-0.0378,1.17,상승 구간,-0.0644,1.17
+analysis/ideas/2010/2010-05-26_AFOP_long.md,2010-05-26,AFOP,long,,,조정 진행,-0.1226,1.21,조정 진행,-0.1479,1.21
+analysis/ideas/2010/2010-06-03_MIC_long.md,2010-06-03,MIC,long,,,상승 구간,-0.092,1.23,조정 진행,-0.1164,1.23
+analysis/ideas/2010/2010-06-13_BCO.md,2010-06-13,BCO,,,,조정 진행,-0.1034,1.26,조정 진행,-0.1234,1.26
+analysis/ideas/2010/2010-06-22_MSG_long.md,2010-06-22,MSG,long,,,조정 진행,-0.1011,1.29,조정 진행,-0.1021,1.29
+analysis/ideas/2010/2010-06-25_AHC_ah_belo_long.md,2010-06-25,AHC,long,,,조정 진행,-0.1142,1.3,조정 진행,-0.1182,1.3
+analysis/ideas/2010/2010-07-19_EMMS_short.md,2010-07-19,EMMS,short,,,조정 진행,-0.1226,1.36,조정 진행,-0.113,1.36
+analysis/ideas/2010/2010-08-17_ADPT_long.md,2010-08-17,ADPT,long,,,조정 진행,-0.1035,1.44,상승 구간,-0.0872,1.44
+analysis/ideas/2010/2010-08-30_ADVNA_trust_preferred_long.md,2010-08-30,ADVNA,long,,,조정 진행,-0.1376,1.48,조정 진행,-0.1147,1.48
+analysis/ideas/2010/2010-09-02_AEY_long.md,2010-09-02,AEY,long,,,조정 진행,-0.1026,1.48,상승 구간,-0.0859,1.48
+analysis/ideas/2010/2010-09-08_NFLX_long.md,2010-09-08,NFLX,long,사업논지 판정,,상승 구간,-0.0958,1.5,상승 구간,-0.0784,1.5
+analysis/ideas/2010/2010-09-14_MA_long.md,2010-09-14,MA,long,적중,,상승 구간,-0.0765,1.52,상승 구간,-0.0522,1.52
+analysis/ideas/2010/2010-11-01_AFRISJ_secured_frn_long.md,2010-11-01,AFRISJ,long,,,상승 구간,-0.0189,1.65,상승 구간,-0.0048,1.65
+analysis/ideas/2010/2010-11-12_KAR_long.md,2010-11-12,KAR,long,,,상승 구간,-0.02,1.68,상승 구간,-0.0219,1.68
+analysis/ideas/2010/2010-12-20_SGA_long.md,2010-12-20,SGA,long,,,상승 구간,0.0,1.78,상승 구간,-0.0058,1.78
+analysis/ideas/2010/2010-12-22_MSG_long.md,2010-12-22,MSG,long,,,상승 구간,0.0,1.79,상승 구간,0.0,1.79
+analysis/ideas/2011/2011-01-17_ADUS_long.md,2011-01-17,ADUS,long,,,상승 구간,0.0,1.85,상승 구간,-0.0019,1.86
+analysis/ideas/2011/2011-02-08_CHK_long.md,2011-02-08,CHK,long,실패,,상승 구간,0.0,1.92,상승 구간,0.0,1.92
+analysis/ideas/2011/2011-02-17_GM_long.md,2011-02-17,GM,long,실패,,상승 구간,0.0,1.94,상승 구간,0.0,1.94
+analysis/ideas/2011/2011-03-25_AFCE_long.md,2011-03-25,AFCE,long,,,상승 구간,-0.0192,2.04,상승 구간,-0.0251,2.04
+analysis/ideas/2011/2011-04-15_AGO_long.md,2011-04-15,AGO,long,,,상승 구간,-0.0135,2.1,상승 구간,-0.0098,2.1
+analysis/ideas/2011/2011-04-26_NICK_long.md,2011-04-26,NICK,long,핵심 논지 판정,,상승 구간,0.0,2.13,상승 구간,0.0,2.13
+analysis/ideas/2011/2011-05-11_AHL_aspen_insurance_long.md,2011-05-11,AHL,long,,,상승 구간,-0.0158,2.17,상승 구간,-0.0238,2.17
+analysis/ideas/2011/2011-06-19_AIG_long.md,2011-06-19,AIG,long,크게 성공한 매수 아이디어.,구제금융 탈출·강제 매도 해소 (보조 유형: 자산가치·장부가 할인),상승 구간,-0.07,2.27,상승 구간,-0.0731,2.27
+analysis/ideas/2011/2011-06-30_NEN_long.md,2011-06-30,NEN,long,,,상승 구간,-0.0301,2.31,상승 구간,-0.0355,2.31
+analysis/ideas/2011/2011-07-12_AEPI_long.md,2011-07-12,AEPI,long,,,상승 구간,-0.034,2.34,상승 구간,-0.0535,2.34
+analysis/ideas/2011/2011-08-22_ATHABASCA_OIL_long.md,2011-08-22,ATHABASCA,long,,,조정 진행,-0.1836,2.45,조정 진행,-0.182,2.45
+analysis/ideas/2011/2011-08-23_RST_long.md,2011-08-23,RST,long,,,조정 진행,-0.1542,2.46,조정 진행,-0.1628,2.46
+analysis/ideas/2011/2011-09-15_AER_groupe_aeroplan_long.md,2011-09-15,AER,long,,,조정 진행,-0.1158,2.52,조정 진행,-0.1541,2.52
+analysis/ideas/2011/2011-09-15_AIMIA_long.md,2011-09-15,AIMIA,long,단기 성공·장기 논지 훼손,,조정 진행,-0.1158,2.52,조정 진행,-0.1541,2.52
+analysis/ideas/2011/2011-09-15_WU_long.md,2011-09-15,WU,long,부분 성공,,조정 진행,-0.1158,2.52,조정 진행,-0.1541,2.52
+analysis/ideas/2011/2011-09-26_AIG_WS_warrant_long.md,2011-09-26,AIG,long,"중간에 팔았다면 크게 성공, 만기까지 들고 있었다면 거의 전액 손실.",옵션형 증권 (보조 유형: 구제금융 탈출·강제 매도 해소),조정 진행,-0.153,2.55,베어마켓 진행,-0.2006,
+analysis/ideas/2011/2011-09-26_MUSA_metalsusa_long.md,2011-09-26,MUSA,long,,,조정 진행,-0.153,2.55,베어마켓 진행,-0.2006,
+analysis/ideas/2011/2011-10-04_CIT_long.md,2011-10-04,CIT,long,,,베어마켓 진행,-0.1817,,베어마켓 진행,-0.2244,
+analysis/ideas/2011/2011-10-05_AAPL_long.md,2011-10-05,AAPL,long,적중,,베어마켓 진행,-0.166,,베어마켓 진행,-0.2099,
+analysis/ideas/2011/2011-10-07_CHK_long.md,2011-10-07,CHK,long,적중,,베어마켓 진행,-0.1581,,베어마켓 진행,-0.1914,
+analysis/ideas/2011/2011-10-11_LVLT_long.md,2011-10-11,LVLT,long,,,베어마켓 진행,-0.1278,,베어마켓 진행,-0.1651,
+analysis/ideas/2011/2011-11-14_ATVI_short.md,2011-11-14,ATVI,short,사업논지 판정,,베어마켓 진행,-0.0841,,베어마켓 진행,-0.1387,
+analysis/ideas/2011/2011-11-28_NICK_long.md,2011-11-28,NICK,long,핵심 논지 판정,,베어마켓 진행,-0.1263,,베어마켓 진행,-0.1842,
+analysis/ideas/2011/2011-12-14_NXST_long.md,2011-12-14,NXST,long,강한 성공·촉매 경로 변경,,베어마켓 진행,-0.1135,,베어마켓 진행,-0.1803,
+analysis/ideas/2012/2012-01-03_AI_arlington_asset_short.md,2012-01-03,AI,short,,,베어마켓 진행,-0.065,,베어마켓 진행,-0.1333,
+analysis/ideas/2012/2012-01-05_SALM_long.md,2012-01-05,SALM,long,,,베어마켓 진행,-0.0613,,베어마켓 진행,-0.1404,
+analysis/ideas/2012/2012-01-06_GM_long.md,2012-01-06,GM,long,매우 성공,,베어마켓 진행,-0.0631,,베어마켓 진행,-0.144,
+analysis/ideas/2012/2012-01-27_MDR_long.md,2012-01-27,MDR,long,,,상승 구간,-0.0059,0.32,베어마켓 진행,-0.0976,
+analysis/ideas/2012/2012-02-08_AHC_ah_belo_long.md,2012-02-08,AHC,long,,,상승 구간,0.0,0.35,상승 구간,0.0,0.35
+analysis/ideas/2012/2012-02-08_GOOG_long.md,2012-02-08,GOOG,long,적중,,상승 구간,0.0,0.35,상승 구간,0.0,0.35
+analysis/ideas/2012/2012-02-29_AHHAP_accredited_mortgage_reit_preferred_long.md,2012-02-29,AHHAP,long,,,상승 구간,-0.0055,0.41,상승 구간,-0.006,0.41
+analysis/ideas/2012/2012-03-12_SAVE_long.md,2012-03-12,SAVE,long,성공,,상승 구간,-0.0021,0.44,상승 구간,-0.0107,0.44
+analysis/ideas/2012/2012-03-28_MIC_long.md,2012-03-28,MIC,long,,,상승 구간,-0.0082,0.48,상승 구간,-0.0079,0.48
+analysis/ideas/2012/2012-04-20_AFCE_long.md,2012-04-20,AFCE,long,,,상승 구간,-0.0295,0.55,상승 구간,-0.0309,0.55
+analysis/ideas/2012/2012-05-15_AIG_long.md,2012-05-15,AIG,long,"크게 성공한 매수 아이디어, 다만 보험 사업 개선 예상은 실패.",구제금융 탈출·강제 매도 해소 (보조 유형: 자산가치·장부가 할인),상승 구간,-0.0629,0.62,상승 구간,-0.0819,0.62
+analysis/ideas/2012/2012-05-31_NFLX_long.md,2012-05-31,NFLX,long,사업논지 판정,,상승 구간,-0.0767,0.66,조정 진행,-0.1069,0.66
+analysis/ideas/2012/2012-06-02_LOV_long.md,2012-06-02,LOV,long,핵심 논지 판정,,조정 진행,-0.1007,0.66,조정 진행,-0.1246,0.66
+analysis/ideas/2012/2012-06-05_AFH_long.md,2012-06-05,AFH,long,,,상승 구간,-0.095,0.67,조정 진행,-0.1224,0.67
+analysis/ideas/2012/2012-06-06_AH_accretive_health_long.md,2012-06-06,AH,long,,,상승 구간,-0.074,0.68,조정 진행,-0.1016,0.68
+analysis/ideas/2012/2012-06-11_AEP_anglo_eastern_plantations_long.md,2012-06-11,AEP,long,,,상승 구간,-0.0802,0.69,조정 진행,-0.1037,0.69
+analysis/ideas/2012/2012-07-15_ADES_long.md,2012-07-15,ADES,long,,,상승 구간,-0.0438,0.78,상승 구간,-0.0711,0.78
+analysis/ideas/2012/2012-08-07_AFOP_long.md,2012-08-07,AFOP,long,,,상승 구간,-0.016,0.85,상승 구간,-0.035,0.85
+analysis/ideas/2012/2012-08-26_NXST_long.md,2012-08-26,NXST,long,강한 성공·목표범위 공격적,,상승 구간,-0.0067,0.89,상승 구간,-0.0247,0.89
+analysis/ideas/2012/2012-09-23_CI_long.md,2012-09-23,CI,long,,,상승 구간,-0.0048,0.97,상승 구간,-0.0062,0.97
+analysis/ideas/2012/2012-10-05_ADT_short.md,2012-10-05,ADT,short,,,상승 구간,-0.0047,1.01,상승 구간,-0.008,1.01
+analysis/ideas/2012/2012-10-08_EMMS_long.md,2012-10-08,EMMS,long,,,상승 구간,-0.0083,1.02,상승 구간,-0.0134,1.02
+analysis/ideas/2012/2012-11-06_GPN_long.md,2012-11-06,GPN,long,적중,,상승 구간,-0.0245,1.1,상승 구간,-0.0212,1.1
+analysis/ideas/2012/2012-11-08_EZPW_long.md,2012-11-08,EZPW,long,핵심 논지 판정,,상승 구간,-0.0588,1.1,상승 구간,-0.0449,1.1
+analysis/ideas/2012/2012-11-13_WU_short.md,2012-11-13,WU,short,성공에 가까운 부분 적중,,상승 구간,-0.0611,1.11,상승 구간,-0.05,1.11
+analysis/ideas/2012/2012-11-22_AGC1_springleaf_6_90_2017_notes_long.md,2012-11-22,AGC1,long,,,상승 구간,-0.0488,1.14,상승 구간,-0.0348,1.14
+analysis/ideas/2012/2012-11-28_BCO.md,2012-11-28,BCO,,,,상승 구간,-0.0342,1.16,상승 구간,-0.0241,1.16
+analysis/ideas/2012/2012-12-12_AHGP_alliance_holdings_gp_long.md,2012-12-12,AHGP,long,,,상승 구간,-0.0199,1.19,상승 구간,-0.0014,1.19
+analysis/ideas/2012/2012-12-17_AHERN_ahern_rentals_second_lien_long.md,2012-12-17,AHERN,long,,,상승 구간,-0.0176,1.21,상승 구간,0.0,1.21
+analysis/ideas/2012/2012-12-17_MSG_long.md,2012-12-17,MSG,long,,,상승 구간,-0.0176,1.21,상승 구간,0.0,1.21
+analysis/ideas/2012/2012-12-21_ADT_long.md,2012-12-21,ADT,long,,,상승 구간,-0.0151,1.22,상승 구간,-0.008,1.22
+analysis/ideas/2013/2013-01-08_HTZ_long.md,2013-01-08,HTZ,long,단기 성공·장기 실패,,상승 구간,-0.0057,1.27,상승 구간,-0.0041,1.27
+analysis/ideas/2013/2013-01-14_SBGI_long.md,2013-01-14,SBGI,long,,,상승 구간,-0.0007,1.28,상승 구간,-0.0005,1.28
+analysis/ideas/2013/2013-01-18_AEY_long.md,2013-01-18,AEY,long,,,상승 구간,0.0,1.3,상승 구간,0.0,1.3
+analysis/ideas/2013/2013-01-23_SAVE_long.md,2013-01-23,SAVE,long,매우 성공,,상승 구간,0.0,1.31,상승 구간,-0.0005,1.31
+analysis/ideas/2013/2013-01-28_NFLX_short.md,2013-01-28,NFLX,short,사업논지 판정,,상승 구간,-0.0014,1.32,상승 구간,-0.0011,1.32
+analysis/ideas/2013/2013-02-08_MHK_short.md,2013-02-08,MHK,short,,,상승 구간,0.0,1.35,상승 구간,-0.0041,1.35
+analysis/ideas/2013/2013-02-25_GM_long.md,2013-02-25,GM,long,성공·목표 미달,,상승 구간,-0.0289,1.4,상승 구간,-0.0197,1.4
+analysis/ideas/2013/2013-02-25_SIRI_long.md,2013-02-25,SIRI,long,,,상승 구간,-0.0289,1.4,상승 구간,-0.0197,1.4
+analysis/ideas/2013/2013-03-14_OC_long.md,2013-03-14,OC,long,,,상승 구간,0.0,1.45,상승 구간,0.0,1.45
+analysis/ideas/2013/2013-03-20_GM_long.md,2013-03-20,GM,long,성공,,상승 구간,-0.0016,1.46,상승 구간,-0.0071,1.46
+analysis/ideas/2013/2013-03-21_WTW_long.md,2013-03-21,WTW,long,,,상승 구간,-0.0101,1.46,상승 구간,-0.0107,1.46
+analysis/ideas/2013/2013-03-25_RST_long.md,2013-03-25,RST,long,,,상승 구간,-0.0069,1.48,상승 구간,-0.0111,1.48
+analysis/ideas/2013/2013-04-23_AAPL_long.md,2013-04-23,AAPL,long,적중,,상승 구간,-0.0098,1.56,상승 구간,-0.0126,1.56
+analysis/ideas/2013/2013-05-08_AIG_WS_warrant_long.md,2013-05-08,AIG,long,실패한 매수 아이디어.,옵션형 증권 (보조 유형: 턴어라운드),상승 구간,0.0,1.6,상승 구간,0.0,1.6
+analysis/ideas/2013/2013-05-10_ADES_long.md,2013-05-10,ADES,long,,,상승 구간,0.0,1.6,상승 구간,-0.0034,1.6
+analysis/ideas/2013/2013-05-20_AGX_argan_long.md,2013-05-20,AGX,long,,,상승 구간,-0.0006,1.63,상승 구간,0.0,1.63
+analysis/ideas/2013/2013-05-24_NICK_long.md,2013-05-24,NICK,long,핵심 논지 판정,,상승 구간,-0.0117,1.64,상승 구간,-0.0187,1.64
+analysis/ideas/2013/2013-06-03_AGYS_long.md,2013-06-03,AGYS,long,,,상승 구간,-0.0144,1.67,상승 구간,-0.0272,1.67
+analysis/ideas/2013/2013-06-06_WU_short.md,2013-06-06,WU,short,실패,,상승 구간,-0.0248,1.68,상승 구간,-0.0368,1.68
+analysis/ideas/2013/2013-06-10_ADT_short.md,2013-06-10,ADT,short,,,상승 구간,-0.0114,1.69,상승 구간,-0.0261,1.69
+analysis/ideas/2013/2013-07-18_EMMS_long.md,2013-07-18,EMMS,long,,,상승 구간,0.0,1.79,상승 구간,0.0,1.79
+analysis/ideas/2013/2013-07-24_TWX_long.md,2013-07-24,TWX,long,,,상승 구간,-0.0054,1.81,상승 구간,-0.0024,1.81
+analysis/ideas/2013/2013-07-31_CHTR_long.md,2013-07-31,CHTR,long,적중,,상승 구간,-0.0026,1.83,상승 구간,-0.006,1.83
+analysis/ideas/2013/2013-08-19_AFSI_short.md,2013-08-19,AFSI,short,,,상승 구간,-0.0361,1.88,상승 구간,-0.0155,1.88
+analysis/ideas/2013/2013-08-29_WU_short.md,2013-08-29,WU,short,성공,,상승 구간,-0.0381,1.91,상승 구간,-0.0286,1.91
+analysis/ideas/2013/2013-09-12_CMLS_long.md,2013-09-12,CMLS,long,,,상승 구간,-0.0103,1.94,상승 구간,-0.0026,1.94
+analysis/ideas/2013/2013-09-22_AFH_long.md,2013-09-22,AFH,long,,,상승 구간,-0.0076,1.97,상승 구간,-0.0045,1.97
+analysis/ideas/2013/2013-09-27_MUSA_murphyusa_long.md,2013-09-27,MUSA,long,,,상승 구간,-0.0154,1.98,상승 구간,-0.0072,1.98
+analysis/ideas/2013/2013-09-30_WTW_long.md,2013-09-30,WTW,long,,,상승 구간,-0.0203,1.99,상승 구간,-0.0141,1.99
+analysis/ideas/2013/2013-10-02_AGL_IM_autogrill_long.md,2013-10-02,AGL,long,,,상승 구간,-0.0124,2.0,상승 구간,-0.0089,2.0
+analysis/ideas/2013/2013-10-05_LOV_long.md,2013-10-05,LOV,long,핵심 논지 판정,,상승 구간,-0.0139,2.0,상승 구간,-0.012,2.0
+analysis/ideas/2013/2013-10-14_MDR_long.md,2013-10-14,MDR,long,,,상승 구간,-0.0043,2.03,상승 구간,-0.0023,2.03
+analysis/ideas/2013/2013-11-06_AIG_long.md,2013-11-06,AIG,long,실패한 매수 아이디어.,턴어라운드 (보조 유형: 자산가치·장부가 할인),상승 구간,-0.0021,2.09,상승 구간,-0.0039,2.09
+analysis/ideas/2013/2013-11-13_AH_accretive_health_long.md,2013-11-13,AH,long,,,상승 구간,0.0,2.11,상승 구간,-0.0049,2.11
+analysis/ideas/2013/2013-11-20_AHC_ah_belo_long.md,2013-11-20,AHC,long,,,상승 구간,-0.0109,2.13,상승 구간,-0.0079,2.13
+analysis/ideas/2013/2013-11-26_AIM_aimia_long.md,2013-11-26,AIM,long,크게 실패한 매수 아이디어.,계약 갱신·성장 재평가,상승 구간,0.0,2.15,상승 구간,0.0,2.15
+analysis/ideas/2013/2013-12-09_MHK_long.md,2013-12-09,MHK,long,,,상승 구간,0.0,2.18,상승 구간,-0.0058,2.18
+analysis/ideas/2013/2013-12-09_TMUS_long.md,2013-12-09,TMUS,long,적중,,상승 구간,0.0,2.18,상승 구간,-0.0058,2.18
+analysis/ideas/2013/2013-12-26_ATHABASCA_OIL_long.md,2013-12-26,ATHABASCA,long,,,상승 구간,0.0,2.23,상승 구간,0.0,2.23
+analysis/ideas/2014/2014-01-13_MIC_long.md,2014-01-13,MIC,long,,,상승 구간,-0.015,2.28,상승 구간,-0.0046,2.28
+analysis/ideas/2014/2014-01-20_HTZ_long.md,2014-01-20,HTZ,long,실패,,상승 구간,-0.0046,2.29,상승 구간,-0.0014,2.3
+analysis/ideas/2014/2014-01-27_AER_aercap_long.md,2014-01-27,AER,long,,,상승 구간,-0.0366,2.32,상승 구간,-0.0345,2.32
+analysis/ideas/2014/2014-01-27_AER_long.md,2014-01-27,AER,long,사업 성공·기간 미달,,상승 구간,-0.0366,2.32,상승 구간,-0.0345,2.32
+analysis/ideas/2014/2014-01-28_CHTR_long.md,2014-01-28,CHTR,long,적중,,상승 구간,-0.0296,2.32,상승 구간,-0.0294,2.32
+analysis/ideas/2014/2014-02-06_AGUNF_liquidation_long.md,2014-02-06,AGUNF,long,,,상승 구간,-0.042,2.35,상승 구간,-0.0417,2.35
+analysis/ideas/2014/2014-02-07_AGK_aggreko_long.md,2014-02-07,AGK,long,,,상승 구간,-0.0293,2.35,상승 구간,-0.0298,2.35
+analysis/ideas/2014/2014-02-07_BCO.md,2014-02-07,BCO,,,,상승 구간,-0.0293,2.35,상승 구간,-0.0298,2.35
+analysis/ideas/2014/2014-02-22_WTW_short.md,2014-02-22,WTW,short,,,상승 구간,-0.0032,2.39,상승 구간,0.0,2.39
+analysis/ideas/2014/2014-02-25_WU_long.md,2014-02-25,WU,long,성공,,상승 구간,-0.001,2.4,상승 구간,0.0,2.4
+analysis/ideas/2014/2014-03-10_AF_alarmforce_long.md,2014-03-10,AF,long,,,상승 구간,-0.0009,2.43,상승 구간,-0.0054,2.43
+analysis/ideas/2014/2014-03-31_AGI_alamos_gold_long.md,2014-03-31,AGI,long,,,상승 구간,-0.0075,2.49,상승 구간,-0.0069,2.49
+analysis/ideas/2014/2014-04-05_ODP_long.md,2014-04-05,ODP,long,,,상승 구간,-0.0178,2.5,상승 구간,-0.0069,2.5
+analysis/ideas/2014/2014-04-18_GTN_long.md,2014-04-18,GTN,long,성공·중간 경로 위험,,상승 구간,-0.0203,2.54,상승 구간,-0.0129,2.54
+analysis/ideas/2014/2014-06-22_APO_long.md,2014-06-22,APO,long,적중,,상승 구간,0.0,2.71,상승 구간,0.0,2.71
+analysis/ideas/2014/2014-07-09_AEPI_long.md,2014-07-09,AEPI,long,,,상승 구간,-0.0098,2.77,상승 구간,-0.0125,2.77
+analysis/ideas/2014/2014-07-15_DFS_long.md,2014-07-15,DFS,long,,,상승 구간,-0.0121,2.78,상승 구간,-0.0173,2.78
+analysis/ideas/2014/2014-07-18_BX_long.md,2014-07-18,BX,long,적중,,상승 구간,-0.0099,2.79,상승 구간,-0.0159,2.79
+analysis/ideas/2014/2014-08-04_MSG_long.md,2014-08-04,MSG,long,,,상승 구간,-0.0289,2.84,상승 구간,-0.0351,2.84
+analysis/ideas/2014/2014-08-06_S_long.md,2014-08-06,S,long,,,상승 구간,-0.0369,2.84,상승 구간,-0.044,2.84
+analysis/ideas/2014/2014-09-12_EZPW_long.md,2014-09-12,EZPW,long,핵심 논지 판정,,상승 구간,-0.0085,2.94,상승 구간,-0.0223,2.94
+analysis/ideas/2014/2014-10-22_NICK_long.md,2014-10-22,NICK,long,핵심 논지 판정,,상승 구간,-0.0457,3.05,상승 구간,-0.074,3.05
+analysis/ideas/2014/2014-10-30_EMMS_long.md,2014-10-30,EMMS,long,,,상승 구간,-0.0113,3.07,상승 구간,-0.0514,3.07
+analysis/ideas/2014/2014-12-06_CHTR_long.md,2014-12-06,CHTR,long,적중,,상승 구간,-0.0006,3.17,상승 구간,-0.0258,3.17
+analysis/ideas/2014/2014-12-10_AGO_MBI_pair_long_short.md,2014-12-10,AGO,short,,,상승 구간,-0.0246,3.19,상승 구간,-0.0457,3.19
+analysis/ideas/2015/2015-01-03_AHH_armada_hoffler_long.md,2015-01-03,AHH,long,,,상승 구간,-0.0152,3.25,상승 구간,-0.0437,3.25
+analysis/ideas/2015/2015-01-05_ADT_short.md,2015-01-05,ADT,short,,,상승 구간,-0.0334,3.26,상승 구간,-0.0604,3.26
+analysis/ideas/2015/2015-01-06_OC_long.md,2015-01-06,OC,long,,,상승 구간,-0.0433,3.26,상승 구간,-0.0711,3.26
+analysis/ideas/2015/2015-01-16_AGN_actavis_merger_arb_long.md,2015-01-16,AGN,long,,,상승 구간,-0.0355,3.29,상승 구간,-0.0591,3.29
+analysis/ideas/2015/2015-01-27_KKR_long.md,2015-01-27,KKR,long,적중,,상승 구간,-0.0276,3.32,상승 구간,-0.0425,3.32
+analysis/ideas/2015/2015-01-28_TWX_sotp_long.md,2015-01-28,TWX,long,,,상승 구간,-0.0411,3.32,상승 구간,-0.0519,3.32
+analysis/ideas/2015/2015-01-30_AI_FP_air_liquide_long.md,2015-01-30,AI,long,,,상승 구간,-0.0444,3.33,상승 구간,-0.0563,3.33
+analysis/ideas/2015/2015-02-13_AIG_WS_warrant_long.md,2015-02-13,AIG,long,실패한 매수 아이디어.,옵션형 증권 (보조 유형: 턴어라운드),상승 구간,0.0,3.36,상승 구간,-0.0142,3.36
+analysis/ideas/2015/2015-03-07_LOV_long.md,2015-03-07,LOV,long,핵심 논지 판정,,상승 구간,-0.0197,3.42,상승 구간,-0.0181,3.42
+analysis/ideas/2015/2015-03-11_TWX_long.md,2015-03-11,TWX,long,,,상승 구간,-0.0324,3.44,상승 구간,-0.0348,3.44
+analysis/ideas/2015/2015-03-14_CMCSA_long.md,2015-03-14,CMCSA,long,적중,,상승 구간,-0.0257,3.44,상승 구간,-0.0297,3.44
+analysis/ideas/2015/2015-03-25_TSQ_long.md,2015-03-25,TSQ,long,실패,,상승 구간,-0.0228,3.47,상승 구간,-0.0114,3.47
+analysis/ideas/2015/2015-03-27_AENA_long.md,2015-03-27,AENA,long,,,상승 구간,-0.0218,3.48,상승 구간,-0.0165,3.48
+analysis/ideas/2015/2015-04-06_TMUS_long.md,2015-04-06,TMUS,long,적중,,상승 구간,-0.0114,3.51,상승 구간,-0.0064,3.51
+analysis/ideas/2015/2015-04-07_OC_long_update.md,2015-04-07,OC,,,,상승 구간,-0.0136,3.51,상승 구간,-0.0053,3.51
+analysis/ideas/2015/2015-04-13_WU_long.md,2015-04-13,WU,long,부분 적중,,상승 구간,-0.0048,3.53,상승 구간,-0.0022,3.53
+analysis/ideas/2015/2015-05-05_WTW_capital_structure_pair.md,2015-05-05,WTW,,,,상승 구간,-0.0163,3.59,상승 구간,-0.0157,3.59
+analysis/ideas/2015/2015-05-10_AGX_argan_long.md,2015-05-10,AGX,long,,,상승 구간,-0.0036,3.59,상승 구간,-0.0032,3.59
+analysis/ideas/2015/2015-05-11_AXP_long.md,2015-05-11,AXP,long,성공,,상승 구간,-0.0075,3.6,상승 구간,-0.0052,3.6
+analysis/ideas/2015/2015-05-28_TSQ_long.md,2015-05-28,TSQ,long,치명적 실패,,상승 구간,-0.0042,3.65,상승 구간,-0.0098,3.65
+analysis/ideas/2015/2015-06-01_AGRO_adecoagro_long.md,2015-06-01,AGRO,long,,,상승 구간,-0.0083,3.66,상승 구간,-0.0171,3.66
+analysis/ideas/2015/2015-07-03_ADES_long.md,2015-07-03,ADES,long,,,상승 구간,-0.0241,3.75,상승 구간,-0.0333,3.75
+analysis/ideas/2015/2015-07-24_EZPW_long.md,2015-07-24,EZPW,long,핵심 논지 판정,,상승 구간,-0.025,3.81,상승 구간,-0.0339,3.81
+analysis/ideas/2015/2015-08-10_GOOG_long.md,2015-08-10,GOOG,long,적중,,상승 구간,-0.0141,3.85,상승 구간,-0.0222,3.85
+analysis/ideas/2015/2015-08-16_SBGI_long.md,2015-08-16,SBGI,long,,,상승 구간,-0.0203,3.86,상승 구간,-0.0349,3.86
+analysis/ideas/2015/2015-10-08_ADSK_long.md,2015-10-08,ADSK,long,,,상승 구간,-0.0569,4.01,상승 구간,-0.0764,4.01
+analysis/ideas/2015/2015-10-16_AGCO_long.md,2015-10-16,AGCO,long,,,상승 구간,-0.0498,4.04,상승 구간,-0.0673,4.04
+analysis/ideas/2015/2015-10-28_SAVE_long.md,2015-10-28,SAVE,long,실패,,상승 구간,-0.0259,4.07,상승 구간,-0.0559,4.07
+analysis/ideas/2015/2015-11-06_COST_long.md,2015-11-06,COST,long,핵심 논지 판정,,상승 구간,-0.0183,4.09,상승 구간,-0.0565,4.09
+analysis/ideas/2015/2015-11-10_WTW_long.md,2015-11-10,WTW,long,,,상승 구간,-0.0264,4.1,상승 구간,-0.0629,4.1
+analysis/ideas/2015/2015-12-10_TWX_short.md,2015-12-10,TWX,short,,,상승 구간,-0.0423,4.19,상승 구간,-0.0769,4.19
+analysis/ideas/2015/2015-12-11_CHK_2017_note_long.md,2015-12-11,CHK,long,적중,,상승 구간,-0.0617,4.19,상승 구간,-0.0904,4.19
+analysis/ideas/2015/2015-12-11_SYF_long.md,2015-12-11,SYF,long,,,상승 구간,-0.0617,4.19,상승 구간,-0.0904,4.19
+analysis/ideas/2015/2015-12-28_AER_long.md,2015-12-28,AER,long,,,상승 구간,-0.041,4.24,상승 구간,-0.0739,4.24
+analysis/ideas/2016/2016-01-04_ADTN_long.md,2016-01-04,ADTN,long,,,상승 구간,-0.0621,4.25,상승 구간,-0.0938,4.25
+analysis/ideas/2016/2016-01-06_AHC_ah_belo_long.md,2016-01-06,AHC,long,,,상승 구간,-0.0734,4.26,조정 진행,-0.1058,4.26
+analysis/ideas/2016/2016-01-17_AGC_closed_end_fund_long.md,2016-01-17,AGC,long,,,조정 진행,-0.1286,4.28,조정 진행,-0.158,4.28
+analysis/ideas/2016/2016-01-22_AEO_long.md,2016-01-22,AEO,long,,,조정 진행,-0.1166,4.3,조정 진행,-0.1512,4.3
+analysis/ideas/2016/2016-01-29_NXST_MEG_pair_cvr.md,2016-01-29,NXST,,적중,,조정 진행,-0.1014,4.32,조정 진행,-0.1351,4.32
+analysis/ideas/2016/2016-01-29_NXST_pair_event.md,2016-01-29,NXST,,구조 성공·CVR 가치 과대,,조정 진행,-0.1014,4.32,조정 진행,-0.1351,4.32
+analysis/ideas/2016/2016-02-03_AGYS_long.md,2016-02-03,AGYS,long,,,조정 진행,-0.1157,4.34,조정 진행,-0.1444,4.34
+analysis/ideas/2016/2016-02-06_STMP_short.md,2016-02-06,STMP,short,,,조정 진행,-0.1316,4.34,조정 진행,-0.1546,4.34
+analysis/ideas/2016/2016-02-10_ADS_long.md,2016-02-10,ADS,long,,,조정 진행,-0.1453,4.36,조정 진행,-0.1733,4.36
+analysis/ideas/2016/2016-02-11_AERI_short.md,2016-02-11,AERI,short,,,조정 진행,-0.1553,4.36,조정 진행,-0.1847,4.36
+analysis/ideas/2016/2016-02-19_AGN_PA_pfizer_allergan_merger_arb.md,2016-02-19,AGN,,,,조정 진행,-0.112,4.38,조정 진행,-0.1454,4.38
+analysis/ideas/2016/2016-03-03_CIT_long.md,2016-03-03,CIT,long,,,상승 구간,-0.0714,4.42,조정 진행,-0.1108,4.42
+analysis/ideas/2016/2016-03-09_S_short.md,2016-03-09,S,short,,,상승 구간,-0.0732,4.43,조정 진행,-0.1113,4.43
+analysis/ideas/2016/2016-03-18_WU_short.md,2016-03-18,WU,short,부분 성공,,상승 구간,-0.0452,4.46,상승 구간,-0.0836,4.46
+analysis/ideas/2016/2016-04-06_AHGP_alliance_holdings_gp_long.md,2016-04-06,AHGP,long,,,상승 구간,-0.0354,4.51,상승 구간,-0.0877,4.51
+analysis/ideas/2016/2016-04-12_AGX_argan_long.md,2016-04-12,AGX,long,,,상승 구간,-0.0378,4.53,상승 구간,-0.0803,4.53
+analysis/ideas/2016/2016-05-09_TSQ_long.md,2016-05-09,TSQ,long,부분 성공·기간 불일치,,상승 구간,-0.0365,4.6,상승 구간,-0.0795,4.6
+analysis/ideas/2016/2016-06-03_NFLX_short.md,2016-06-03,NFLX,short,사업논지 판정,,상승 구간,-0.012,4.67,상승 구간,-0.0533,4.67
+analysis/ideas/2016/2016-06-13_CHK_2020_note_long.md,2016-06-13,CHK,long,부분 적중,,상승 구간,-0.0226,4.7,상승 구간,-0.0745,4.7
+analysis/ideas/2016/2016-06-25_DFS_long.md,2016-06-25,DFS,long,,,상승 구간,-0.0416,4.73,상승 구간,-0.0968,4.73
+analysis/ideas/2016/2016-06-27_NFLX_long.md,2016-06-27,NFLX,long,사업논지 판정,,상승 구간,-0.0614,4.73,조정 진행,-0.1173,4.73
+analysis/ideas/2016/2016-07-05_AXP_long.md,2016-07-05,AXP,long,매우 성공,,상승 구간,-0.0199,4.76,상승 구간,-0.0782,4.76
+analysis/ideas/2016/2016-07-20_MSG_long.md,2016-07-20,MSG,long,,,상승 구간,0.0,4.8,상승 구간,-0.0426,4.8
+analysis/ideas/2016/2016-07-25_AEZS_long.md,2016-07-25,AEZS,long,,,상승 구간,-0.0027,4.81,상승 구간,-0.0437,4.81
+analysis/ideas/2016/2016-08-30_AFFY_long.md,2016-08-30,AFFY,long,,,상승 구간,-0.0039,4.91,상승 구간,-0.028,4.91
+analysis/ideas/2016/2016-09-06_PYPL_long.md,2016-09-06,PYPL,long,적중,,상승 구간,0.0,4.93,상승 구간,-0.0123,4.93
+analysis/ideas/2016/2016-09-06_STMP_short.md,2016-09-06,STMP,short,,,상승 구간,0.0,4.93,상승 구간,-0.0123,4.93
+analysis/ideas/2016/2016-09-21_AFI_long.md,2016-09-21,AFI,long,,,상승 구간,-0.0095,4.97,상승 구간,-0.0222,4.97
+analysis/ideas/2016/2016-09-30_ADES_long.md,2016-09-30,ADES,long,,,상승 구간,-0.0064,4.99,상승 구간,-0.0207,4.99
+analysis/ideas/2016/2016-11-08_ADNT_long.md,2016-11-08,ADNT,long,,,상승 구간,-0.0199,5.1,상승 구간,-0.0403,5.1
+analysis/ideas/2016/2016-11-16_KKR_long.md,2016-11-16,KKR,long,적중,,상승 구간,-0.0012,5.12,상승 구간,-0.0332,5.12
+analysis/ideas/2016/2016-11-19_NICK_long.md,2016-11-19,NICK,long,핵심 논지 판정,,상승 구간,-0.0016,5.13,상승 구간,-0.0338,5.13
+analysis/ideas/2016/2016-11-25_SQ_long.md,2016-11-25,SQ,long,적중,,상승 구간,0.0,5.15,상승 구간,-0.0209,5.15
+analysis/ideas/2016/2016-12-05_AEGR_convert_long.md,2016-12-05,AEGR,long,,,상승 구간,-0.0039,5.17,상승 구간,-0.0201,5.17
+analysis/ideas/2017/2017-01-06_AHC_ah_belo_long.md,2017-01-06,AHC,long,,,상승 구간,0.0,5.26,상승 구간,-0.0024,5.26
+analysis/ideas/2017/2017-02-20_CI_long.md,2017-02-20,CI,long,,,상승 구간,0.0,5.38,상승 구간,-0.0004,5.39
+analysis/ideas/2017/2017-02-22_TWX_merger_long.md,2017-02-22,TWX,long,,,상승 구간,-0.0015,5.39,상승 구간,0.0,5.39
+analysis/ideas/2017/2017-04-06_STMP_long.md,2017-04-06,STMP,long,,,상승 구간,-0.0162,5.51,상승 구간,-0.0081,5.51
+analysis/ideas/2017/2017-04-25_SIRI_short.md,2017-04-25,SIRI,short,,,상승 구간,0.0,5.56,상승 구간,0.0,5.56
+analysis/ideas/2017/2017-05-01_AAPL_long.md,2017-05-01,AAPL,long,적중,,상승 구간,-0.0009,5.58,상승 구간,-0.0012,5.58
+analysis/ideas/2017/2017-05-02_ATHENE_short.md,2017-05-02,ATHENE,short,,,상승 구간,-0.0006,5.58,상승 구간,0.0,5.58
+analysis/ideas/2017/2017-05-02_CMCSA_long.md,2017-05-02,CMCSA,long,적중,,상승 구간,-0.0006,5.58,상승 구간,0.0,5.58
+analysis/ideas/2017/2017-05-09_SAVE_long.md,2017-05-09,SAVE,long,치명적 실패,,상승 구간,-0.0009,5.6,상승 구간,-0.0019,5.6
+analysis/ideas/2017/2017-05-11_SYF_long.md,2017-05-11,SYF,long,,,상승 구간,-0.0025,5.6,상승 구간,-0.002,5.6
+analysis/ideas/2017/2017-05-12_BCO.md,2017-05-12,BCO,,,,상승 구간,-0.0043,5.61,상승 구간,-0.0007,5.61
+analysis/ideas/2017/2017-05-12_OC_long.md,2017-05-12,OC,long,,,상승 구간,-0.0043,5.61,상승 구간,-0.0007,5.61
+analysis/ideas/2017/2017-05-19_TMUS_long.md,2017-05-19,TMUS,long,적중,,상승 구간,-0.0092,5.63,상승 구간,-0.0046,5.63
+analysis/ideas/2017/2017-05-31_ADNT_long.md,2017-05-31,ADNT,long,,,상승 구간,-0.0021,5.66,상승 구간,-0.0009,5.66
+analysis/ideas/2017/2017-05-31_HTZ_long.md,2017-05-31,HTZ,long,부분 성공 후 실패,,상승 구간,-0.0021,5.66,상승 구간,-0.0009,5.66
+analysis/ideas/2017/2017-06-09_ADVM_long.md,2017-06-09,ADVM,long,,,상승 구간,-0.0024,5.68,상승 구간,-0.006,5.68
+analysis/ideas/2017/2017-07-05_EZPW_long.md,2017-07-05,EZPW,long,핵심 논지 판정,,상승 구간,-0.0069,5.75,상승 구간,-0.0065,5.75
+analysis/ideas/2017/2017-07-14_AER_long.md,2017-07-14,AER,long,,,상승 구간,0.0,5.78,상승 구간,0.0,5.78
+analysis/ideas/2017/2017-07-14_MUSA_short.md,2017-07-14,MUSA,short,,,상승 구간,0.0,5.78,상승 구간,0.0,5.78
+analysis/ideas/2017/2017-07-19_ALLY_long.md,2017-07-19,ALLY,long,,,상승 구간,0.0,5.79,상승 구간,0.0,5.79
+analysis/ideas/2017/2017-07-21_SBGI_long.md,2017-07-21,SBGI,long,,,상승 구간,-0.0009,5.8,상승 구간,-0.0021,5.8
+analysis/ideas/2017/2017-07-29_LVLT_merger_long.md,2017-07-29,LVLT,long,,,상승 구간,-0.0037,5.82,상승 구간,-0.003,5.82
+analysis/ideas/2017/2017-08-08_ETM_long.md,2017-08-08,ETM,long,,,상승 구간,-0.0035,5.85,상승 구간,-0.0016,5.85
+analysis/ideas/2017/2017-08-12_NXST_long.md,2017-08-12,NXST,long,강한 성공,,상승 구간,-0.0179,5.86,상승 구간,-0.016,5.86
+analysis/ideas/2017/2017-08-15_APO_long.md,2017-08-15,APO,long,적중,,상승 구간,-0.0088,5.87,상승 구간,-0.0119,5.87
+analysis/ideas/2017/2017-08-31_HTZ_short.md,2017-08-31,HTZ,short,매우 성공·회수율 과신,,상승 구간,-0.0031,5.91,상승 구간,-0.0034,5.91
+analysis/ideas/2017/2017-09-10_WU_long.md,2017-09-10,WU,long,부분 성공,,상승 구간,-0.0079,5.93,상승 구간,-0.0003,5.93
+analysis/ideas/2017/2017-10-04_BABA_long.md,2017-10-04,BABA,long,사업논지 판정,,상승 구간,0.0,6.0,상승 구간,0.0,6.0
+analysis/ideas/2017/2017-10-04_MIC_long.md,2017-10-04,MIC,long,,,상승 구간,0.0,6.0,상승 구간,0.0,6.0
+analysis/ideas/2017/2017-11-01_Aeromex_long.md,2017-11-01,Aeromex,long,,,상승 구간,-0.0018,6.08,상승 구간,0.0,6.08
+analysis/ideas/2017/2017-11-02_CHTR_long.md,2017-11-02,CHTR,long,적중,,상승 구간,-0.0012,6.08,상승 구간,0.0,6.08
+analysis/ideas/2017/2017-11-03_AAPL_short.md,2017-11-03,AAPL,short,인과 실패,,상승 구간,0.0,6.09,상승 구간,0.0,6.09
+analysis/ideas/2017/2017-11-15_ATUS_long.md,2017-11-15,ATUS,long,실패 또는 부분,,상승 구간,-0.0113,6.12,상승 구간,-0.0153,6.12
+analysis/ideas/2017/2017-11-19_GM_long.md,2017-11-19,GM,long,실패,,상승 구간,-0.0027,6.12,상승 구간,-0.0075,6.12
+analysis/ideas/2017/2017-12-13_ADES_long.md,2017-12-13,ADES,long,,,상승 구간,0.0,6.2,상승 구간,0.0,6.2
+analysis/ideas/2017/2017-12-27_ADS_long.md,2017-12-27,ADS,long,,,상승 구간,-0.0014,6.23,상승 구간,0.0,6.23
+analysis/ideas/2018/2018-01-04_MDR_CBI_merger_long.md,2018-01-04,MDR,long,,,상승 구간,0.0,6.26,상승 구간,0.0,6.26
+analysis/ideas/2018/2018-01-17_AGN_allergan_long.md,2018-01-17,AGN,long,,,상승 구간,0.0,6.29,상승 구간,0.0,6.29
+analysis/ideas/2018/2018-02-01_KKR_long.md,2018-02-01,KKR,long,적중,,상승 구간,-0.0167,6.33,상승 구간,-0.014,6.33
+analysis/ideas/2018/2018-02-06_ADT_long.md,2018-02-06,ADT,long,,,상승 구간,-0.0607,6.35,상승 구간,-0.0652,6.35
+analysis/ideas/2018/2018-02-27_TSQ_long.md,2018-02-27,TSQ,long,성공·1년 지연,,상승 구간,-0.0406,6.4,상승 구간,-0.0446,6.4
+analysis/ideas/2018/2018-03-21_AEY_long.md,2018-03-21,AEY,long,,,상승 구간,-0.0448,6.46,상승 구간,-0.0507,6.46
+analysis/ideas/2018/2018-04-17_SAVE_long.md,2018-04-17,SAVE,long,실패,,상승 구간,-0.0465,6.54,상승 구간,-0.0458,6.54
+analysis/ideas/2018/2018-04-23_NXST_long.md,2018-04-23,NXST,long,강한 성공·직접 촉매 실패,,상승 구간,-0.0577,6.55,상승 구간,-0.0538,6.55
+analysis/ideas/2018/2018-05-17_BCO.md,2018-05-17,BCO,,,,상승 구간,-0.0367,6.62,상승 구간,-0.0382,6.62
+analysis/ideas/2018/2018-05-19_GM_long.md,2018-05-19,GM,long,성공·경로위험,,상승 구간,-0.0388,6.62,상승 구간,-0.0399,6.62
+analysis/ideas/2018/2018-05-22_ADNT_long.md,2018-05-22,ADNT,long,,,상승 구간,-0.0357,6.63,상승 구간,-0.0362,6.63
+analysis/ideas/2018/2018-06-13_ADVC_long.md,2018-06-13,ADVC,long,,,상승 구간,-0.0127,6.69,상승 구간,-0.0292,6.69
+analysis/ideas/2018/2018-06-14_AXP_short.md,2018-06-14,AXP,short,완전 실패,,상승 구간,-0.0098,6.7,상승 구간,-0.0311,6.7
+analysis/ideas/2018/2018-06-14_CMCSA_long.md,2018-06-14,CMCSA,long,적중,,상승 구간,-0.0098,6.7,상승 구간,-0.0311,6.7
+analysis/ideas/2018/2018-06-21_AER_long.md,2018-06-21,AER,long,,,상승 구간,-0.0196,6.72,상승 구간,-0.046,6.72
+analysis/ideas/2018/2018-06-27_MUSA_short.md,2018-06-27,MUSA,short,,,상승 구간,-0.04,6.73,상승 구간,-0.0603,6.73
+analysis/ideas/2018/2018-07-02_SQ_short.md,2018-07-02,SQ,short,실패,,상승 구간,-0.0301,6.75,상승 구간,-0.058,6.75
+analysis/ideas/2018/2018-07-16_T_long.md,2018-07-16,T,long,,,상승 구간,-0.0046,6.78,상승 구간,-0.0365,6.78
+analysis/ideas/2018/2018-07-23_ETM_short.md,2018-07-23,ETM,short,,,상승 구간,-0.0025,6.8,상승 구간,-0.0332,6.8
+analysis/ideas/2018/2018-08-01_KAR_long.md,2018-08-01,KAR,long,,,상승 구간,-0.013,6.83,상승 구간,-0.0296,6.83
+analysis/ideas/2018/2018-08-03_GTN_long.md,2018-08-03,GTN,long,성공·레버리지 경고,,상승 구간,-0.0031,6.83,상승 구간,-0.0289,6.83
+analysis/ideas/2018/2018-08-03_MHK_long.md,2018-08-03,MHK,long,,,상승 구간,-0.0031,6.83,상승 구간,-0.0289,6.83
+analysis/ideas/2018/2018-08-06_CHTR_long.md,2018-08-06,CHTR,long,적중,,상승 구간,0.0,6.84,상승 구간,-0.0275,6.84
+analysis/ideas/2018/2018-08-09_SBGI_short.md,2018-08-09,SBGI,short,,,상승 구간,-0.0007,6.85,상승 구간,-0.0245,6.85
+analysis/ideas/2018/2018-08-13_ODP_long.md,2018-08-13,ODP,long,,,상승 구간,-0.0111,6.86,상승 구간,-0.0403,6.86
+analysis/ideas/2018/2018-08-21_LOV_long.md,2018-08-21,LOV,long,핵심 논지 판정,,상승 구간,0.0,6.88,상승 구간,-0.0274,6.88
+analysis/ideas/2018/2018-09-04_HTZ_long.md,2018-09-04,HTZ,long,치명적 실패,,상승 구간,-0.0041,6.92,상승 구간,-0.0221,6.92
+analysis/ideas/2018/2018-09-07_TMUS_long.md,2018-09-07,TMUS,long,적중,,상승 구간,-0.014,6.93,상승 구간,-0.0351,6.93
+analysis/ideas/2018/2018-09-08_RST_long.md,2018-09-08,RST,long,,,상승 구간,-0.014,6.93,상승 구간,-0.0351,6.93
+analysis/ideas/2018/2018-09-09_ATHENE_long.md,2018-09-09,ATHENE,long,,,상승 구간,-0.014,6.93,상승 구간,-0.0351,6.93
+analysis/ideas/2018/2018-09-09_ATHENE_short.md,2018-09-09,ATHENE,short,,,상승 구간,-0.014,6.93,상승 구간,-0.0351,6.93
+analysis/ideas/2018/2018-09-28_ADS_long.md,2018-09-28,ADS,long,,,상승 구간,-0.0059,6.99,상승 구간,-0.0125,6.99
+analysis/ideas/2018/2018-11-11_MDR_2024_notes_long.md,2018-11-11,MDR,long,,,상승 구간,-0.056,7.1,상승 구간,-0.0721,7.1
+analysis/ideas/2018/2018-11-14_EZPW_long.md,2018-11-14,EZPW,long,핵심 논지 판정,,상승 구간,-0.0836,7.12,상승 구간,-0.0924,7.12
+analysis/ideas/2018/2018-11-18_AGI_alamos_gold_long.md,2018-11-18,AGI,long,,,상승 구간,-0.0712,7.12,상승 구간,-0.0849,7.12
+analysis/ideas/2018/2018-11-18_AIG_common_long.md,2018-11-18,AIG,long,"크게 성공한 매수 아이디어, 다만 중간에 -57%를 겪음.",턴어라운드 (보조 유형: 자산가치·장부가 할인),상승 구간,-0.0712,7.12,상승 구간,-0.0849,7.12
+analysis/ideas/2018/2018-11-20_MSG_long.md,2018-11-20,MSG,long,,,조정 진행,-0.1054,7.13,조정 진행,-0.1107,7.13
+analysis/ideas/2018/2018-11-30_ADSK_long.md,2018-11-30,ADSK,long,,,상승 구간,-0.0623,7.16,상승 구간,-0.0809,7.16
+analysis/ideas/2018/2018-12-11_WTW_long.md,2018-12-11,WTW,long,,,조정 진행,-0.1068,7.19,조정 진행,-0.1216,7.19
+analysis/ideas/2018/2018-12-12_OC_long.md,2018-12-12,OC,long,,,조정 진행,-0.1007,7.19,조정 진행,-0.111,7.19
+analysis/ideas/2018/2018-12-27_ALLY_long.md,2018-12-27,ALLY,long,,,베어마켓 진행,-0.1574,,조정 진행,-0.1611,7.23
+analysis/ideas/2019/2019-01-09_AIF_altus_group_long.md,2019-01-09,AIF,long,,,베어마켓 진행,-0.1175,,조정 진행,-0.1156,7.27
+analysis/ideas/2019/2019-01-15_NEN_long.md,2019-01-15,NEN,long,,,베어마켓 진행,-0.1097,,조정 진행,-0.1128,7.29
+analysis/ideas/2019/2019-02-06_AER_long.md,2019-02-06,AER,long,,,베어마켓 진행,-0.0665,,상승 구간,-0.0758,7.35
+analysis/ideas/2019/2019-02-11_BABA_short.md,2019-02-11,BABA,short,사업논지 판정,,베어마켓 진행,-0.0727,,상승 구간,-0.087,7.36
+analysis/ideas/2019/2019-02-22_BABA_long.md,2019-02-22,BABA,long,사업논지 판정,,상승 구간,0.0,0.16,상승 구간,-0.0551,7.39
+analysis/ideas/2019/2019-03-04_KAR_long.md,2019-03-04,KAR,long,,,상승 구간,-0.0051,0.19,상승 구간,-0.0517,7.42
+analysis/ideas/2019/2019-03-11_TSQ_long.md,2019-03-11,TSQ,long,매우 성공,,상승 구간,-0.0103,0.21,상승 구간,-0.0606,7.44
+analysis/ideas/2019/2019-03-12_ADYEN_NA_long.md,2019-03-12,ADYEN,long,,,상승 구간,-0.0078,0.21,상승 구간,-0.057,7.44
+analysis/ideas/2019/2019-03-26_ATVI_short.md,2019-03-26,ATVI,short,사업논지 판정,,상승 구간,-0.0145,0.25,상승 구간,-0.0498,7.48
+analysis/ideas/2019/2019-03-28_CI_long.md,2019-03-28,CI,long,,,상승 구간,-0.0153,0.26,상승 구간,-0.0521,7.48
+analysis/ideas/2019/2019-03-31_ATHENE_long.md,2019-03-31,ATHENE,long,,,상승 구간,-0.0087,0.26,상승 구간,-0.0461,7.49
+analysis/ideas/2019/2019-03-31_ATHENE_short.md,2019-03-31,ATHENE,short,,,상승 구간,-0.0087,0.26,상승 구간,-0.0461,7.49
+analysis/ideas/2019/2019-04-22_ODP_long.md,2019-04-22,ODP,long,,,상승 구간,-0.0007,0.33,상승 구간,-0.0191,7.55
+analysis/ideas/2019/2019-05-01_ATVI_long.md,2019-05-01,ATVI,long,사업논지 판정,,상승 구간,-0.0085,0.35,상승 구간,-0.0162,7.58
+analysis/ideas/2019/2019-05-08_ATUS_long.md,2019-05-08,ATUS,long,실패 또는 부분,,상승 구간,-0.0225,0.37,상승 구간,-0.0314,7.59
+analysis/ideas/2019/2019-05-09_ADNT_short.md,2019-05-09,ADNT,short,,,상승 구간,-0.0251,0.37,상승 구간,-0.0375,7.6
+analysis/ideas/2019/2019-05-14_HTZ_short.md,2019-05-14,HTZ,short,매우 성공,,상승 구간,-0.0387,0.39,상승 구간,-0.0468,7.61
+analysis/ideas/2019/2019-05-29_AGS_playags_long.md,2019-05-29,AGS,long,,,상승 구간,-0.0571,0.43,상승 구간,-0.0606,7.65
+analysis/ideas/2019/2019-06-19_SQ_long.md,2019-06-19,SQ,long,적중,,상승 구간,-0.0076,0.48,상승 구간,-0.0173,7.71
+analysis/ideas/2019/2019-06-24_STMP_long.md,2019-06-24,STMP,long,,,상승 구간,-0.0054,0.5,상승 구간,-0.0107,7.72
+analysis/ideas/2019/2019-06-27_AGRO_adecoagro_long.md,2019-06-27,AGRO,long,,,상승 구간,-0.0097,0.51,상승 구간,-0.0139,7.73
+analysis/ideas/2019/2019-07-11_EZPW_long.md,2019-07-11,EZPW,long,핵심 논지 판정,,상승 구간,0.0,0.54,상승 구간,-0.0059,7.77
+analysis/ideas/2019/2019-07-11_GTN_long.md,2019-07-11,GTN,long,사업논지 성공·보통주 실패,,상승 구간,0.0,0.54,상승 구간,-0.0059,7.77
+analysis/ideas/2019/2019-08-03_ADS_long.md,2019-08-03,ADS,long,,,상승 구간,-0.0341,0.61,상승 구간,-0.0309,7.83
+analysis/ideas/2019/2019-08-06_SALM_long.md,2019-08-06,SALM,long,,,상승 구간,-0.0514,0.62,상승 구간,-0.0498,7.84
+analysis/ideas/2019/2019-08-07_AGX_argan_long.md,2019-08-07,AGX,long,,,상승 구간,-0.0507,0.62,상승 구간,-0.0482,7.84
+analysis/ideas/2019/2019-08-24_SGA_long.md,2019-08-24,SGA,long,,,상승 구간,-0.0641,0.66,상승 구간,-0.0552,7.89
+analysis/ideas/2019/2019-08-26_ADYYF_US_long.md,2019-08-26,ADYYF,long,,,상승 구간,-0.0539,0.67,상승 구간,-0.0533,7.9
+analysis/ideas/2019/2019-08-26_PLUS500_long.md,2019-08-26,PLUS500,long,,,상승 구간,-0.0539,0.67,상승 구간,-0.0533,7.9
+analysis/ideas/2019/2019-09-09_NFLX_long.md,2019-09-09,NFLX,long,사업논지 판정,,상승 구간,-0.0217,0.71,상승 구간,-0.02,7.93
+analysis/ideas/2019/2019-10-16_AGN_abbvie_merger_arb_long.md,2019-10-16,AGN,long,,,상승 구간,-0.0176,0.81,상승 구간,-0.0091,8.04
+analysis/ideas/2019/2019-10-16_RST_long.md,2019-10-16,RST,long,,,상승 구간,-0.0176,0.81,상승 구간,-0.0091,8.04
+analysis/ideas/2019/2019-11-01_MIC_strategic_alternatives_long.md,2019-11-01,MIC,long,,,상승 구간,0.0,0.85,상승 구간,0.0,8.08
+analysis/ideas/2019/2019-11-18_AGUNF_final_distribution_long.md,2019-11-18,AGUNF,long,,,상승 구간,0.0,0.9,상승 구간,0.0,8.13
+analysis/ideas/2019/2019-11-20_KAR_long.md,2019-11-20,KAR,long,,,상승 구간,-0.0032,0.91,상승 구간,-0.0036,8.13
+analysis/ideas/2019/2019-12-09_RST_long.md,2019-12-09,RST,long,,,상승 구간,-0.0058,0.96,상승 구간,-0.0022,8.18
+analysis/ideas/2019/2019-12-30_AGIS_IN_aegis_logistics_long.md,2019-12-30,AGIS,long,,,상승 구간,-0.0064,1.02,상승 구간,-0.0044,8.24
+analysis/ideas/2020/2020-01-02_MUSA_short.md,2020-01-02,MUSA,short,,,상승 구간,0.0,1.02,상승 구간,0.0,8.25
+analysis/ideas/2020/2020-01-27_ADRO_long.md,2020-01-27,ADRO,long,,,상승 구간,-0.0262,1.09,상승 구간,-0.0258,8.32
+analysis/ideas/2020/2020-01-28_AEP_atlas_engineered_products_long.md,2020-01-28,AEP,long,,,상승 구간,-0.0162,1.1,상승 구간,-0.0192,8.32
+analysis/ideas/2020/2020-01-29_T_short.md,2020-01-29,T,short,,,상승 구간,-0.0171,1.1,상승 구간,-0.0194,8.32
+analysis/ideas/2020/2020-02-05_Diamond_Sports_2027_bond_short.md,2020-02-05,Diamond,short,,,상승 구간,0.0,1.12,상승 구간,-0.007,8.34
+analysis/ideas/2020/2020-02-16_AXP_long.md,2020-02-16,AXP,long,부분 실패,,상승 구간,0.0,1.14,상승 구간,-0.0014,8.37
+analysis/ideas/2020/2020-02-18_ABG_long.md,2020-02-18,ABG,long,,,상승 구간,-0.0018,1.15,상승 구간,-0.0064,8.38
+analysis/ideas/2020/2020-02-21_S_merger_arb.md,2020-02-21,S,,,,상승 구간,-0.0145,1.16,상승 구간,-0.0124,8.39
+analysis/ideas/2020/2020-03-12_NXST_long.md,2020-03-12,NXST,long,매우 성공,,베어마켓 진행,-0.2754,,베어마켓 진행,-0.268,
+analysis/ideas/2020/2020-03-15_ETM_long.md,2020-03-15,ETM,long,,,베어마켓 진행,-0.2103,,베어마켓 진행,-0.2322,
+analysis/ideas/2020/2020-03-29_CMCSA_long.md,2020-03-29,CMCSA,long,강한 적중,,베어마켓 진행,-0.255,,베어마켓 진행,-0.246,
+analysis/ideas/2020/2020-04-17_AGNC_long.md,2020-04-17,AGNC,long,,,상승 구간,0.0,0.07,상승 구간,0.0,0.07
+analysis/ideas/2020/2020-04-30_ALLY_long.md,2020-04-30,ALLY,long,,,상승 구간,-0.0118,0.1,상승 구간,-0.0099,0.1
+analysis/ideas/2020/2020-05-28_BCO_long.md,2020-05-28,BCO,long,,,상승 구간,-0.0041,0.18,상승 구간,0.0,0.18
+analysis/ideas/2020/2020-06-03_ADP_long.md,2020-06-03,ADP,long,,,상승 구간,0.0,0.2,상승 구간,0.0,0.2
+analysis/ideas/2020/2020-06-03_KAR_long.md,2020-06-03,KAR,long,,,상승 구간,0.0,0.2,상승 구간,0.0,0.2
+analysis/ideas/2020/2020-06-05_HE_long.md,2020-06-05,HE,long,부분 성공,,상승 구간,0.0,0.2,상승 구간,0.0,0.2
+analysis/ideas/2020/2020-06-08_HTZ_short.md,2020-06-08,HTZ,short,논지 실패·거래판정 불가,,상승 구간,0.0,0.21,상승 구간,0.0,0.21
+analysis/ideas/2020/2020-06-10_APO_long.md,2020-06-10,APO,long,부분~적중,,상승 구간,-0.0141,0.22,상승 구간,-0.0106,0.22
+analysis/ideas/2020/2020-06-10_LOV_long.md,2020-06-10,LOV,long,핵심 논지 판정,,상승 구간,-0.0141,0.22,상승 구간,-0.0106,0.22
+analysis/ideas/2020/2020-06-18_SAVE_long.md,2020-06-18,SAVE,long,성공,,상승 구간,-0.0346,0.24,상승 구간,-0.0341,0.24
+analysis/ideas/2020/2020-07-13_SYF_long.md,2020-07-13,SYF,long,,,상승 구간,-0.0197,0.31,상승 구간,-0.0181,0.31
+analysis/ideas/2020/2020-07-14_TMUS_long.md,2020-07-14,TMUS,long,적중,,상승 구간,-0.0064,0.31,상승 구간,-0.0103,0.31
+analysis/ideas/2020/2020-08-17_ADNT_long.md,2020-08-17,ADNT,long,,,상승 구간,0.0,0.4,상승 구간,0.0,0.4
+analysis/ideas/2020/2020-08-17_AER_long.md,2020-08-17,AER,long,,,상승 구간,0.0,0.4,상승 구간,0.0,0.4
+analysis/ideas/2020/2020-08-17_AEYE_long.md,2020-08-17,AEYE,long,,,상승 구간,0.0,0.4,상승 구간,0.0,0.4
+analysis/ideas/2020/2020-08-19_ADT_long.md,2020-08-19,ADT,long,,,상승 구간,-0.0038,0.41,상승 구간,-0.0036,0.41
+analysis/ideas/2020/2020-09-09_ATHENE_long.md,2020-09-09,ATHENE,long,,,상승 구간,-0.0542,0.47,상승 구간,-0.0367,0.47
+analysis/ideas/2020/2020-09-10_ABG_long.md,2020-09-10,ABG,long,,,상승 구간,-0.0697,0.47,상승 구간,-0.0464,0.47
+analysis/ideas/2020/2020-09-18_AES_long.md,2020-09-18,AES,long,,,상승 구간,-0.0703,0.49,상승 구간,-0.0417,0.49
+analysis/ideas/2020/2020-10-14_ADS_long.md,2020-10-14,ADS,long,,,상승 구간,-0.0145,0.56,상승 구간,-0.0092,0.56
+analysis/ideas/2020/2020-10-14_AXP_long.md,2020-10-14,AXP,long,성공,,상승 구간,-0.0145,0.56,상승 구간,-0.0092,0.56
+analysis/ideas/2020/2020-10-14_MHK_long.md,2020-10-14,MHK,long,,,상승 구간,-0.0145,0.56,상승 구간,-0.0092,0.56
+analysis/ideas/2020/2020-10-19_CIT_merger_long.md,2020-10-19,CIT,long,,,상승 구간,-0.031,0.57,상승 구간,-0.0219,0.57
+analysis/ideas/2020/2020-11-05_GTN_long.md,2020-11-05,GTN,long,전술적 강한 성공·장기 반전,,상승 구간,-0.0062,0.62,상승 구간,-0.0015,0.62
+analysis/ideas/2020/2020-12-07_SBGI_long.md,2020-12-07,SBGI,long,,,상승 구간,0.0,0.71,상승 구간,-0.0013,0.71
+analysis/ideas/2020/2020-12-11_LOV_long.md,2020-12-11,LOV,long,핵심 논지 판정,,상승 구간,-0.0097,0.72,상승 구간,-0.0056,0.72
+analysis/ideas/2020/2020-12-13_AFHP_LN_long.md,2020-12-13,AFHP,long,,,상승 구간,-0.0097,0.72,상승 구간,-0.0056,0.72
+analysis/ideas/2020/2020-12-17_AHC_dot_apollo_healthcare_long.md,2020-12-17,AHC,long,,,상승 구간,0.0,0.74,상승 구간,0.0,0.74
+analysis/ideas/2021/2021-01-03_AEL_long.md,2021-01-03,AEL,long,,,상승 구간,0.0,0.77,상승 구간,-0.0001,0.78
+analysis/ideas/2021/2021-01-03_T_long.md,2021-01-03,T,long,,,상승 구간,0.0,0.77,상승 구간,-0.0001,0.78
+analysis/ideas/2021/2021-01-10_AFMJF_long.md,2021-01-10,AFMJF,long,,,상승 구간,0.0,0.8,상승 구간,0.0,0.8
+analysis/ideas/2021/2021-01-19_ODP_long.md,2021-01-19,ODP,long,,,상승 구간,-0.0016,0.83,상승 구간,-0.0045,0.83
+analysis/ideas/2021/2021-02-06_ATVI_long.md,2021-02-06,ATVI,long,사업논지 판정,,상승 구간,0.0,0.87,상승 구간,0.0,0.87
+analysis/ideas/2021/2021-02-08_AFRM_short.md,2021-02-08,AFRM,short,,,상승 구간,0.0,0.88,상승 구간,0.0,0.88
+analysis/ideas/2021/2021-02-17_CHK_post_reorg_long.md,2021-02-17,CHK,long,적중,,상승 구간,-0.0034,0.91,상승 구간,-0.005,0.91
+analysis/ideas/2021/2021-03-02_SQ_long.md,2021-03-02,SQ,long,적중,,상승 구간,-0.0237,0.94,상승 구간,-0.0204,0.94
+analysis/ideas/2021/2021-03-11_AHCO_adapthealth_long.md,2021-03-11,AHCO,long,,,상승 구간,-0.0064,0.97,상승 구간,-0.0044,0.97
+analysis/ideas/2021/2021-04-05_AEO_long.md,2021-04-05,AEO,long,,,상승 구간,0.0,1.03,상승 구간,0.0,1.03
+analysis/ideas/2021/2021-04-12_AFHIF_long.md,2021-04-12,AFHIF,long,,,상승 구간,-0.0004,1.05,상승 구간,-0.0013,1.05
+analysis/ideas/2021/2021-04-16_MIC_liquidation_long.md,2021-04-16,MIC,long,,,상승 구간,0.0,1.07,상승 구간,0.0,1.07
+analysis/ideas/2021/2021-05-13_T_long.md,2021-05-13,T,long,,,상승 구간,-0.0352,1.14,상승 구간,-0.0306,1.14
+analysis/ideas/2021/2021-05-19_ADES_long.md,2021-05-19,ADES,long,,,상승 구간,-0.0305,1.16,상승 구간,-0.0234,1.16
+analysis/ideas/2021/2021-05-28_AGFY_long.md,2021-05-28,AGFY,long,,,상승 구간,-0.0055,1.18,상승 구간,0.0,1.18
+analysis/ideas/2021/2021-06-03_CI_long.md,2021-06-03,CI,long,,,상승 구간,-0.0094,1.2,상승 구간,-0.005,1.2
+analysis/ideas/2021/2021-06-05_SQ_long.md,2021-06-05,SQ,long,부분~적중,,상승 구간,-0.0004,1.2,상승 구간,0.0,1.2
+analysis/ideas/2021/2021-07-20_AGTC_long.md,2021-07-20,AGTC,long,,,상승 구간,-0.0168,1.33,상승 구간,-0.0234,1.33
+analysis/ideas/2021/2021-07-23_KAR_long.md,2021-07-23,KAR,long,,,상승 구간,0.0,1.33,상승 구간,-0.0025,1.33
+analysis/ideas/2021/2021-08-06_TMUS_long.md,2021-08-06,TMUS,long,적중,,상승 구간,0.0,1.37,상승 구간,-0.0012,1.37
+analysis/ideas/2021/2021-08-11_ATUS_long.md,2021-08-11,ATUS,long,실패 또는 부분,,상승 구간,0.0,1.39,상승 구간,0.0,1.39
+analysis/ideas/2021/2021-08-25_AFI_long.md,2021-08-25,AFI,long,,,상승 구간,0.0,1.42,상승 구간,0.0,1.42
+analysis/ideas/2021/2021-09-03_PLUS500_long.md,2021-09-03,PLUS500,long,,,상승 구간,-0.0002,1.45,상승 구간,0.0,1.45
+analysis/ideas/2021/2021-09-08_BABA_long.md,2021-09-08,BABA,long,사업논지 판정,,상승 구간,-0.0071,1.46,상승 구간,-0.0081,1.46
+analysis/ideas/2021/2021-09-16_ABG_long.md,2021-09-16,ABG,long,,,상승 구간,-0.0144,1.48,상승 구간,-0.015,1.48
+analysis/ideas/2021/2021-09-20_NXST_long.md,2021-09-20,NXST,long,성공·자본배분 질 저하 경고,,상승 구간,-0.0399,1.49,상승 구간,-0.0385,1.49
+analysis/ideas/2021/2021-09-23_ATVI_long.md,2021-09-23,ATVI,long,사업논지 판정,,상승 구간,-0.0176,1.5,상승 구간,-0.0191,1.5
+analysis/ideas/2021/2021-09-30_AG1_long.md,2021-09-30,AG1,long,,,상승 구간,-0.0486,1.52,상승 구간,-0.049,1.52
+analysis/ideas/2021/2021-10-11_AFG_NO_long.md,2021-10-11,AFG,long,,,상승 구간,-0.0382,1.55,상승 구간,-0.0439,1.55
+analysis/ideas/2021/2021-10-28_AAPL_short.md,2021-10-28,AAPL,short,실패,,상승 구간,0.0,1.6,상승 구간,0.0,1.6
+analysis/ideas/2021/2021-10-28_AIFS_agent_information_software_long.md,2021-10-28,AIFS,long,,,상승 구간,0.0,1.6,상승 구간,0.0,1.6
+analysis/ideas/2021/2021-11-06_AGFX_argentex_long.md,2021-11-06,AGFX,long,,,상승 구간,0.0,1.62,상승 구간,0.0,1.62
+analysis/ideas/2021/2021-11-15_MUSA_long.md,2021-11-15,MUSA,long,,,상승 구간,-0.0054,1.65,상승 구간,-0.0052,1.65
+analysis/ideas/2021/2021-11-19_GTN_long.md,2021-11-19,GTN,long,치명적 실패,,상승 구간,-0.0062,1.66,상승 구간,-0.0102,1.66
+analysis/ideas/2021/2021-11-29_APO_long.md,2021-11-29,APO,long,정확히 적중,,상승 구간,-0.0205,1.69,상승 구간,-0.0328,1.69
+analysis/ideas/2021/2021-12-15_PYPL_long.md,2021-12-15,PYPL,long,실패,,상승 구간,-0.0199,1.73,상승 구간,-0.0314,1.73
+analysis/ideas/2021/2021-12-23_MHK_long.md,2021-12-23,MHK,long,,,상승 구간,-0.014,1.75,상승 구간,-0.0206,1.75
+analysis/ideas/2021/2021-12-27_AGO_long.md,2021-12-27,AGO,long,,,상승 구간,-0.0019,1.76,상승 구간,-0.0126,1.76
+analysis/ideas/2021/2021-12-29_AFHBL_notes_long.md,2021-12-29,AFHBL,long,,,상승 구간,-0.0038,1.77,상승 구간,-0.0107,1.77
+analysis/ideas/2021/2021-12-31_COST_long.md,2021-12-31,COST,long,핵심 논지 판정,,상승 구간,-0.0086,1.77,상승 구간,-0.0131,1.77
+analysis/ideas/2022/2022-01-11_ADT_AX_long.md,2022-01-11,ADT,long,,,상승 구간,-0.0223,1.8,상승 구간,-0.0241,1.8
+analysis/ideas/2022/2022-01-13_AFYA_long.md,2022-01-13,AFYA,long,,,상승 구간,-0.0362,1.81,상승 구간,-0.0277,1.81
+analysis/ideas/2022/2022-02-05_AER_long.md,2022-02-05,AER,long,,,상승 구간,-0.0719,1.87,상승 구간,-0.0664,1.87
+analysis/ideas/2022/2022-02-18_HTZ_long.md,2022-02-18,HTZ,long,실패,,상승 구간,-0.0992,1.91,상승 구간,-0.0867,1.91
+analysis/ideas/2022/2022-02-21_AGFY_long.md,2022-02-21,AGFY,long,,,상승 구간,-0.0992,1.91,상승 구간,-0.0911,1.92
+analysis/ideas/2022/2022-03-04_AG1_ETR_long.md,2022-03-04,AG1,long,,,조정 진행,-0.1061,1.95,조정 진행,-0.1184,1.95
+analysis/ideas/2022/2022-03-12_AFX_GY_long.md,2022-03-12,AFX,long,,,조정 진행,-0.1319,1.97,조정 진행,-0.1334,1.97
+analysis/ideas/2022/2022-03-14_TSQ_long.md,2022-03-14,TSQ,long,,,조정 진행,-0.1409,1.97,조정 진행,-0.1369,1.97
+analysis/ideas/2022/2022-03-16_SYF_long.md,2022-03-16,SYF,long,,,상승 구간,-0.0996,1.98,조정 진행,-0.1022,1.98
+analysis/ideas/2022/2022-03-21_AE_long.md,2022-03-21,AE,long,,,상승 구간,-0.0764,1.99,상승 구간,-0.0815,1.99
+analysis/ideas/2022/2022-03-23_ATVI_long.md,2022-03-23,ATVI,long,사업논지 판정,,상승 구간,-0.0761,2.0,상승 구간,-0.0799,2.0
+analysis/ideas/2022/2022-04-04_BABA_long.md,2022-04-04,BABA,long,사업논지 판정,,상승 구간,-0.05,2.03,상승 구간,-0.0604,2.03
+analysis/ideas/2022/2022-04-21_KKR_long.md,2022-04-21,KKR,long,부분~적중,,상승 구간,-0.0967,2.08,상승 구간,-0.0968,2.08
+analysis/ideas/2022/2022-05-05_SAVE_long.md,2022-05-05,SAVE,long,실패,,조정 진행,-0.1482,2.12,조정 진행,-0.1489,2.12
+analysis/ideas/2022/2022-05-11_CHTR_long.md,2022-05-11,CHTR,long,부분 적중,,조정 진행,-0.1991,2.13,조정 진행,-0.1899,2.13
+analysis/ideas/2022/2022-05-16_AHCO_adapthealth_long.md,2022-05-16,AHCO,long,,,조정 진행,-0.1808,2.15,조정 진행,-0.1747,2.15
+analysis/ideas/2022/2022-05-19_ADNT_long.md,2022-05-19,ADNT,long,,,베어마켓 진행,-0.2001,,조정 진행,-0.1853,2.15
+analysis/ideas/2022/2022-05-29_AFP_SW_long.md,2022-05-29,AFP,long,,,베어마켓 진행,-0.1474,,조정 진행,-0.1402,2.18
+analysis/ideas/2022/2022-05-30_AEP_atlas_engineered_products_long.md,2022-05-30,AEP,long,,,베어마켓 진행,-0.1474,,조정 진행,-0.1358,2.18
+analysis/ideas/2022/2022-05-31_AXP_short.md,2022-05-31,AXP,short,실패,,베어마켓 진행,-0.1535,,조정 진행,-0.1433,2.19
+analysis/ideas/2022/2022-06-15_AGNC_US_short.md,2022-06-15,AGNC,short,,,베어마켓 진행,-0.2222,,베어마켓 진행,-0.2127,
+analysis/ideas/2022/2022-06-24_AGI_alamos_gold_long.md,2022-06-24,AGI,long,,,베어마켓 진행,-0.1967,,베어마켓 진행,-0.1974,
+analysis/ideas/2022/2022-06-28_PYPL_long.md,2022-06-28,PYPL,long,부분,,베어마켓 진행,-0.2156,,베어마켓 진행,-0.2061,
+analysis/ideas/2022/2022-07-12_TMUS_long.md,2022-07-12,TMUS,long,적중,,베어마켓 진행,-0.2154,,베어마켓 진행,-0.2168,
+analysis/ideas/2022/2022-07-14_SGA_long.md,2022-07-14,SGA,long,,,베어마켓 진행,-0.2216,,베어마켓 진행,-0.2261,
+analysis/ideas/2022/2022-08-15_ADT_short.md,2022-08-15,ADT,short,,,베어마켓 진행,-0.1097,,베어마켓 진행,-0.1269,
+analysis/ideas/2022/2022-08-30_SBGI_long.md,2022-08-30,SBGI,long,,,베어마켓 진행,-0.1744,,베어마켓 진행,-0.185,
+analysis/ideas/2022/2022-08-31_ALLY_long.md,2022-08-31,ALLY,long,,,베어마켓 진행,-0.1805,,베어마켓 진행,-0.1905,
+analysis/ideas/2022/2022-09-10_APO_long.md,2022-09-10,APO,long,적중,,베어마켓 진행,-0.1565,,베어마켓 진행,-0.1746,
+analysis/ideas/2022/2022-09-15_ADT_mixed_event.md,2022-09-15,ADT,,사업논지 판정,,베어마켓 진행,-0.1886,,베어마켓 진행,-0.1999,
+analysis/ideas/2022/2022-09-15_ADT_oddlot_long_conditional_short.md,2022-09-15,ADT,short,,,베어마켓 진행,-0.1886,,베어마켓 진행,-0.1999,
+analysis/ideas/2022/2022-09-25_CI_long.md,2022-09-25,CI,long,,,베어마켓 진행,-0.2364,,베어마켓 진행,-0.2498,
+analysis/ideas/2022/2022-09-26_ABG_long.md,2022-09-26,ABG,long,,,베어마켓 진행,-0.2441,,베어마켓 진행,-0.2601,
+analysis/ideas/2022/2022-10-22_BABA_long.md,2022-10-22,BABA,long,사업논지 판정,,베어마켓 진행,-0.221,,베어마켓 진행,-0.238,
