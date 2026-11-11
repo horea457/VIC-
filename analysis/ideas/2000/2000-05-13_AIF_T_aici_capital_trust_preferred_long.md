@@ -1,106 +1,194 @@
-# AICI Capital Trust 9% Preferred (AIF-T) — 2000-05-13 VIC Long
+# AICI Capital Trust 9% 우선증권 (AIF-T) — 2000-05-13 매수 아이디어
 
-> **Idea unit:** 2000-05-13 AICI Capital Trust trust-originated preferred Long.
-> **Research as-of:** 2026-09-20. 원 SQL은 Short지만 원문은 명백한 **trust preferred Long**이다.
+**판정: 크게 실패한 매수 아이디어.** 작성자 rich116.
 
----
+**아이디어 유형:** 턴어라운드(구조조정을 거친 회사의 회복)가 중심이다. 보조 유형은 고배당 후순위 신용 투자다. 쿠폰(정해진 배당)을 받으면서 상환이나 시세 차익을 노리는 구조였다.
 
-## 0. Idea Snapshot
+## 1. 한눈에 보기
 
-| 항목 | 내용 |
-|---|---|
-| Issuer | AICI Capital Trust / Acceptance Insurance Companies |
-| VIC 게시일 / 작성자 | 2000-05-13 / rich116 |
-| 실제 방향 | Trust preferred Long |
-| 원 SQL 방향 | **Short — 오류** |
-| security | **9% trust-originated preferred** |
-| par | **$25** |
-| maturity | ~30 years |
-| callable | after **2002-09-30** |
-| dividend deferral | issuer could defer up to **5 years** |
-| thesis | restructuring + crop insurance profitability + continued dividend + capital gain |
-| parent bankruptcy | **Chapter 11, 2005-01-07** |
-| later outcome | company sought Chapter 7 conversion in 2010 |
-| company recovery assessment | preferred holders expected **no material distributions** |
-| 최종 판정 | **catastrophic failure — trust preferred credit risk dominated yield** |
+**무엇을 샀나:** rich116이 2000-05-13 Acceptance Insurance Companies의 자금 조달용 신탁인 AICI Capital Trust가 발행한 9% 신탁우선증권(액면 $25)을 사자고 제안했다. 원래 데이터에는 방향이 Short로 적혀 있었지만, 기존 분석은 원문이 명백한 매수(Long) 아이디어라고 판단했다. 이 글도 매수로 다룬다.
 
-> **결론:** 이 아이디어는 Acceptance Insurance common이 아니라 **AICI Capital Trust 9% trust preferred**였다. 당시 management가 dividend deferral 계획이 없다고 말했고, crop-insurance business와 investment portfolio가 restructuring 이후 preferred를 지지할 것으로 기대했다. 그러나 parent는 2005 Chapter 11을 신청했고 2010에는 Chapter 7 conversion을 추진하면서 회사가 직접 trust-preferred holders에게 **material distribution이 없을 것**이라고 밝혔다. coupon carry가 있었더라도 terminal principal recovery가 사실상 사라진 실패다.
+**대표 수익률:** 작성자가 제시한 보유 기간은 확인하지 못했다. 이 증권의 가격 시계열과 배당 포함 수익률도 찾지 못했다. 1개월, 6개월, 1년, 3년, 5년 수익률은 모두 확인하지 못했다.
 
----
+**목표 달성 여부:** 작성자가 제시한 목표 가격이나 보유 기간을 확인하지 못해 수치로는 판단할 수 없다. 다만 처음 논지의 핵심이던 배당 지속과 구조조정 성공은 이뤄지지 않았다. 모회사는 2005년 파산을 신청했고, 회사는 2010년에 우선증권 보유자가 중대한(material) 분배를 받지 못할 것으로 예상한다고 밝혔다. 그래서 논지는 목표를 이루지 못한 것으로 본다.
 
-## 1. Security Mechanics
+**왜 그렇게 됐나:** 이 증권은 이름이 우선증권이어도 실제로는 모회사 보험사의 후순위 채권을 쥔 신탁의 몫이다. 모회사 현금이 막히면 배당이 중단될 수 있고, 파산하면 선순위 채권자 뒤로 밀린다. 농작물보험 중심 구조조정은 적자를 끝내지 못했고, 2002년에 핵심 자회사까지 통제를 잃었다.
 
-- $25 par
-- 9% coupon
-- callable after 9/30/2002
-- trust structure
-- dividend deferral up to five years
+**기억할 교훈:** 높은 배당률보다 모회사가 망했을 때 누가 먼저 돈을 받는지가 훨씬 중요하다.
 
-핵심은 “preferred”라는 이름보다 **parent insurer의 subordinated credit claim**이라는 점이다.
+## 2. 회사와 당시 상황
 
----
+### 증권 구조
 
-## 2. Claim Map
+이 증권은 AICI Capital Trust가 발행했다. 규모는 3.795 million주, 총 청산우선금액 $94.875 million이고, 증권당 청산우선금액은 $25였다. 신탁이 가진 자산은 Acceptance Insurance Companies가 발행한 2027년 만기 9% 후순위 채권(Junior Subordinated Debentures)뿐이었다. [1]
 
-### C1. dividend continues — **초기에는 가능**
-하지만 terminal credit risk가 더 중요했다.
+분배금은 누적식이고 분기마다 뒤늦게 지급됐다. 누적식은 지급하지 못한 몫이 쌓여 나중에 지급 대상이 된다는 뜻이다. 기초 후순위 채권은 모회사의 모든 선순위 채무보다 변제 순위가 낮았다. 따라서 보험 자회사 자산에 직접 청구하는 증권이 아니라, 모회사 후순위 채권을 가진 신탁의 수익권이었다. [1]
 
-### C2. insurance restructuring succeeds — **실패**
-parent eventually filed bankruptcy.
+기존 분석에 따르면 만기는 약 30년이고, 2002-09-30 이후 발행사가 상환할 수 있었다. 발행사는 최대 5년까지 분배금 지급을 미룰 수도 있었다.
 
-### C3. crop-insurance value supports claim — **불충분**
-asset/business value가 senior creditors 아래서 preferred recovery로 남지 않았다.
+### 회사 상황
 
-### C4. par/call optionality — **실패**
-call value는 solvency가 있을 때만 존재한다.
+Acceptance Insurance는 1999-12-15 손해보험에 쓰는 자원과 위험 노출을 줄이고 농작물보험에 집중하는 구조조정을 발표했다. 이때 Michael McCarthy가 회장, John Martin이 사장 겸 최고경영자가 됐다. [2]
 
----
+같은 발표에서 회사는 은행 신용약정 위반 통보를 받았다고 밝혔다. 당시 해당 시설에서 빌린 잔액은 없었지만 은행은 새로 빌려줄 의무가 없었다. McCarthy Group은 $20-$40 million의 추가 자본을 대겠다고 제안했다. [2]
 
-## 3. 실제 경로
+1999년 연간 순손실은 $36.0 million(주당 $2.52)이었다. [4] 게시일에 가까운 2000년 1분기에는 순손실이 $(1,890) thousand, 주당 $(0.13)이었다. 같은 분기 우선증권 관련 이자 지급액은 $2.1 million이었다. [3] 1999년 말 총자산은 1,278,312 thousand, 주주자본은 180,958 thousand, 모회사 투자자산과 현금성자산은 35,825 thousand이었다. 이는 나중에 재작성된 비교표 기준이어서 게시 당시 원공시와 다를 수 있다. [5]
 
-| 시점 | 사건 |
-|---|---|
-| 2000-05 | VIC preferred Long |
-| 2000~04 | restructuring / dividends over part of period |
-| 2005-01-07 | Acceptance Insurance Chapter 11 |
-| 2010 | proposed conversion to Chapter 7 |
-| 2010 | company says AICI preferred holders not expected material distributions |
+2000년 4월에는 Redland Insurance Company를 Clarendon National Insurance Company에 파는 확정 계약을 맺었다. [3] 게시 직전인 2000-05-02에는 쌀 재배농가 집단소송의 합의안이 법원 예비승인을 받았다고 발표했다. [6]
 
----
+게시 당시의 구체적인 이익 가이던스(회사가 내놓는 이익 전망)는 찾지 못했다. 경영진이 "분배금 지급유예 계획이 없다"고 말했다는 원자료도 찾지 못했다. 기존 분석은 그 발언이 있었다고 적고 있으나, 이 글에서는 확인하지 못한 사실로 둔다.
 
-## 4. 재사용 가능한 교훈
+### 산업과 시장 배경
 
-1. trust preferred는 equity-like income이 아니라 subordinated credit다.
-2. deferrable coupon은 true default protection이 아니다.
-3. insurer book value는 holding-company creditor recovery와 다르다.
-4. callable-at-par optionality에 solvency probability를 곱한다.
-5. 높은 yield의 핵심은 coupon보다 terminal principal recovery다.
+농작물보험은 연방정부의 재보험·보조와 민간 보험사의 판매·손해사정이 결합된 사업이다. 연방 기관인 FCIC가 손실 일부를 재보험하거나 보조하고, 보험사에는 판매·관리비를 보전해 줬다. [7] 대리점을 잡는 경쟁도 치열했다. GAO에 따르면 American Growers는 2000~2002년 경쟁사 평균보다 대리점 수수료를 약 12퍼센트 더 줬고, 이런 비용 탓에 운영비도 경쟁사 평균보다 11퍼센트 높았다. [7]
 
----
+모회사는 보험 자회사에서 받는 배당으로 자금을 꾸렸다. 2002년 기준 보험당국 별도 승인 없이 자회사가 모회사에 줄 수 있는 법정 한도는 약 $7.5 million이었다. [1] 우선증권 분배금 재원이 이 좁은 통로에 달려 있었다는 뜻이다.
 
-## 5. 최종 Scorecard
+게시 직후인 2000-05-16 연준은 수요 증가와 물가 압력을 이유로 기준금리를 50bp(0.5%포인트) 올려 6.5%로 만들었다. [8] 당시 증시는 기술주 평가가 재조정되며 흔들렸다. 연준 회의록은 4월 전반의 주가 급락과 투기적 기술주 평가 하락을 기록했다. [17] 이 환경이 AIF-T 가격에 어떤 영향을 줬는지는 확인하지 못했다.
 
-| 평가축 | 판정 |
-|---|---|
-| Income thesis | 초기 carry 가능 |
-| Restructuring | 실패 |
-| Principal recovery | 사실상 없음 |
-| Thesis score | 0.5/10 |
-| Process score | 9.9/10 |
-| 종합 | **catastrophic failure — subordinated preferred recovery 소멸** |
+## 3. 투자 아이디어
 
-### 한 문장 교훈
+### 어떤 유형의 아이디어인가
 
-> **trust preferred의 9% coupon보다 parent company bankruptcy waterfall이 훨씬 중요하다.**
+기존 분석은 이 아이디어를 구조조정 성공과 농작물보험 수익성에 기대는 배당 지속형 매수로 요약한다. 턴어라운드는 어려운 회사가 체질을 바꿔 실적이 회복되는 것을 노리는 투자다. 보통은 이익이 늘거나 평가가 다시 높아지면서 수익이 난다. 이 증권은 주식이 아니라 채권에 가까운 후순위 증권이어서 수익 구조가 다르다.
 
----
+수익은 두 곳에서 나올 수 있었다. 하나는 9% 쿠폰을 계속 받는 것이다. 다른 하나는 회사가 회복해 신용 위험이 줄면 가격이 오르거나, 2002-09-30 이후 액면 $25에 상환되는 것이다. 이익이 늘어난다고 해서 증권 보유자 몫이 같이 커지지는 않는다. 보유자는 약속된 쿠폰과 원금만 받고, 그 약속이 지켜질 확률이 가격을 좌우한다.
 
-## 6. Sources / Validation Notes
+그래서 턴어라운드라는 이름과 달리 이 아이디어의 수익은 이익 증가가 아니라 생존에 달려 있었다. 적자 회사의 후순위 증권이므로 쿠폰과 원금이 모두 지켜지느냐가 핵심이었다. 기존 분석이 "높은 수익률의 핵심은 쿠폰이 아니라 최종 원금 회수"라고 교훈을 정리한 이유가 여기에 있다. 상환권(콜) 가치도 회사가 살아 있을 때만 존재한다.
 
-1. VIC original: https://www.valueinvestorsclub.com/idea/AICI_Capital_Trust/4248830994
-2. Acceptance Insurance 2010 8-K — 2005 Chapter 11, Chapter 7 conversion intent, no material distributions expected for AICI Capital Trust preferred holders: https://www.sec.gov/Archives/edgar/data/74783/000119312510184703/d8k.htm
+### 왜 기회로 봤나
 
-### 데이터 품질
-- T0 security/thesis: **A**
-- bankruptcy/recovery: **A**
-- exact dividend-adjusted IRR: **not reconstructed**
+기존 분석이 전하는 논지는 네 가지다. 첫째, 구조조정으로 손해보험에서 발을 빼고 농작물보험에 집중하면 수익성이 좋아진다. 둘째, 경영진이 분배금 지급을 미루지 않을 것이다. 셋째, 농작물보험 사업과 투자 포트폴리오가 우선증권을 뒷받침한다. 넷째, 배당을 받는 동안 시세 차익도 기대할 수 있다.
+
+VIC 원문 본문은 비어 있어 작성자의 구체적 근거는 확인하지 못했다.
+
+### 돈을 벌 논리
+
+돈을 버는 경로는 세 가지였다. 구조조정이 성과를 내서 분배금이 계속 지급되고, 신용 위험이 낮아져 가격이 오르거나, 상환 가능 시점에 액면으로 되돌려 받는 것이다. 이 논리는 모회사가 살아남는다는 전제 위에 있었다.
+
+### 작성자의 계산
+
+작성자의 구체적인 가격 목표나 수익률 계산은 확인하지 못했다. 원문이 비어 있고, 기존 분석도 배당 포함 수익률을 복원하지 못했다고 밝힌다. 이 글은 계산을 추측해 채우지 않는다.
+
+### 촉매
+
+촉매는 투자자가 가치를 다시 평가하게 만드는 구체적 사건이다. 기존 분석은 촉매를 따로 적지 않았다. 다만 논지에 들어 있는 사건은 농작물보험 중심의 구조조정과, 기존 분석이 적은 2002-09-30 이후의 상환 가능성이다.
+
+### 작성자가 인정한 위험
+
+작성자가 인정한 위험은 확인하지 못했다. 기존 분석은 경영진이 지급유예 계획이 없다고 말했다는 점만 전한다. 이 증권의 지급유예 조항 자체는 구조에 이미 들어 있던 위험이었다.
+
+### 글이 전제한 것
+
+사후적으로 보면 이 논지는 세 가지를 전제했다. 모회사가 파산하지 않는다는 것, 보험 자회사의 가치가 후순위 증권 보유자에게까지 닿는다는 것, 농작물보험이 안정적으로 이익을 낸다는 것이다. 세 번째 전제는 기상과 정책, 경쟁에 달려 있어 특히 불안정했다. 이 전제들이 얼마나 점검됐는지는 원문이 없어 확인하지 못했다.
+
+## 4. 투자 성과
+
+기간별 수익률은 모두 확인하지 못했다. 이 증권의 연속 가격 시계열과 배당 조정 가격이 확보되지 않았다. 구체적으로는 아래 항목이다.
+
+- 1개월, 6개월, 1년, 3년, 5년 수익률: 확인하지 못했다.
+- 대략 ±20% 이상 움직인 구간: 확인하지 못했다. 아래 5절의 사건들은 AIF-T가 실제로 크게 움직였다고 확인한 것이 아니라, 가격에 영향을 줄 만한 기업·신용 사건이다.
+- 배당 포함 총수익률(IRR): 확인하지 못했다.
+- 상장폐지일과 최종 청산 분배액: 확인하지 못했다.
+
+**목표 달성 여부:** 작성자가 제시한 목표와 기간은 확인하지 못했다. 원금 회수는 모회사 파산으로 사실상 어려워 보이지만, 최종 분배액은 확인하지 못해 확정할 수 없다.
+
+## 5. 실제로 벌어진 일
+
+**2000년 4월~5월:** 회사는 4월에 Redland 매각 계약을 맺었고 [3], 2000-05-02 쌀 재배농가 집단소송 합의안이 예비승인을 받았다 [6]. 2000-05-13 rich116이 이 우선증권 매수 글을 올렸다.
+
+**2001-03-15:** 회사는 2000년 순손실 $28.8 million(주당 $2.02)을 발표했다. 마지막 분기 세후 영업손실은 $24.3 million이었다. [4] 농작물보험으로 옮겨도 연간 적자는 이어졌다. 2002년 발표는 같은 분기 순손실을 $24.1 million으로 적어 두 수치가 조금 다르다. [18]
+
+**2001-06-06:** IGF 농작물보험 사업을 인수했다. American Growers는 보험료 기준 업계 3위에서 최대 업체가 됐지만, GAO는 기대한 운영 효율을 내지 못했다고 평가했다. [7]
+
+**2001-08:** 손해보험 자회사 Acceptance Indemnity와 Acceptance Casualty가 McM에 매각됐고, 남은 Acceptance Insurance Company는 기존 계약의 손해 처리를 이어가는 run-off(신규 영업 없이 잔여 계약만 정리하는 상태) 회사가 됐다. S&P는 지속적 영업손실과 자본적정성 불확실성, 자회사에 의존한 모회사 채무상환 능력을 이유로 등급을 낮췄다. [9]
+
+**2002-01-31:** 2001년 농작물보험 부문은 세후 영업이익 $6.6 million으로 2000년의 세후 영업손실 $14.7 million에서 개선됐다. 그러나 손해보험 부문 세후 영업손실이 $22.1 million이었고 연결 순손실은 $9.1 million이었다. [10]
+
+**2002-07:** Fitch는 모회사에 B-, 신탁우선증권에 CCC+를 줬다. 그러면서도 단기적으로 이자가 정상 지급되고 농작물보험이 인수이익을 낼 것으로 예상했다. 고정비용 보상배율(이익으로 고정 비용을 감당하는 정도)은 직전 3년 모두 음수였다. [11]
+
+**2002년 가뭄:** GAO는 높은 비용, 인수 후 효율화 실패, 더 높은 위험 보유 비중에 광범위한 가뭄이 겹쳐 예상 인수이익이 사라졌다고 설명했다. 연방 농작물보험 프로그램 전체 손실은 2001년 $3 billion에서 2002년 $4 billion으로 늘었다. [7]
+
+**2002-11-18:** 회사는 후순위 채권 이자를 2002-12-31 지급분부터 늦어도 2007-09-30까지 유예하기로 했다. 이 채권이 신탁 분배금의 재원이었으므로 우선증권의 현금 지급도 중단되는 구조였다. [5]
+
+**2002-11-20:** 3분기 추정 세후손실은 $131 million이었고, S&P는 모회사 등급을 CCC에서 CC로 낮췄다. 농작물보험 자산을 Rain and Hail에 파는 계획이 있었고, 거래가 성사되고 규제당국이 승인하면 12월에 초기 대금 $21.5 million을 받을 예정이었다. [12] 같은 날 모회사 보통주는 NYSE에서 OTC Bulletin Board로 옮겨 갔다. 2002년 4분기 보통주 고가는 $2.31, 저가는 $0.01이었다. 이는 모회사 보통주 가격이고 AIF-T 가격이 아니다. [13]
+
+**2002-11-25:** RMA가 제시된 조건의 거래를 허용하지 않아 Rain and Hail이 협상을 끝냈다. [5]
+
+**2002년 11~12월:** 핵심 자회사 American Growers가 11월 감독관리, 12월 rehabilitation(감독당국 관리하의 정상화 절차)에 들어갔고 이후 모회사 연결 대상에서 빠졌다. [5][7]
+
+**2005-01-07:** 모회사가 네브래스카 연방파산법원에 Chapter 11(회생형 파산)을 신청했다. Acceptance Insurance Services와 American Agrisurance는 같은 날 Chapter 7(청산형 파산)을 신청했다. [14]
+
+**2010-08-10:** 회사는 모회사 사건을 Chapter 7로 바꿔 달라는 신청을 낼 계획이라고 밝혔다. 주주와 AICI Capital Trust 우선증권 보유자가 청산 과정이나 그 이후에 중대한 분배를 받지 못할 것으로 예상했다. [15]
+
+**2010-09-07:** 법원 후속 명령에 따르면 모회사 사건은 이날 실제로 Chapter 7로 전환됐다. [16]
+
+기존 분석은 Chapter 7 전환을 "추진했다"고만 적었고, 리서치 메모는 실제 전환까지 확인했다. 이 부분은 리서치 메모가 더 구체적이다. 기존 분석은 "원금 회수가 사실상 소멸했다"고 보지만, 리서치 메모는 2010년 공시가 회사의 예상일 뿐 최종 배당표나 보유자의 실제 회수액을 입증하지는 않는다고 본다. 어느 쪽이 맞는지는 최종 분배 자료가 없어 판단할 수 없다.
+
+## 6. 왜 성공 또는 실패했나
+
+3번 섹션의 논지를 하나씩 판정한다.
+
+**배당 지속 논지: 틀림.** 초기에는 지급이 가능했고 Fitch도 2002-07에 단기 지급을 예상했다. 그러나 2002-11-18 이자 유예가 결정돼 현금 지급이 끊기는 구조가 됐다. 경영진의 "유예 계획 없음" 발언은 확인하지 못했다.
+
+**구조조정 성공 논지: 틀림.** 손해보험을 줄이고 농작물보험에 집중했지만 2000년에도 순손실 $28.8 million이 이어졌다. 2001년 농작물보험이 잠깐 이익을 냈으나 손해보험 손실이 이를 덮었다. 2002년 가뭄과 비용 구조로 인수이익이 사라졌고, 모회사는 2005년 파산을 신청했다.
+
+**농작물보험 가치가 증권을 지지한다는 논지: 틀림.** 핵심 자회사 American Growers는 2002년 말 통제에서 벗어났다. 후순위 증권은 선순위 채권자 뒤라서, 사업 가치가 남아 있어도 보유자 몫으로 돌아오기 어려운 구조였다.
+
+**액면가 상환 가능성 논지: 틀림.** 상환권은 모회사가 지급 능력이 있을 때만 의미가 있다. 상환 가능 시점인 2002-09-30 직후 회사는 이미 이자 유예를 결정했다.
+
+피할 수 있었는지에 대해 이 글은 확정적으로 말하지 않는다. 다만 매수 글을 올린 2000-05 시점에 이미 1999-12의 은행 약정 위반 통보와 연속 적자가 있었고, 후순위·지급유예 가능 구조였다는 점은 확인된 사실이다. 매수 후에는 2001-08 S&P 등급 하향과 2002-07 Fitch의 CCC+ 평가가 재검토할 만한 신호였다. 그때 매도했다면 얼마를 건졌을지는 가격 자료가 없어 확인하지 못했다.
+
+## 7. 성공·실패 요인 분류
+
+**성공 요인**
+
+- 초기 쿠폰을 받을 가능성은 있었지만, 실제 수익은 확인하지 못했다.
+
+**실패 요인**
+
+- 후순위 신용 위험: 파산 시 선순위 채권자 뒤에 서는 증권이었다.
+- 지급유예 조항: 이자 유예로 현금 지급이 끊겼다.
+- 사업 실행 실패: 구조조정과 인수 이후에도 효율화가 안 됐고 2002년 가뭄이 겹쳤다.
+- 자회사 통제 상실: 핵심 보험 자회사가 감독관리에 들어갔다.
+- 모회사 자금 통로의 한계: 자회사 배당에는 법정 한도와 승인 규제가 있었다.
+
+## 8. 다음에 비슷한 아이디어를 본다면
+
+- 신탁우선증권은 주식 같은 배당 상품이 아니라 모회사의 후순위 신용으로 본다.
+- 지급유예가 가능한 쿠폰은 지급 보장이 아니므로, 유예가 시작되면 현금 지급이 끊긴다고 가정한다.
+- 보험사 장부가치와 지주회사 채권자가 실제로 받을 몫은 다르다. 보험 자회사 배당 한도를 확인한다.
+- 상환 가능 시점의 액면 상환 기대에는 회사가 그때까지 살아 있을 확률을 곱한다.
+- 높은 수익률의 핵심은 쿠폰이 아니라 최종 원금 회수다.
+- 구조조정 회사의 은행 약정 위반이나 연속 적자 같은 경고를 먼저 점검한다.
+
+## 9. 비슷한 사례
+
+기존 분석에 적힌 사례 없음.
+
+**검토 필요:** 기존 분석은 2010년에 Chapter 7 "전환 추진"까지만 적었으나 리서치 메모는 2010-09-07 실제 전환을 확인했다. 또 "원금 회수 소멸"은 최종 분배 자료 없이 회사의 예상에 기댄 판단이어서 재검토가 필요하다.
+
+## 10. 근거 자료
+
+[1] SEC 2002년 2분기 10-Q: https://www.sec.gov/Archives/edgar/data/74783/000007478302000099/june10q02.htm
+[2] 구조조정 발표(1999-12-15): https://www.propertyandcasualty.com/doc/acceptance-restructures-focuses-on-ag-busines-0001
+[3] SEC 2001년 1분기 10-Q: https://www.sec.gov/Archives/edgar/data/74783/000007478301500026/form10-qmar01.htm
+[4] 회사 연간 실적 발표(SEC 8-K, 2001-03-15): https://www.sec.gov/Archives/edgar/data/0000074783/000007478301000022/0001.txt
+[5] SEC 2003년 10-K: https://www.sec.gov/Archives/edgar/data/74783/000119312504121962/d10k.htm
+[6] Insurance Journal(2000-05-02): https://www.insurancejournal.com/news/national/2000/05/02/10977.htm
+[7] GAO-04-517: https://www.gao.gov/assets/a242621.html
+[8] 연준 성명(2000-05-16): https://www.federalreserve.gov/boarddocs/press/general/2000/20000516/
+[9] Insurance Journal(2001-08-27): https://www.insurancejournal.com/magazines/mag-ratings/2001/08/27/18211.htm
+[10] 회사 2001년 실적 발표(2002-01-31): https://www.sec.gov/Archives/edgar/data/74783/000007478302000005/yearend2001earnings013102.htm
+[11] Fitch 발표 재수록(2002-07-19): https://www.bankrupt.com/TCR_Public/020719.mbx
+[12] Insurance Journal(2002-11-20): https://www.insurancejournal.com/news/midwest/2002/11/20/24470.htm
+[13] SEC 2002년 10-K: https://www.sec.gov/Archives/edgar/data/74783/000095013103002097/d10k.htm
+[14] SEC 8-K(2010-06-07): https://www.sec.gov/Archives/edgar/data/74783/000119312510134512/d8k.htm
+[15] SEC 8-K(2010-08-10): https://www.sec.gov/Archives/edgar/data/74783/000119312510184703/d8k.htm
+[16] 네브래스카 연방파산법원 명령(2011-01-20): https://www.govinfo.gov/content/pkg/USCOURTS-neb-8_06-ap-08015/pdf/USCOURTS-neb-8_06-ap-08015-1.pdf
+[17] 연준 FOMC 회의록(2000-05-16 회의): https://www.federalreserve.gov/fomc/minutes/20000516.htm
+[18] 회사 2001년 실적 발표(2002-01-31)의 2000년 4분기 비교 수치: https://www.sec.gov/Archives/edgar/data/74783/000007478302000005/yearend2001earnings013102.htm
+
+기존 분석이 참고한 VIC 원문 링크는 https://www.valueinvestorsclub.com/idea/AICI_Capital_Trust/4248830994 이며, 본문은 확보하지 못했다.
+
+**검색 태그:** 신탁우선증권 · 후순위 · 보험 · 농작물보험 · 지급유예 · 모회사 파산 · 신용 위험 · 구조조정
